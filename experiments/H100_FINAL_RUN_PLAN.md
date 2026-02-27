@@ -26,6 +26,15 @@ Adds:
 1. `Qwen/Qwen2.5-14B-Instruct`
 2. `Qwen/Qwen3-14B`
 
+### Max Thorough Tier (long-form final run)
+Config: `configs/final_models_h200_max_thorough.yaml`
+
+Adds high-density sweeps:
+1. Qwen 32B checkpoints (`Qwen2.5-32B`, `Qwen3-32B`)
+2. Qwen3.5 capped model (`Qwen3.5-35B-A3B`)
+3. Denser layer positions and alpha grid
+4. Larger prompt sets and `random_control` method
+
 ## Run Sequence on H100
 
 1. Pre-download models:
@@ -61,6 +70,13 @@ python scripts/run_research_suite.py --config configs/final_models_h100_fast.yam
 4. Analyze final suite:
 ```powershell
 python scripts/analyze_research_suite.py --manifest runs/final_h100_fast_<timestamp>/suite_manifest.csv --bootstrap-iters 500
+```
+
+5. Max thorough long-form suite (whole-suite progress % is printed):
+```powershell
+python scripts/download_models.py --cache-dir D:/hf-model-cache --workers 4 --config configs/final_models_h200_max_thorough.yaml
+python scripts/run_max_thorough_suite.py --config configs/final_models_h200_max_thorough.yaml --seeds 42 43 44 45 46 --token-positions -1 0 1 2 --suite-name max_thorough_v1
+python scripts/analyze_research_suite.py --manifest runs/max_thorough_v1_<timestamp>/suite_manifest.csv --bootstrap-iters 2000
 ```
 
 ## Notes

@@ -59,9 +59,14 @@ def main() -> None:
     suite_dir.mkdir(parents=True, exist_ok=True)
 
     manifest_rows: list[dict[str, str | int]] = []
+    total_jobs = len(args.concepts) * len(args.seeds)
+    completed_jobs = 0
     for concept in args.concepts:
         for seed in args.seeds:
-            print(f"[suite] running concept={concept} seed={seed}")
+            job_index = completed_jobs + 1
+            pct = (100.0 * completed_jobs / total_jobs) if total_jobs else 100.0
+            print(f"[suite] overall-progress {completed_jobs}/{total_jobs} ({pct:.2f}%)")
+            print(f"[suite] running job={job_index}/{total_jobs} concept={concept} seed={seed}")
             run_cfg = replace(cfg, concept_name=concept, seed=seed)
             run_dir = run_experiment(run_cfg)
             manifest_rows.append(
@@ -71,7 +76,10 @@ def main() -> None:
                     "run_dir": str(run_dir),
                 }
             )
-            print(f"[suite] completed concept={concept} seed={seed} -> {run_dir}")
+            completed_jobs += 1
+            pct = (100.0 * completed_jobs / total_jobs) if total_jobs else 100.0
+            print(f"[suite] completed job={job_index}/{total_jobs} concept={concept} seed={seed} -> {run_dir}")
+            print(f"[suite] overall-progress {completed_jobs}/{total_jobs} ({pct:.2f}%)")
 
     manifest_csv = suite_dir / "suite_manifest.csv"
     with manifest_csv.open("w", encoding="utf-8", newline="") as f:

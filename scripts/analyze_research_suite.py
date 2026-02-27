@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import argparse
 from pathlib import Path
+import re
 
 import numpy as np
 import pandas as pd
@@ -14,6 +15,23 @@ MODEL_PARAMS = {
     "EleutherAI/pythia-1b": 1e9,
     "EleutherAI/pythia-1.4b": 1.4e9,
     "EleutherAI/pythia-2.8b": 2.8e9,
+    "Qwen/Qwen2.5-0.5B-Instruct": 0.5e9,
+    "Qwen/Qwen2.5-1.5B-Instruct": 1.5e9,
+    "Qwen/Qwen2.5-3B-Instruct": 3e9,
+    "Qwen/Qwen2.5-7B-Instruct": 7e9,
+    "Qwen/Qwen2.5-14B-Instruct": 14e9,
+    "Qwen/Qwen2.5-32B-Instruct": 32e9,
+    "Qwen/Qwen3-0.6B": 0.6e9,
+    "Qwen/Qwen3-1.7B": 1.7e9,
+    "Qwen/Qwen3-4B": 4e9,
+    "Qwen/Qwen3-8B": 8e9,
+    "Qwen/Qwen3-14B": 14e9,
+    "Qwen/Qwen3-32B": 32e9,
+    "Qwen/Qwen3.5-35B-A3B": 35e9,
+    "gpt2": 124e6,
+    "gpt2-medium": 355e6,
+    "gpt2-large": 774e6,
+    "gpt2-xl": 1.5e9,
 }
 
 
@@ -75,6 +93,31 @@ def _fit_power_law(params: np.ndarray, values: np.ndarray) -> tuple[float, float
     return coef, float(slope), r2
 
 
+def _infer_model_params(model_id: str) -> float:
+    if model_id in MODEL_PARAMS:
+        return float(MODEL_PARAMS[model_id])
+
+    mid = model_id.strip()
+    lc = mid.lower()
+    gpt2_alias = {
+        "openai-community/gpt2": 124e6,
+        "openai-community/gpt2-medium": 355e6,
+        "openai-community/gpt2-large": 774e6,
+        "openai-community/gpt2-xl": 1.5e9,
+    }
+    if lc in gpt2_alias:
+        return float(gpt2_alias[lc])
+
+    # Falls back to the first size token in the model id (for example 32B, 410M).
+    match = re.search(r"(\d+(?:\.\d+)?)([bBmM])", mid)
+    if match:
+        value = float(match.group(1))
+        unit = match.group(2).lower()
+        return float(value * (1e9 if unit == "b" else 1e6))
+
+    return np.nan
+
+
 def _load_manifest_df(manifest_csv: Path) -> pd.DataFrame:
     man = pd.read_csv(manifest_csv)
     rows = []
@@ -114,7 +157,8 @@ def main() -> None:
                 df[col] = "unknown"
             else:
                 df[col] = np.nan
-    df["log_params"] = np.log10(df["model_id"].map(MODEL_PARAMS))
+    df["param_count"] = df["model_id"].map(_infer_model_params)
+    df["log_params"] = np.log10(df["param_count"])
 
     raw_path = suite_dir / "suite_metrics_full.csv"
     df.to_csv(raw_path, index=False)
@@ -328,7 +372,7 @@ def main() -> None:
     trend_rows: list[dict[str, float | str]] = []
     for (concept, method), sub in by_model.groupby(["suite_concept", "vector_method"]):
         tmp = sub.copy()
-        tmp["log_params"] = np.log10(tmp["model_id"].map(MODEL_PARAMS))
+        tmp["log_params"] = np.log10(tmp["model_id"].map(_infer_model_params))
         if tmp["log_params"].isna().any() or len(tmp) < 2:
             continue
         x = tmp["log_params"].to_numpy()
@@ -356,7 +400,7 @@ def main() -> None:
         ("persistence_mean", "persistence"),
     ]
     for (concept, method), sub in by_model.groupby(["suite_concept", "vector_method"]):
-        params = sub["model_id"].map(MODEL_PARAMS).to_numpy(dtype=np.float64)
+        params = sub["model_id"].map(_infer_model_params).to_numpy(dtype=np.float64)
         for col_name, metric_name in metric_specs:
             values = sub[col_name].to_numpy(dtype=np.float64)
             coef, exponent, r2 = _fit_power_law(params=params, values=values)

@@ -76,12 +76,18 @@ def main() -> None:
     suite_dir.mkdir(parents=True, exist_ok=True)
 
     manifest_rows: list[dict[str, str | int]] = []
+    total_jobs = len(args.token_positions) * len(args.concepts) * len(args.seeds)
+    completed_jobs = 0
     for token_position in args.token_positions:
         for concept in args.concepts:
             for seed in args.seeds:
+                job_index = completed_jobs + 1
+                pct = (100.0 * completed_jobs / total_jobs) if total_jobs else 100.0
+                print(f"[addon] overall-progress {completed_jobs}/{total_jobs} ({pct:.2f}%)")
                 print(
                     "[addon] running "
-                    f"concept={concept} seed={seed} token_position={token_position}"
+                    f"job={job_index}/{total_jobs} concept={concept} seed={seed} "
+                    f"token_position={token_position}"
                 )
                 run_cfg = replace(
                     cfg,
@@ -100,8 +106,12 @@ def main() -> None:
                 )
                 print(
                     "[addon] completed "
-                    f"concept={concept} seed={seed} token_position={token_position} -> {run_dir}"
+                    f"job={job_index}/{total_jobs} concept={concept} seed={seed} "
+                    f"token_position={token_position} -> {run_dir}"
                 )
+                completed_jobs += 1
+                pct = (100.0 * completed_jobs / total_jobs) if total_jobs else 100.0
+                print(f"[addon] overall-progress {completed_jobs}/{total_jobs} ({pct:.2f}%)")
 
     manifest_csv = suite_dir / "suite_manifest.csv"
     with manifest_csv.open("w", encoding="utf-8", newline="") as f:

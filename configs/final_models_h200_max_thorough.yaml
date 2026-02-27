@@ -1,0 +1,70 @@
+model_ids:
+  # Qwen2.5 dense
+  - Qwen/Qwen2.5-0.5B-Instruct
+  - Qwen/Qwen2.5-1.5B-Instruct
+  - Qwen/Qwen2.5-3B-Instruct
+  - Qwen/Qwen2.5-7B-Instruct
+  - Qwen/Qwen2.5-32B-Instruct
+  # Qwen3 dense
+  - Qwen/Qwen3-0.6B
+  - Qwen/Qwen3-1.7B
+  - Qwen/Qwen3-4B
+  - Qwen/Qwen3-8B
+  - Qwen/Qwen3-32B
+  # Qwen3.5 capped near ~30B active params
+  - Qwen/Qwen3.5-35B-A3B
+  # GPT-2 family
+  - gpt2
+  - gpt2-medium
+  - gpt2-large
+  - gpt2-xl
+concept_name: morality
+vector_methods:
+  - mean_diff
+  - linear_probe
+  - word_centroid
+  - random_orthogonal
+  - random_control
+alphas:
+  - -3.0
+  - -2.24
+  - -1.5
+  - -1.0
+  - -0.5
+  - 0.5
+  - 1.0
+  - 1.5
+  - 2.24
+  - 3.0
+layer_positions:
+  - 0.0
+  - 0.125
+  - 0.25
+  - 0.375
+  - 0.5
+  - 0.625
+  - 0.75
+  - 0.875
+  - 1.0
+token_position: -1
+estimation_token_position: -1
+eval_generation_tokens: 24
+max_prompt_tokens: 160
+estimation_prompt_count: 64
+evaluation_prompt_count: 32
+seed: 42
+output_root: C:/Users/joshj/joseph-stroud-identity-stability-research/runs
+model_cache_dir: D:/hf-model-cache
+dtype: bfloat16
+use_gpu: true
+recovery_threshold: 0.25
+activation_batch_size: 32
+trace_batch_size: 16
+adaptive_batching: true
+attention_backend: auto
+enable_tf32: true
+prompt_styles:
+  - factual
+  - technical
+  - emotional
+  - ambiguous

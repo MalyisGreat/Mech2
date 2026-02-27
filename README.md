@@ -27,6 +27,7 @@ Code lives in `src/identity_stability` and run scripts live in `scripts`.
 5. `scripts/analyze_research_suite.py`: aggregate suite outputs and compute stratified summaries.
 6. `scripts/summarize_run.py`: summarize a single run directory.
 7. `scripts/run_prior_findings_addon.py`: run add-on suite for prior findings (good/evil style concepts, threshold sweep, prompt styles, early-vs-late token position).
+8. `scripts/run_max_thorough_suite.py`: run the maximum-density long suite across all concepts, multiple seeds, and token positions.
 
 ### Configs
 1. `configs/pilot.yaml`: fastest real run for validation.
@@ -38,6 +39,7 @@ Code lives in `src/identity_stability` and run scripts live in `scripts`.
 7. `configs/final_models_h100_fast.yaml`: final-model panel (Qwen2.5 + Qwen3 + GPT-2) tuned for fast H100 runs.
 8. `configs/final_models_h100_extended.yaml`: extended final-model panel adding 14B checkpoints.
 9. `configs/smoke_arch_compat.yaml`: minimal architecture compatibility smoke test.
+10. `configs/final_models_h200_max_thorough.yaml`: max-density H200/H100 config including Qwen 32B and Qwen3.5-35B-A3B.
 
 ### Typical usage
 ```powershell
@@ -55,6 +57,12 @@ python scripts/download_models.py --cache-dir D:/hf-model-cache --config configs
 Download only max-around-30B Qwen models (2.5, 3, 3.5):
 ```powershell
 python scripts/download_models.py --cache-dir D:/hf-model-cache --config configs/download_qwen_max_around_30b.yaml
+```
+
+Run the full max-thorough suite:
+```powershell
+python scripts/run_max_thorough_suite.py --config configs/final_models_h200_max_thorough.yaml --seeds 42 43 44 45 46 --token-positions -1 0 1 2 --suite-name max_thorough_v1
+python scripts/analyze_research_suite.py --manifest runs/max_thorough_v1_<timestamp>/suite_manifest.csv --bootstrap-iters 2000
 ```
 
 Run outputs are written to `runs/<timestamp>/`.
