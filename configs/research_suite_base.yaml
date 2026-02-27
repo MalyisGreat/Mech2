@@ -8,7 +8,6 @@ model_ids:
 concept_name: politeness
 vector_methods:
   - mean_diff
-  - linear_probe
   - random_orthogonal
 alphas:
   - -2.0

@@ -8,7 +8,6 @@ model_ids:
 concept_name: morality
 vector_methods:
   - mean_diff
-  - linear_probe
   - word_centroid
   - random_orthogonal
 alphas:

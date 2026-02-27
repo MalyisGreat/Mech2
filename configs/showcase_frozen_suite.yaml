@@ -5,7 +5,6 @@ model_ids:
 concept_name: politeness
 vector_methods:
   - mean_diff
-  - linear_probe
   - word_centroid
   - random_orthogonal
 alphas:
