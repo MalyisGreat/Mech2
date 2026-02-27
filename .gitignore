@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Virtual envs
+.venv/
+venv/
+env/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+
+# Local experiment artifacts (large)
+runs/
+models/
+
+# Local output artifacts (keep authored markdown summaries)
+output/plots/
+output/word_vector_atlas/
+output/*.png
+output/*.html
+
+# Runtime logs (keep curated markdown logs)
+logs/runtime_*.log
+
+# Local temp files
+*.tmp
+*.temp

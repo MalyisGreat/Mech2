@@ -1,0 +1,53 @@
+model_ids:
+  # Qwen2.5 Instruct (dense, fast tier)
+  - Qwen/Qwen2.5-0.5B-Instruct
+  - Qwen/Qwen2.5-1.5B-Instruct
+  - Qwen/Qwen2.5-3B-Instruct
+  - Qwen/Qwen2.5-7B-Instruct
+  # Qwen3 dense (fast tier)
+  - Qwen/Qwen3-0.6B
+  - Qwen/Qwen3-1.7B
+  - Qwen/Qwen3-4B
+  - Qwen/Qwen3-8B
+  # GPT-2 family
+  - gpt2
+  - gpt2-medium
+  - gpt2-large
+  - gpt2-xl
+concept_name: morality
+vector_methods:
+  - mean_diff
+  - linear_probe
+  - word_centroid
+  - random_orthogonal
+alphas:
+  - -2.24
+  - -1.0
+  - 1.0
+  - 2.24
+layer_positions:
+  - 0.0
+  - 0.5
+  - 1.0
+token_position: -1
+estimation_token_position: -1
+eval_generation_tokens: 20
+max_prompt_tokens: 128
+estimation_prompt_count: 16
+evaluation_prompt_count: 8
+seed: 42
+output_root: C:/Users/joshj/joseph-stroud-identity-stability-research/runs
+model_cache_dir: D:/hf-model-cache
+dtype: bfloat16
+use_gpu: true
+recovery_threshold: 0.25
+activation_batch_size: 16
+trace_batch_size: 8
+adaptive_batching: true
+attention_backend: auto
+enable_tf32: true
+prompt_styles:
+  - factual
+  - technical
+  - emotional
+  - ambiguous

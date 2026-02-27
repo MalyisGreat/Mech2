@@ -1,0 +1,3 @@
+model_ids:
+  # Qwen 3.5 non-FP8 family, intentionally capped near 30B.
+  - Qwen/Qwen3.5-35B-A3B

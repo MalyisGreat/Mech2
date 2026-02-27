@@ -1,0 +1,55 @@
+model_ids:
+  - EleutherAI/pythia-70m
+  - EleutherAI/pythia-160m
+  - EleutherAI/pythia-410m
+  - EleutherAI/pythia-1b
+  - EleutherAI/pythia-1.4b
+  - EleutherAI/pythia-2.8b
+concept_name: morality
+vector_methods:
+  - mean_diff
+  - linear_probe
+  - word_centroid
+  - random_orthogonal
+alphas:
+  - -4.8
+  - -3.0
+  - -2.24
+  - -1.5
+  - -1.0
+  - -0.5
+  - 0.5
+  - 1.0
+  - 1.5
+  - 2.24
+  - 3.0
+  - 4.8
+layer_positions:
+  - 0.0
+  - 0.1
+  - 0.2
+  - 0.3
+  - 0.4
+  - 0.5
+  - 0.6
+  - 0.7
+  - 0.8
+  - 0.9
+  - 1.0
+token_position: -1
+estimation_token_position: -1
+eval_generation_tokens: 20
+max_prompt_tokens: 128
+estimation_prompt_count: 24
+evaluation_prompt_count: 12
+seed: 42
+output_root: C:/Users/joshj/joseph-stroud-identity-stability-research/runs
+model_cache_dir: D:/hf-model-cache
+dtype: float16
+use_gpu: true
+recovery_threshold: 0.25
+prompt_styles:
+  - factual
+  - technical
+  - emotional
+  - ambiguous

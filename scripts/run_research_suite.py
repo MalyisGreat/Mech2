@@ -1,0 +1,90 @@
+from __future__ import annotations
+
+import argparse
+import csv
+import json
+import sys
+from dataclasses import replace
+from datetime import datetime
+from pathlib import Path
+
+
+def _add_src_to_path() -> None:
+    root = Path(__file__).resolve().parents[1]
+    src = root / "src"
+    sys.path.insert(0, str(src))
+
+
+def parse_args() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(description="Run a multi-concept multi-seed research suite.")
+    parser.add_argument(
+        "--config",
+        type=Path,
+        required=True,
+        help="Base YAML config path.",
+    )
+    parser.add_argument(
+        "--concepts",
+        nargs="+",
+        required=True,
+        help="Concept names, e.g. politeness empathy confidence",
+    )
+    parser.add_argument(
+        "--seeds",
+        nargs="+",
+        type=int,
+        required=True,
+        help="Seed list.",
+    )
+    parser.add_argument(
+        "--suite-name",
+        default="research_suite",
+        help="Logical suite name for output folder.",
+    )
+    return parser.parse_args()
+
+
+def main() -> None:
+    _add_src_to_path()
+    from identity_stability.config import load_run_config
+    from identity_stability.experiment import run_experiment
+
+    args = parse_args()
+    cfg = load_run_config(args.config)
+    cfg.output_root.mkdir(parents=True, exist_ok=True)
+    cfg.model_cache_dir.mkdir(parents=True, exist_ok=True)
+
+    suite_stamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    suite_dir = cfg.output_root / f"{args.suite_name}_{suite_stamp}"
+    suite_dir.mkdir(parents=True, exist_ok=True)
+
+    manifest_rows: list[dict[str, str | int]] = []
+    for concept in args.concepts:
+        for seed in args.seeds:
+            print(f"[suite] running concept={concept} seed={seed}")
+            run_cfg = replace(cfg, concept_name=concept, seed=seed)
+            run_dir = run_experiment(run_cfg)
+            manifest_rows.append(
+                {
+                    "concept_name": concept,
+                    "seed": seed,
+                    "run_dir": str(run_dir),
+                }
+            )
+            print(f"[suite] completed concept={concept} seed={seed} -> {run_dir}")
+
+    manifest_csv = suite_dir / "suite_manifest.csv"
+    with manifest_csv.open("w", encoding="utf-8", newline="") as f:
+        writer = csv.DictWriter(f, fieldnames=["concept_name", "seed", "run_dir"])
+        writer.writeheader()
+        writer.writerows(manifest_rows)
+
+    with (suite_dir / "suite_manifest.json").open("w", encoding="utf-8") as f:
+        json.dump(manifest_rows, f, indent=2)
+
+    print(f"[suite] manifest csv: {manifest_csv}")
+    print(f"[suite] manifest json: {suite_dir / 'suite_manifest.json'}")
+
+
+if __name__ == "__main__":
+    main()

@@ -1,0 +1,5 @@
+model_ids:
+  # Max model around 30B from each Qwen family used in this project.
+  - Qwen/Qwen2.5-32B-Instruct
+  - Qwen/Qwen3-32B
+  - Qwen/Qwen3.5-35B-A3B

@@ -1,0 +1,24 @@
+model_ids:
+  - gpt2
+concept_name: morality
+vector_methods:
+  - mean_diff
+alphas:
+  - 1.0
+layer_positions:
+  - 0.5
+token_position: -1
+estimation_token_position: -1
+eval_generation_tokens: 8
+max_prompt_tokens: 96
+estimation_prompt_count: 2
+evaluation_prompt_count: 2
+seed: 7
+output_root: C:/Users/joshj/joseph-stroud-identity-stability-research/runs
+model_cache_dir: D:/hf-model-cache
+dtype: float16
+use_gpu: true
+recovery_threshold: 0.25
+prompt_styles:
+  - factual
+  - technical

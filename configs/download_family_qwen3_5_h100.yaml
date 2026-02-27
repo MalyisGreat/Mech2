@@ -1,0 +1,3 @@
+model_ids:
+  # Qwen 3.5 family capped to the max around-30B model.
+  - Qwen/Qwen3.5-35B-A3B

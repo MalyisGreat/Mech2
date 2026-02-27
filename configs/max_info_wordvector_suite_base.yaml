@@ -1,0 +1,33 @@
+model_ids:
+  - EleutherAI/pythia-70m
+  - EleutherAI/pythia-160m
+  - EleutherAI/pythia-410m
+  - EleutherAI/pythia-1b
+  - EleutherAI/pythia-1.4b
+  - EleutherAI/pythia-2.8b
+concept_name: politeness
+vector_methods:
+  - mean_diff
+  - linear_probe
+  - word_centroid
+  - random_orthogonal
+alphas:
+  - -2.0
+  - -1.0
+  - 1.0
+  - 2.0
+layer_positions:
+  - 0.2
+  - 0.5
+  - 0.8
+token_position: -1
+eval_generation_tokens: 20
+max_prompt_tokens: 128
+estimation_prompt_count: 16
+evaluation_prompt_count: 8
+seed: 42
+output_root: C:/Users/joshj/joseph-stroud-identity-stability-research/runs
+model_cache_dir: D:/hf-model-cache
+dtype: float16
+use_gpu: true
+recovery_threshold: 0.25

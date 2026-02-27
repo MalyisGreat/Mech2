@@ -1,0 +1,87 @@
+# Activity Log
+
+## 2026-02-27
+- Initialized project workspace and folder structure.
+- Loaded `autonomous-project-lead` skill and attempted scripted reconnaissance.
+- Recon script path was unavailable; continued with manual reconnaissance fallback.
+- Created task decomposition and workstream board.
+- Began multi-workstream literature research execution.
+- Collected and curated primary source registry across steering, scaling, and fine-tuning.
+- Produced four synthesis memos (conceptual, steering, scaling, fine-tuning).
+- Produced experimental blueprint, metrics/statistics plan, and reproducibility/risk plan.
+- Created subagent coordination matrix and detailed workstream execution log.
+- Delivered integrated final research brief.
+- Implemented runnable experiment codebase under `src/identity_stability`.
+- Added execution scripts for model download and full experiment runs.
+- Added YAML configs for pilot, default, and extended model sweeps.
+- Downloaded Pythia model checkpoints through `EleutherAI/pythia-2.8b`.
+- Executed pilot run (`20260226_195055`) and validated successful outputs.
+- Executed default four-model sweep (`20260226_200433`) with full layer/alpha grid.
+- Executed extended six-model sweep (`20260226_203103`) including `1.4b` and `2.8b`.
+- Saved runtime logs for downloads and experiment runs in `logs/`.
+- User canceled large-model (`6.9b`, `12b`) download request mid-execution; no experiments were run on those sizes.
+- Executed full current-model sweep (`20260226_204021`) across six downloaded models with 3-layer x 4-alpha grid.
+- Generated standardized run summaries (`model_summary.csv`, `alpha_summary.csv`, `summary_generated.md`).
+- Upgraded pipeline to support multi-concept prompt families (`politeness`, `empathy`, `confidence`, `cooperation`).
+- Added control vector methods (`random_orthogonal`) and normalized drift metrics.
+- Added suite orchestration script for multi-concept and multi-seed research batches.
+- Added suite analysis script with stratified summaries, control-effect deltas, scale trends, and seed-consistency checks.
+- Executed research suite v2: 3 concepts x 2 seeds x 6 models (`6912` rows total).
+- Produced suite findings brief and artifact index.
+- Added interactive 3D concept-trajectory plotting script (`scripts/plot_3d_concept_trajectories.py`).
+- Installed plotting dependencies (`plotly`, `kaleido`) for HTML + PNG exports.
+- Generated 3D residual trajectory plots for current panel models (`pythia-1b`, `1.4b`, `2.8b`) in layer-space and concept-space.
+- Expanded concept registry to 20 concepts with associated positive/negative word lists.
+- Added `word_centroid` vector method using model input embeddings and concept word sets.
+- Built and executed `max_info_suite_v1` (12 concepts x 6 models x 4 methods x 4 alphas x 3 depths).
+- Aggregated max-info suite outputs (`27,648` rows) and produced analysis artifacts.
+- Exported per-model word-vector atlas statistics (cosine matrices, norms, nearest-neighbor concepts).
+- Added prior-findings concept coverage (`morality`, `constructiveness`) to concept registry.
+- Added prompt-style controls (`factual`, `technical`, `emotional`, `ambiguous`) and style logging in `metrics_full.csv`.
+- Added derived metrics for prior findings mapping: `cad`, `cad_relative`, `degradation`, `persistence`, and `drift_at_start`.
+- Added `estimation_token_position` to decouple concept-vector estimation from evaluation token position.
+- Added prior-findings configs: `configs/prior_findings_addon.yaml` and `configs/prior_findings_addon_pilot.yaml`.
+- Added orchestration script: `scripts/run_prior_findings_addon.py` for concept/seed/token-position sweeps.
+- Extended suite analyzer outputs with `suite_prompt_style_summary.csv` and `suite_scaling_laws.csv`.
+- Fixed NumPy compatibility bug in AUC computation (`np.trapezoid` fallback for `np.trapz`).
+- Executed smoke add-on run (`runs/20260226_225232`) and validated new schema fields.
+- Executed all-current-model add-on pilot (`runs/20260226_225516`, `2,304` rows).
+- Executed token-position add-on suite v2 (`runs/prior_findings_token_position_v2_20260226_230323`, `4,608` rows aggregated).
+- Generated full analysis artifacts for prior-findings suites, including bootstrap bands and scaling-law fits.
+- Added GPT-2 architecture support in layer stack resolution (`transformer.h`) for unified intervention pipeline use.
+- Added final H100 model panel configs:
+  - `configs/final_models_h100_fast.yaml`
+  - `configs/final_models_h100_extended.yaml`
+- Added architecture smoke config and executed family compatibility run:
+  - `configs/smoke_arch_compat.yaml`
+  - run output: `runs/20260226_231747`
+- Validated model loading on GPU for one representative per family:
+  - `gpt2`
+  - `Qwen/Qwen2.5-0.5B-Instruct`
+  - `Qwen/Qwen3-0.6B`
+- Added H100 execution playbook: `experiments/H100_FINAL_RUN_PLAN.md`.
+- Added config-driven download mode to `scripts/download_models.py` (`--config` with `model_ids`).
+- Added Qwen 3.5 downloadable family configs:
+  - `configs/download_family_qwen3_5_h100.yaml`
+  - `configs/download_family_qwen3_5_full.yaml`
+- Verified config-based downloading path with `configs/smoke_arch_compat.yaml`.
+- Applied around-30B cap policy for Qwen downloads:
+  - `configs/download_family_qwen3_5_h100.yaml` now only includes `Qwen/Qwen3.5-35B-A3B`.
+  - `configs/download_family_qwen3_5_full.yaml` now excludes 122B and 397B models.
+  - Added `configs/download_qwen_max_around_30b.yaml` to download only one max-around-30B model per Qwen family (`2.5`, `3`, `3.5`).
+- Added H100 runtime optimization knobs to config:
+  - `activation_batch_size`, `trace_batch_size`, `adaptive_batching`
+  - `attention_backend`, `enable_tf32`
+- Switched core trace path from per-prompt to batched prompt inference in `run_experiment`.
+- Added adaptive OOM fallback that automatically reduces trace batch size and retries.
+- Enabled CUDA runtime tuning (`TF32`) and inference-mode usage in core forward paths.
+- Added model-load attention backend fallback (`sdpa` -> default) and low-memory load options.
+- Added parallel download workers (`--workers`) in `scripts/download_models.py`.
+- Updated H100 configs to `bfloat16` and tuned batch defaults for fast/extended tiers.
+- Fixed BF16 CPU-export compatibility by casting traced activations/logits to float32 before NumPy/scikit usage.
+- Validated optimized fast config on `Qwen/Qwen3-0.6B`:
+  - run output: `runs/20260226_234606`
+  - runtime log: `logs/runtime_h100_opt_finalcfg_smoke_20260226_234559.log`
+- Validated parallel download workers path (`--workers 2`) with cached models:
+  - runtime log: `logs/runtime_download_parallel_smoke_20260226_234659.log`
+- Forced `HF_HUB_DISABLE_SYMLINKS_WARNING=1` in download and full-pipeline scripts to reduce Windows cache warning noise.
