@@ -118,6 +118,24 @@ def _infer_model_params(model_id: str) -> float:
     return np.nan
 
 
+def _infer_model_family(model_id: str) -> str:
+    mid = model_id.strip()
+    lc = mid.lower()
+    if lc.startswith("eleutherai/pythia-"):
+        return "pythia"
+    if lc in {"gpt2", "gpt2-medium", "gpt2-large", "gpt2-xl"}:
+        return "gpt2"
+    if lc.startswith("openai-community/gpt2"):
+        return "gpt2"
+    if lc.startswith("qwen/qwen2.5-"):
+        return "qwen2.5"
+    if lc.startswith("qwen/qwen3.5-"):
+        return "qwen3.5"
+    if lc.startswith("qwen/qwen3-"):
+        return "qwen3"
+    return "unknown"
+
+
 def _load_manifest_df(manifest_csv: Path) -> pd.DataFrame:
     man = pd.read_csv(manifest_csv)
     rows = []
@@ -157,7 +175,16 @@ def main() -> None:
                 df[col] = "unknown"
             else:
                 df[col] = np.nan
+    if "layer_depth_ratio" in df.columns:
+        df["layer_depth_bucket"] = pd.cut(
+            df["layer_depth_ratio"],
+            bins=[-0.01, 0.34, 0.67, 1.01],
+            labels=["early", "mid", "late"],
+        ).astype(str)
+    else:
+        df["layer_depth_bucket"] = "unknown"
     df["param_count"] = df["model_id"].map(_infer_model_params)
+    df["model_family"] = df["model_id"].map(_infer_model_family)
     df["log_params"] = np.log10(df["param_count"])
 
     raw_path = suite_dir / "suite_metrics_full.csv"
@@ -219,6 +246,7 @@ def main() -> None:
             n=("recovery_fraction", "count"),
         )
     )
+    by_model["model_family"] = by_model["model_id"].map(_infer_model_family)
     low_r2, high_r2 = _ci95(by_model["recovery_mean"], by_model["recovery_std"].fillna(0), by_model["n"])
     low_p2, high_p2 = _ci95(by_model["peak_rel_mean"], by_model["peak_rel_std"].fillna(0), by_model["n"])
     by_model["recovery_ci95_low"] = low_r2
@@ -273,6 +301,21 @@ def main() -> None:
         .sort_values(["suite_concept", "model_id", "vector_method", "prompt_style"])
     )
     style_summary.to_csv(suite_dir / "suite_prompt_style_summary.csv", index=False)
+
+    agg_conditioned = (
+        df.groupby(
+            ["suite_concept", "model_id", "vector_method", "alpha", "layer_depth_bucket"],
+            as_index=False,
+        )
+        .agg(
+            recovery_mean=("recovery_fraction", "mean"),
+            cad_mean=("cad", "mean"),
+            persistence_mean=("persistence", "mean"),
+            degradation_mean=("degradation", "mean"),
+            peak_rel_mean=("peak_drift_relative", "mean"),
+            n=("recovery_fraction", "count"),
+        )
+    )
 
     # Prompt bootstrap noise band per condition.
     boot_rows: list[dict[str, float | int | str]] = []
@@ -344,31 +387,35 @@ def main() -> None:
             if pivot_df.shape[1] < 2:
                 continue
             cols = list(pivot_df.columns)
-            x = pivot_df[cols[0]].to_numpy()
-            y = pivot_df[cols[1]].to_numpy()
-            mask = np.isfinite(x) & np.isfinite(y)
-            if mask.sum() < 2:
-                corr = np.nan
-            else:
-                corr = float(np.corrcoef(x[mask], y[mask])[0, 1])
-            seed_consistency_rows.append(
-                {
-                    "suite_concept": concept,
-                    "vector_method": method,
-                    "metric": metric_name,
-                    "seed_a": int(cols[0]),
-                    "seed_b": int(cols[1]),
-                    "pearson_correlation": corr,
-                    "n_points": int(mask.sum()),
-                }
-            )
+            for i in range(len(cols)):
+                for j in range(i + 1, len(cols)):
+                    seed_a = cols[i]
+                    seed_b = cols[j]
+                    x = pivot_df[seed_a].to_numpy()
+                    y = pivot_df[seed_b].to_numpy()
+                    mask = np.isfinite(x) & np.isfinite(y)
+                    if mask.sum() < 2:
+                        corr = np.nan
+                    else:
+                        corr = float(np.corrcoef(x[mask], y[mask])[0, 1])
+                    seed_consistency_rows.append(
+                        {
+                            "suite_concept": concept,
+                            "vector_method": method,
+                            "metric": metric_name,
+                            "seed_a": int(seed_a),
+                            "seed_b": int(seed_b),
+                            "pearson_correlation": corr,
+                            "n_points": int(mask.sum()),
+                        }
+                    )
 
     pd.DataFrame(seed_consistency_rows).to_csv(
         suite_dir / "suite_seed_consistency.csv",
         index=False,
     )
 
-    # Scale trend fits by concept and method.
+    # Coarse scale trends across all intervention settings.
     trend_rows: list[dict[str, float | str]] = []
     for (concept, method), sub in by_model.groupby(["suite_concept", "vector_method"]):
         tmp = sub.copy()
@@ -384,6 +431,7 @@ def main() -> None:
             {
                 "suite_concept": concept,
                 "vector_method": method,
+                "model_family": "pooled",
                 "recovery_slope_vs_log_params": float(slope_recovery),
                 "recovery_intercept": float(intercept_recovery),
                 "peak_rel_slope_vs_log_params": float(slope_peak_rel),
@@ -392,6 +440,36 @@ def main() -> None:
             }
         )
     pd.DataFrame(trend_rows).to_csv(suite_dir / "suite_scale_trends.csv", index=False)
+
+    trend_rows_family: list[dict[str, float | str]] = []
+    for (concept, method, family), sub in by_model.groupby(
+        ["suite_concept", "vector_method", "model_family"]
+    ):
+        tmp = sub.copy()
+        tmp["log_params"] = np.log10(tmp["model_id"].map(_infer_model_params))
+        if tmp["log_params"].isna().any() or len(tmp) < 2:
+            continue
+        x = tmp["log_params"].to_numpy()
+        y_recovery = tmp["recovery_mean"].to_numpy()
+        y_peak_rel = tmp["peak_rel_mean"].to_numpy()
+        slope_recovery, intercept_recovery = np.polyfit(x, y_recovery, 1)
+        slope_peak_rel, intercept_peak_rel = np.polyfit(x, y_peak_rel, 1)
+        trend_rows_family.append(
+            {
+                "suite_concept": concept,
+                "vector_method": method,
+                "model_family": family,
+                "recovery_slope_vs_log_params": float(slope_recovery),
+                "recovery_intercept": float(intercept_recovery),
+                "peak_rel_slope_vs_log_params": float(slope_peak_rel),
+                "peak_rel_intercept": float(intercept_peak_rel),
+                "n_models": int(len(tmp)),
+            }
+        )
+    pd.DataFrame(trend_rows_family).to_csv(
+        suite_dir / "suite_scale_trends_by_family.csv",
+        index=False,
+    )
 
     law_rows: list[dict[str, float | str]] = []
     metric_specs = [
@@ -408,6 +486,7 @@ def main() -> None:
                 {
                     "suite_concept": concept,
                     "vector_method": method,
+                    "model_family": "pooled",
                     "metric": metric_name,
                     "coefficient": coef,
                     "exponent": exponent,
@@ -416,6 +495,184 @@ def main() -> None:
                 }
             )
     pd.DataFrame(law_rows).to_csv(suite_dir / "suite_scaling_laws.csv", index=False)
+
+    law_rows_family: list[dict[str, float | str]] = []
+    for (concept, method, family), sub in by_model.groupby(
+        ["suite_concept", "vector_method", "model_family"]
+    ):
+        params = sub["model_id"].map(_infer_model_params).to_numpy(dtype=np.float64)
+        for col_name, metric_name in metric_specs:
+            values = sub[col_name].to_numpy(dtype=np.float64)
+            coef, exponent, r2 = _fit_power_law(params=params, values=values)
+            law_rows_family.append(
+                {
+                    "suite_concept": concept,
+                    "vector_method": method,
+                    "model_family": family,
+                    "metric": metric_name,
+                    "coefficient": coef,
+                    "exponent": exponent,
+                    "r2": r2,
+                    "n_models": int(sub["model_id"].nunique()),
+                }
+            )
+    pd.DataFrame(law_rows_family).to_csv(
+        suite_dir / "suite_scaling_laws_by_family.csv",
+        index=False,
+    )
+
+    # Conditioned scale trends by alpha and depth bucket.
+    trend_rows_conditioned: list[dict[str, float | str]] = []
+    trend_group_cols = ["suite_concept", "vector_method", "alpha", "layer_depth_bucket"]
+    for (concept, method, alpha, depth_bucket), sub in agg_conditioned.groupby(trend_group_cols):
+        tmp = sub.copy()
+        tmp["param_count"] = tmp["model_id"].map(_infer_model_params)
+        tmp = tmp[np.isfinite(tmp["param_count"])].copy()
+        if tmp["model_id"].nunique() < 2:
+            continue
+        x = np.log10(tmp["param_count"].to_numpy(dtype=np.float64))
+        y_recovery = tmp["recovery_mean"].to_numpy()
+        y_peak_rel = tmp["peak_rel_mean"].to_numpy()
+        slope_recovery, intercept_recovery = np.polyfit(x, y_recovery, 1)
+        slope_peak_rel, intercept_peak_rel = np.polyfit(x, y_peak_rel, 1)
+        yhat_recovery = slope_recovery * x + intercept_recovery
+        yhat_peak_rel = slope_peak_rel * x + intercept_peak_rel
+        ss_tot_recovery = float(np.sum((y_recovery - y_recovery.mean()) ** 2))
+        ss_res_recovery = float(np.sum((y_recovery - yhat_recovery) ** 2))
+        ss_tot_peak_rel = float(np.sum((y_peak_rel - y_peak_rel.mean()) ** 2))
+        ss_res_peak_rel = float(np.sum((y_peak_rel - yhat_peak_rel) ** 2))
+        r2_recovery = np.nan if ss_tot_recovery <= 1e-12 else float(1.0 - ss_res_recovery / ss_tot_recovery)
+        r2_peak_rel = np.nan if ss_tot_peak_rel <= 1e-12 else float(1.0 - ss_res_peak_rel / ss_tot_peak_rel)
+        trend_rows_conditioned.append(
+            {
+                "suite_concept": concept,
+                "vector_method": method,
+                "alpha": float(alpha),
+                "layer_depth_bucket": str(depth_bucket),
+                "recovery_slope_vs_log_params": float(slope_recovery),
+                "recovery_intercept": float(intercept_recovery),
+                "recovery_r2": r2_recovery,
+                "peak_rel_slope_vs_log_params": float(slope_peak_rel),
+                "peak_rel_intercept": float(intercept_peak_rel),
+                "peak_rel_r2": r2_peak_rel,
+                "n_models": int(tmp["model_id"].nunique()),
+            }
+        )
+    pd.DataFrame(trend_rows_conditioned).to_csv(
+        suite_dir / "suite_scale_trends_conditioned.csv",
+        index=False,
+    )
+
+    trend_rows_conditioned_family: list[dict[str, float | str]] = []
+    trend_group_cols_family = [
+        "suite_concept",
+        "vector_method",
+        "alpha",
+        "layer_depth_bucket",
+        "model_family",
+    ]
+    agg_conditioned_family = agg_conditioned.copy()
+    agg_conditioned_family["model_family"] = agg_conditioned_family["model_id"].map(_infer_model_family)
+    for (concept, method, alpha, depth_bucket, family), sub in agg_conditioned_family.groupby(
+        trend_group_cols_family
+    ):
+        tmp = sub.copy()
+        tmp["param_count"] = tmp["model_id"].map(_infer_model_params)
+        tmp = tmp[np.isfinite(tmp["param_count"])].copy()
+        if tmp["model_id"].nunique() < 2:
+            continue
+        x = np.log10(tmp["param_count"].to_numpy(dtype=np.float64))
+        y_recovery = tmp["recovery_mean"].to_numpy()
+        y_peak_rel = tmp["peak_rel_mean"].to_numpy()
+        slope_recovery, intercept_recovery = np.polyfit(x, y_recovery, 1)
+        slope_peak_rel, intercept_peak_rel = np.polyfit(x, y_peak_rel, 1)
+        yhat_recovery = slope_recovery * x + intercept_recovery
+        yhat_peak_rel = slope_peak_rel * x + intercept_peak_rel
+        ss_tot_recovery = float(np.sum((y_recovery - y_recovery.mean()) ** 2))
+        ss_res_recovery = float(np.sum((y_recovery - yhat_recovery) ** 2))
+        ss_tot_peak_rel = float(np.sum((y_peak_rel - y_peak_rel.mean()) ** 2))
+        ss_res_peak_rel = float(np.sum((y_peak_rel - yhat_peak_rel) ** 2))
+        r2_recovery = np.nan if ss_tot_recovery <= 1e-12 else float(1.0 - ss_res_recovery / ss_tot_recovery)
+        r2_peak_rel = np.nan if ss_tot_peak_rel <= 1e-12 else float(1.0 - ss_res_peak_rel / ss_tot_peak_rel)
+        trend_rows_conditioned_family.append(
+            {
+                "suite_concept": concept,
+                "vector_method": method,
+                "alpha": float(alpha),
+                "layer_depth_bucket": str(depth_bucket),
+                "model_family": family,
+                "recovery_slope_vs_log_params": float(slope_recovery),
+                "recovery_intercept": float(intercept_recovery),
+                "recovery_r2": r2_recovery,
+                "peak_rel_slope_vs_log_params": float(slope_peak_rel),
+                "peak_rel_intercept": float(intercept_peak_rel),
+                "peak_rel_r2": r2_peak_rel,
+                "n_models": int(tmp["model_id"].nunique()),
+            }
+        )
+    pd.DataFrame(trend_rows_conditioned_family).to_csv(
+        suite_dir / "suite_scale_trends_conditioned_by_family.csv",
+        index=False,
+    )
+
+    law_rows_conditioned: list[dict[str, float | str]] = []
+    law_group_cols = ["suite_concept", "vector_method", "alpha", "layer_depth_bucket"]
+    for (concept, method, alpha, depth_bucket), sub in agg_conditioned.groupby(law_group_cols):
+        params = sub["model_id"].map(_infer_model_params).to_numpy(dtype=np.float64)
+        for col_name, metric_name in metric_specs:
+            values = sub[col_name].to_numpy(dtype=np.float64)
+            coef, exponent, r2 = _fit_power_law(params=params, values=values)
+            law_rows_conditioned.append(
+                {
+                    "suite_concept": concept,
+                    "vector_method": method,
+                    "alpha": float(alpha),
+                    "layer_depth_bucket": str(depth_bucket),
+                    "metric": metric_name,
+                    "coefficient": coef,
+                    "exponent": exponent,
+                    "r2": r2,
+                    "n_models": int(sub["model_id"].nunique()),
+                }
+            )
+    pd.DataFrame(law_rows_conditioned).to_csv(
+        suite_dir / "suite_scaling_laws_conditioned.csv",
+        index=False,
+    )
+
+    law_rows_conditioned_family: list[dict[str, float | str]] = []
+    law_group_cols_family = [
+        "suite_concept",
+        "vector_method",
+        "alpha",
+        "layer_depth_bucket",
+        "model_family",
+    ]
+    for (concept, method, alpha, depth_bucket, family), sub in agg_conditioned_family.groupby(
+        law_group_cols_family
+    ):
+        params = sub["model_id"].map(_infer_model_params).to_numpy(dtype=np.float64)
+        for col_name, metric_name in metric_specs:
+            values = sub[col_name].to_numpy(dtype=np.float64)
+            coef, exponent, r2 = _fit_power_law(params=params, values=values)
+            law_rows_conditioned_family.append(
+                {
+                    "suite_concept": concept,
+                    "vector_method": method,
+                    "alpha": float(alpha),
+                    "layer_depth_bucket": str(depth_bucket),
+                    "model_family": family,
+                    "metric": metric_name,
+                    "coefficient": coef,
+                    "exponent": exponent,
+                    "r2": r2,
+                    "n_models": int(sub["model_id"].nunique()),
+                }
+            )
+    pd.DataFrame(law_rows_conditioned_family).to_csv(
+        suite_dir / "suite_scaling_laws_conditioned_by_family.csv",
+        index=False,
+    )
 
     with (suite_dir / "suite_report.md").open("w", encoding="utf-8") as f:
         f.write("# Suite Report\n\n")
@@ -431,7 +688,13 @@ def main() -> None:
         f.write("- `suite_effect_vs_control.csv`\n")
         f.write("- `suite_prompt_style_summary.csv`\n")
         f.write("- `suite_scale_trends.csv`\n")
+        f.write("- `suite_scale_trends_by_family.csv`\n")
+        f.write("- `suite_scale_trends_conditioned.csv`\n")
+        f.write("- `suite_scale_trends_conditioned_by_family.csv`\n")
         f.write("- `suite_scaling_laws.csv`\n")
+        f.write("- `suite_scaling_laws_by_family.csv`\n")
+        f.write("- `suite_scaling_laws_conditioned.csv`\n")
+        f.write("- `suite_scaling_laws_conditioned_by_family.csv`\n")
         f.write("- `suite_seed_consistency.csv`\n")
         f.write("- `suite_bootstrap_bands.csv`\n")
 
@@ -441,7 +704,13 @@ def main() -> None:
     print(f"[suite-analysis] wrote {suite_dir / 'suite_effect_vs_control.csv'}")
     print(f"[suite-analysis] wrote {suite_dir / 'suite_prompt_style_summary.csv'}")
     print(f"[suite-analysis] wrote {suite_dir / 'suite_scale_trends.csv'}")
+    print(f"[suite-analysis] wrote {suite_dir / 'suite_scale_trends_by_family.csv'}")
+    print(f"[suite-analysis] wrote {suite_dir / 'suite_scale_trends_conditioned.csv'}")
+    print(f"[suite-analysis] wrote {suite_dir / 'suite_scale_trends_conditioned_by_family.csv'}")
     print(f"[suite-analysis] wrote {suite_dir / 'suite_scaling_laws.csv'}")
+    print(f"[suite-analysis] wrote {suite_dir / 'suite_scaling_laws_by_family.csv'}")
+    print(f"[suite-analysis] wrote {suite_dir / 'suite_scaling_laws_conditioned.csv'}")
+    print(f"[suite-analysis] wrote {suite_dir / 'suite_scaling_laws_conditioned_by_family.csv'}")
     print(f"[suite-analysis] wrote {suite_dir / 'suite_seed_consistency.csv'}")
     print(f"[suite-analysis] wrote {suite_dir / 'suite_bootstrap_bands.csv'}")
     print(f"[suite-analysis] wrote {suite_dir / 'suite_report.md'}")

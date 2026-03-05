@@ -28,11 +28,12 @@ def _select_token_hidden_states(
     token_position: int,
 ) -> torch.Tensor:
     batch, seq_len, hidden = hidden_states.shape
+    lengths = attention_mask.sum(dim=1)
+    left_pad = seq_len - lengths
     if token_position >= 0:
-        idx = torch.full((batch,), token_position, device=hidden_states.device, dtype=torch.long)
+        idx = left_pad + token_position
     else:
-        lengths = attention_mask.sum(dim=1) - 1
-        idx = lengths + token_position + 1
+        idx = left_pad + lengths + token_position
     idx = torch.clamp(idx, 0, seq_len - 1)
     gather_idx = idx.view(batch, 1, 1).expand(batch, 1, hidden)
     selected = torch.gather(hidden_states, 1, gather_idx).squeeze(1)

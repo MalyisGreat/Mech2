@@ -3,6 +3,7 @@ from __future__ import annotations
 import argparse
 import csv
 import json
+import os
 import sys
 from dataclasses import replace
 from datetime import datetime
@@ -50,6 +51,13 @@ def parse_args() -> argparse.Namespace:
         default="max_thorough_suite",
         help="Logical suite name for output folder.",
     )
+    parser.add_argument(
+        "--gpus",
+        nargs="*",
+        type=int,
+        default=None,
+        help="Optional GPU ids. Use multiple ids to shard models per job in parallel.",
+    )
     return parser.parse_args()
 
 
@@ -57,9 +65,12 @@ def main() -> None:
     _add_src_to_path()
     from identity_stability.config import load_run_config
     from identity_stability.experiment import run_experiment
+    from identity_stability.multi_gpu import run_experiment_multi_gpu
     from identity_stability.prompt_bank import supported_concepts
 
     args = parse_args()
+    if args.gpus and len(args.gpus) == 1:
+        os.environ["CUDA_VISIBLE_DEVICES"] = str(args.gpus[0])
     cfg = load_run_config(args.config)
     cfg.output_root.mkdir(parents=True, exist_ok=True)
     cfg.model_cache_dir.mkdir(parents=True, exist_ok=True)
@@ -93,7 +104,15 @@ def main() -> None:
                     token_position=token_position,
                 )
                 try:
-                    run_dir = run_experiment(run_cfg)
+                    if args.gpus and len(args.gpus) > 1:
+                        run_dir = run_experiment_multi_gpu(
+                            config=run_cfg,
+                            gpu_ids=list(args.gpus),
+                            source_config_path=args.config,
+                            run_label=f"max_mgpu_{concept}_s{seed}_t{token_position}",
+                        )
+                    else:
+                        run_dir = run_experiment(run_cfg)
                     manifest_rows.append(
                         {
                             "concept_name": concept,

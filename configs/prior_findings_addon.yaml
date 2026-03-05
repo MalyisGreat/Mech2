@@ -47,6 +47,8 @@ model_cache_dir: D:/hf-model-cache
 dtype: float16
 use_gpu: true
 recovery_threshold: 0.25
+layer_topk_tokens: 10
+layer_topk_prompt_limit: 1
 prompt_styles:
   - factual
   - technical

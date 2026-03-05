@@ -26,6 +26,14 @@ STYLE_SCENARIOS: dict[str, list[str]] = {
         "someone asks for directions in an unfamiliar area",
         "a user asks for the exact timeline for a bug fix",
         "a teammate asks what changed in the latest deployment",
+        "a patient asks for side effects of a new medication",
+        "a tenant asks when maintenance will fix a broken heater",
+        "a customer asks why their payment was declined",
+        "a student asks for the grading rubric deadline",
+        "a traveler asks whether a flight delay changes connections",
+        "a homeowner asks what permits are needed for renovation",
+        "a buyer asks for warranty coverage details",
+        "a user asks which account settings were recently changed",
     ],
     "technical": [
         "a user reports a bug right before launch",
@@ -36,6 +44,14 @@ STYLE_SCENARIOS: dict[str, list[str]] = {
         "a coworker asks how to reduce API latency",
         "a team asks whether to use full fine-tuning or LoRA",
         "a developer asks for help debugging failing tests",
+        "an API starts returning intermittent 500 errors",
+        "a production job is stuck after a schema migration",
+        "a teammate asks whether to shard a growing database",
+        "an on-call engineer needs a rollback decision",
+        "a model deployment shows latency regressions in one region",
+        "a PR introduces flaky tests in CI",
+        "a service needs rate limiting to stop abuse",
+        "a data pipeline drops records after midnight",
     ],
     "emotional": [
         "a friend cancels plans at the last minute",
@@ -46,6 +62,14 @@ STYLE_SCENARIOS: dict[str, list[str]] = {
         "a teammate misses a deadline and messages you apologizing",
         "a roommate forgets to pay their share of rent",
         "a friend asks for help moving on short notice",
+        "a sibling asks for support after losing a job",
+        "a teammate feels ignored after their idea was dismissed",
+        "a friend says they feel overwhelmed and stuck",
+        "a customer writes that your product ruined their day",
+        "a colleague is anxious before a major presentation",
+        "a family member asks for help during a conflict",
+        "a friend apologizes for breaking your trust",
+        "someone shares bad news and asks how to cope",
     ],
     "ambiguous": [
         "a colleague asks for feedback on a rough draft",
@@ -56,6 +80,14 @@ STYLE_SCENARIOS: dict[str, list[str]] = {
         "a volunteer asks for help organizing an event",
         "someone asks for your opinion on their portfolio",
         "a neighbor asks you to lower loud music",
+        "a coworker asks for a favor without giving details",
+        "someone asks if you can recommend them publicly",
+        "a manager asks for your honest view on a teammate",
+        "a friend asks to borrow money with no timeline",
+        "a collaborator requests last-minute changes before launch",
+        "someone asks whether you agree with a controversial take",
+        "a neighbor asks to use your equipment for an unknown task",
+        "a classmate asks for your notes before an exam",
     ],
 }
 
@@ -89,7 +121,7 @@ def build_prompt_set(
             candidates.append((style, scenario))
     rng.shuffle(candidates)
 
-    total_needed = max(estimation_count, evaluation_count)
+    total_needed = estimation_count + evaluation_count
     if total_needed > len(candidates):
         raise ValueError(
             f"Requested {total_needed} prompts but only {len(candidates)} scenarios are available."
@@ -97,7 +129,7 @@ def build_prompt_set(
 
     selected = candidates[:total_needed]
     est = selected[:estimation_count]
-    eval_sc = selected[:evaluation_count]
+    eval_sc = selected[estimation_count : estimation_count + evaluation_count]
 
     positive = [spec.positive_template.format(scenario=scenario) for _, scenario in est]
     negative = [spec.negative_template.format(scenario=scenario) for _, scenario in est]

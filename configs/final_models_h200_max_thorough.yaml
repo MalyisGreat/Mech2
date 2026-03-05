@@ -4,15 +4,11 @@ model_ids:
   - Qwen/Qwen2.5-1.5B-Instruct
   - Qwen/Qwen2.5-3B-Instruct
   - Qwen/Qwen2.5-7B-Instruct
-  - Qwen/Qwen2.5-32B-Instruct
   # Qwen3 dense
   - Qwen/Qwen3-0.6B
   - Qwen/Qwen3-1.7B
   - Qwen/Qwen3-4B
   - Qwen/Qwen3-8B
-  - Qwen/Qwen3-32B
-  # Qwen3.5 capped near ~30B active params
-  - Qwen/Qwen3.5-35B-A3B
   # GPT-2 family
   - gpt2
   - gpt2-medium

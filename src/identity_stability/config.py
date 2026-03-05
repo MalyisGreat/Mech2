@@ -32,6 +32,8 @@ class RunConfig:
     attention_backend: str = "auto"
     enable_tf32: bool = True
     prompt_styles: list[str] = field(default_factory=list)
+    layer_topk_tokens: int = 0
+    layer_topk_prompt_limit: int = 1
 
 
 def _require_key(raw: dict[str, Any], key: str) -> Any:
@@ -69,4 +71,6 @@ def load_run_config(path: str | Path) -> RunConfig:
         attention_backend=str(raw.get("attention_backend", "auto")),
         enable_tf32=bool(raw.get("enable_tf32", True)),
         prompt_styles=[str(x) for x in raw.get("prompt_styles", [])],
+        layer_topk_tokens=int(raw.get("layer_topk_tokens", 0)),
+        layer_topk_prompt_limit=int(raw.get("layer_topk_prompt_limit", 1)),
     )

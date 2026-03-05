@@ -75,6 +75,8 @@ def load_model(
     tokenizer = AutoTokenizer.from_pretrained(model_id, cache_dir=str(cache_dir))
     if tokenizer.pad_token_id is None:
         tokenizer.pad_token = tokenizer.eos_token
+    # Left padding avoids generation-time artifacts for decoder-only LMs in batched mode.
+    tokenizer.padding_side = "left"
 
     model = None
     last_exc: Exception | None = None

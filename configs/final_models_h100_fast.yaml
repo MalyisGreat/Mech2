@@ -45,6 +45,8 @@ trace_batch_size: 16
 adaptive_batching: true
 attention_backend: sdpa
 enable_tf32: true
+layer_topk_tokens: 10
+layer_topk_prompt_limit: 1
 prompt_styles:
   - factual
   - technical

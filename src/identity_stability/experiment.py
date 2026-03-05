@@ -1,10 +1,16 @@
 from __future__ import annotations
 
+import importlib.metadata as importlib_metadata
 import json
+import platform
 import random
+import subprocess
+import time
+import uuid
 from dataclasses import asdict
 from datetime import datetime
 from pathlib import Path
+from typing import Any
 
 import numpy as np
 import pandas as pd
@@ -44,6 +50,75 @@ def _to_jsonable(value: object) -> object:
     return value
 
 
+def _safe_cmd(args: list[str], cwd: Path) -> str | None:
+    try:
+        proc = subprocess.run(
+            args,
+            cwd=str(cwd),
+            capture_output=True,
+            text=True,
+            check=True,
+        )
+    except Exception:
+        return None
+    out = proc.stdout.strip()
+    return out if out else None
+
+
+def _collect_git_info(repo_root: Path) -> dict[str, Any]:
+    head = _safe_cmd(["git", "rev-parse", "HEAD"], cwd=repo_root)
+    branch = _safe_cmd(["git", "rev-parse", "--abbrev-ref", "HEAD"], cwd=repo_root)
+    status = _safe_cmd(["git", "status", "--porcelain"], cwd=repo_root)
+    return {
+        "repo_root": str(repo_root),
+        "commit": head,
+        "branch": branch,
+        "dirty": bool(status),
+    }
+
+
+def _collect_runtime_info() -> dict[str, Any]:
+    package_names = [
+        "torch",
+        "transformers",
+        "huggingface_hub",
+        "numpy",
+        "pandas",
+        "pyyaml",
+        "scikit-learn",
+    ]
+    package_versions: dict[str, str | None] = {}
+    for pkg in package_names:
+        try:
+            package_versions[pkg] = importlib_metadata.version(pkg)
+        except importlib_metadata.PackageNotFoundError:
+            package_versions[pkg] = None
+
+    cuda_devices: list[dict[str, Any]] = []
+    if torch.cuda.is_available():
+        for i in range(torch.cuda.device_count()):
+            props = torch.cuda.get_device_properties(i)
+            cuda_devices.append(
+                {
+                    "index": i,
+                    "name": props.name,
+                    "total_memory_bytes": int(props.total_memory),
+                    "multiprocessor_count": int(props.multi_processor_count),
+                    "compute_capability": f"{props.major}.{props.minor}",
+                }
+            )
+
+    return {
+        "platform": platform.platform(),
+        "python_version": platform.python_version(),
+        "torch_version": torch.__version__,
+        "cuda_available": bool(torch.cuda.is_available()),
+        "cuda_device_count": int(torch.cuda.device_count()) if torch.cuda.is_available() else 0,
+        "cuda_devices": cuda_devices,
+        "package_versions": package_versions,
+    }
+
+
 def _configure_cuda_runtime(enable_tf32: bool) -> None:
     if not torch.cuda.is_available():
         return
@@ -69,6 +144,8 @@ def _trace_prompts_batched(
     inject_layer: int | None = None,
     inject_vector: torch.Tensor | None = None,
     alpha: float = 0.0,
+    layer_topk_tokens: int = 0,
+    layer_topk_prompt_limit: int = 1,
 ) -> list[TraceResult]:
     if not prompts:
         return []
@@ -88,6 +165,8 @@ def _trace_prompts_batched(
                 inject_layer=inject_layer,
                 inject_vector=inject_vector,
                 alpha=alpha,
+                layer_topk_tokens=layer_topk_tokens,
+                layer_topk_prompt_limit=layer_topk_prompt_limit,
             )
             results.extend(out)
             i += len(chunk)
@@ -105,9 +184,24 @@ def _trace_prompts_batched(
 def run_experiment(config: RunConfig) -> Path:
     _set_seed(config.seed)
     _configure_cuda_runtime(config.enable_tf32)
+    run_started_at = time.time()
     run_stamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    run_id = str(uuid.uuid4())
     run_dir = config.output_root / run_stamp
-    run_dir.mkdir(parents=True, exist_ok=True)
+    if run_dir.exists():
+        run_dir = config.output_root / f"{run_stamp}_{run_id[:8]}"
+    run_dir.mkdir(parents=True, exist_ok=False)
+
+    repo_root = Path(__file__).resolve().parents[2]
+    provenance = {
+        "run_id": run_id,
+        "run_stamp": run_stamp,
+        "started_at_utc": datetime.utcnow().isoformat(timespec="seconds") + "Z",
+        "runtime": _collect_runtime_info(),
+        "git": _collect_git_info(repo_root=repo_root),
+    }
+    with (run_dir / "run_provenance.json").open("w", encoding="utf-8") as f:
+        json.dump(_to_jsonable(provenance), f, indent=2)
 
     with (run_dir / "resolved_config.json").open("w", encoding="utf-8") as f:
         json.dump(_to_jsonable(asdict(config)), f, indent=2)
@@ -121,6 +215,27 @@ def run_experiment(config: RunConfig) -> Path:
     )
 
     with (run_dir / "prompt_set.json").open("w", encoding="utf-8") as f:
+        estimation_pairs = []
+        for idx, (positive, negative, style) in enumerate(
+            zip(prompts.positive, prompts.negative, prompts.estimation_styles)
+        ):
+            estimation_pairs.append(
+                {
+                    "pair_id": f"est_{idx:03d}",
+                    "style": style,
+                    "positive_prompt": positive,
+                    "negative_prompt": negative,
+                }
+            )
+        evaluation_records = []
+        for idx, (prompt, style) in enumerate(zip(prompts.evaluation, prompts.evaluation_styles)):
+            evaluation_records.append(
+                {
+                    "prompt_id": f"eval_{idx:03d}",
+                    "style": style,
+                    "prompt": prompt,
+                }
+            )
         json.dump(
             {
                 "concept_name": prompts.concept_name,
@@ -129,6 +244,8 @@ def run_experiment(config: RunConfig) -> Path:
                 "evaluation": prompts.evaluation,
                 "estimation_styles": prompts.estimation_styles,
                 "evaluation_styles": prompts.evaluation_styles,
+                "estimation_pairs": estimation_pairs,
+                "evaluation_records": evaluation_records,
             },
             f,
             indent=2,
@@ -136,8 +253,12 @@ def run_experiment(config: RunConfig) -> Path:
 
     all_rows: list[dict[str, object]] = []
     failures: list[dict[str, str]] = []
+    vector_registry_rows: list[dict[str, object]] = []
+    model_registry_rows: list[dict[str, object]] = []
+    topk_records: list[dict[str, object]] = []
 
     for model_id in config.model_ids:
+        model_started_at = time.time()
         model_slug = _slug_model_id(model_id)
         model_dir = run_dir / model_slug
         model_dir.mkdir(parents=True, exist_ok=True)
@@ -153,16 +274,27 @@ def run_experiment(config: RunConfig) -> Path:
             )
         except Exception as exc:  # noqa: BLE001
             failures.append({"model_id": model_id, "error": str(exc)})
+            model_registry_rows.append(
+                {
+                    "model_id": model_id,
+                    "model_slug": model_slug,
+                    "status": "load_failed",
+                    "error": str(exc),
+                    "elapsed_seconds": float(time.time() - model_started_at),
+                }
+            )
             print(f"[model] failed to load {model_id}: {exc}")
             clear_cuda()
             continue
 
+        parameter_count = int(sum(p.numel() for p in loaded.model.parameters()))
         with (model_dir / "model_info.json").open("w", encoding="utf-8") as f:
             json.dump(
                 {
                     "model_id": model_id,
                     "n_layers": loaded.n_layers,
                     "hidden_size": loaded.hidden_size,
+                    "parameter_count": parameter_count,
                     "device": str(loaded.device),
                     "dtype": str(loaded.torch_dtype),
                 },
@@ -170,6 +302,9 @@ def run_experiment(config: RunConfig) -> Path:
                 indent=2,
             )
 
+        model_status = "success"
+        model_error = ""
+        model_rows_start = len(all_rows)
         try:
             layer_indices = resolve_layer_indices(loaded.n_layers, config.layer_positions)
             baseline_traces: list[TraceResult] = []
@@ -194,6 +329,8 @@ def run_experiment(config: RunConfig) -> Path:
                 generate_tokens=config.eval_generation_tokens,
                 batch_size=config.trace_batch_size,
                 adaptive_batching=config.adaptive_batching,
+                layer_topk_tokens=config.layer_topk_tokens,
+                layer_topk_prompt_limit=config.layer_topk_prompt_limit,
             )
             for prompt_idx, baseline in enumerate(baseline_traces):
                 if prompt_idx >= len(prompts.evaluation):
@@ -203,6 +340,23 @@ def run_experiment(config: RunConfig) -> Path:
                     encoding="utf-8",
                 ) as f:
                     f.write(baseline.generated_text)
+                if baseline.layer_topk_tokens is not None:
+                    topk_records.append(
+                        {
+                            "run_id": run_id,
+                            "run_stamp": run_stamp,
+                            "model_id": model_id,
+                            "prompt_index": int(prompt_idx),
+                            "prompt_style": prompts.evaluation_styles[prompt_idx],
+                            "prompt": prompts.evaluation[prompt_idx],
+                            "condition": "baseline",
+                            "vector_method": "baseline",
+                            "alpha": 0.0,
+                            "inject_layer_index": -1,
+                            "topk_tokens": int(config.layer_topk_tokens),
+                            "topk_layers_json": json.dumps(baseline.layer_topk_tokens),
+                        }
+                    )
 
             for layer_index in layer_indices:
                 layer_depth_ratio = float(layer_index / max(1, loaded.n_layers - 1))
@@ -235,6 +389,24 @@ def run_experiment(config: RunConfig) -> Path:
 
                 for vec in vectors:
                     vec_norm = float(torch.linalg.vector_norm(vec.vector).item())
+                    vectors_dir = model_dir / "vectors"
+                    vectors_dir.mkdir(parents=True, exist_ok=True)
+                    vector_file = vectors_dir / f"layer_{layer_index:03d}_{vec.method}.npy"
+                    np.save(vector_file, vec.vector.detach().float().cpu().numpy())
+                    vector_registry_rows.append(
+                        {
+                            "run_id": run_id,
+                            "run_stamp": run_stamp,
+                            "model_id": model_id,
+                            "model_slug": model_slug,
+                            "layer_index": int(layer_index),
+                            "layer_depth_ratio": layer_depth_ratio,
+                            "vector_method": vec.method,
+                            "vector_norm": vec_norm,
+                            "vector_file": str(vector_file),
+                            "vector_metadata_json": json.dumps(vec.metadata, sort_keys=True),
+                        }
+                    )
                     for alpha in config.alphas:
                         print(
                             f"[model] layer={layer_index} method={vec.method} alpha={alpha} "
@@ -251,6 +423,8 @@ def run_experiment(config: RunConfig) -> Path:
                             inject_layer=layer_index,
                             inject_vector=vec.vector,
                             alpha=float(alpha),
+                            layer_topk_tokens=config.layer_topk_tokens,
+                            layer_topk_prompt_limit=config.layer_topk_prompt_limit,
                         )
                         if len(injected_traces) != len(baseline_traces):
                             raise RuntimeError(
@@ -261,6 +435,23 @@ def run_experiment(config: RunConfig) -> Path:
                             zip(baseline_traces, injected_traces)
                         ):
                             prompt = prompts.evaluation[prompt_idx]
+                            if injected.layer_topk_tokens is not None:
+                                topk_records.append(
+                                    {
+                                        "run_id": run_id,
+                                        "run_stamp": run_stamp,
+                                        "model_id": model_id,
+                                        "prompt_index": int(prompt_idx),
+                                        "prompt_style": prompts.evaluation_styles[prompt_idx],
+                                        "prompt": prompt,
+                                        "condition": "injected",
+                                        "vector_method": vec.method,
+                                        "alpha": float(alpha),
+                                        "inject_layer_index": int(layer_index),
+                                        "topk_tokens": int(config.layer_topk_tokens),
+                                        "topk_layers_json": json.dumps(injected.layer_topk_tokens),
+                                    }
+                                )
 
                             metrics = compute_trajectory_metrics(
                                 baseline_states=baseline.per_layer_states,
@@ -287,6 +478,7 @@ def run_experiment(config: RunConfig) -> Path:
                             degradation = metrics.peak_drift_relative
 
                             row = {
+                                "run_id": run_id,
                                 "run_stamp": run_stamp,
                                 "seed": int(config.seed),
                                 "concept_name": prompts.concept_name,
@@ -338,11 +530,28 @@ def run_experiment(config: RunConfig) -> Path:
 
         except RuntimeError as exc:
             failures.append({"model_id": model_id, "error": f"RuntimeError: {exc}"})
+            model_status = "runtime_failed"
+            model_error = f"RuntimeError: {exc}"
             print(f"[model] runtime failure for {model_id}: {exc}")
         except Exception as exc:  # noqa: BLE001
             failures.append({"model_id": model_id, "error": str(exc)})
+            model_status = "failed"
+            model_error = str(exc)
             print(f"[model] unexpected failure for {model_id}: {exc}")
         finally:
+            model_registry_rows.append(
+                {
+                    "model_id": model_id,
+                    "model_slug": model_slug,
+                    "parameter_count": parameter_count,
+                    "n_layers": int(loaded.n_layers),
+                    "hidden_size": int(loaded.hidden_size),
+                    "status": model_status,
+                    "error": model_error,
+                    "rows_emitted": int(len(all_rows) - model_rows_start),
+                    "elapsed_seconds": float(time.time() - model_started_at),
+                }
+            )
             del loaded
             clear_cuda()
 
@@ -433,5 +642,33 @@ def run_experiment(config: RunConfig) -> Path:
 
     with (run_dir / "failures.json").open("w", encoding="utf-8") as f:
         json.dump(failures, f, indent=2)
+
+    if vector_registry_rows:
+        pd.DataFrame(vector_registry_rows).to_csv(run_dir / "vector_registry.csv", index=False)
+    if model_registry_rows:
+        pd.DataFrame(model_registry_rows).to_csv(run_dir / "model_registry.csv", index=False)
+    if topk_records:
+        with (run_dir / "layer_topk_records.jsonl").open("w", encoding="utf-8") as f:
+            for rec in topk_records:
+                f.write(json.dumps(_to_jsonable(rec)) + "\n")
+
+    run_completed_at = time.time()
+    run_summary = {
+        "run_id": run_id,
+        "run_stamp": run_stamp,
+        "concept_name": prompts.concept_name,
+        "seed": int(config.seed),
+        "models_attempted": int(len(config.model_ids)),
+        "models_with_outputs": int(len({row["model_id"] for row in all_rows})) if all_rows else 0,
+        "rows_emitted": int(len(all_rows)),
+        "vector_registry_rows": int(len(vector_registry_rows)),
+        "layer_topk_record_count": int(len(topk_records)),
+        "failure_count": int(len(failures)),
+        "started_at_utc": datetime.utcfromtimestamp(run_started_at).isoformat(timespec="seconds") + "Z",
+        "completed_at_utc": datetime.utcfromtimestamp(run_completed_at).isoformat(timespec="seconds") + "Z",
+        "elapsed_seconds": float(run_completed_at - run_started_at),
+    }
+    with (run_dir / "run_summary.json").open("w", encoding="utf-8") as f:
+        json.dump(run_summary, f, indent=2)
 
     return run_dir
