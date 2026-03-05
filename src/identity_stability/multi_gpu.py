@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import json
 import os
+import re
 import shutil
 import subprocess
 import sys
@@ -36,6 +37,50 @@ def _split_round_robin(items: list[str], buckets: int) -> list[list[str]]:
     for i, item in enumerate(items):
         out[i % len(out)].append(item)
     return out
+
+
+def _estimate_model_size_billions(model_id: str) -> float:
+    mid = model_id.lower()
+
+    if "gpt2-xl" in mid:
+        return 1.5
+    if "gpt2-large" in mid:
+        return 0.774
+    if "gpt2-medium" in mid:
+        return 0.355
+    if mid == "gpt2" or mid.endswith("/gpt2"):
+        return 0.124
+
+    pythia_match = re.search(r"pythia-(\d+(?:\.\d+)?)([mb])", mid)
+    if pythia_match:
+        value = float(pythia_match.group(1))
+        unit = pythia_match.group(2)
+        return value if unit == "b" else value / 1000.0
+
+    # Generic parser for ids containing explicit X.YB / XM fragments.
+    # Example: qwen3-8b, qwen3.5-35b-a3b, llama-7b
+    candidates = re.findall(r"(\d+(?:\.\d+)?)([mb])", mid)
+    sizes_b = []
+    for raw_value, raw_unit in candidates:
+        value = float(raw_value)
+        sizes_b.append(value if raw_unit == "b" else value / 1000.0)
+    if sizes_b:
+        return max(sizes_b)
+
+    return 1.0
+
+
+def _split_weighted_by_size(items: list[str], buckets: int) -> tuple[list[list[str]], list[float]]:
+    n_buckets = max(1, buckets)
+    out = [[] for _ in range(n_buckets)]
+    loads = [0.0 for _ in range(n_buckets)]
+    ordered = sorted(items, key=_estimate_model_size_billions, reverse=True)
+    for item in ordered:
+        i = min(range(n_buckets), key=lambda idx: loads[idx])
+        weight = _estimate_model_size_billions(item)
+        out[i].append(item)
+        loads[i] += weight
+    return out, loads
 
 
 def _resolve_worker_cpu_threads(requested_threads: int, worker_count: int) -> int:
@@ -219,7 +264,7 @@ def run_experiment_multi_gpu(
     logs_root.mkdir(parents=True, exist_ok=True)
     merged_run_dir.mkdir(parents=True, exist_ok=True)
 
-    model_shards = _split_round_robin(list(config.model_ids), len(gpu_ids))
+    model_shards, shard_estimated_loads = _split_weighted_by_size(list(config.model_ids), len(gpu_ids))
     worker_specs = [(gpu, shard) for gpu, shard in zip(gpu_ids, model_shards) if shard]
     worker_cpu_threads = _resolve_worker_cpu_threads(
         requested_threads=int(config.cpu_threads_per_worker),
@@ -268,6 +313,7 @@ def run_experiment_multi_gpu(
                 "worker_index": worker_idx,
                 "gpu_id": gpu_id,
                 "models": shard_models,
+                "estimated_model_size_b": float(shard_estimated_loads[worker_idx]),
                 "cpu_threads_per_worker": int(worker_cpu_threads),
                 "worker_output_root": worker_output_root,
                 "process": proc,
@@ -293,6 +339,7 @@ def run_experiment_multi_gpu(
                 "worker_index": launched["worker_index"],
                 "gpu_id": gpu_id,
                 "models": launched["models"],
+                "estimated_model_size_b": float(launched["estimated_model_size_b"]),
                 "cpu_threads_per_worker": int(launched["cpu_threads_per_worker"]),
                 "return_code": int(proc.returncode),
                 "run_dir": str(run_dir) if run_dir is not None else "",
@@ -456,6 +503,7 @@ def run_experiment_multi_gpu(
         "worker_cpu_threads": int(worker_cpu_threads),
         "cpu_interop_threads": int(config.cpu_interop_threads),
         "tokenizers_parallelism": bool(config.tokenizers_parallelism),
+        "sharding_strategy": "weighted_by_estimated_model_size",
         "models_attempted": len(config.model_ids),
         "worker_manifest_json": str(orchestrator_dir / "worker_manifest.json"),
         "elapsed_seconds": float(time.time() - overall_started),

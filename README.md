@@ -96,3 +96,4 @@ Telemetry and compute accounting files now include:
 - `cpu_interop_threads`: PyTorch CPU inter-op thread count (usually keep at `1` for multi-worker GPU jobs).
 - `tokenizers_parallelism`: toggles tokenizer-side thread fanout (`false` recommended on multi-worker runs).
 - `--gpus` (run scripts): optional GPU IDs. With multiple IDs, models are sharded across workers and merged.
+  Multi-GPU sharding is load-balanced by estimated model size (not simple round-robin) to reduce straggler workers.
