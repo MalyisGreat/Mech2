@@ -53,6 +53,7 @@ python scripts/run_experiment.py --config configs/final_models_h100_fast.yaml
 python scripts/run_experiment.py --config configs/final_models_h100_fast.yaml --gpus 0 1 2 3
 python scripts/run_experiment.py --config configs/final_models_h200_4gpu_20vcpu_fast.yaml --gpus 0 1 2 3
 python scripts/run_prior_findings_addon.py --config configs/prior_findings_addon_h200_4gpu_20vcpu.yaml --gpus 0 1 2 3
+python scripts/run_prior_findings_addon.py --config configs/prior_findings_addon_h200_4gpu_20vcpu.yaml --gpus 0 1 2 3 --job-parallelism 4 --seeds 42 43 44 --suite-name addon_3seed_parallel
 ```
 
 Download from model-family config:
@@ -97,3 +98,5 @@ Telemetry and compute accounting files now include:
 - `tokenizers_parallelism`: toggles tokenizer-side thread fanout (`false` recommended on multi-worker runs).
 - `--gpus` (run scripts): optional GPU IDs. With multiple IDs, models are sharded across workers and merged.
   Multi-GPU sharding is load-balanced by estimated model size (not simple round-robin) to reduce straggler workers.
+- `--job-parallelism` (`run_prior_findings_addon.py`): number of add-on jobs to execute concurrently.
+  Use `--gpus 0 1 2 3 --job-parallelism 4` for one job per GPU (higher overall cluster utilization vs sequential jobs).
