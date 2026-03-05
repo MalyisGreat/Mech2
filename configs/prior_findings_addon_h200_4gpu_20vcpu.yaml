@@ -44,12 +44,20 @@ evaluation_prompt_count: 12
 seed: 42
 output_root: C:/Users/joshj/joseph-stroud-identity-stability-research/runs
 model_cache_dir: D:/hf-model-cache
-dtype: float16
+dtype: bfloat16
 use_gpu: true
 recovery_threshold: 0.25
+activation_batch_size: 64
+trace_batch_size: 32
+adaptive_batching: true
+attention_backend: sdpa
+enable_tf32: true
 enable_compute_accounting: true
 enable_gpu_telemetry: true
-gpu_telemetry_interval_sec: 5.0
+gpu_telemetry_interval_sec: 3.0
+cpu_threads_per_worker: 5
+cpu_interop_threads: 1
+tokenizers_parallelism: false
 layer_topk_tokens: 10
 layer_topk_prompt_limit: 1
 prompt_styles:

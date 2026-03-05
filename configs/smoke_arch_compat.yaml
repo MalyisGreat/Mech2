@@ -19,6 +19,12 @@ model_cache_dir: D:/hf-model-cache
 dtype: float16
 use_gpu: true
 recovery_threshold: 0.25
+enable_compute_accounting: true
+enable_gpu_telemetry: true
+gpu_telemetry_interval_sec: 2.0
+cpu_threads_per_worker: 2
+cpu_interop_threads: 1
+tokenizers_parallelism: false
 prompt_styles:
   - factual
   - technical

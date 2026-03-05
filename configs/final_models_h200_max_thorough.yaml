@@ -58,6 +58,12 @@ trace_batch_size: 24
 adaptive_batching: true
 attention_backend: sdpa
 enable_tf32: true
+enable_compute_accounting: true
+enable_gpu_telemetry: true
+gpu_telemetry_interval_sec: 3.0
+cpu_threads_per_worker: 5
+cpu_interop_threads: 1
+tokenizers_parallelism: false
 prompt_styles:
   - factual
   - technical

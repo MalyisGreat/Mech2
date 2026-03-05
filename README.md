@@ -40,6 +40,8 @@ Code lives in `src/identity_stability` and run scripts live in `scripts`.
 8. `configs/final_models_h100_extended.yaml`: extended final-model panel adding 14B checkpoints.
 9. `configs/smoke_arch_compat.yaml`: minimal architecture compatibility smoke test.
 10. `configs/final_models_h200_max_thorough.yaml`: max-density H200/H100 config (post-prune, capped at Qwen/GPT-2 models up to 8B).
+11. `configs/final_models_h200_4gpu_20vcpu_fast.yaml`: fast panel tuned for 4x H200 with 20 vCPU host limits.
+12. `configs/prior_findings_addon_h200_4gpu_20vcpu.yaml`: add-on suite tuned for 4x H200 with 20 vCPU host limits.
 
 ### Typical usage
 ```powershell
@@ -49,6 +51,8 @@ python scripts/run_prior_findings_addon.py --config configs/prior_findings_addon
 python scripts/run_prior_findings_addon.py --config configs/prior_findings_addon.yaml --gpus 0 1 2 3
 python scripts/run_experiment.py --config configs/final_models_h100_fast.yaml
 python scripts/run_experiment.py --config configs/final_models_h100_fast.yaml --gpus 0 1 2 3
+python scripts/run_experiment.py --config configs/final_models_h200_4gpu_20vcpu_fast.yaml --gpus 0 1 2 3
+python scripts/run_prior_findings_addon.py --config configs/prior_findings_addon_h200_4gpu_20vcpu.yaml --gpus 0 1 2 3
 ```
 
 Download from model-family config:
@@ -70,6 +74,10 @@ python scripts/analyze_research_suite.py --manifest runs/max_thorough_v1_<timest
 
 Run outputs are written to `runs/<timestamp>/`.
 Multi-GPU runs produce orchestrator folders like `runs/multi_gpu_experiment_<timestamp>/` and a consolidated result in `merged_run/`.
+Telemetry and compute accounting files now include:
+- `gpu_telemetry.csv` and `gpu_telemetry_summary.json`
+- `compute_accounting.json`
+- per-model `compute_accounting.json` under each model folder
 
 ### Config note
 - `token_position`: token index used for tracing and injection.
@@ -81,4 +89,10 @@ Multi-GPU runs produce orchestrator folders like `runs/multi_gpu_experiment_<tim
 - `enable_tf32`: enables TF32 kernels on CUDA for faster matmul on H100/A100.
 - `layer_topk_tokens`: optional logit-lens top-k token count per hidden-state layer (`0` disables).
 - `layer_topk_prompt_limit`: number of prompts per trace batch for layer top-k logging.
+- `enable_compute_accounting`: logs token-eval and approximate FLOPs accounting (`2N` and `6N` forward approximations).
+- `enable_gpu_telemetry`: enables periodic `nvidia-smi` GPU telemetry sampling into CSV/JSON summaries.
+- `gpu_telemetry_interval_sec`: telemetry polling interval in seconds.
+- `cpu_threads_per_worker`: per-process CPU thread budget (`0` = auto split by worker count).
+- `cpu_interop_threads`: PyTorch CPU inter-op thread count (usually keep at `1` for multi-worker GPU jobs).
+- `tokenizers_parallelism`: toggles tokenizer-side thread fanout (`false` recommended on multi-worker runs).
 - `--gpus` (run scripts): optional GPU IDs. With multiple IDs, models are sharded across workers and merged.

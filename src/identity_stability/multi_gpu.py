@@ -15,6 +15,7 @@ import pandas as pd
 import yaml
 
 from .config import RunConfig
+from .telemetry import summarize_gpu_telemetry_csv
 
 
 DONE_PREFIX = "[done] run directory:"
@@ -35,6 +36,15 @@ def _split_round_robin(items: list[str], buckets: int) -> list[list[str]]:
     for i, item in enumerate(items):
         out[i % len(out)].append(item)
     return out
+
+
+def _resolve_worker_cpu_threads(requested_threads: int, worker_count: int) -> int:
+    if requested_threads > 0:
+        return int(requested_threads)
+    logical_cpu = int(os.cpu_count() or 1)
+    if worker_count <= 0:
+        return max(1, logical_cpu)
+    return max(1, logical_cpu // worker_count)
 
 
 def _parse_run_dir(stdout_text: str) -> Path | None:
@@ -140,6 +150,56 @@ def _write_merged_summaries(df: pd.DataFrame, merged_run_dir: Path) -> None:
             )
 
 
+def _aggregate_compute_accounting(df: pd.DataFrame) -> dict[str, Any]:
+    summary: dict[str, Any] = {
+        "enabled": False,
+        "models_accounted": 0,
+        "trace_calls": 0,
+        "trace_prompt_count": 0,
+        "trace_prompt_token_evals": 0,
+        "trace_generate_prefill_token_evals": 0,
+        "trace_decode_token_evals": 0,
+        "activation_prompt_count": 0,
+        "activation_prompt_token_evals": 0,
+        "total_token_evals": 0,
+        "approx_forward_flops_2n": 0.0,
+        "approx_forward_flops_6n": 0.0,
+    }
+    if df.empty or "compute_accounting_enabled" not in df.columns:
+        return summary
+
+    enabled_mask = (
+        df["compute_accounting_enabled"].astype(str).str.lower().isin(["1", "true", "yes"])
+    )
+    enabled_df = df.loc[enabled_mask].copy()
+    if enabled_df.empty:
+        return summary
+
+    summary["enabled"] = True
+    summary["models_accounted"] = int(len(enabled_df))
+
+    int_cols = [
+        "trace_calls",
+        "trace_prompt_count",
+        "trace_prompt_token_evals",
+        "trace_generate_prefill_token_evals",
+        "trace_decode_token_evals",
+        "activation_prompt_count",
+        "activation_prompt_token_evals",
+        "total_token_evals",
+    ]
+    for col in int_cols:
+        if col in enabled_df.columns:
+            summary[col] = int(pd.to_numeric(enabled_df[col], errors="coerce").fillna(0).sum())
+
+    float_cols = ["approx_forward_flops_2n", "approx_forward_flops_6n"]
+    for col in float_cols:
+        if col in enabled_df.columns:
+            summary[col] = float(pd.to_numeric(enabled_df[col], errors="coerce").fillna(0.0).sum())
+
+    return summary
+
+
 def run_experiment_multi_gpu(
     config: RunConfig,
     gpu_ids: list[int],
@@ -161,6 +221,10 @@ def run_experiment_multi_gpu(
 
     model_shards = _split_round_robin(list(config.model_ids), len(gpu_ids))
     worker_specs = [(gpu, shard) for gpu, shard in zip(gpu_ids, model_shards) if shard]
+    worker_cpu_threads = _resolve_worker_cpu_threads(
+        requested_threads=int(config.cpu_threads_per_worker),
+        worker_count=len(worker_specs),
+    )
     worker_rows: list[dict[str, Any]] = []
     launched_workers: list[dict[str, Any]] = []
 
@@ -174,11 +238,17 @@ def run_experiment_multi_gpu(
         shard_cfg = asdict(config)
         shard_cfg["model_ids"] = shard_models
         shard_cfg["output_root"] = str(worker_output_root)
+        shard_cfg["cpu_threads_per_worker"] = int(worker_cpu_threads)
         with worker_cfg_path.open("w", encoding="utf-8") as f:
             yaml.safe_dump(_to_jsonable(shard_cfg), f, sort_keys=False)
 
         env = os.environ.copy()
         env["CUDA_VISIBLE_DEVICES"] = str(gpu_id)
+        env["OMP_NUM_THREADS"] = str(worker_cpu_threads)
+        env["MKL_NUM_THREADS"] = str(worker_cpu_threads)
+        env["OPENBLAS_NUM_THREADS"] = str(worker_cpu_threads)
+        env["NUMEXPR_NUM_THREADS"] = str(worker_cpu_threads)
+        env["TOKENIZERS_PARALLELISM"] = "true" if config.tokenizers_parallelism else "false"
         cmd = [
             sys.executable,
             str(repo_root / "scripts" / "run_experiment.py"),
@@ -198,6 +268,7 @@ def run_experiment_multi_gpu(
                 "worker_index": worker_idx,
                 "gpu_id": gpu_id,
                 "models": shard_models,
+                "cpu_threads_per_worker": int(worker_cpu_threads),
                 "worker_output_root": worker_output_root,
                 "process": proc,
                 "started_at": time.time(),
@@ -222,6 +293,7 @@ def run_experiment_multi_gpu(
                 "worker_index": launched["worker_index"],
                 "gpu_id": gpu_id,
                 "models": launched["models"],
+                "cpu_threads_per_worker": int(launched["cpu_threads_per_worker"]),
                 "return_code": int(proc.returncode),
                 "run_dir": str(run_dir) if run_dir is not None else "",
                 "elapsed_seconds": float(time.time() - launched["started_at"]),
@@ -244,8 +316,26 @@ def run_experiment_multi_gpu(
     vector_frames: list[pd.DataFrame] = []
     model_frames: list[pd.DataFrame] = []
     topk_lines: list[str] = []
+    telemetry_frames: list[pd.DataFrame] = []
+    worker_telemetry_summaries: list[dict[str, Any]] = []
+    compute_summary: dict[str, Any] = {
+        "enabled": False,
+        "models_accounted": 0,
+        "trace_calls": 0,
+        "trace_prompt_count": 0,
+        "trace_prompt_token_evals": 0,
+        "trace_generate_prefill_token_evals": 0,
+        "trace_decode_token_evals": 0,
+        "activation_prompt_count": 0,
+        "activation_prompt_token_evals": 0,
+        "total_token_evals": 0,
+        "approx_forward_flops_2n": 0.0,
+        "approx_forward_flops_6n": 0.0,
+    }
     worker_prov_dir = merged_run_dir / "worker_provenance"
     worker_prov_dir.mkdir(parents=True, exist_ok=True)
+    worker_telemetry_dir = merged_run_dir / "worker_gpu_telemetry"
+    worker_telemetry_dir.mkdir(parents=True, exist_ok=True)
 
     worker_run_dirs = [Path(row["run_dir"]) for row in worker_rows]
     for i, worker_run_dir in enumerate(worker_run_dirs):
@@ -266,6 +356,29 @@ def run_experiment_multi_gpu(
         topk_path = worker_run_dir / "layer_topk_records.jsonl"
         if topk_path.exists():
             topk_lines.extend(topk_path.read_text(encoding="utf-8").splitlines())
+
+        worker_gpu_csv = worker_run_dir / "gpu_telemetry.csv"
+        if worker_gpu_csv.exists():
+            copied_csv = worker_telemetry_dir / f"worker_{i:02d}_gpu_telemetry.csv"
+            shutil.copy2(worker_gpu_csv, copied_csv)
+            try:
+                frame = pd.read_csv(copied_csv)
+                if not frame.empty:
+                    frame["worker_index"] = int(i)
+                    frame["gpu_id"] = int(worker_rows[i]["gpu_id"])
+                    telemetry_frames.append(frame)
+            except Exception:
+                pass
+
+        worker_gpu_summary = worker_run_dir / "gpu_telemetry_summary.json"
+        if worker_gpu_summary.exists():
+            try:
+                summary_payload = json.loads(worker_gpu_summary.read_text(encoding="utf-8"))
+                summary_payload["worker_index"] = int(i)
+                summary_payload["gpu_id"] = int(worker_rows[i]["gpu_id"])
+                worker_telemetry_summaries.append(summary_payload)
+            except Exception:
+                pass
 
         fail_path = worker_run_dir / "failures.json"
         if fail_path.exists():
@@ -300,11 +413,38 @@ def run_experiment_multi_gpu(
     if vector_frames:
         pd.concat(vector_frames, ignore_index=True).to_csv(merged_run_dir / "vector_registry.csv", index=False)
     if model_frames:
-        pd.concat(model_frames, ignore_index=True).to_csv(merged_run_dir / "model_registry.csv", index=False)
+        merged_model_df = pd.concat(model_frames, ignore_index=True)
+        merged_model_df.to_csv(merged_run_dir / "model_registry.csv", index=False)
+        compute_summary = _aggregate_compute_accounting(merged_model_df)
+    with (merged_run_dir / "compute_accounting.json").open("w", encoding="utf-8") as f:
+        json.dump(_to_jsonable(compute_summary), f, indent=2)
     if topk_lines:
         with (merged_run_dir / "layer_topk_records.jsonl").open("w", encoding="utf-8") as f:
             for line in topk_lines:
                 f.write(line + "\n")
+
+    gpu_telemetry_summary: dict[str, Any] = {
+        "enabled": False,
+        "sample_rows": 0,
+        "gpu_count": 0,
+        "overall": {},
+        "per_gpu": [],
+        "errors": [],
+    }
+    if telemetry_frames:
+        merged_gpu_df = pd.concat(telemetry_frames, ignore_index=True)
+        merged_gpu_csv = merged_run_dir / "gpu_telemetry.csv"
+        merged_gpu_df.to_csv(merged_gpu_csv, index=False)
+        gpu_telemetry_summary = summarize_gpu_telemetry_csv(
+            csv_path=merged_gpu_csv,
+            interval_sec=None,
+            sampler_errors=[],
+        )
+        gpu_telemetry_summary["enabled"] = True
+    if worker_telemetry_summaries:
+        gpu_telemetry_summary["worker_summaries"] = worker_telemetry_summaries
+    with (merged_run_dir / "gpu_telemetry_summary.json").open("w", encoding="utf-8") as f:
+        json.dump(_to_jsonable(gpu_telemetry_summary), f, indent=2)
 
     with (merged_run_dir / "failures.json").open("w", encoding="utf-8") as f:
         json.dump(merged_failures, f, indent=2)
@@ -313,10 +453,15 @@ def run_experiment_multi_gpu(
         "mode": "multi_gpu",
         "gpu_ids": gpu_ids,
         "workers": len(worker_rows),
+        "worker_cpu_threads": int(worker_cpu_threads),
+        "cpu_interop_threads": int(config.cpu_interop_threads),
+        "tokenizers_parallelism": bool(config.tokenizers_parallelism),
         "models_attempted": len(config.model_ids),
         "worker_manifest_json": str(orchestrator_dir / "worker_manifest.json"),
         "elapsed_seconds": float(time.time() - overall_started),
         "worker_run_dirs": [str(p) for p in worker_run_dirs],
+        "compute_accounting": compute_summary,
+        "gpu_telemetry": gpu_telemetry_summary,
     }
     with (merged_run_dir / "run_summary.json").open("w", encoding="utf-8") as f:
         json.dump(run_summary, f, indent=2)

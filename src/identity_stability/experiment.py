@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import importlib.metadata as importlib_metadata
 import json
+import os
 import platform
 import random
 import subprocess
@@ -21,6 +22,7 @@ from .intervention import TraceResult, resolve_layer_indices, run_trace_batch
 from .metrics import compute_trajectory_metrics
 from .modeling import clear_cuda, load_model
 from .prompt_bank import build_prompt_set, get_concept_words
+from .telemetry import GpuTelemetrySampler, summarize_gpu_telemetry_csv
 from .vectors import (
     extract_layer_activations,
     estimate_concept_vectors,
@@ -111,6 +113,11 @@ def _collect_runtime_info() -> dict[str, Any]:
     return {
         "platform": platform.platform(),
         "python_version": platform.python_version(),
+        "cpu_count_logical": int(os.cpu_count() or 0),
+        "torch_num_threads": int(torch.get_num_threads()),
+        "torch_num_interop_threads": (
+            int(torch.get_num_interop_threads()) if hasattr(torch, "get_num_interop_threads") else None
+        ),
         "torch_version": torch.__version__,
         "cuda_available": bool(torch.cuda.is_available()),
         "cuda_device_count": int(torch.cuda.device_count()) if torch.cuda.is_available() else 0,
@@ -126,6 +133,31 @@ def _configure_cuda_runtime(enable_tf32: bool) -> None:
     torch.backends.cudnn.allow_tf32 = bool(enable_tf32)
     if hasattr(torch, "set_float32_matmul_precision"):
         torch.set_float32_matmul_precision("high")
+
+
+def _configure_cpu_runtime(
+    cpu_threads_per_worker: int,
+    cpu_interop_threads: int,
+    tokenizers_parallelism: bool,
+) -> None:
+    if cpu_threads_per_worker > 0:
+        threads = int(cpu_threads_per_worker)
+        os.environ["OMP_NUM_THREADS"] = str(threads)
+        os.environ["MKL_NUM_THREADS"] = str(threads)
+        os.environ["OPENBLAS_NUM_THREADS"] = str(threads)
+        os.environ["NUMEXPR_NUM_THREADS"] = str(threads)
+        try:
+            torch.set_num_threads(threads)
+        except Exception:
+            pass
+
+    if cpu_interop_threads > 0:
+        try:
+            torch.set_num_interop_threads(int(cpu_interop_threads))
+        except Exception:
+            pass
+
+    os.environ["TOKENIZERS_PARALLELISM"] = "true" if tokenizers_parallelism else "false"
 
 
 def _is_oom_error(exc: RuntimeError) -> bool:
@@ -181,8 +213,60 @@ def _trace_prompts_batched(
     return results
 
 
+def _trace_token_totals(traces: list[TraceResult]) -> tuple[int, int]:
+    prompt_tokens = int(sum(int(t.prompt_token_count) for t in traces))
+    generated_tokens = int(sum(int(t.generated_token_count) for t in traces))
+    return prompt_tokens, generated_tokens
+
+
+def _init_compute_counters(enabled: bool) -> dict[str, int | float | bool]:
+    return {
+        "enabled": bool(enabled),
+        "trace_calls": 0,
+        "trace_prompt_count": 0,
+        "trace_prompt_token_evals": 0,
+        "trace_generate_prefill_token_evals": 0,
+        "trace_decode_token_evals": 0,
+        "activation_prompt_count": 0,
+        "activation_prompt_token_evals": 0,
+        "total_token_evals": 0,
+        "approx_forward_flops_2n": 0.0,
+        "approx_forward_flops_6n": 0.0,
+    }
+
+
+def _finalize_compute_counters(
+    counters: dict[str, int | float | bool],
+    parameter_count: int,
+    elapsed_seconds: float,
+) -> dict[str, int | float | bool]:
+    if not bool(counters.get("enabled", False)):
+        return counters
+
+    total_token_evals = int(
+        int(counters["trace_prompt_token_evals"])
+        + int(counters["trace_generate_prefill_token_evals"])
+        + int(counters["trace_decode_token_evals"])
+        + int(counters["activation_prompt_token_evals"])
+    )
+    counters["total_token_evals"] = total_token_evals
+    counters["approx_forward_flops_2n"] = float(2.0 * float(parameter_count) * float(total_token_evals))
+    counters["approx_forward_flops_6n"] = float(6.0 * float(parameter_count) * float(total_token_evals))
+    counters["token_evals_per_second"] = (
+        float(total_token_evals) / max(1e-9, float(elapsed_seconds))
+        if elapsed_seconds > 0
+        else None
+    )
+    return counters
+
+
 def run_experiment(config: RunConfig) -> Path:
     _set_seed(config.seed)
+    _configure_cpu_runtime(
+        cpu_threads_per_worker=config.cpu_threads_per_worker,
+        cpu_interop_threads=config.cpu_interop_threads,
+        tokenizers_parallelism=config.tokenizers_parallelism,
+    )
     _configure_cuda_runtime(config.enable_tf32)
     run_started_at = time.time()
     run_stamp = datetime.now().strftime("%Y%m%d_%H%M%S")
@@ -205,6 +289,24 @@ def run_experiment(config: RunConfig) -> Path:
 
     with (run_dir / "resolved_config.json").open("w", encoding="utf-8") as f:
         json.dump(_to_jsonable(asdict(config)), f, indent=2)
+
+    telemetry_summary: dict[str, Any] = {
+        "enabled": False,
+        "csv_path": str(run_dir / "gpu_telemetry.csv"),
+        "interval_sec": float(config.gpu_telemetry_interval_sec),
+        "sample_rows": 0,
+        "gpu_count": 0,
+        "overall": {},
+        "per_gpu": [],
+        "errors": [],
+    }
+    telemetry_sampler: GpuTelemetrySampler | None = None
+    if config.enable_gpu_telemetry:
+        telemetry_sampler = GpuTelemetrySampler(
+            csv_path=run_dir / "gpu_telemetry.csv",
+            interval_sec=config.gpu_telemetry_interval_sec,
+        )
+        telemetry_sampler.start()
 
     prompts = build_prompt_set(
         concept_name=config.concept_name,
@@ -305,6 +407,7 @@ def run_experiment(config: RunConfig) -> Path:
         model_status = "success"
         model_error = ""
         model_rows_start = len(all_rows)
+        model_compute = _init_compute_counters(config.enable_compute_accounting)
         try:
             layer_indices = resolve_layer_indices(loaded.n_layers, config.layer_positions)
             baseline_traces: list[TraceResult] = []
@@ -332,6 +435,22 @@ def run_experiment(config: RunConfig) -> Path:
                 layer_topk_tokens=config.layer_topk_tokens,
                 layer_topk_prompt_limit=config.layer_topk_prompt_limit,
             )
+            if bool(model_compute["enabled"]):
+                base_prompt_tokens, base_generated_tokens = _trace_token_totals(baseline_traces)
+                model_compute["trace_calls"] = int(model_compute["trace_calls"]) + 1
+                model_compute["trace_prompt_count"] = int(model_compute["trace_prompt_count"]) + len(
+                    baseline_traces
+                )
+                model_compute["trace_prompt_token_evals"] = int(
+                    model_compute["trace_prompt_token_evals"]
+                ) + int(base_prompt_tokens)
+                model_compute["trace_decode_token_evals"] = int(
+                    model_compute["trace_decode_token_evals"]
+                ) + int(base_generated_tokens)
+                if config.eval_generation_tokens > 0:
+                    model_compute["trace_generate_prefill_token_evals"] = int(
+                        model_compute["trace_generate_prefill_token_evals"]
+                    ) + int(base_prompt_tokens)
             for prompt_idx, baseline in enumerate(baseline_traces):
                 if prompt_idx >= len(prompts.evaluation):
                     break
@@ -361,22 +480,31 @@ def run_experiment(config: RunConfig) -> Path:
             for layer_index in layer_indices:
                 layer_depth_ratio = float(layer_index / max(1, loaded.n_layers - 1))
                 print(f"[model] estimating vectors at layer {layer_index}")
-                pos_acts = extract_layer_activations(
+                pos_acts, pos_stats = extract_layer_activations(
                     loaded=loaded,
                     prompts=prompts.positive,
                     layer_index=layer_index,
                     token_position=config.estimation_token_position,
                     max_prompt_tokens=config.max_prompt_tokens,
                     batch_size=config.activation_batch_size,
+                    return_stats=True,
                 )
-                neg_acts = extract_layer_activations(
+                neg_acts, neg_stats = extract_layer_activations(
                     loaded=loaded,
                     prompts=prompts.negative,
                     layer_index=layer_index,
                     token_position=config.estimation_token_position,
                     max_prompt_tokens=config.max_prompt_tokens,
                     batch_size=config.activation_batch_size,
+                    return_stats=True,
                 )
+                if bool(model_compute["enabled"]):
+                    model_compute["activation_prompt_count"] = int(
+                        model_compute["activation_prompt_count"]
+                    ) + int(pos_stats["prompt_count"]) + int(neg_stats["prompt_count"])
+                    model_compute["activation_prompt_token_evals"] = int(
+                        model_compute["activation_prompt_token_evals"]
+                    ) + int(pos_stats["prompt_token_count"]) + int(neg_stats["prompt_token_count"])
 
                 vectors = estimate_concept_vectors(
                     methods=[m for m in config.vector_methods if m != "word_centroid"],
@@ -426,6 +554,22 @@ def run_experiment(config: RunConfig) -> Path:
                             layer_topk_tokens=config.layer_topk_tokens,
                             layer_topk_prompt_limit=config.layer_topk_prompt_limit,
                         )
+                        if bool(model_compute["enabled"]):
+                            inj_prompt_tokens, inj_generated_tokens = _trace_token_totals(injected_traces)
+                            model_compute["trace_calls"] = int(model_compute["trace_calls"]) + 1
+                            model_compute["trace_prompt_count"] = int(
+                                model_compute["trace_prompt_count"]
+                            ) + len(injected_traces)
+                            model_compute["trace_prompt_token_evals"] = int(
+                                model_compute["trace_prompt_token_evals"]
+                            ) + int(inj_prompt_tokens)
+                            model_compute["trace_decode_token_evals"] = int(
+                                model_compute["trace_decode_token_evals"]
+                            ) + int(inj_generated_tokens)
+                            if config.eval_generation_tokens > 0:
+                                model_compute["trace_generate_prefill_token_evals"] = int(
+                                    model_compute["trace_generate_prefill_token_evals"]
+                                ) + int(inj_prompt_tokens)
                         if len(injected_traces) != len(baseline_traces):
                             raise RuntimeError(
                                 "Mismatched batch trace lengths between baseline and injected runs: "
@@ -519,6 +663,10 @@ def run_experiment(config: RunConfig) -> Path:
                                 "next_token_kl": metrics.next_token_kl,
                                 "baseline_generation": baseline.generated_text,
                                 "injected_generation": injected.generated_text,
+                                "baseline_prompt_tokens": int(baseline.prompt_token_count),
+                                "baseline_generated_tokens": int(baseline.generated_token_count),
+                                "injected_prompt_tokens": int(injected.prompt_token_count),
+                                "injected_generated_tokens": int(injected.generated_token_count),
                                 "drift_by_layer": json.dumps(metrics.drift_by_layer),
                                 "relative_drift_by_layer": json.dumps(metrics.relative_drift_by_layer),
                                 "projection_by_layer": json.dumps(metrics.projection_by_layer),
@@ -539,6 +687,14 @@ def run_experiment(config: RunConfig) -> Path:
             model_error = str(exc)
             print(f"[model] unexpected failure for {model_id}: {exc}")
         finally:
+            model_elapsed = float(time.time() - model_started_at)
+            model_compute = _finalize_compute_counters(
+                counters=model_compute,
+                parameter_count=parameter_count,
+                elapsed_seconds=model_elapsed,
+            )
+            with (model_dir / "compute_accounting.json").open("w", encoding="utf-8") as f:
+                json.dump(_to_jsonable(model_compute), f, indent=2)
             model_registry_rows.append(
                 {
                     "model_id": model_id,
@@ -549,7 +705,23 @@ def run_experiment(config: RunConfig) -> Path:
                     "status": model_status,
                     "error": model_error,
                     "rows_emitted": int(len(all_rows) - model_rows_start),
-                    "elapsed_seconds": float(time.time() - model_started_at),
+                    "elapsed_seconds": model_elapsed,
+                    "compute_accounting_enabled": bool(model_compute["enabled"]),
+                    "trace_calls": int(model_compute["trace_calls"]),
+                    "trace_prompt_count": int(model_compute["trace_prompt_count"]),
+                    "trace_prompt_token_evals": int(model_compute["trace_prompt_token_evals"]),
+                    "trace_generate_prefill_token_evals": int(
+                        model_compute["trace_generate_prefill_token_evals"]
+                    ),
+                    "trace_decode_token_evals": int(model_compute["trace_decode_token_evals"]),
+                    "activation_prompt_count": int(model_compute["activation_prompt_count"]),
+                    "activation_prompt_token_evals": int(
+                        model_compute["activation_prompt_token_evals"]
+                    ),
+                    "total_token_evals": int(model_compute["total_token_evals"]),
+                    "approx_forward_flops_2n": float(model_compute["approx_forward_flops_2n"]),
+                    "approx_forward_flops_6n": float(model_compute["approx_forward_flops_6n"]),
+                    "token_evals_per_second": model_compute.get("token_evals_per_second"),
                 }
             )
             del loaded
@@ -647,10 +819,57 @@ def run_experiment(config: RunConfig) -> Path:
         pd.DataFrame(vector_registry_rows).to_csv(run_dir / "vector_registry.csv", index=False)
     if model_registry_rows:
         pd.DataFrame(model_registry_rows).to_csv(run_dir / "model_registry.csv", index=False)
+    compute_summary = {
+        "enabled": bool(config.enable_compute_accounting),
+        "models_accounted": 0,
+        "trace_calls": 0,
+        "trace_prompt_count": 0,
+        "trace_prompt_token_evals": 0,
+        "trace_generate_prefill_token_evals": 0,
+        "trace_decode_token_evals": 0,
+        "activation_prompt_count": 0,
+        "activation_prompt_token_evals": 0,
+        "total_token_evals": 0,
+        "approx_forward_flops_2n": 0.0,
+        "approx_forward_flops_6n": 0.0,
+    }
+    for row in model_registry_rows:
+        if not bool(row.get("compute_accounting_enabled", False)):
+            continue
+        compute_summary["models_accounted"] += 1
+        compute_summary["trace_calls"] += int(row.get("trace_calls", 0))
+        compute_summary["trace_prompt_count"] += int(row.get("trace_prompt_count", 0))
+        compute_summary["trace_prompt_token_evals"] += int(row.get("trace_prompt_token_evals", 0))
+        compute_summary["trace_generate_prefill_token_evals"] += int(
+            row.get("trace_generate_prefill_token_evals", 0)
+        )
+        compute_summary["trace_decode_token_evals"] += int(row.get("trace_decode_token_evals", 0))
+        compute_summary["activation_prompt_count"] += int(row.get("activation_prompt_count", 0))
+        compute_summary["activation_prompt_token_evals"] += int(
+            row.get("activation_prompt_token_evals", 0)
+        )
+        compute_summary["total_token_evals"] += int(row.get("total_token_evals", 0))
+        compute_summary["approx_forward_flops_2n"] += float(row.get("approx_forward_flops_2n", 0.0))
+        compute_summary["approx_forward_flops_6n"] += float(row.get("approx_forward_flops_6n", 0.0))
+    with (run_dir / "compute_accounting.json").open("w", encoding="utf-8") as f:
+        json.dump(_to_jsonable(compute_summary), f, indent=2)
     if topk_records:
         with (run_dir / "layer_topk_records.jsonl").open("w", encoding="utf-8") as f:
             for rec in topk_records:
                 f.write(json.dumps(_to_jsonable(rec)) + "\n")
+
+    if telemetry_sampler is not None:
+        telemetry_sampler.stop()
+        telemetry_summary = summarize_gpu_telemetry_csv(
+            csv_path=run_dir / "gpu_telemetry.csv",
+            interval_sec=config.gpu_telemetry_interval_sec,
+            sampler_errors=telemetry_sampler.errors,
+        )
+        telemetry_summary["enabled"] = bool(telemetry_sampler.enabled)
+        telemetry_summary["started_at_utc"] = telemetry_sampler.started_at_utc
+        telemetry_summary["stopped_at_utc"] = telemetry_sampler.stopped_at_utc
+    with (run_dir / "gpu_telemetry_summary.json").open("w", encoding="utf-8") as f:
+        json.dump(_to_jsonable(telemetry_summary), f, indent=2)
 
     run_completed_at = time.time()
     run_summary = {
@@ -664,6 +883,8 @@ def run_experiment(config: RunConfig) -> Path:
         "vector_registry_rows": int(len(vector_registry_rows)),
         "layer_topk_record_count": int(len(topk_records)),
         "failure_count": int(len(failures)),
+        "compute_accounting": compute_summary,
+        "gpu_telemetry": telemetry_summary,
         "started_at_utc": datetime.utcfromtimestamp(run_started_at).isoformat(timespec="seconds") + "Z",
         "completed_at_utc": datetime.utcfromtimestamp(run_completed_at).isoformat(timespec="seconds") + "Z",
         "elapsed_seconds": float(run_completed_at - run_started_at),

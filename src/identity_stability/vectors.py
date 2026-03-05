@@ -47,12 +47,14 @@ def extract_layer_activations(
     token_position: int,
     max_prompt_tokens: int,
     batch_size: int = 4,
-) -> torch.Tensor:
+    return_stats: bool = False,
+) -> torch.Tensor | tuple[torch.Tensor, dict[str, int]]:
     model = loaded.model
     tokenizer = loaded.tokenizer
     device = loaded.device
 
     outputs: list[torch.Tensor] = []
+    total_prompt_tokens = 0
     with torch.inference_mode():
         for batch_prompts in _batched(prompts, batch_size):
             encoded = tokenizer(
@@ -63,6 +65,7 @@ def extract_layer_activations(
                 max_length=max_prompt_tokens,
             )
             encoded = {k: v.to(device) for k, v in encoded.items()}
+            total_prompt_tokens += int(encoded["attention_mask"].sum().item())
             result = model(
                 **encoded,
                 output_hidden_states=True,
@@ -72,7 +75,15 @@ def extract_layer_activations(
             hidden = result.hidden_states[layer_index]
             selected = _select_token_hidden_states(hidden, encoded["attention_mask"], token_position)
             outputs.append(selected.detach().float().cpu())
-    return torch.cat(outputs, dim=0)
+    acts = torch.cat(outputs, dim=0)
+    if not return_stats:
+        return acts
+    stats = {
+        "prompt_count": int(len(prompts)),
+        "prompt_token_count": int(total_prompt_tokens),
+        "layer_index": int(layer_index),
+    }
+    return acts, stats
 
 
 def _normalize(vec: np.ndarray) -> np.ndarray:

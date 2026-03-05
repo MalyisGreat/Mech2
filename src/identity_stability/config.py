@@ -34,6 +34,12 @@ class RunConfig:
     prompt_styles: list[str] = field(default_factory=list)
     layer_topk_tokens: int = 0
     layer_topk_prompt_limit: int = 1
+    enable_compute_accounting: bool = True
+    enable_gpu_telemetry: bool = True
+    gpu_telemetry_interval_sec: float = 5.0
+    cpu_threads_per_worker: int = 0
+    cpu_interop_threads: int = 1
+    tokenizers_parallelism: bool = False
 
 
 def _require_key(raw: dict[str, Any], key: str) -> Any:
@@ -73,4 +79,10 @@ def load_run_config(path: str | Path) -> RunConfig:
         prompt_styles=[str(x) for x in raw.get("prompt_styles", [])],
         layer_topk_tokens=int(raw.get("layer_topk_tokens", 0)),
         layer_topk_prompt_limit=int(raw.get("layer_topk_prompt_limit", 1)),
+        enable_compute_accounting=bool(raw.get("enable_compute_accounting", True)),
+        enable_gpu_telemetry=bool(raw.get("enable_gpu_telemetry", True)),
+        gpu_telemetry_interval_sec=float(raw.get("gpu_telemetry_interval_sec", 5.0)),
+        cpu_threads_per_worker=int(raw.get("cpu_threads_per_worker", 0)),
+        cpu_interop_threads=int(raw.get("cpu_interop_threads", 1)),
+        tokenizers_parallelism=bool(raw.get("tokenizers_parallelism", False)),
     )

@@ -15,6 +15,8 @@ class TraceResult:
     per_layer_states: torch.Tensor
     next_token_logits: torch.Tensor
     generated_text: str
+    prompt_token_count: int = 0
+    generated_token_count: int = 0
     layer_topk_tokens: list[dict[str, Any]] | None = None
 
 
@@ -181,6 +183,7 @@ def run_trace_batch(
     )
     encoded = {k: v.to(device) for k, v in encoded.items()}
     attention_mask = encoded["attention_mask"]
+    prompt_token_counts = attention_mask.sum(dim=1).detach().cpu().tolist()
     token_idx = _select_indices(attention_mask, token_position)
     last_prompt_idx = _select_indices(attention_mask, -1)
 
@@ -248,8 +251,11 @@ def run_trace_batch(
                     eos_token_id=tokenizer.eos_token_id,
                 )
                 generated_texts = tokenizer.batch_decode(generated_ids, skip_special_tokens=True)
+                generated_steps = int(max(0, generated_ids.shape[1] - encoded["input_ids"].shape[1]))
+                generated_token_counts = [generated_steps for _ in prompts]
             else:
                 generated_texts = list(prompts)
+                generated_token_counts = [0 for _ in prompts]
     finally:
         if handle is not None:
             handle.remove()
@@ -264,6 +270,8 @@ def run_trace_batch(
                 per_layer_states=per_layer[b],
                 next_token_logits=logits[b],
                 generated_text=generated_texts[b],
+                prompt_token_count=int(prompt_token_counts[b]),
+                generated_token_count=int(generated_token_counts[b]),
                 layer_topk_tokens=per_layer_topk[b],
             )
         )
