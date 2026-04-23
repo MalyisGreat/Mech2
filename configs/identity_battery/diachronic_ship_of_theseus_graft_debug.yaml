@@ -1,0 +1,51 @@
+output_root: C:/Users/joshj/joseph-stroud-identity-stability-research/outputs/latest/diachronic_ship_of_theseus_graft_debug
+model_id: EleutherAI/pythia-410m-deduped
+model_cache_dir: D:/hf-model-cache
+dtype: float16
+use_gpu: true
+attention_backend: auto
+max_prompt_tokens: 160
+generate_tokens: 16
+trace_batch_size: 4
+selection_batch_size: 8
+selection_token_position: -1
+prompt_bank_path: data/diachronic_ship_of_theseus_prompts.yaml
+prompt_limit: 8
+prompt_prefilter_count: 8
+selected_prompt_count: 2
+min_clean_js: 0.0005
+token_positions:
+  - -1
+lambdas:
+  - 0.0
+  - 1.0
+graft_modes:
+  - single_layer
+  - prefix
+  - suffix
+layer_buckets:
+  - label: early
+    position: 0.10
+  - label: middle
+    position: 0.50
+  - label: late
+    position: 0.90
+control_kinds:
+  - primary
+  - adjacent
+  - very_early
+  - random_same_norm
+  - shuffled_prompt
+  - name_only
+run_self_report: true
+checkpoint_every_rows: 50
+recovery_threshold: 0.25
+selection_pair:
+  host_revision: step143000
+  donor_revision: step64000
+pairs:
+  - pair_name: later_host_young_donor
+    host_revision: step143000
+    donor_revision: step64000
+    adjacent_donor_revision: step128000
+    very_early_donor_revision: step4000

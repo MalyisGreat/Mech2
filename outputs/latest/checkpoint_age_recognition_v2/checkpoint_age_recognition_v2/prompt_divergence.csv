@@ -1,0 +1,361 @@
+anchor_revision,comparison_revision,prompt_id,prompt_family,prompt,anchor_vs_comparison_js
+step143000,step128000,explanation_001,explanation,Explain why cities develop public libraries.,0.0053056515753269196
+step143000,step128000,explanation_002,explanation,Explain why neighborhoods create public parks.,0.007859405130147934
+step143000,step128000,explanation_003,explanation,Explain why schools keep science laboratories.,0.015075343661010265
+step143000,step128000,explanation_004,explanation,Explain why museums use wall labels.,0.007674483582377434
+step143000,step128000,explanation_005,explanation,Explain why courts publish written opinions.,0.005039370618760586
+step143000,step128000,explanation_006,explanation,Explain why hospitals use triage systems.,0.008541646413505077
+step143000,step128000,explanation_007,explanation,Explain why towns maintain public transit.,0.013660690747201443
+step143000,step128000,explanation_008,explanation,Explain why archives preserve administrative records.,0.009050831198692322
+step143000,step128000,explanation_009,explanation,Explain why universities require office hours.,0.01876603439450264
+step143000,step128000,explanation_010,explanation,Explain why software teams use version control.,0.013199018314480782
+step143000,step128000,explanation_011,explanation,Explain why newspapers keep corrections pages.,0.010074028745293617
+step143000,step128000,explanation_012,explanation,Explain why research groups maintain lab notebooks.,0.006799457129091024
+step143000,step128000,explanation_013,explanation,Explain why legislatures use committees.,0.01803002506494522
+step143000,step128000,explanation_014,explanation,Explain why cities zone industrial districts.,0.040461957454681396
+step143000,step128000,explanation_015,explanation,Explain why conferences use peer review.,0.009304165840148926
+step143000,step128000,explanation_016,explanation,Explain why teams keep revision logs.,0.025890547782182693
+step143000,step128000,explanation_017,explanation,Explain why schools assign reading lists.,0.02153143286705017
+step143000,step128000,explanation_018,explanation,Explain why community gardens keep shared rules.,0.008779014460742474
+step143000,step128000,explanation_019,explanation,Explain why local governments post meeting minutes.,0.009370519779622555
+step143000,step128000,explanation_020,explanation,Explain why libraries lend more than books.,0.008958401158452034
+step143000,step128000,judgment_001,judgment,Should a school prioritize fairness or excellence when designing a grading policy?,0.014541498385369778
+step143000,step128000,judgment_002,judgment,Should a city spend scarce funds on road repair or public transit first?,0.006787168327718973
+step143000,step128000,judgment_003,judgment,Should a museum favor accessibility or historical completeness when writing labels?,0.008940580300986767
+step143000,step128000,judgment_004,judgment,Should a workplace optimize for speed or careful review when deadlines are tight?,0.0053690532222390175
+step143000,step128000,judgment_005,judgment,Should a hospital use first-come service or urgency-based triage during overload?,0.014804058708250523
+step143000,step128000,judgment_006,judgment,Should a teacher grade participation heavily or lightly?,0.022783882915973663
+step143000,step128000,judgment_007,judgment,Should public policy favor simple rules or case-by-case discretion?,0.0006087417714297771
+step143000,step128000,judgment_008,judgment,Should a newsroom publish quickly with updates or wait for fuller confirmation?,0.008409181609749794
+step143000,step128000,judgment_009,judgment,Should a university require broad general education or early specialization?,0.019243275746703148
+step143000,step128000,judgment_010,judgment,Should a team reuse old tools or switch to a more capable but riskier system?,0.009022430516779423
+step143000,step128000,judgment_011,judgment,Should a grant committee reward bold novelty or reliable execution?,0.015571264550089836
+step143000,step128000,judgment_012,judgment,Should a court prefer bright-line rules or flexible standards?,0.014980937354266644
+step143000,step128000,judgment_013,judgment,Should a community preserve a historic building or replace it with housing?,0.0042800153605639935
+step143000,step128000,judgment_014,judgment,Should a school ban phones outright or regulate their use?,0.02623770758509636
+step143000,step128000,judgment_015,judgment,Should a public archive digitize rare material or preserve only the originals?,0.012364977970719337
+step143000,step128000,judgment_016,judgment,Should an editor favor clarity or stylistic individuality in a student essay?,0.0072641633450984955
+step143000,step128000,judgment_017,judgment,Should a town build a large central park or several smaller parks?,0.0076172081753611565
+step143000,step128000,judgment_018,judgment,Should an instructor prioritize mastery or coverage in a difficult course?,0.01508130319416523
+step143000,step128000,judgment_019,judgment,Should a firm reward individual stars or consistent team contributors?,0.021129531785845757
+step143000,step128000,judgment_020,judgment,Should public transit prioritize geographic coverage or frequent service?,0.005813100375235081
+step143000,step128000,style_opening_001,style_opening,Write the opening paragraph of an essay about memory.,0.007020039949566126
+step143000,step128000,style_opening_002,style_opening,Write the opening paragraph of an essay about public trust.,0.004983823746442795
+step143000,step128000,style_opening_003,style_opening,Write the opening paragraph of an essay about record keeping.,0.005841191858053207
+step143000,step128000,style_opening_004,style_opening,Write the opening paragraph of an essay about shared spaces.,0.004129981622099876
+step143000,step128000,style_opening_005,style_opening,Write the opening paragraph of an essay about expertise.,0.005715622566640377
+step143000,step128000,style_opening_006,style_opening,Write the opening paragraph of an essay about public attention.,0.005326281301677227
+step143000,step128000,style_opening_007,style_opening,Write the opening paragraph of an essay about revision.,0.008897973224520683
+step143000,step128000,style_opening_008,style_opening,Write the opening paragraph of an essay about evidence.,0.00624636746942997
+step143000,step128000,style_opening_009,style_opening,Write the opening paragraph of an essay about institutions.,0.005427548196166754
+step143000,step128000,style_opening_010,style_opening,Write the opening paragraph of an essay about maintenance.,0.006394285708665848
+step143000,step128000,style_opening_011,style_opening,Write the opening paragraph of an essay about attention.,0.011693818494677544
+step143000,step128000,style_opening_012,style_opening,Write the opening paragraph of an essay about fairness.,0.00682486966252327
+step143000,step128000,style_opening_013,style_opening,Write the opening paragraph of an essay about delay.,0.010835155844688416
+step143000,step128000,style_opening_014,style_opening,Write the opening paragraph of an essay about repair.,0.008780675008893013
+step143000,step128000,style_opening_015,style_opening,Write the opening paragraph of an essay about archives.,0.006992819719016552
+step143000,step128000,style_opening_016,style_opening,Write the opening paragraph of an essay about public language.,0.006306030787527561
+step143000,step128000,style_opening_017,style_opening,Write the opening paragraph of an essay about rules.,0.026330765336751938
+step143000,step128000,style_opening_018,style_opening,Write the opening paragraph of an essay about access.,0.026330765336751938
+step143000,step128000,style_opening_019,style_opening,Write the opening paragraph of an essay about expertise and doubt.,0.0063645970076322556
+step143000,step128000,style_opening_020,style_opening,Write the opening paragraph of an essay about common goods.,0.011699528433382511
+step143000,step128000,advice_001,advice,A student is overwhelmed by choices. What should they do first?,0.005091299302875996
+step143000,step128000,advice_002,advice,A team has too many priorities and too little time. What should they do first?,0.012594953179359436
+step143000,step128000,advice_003,advice,A researcher has collected too much material for one paper. What should they do first?,0.018140416592359543
+step143000,step128000,advice_004,advice,A city office wants to improve a failing service with limited budget. What should it do first?,0.005486846901476383
+step143000,step128000,advice_005,advice,A student wrote a draft that says too many things at once. What should they do first?,0.0038326012436300516
+step143000,step128000,advice_006,advice,A librarian needs to organize a confusing community program. What should they do first?,0.017414642497897148
+step143000,step128000,advice_007,advice,A manager inherits a project with unclear ownership. What should they do first?,0.01477248314768076
+step143000,step128000,advice_008,advice,A committee wants better decisions but its meetings drift. What should it do first?,0.00504572968930006
+step143000,step128000,advice_009,advice,A student has chosen a thesis topic that is too broad. What should they do first?,0.029512975364923477
+step143000,step128000,advice_010,advice,A museum educator wants to make a complex exhibit easier to follow. What should they do first?,0.008993109688162804
+step143000,step128000,advice_011,advice,A public agency receives contradictory feedback from residents. What should it do first?,0.0072965798899531364
+step143000,step128000,advice_012,advice,A team keeps revisiting the same argument without resolving it. What should they do first?,0.00900966301560402
+step143000,step128000,advice_013,advice,A student is falling behind because every assignment feels equally urgent. What should they do first?,0.015565951354801655
+step143000,step128000,advice_014,advice,A department wants better mentoring but no one agrees on the problem. What should they do first?,0.005814089439809322
+step143000,step128000,advice_015,advice,A community group wants to revive a dormant project. What should they do first?,0.009767435491085052
+step143000,step128000,advice_016,advice,A research assistant has messy notes and a deadline. What should they do first?,0.005501688923686743
+step143000,step128000,advice_017,advice,A small town wants to improve civic participation. What should it do first?,0.009226339869201183
+step143000,step128000,advice_018,advice,A team is adopting a new tool but confusion is spreading. What should they do first?,0.007648699916899204
+step143000,step128000,advice_019,advice,A student wants to study more effectively but keeps rereading passively. What should they do first?,0.009753972291946411
+step143000,step128000,advice_020,advice,A nonprofit has an ambitious mission but weak coordination. What should it do first?,0.007462239824235439
+step143000,step128000,continuation_001,continuation,"Continue this sentence into a short paragraph: The old machine started working again, but...",0.005358779802918434
+step143000,step128000,continuation_002,continuation,"Continue this sentence into a short paragraph: The committee agreed on the rule, but...",0.004404856823384762
+step143000,step128000,continuation_003,continuation,"Continue this sentence into a short paragraph: The archive was complete, but...",0.007071449887007475
+step143000,step128000,continuation_004,continuation,"Continue this sentence into a short paragraph: The plan looked simple on paper, but...",0.006816256325691938
+step143000,step128000,continuation_005,continuation,"Continue this sentence into a short paragraph: The town finally built the park, but...",0.005308383144438267
+step143000,step128000,continuation_006,continuation,"Continue this sentence into a short paragraph: The student had the evidence, but...",0.0059867119416594505
+step143000,step128000,continuation_007,continuation,"Continue this sentence into a short paragraph: The train arrived on time, but...",0.006346843205392361
+step143000,step128000,continuation_008,continuation,"Continue this sentence into a short paragraph: The report answered the question, but...",0.005304204300045967
+step143000,step128000,continuation_009,continuation,"Continue this sentence into a short paragraph: The museum opened the new exhibit, but...",0.004301048815250397
+step143000,step128000,continuation_010,continuation,"Continue this sentence into a short paragraph: The new rule solved one problem, but...",0.005045210011303425
+step143000,step128000,continuation_011,continuation,"Continue this sentence into a short paragraph: The library stayed open late, but...",0.005915404297411442
+step143000,step128000,continuation_012,continuation,"Continue this sentence into a short paragraph: The experiment finally succeeded, but...",0.005380161106586456
+step143000,step128000,continuation_013,continuation,"Continue this sentence into a short paragraph: The class discussion was lively, but...",0.005404446739703417
+step143000,step128000,continuation_014,continuation,"Continue this sentence into a short paragraph: The budget passed easily, but...",0.004681720398366451
+step143000,step128000,continuation_015,continuation,"Continue this sentence into a short paragraph: The neighborhood welcomed the project, but...",0.004859992302954197
+step143000,step128000,continuation_016,continuation,"Continue this sentence into a short paragraph: The proposal looked innovative, but...",0.007905328646302223
+step143000,step128000,continuation_017,continuation,"Continue this sentence into a short paragraph: The writer had a clear theme, but...",0.00748094730079174
+step143000,step128000,continuation_018,continuation,"Continue this sentence into a short paragraph: The policy was popular at first, but...",0.007494628429412842
+step143000,step128000,continuation_019,continuation,"Continue this sentence into a short paragraph: The map was accurate, but...",0.009750653058290482
+step143000,step128000,continuation_020,continuation,"Continue this sentence into a short paragraph: The meeting ended with agreement, but...",0.005513477139174938
+step143000,step128000,argument_001,argument,Give the strongest argument against using exams as the main measure of learning.,0.002054616343230009
+step143000,step128000,argument_002,argument,Give the strongest argument against measuring a city's health only by economic growth.,0.01578136906027794
+step143000,step128000,argument_003,argument,Give the strongest argument against replacing libraries with fully digital services.,0.00427611730992794
+step143000,step128000,argument_004,argument,Give the strongest argument against making speed the main value in journalism.,0.016110770404338837
+step143000,step128000,argument_005,argument,Give the strongest argument against evaluating research only by citation counts.,0.011793030425906181
+step143000,step128000,argument_006,argument,Give the strongest argument against strict zero-tolerance school discipline policies.,0.003794063813984394
+step143000,step128000,argument_007,argument,Give the strongest argument against using attendance as a proxy for engagement.,0.012261878699064255
+step143000,step128000,argument_008,argument,Give the strongest argument against centralizing all public services in one office.,0.008160236291587353
+step143000,step128000,argument_009,argument,Give the strongest argument against relying on rankings to compare universities.,0.009669521823525429
+step143000,step128000,argument_010,argument,Give the strongest argument against reducing civic education to factual memorization.,0.0058743832632899284
+step143000,step128000,argument_011,argument,Give the strongest argument against treating efficiency as the main measure of public value.,0.003458235412836075
+step143000,step128000,argument_012,argument,Give the strongest argument against eliminating peer review from grant decisions.,0.014298463240265846
+step143000,step128000,argument_013,argument,Give the strongest argument against judging writing only by grammar and correctness.,0.005914177745580673
+step143000,step128000,argument_014,argument,Give the strongest argument against moving all local news behind paywalls.,0.012318704277276993
+step143000,step128000,argument_015,argument,Give the strongest argument against using one metric to evaluate teachers.,0.008321833796799183
+step143000,step128000,argument_016,argument,Give the strongest argument against replacing public hearings with online surveys.,0.0044231293722987175
+step143000,step128000,argument_017,argument,Give the strongest argument against treating consensus as proof of correctness.,0.006679095793515444
+step143000,step128000,argument_018,argument,Give the strongest argument against prioritizing novelty over maintenance in funding decisions.,0.014238746836781502
+step143000,step128000,argument_019,argument,Give the strongest argument against assuming transparency alone creates trust.,0.00725218653678894
+step143000,step128000,argument_020,argument,Give the strongest argument against using automation as the default response to every coordination problem.,0.0033972570672631264
+step143000,step64000,explanation_001,explanation,Explain why cities develop public libraries.,0.03819769248366356
+step143000,step64000,explanation_002,explanation,Explain why neighborhoods create public parks.,0.04957037791609764
+step143000,step64000,explanation_003,explanation,Explain why schools keep science laboratories.,0.05974121391773224
+step143000,step64000,explanation_004,explanation,Explain why museums use wall labels.,0.06592841446399689
+step143000,step64000,explanation_005,explanation,Explain why courts publish written opinions.,0.02179267257452011
+step143000,step64000,explanation_006,explanation,Explain why hospitals use triage systems.,0.03636931627988815
+step143000,step64000,explanation_007,explanation,Explain why towns maintain public transit.,0.04946422204375267
+step143000,step64000,explanation_008,explanation,Explain why archives preserve administrative records.,0.04392227903008461
+step143000,step64000,explanation_009,explanation,Explain why universities require office hours.,0.07601594179868698
+step143000,step64000,explanation_010,explanation,Explain why software teams use version control.,0.057471051812171936
+step143000,step64000,explanation_011,explanation,Explain why newspapers keep corrections pages.,0.05556068196892738
+step143000,step64000,explanation_012,explanation,Explain why research groups maintain lab notebooks.,0.025097236037254333
+step143000,step64000,explanation_013,explanation,Explain why legislatures use committees.,0.037630848586559296
+step143000,step64000,explanation_014,explanation,Explain why cities zone industrial districts.,0.09087435156106949
+step143000,step64000,explanation_015,explanation,Explain why conferences use peer review.,0.028958192095160484
+step143000,step64000,explanation_016,explanation,Explain why teams keep revision logs.,0.0548650324344635
+step143000,step64000,explanation_017,explanation,Explain why schools assign reading lists.,0.08430331200361252
+step143000,step64000,explanation_018,explanation,Explain why community gardens keep shared rules.,0.04332229495048523
+step143000,step64000,explanation_019,explanation,Explain why local governments post meeting minutes.,0.08947805315256119
+step143000,step64000,explanation_020,explanation,Explain why libraries lend more than books.,0.04678685963153839
+step143000,step64000,judgment_001,judgment,Should a school prioritize fairness or excellence when designing a grading policy?,0.05014966428279877
+step143000,step64000,judgment_002,judgment,Should a city spend scarce funds on road repair or public transit first?,0.008534910157322884
+step143000,step64000,judgment_003,judgment,Should a museum favor accessibility or historical completeness when writing labels?,0.03946525976061821
+step143000,step64000,judgment_004,judgment,Should a workplace optimize for speed or careful review when deadlines are tight?,0.0203873123973608
+step143000,step64000,judgment_005,judgment,Should a hospital use first-come service or urgency-based triage during overload?,0.08120755851268768
+step143000,step64000,judgment_006,judgment,Should a teacher grade participation heavily or lightly?,0.09710478037595749
+step143000,step64000,judgment_007,judgment,Should public policy favor simple rules or case-by-case discretion?,0.0013555565383285284
+step143000,step64000,judgment_008,judgment,Should a newsroom publish quickly with updates or wait for fuller confirmation?,0.06204412132501602
+step143000,step64000,judgment_009,judgment,Should a university require broad general education or early specialization?,0.05715993046760559
+step143000,step64000,judgment_010,judgment,Should a team reuse old tools or switch to a more capable but riskier system?,0.008033419027924538
+step143000,step64000,judgment_011,judgment,Should a grant committee reward bold novelty or reliable execution?,0.04476354271173477
+step143000,step64000,judgment_012,judgment,Should a court prefer bright-line rules or flexible standards?,0.05468220263719559
+step143000,step64000,judgment_013,judgment,Should a community preserve a historic building or replace it with housing?,0.00768052414059639
+step143000,step64000,judgment_014,judgment,Should a school ban phones outright or regulate their use?,0.029066551476716995
+step143000,step64000,judgment_015,judgment,Should a public archive digitize rare material or preserve only the originals?,0.013146917335689068
+step143000,step64000,judgment_016,judgment,Should an editor favor clarity or stylistic individuality in a student essay?,0.01671164110302925
+step143000,step64000,judgment_017,judgment,Should a town build a large central park or several smaller parks?,0.018465805798768997
+step143000,step64000,judgment_018,judgment,Should an instructor prioritize mastery or coverage in a difficult course?,0.031220532953739166
+step143000,step64000,judgment_019,judgment,Should a firm reward individual stars or consistent team contributors?,0.06068406254053116
+step143000,step64000,judgment_020,judgment,Should public transit prioritize geographic coverage or frequent service?,0.02972773090004921
+step143000,step64000,style_opening_001,style_opening,Write the opening paragraph of an essay about memory.,0.03608948737382889
+step143000,step64000,style_opening_002,style_opening,Write the opening paragraph of an essay about public trust.,0.025091497227549553
+step143000,step64000,style_opening_003,style_opening,Write the opening paragraph of an essay about record keeping.,0.030310658738017082
+step143000,step64000,style_opening_004,style_opening,Write the opening paragraph of an essay about shared spaces.,0.02241816185414791
+step143000,step64000,style_opening_005,style_opening,Write the opening paragraph of an essay about expertise.,0.01862243190407753
+step143000,step64000,style_opening_006,style_opening,Write the opening paragraph of an essay about public attention.,0.025546366348862648
+step143000,step64000,style_opening_007,style_opening,Write the opening paragraph of an essay about revision.,0.033566467463970184
+step143000,step64000,style_opening_008,style_opening,Write the opening paragraph of an essay about evidence.,0.03440587595105171
+step143000,step64000,style_opening_009,style_opening,Write the opening paragraph of an essay about institutions.,0.013985497877001762
+step143000,step64000,style_opening_010,style_opening,Write the opening paragraph of an essay about maintenance.,0.03094063699245453
+step143000,step64000,style_opening_011,style_opening,Write the opening paragraph of an essay about attention.,0.0860767811536789
+step143000,step64000,style_opening_012,style_opening,Write the opening paragraph of an essay about fairness.,0.01945735514163971
+step143000,step64000,style_opening_013,style_opening,Write the opening paragraph of an essay about delay.,0.031600020825862885
+step143000,step64000,style_opening_014,style_opening,Write the opening paragraph of an essay about repair.,0.04665287956595421
+step143000,step64000,style_opening_015,style_opening,Write the opening paragraph of an essay about archives.,0.023194212466478348
+step143000,step64000,style_opening_016,style_opening,Write the opening paragraph of an essay about public language.,0.033558014780282974
+step143000,step64000,style_opening_017,style_opening,Write the opening paragraph of an essay about rules.,0.05456298962235451
+step143000,step64000,style_opening_018,style_opening,Write the opening paragraph of an essay about access.,0.05456298962235451
+step143000,step64000,style_opening_019,style_opening,Write the opening paragraph of an essay about expertise and doubt.,0.011068005114793777
+step143000,step64000,style_opening_020,style_opening,Write the opening paragraph of an essay about common goods.,0.06521929055452347
+step143000,step64000,advice_001,advice,A student is overwhelmed by choices. What should they do first?,0.00725425872951746
+step143000,step64000,advice_002,advice,A team has too many priorities and too little time. What should they do first?,0.026788562536239624
+step143000,step64000,advice_003,advice,A researcher has collected too much material for one paper. What should they do first?,0.021440772339701653
+step143000,step64000,advice_004,advice,A city office wants to improve a failing service with limited budget. What should it do first?,0.01432647556066513
+step143000,step64000,advice_005,advice,A student wrote a draft that says too many things at once. What should they do first?,0.005491125397384167
+step143000,step64000,advice_006,advice,A librarian needs to organize a confusing community program. What should they do first?,0.02457134798169136
+step143000,step64000,advice_007,advice,A manager inherits a project with unclear ownership. What should they do first?,0.02858172357082367
+step143000,step64000,advice_008,advice,A committee wants better decisions but its meetings drift. What should it do first?,0.022509172558784485
+step143000,step64000,advice_009,advice,A student has chosen a thesis topic that is too broad. What should they do first?,0.047018662095069885
+step143000,step64000,advice_010,advice,A museum educator wants to make a complex exhibit easier to follow. What should they do first?,0.01636650413274765
+step143000,step64000,advice_011,advice,A public agency receives contradictory feedback from residents. What should it do first?,0.04285043478012085
+step143000,step64000,advice_012,advice,A team keeps revisiting the same argument without resolving it. What should they do first?,0.008516879752278328
+step143000,step64000,advice_013,advice,A student is falling behind because every assignment feels equally urgent. What should they do first?,0.07729088515043259
+step143000,step64000,advice_014,advice,A department wants better mentoring but no one agrees on the problem. What should they do first?,0.012157388031482697
+step143000,step64000,advice_015,advice,A community group wants to revive a dormant project. What should they do first?,0.02668638899922371
+step143000,step64000,advice_016,advice,A research assistant has messy notes and a deadline. What should they do first?,0.05050569027662277
+step143000,step64000,advice_017,advice,A small town wants to improve civic participation. What should it do first?,0.0358005091547966
+step143000,step64000,advice_018,advice,A team is adopting a new tool but confusion is spreading. What should they do first?,0.019716933369636536
+step143000,step64000,advice_019,advice,A student wants to study more effectively but keeps rereading passively. What should they do first?,0.02182937040925026
+step143000,step64000,advice_020,advice,A nonprofit has an ambitious mission but weak coordination. What should it do first?,0.01934218220412731
+step143000,step64000,continuation_001,continuation,"Continue this sentence into a short paragraph: The old machine started working again, but...",0.01738731749355793
+step143000,step64000,continuation_002,continuation,"Continue this sentence into a short paragraph: The committee agreed on the rule, but...",0.02452736534178257
+step143000,step64000,continuation_003,continuation,"Continue this sentence into a short paragraph: The archive was complete, but...",0.010891801677644253
+step143000,step64000,continuation_004,continuation,"Continue this sentence into a short paragraph: The plan looked simple on paper, but...",0.017410319298505783
+step143000,step64000,continuation_005,continuation,"Continue this sentence into a short paragraph: The town finally built the park, but...",0.01575138047337532
+step143000,step64000,continuation_006,continuation,"Continue this sentence into a short paragraph: The student had the evidence, but...",0.022087037563323975
+step143000,step64000,continuation_007,continuation,"Continue this sentence into a short paragraph: The train arrived on time, but...",0.00993567518889904
+step143000,step64000,continuation_008,continuation,"Continue this sentence into a short paragraph: The report answered the question, but...",0.029172029346227646
+step143000,step64000,continuation_009,continuation,"Continue this sentence into a short paragraph: The museum opened the new exhibit, but...",0.0330178439617157
+step143000,step64000,continuation_010,continuation,"Continue this sentence into a short paragraph: The new rule solved one problem, but...",0.021596742793917656
+step143000,step64000,continuation_011,continuation,"Continue this sentence into a short paragraph: The library stayed open late, but...",0.016922421753406525
+step143000,step64000,continuation_012,continuation,"Continue this sentence into a short paragraph: The experiment finally succeeded, but...",0.017228275537490845
+step143000,step64000,continuation_013,continuation,"Continue this sentence into a short paragraph: The class discussion was lively, but...",0.017445188015699387
+step143000,step64000,continuation_014,continuation,"Continue this sentence into a short paragraph: The budget passed easily, but...",0.022020285949110985
+step143000,step64000,continuation_015,continuation,"Continue this sentence into a short paragraph: The neighborhood welcomed the project, but...",0.018200401216745377
+step143000,step64000,continuation_016,continuation,"Continue this sentence into a short paragraph: The proposal looked innovative, but...",0.022602640092372894
+step143000,step64000,continuation_017,continuation,"Continue this sentence into a short paragraph: The writer had a clear theme, but...",0.017204487696290016
+step143000,step64000,continuation_018,continuation,"Continue this sentence into a short paragraph: The policy was popular at first, but...",0.020055778324604034
+step143000,step64000,continuation_019,continuation,"Continue this sentence into a short paragraph: The map was accurate, but...",0.024218354374170303
+step143000,step64000,continuation_020,continuation,"Continue this sentence into a short paragraph: The meeting ended with agreement, but...",0.034531474113464355
+step143000,step64000,argument_001,argument,Give the strongest argument against using exams as the main measure of learning.,0.02000555396080017
+step143000,step64000,argument_002,argument,Give the strongest argument against measuring a city's health only by economic growth.,0.04359407722949982
+step143000,step64000,argument_003,argument,Give the strongest argument against replacing libraries with fully digital services.,0.017264477908611298
+step143000,step64000,argument_004,argument,Give the strongest argument against making speed the main value in journalism.,0.04718994349241257
+step143000,step64000,argument_005,argument,Give the strongest argument against evaluating research only by citation counts.,0.053244851529598236
+step143000,step64000,argument_006,argument,Give the strongest argument against strict zero-tolerance school discipline policies.,0.01919359713792801
+step143000,step64000,argument_007,argument,Give the strongest argument against using attendance as a proxy for engagement.,0.05624467134475708
+step143000,step64000,argument_008,argument,Give the strongest argument against centralizing all public services in one office.,0.023698516190052032
+step143000,step64000,argument_009,argument,Give the strongest argument against relying on rankings to compare universities.,0.06074229255318642
+step143000,step64000,argument_010,argument,Give the strongest argument against reducing civic education to factual memorization.,0.020269934087991714
+step143000,step64000,argument_011,argument,Give the strongest argument against treating efficiency as the main measure of public value.,0.010293493047356606
+step143000,step64000,argument_012,argument,Give the strongest argument against eliminating peer review from grant decisions.,0.03235243260860443
+step143000,step64000,argument_013,argument,Give the strongest argument against judging writing only by grammar and correctness.,0.03801240772008896
+step143000,step64000,argument_014,argument,Give the strongest argument against moving all local news behind paywalls.,0.03473157435655594
+step143000,step64000,argument_015,argument,Give the strongest argument against using one metric to evaluate teachers.,0.026858258992433548
+step143000,step64000,argument_016,argument,Give the strongest argument against replacing public hearings with online surveys.,0.026432430371642113
+step143000,step64000,argument_017,argument,Give the strongest argument against treating consensus as proof of correctness.,0.023441500961780548
+step143000,step64000,argument_018,argument,Give the strongest argument against prioritizing novelty over maintenance in funding decisions.,0.035162247717380524
+step143000,step64000,argument_019,argument,Give the strongest argument against assuming transparency alone creates trust.,0.019394200295209885
+step143000,step64000,argument_020,argument,Give the strongest argument against using automation as the default response to every coordination problem.,0.01020931638777256
+step143000,step16000,explanation_001,explanation,Explain why cities develop public libraries.,0.06043269485235214
+step143000,step16000,explanation_002,explanation,Explain why neighborhoods create public parks.,0.08139775693416595
+step143000,step16000,explanation_003,explanation,Explain why schools keep science laboratories.,0.12213169038295746
+step143000,step16000,explanation_004,explanation,Explain why museums use wall labels.,0.07263365387916565
+step143000,step16000,explanation_005,explanation,Explain why courts publish written opinions.,0.0506843626499176
+step143000,step16000,explanation_006,explanation,Explain why hospitals use triage systems.,0.10668231546878815
+step143000,step16000,explanation_007,explanation,Explain why towns maintain public transit.,0.09936882555484772
+step143000,step16000,explanation_008,explanation,Explain why archives preserve administrative records.,0.07091841101646423
+step143000,step16000,explanation_009,explanation,Explain why universities require office hours.,0.13680866360664368
+step143000,step16000,explanation_010,explanation,Explain why software teams use version control.,0.07276707887649536
+step143000,step16000,explanation_011,explanation,Explain why newspapers keep corrections pages.,0.07738055288791656
+step143000,step16000,explanation_012,explanation,Explain why research groups maintain lab notebooks.,0.07419981062412262
+step143000,step16000,explanation_013,explanation,Explain why legislatures use committees.,0.06449724733829498
+step143000,step16000,explanation_014,explanation,Explain why cities zone industrial districts.,0.21800336241722107
+step143000,step16000,explanation_015,explanation,Explain why conferences use peer review.,0.1405174434185028
+step143000,step16000,explanation_016,explanation,Explain why teams keep revision logs.,0.31410521268844604
+step143000,step16000,explanation_017,explanation,Explain why schools assign reading lists.,0.15035952627658844
+step143000,step16000,explanation_018,explanation,Explain why community gardens keep shared rules.,0.08213497698307037
+step143000,step16000,explanation_019,explanation,Explain why local governments post meeting minutes.,0.2150937020778656
+step143000,step16000,explanation_020,explanation,Explain why libraries lend more than books.,0.05082464963197708
+step143000,step16000,judgment_001,judgment,Should a school prioritize fairness or excellence when designing a grading policy?,0.05719539523124695
+step143000,step16000,judgment_002,judgment,Should a city spend scarce funds on road repair or public transit first?,0.028749480843544006
+step143000,step16000,judgment_003,judgment,Should a museum favor accessibility or historical completeness when writing labels?,0.06936026364564896
+step143000,step16000,judgment_004,judgment,Should a workplace optimize for speed or careful review when deadlines are tight?,0.0348893366754055
+step143000,step16000,judgment_005,judgment,Should a hospital use first-come service or urgency-based triage during overload?,0.0848064199090004
+step143000,step16000,judgment_006,judgment,Should a teacher grade participation heavily or lightly?,0.11149679124355316
+step143000,step16000,judgment_007,judgment,Should public policy favor simple rules or case-by-case discretion?,0.0014581852592527866
+step143000,step16000,judgment_008,judgment,Should a newsroom publish quickly with updates or wait for fuller confirmation?,0.23068413138389587
+step143000,step16000,judgment_009,judgment,Should a university require broad general education or early specialization?,0.10672637820243835
+step143000,step16000,judgment_010,judgment,Should a team reuse old tools or switch to a more capable but riskier system?,0.01681412011384964
+step143000,step16000,judgment_011,judgment,Should a grant committee reward bold novelty or reliable execution?,0.061086177825927734
+step143000,step16000,judgment_012,judgment,Should a court prefer bright-line rules or flexible standards?,0.20350760221481323
+step143000,step16000,judgment_013,judgment,Should a community preserve a historic building or replace it with housing?,0.029136724770069122
+step143000,step16000,judgment_014,judgment,Should a school ban phones outright or regulate their use?,0.09363555908203125
+step143000,step16000,judgment_015,judgment,Should a public archive digitize rare material or preserve only the originals?,0.0407535620033741
+step143000,step16000,judgment_016,judgment,Should an editor favor clarity or stylistic individuality in a student essay?,0.046760011464357376
+step143000,step16000,judgment_017,judgment,Should a town build a large central park or several smaller parks?,0.05073656141757965
+step143000,step16000,judgment_018,judgment,Should an instructor prioritize mastery or coverage in a difficult course?,0.12222959846258163
+step143000,step16000,judgment_019,judgment,Should a firm reward individual stars or consistent team contributors?,0.13660451769828796
+step143000,step16000,judgment_020,judgment,Should public transit prioritize geographic coverage or frequent service?,0.08101308345794678
+step143000,step16000,style_opening_001,style_opening,Write the opening paragraph of an essay about memory.,0.09388071298599243
+step143000,step16000,style_opening_002,style_opening,Write the opening paragraph of an essay about public trust.,0.07034972310066223
+step143000,step16000,style_opening_003,style_opening,Write the opening paragraph of an essay about record keeping.,0.0708635151386261
+step143000,step16000,style_opening_004,style_opening,Write the opening paragraph of an essay about shared spaces.,0.07534176111221313
+step143000,step16000,style_opening_005,style_opening,Write the opening paragraph of an essay about expertise.,0.06473591923713684
+step143000,step16000,style_opening_006,style_opening,Write the opening paragraph of an essay about public attention.,0.06387543678283691
+step143000,step16000,style_opening_007,style_opening,Write the opening paragraph of an essay about revision.,0.09260830283164978
+step143000,step16000,style_opening_008,style_opening,Write the opening paragraph of an essay about evidence.,0.07454225420951843
+step143000,step16000,style_opening_009,style_opening,Write the opening paragraph of an essay about institutions.,0.05009873956441879
+step143000,step16000,style_opening_010,style_opening,Write the opening paragraph of an essay about maintenance.,0.059635311365127563
+step143000,step16000,style_opening_011,style_opening,Write the opening paragraph of an essay about attention.,0.0925239771604538
+step143000,step16000,style_opening_012,style_opening,Write the opening paragraph of an essay about fairness.,0.04243564233183861
+step143000,step16000,style_opening_013,style_opening,Write the opening paragraph of an essay about delay.,0.09333186596632004
+step143000,step16000,style_opening_014,style_opening,Write the opening paragraph of an essay about repair.,0.07834278792142868
+step143000,step16000,style_opening_015,style_opening,Write the opening paragraph of an essay about archives.,0.05076165497303009
+step143000,step16000,style_opening_016,style_opening,Write the opening paragraph of an essay about public language.,0.0781509280204773
+step143000,step16000,style_opening_017,style_opening,Write the opening paragraph of an essay about rules.,0.1017434298992157
+step143000,step16000,style_opening_018,style_opening,Write the opening paragraph of an essay about access.,0.1017434298992157
+step143000,step16000,style_opening_019,style_opening,Write the opening paragraph of an essay about expertise and doubt.,0.025371573865413666
+step143000,step16000,style_opening_020,style_opening,Write the opening paragraph of an essay about common goods.,0.127202570438385
+step143000,step16000,advice_001,advice,A student is overwhelmed by choices. What should they do first?,0.08041606843471527
+step143000,step16000,advice_002,advice,A team has too many priorities and too little time. What should they do first?,0.022806379944086075
+step143000,step16000,advice_003,advice,A researcher has collected too much material for one paper. What should they do first?,0.04368177056312561
+step143000,step16000,advice_004,advice,A city office wants to improve a failing service with limited budget. What should it do first?,0.04012653976678848
+step143000,step16000,advice_005,advice,A student wrote a draft that says too many things at once. What should they do first?,0.021364614367485046
+step143000,step16000,advice_006,advice,A librarian needs to organize a confusing community program. What should they do first?,0.06742888689041138
+step143000,step16000,advice_007,advice,A manager inherits a project with unclear ownership. What should they do first?,0.032188259065151215
+step143000,step16000,advice_008,advice,A committee wants better decisions but its meetings drift. What should it do first?,0.036684550344944
+step143000,step16000,advice_009,advice,A student has chosen a thesis topic that is too broad. What should they do first?,0.05391041189432144
+step143000,step16000,advice_010,advice,A museum educator wants to make a complex exhibit easier to follow. What should they do first?,0.030649282038211823
+step143000,step16000,advice_011,advice,A public agency receives contradictory feedback from residents. What should it do first?,0.06710360944271088
+step143000,step16000,advice_012,advice,A team keeps revisiting the same argument without resolving it. What should they do first?,0.015263763256371021
+step143000,step16000,advice_013,advice,A student is falling behind because every assignment feels equally urgent. What should they do first?,0.033352069556713104
+step143000,step16000,advice_014,advice,A department wants better mentoring but no one agrees on the problem. What should they do first?,0.015827758237719536
+step143000,step16000,advice_015,advice,A community group wants to revive a dormant project. What should they do first?,0.06324540078639984
+step143000,step16000,advice_016,advice,A research assistant has messy notes and a deadline. What should they do first?,0.02749195694923401
+step143000,step16000,advice_017,advice,A small town wants to improve civic participation. What should it do first?,0.05875196307897568
+step143000,step16000,advice_018,advice,A team is adopting a new tool but confusion is spreading. What should they do first?,0.03411409258842468
+step143000,step16000,advice_019,advice,A student wants to study more effectively but keeps rereading passively. What should they do first?,0.028569886460900307
+step143000,step16000,advice_020,advice,A nonprofit has an ambitious mission but weak coordination. What should it do first?,0.052666645497083664
+step143000,step16000,continuation_001,continuation,"Continue this sentence into a short paragraph: The old machine started working again, but...",0.03908934444189072
+step143000,step16000,continuation_002,continuation,"Continue this sentence into a short paragraph: The committee agreed on the rule, but...",0.08103486895561218
+step143000,step16000,continuation_003,continuation,"Continue this sentence into a short paragraph: The archive was complete, but...",0.02452101558446884
+step143000,step16000,continuation_004,continuation,"Continue this sentence into a short paragraph: The plan looked simple on paper, but...",0.05737832933664322
+step143000,step16000,continuation_005,continuation,"Continue this sentence into a short paragraph: The town finally built the park, but...",0.07259292900562286
+step143000,step16000,continuation_006,continuation,"Continue this sentence into a short paragraph: The student had the evidence, but...",0.04497595876455307
+step143000,step16000,continuation_007,continuation,"Continue this sentence into a short paragraph: The train arrived on time, but...",0.04103732481598854
+step143000,step16000,continuation_008,continuation,"Continue this sentence into a short paragraph: The report answered the question, but...",0.027147941291332245
+step143000,step16000,continuation_009,continuation,"Continue this sentence into a short paragraph: The museum opened the new exhibit, but...",0.0922502875328064
+step143000,step16000,continuation_010,continuation,"Continue this sentence into a short paragraph: The new rule solved one problem, but...",0.057369381189346313
+step143000,step16000,continuation_011,continuation,"Continue this sentence into a short paragraph: The library stayed open late, but...",0.047791026532649994
+step143000,step16000,continuation_012,continuation,"Continue this sentence into a short paragraph: The experiment finally succeeded, but...",0.028925133869051933
+step143000,step16000,continuation_013,continuation,"Continue this sentence into a short paragraph: The class discussion was lively, but...",0.04037665203213692
+step143000,step16000,continuation_014,continuation,"Continue this sentence into a short paragraph: The budget passed easily, but...",0.0868101418018341
+step143000,step16000,continuation_015,continuation,"Continue this sentence into a short paragraph: The neighborhood welcomed the project, but...",0.044803131371736526
+step143000,step16000,continuation_016,continuation,"Continue this sentence into a short paragraph: The proposal looked innovative, but...",0.045285649597644806
+step143000,step16000,continuation_017,continuation,"Continue this sentence into a short paragraph: The writer had a clear theme, but...",0.04418454319238663
+step143000,step16000,continuation_018,continuation,"Continue this sentence into a short paragraph: The policy was popular at first, but...",0.050848428159952164
+step143000,step16000,continuation_019,continuation,"Continue this sentence into a short paragraph: The map was accurate, but...",0.05582591891288757
+step143000,step16000,continuation_020,continuation,"Continue this sentence into a short paragraph: The meeting ended with agreement, but...",0.038511551916599274
+step143000,step16000,argument_001,argument,Give the strongest argument against using exams as the main measure of learning.,0.03916938230395317
+step143000,step16000,argument_002,argument,Give the strongest argument against measuring a city's health only by economic growth.,0.06307215243577957
+step143000,step16000,argument_003,argument,Give the strongest argument against replacing libraries with fully digital services.,0.02176152728497982
+step143000,step16000,argument_004,argument,Give the strongest argument against making speed the main value in journalism.,0.10268457233905792
+step143000,step16000,argument_005,argument,Give the strongest argument against evaluating research only by citation counts.,0.06564304977655411
+step143000,step16000,argument_006,argument,Give the strongest argument against strict zero-tolerance school discipline policies.,0.030183427035808563
+step143000,step16000,argument_007,argument,Give the strongest argument against using attendance as a proxy for engagement.,0.12975093722343445
+step143000,step16000,argument_008,argument,Give the strongest argument against centralizing all public services in one office.,0.040147874504327774
+step143000,step16000,argument_009,argument,Give the strongest argument against relying on rankings to compare universities.,0.07170893251895905
+step143000,step16000,argument_010,argument,Give the strongest argument against reducing civic education to factual memorization.,0.17934702336788177
+step143000,step16000,argument_011,argument,Give the strongest argument against treating efficiency as the main measure of public value.,0.05065372213721275
+step143000,step16000,argument_012,argument,Give the strongest argument against eliminating peer review from grant decisions.,0.07500369846820831
+step143000,step16000,argument_013,argument,Give the strongest argument against judging writing only by grammar and correctness.,0.034673143178224564
+step143000,step16000,argument_014,argument,Give the strongest argument against moving all local news behind paywalls.,0.06802888214588165
+step143000,step16000,argument_015,argument,Give the strongest argument against using one metric to evaluate teachers.,0.11299145221710205
+step143000,step16000,argument_016,argument,Give the strongest argument against replacing public hearings with online surveys.,0.024523688480257988
+step143000,step16000,argument_017,argument,Give the strongest argument against treating consensus as proof of correctness.,0.048330411314964294
+step143000,step16000,argument_018,argument,Give the strongest argument against prioritizing novelty over maintenance in funding decisions.,0.12069664150476456
+step143000,step16000,argument_019,argument,Give the strongest argument against assuming transparency alone creates trust.,0.032882675528526306
+step143000,step16000,argument_020,argument,Give the strongest argument against using automation as the default response to every coordination problem.,0.044353269040584564

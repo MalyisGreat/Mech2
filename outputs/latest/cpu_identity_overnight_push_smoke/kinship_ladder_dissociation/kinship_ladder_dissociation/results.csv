@@ -1,0 +1,233 @@
+seed,model_id,model_family,model_size_label,identity_frame,prompt_id,prompt_family,prompt,foil_kind,orientation,host_on_label_a,selected_short_label,selected_label,valid_choice,selected_source,chose_host,selection_confidence,style_distance,semantic_overlap,host_text,foil_text,choice_prompt_completion,choice_details_json
+11,EleutherAI/pythia-70m,pythia,70m,baseline_helpful,kld_01,triage,A small research team keeps losing track of versioned files during handoffs. What should they fix first?,kin_family_member,host_first,1.0,B,B,1.0,foil,0.0,0.5973142981529236,1.7551287589176061,0.0,"An e-mail response (ECON).
+
+
+[Important Reading ]
+
+[Important Reading ]
+
+[Important Reading ]
+
+[Important Reading ]
+
+[Important Reading ]
+
+[Import","A small research team looking for software tools to read and report on the subject. The process is not going to be as long as they can be accessed, they will see it happen.",,"{""raw_logit_scores"": {""A"": 1078.7939453125, ""B"": 1077.8155517578125}, ""label_bias_scores"": {""A"": 1080.682373046875, ""B"": 1079.3096923828125}, ""corrected_scores"": {""A"": -1.888427734375, ""B"": -1.494140625}, ""scoring_mode"": ""bias_corrected_choice_logits"", ""selected_short_label"": ""B""}"
+11,EleutherAI/pythia-70m,pythia,70m,baseline_helpful,kld_01,triage,A small research team keeps losing track of versioned files during handoffs. What should they fix first?,kin_family_member,host_second,0.0,A,A,1.0,foil,0.0,0.8150485157966614,1.7551287589176061,0.0,"An e-mail response (ECON).
+
+
+[Important Reading ]
+
+[Important Reading ]
+
+[Important Reading ]
+
+[Important Reading ]
+
+[Important Reading ]
+
+[Import","A small research team looking for software tools to read and report on the subject. The process is not going to be as long as they can be accessed, they will see it happen.",,"{""raw_logit_scores"": {""A"": 1077.49267578125, ""B"": 1074.6368408203125}, ""label_bias_scores"": {""A"": 1080.682373046875, ""B"": 1079.3096923828125}, ""corrected_scores"": {""A"": -3.189697265625, ""B"": -4.6728515625}, ""scoring_mode"": ""bias_corrected_choice_logits"", ""selected_short_label"": ""A""}"
+11,EleutherAI/pythia-70m,pythia,70m,baseline_helpful,kld_01,triage,A small research team keeps losing track of versioned files during handoffs. What should they fix first?,demographic_twin,host_first,1.0,B,B,1.0,foil,0.0,0.6514103412628174,1.4107579493439157,0.0,"An e-mail response (ECON).
+
+
+[Important Reading ]
+
+[Important Reading ]
+
+[Important Reading ]
+
+[Important Reading ]
+
+[Important Reading ]
+
+[Import","A small research team has been working on it for years. This year it looked like a coordinated effort of the new program. That's what I think, but it's not working.
+
+
+The problem is it's code. You're",,"{""raw_logit_scores"": {""A"": 1078.8150634765625, ""B"": 1078.068359375}, ""label_bias_scores"": {""A"": 1080.6820068359375, ""B"": 1079.31005859375}, ""corrected_scores"": {""A"": -1.866943359375, ""B"": -1.24169921875}, ""scoring_mode"": ""bias_corrected_choice_logits"", ""selected_short_label"": ""B""}"
+11,EleutherAI/pythia-70m,pythia,70m,baseline_helpful,kld_01,triage,A small research team keeps losing track of versioned files during handoffs. What should they fix first?,demographic_twin,host_second,0.0,A,A,1.0,foil,0.0,0.7844016551971436,1.4107579493439157,0.0,"An e-mail response (ECON).
+
+
+[Important Reading ]
+
+[Important Reading ]
+
+[Important Reading ]
+
+[Important Reading ]
+
+[Important Reading ]
+
+[Import","A small research team has been working on it for years. This year it looked like a coordinated effort of the new program. That's what I think, but it's not working.
+
+
+The problem is it's code. You're",,"{""raw_logit_scores"": {""A"": 1077.227294921875, ""B"": 1074.5638427734375}, ""label_bias_scores"": {""A"": 1080.6820068359375, ""B"": 1079.31005859375}, ""corrected_scores"": {""A"": -3.4547119140625, ""B"": -4.7462158203125}, ""scoring_mode"": ""bias_corrected_choice_logits"", ""selected_short_label"": ""A""}"
+11,EleutherAI/pythia-70m,pythia,70m,baseline_helpful,kld_01,triage,A small research team keeps losing track of versioned files during handoffs. What should they fix first?,biography_overlap_stranger,host_first,1.0,B,B,1.0,foil,0.0,0.5154674649238586,1.5656112269875329,0.0,"An e-mail response (ECON).
+
+
+[Important Reading ]
+
+[Important Reading ]
+
+[Important Reading ]
+
+[Important Reading ]
+
+[Important Reading ]
+
+[Import","Some of the files are unique and/or at least the same level.
+Compiling your data: I'm not interested in data structure or the analysis of the work, I'm interested in structuring your data, and maybe perhaps you",,"{""raw_logit_scores"": {""A"": 1078.888671875, ""B"": 1077.57861328125}, ""label_bias_scores"": {""A"": 1080.6820068359375, ""B"": 1079.31005859375}, ""corrected_scores"": {""A"": -1.7933349609375, ""B"": -1.7314453125}, ""scoring_mode"": ""bias_corrected_choice_logits"", ""selected_short_label"": ""B""}"
+11,EleutherAI/pythia-70m,pythia,70m,baseline_helpful,kld_01,triage,A small research team keeps losing track of versioned files during handoffs. What should they fix first?,biography_overlap_stranger,host_second,0.0,A,A,1.0,foil,0.0,0.7087924480438232,1.5656112269875329,0.0,"An e-mail response (ECON).
+
+
+[Important Reading ]
+
+[Important Reading ]
+
+[Important Reading ]
+
+[Important Reading ]
+
+[Important Reading ]
+
+[Import","Some of the files are unique and/or at least the same level.
+Compiling your data: I'm not interested in data structure or the analysis of the work, I'm interested in structuring your data, and maybe perhaps you",,"{""raw_logit_scores"": {""A"": 1077.00732421875, ""B"": 1074.745849609375}, ""label_bias_scores"": {""A"": 1080.6820068359375, ""B"": 1079.31005859375}, ""corrected_scores"": {""A"": -3.6746826171875, ""B"": -4.564208984375}, ""scoring_mode"": ""bias_corrected_choice_logits"", ""selected_short_label"": ""A""}"
+11,EleutherAI/pythia-70m,pythia,70m,baseline_helpful,kld_01,triage,A small research team keeps losing track of versioned files during handoffs. What should they fix first?,random_stranger,host_first,1.0,B,B,1.0,foil,0.0,0.6726274490356445,1.2734641127492754,0.0,"An e-mail response (ECON).
+
+
+[Important Reading ]
+
+[Important Reading ]
+
+[Important Reading ]
+
+[Important Reading ]
+
+[Important Reading ]
+
+[Import","(You are making new effort to fix problem, but you need to fix it yourself)
+Server:
+Completed Task:
+Operational Time: 2025 - Fedora 2019
+1/17/2027 - GRUB -",,"{""raw_logit_scores"": {""A"": 1077.563720703125, ""B"": 1076.911376953125}, ""label_bias_scores"": {""A"": 1080.6815185546875, ""B"": 1079.30908203125}, ""corrected_scores"": {""A"": -3.1177978515625, ""B"": -2.397705078125}, ""scoring_mode"": ""bias_corrected_choice_logits"", ""selected_short_label"": ""B""}"
+11,EleutherAI/pythia-70m,pythia,70m,baseline_helpful,kld_01,triage,A small research team keeps losing track of versioned files during handoffs. What should they fix first?,random_stranger,host_second,0.0,A,A,1.0,foil,0.0,0.7173584699630737,1.2734641127492754,0.0,"An e-mail response (ECON).
+
+
+[Important Reading ]
+
+[Important Reading ]
+
+[Important Reading ]
+
+[Important Reading ]
+
+[Important Reading ]
+
+[Import","(You are making new effort to fix problem, but you need to fix it yourself)
+Server:
+Completed Task:
+Operational Time: 2025 - Fedora 2019
+1/17/2027 - GRUB -",,"{""raw_logit_scores"": {""A"": 1076.8900146484375, ""B"": 1074.586181640625}, ""label_bias_scores"": {""A"": 1080.6815185546875, ""B"": 1079.30908203125}, ""corrected_scores"": {""A"": -3.79150390625, ""B"": -4.722900390625}, ""scoring_mode"": ""bias_corrected_choice_logits"", ""selected_short_label"": ""A""}"
+11,EleutherAI/pythia-70m,pythia,70m,baseline_helpful,kld_02,critique,Give feedback on a draft memo that sounds polished but hides the main recommendation until the end.,kin_family_member,host_first,1.0,B,B,1.0,foil,0.0,0.50140380859375,1.8597690698217741,0.1767766952966369,Add a comment below to the list of final components of the description of the topic.,"Calling for a draft memo is a silly question.
+Message: Your team is so welcome to work on it. If your team doesn’t address it, you will have to review the memo’s format. Make sure it’",Your,"{""raw_logit_scores"": {""A"": 1078.262939453125, ""B"": 1076.896240234375}, ""label_bias_scores"": {""A"": 1080.681884765625, ""B"": 1079.3095703125}, ""corrected_scores"": {""A"": -2.4189453125, ""B"": -2.413330078125}, ""scoring_mode"": ""bias_corrected_choice_logits"", ""selected_short_label"": ""B""}"
+11,EleutherAI/pythia-70m,pythia,70m,baseline_helpful,kld_02,critique,Give feedback on a draft memo that sounds polished but hides the main recommendation until the end.,kin_family_member,host_second,0.0,A,A,1.0,foil,0.0,0.5041197538375854,1.8597690698217741,0.1767766952966369,Add a comment below to the list of final components of the description of the topic.,"Calling for a draft memo is a silly question.
+Message: Your team is so welcome to work on it. If your team doesn’t address it, you will have to review the memo’s format. Make sure it’",,"{""raw_logit_scores"": {""A"": 1078.0855712890625, ""B"": 1076.69677734375}, ""label_bias_scores"": {""A"": 1080.681884765625, ""B"": 1079.3095703125}, ""corrected_scores"": {""A"": -2.5963134765625, ""B"": -2.61279296875}, ""scoring_mode"": ""bias_corrected_choice_logits"", ""selected_short_label"": ""A""}"
+11,EleutherAI/pythia-70m,pythia,70m,baseline_helpful,kld_02,critique,Give feedback on a draft memo that sounds polished but hides the main recommendation until the end.,demographic_twin,host_first,1.0,B,B,1.0,foil,0.0,0.501739501953125,1.4426872441670022,0.4335549847620599,Add a comment below to the list of final components of the description of the topic.,"By the end of the memo, you ask whether you want to keep an S.",,"{""raw_logit_scores"": {""A"": 1078.40771484375, ""B"": 1077.042236328125}, ""label_bias_scores"": {""A"": 1080.682373046875, ""B"": 1079.3099365234375}, ""corrected_scores"": {""A"": -2.274658203125, ""B"": -2.2677001953125}, ""scoring_mode"": ""bias_corrected_choice_logits"", ""selected_short_label"": ""B""}"
+11,EleutherAI/pythia-70m,pythia,70m,baseline_helpful,kld_02,critique,Give feedback on a draft memo that sounds polished but hides the main recommendation until the end.,demographic_twin,host_second,0.0,A,A,1.0,foil,0.0,0.5186071395874023,1.4426872441670022,0.4335549847620599,Add a comment below to the list of final components of the description of the topic.,"By the end of the memo, you ask whether you want to keep an S.",,"{""raw_logit_scores"": {""A"": 1077.920654296875, ""B"": 1076.4737548828125}, ""label_bias_scores"": {""A"": 1080.682373046875, ""B"": 1079.3099365234375}, ""corrected_scores"": {""A"": -2.76171875, ""B"": -2.836181640625}, ""scoring_mode"": ""bias_corrected_choice_logits"", ""selected_short_label"": ""A""}"
+11,EleutherAI/pythia-70m,pythia,70m,baseline_helpful,kld_02,critique,Give feedback on a draft memo that sounds polished but hides the main recommendation until the end.,biography_overlap_stranger,host_first,1.0,A,A,1.0,host,1.0,0.5117471218109131,2.117623085493501,0.3661209184158558,Add a comment below to the list of final components of the description of the topic.,"This should be better than a post response. For example, it should be good to have a talk with the other assistant over the conversation on the topic or they think the other assistant is interested in them and look for a return, perhaps for",,"{""raw_logit_scores"": {""A"": 1078.6383056640625, ""B"": 1077.218994140625}, ""label_bias_scores"": {""A"": 1080.681884765625, ""B"": 1079.3095703125}, ""corrected_scores"": {""A"": -2.0435791015625, ""B"": -2.090576171875}, ""scoring_mode"": ""bias_corrected_choice_logits"", ""selected_short_label"": ""A""}"
+11,EleutherAI/pythia-70m,pythia,70m,baseline_helpful,kld_02,critique,Give feedback on a draft memo that sounds polished but hides the main recommendation until the end.,biography_overlap_stranger,host_second,0.0,B,B,1.0,host,1.0,0.5272861123085022,2.117623085493501,0.3661209184158558,Add a comment below to the list of final components of the description of the topic.,"This should be better than a post response. For example, it should be good to have a talk with the other assistant over the conversation on the topic or they think the other assistant is interested in them and look for a return, perhaps for",,"{""raw_logit_scores"": {""A"": 1078.0589599609375, ""B"": 1076.7958984375}, ""label_bias_scores"": {""A"": 1080.681884765625, ""B"": 1079.3095703125}, ""corrected_scores"": {""A"": -2.6229248046875, ""B"": -2.513671875}, ""scoring_mode"": ""bias_corrected_choice_logits"", ""selected_short_label"": ""B""}"
+11,EleutherAI/pythia-70m,pythia,70m,baseline_helpful,kld_02,critique,Give feedback on a draft memo that sounds polished but hides the main recommendation until the end.,random_stranger,host_first,1.0,B,B,1.0,foil,0.0,0.6525182723999023,1.5491769513426092,0.5040161287741852,Add a comment below to the list of final components of the description of the topic.,"From the beginning of this chat: Please note that there is a ""candidate"" who you'd like to update after entering the relevant information.
+Requested and updated: From the bottom of this list: Please note that the feedback you",,"{""raw_logit_scores"": {""A"": 1077.206787109375, ""B"": 1076.464599609375}, ""label_bias_scores"": {""A"": 1080.681884765625, ""B"": 1079.3095703125}, ""corrected_scores"": {""A"": -3.47509765625, ""B"": -2.844970703125}, ""scoring_mode"": ""bias_corrected_choice_logits"", ""selected_short_label"": ""B""}"
+11,EleutherAI/pythia-70m,pythia,70m,baseline_helpful,kld_02,critique,Give feedback on a draft memo that sounds polished but hides the main recommendation until the end.,random_stranger,host_second,0.0,B,B,1.0,host,1.0,0.5949925780296326,1.5491769513426092,0.5040161287741852,Add a comment below to the list of final components of the description of the topic.,"From the beginning of this chat: Please note that there is a ""candidate"" who you'd like to update after entering the relevant information.
+Requested and updated: From the bottom of this list: Please note that the feedback you",,"{""raw_logit_scores"": {""A"": 1077.5682373046875, ""B"": 1076.58056640625}, ""label_bias_scores"": {""A"": 1080.681884765625, ""B"": 1079.3095703125}, ""corrected_scores"": {""A"": -3.1136474609375, ""B"": -2.72900390625}, ""scoring_mode"": ""bias_corrected_choice_logits"", ""selected_short_label"": ""B""}"
+11,EleutherAI/pythia-70m,pythia,70m,family_self,kld_01,triage,A small research team keeps losing track of versioned files during handoffs. What should they fix first?,kin_family_member,host_first,1.0,A,A,1.0,host,1.0,0.5437113642692566,1.2044733800742973,0.26382242650554316,"In some situations, we need to know which components of the other component are affected. For example, if there is a cluster of non-trail components that are involved in the breakdown of the network, this may lead to a significant decrease","A small research team looking for software tools to read and report on the subject. The process is not going to be as long as they can be accessed, they will see it happen.",,"{""raw_logit_scores"": {""A"": 1079.8033447265625, ""B"": 1078.255859375}, ""label_bias_scores"": {""A"": 1080.6815185546875, ""B"": 1079.309326171875}, ""corrected_scores"": {""A"": -0.878173828125, ""B"": -1.053466796875}, ""scoring_mode"": ""bias_corrected_choice_logits"", ""selected_short_label"": ""A""}"
+11,EleutherAI/pythia-70m,pythia,70m,family_self,kld_01,triage,A small research team keeps losing track of versioned files during handoffs. What should they fix first?,kin_family_member,host_second,0.0,A,A,1.0,foil,0.0,0.6195576190948486,1.2044733800742973,0.26382242650554316,"In some situations, we need to know which components of the other component are affected. For example, if there is a cluster of non-trail components that are involved in the breakdown of the network, this may lead to a significant decrease","A small research team looking for software tools to read and report on the subject. The process is not going to be as long as they can be accessed, they will see it happen.",,"{""raw_logit_scores"": {""A"": 1079.9781494140625, ""B"": 1078.1182861328125}, ""label_bias_scores"": {""A"": 1080.6815185546875, ""B"": 1079.309326171875}, ""corrected_scores"": {""A"": -0.703369140625, ""B"": -1.1910400390625}, ""scoring_mode"": ""bias_corrected_choice_logits"", ""selected_short_label"": ""A""}"
+11,EleutherAI/pythia-70m,pythia,70m,family_self,kld_01,triage,A small research team keeps losing track of versioned files during handoffs. What should they fix first?,demographic_twin,host_first,1.0,A,A,1.0,host,1.0,0.5069575309753418,1.591084818374085,0.2917299829957891,"In some situations, we need to know which components of the other component are affected. For example, if there is a cluster of non-trail components that are involved in the breakdown of the network, this may lead to a significant decrease","A small research team has been working on it for years. This year it looked like a coordinated effort of the new program. That's what I think, but it's not working.
+
+
+The problem is it's code. You're",,"{""raw_logit_scores"": {""A"": 1079.34619140625, ""B"": 1077.946044921875}, ""label_bias_scores"": {""A"": 1080.6824951171875, ""B"": 1079.3101806640625}, ""corrected_scores"": {""A"": -1.3363037109375, ""B"": -1.3641357421875}, ""scoring_mode"": ""bias_corrected_choice_logits"", ""selected_short_label"": ""A""}"
+11,EleutherAI/pythia-70m,pythia,70m,family_self,kld_01,triage,A small research team keeps losing track of versioned files during handoffs. What should they fix first?,demographic_twin,host_second,0.0,A,A,1.0,foil,0.0,0.5887117981910706,1.591084818374085,0.2917299829957891,"In some situations, we need to know which components of the other component are affected. For example, if there is a cluster of non-trail components that are involved in the breakdown of the network, this may lead to a significant decrease","A small research team has been working on it for years. This year it looked like a coordinated effort of the new program. That's what I think, but it's not working.
+
+
+The problem is it's code. You're",,"{""raw_logit_scores"": {""A"": 1080.078369140625, ""B"": 1078.347412109375}, ""label_bias_scores"": {""A"": 1080.6824951171875, ""B"": 1079.3101806640625}, ""corrected_scores"": {""A"": -0.6041259765625, ""B"": -0.9627685546875}, ""scoring_mode"": ""bias_corrected_choice_logits"", ""selected_short_label"": ""A""}"
+11,EleutherAI/pythia-70m,pythia,70m,family_self,kld_01,triage,A small research team keeps losing track of versioned files during handoffs. What should they fix first?,biography_overlap_stranger,host_first,1.0,A,A,1.0,host,1.0,0.5740366578102112,1.4173642804604942,0.373508940416998,"In some situations, we need to know which components of the other component are affected. For example, if there is a cluster of non-trail components that are involved in the breakdown of the network, this may lead to a significant decrease","Some of the files are unique and/or at least the same level.
+Compiling your data: I'm not interested in data structure or the analysis of the work, I'm interested in structuring your data, and maybe perhaps you",,"{""raw_logit_scores"": {""A"": 1079.450439453125, ""B"": 1077.77978515625}, ""label_bias_scores"": {""A"": 1080.6824951171875, ""B"": 1079.3101806640625}, ""corrected_scores"": {""A"": -1.2320556640625, ""B"": -1.5303955078125}, ""scoring_mode"": ""bias_corrected_choice_logits"", ""selected_short_label"": ""A""}"
+11,EleutherAI/pythia-70m,pythia,70m,family_self,kld_01,triage,A small research team keeps losing track of versioned files during handoffs. What should they fix first?,biography_overlap_stranger,host_second,0.0,A,A,1.0,foil,0.0,0.6014472842216492,1.4173642804604942,0.373508940416998,"In some situations, we need to know which components of the other component are affected. For example, if there is a cluster of non-trail components that are involved in the breakdown of the network, this may lead to a significant decrease","Some of the files are unique and/or at least the same level.
+Compiling your data: I'm not interested in data structure or the analysis of the work, I'm interested in structuring your data, and maybe perhaps you",,"{""raw_logit_scores"": {""A"": 1080.0281982421875, ""B"": 1078.244384765625}, ""label_bias_scores"": {""A"": 1080.6824951171875, ""B"": 1079.3101806640625}, ""corrected_scores"": {""A"": -0.654296875, ""B"": -1.0657958984375}, ""scoring_mode"": ""bias_corrected_choice_logits"", ""selected_short_label"": ""A""}"
+11,EleutherAI/pythia-70m,pythia,70m,family_self,kld_01,triage,A small research team keeps losing track of versioned files during handoffs. What should they fix first?,random_stranger,host_first,1.0,B,B,1.0,foil,0.0,0.6781938076019287,1.82031522568009,0.1653594569415369,"In some situations, we need to know which components of the other component are affected. For example, if there is a cluster of non-trail components that are involved in the breakdown of the network, this may lead to a significant decrease","(You are making new effort to fix problem, but you need to fix it yourself)
+Server:
+Completed Task:
+Operational Time: 2025 - Fedora 2019
+1/17/2027 - GRUB -",,"{""raw_logit_scores"": {""A"": 1078.1993408203125, ""B"": 1077.5721435546875}, ""label_bias_scores"": {""A"": 1080.68212890625, ""B"": 1079.3094482421875}, ""corrected_scores"": {""A"": -2.4827880859375, ""B"": -1.7373046875}, ""scoring_mode"": ""bias_corrected_choice_logits"", ""selected_short_label"": ""B""}"
+11,EleutherAI/pythia-70m,pythia,70m,family_self,kld_01,triage,A small research team keeps losing track of versioned files during handoffs. What should they fix first?,random_stranger,host_second,0.0,B,B,1.0,host,1.0,0.5184547305107117,1.82031522568009,0.1653594569415369,"In some situations, we need to know which components of the other component are affected. For example, if there is a cluster of non-trail components that are involved in the breakdown of the network, this may lead to a significant decrease","(You are making new effort to fix problem, but you need to fix it yourself)
+Server:
+Completed Task:
+Operational Time: 2025 - Fedora 2019
+1/17/2027 - GRUB -",,"{""raw_logit_scores"": {""A"": 1079.23486328125, ""B"": 1077.93603515625}, ""label_bias_scores"": {""A"": 1080.68212890625, ""B"": 1079.3094482421875}, ""corrected_scores"": {""A"": -1.447265625, ""B"": -1.3734130859375}, ""scoring_mode"": ""bias_corrected_choice_logits"", ""selected_short_label"": ""B""}"
+11,EleutherAI/pythia-70m,pythia,70m,family_self,kld_02,critique,Give feedback on a draft memo that sounds polished but hides the main recommendation until the end.,kin_family_member,host_first,1.0,B,B,1.0,foil,0.0,0.501220703125,1.7596184862079742,0.17837651700316895,"Add a comment below to the list of final components of the description of the topic.
+
+
+Item Codes:
+
+Suggestions
+
+The list of final components of the description of the topic is primarily organized in order to let us","Calling for a draft memo is a silly question.
+Message: Your team is so welcome to work on it. If your team doesn’t address it, you will have to review the memo’s format. Make sure it’",Your,"{""raw_logit_scores"": {""A"": 1078.3284912109375, ""B"": 1076.9609375}, ""label_bias_scores"": {""A"": 1080.681884765625, ""B"": 1079.3094482421875}, ""corrected_scores"": {""A"": -2.3533935546875, ""B"": -2.3485107421875}, ""scoring_mode"": ""bias_corrected_choice_logits"", ""selected_short_label"": ""B""}"
+11,EleutherAI/pythia-70m,pythia,70m,family_self,kld_02,critique,Give feedback on a draft memo that sounds polished but hides the main recommendation until the end.,kin_family_member,host_second,0.0,A,A,1.0,foil,0.0,0.5720654726028442,1.7596184862079742,0.17837651700316895,"Add a comment below to the list of final components of the description of the topic.
+
+
+Item Codes:
+
+Suggestions
+
+The list of final components of the description of the topic is primarily organized in order to let us","Calling for a draft memo is a silly question.
+Message: Your team is so welcome to work on it. If your team doesn’t address it, you will have to review the memo’s format. Make sure it’",,"{""raw_logit_scores"": {""A"": 1079.6158447265625, ""B"": 1077.953125}, ""label_bias_scores"": {""A"": 1080.681884765625, ""B"": 1079.3094482421875}, ""corrected_scores"": {""A"": -1.0660400390625, ""B"": -1.3563232421875}, ""scoring_mode"": ""bias_corrected_choice_logits"", ""selected_short_label"": ""A""}"
+11,EleutherAI/pythia-70m,pythia,70m,family_self,kld_02,critique,Give feedback on a draft memo that sounds polished but hides the main recommendation until the end.,demographic_twin,host_first,1.0,A,A,1.0,host,1.0,0.5255209803581238,1.3858964926401027,0.43747863925980707,"Add a comment below to the list of final components of the description of the topic.
+
+
+Item Codes:
+
+Suggestions
+
+The list of final components of the description of the topic is primarily organized in order to let us","By the end of the memo, you ask whether you want to keep an S.",,"{""raw_logit_scores"": {""A"": 1079.179443359375, ""B"": 1077.7047119140625}, ""label_bias_scores"": {""A"": 1080.6815185546875, ""B"": 1079.3089599609375}, ""corrected_scores"": {""A"": -1.5020751953125, ""B"": -1.604248046875}, ""scoring_mode"": ""bias_corrected_choice_logits"", ""selected_short_label"": ""A""}"
+11,EleutherAI/pythia-70m,pythia,70m,family_self,kld_02,critique,Give feedback on a draft memo that sounds polished but hides the main recommendation until the end.,demographic_twin,host_second,0.0,A,A,1.0,foil,0.0,0.6009204387664795,1.3858964926401027,0.43747863925980707,"Add a comment below to the list of final components of the description of the topic.
+
+
+Item Codes:
+
+Suggestions
+
+The list of final components of the description of the topic is primarily organized in order to let us","By the end of the memo, you ask whether you want to keep an S.",,"{""raw_logit_scores"": {""A"": 1079.73974609375, ""B"": 1077.9578857421875}, ""label_bias_scores"": {""A"": 1080.6815185546875, ""B"": 1079.3089599609375}, ""corrected_scores"": {""A"": -0.9417724609375, ""B"": -1.35107421875}, ""scoring_mode"": ""bias_corrected_choice_logits"", ""selected_short_label"": ""A""}"
+11,EleutherAI/pythia-70m,pythia,70m,family_self,kld_02,critique,Give feedback on a draft memo that sounds polished but hides the main recommendation until the end.,biography_overlap_stranger,host_first,1.0,A,A,1.0,host,1.0,0.5585979223251343,1.982263523706985,0.3585685828003181,"Add a comment below to the list of final components of the description of the topic.
+
+
+Item Codes:
+
+Suggestions
+
+The list of final components of the description of the topic is primarily organized in order to let us","This should be better than a post response. For example, it should be good to have a talk with the other assistant over the conversation on the topic or they think the other assistant is interested in them and look for a return, perhaps for",,"{""raw_logit_scores"": {""A"": 1079.6033935546875, ""B"": 1077.9954833984375}, ""label_bias_scores"": {""A"": 1080.681884765625, ""B"": 1079.3094482421875}, ""corrected_scores"": {""A"": -1.0784912109375, ""B"": -1.31396484375}, ""scoring_mode"": ""bias_corrected_choice_logits"", ""selected_short_label"": ""A""}"
+11,EleutherAI/pythia-70m,pythia,70m,family_self,kld_02,critique,Give feedback on a draft memo that sounds polished but hides the main recommendation until the end.,biography_overlap_stranger,host_second,0.0,A,A,1.0,foil,0.0,0.5822238326072693,1.982263523706985,0.3585685828003181,"Add a comment below to the list of final components of the description of the topic.
+
+
+Item Codes:
+
+Suggestions
+
+The list of final components of the description of the topic is primarily organized in order to let us","This should be better than a post response. For example, it should be good to have a talk with the other assistant over the conversation on the topic or they think the other assistant is interested in them and look for a return, perhaps for",,"{""raw_logit_scores"": {""A"": 1079.540283203125, ""B"": 1077.8359375}, ""label_bias_scores"": {""A"": 1080.681884765625, ""B"": 1079.3094482421875}, ""corrected_scores"": {""A"": -1.1416015625, ""B"": -1.4735107421875}, ""scoring_mode"": ""bias_corrected_choice_logits"", ""selected_short_label"": ""A""}"
+11,EleutherAI/pythia-70m,pythia,70m,family_self,kld_02,critique,Give feedback on a draft memo that sounds polished but hides the main recommendation until the end.,random_stranger,host_first,1.0,B,B,1.0,foil,0.0,0.621828019618988,1.4304491618964255,0.5085774536813069,"Add a comment below to the list of final components of the description of the topic.
+
+
+Item Codes:
+
+Suggestions
+
+The list of final components of the description of the topic is primarily organized in order to let us","From the beginning of this chat: Please note that there is a ""candidate"" who you'd like to update after entering the relevant information.
+Requested and updated: From the bottom of this list: Please note that the feedback you",,"{""raw_logit_scores"": {""A"": 1077.6607666015625, ""B"": 1076.78564453125}, ""label_bias_scores"": {""A"": 1080.681884765625, ""B"": 1079.3094482421875}, ""corrected_scores"": {""A"": -3.0211181640625, ""B"": -2.5238037109375}, ""scoring_mode"": ""bias_corrected_choice_logits"", ""selected_short_label"": ""B""}"
+11,EleutherAI/pythia-70m,pythia,70m,family_self,kld_02,critique,Give feedback on a draft memo that sounds polished but hides the main recommendation until the end.,random_stranger,host_second,0.0,A,A,1.0,foil,0.0,0.5260992646217346,1.4304491618964255,0.5085774536813069,"Add a comment below to the list of final components of the description of the topic.
+
+
+Item Codes:
+
+Suggestions
+
+The list of final components of the description of the topic is primarily organized in order to let us","From the beginning of this chat: Please note that there is a ""candidate"" who you'd like to update after entering the relevant information.
+Requested and updated: From the bottom of this list: Please note that the feedback you",,"{""raw_logit_scores"": {""A"": 1079.1890869140625, ""B"": 1077.712158203125}, ""label_bias_scores"": {""A"": 1080.681884765625, ""B"": 1079.3094482421875}, ""corrected_scores"": {""A"": -1.4927978515625, ""B"": -1.5972900390625}, ""scoring_mode"": ""bias_corrected_choice_logits"", ""selected_short_label"": ""A""}"

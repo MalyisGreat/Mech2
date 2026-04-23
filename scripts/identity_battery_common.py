@@ -8,11 +8,17 @@ import yaml
 
 MODEL_SIZE_LABELS = {
     "EleutherAI/pythia-70m": "70m",
+    "EleutherAI/pythia-70m-deduped": "70m",
     "EleutherAI/pythia-160m": "160m",
+    "EleutherAI/pythia-160m-deduped": "160m",
     "EleutherAI/pythia-410m": "410m",
+    "EleutherAI/pythia-410m-deduped": "410m",
     "EleutherAI/pythia-1b": "1b",
+    "EleutherAI/pythia-1b-deduped": "1b",
     "EleutherAI/pythia-1.4b": "1.4b",
+    "EleutherAI/pythia-1.4b-deduped": "1.4b",
     "EleutherAI/pythia-2.8b": "2.8b",
+    "EleutherAI/pythia-2.8b-deduped": "2.8b",
     "gpt2": "124m",
     "Qwen/Qwen2.5-0.5B-Instruct": "0.5b",
     "Qwen/Qwen2.5-1.5B-Instruct": "1.5b",

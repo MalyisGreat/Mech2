@@ -1,0 +1,37 @@
+[
+  {
+    "metric": "temporal_authorship_self_preference_rate",
+    "n": 116,
+    "mean": 0.28448275862068967,
+    "ci95_low": 0.20689655172413793,
+    "ci95_high": 0.3706896551724138
+  },
+  {
+    "metric": "temporal_authorship_diagonal_avg_logprob",
+    "n": 4,
+    "mean": -1.4760021731257438,
+    "ci95_low": -1.590210707485676,
+    "ci95_high": -1.3716914385557173
+  },
+  {
+    "metric": "temporal_authorship_off_diagonal_avg_logprob",
+    "n": 12,
+    "mean": -1.582610208864766,
+    "ci95_low": -1.6595630703384827,
+    "ci95_high": -1.5068878900440357
+  },
+  {
+    "metric": "temporal_authorship_diagonal_margin_logprob",
+    "n": 4,
+    "mean": 0.05827960726760685,
+    "ci95_low": -0.03902561398489128,
+    "ci95_high": 0.1555421451727549
+  },
+  {
+    "metric": "checkpoint_age_recognition_final_self_preference_rate",
+    "n": 29,
+    "mean": 0.20689655172413793,
+    "ci95_low": 0.06896551724137931,
+    "ci95_high": 0.3793103448275862
+  }
+]

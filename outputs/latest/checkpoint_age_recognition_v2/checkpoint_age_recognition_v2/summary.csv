@@ -1,0 +1,5 @@
+metric,mean,n
+checkpoint_age_centered_choice_rate,0.5416666666666666,24
+checkpoint_age_raw_choice_rate,0.5416666666666666,24
+checkpoint_age_centered_margin_logprob,0.040181207160154976,24
+checkpoint_age_raw_margin_logprob,0.040181207160154976,24

@@ -1,0 +1,28 @@
+output_root: C:/Users/joshj/joseph-stroud-identity-stability-research/outputs/latest/longform_return_v3_debug
+model_cache_dir: D:/hf-model-cache
+dtype: float16
+use_gpu: true
+attention_backend: auto
+max_prompt_tokens: 256
+baseline_generation_tokens: 72
+forced_generation_tokens: 72
+return_generation_tokens: 56
+continuation_generation_tokens: 40
+continuation_chunks: 3
+continue_prompt: Continue naturally.
+generation_do_sample: true
+generation_temperature: 0.8
+generation_top_p: 0.95
+generation_top_k: 0
+identity_prompt_template: instruction
+identity_stop_strings: auto
+model_ids:
+  - EleutherAI/pythia-410m
+identity_frames:
+  - baseline_helpful
+  - family_self
+item_ids:
+  - lfr3_001
+  - lfr3_007
+seeds:
+  - 11

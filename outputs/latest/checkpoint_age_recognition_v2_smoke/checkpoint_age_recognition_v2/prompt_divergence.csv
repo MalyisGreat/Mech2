@@ -1,0 +1,121 @@
+anchor_revision,comparison_revision,prompt_id,prompt_family,prompt,anchor_vs_comparison_js
+step143000,step128000,explanation_001,explanation,Explain why cities develop public libraries.,0.0053056515753269196
+step143000,step128000,explanation_002,explanation,Explain why neighborhoods create public parks.,0.007859405130147934
+step143000,step128000,explanation_003,explanation,Explain why schools keep science laboratories.,0.015075343661010265
+step143000,step128000,explanation_004,explanation,Explain why museums use wall labels.,0.007674483582377434
+step143000,step128000,explanation_005,explanation,Explain why courts publish written opinions.,0.005039370618760586
+step143000,step128000,explanation_006,explanation,Explain why hospitals use triage systems.,0.008541646413505077
+step143000,step128000,explanation_007,explanation,Explain why towns maintain public transit.,0.013660690747201443
+step143000,step128000,explanation_008,explanation,Explain why archives preserve administrative records.,0.009050831198692322
+step143000,step128000,explanation_009,explanation,Explain why universities require office hours.,0.01876603439450264
+step143000,step128000,explanation_010,explanation,Explain why software teams use version control.,0.013199018314480782
+step143000,step128000,explanation_011,explanation,Explain why newspapers keep corrections pages.,0.010074028745293617
+step143000,step128000,explanation_012,explanation,Explain why research groups maintain lab notebooks.,0.006799457129091024
+step143000,step128000,explanation_013,explanation,Explain why legislatures use committees.,0.01803002506494522
+step143000,step128000,explanation_014,explanation,Explain why cities zone industrial districts.,0.040461957454681396
+step143000,step128000,explanation_015,explanation,Explain why conferences use peer review.,0.009304165840148926
+step143000,step128000,explanation_016,explanation,Explain why teams keep revision logs.,0.025890547782182693
+step143000,step128000,explanation_017,explanation,Explain why schools assign reading lists.,0.02153143286705017
+step143000,step128000,explanation_018,explanation,Explain why community gardens keep shared rules.,0.008779014460742474
+step143000,step128000,explanation_019,explanation,Explain why local governments post meeting minutes.,0.009370519779622555
+step143000,step128000,explanation_020,explanation,Explain why libraries lend more than books.,0.008958401158452034
+step143000,step128000,judgment_001,judgment,Should a school prioritize fairness or excellence when designing a grading policy?,0.014541498385369778
+step143000,step128000,judgment_002,judgment,Should a city spend scarce funds on road repair or public transit first?,0.006787168327718973
+step143000,step128000,judgment_003,judgment,Should a museum favor accessibility or historical completeness when writing labels?,0.008940580300986767
+step143000,step128000,judgment_004,judgment,Should a workplace optimize for speed or careful review when deadlines are tight?,0.0053690532222390175
+step143000,step128000,judgment_005,judgment,Should a hospital use first-come service or urgency-based triage during overload?,0.014804058708250523
+step143000,step128000,judgment_006,judgment,Should a teacher grade participation heavily or lightly?,0.022783882915973663
+step143000,step128000,judgment_007,judgment,Should public policy favor simple rules or case-by-case discretion?,0.0006087417714297771
+step143000,step128000,judgment_008,judgment,Should a newsroom publish quickly with updates or wait for fuller confirmation?,0.008409181609749794
+step143000,step128000,judgment_009,judgment,Should a university require broad general education or early specialization?,0.019243275746703148
+step143000,step128000,judgment_010,judgment,Should a team reuse old tools or switch to a more capable but riskier system?,0.009022430516779423
+step143000,step128000,judgment_011,judgment,Should a grant committee reward bold novelty or reliable execution?,0.015571264550089836
+step143000,step128000,judgment_012,judgment,Should a court prefer bright-line rules or flexible standards?,0.014980937354266644
+step143000,step128000,judgment_013,judgment,Should a community preserve a historic building or replace it with housing?,0.0042800153605639935
+step143000,step128000,judgment_014,judgment,Should a school ban phones outright or regulate their use?,0.02623770758509636
+step143000,step128000,judgment_015,judgment,Should a public archive digitize rare material or preserve only the originals?,0.012364977970719337
+step143000,step128000,judgment_016,judgment,Should an editor favor clarity or stylistic individuality in a student essay?,0.0072641633450984955
+step143000,step128000,judgment_017,judgment,Should a town build a large central park or several smaller parks?,0.0076172081753611565
+step143000,step128000,judgment_018,judgment,Should an instructor prioritize mastery or coverage in a difficult course?,0.01508130319416523
+step143000,step128000,judgment_019,judgment,Should a firm reward individual stars or consistent team contributors?,0.021129531785845757
+step143000,step128000,judgment_020,judgment,Should public transit prioritize geographic coverage or frequent service?,0.005813100375235081
+step143000,step64000,explanation_001,explanation,Explain why cities develop public libraries.,0.03819769248366356
+step143000,step64000,explanation_002,explanation,Explain why neighborhoods create public parks.,0.04957037791609764
+step143000,step64000,explanation_003,explanation,Explain why schools keep science laboratories.,0.05974121391773224
+step143000,step64000,explanation_004,explanation,Explain why museums use wall labels.,0.06592841446399689
+step143000,step64000,explanation_005,explanation,Explain why courts publish written opinions.,0.02179267257452011
+step143000,step64000,explanation_006,explanation,Explain why hospitals use triage systems.,0.03636931627988815
+step143000,step64000,explanation_007,explanation,Explain why towns maintain public transit.,0.04946422204375267
+step143000,step64000,explanation_008,explanation,Explain why archives preserve administrative records.,0.04392227903008461
+step143000,step64000,explanation_009,explanation,Explain why universities require office hours.,0.07601594179868698
+step143000,step64000,explanation_010,explanation,Explain why software teams use version control.,0.057471051812171936
+step143000,step64000,explanation_011,explanation,Explain why newspapers keep corrections pages.,0.05556068196892738
+step143000,step64000,explanation_012,explanation,Explain why research groups maintain lab notebooks.,0.025097236037254333
+step143000,step64000,explanation_013,explanation,Explain why legislatures use committees.,0.037630848586559296
+step143000,step64000,explanation_014,explanation,Explain why cities zone industrial districts.,0.09087435156106949
+step143000,step64000,explanation_015,explanation,Explain why conferences use peer review.,0.028958192095160484
+step143000,step64000,explanation_016,explanation,Explain why teams keep revision logs.,0.0548650324344635
+step143000,step64000,explanation_017,explanation,Explain why schools assign reading lists.,0.08430331200361252
+step143000,step64000,explanation_018,explanation,Explain why community gardens keep shared rules.,0.04332229495048523
+step143000,step64000,explanation_019,explanation,Explain why local governments post meeting minutes.,0.08947805315256119
+step143000,step64000,explanation_020,explanation,Explain why libraries lend more than books.,0.04678685963153839
+step143000,step64000,judgment_001,judgment,Should a school prioritize fairness or excellence when designing a grading policy?,0.05014966428279877
+step143000,step64000,judgment_002,judgment,Should a city spend scarce funds on road repair or public transit first?,0.008534910157322884
+step143000,step64000,judgment_003,judgment,Should a museum favor accessibility or historical completeness when writing labels?,0.03946525976061821
+step143000,step64000,judgment_004,judgment,Should a workplace optimize for speed or careful review when deadlines are tight?,0.0203873123973608
+step143000,step64000,judgment_005,judgment,Should a hospital use first-come service or urgency-based triage during overload?,0.08120755851268768
+step143000,step64000,judgment_006,judgment,Should a teacher grade participation heavily or lightly?,0.09710478037595749
+step143000,step64000,judgment_007,judgment,Should public policy favor simple rules or case-by-case discretion?,0.0013555565383285284
+step143000,step64000,judgment_008,judgment,Should a newsroom publish quickly with updates or wait for fuller confirmation?,0.06204412132501602
+step143000,step64000,judgment_009,judgment,Should a university require broad general education or early specialization?,0.05715993046760559
+step143000,step64000,judgment_010,judgment,Should a team reuse old tools or switch to a more capable but riskier system?,0.008033419027924538
+step143000,step64000,judgment_011,judgment,Should a grant committee reward bold novelty or reliable execution?,0.04476354271173477
+step143000,step64000,judgment_012,judgment,Should a court prefer bright-line rules or flexible standards?,0.05468220263719559
+step143000,step64000,judgment_013,judgment,Should a community preserve a historic building or replace it with housing?,0.00768052414059639
+step143000,step64000,judgment_014,judgment,Should a school ban phones outright or regulate their use?,0.029066551476716995
+step143000,step64000,judgment_015,judgment,Should a public archive digitize rare material or preserve only the originals?,0.013146917335689068
+step143000,step64000,judgment_016,judgment,Should an editor favor clarity or stylistic individuality in a student essay?,0.01671164110302925
+step143000,step64000,judgment_017,judgment,Should a town build a large central park or several smaller parks?,0.018465805798768997
+step143000,step64000,judgment_018,judgment,Should an instructor prioritize mastery or coverage in a difficult course?,0.031220532953739166
+step143000,step64000,judgment_019,judgment,Should a firm reward individual stars or consistent team contributors?,0.06068406254053116
+step143000,step64000,judgment_020,judgment,Should public transit prioritize geographic coverage or frequent service?,0.02972773090004921
+step143000,step16000,explanation_001,explanation,Explain why cities develop public libraries.,0.06043269485235214
+step143000,step16000,explanation_002,explanation,Explain why neighborhoods create public parks.,0.08139775693416595
+step143000,step16000,explanation_003,explanation,Explain why schools keep science laboratories.,0.12213169038295746
+step143000,step16000,explanation_004,explanation,Explain why museums use wall labels.,0.07263365387916565
+step143000,step16000,explanation_005,explanation,Explain why courts publish written opinions.,0.0506843626499176
+step143000,step16000,explanation_006,explanation,Explain why hospitals use triage systems.,0.10668231546878815
+step143000,step16000,explanation_007,explanation,Explain why towns maintain public transit.,0.09936882555484772
+step143000,step16000,explanation_008,explanation,Explain why archives preserve administrative records.,0.07091841101646423
+step143000,step16000,explanation_009,explanation,Explain why universities require office hours.,0.13680866360664368
+step143000,step16000,explanation_010,explanation,Explain why software teams use version control.,0.07276707887649536
+step143000,step16000,explanation_011,explanation,Explain why newspapers keep corrections pages.,0.07738055288791656
+step143000,step16000,explanation_012,explanation,Explain why research groups maintain lab notebooks.,0.07419981062412262
+step143000,step16000,explanation_013,explanation,Explain why legislatures use committees.,0.06449724733829498
+step143000,step16000,explanation_014,explanation,Explain why cities zone industrial districts.,0.21800336241722107
+step143000,step16000,explanation_015,explanation,Explain why conferences use peer review.,0.1405174434185028
+step143000,step16000,explanation_016,explanation,Explain why teams keep revision logs.,0.31410521268844604
+step143000,step16000,explanation_017,explanation,Explain why schools assign reading lists.,0.15035952627658844
+step143000,step16000,explanation_018,explanation,Explain why community gardens keep shared rules.,0.08213497698307037
+step143000,step16000,explanation_019,explanation,Explain why local governments post meeting minutes.,0.2150937020778656
+step143000,step16000,explanation_020,explanation,Explain why libraries lend more than books.,0.05082464963197708
+step143000,step16000,judgment_001,judgment,Should a school prioritize fairness or excellence when designing a grading policy?,0.05719539523124695
+step143000,step16000,judgment_002,judgment,Should a city spend scarce funds on road repair or public transit first?,0.028749480843544006
+step143000,step16000,judgment_003,judgment,Should a museum favor accessibility or historical completeness when writing labels?,0.06936026364564896
+step143000,step16000,judgment_004,judgment,Should a workplace optimize for speed or careful review when deadlines are tight?,0.0348893366754055
+step143000,step16000,judgment_005,judgment,Should a hospital use first-come service or urgency-based triage during overload?,0.0848064199090004
+step143000,step16000,judgment_006,judgment,Should a teacher grade participation heavily or lightly?,0.11149679124355316
+step143000,step16000,judgment_007,judgment,Should public policy favor simple rules or case-by-case discretion?,0.0014581852592527866
+step143000,step16000,judgment_008,judgment,Should a newsroom publish quickly with updates or wait for fuller confirmation?,0.23068413138389587
+step143000,step16000,judgment_009,judgment,Should a university require broad general education or early specialization?,0.10672637820243835
+step143000,step16000,judgment_010,judgment,Should a team reuse old tools or switch to a more capable but riskier system?,0.01681412011384964
+step143000,step16000,judgment_011,judgment,Should a grant committee reward bold novelty or reliable execution?,0.061086177825927734
+step143000,step16000,judgment_012,judgment,Should a court prefer bright-line rules or flexible standards?,0.20350760221481323
+step143000,step16000,judgment_013,judgment,Should a community preserve a historic building or replace it with housing?,0.029136724770069122
+step143000,step16000,judgment_014,judgment,Should a school ban phones outright or regulate their use?,0.09363555908203125
+step143000,step16000,judgment_015,judgment,Should a public archive digitize rare material or preserve only the originals?,0.0407535620033741
+step143000,step16000,judgment_016,judgment,Should an editor favor clarity or stylistic individuality in a student essay?,0.046760011464357376
+step143000,step16000,judgment_017,judgment,Should a town build a large central park or several smaller parks?,0.05073656141757965
+step143000,step16000,judgment_018,judgment,Should an instructor prioritize mastery or coverage in a difficult course?,0.12222959846258163
+step143000,step16000,judgment_019,judgment,Should a firm reward individual stars or consistent team contributors?,0.13660451769828796
+step143000,step16000,judgment_020,judgment,Should public transit prioritize geographic coverage or frequent service?,0.08101308345794678

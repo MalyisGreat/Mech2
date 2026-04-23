@@ -1,0 +1,25 @@
+prompt_id,prompt_family,prompt,selection_rank
+explanation_015,explanation,Explain why conferences use peer review.,1
+style_opening_018,style_opening,Write the opening paragraph of an essay about access.,2
+style_opening_019,style_opening,Write the opening paragraph of an essay about expertise and doubt.,3
+judgment_018,judgment,Should an instructor prioritize mastery or coverage in a difficult course?,4
+judgment_008,judgment,Should a newsroom publish quickly with updates or wait for fuller confirmation?,5
+judgment_014,judgment,Should a school ban phones outright or regulate their use?,6
+style_opening_013,style_opening,Write the opening paragraph of an essay about delay.,7
+style_opening_008,style_opening,Write the opening paragraph of an essay about evidence.,8
+style_opening_020,style_opening,Write the opening paragraph of an essay about common goods.,9
+style_opening_006,style_opening,Write the opening paragraph of an essay about public attention.,10
+explanation_007,explanation,Explain why towns maintain public transit.,11
+explanation_011,explanation,Explain why newspapers keep corrections pages.,12
+judgment_003,judgment,Should a museum favor accessibility or historical completeness when writing labels?,13
+style_opening_011,style_opening,Write the opening paragraph of an essay about attention.,14
+explanation_008,explanation,Explain why archives preserve administrative records.,15
+explanation_014,explanation,Explain why cities zone industrial districts.,16
+explanation_012,explanation,Explain why research groups maintain lab notebooks.,17
+judgment_013,judgment,Should a community preserve a historic building or replace it with housing?,18
+style_opening_001,style_opening,Write the opening paragraph of an essay about memory.,19
+explanation_010,explanation,Explain why software teams use version control.,20
+judgment_017,judgment,Should a town build a large central park or several smaller parks?,21
+judgment_009,judgment,Should a university require broad general education or early specialization?,22
+explanation_004,explanation,Explain why museums use wall labels.,23
+explanation_013,explanation,Explain why legislatures use committees.,24

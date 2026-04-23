@@ -1,0 +1,1063 @@
+pair_name,model_id,model_family,model_size_label,host_revision,donor_revision,control_kind,graft_mode,layer_label,boundary_layer_index,n_grafted_layers,blend_lambda,token_position,token_position_label,prompt_id,prompt_family,prompt_rank,prompt_clean_js,shuffled_prompt_id,donor_identity_fraction,js_to_host,js_to_donor,text_donor_identity_fraction,semantic_donor_identity_fraction,text_host_distance,text_donor_distance,semantic_host_overlap,semantic_donor_overlap,peak_drift,peak_drift_relative,end_drift,end_drift_relative,cad,recovery_fraction,persistence,next_token_kl,activation_norm_deviation,verbal_donor_claim,verbal_claim_confidence,host_completion_text,donor_completion_text,graft_completion_text,donor_source_revision
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,name_only,none,,-1,0,0.0,-1,last_prompt_token,judgment_001,judgment,1,0.049556463956832886,,0.4499841556917324,0.12037880718708038,0.1471390724182129,0.451398830925286,0.36054424910108995,1.7397622031408042,2.1143953266298308,0.4550910273091032,0.03355780276070122,,,,,,,,,,1.0,0.6774740219116211,"
+
+The grading policy is a key element of the school’s reputation. It is the first step in the process","
+
+I am a teacher and I have been teaching for over 20 years. I have been teaching for over 20 years","
+
+Answer: The school should prioritize fairness when designing a grading policy.
+
+The school should prioritize excellence",
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,primary,single_layer,early,2,1,0.0,-1,last_prompt_token,judgment_001,judgment,1,0.049556463956832886,,0.0009364393068721724,4.75964552606456e-05,0.05077946186065674,0.4291831861774697,0.24353086974265342,1.4147093835282651,1.8815739497681268,0.6865437954763621,0.02632490632463282,1.8333059549331665,0.01709936559200287,1.8333059549331665,0.016724444925785065,3.761983871459961,0.0,1.0,0.0001911407453007996,0.011955191381275654,1.0,0.6460136771202087,"
+
+The grading policy is a key element of the school’s reputation. It is the first step in the process","
+
+I am a teacher and I have been teaching for over 20 years. I have been teaching for over 20 years","
+
+The answer is yes.
+
+The school should be able to determine the fairness of the grading system and the",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,primary,single_layer,early,2,1,0.5,-1,last_prompt_token,judgment_001,judgment,1,0.049556463956832886,,0.35924234835032887,0.012799717485904694,0.022830039262771606,0.6591435098140375,0.44326021478391475,1.0495315565206915,0.5427340743980354,0.40016336533252056,0.24659848095803594,14.822314262390137,0.37513959407806396,14.822314262390137,0.13521747291088104,126.21540832519531,0.0,1.0,0.05381304398179054,0.011955191381275654,1.0,0.5019530653953552,"
+
+The grading policy is a key element of the school’s reputation. It is the first step in the process","
+
+I am a teacher and I have been teaching for over 20 years. I have been teaching for over 20 years","
+
+I’m not sure I agree with the answer to this question. I think that the answer is that the",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,primary,single_layer,early,2,1,1.0,-1,last_prompt_token,judgment_001,judgment,1,0.049556463956832886,,0.5799499946827282,0.02698155865073204,0.019542381167411804,0.5353895292095876,0.42701754711795964,1.7613626240571458,1.5285086340845013,0.4140043409440133,0.21369687880543226,22.518632888793945,0.7452837824821472,22.518632888793945,0.2054276019334793,218.78421020507812,0.0,1.0,0.11832458525896072,0.011955191381275654,1.0,0.7386690378189087,"
+
+The grading policy is a key element of the school’s reputation. It is the first step in the process","
+
+I am a teacher and I have been teaching for over 20 years. I have been teaching for over 20 years","
+
+I think the answer is yes.
+
+I think that the grading policy should be fair and that it should",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,primary,prefix,early,2,3,0.0,-1,last_prompt_token,judgment_001,judgment,1,0.049556463956832886,,0.0009364393068721724,4.75964552606456e-05,0.05077946186065674,0.4291831861774697,0.24353086974265342,1.4147093835282651,1.8815739497681268,0.6865437954763621,0.02632490632463282,1.8333059549331665,0.01709936559200287,1.8333059549331665,0.016724444925785065,3.784095048904419,0.0,1.0,0.0001911407453007996,0.011955191381275654,1.0,0.6460136771202087,"
+
+The grading policy is a key element of the school’s reputation. It is the first step in the process","
+
+I am a teacher and I have been teaching for over 20 years. I have been teaching for over 20 years","
+
+The answer is yes.
+
+The school should be able to determine the fairness of the grading system and the",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,primary,prefix,early,2,3,0.5,-1,last_prompt_token,judgment_001,judgment,1,0.049556463956832886,,0.5059189473281329,0.020337946712970734,0.019862063229084015,0.6591435098140375,0.44326021478391475,1.0495315565206915,0.5427340743980354,0.40016336533252056,0.24659848095803594,19.095495223999023,0.5249213576316833,19.095495223999023,0.17419981956481934,179.21441650390625,0.0,1.0,0.08761397004127502,6.180822372436523,1.0,0.5019530653953552,"
+
+The grading policy is a key element of the school’s reputation. It is the first step in the process","
+
+I am a teacher and I have been teaching for over 20 years. I have been teaching for over 20 years","
+
+I’m not sure I agree with the answer to this question. I think that the answer is that the",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,primary,prefix,early,2,3,1.0,-1,last_prompt_token,judgment_001,judgment,1,0.049556463956832886,,0.5799499946827282,0.02698155865073204,0.019542381167411804,0.5196306143374607,0.484832553134497,1.7320508075688772,1.6011839168261754,0.3131121455425747,0.2701351013344489,22.518632888793945,0.7879847288131714,22.518632888793945,0.2054276019334793,238.17434692382812,0.0,1.0,0.11832458525896072,12.072309494018555,1.0,0.6495786309242249,"
+
+The grading policy is a key element of the school’s reputation. It is the first step in the process","
+
+I am a teacher and I have been teaching for over 20 years. I have been teaching for over 20 years","
+
+I’m not sure I agree with that. I think that the grading policy should be based on the student",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,primary,suffix,early,2,21,0.0,-1,last_prompt_token,judgment_001,judgment,1,0.049556463956832886,,0.0009364393068721724,4.75964552606456e-05,0.05077946186065674,0.4291831861774697,0.24353086974265342,1.4147093835282651,1.8815739497681268,0.6865437954763621,0.02632490632463282,1.8333059549331665,0.01709936559200287,1.8333059549331665,0.016724444925785065,3.7478671073913574,0.0,1.0,0.0001911407453007996,0.8575252890586853,1.0,0.6460136771202087,"
+
+The grading policy is a key element of the school’s reputation. It is the first step in the process","
+
+I am a teacher and I have been teaching for over 20 years. I have been teaching for over 20 years","
+
+The answer is yes.
+
+The school should be able to determine the fairness of the grading system and the",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,primary,suffix,early,2,21,0.5,-1,last_prompt_token,judgment_001,judgment,1,0.049556463956832886,,0.42813153114750174,0.08159370720386505,0.1089872270822525,0.6146200557447825,0.41360454891641985,1.6249243260087978,1.0188623692352048,0.48019603839902475,0.2630383796885717,66.9697265625,1.3354007005691528,52.49390411376953,0.47887885570526123,535.9962158203125,0.21615471933009608,0.7838452806699039,0.5790561437606812,66.96973419189453,0.0,0.590779185295105,"
+
+The grading policy is a key element of the school’s reputation. It is the first step in the process","
+
+I am a teacher and I have been teaching for over 20 years. I have been teaching for over 20 years","
+
+A:
+
+I think the answer is yes.
+
+A:
+
+I think the answer is",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,primary,suffix,early,2,21,1.0,-1,last_prompt_token,judgment_001,judgment,1,0.049556463956832886,,0.41373477202187925,0.10468548536300659,0.148340106010437,0.6591435098140375,0.44326021478391475,1.0495315565206915,0.5427340743980354,0.40016336533252056,0.24659848095803594,76.02357482910156,1.5159378051757812,58.334312438964844,0.5321583151817322,619.9207763671875,0.2326812759055541,0.7673187240944459,0.9043583869934082,76.02357482910156,1.0,0.5019530653953552,"
+
+The grading policy is a key element of the school’s reputation. It is the first step in the process","
+
+I am a teacher and I have been teaching for over 20 years. I have been teaching for over 20 years","
+
+I’m not sure I agree with the answer to this question. I think that the answer is that the",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,primary,single_layer,early_middle,7,1,0.0,-1,last_prompt_token,judgment_001,judgment,1,0.049556463956832886,,0.0009364393068721724,4.75964552606456e-05,0.05077946186065674,0.4291831861774697,0.24353086974265342,1.4147093835282651,1.8815739497681268,0.6865437954763621,0.02632490632463282,1.8333059549331665,0.01709936559200287,1.8333059549331665,0.016724444925785065,3.675379514694214,0.0,1.0,0.0001911407453007996,0.02079092152416706,1.0,0.6460136771202087,"
+
+The grading policy is a key element of the school’s reputation. It is the first step in the process","
+
+I am a teacher and I have been teaching for over 20 years. I have been teaching for over 20 years","
+
+The answer is yes.
+
+The school should be able to determine the fairness of the grading system and the",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,primary,single_layer,early_middle,7,1,0.5,-1,last_prompt_token,judgment_001,judgment,1,0.049556463956832886,,0.6428124914916322,0.02663220837712288,0.014798549003899097,0.4291831861774697,0.24353086974265342,1.4147093835282651,1.8815739497681268,0.6865437954763621,0.02632490632463282,19.21855926513672,0.4646647274494171,19.21855926513672,0.175322487950325,140.1841583251953,0.0,1.0,0.11561815440654755,0.02079092152416706,1.0,0.6460136771202087,"
+
+The grading policy is a key element of the school’s reputation. It is the first step in the process","
+
+I am a teacher and I have been teaching for over 20 years. I have been teaching for over 20 years","
+
+The answer is yes.
+
+The school should be able to determine the fairness of the grading system and the",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,primary,single_layer,early_middle,7,1,1.0,-1,last_prompt_token,judgment_001,judgment,1,0.049556463956832886,,0.7221568883202442,0.04702625423669815,0.018092911690473557,0.4291831861774697,0.24353086974265342,1.4147093835282651,1.8815739497681268,0.6865437954763621,0.02632490632463282,27.701841354370117,0.9345911145210266,27.701841354370117,0.2527117431163788,234.1036834716797,0.0,1.0,0.21617135405540466,0.02079092152416706,1.0,0.6460136771202087,"
+
+The grading policy is a key element of the school’s reputation. It is the first step in the process","
+
+I am a teacher and I have been teaching for over 20 years. I have been teaching for over 20 years","
+
+The answer is yes.
+
+The school should be able to determine the fairness of the grading system and the",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,primary,prefix,early_middle,7,8,0.0,-1,last_prompt_token,judgment_001,judgment,1,0.049556463956832886,,0.0009364393068721724,4.75964552606456e-05,0.05077946186065674,0.4291831861774697,0.24353086974265342,1.4147093835282651,1.8815739497681268,0.6865437954763621,0.02632490632463282,1.8333059549331665,0.01709936559200287,1.8333059549331665,0.016724444925785065,3.784095048904419,0.0,1.0,0.0001911407453007996,0.02079092152416706,1.0,0.6460136771202087,"
+
+The grading policy is a key element of the school’s reputation. It is the first step in the process","
+
+I am a teacher and I have been teaching for over 20 years. I have been teaching for over 20 years","
+
+The answer is yes.
+
+The school should be able to determine the fairness of the grading system and the",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,primary,prefix,early_middle,7,8,0.5,-1,last_prompt_token,judgment_001,judgment,1,0.049556463956832886,,0.7169353860655207,0.04319026321172714,0.017052631825208664,0.4291831861774697,0.24353086974265342,1.4147093835282651,1.8815739497681268,0.6865437954763621,0.02632490632463282,26.179391860961914,0.8726961612701416,26.179391860961914,0.23882310092449188,289.9848327636719,0.0,1.0,0.19731298089027405,14.065020561218262,1.0,0.6460136771202087,"
+
+The grading policy is a key element of the school’s reputation. It is the first step in the process","
+
+I am a teacher and I have been teaching for over 20 years. I have been teaching for over 20 years","
+
+The answer is yes.
+
+The school should be able to determine the fairness of the grading system and the",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,primary,prefix,early_middle,7,8,1.0,-1,last_prompt_token,judgment_001,judgment,1,0.049556463956832886,,0.7221568883202442,0.04702625423669815,0.018092911690473557,0.4291831861774697,0.24353086974265342,1.4147093835282651,1.8815739497681268,0.6865437954763621,0.02632490632463282,27.701841354370117,0.9927970170974731,27.701841354370117,0.2527117431163788,331.7506408691406,0.0,1.0,0.21617135405540466,15.855162620544434,1.0,0.6460136771202087,"
+
+The grading policy is a key element of the school’s reputation. It is the first step in the process","
+
+I am a teacher and I have been teaching for over 20 years. I have been teaching for over 20 years","
+
+The answer is yes.
+
+The school should be able to determine the fairness of the grading system and the",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,primary,suffix,early_middle,7,16,0.0,-1,last_prompt_token,judgment_001,judgment,1,0.049556463956832886,,0.0009364393068721724,4.75964552606456e-05,0.05077946186065674,0.4291831861774697,0.24353086974265342,1.4147093835282651,1.8815739497681268,0.6865437954763621,0.02632490632463282,1.8333059549331665,0.01709936559200287,1.8333059549331665,0.016724444925785065,3.6535162925720215,0.0,1.0,0.0001911407453007996,0.8575252890586853,1.0,0.6460136771202087,"
+
+The grading policy is a key element of the school’s reputation. It is the first step in the process","
+
+I am a teacher and I have been teaching for over 20 years. I have been teaching for over 20 years","
+
+The answer is yes.
+
+The school should be able to determine the fairness of the grading system and the",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,primary,suffix,early_middle,7,16,0.5,-1,last_prompt_token,judgment_001,judgment,1,0.049556463956832886,,0.4281147957656378,0.08154205977916718,0.10892568528652191,0.6146200557447825,0.41360454891641985,1.6249243260087978,1.0188623692352048,0.48019603839902475,0.2630383796885717,66.94097137451172,1.3348273038864136,52.485877990722656,0.47880563139915466,463.9764404296875,0.21593790898129914,0.7840620910187008,0.5788373947143555,66.94097137451172,0.0,0.590779185295105,"
+
+The grading policy is a key element of the school’s reputation. It is the first step in the process","
+
+I am a teacher and I have been teaching for over 20 years. I have been teaching for over 20 years","
+
+A:
+
+I think the answer is yes.
+
+A:
+
+I think the answer is",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,primary,suffix,early_middle,7,16,1.0,-1,last_prompt_token,judgment_001,judgment,1,0.049556463956832886,,0.41373477202187925,0.10468548536300659,0.148340106010437,0.5208366079832365,0.5363364798657224,1.7324556674971294,1.5938383005957755,0.18481233109010925,0.2952692976787463,76.02357482910156,1.5159378051757812,58.334312438964844,0.5321583151817322,540.05126953125,0.2326812759055541,0.7673187240944459,0.9043583869934082,76.02357482910156,1.0,0.5945512652397156,"
+
+The grading policy is a key element of the school’s reputation. It is the first step in the process","
+
+I am a teacher and I have been teaching for over 20 years. I have been teaching for over 20 years","
+
+I’m not sure I’d say that. I think that the grading policy should be fair and that",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,primary,single_layer,middle,12,1,0.0,-1,last_prompt_token,judgment_001,judgment,1,0.049556463956832886,,0.0009364393068721724,4.75964552606456e-05,0.05077946186065674,0.4291831861774697,0.24353086974265342,1.4147093835282651,1.8815739497681268,0.6865437954763621,0.02632490632463282,1.8333059549331665,0.01709936559200287,1.8333059549331665,0.016724444925785065,3.55769944190979,0.0,1.0,0.0001911407453007996,0.024485545232892036,1.0,0.6460136771202087,"
+
+The grading policy is a key element of the school’s reputation. It is the first step in the process","
+
+I am a teacher and I have been teaching for over 20 years. I have been teaching for over 20 years","
+
+The answer is yes.
+
+The school should be able to determine the fairness of the grading system and the",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,primary,single_layer,middle,12,1,0.5,-1,last_prompt_token,judgment_001,judgment,1,0.049556463956832886,,0.30627694267811495,0.01714276149868965,0.03882867842912674,0.4291831861774697,0.24353086974265342,1.4147093835282651,1.8815739497681268,0.6865437954763621,0.02632490632463282,18.980213165283203,0.4889701306819916,18.980213165283203,0.17314815521240234,118.97222900390625,0.0,1.0,0.07970407605171204,0.024485545232892036,1.0,0.6460136771202087,"
+
+The grading policy is a key element of the school’s reputation. It is the first step in the process","
+
+I am a teacher and I have been teaching for over 20 years. I have been teaching for over 20 years","
+
+The answer is yes.
+
+The school should be able to determine the fairness of the grading system and the",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,primary,single_layer,middle,12,1,1.0,-1,last_prompt_token,judgment_001,judgment,1,0.049556463956832886,,0.4524890340359852,0.03876931965351105,0.046910811215639114,0.4291831861774697,0.24353086974265342,1.4147093835282651,1.8815739497681268,0.6865437954763621,0.02632490632463282,31.909526824951172,0.9659889340400696,31.909526824951172,0.29109659790992737,217.1490478515625,0.0,1.0,0.20299243927001953,0.024485545232892036,1.0,0.6460136771202087,"
+
+The grading policy is a key element of the school’s reputation. It is the first step in the process","
+
+I am a teacher and I have been teaching for over 20 years. I have been teaching for over 20 years","
+
+The answer is yes.
+
+The school should be able to determine the fairness of the grading system and the",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,primary,prefix,middle,12,13,0.0,-1,last_prompt_token,judgment_001,judgment,1,0.049556463956832886,,0.0009364393068721724,4.75964552606456e-05,0.05077946186065674,0.4291831861774697,0.24353086974265342,1.4147093835282651,1.8815739497681268,0.6865437954763621,0.02632490632463282,1.8333059549331665,0.01709936559200287,1.8333059549331665,0.016724444925785065,3.784095048904419,0.0,1.0,0.0001911407453007996,0.024485545232892036,1.0,0.6460136771202087,"
+
+The grading policy is a key element of the school’s reputation. It is the first step in the process","
+
+I am a teacher and I have been teaching for over 20 years. I have been teaching for over 20 years","
+
+The answer is yes.
+
+The school should be able to determine the fairness of the grading system and the",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,primary,prefix,middle,12,13,0.5,-1,last_prompt_token,judgment_001,judgment,1,0.049556463956832886,,0.477472171057582,0.0360206663608551,0.03941968083381653,0.4291831861774697,0.24353086974265342,1.4147093835282651,1.8815739497681268,0.6865437954763621,0.02632490632463282,29.64971160888672,0.9157488942146301,29.64971160888672,0.27048131823539734,356.5602111816406,0.0,1.0,0.1844850778579712,15.912995338439941,1.0,0.6460136771202087,"
+
+The grading policy is a key element of the school’s reputation. It is the first step in the process","
+
+I am a teacher and I have been teaching for over 20 years. I have been teaching for over 20 years","
+
+The answer is yes.
+
+The school should be able to determine the fairness of the grading system and the",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,primary,prefix,middle,12,13,1.0,-1,last_prompt_token,judgment_001,judgment,1,0.049556463956832886,,0.4524890340359852,0.03876931965351105,0.046910811215639114,0.6591435098140375,0.44326021478391475,1.0495315565206915,0.5427340743980354,0.40016336533252056,0.24659848095803594,31.909526824951172,1.0413042306900024,31.909526824951172,0.29109659790992737,401.7419128417969,0.0,1.0,0.20299243927001953,18.094776153564453,1.0,0.5019530653953552,"
+
+The grading policy is a key element of the school’s reputation. It is the first step in the process","
+
+I am a teacher and I have been teaching for over 20 years. I have been teaching for over 20 years","
+
+I’m not sure I agree with the answer to this question. I think that the answer is that the",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,primary,suffix,middle,12,11,0.0,-1,last_prompt_token,judgment_001,judgment,1,0.049556463956832886,,0.0009364393068721724,4.75964552606456e-05,0.05077946186065674,0.4291831861774697,0.24353086974265342,1.4147093835282651,1.8815739497681268,0.6865437954763621,0.02632490632463282,1.8333059549331665,0.01709936559200287,1.8333059549331665,0.016724444925785065,3.5313239097595215,0.0,1.0,0.0001911407453007996,0.8575252890586853,1.0,0.6460136771202087,"
+
+The grading policy is a key element of the school’s reputation. It is the first step in the process","
+
+I am a teacher and I have been teaching for over 20 years. I have been teaching for over 20 years","
+
+The answer is yes.
+
+The school should be able to determine the fairness of the grading system and the",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,primary,suffix,middle,12,11,0.5,-1,last_prompt_token,judgment_001,judgment,1,0.049556463956832886,,0.42808990499867466,0.08153998851776123,0.10893399268388748,0.6591435098140375,0.44326021478391475,1.0495315565206915,0.5427340743980354,0.40016336533252056,0.24659848095803594,66.95909118652344,1.335188627243042,52.48474884033203,0.4787953197956085,382.52520751953125,0.216166947455592,0.7838330525444079,0.5788261890411377,66.95907592773438,1.0,0.5019530653953552,"
+
+The grading policy is a key element of the school’s reputation. It is the first step in the process","
+
+I am a teacher and I have been teaching for over 20 years. I have been teaching for over 20 years","
+
+I’m not sure I agree with the answer to this question. I think that the answer is that the",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,primary,suffix,middle,12,11,1.0,-1,last_prompt_token,judgment_001,judgment,1,0.049556463956832886,,0.41373477202187925,0.10468548536300659,0.148340106010437,0.9032908697416496,0.5433748279028554,1.2435385417836886,0.1331371043882358,0.12126781251816648,0.2615571871735934,76.02357482910156,1.5159378051757812,58.334312438964844,0.5321583151817322,450.30419921875,0.2326812759055541,0.7673187240944459,0.9043583869934082,76.02357482910156,1.0,0.7264255881309509,"
+
+The grading policy is a key element of the school’s reputation. It is the first step in the process","
+
+I am a teacher and I have been teaching for over 20 years. I have been teaching for over 20 years","
+
+I’m not sure I’m the only one who thinks that.
+
+I’m not sure",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,primary,single_layer,late_middle,16,1,0.0,-1,last_prompt_token,judgment_001,judgment,1,0.049556463956832886,,0.0009364393068721724,4.75964552606456e-05,0.05077946186065674,0.4291831861774697,0.24353086974265342,1.4147093835282651,1.8815739497681268,0.6865437954763621,0.02632490632463282,1.8333059549331665,0.01709936559200287,1.8333059549331665,0.016724444925785065,3.4064583778381348,0.0,1.0,0.0001911407453007996,0.044308025389909744,1.0,0.6460136771202087,"
+
+The grading policy is a key element of the school’s reputation. It is the first step in the process","
+
+I am a teacher and I have been teaching for over 20 years. I have been teaching for over 20 years","
+
+The answer is yes.
+
+The school should be able to determine the fairness of the grading system and the",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,primary,single_layer,late_middle,16,1,0.5,-1,last_prompt_token,judgment_001,judgment,1,0.049556463956832886,,0.5602330362039102,0.024897899478673935,0.019544141367077827,0.4291831861774697,0.24353086974265342,1.4147093835282651,1.8815739497681268,0.6865437954763621,0.02632490632463282,24.818105697631836,0.5463950634002686,24.818105697631836,0.22640468180179596,129.8839874267578,0.0,1.0,0.1067628264427185,0.044308025389909744,1.0,0.6460136771202087,"
+
+The grading policy is a key element of the school’s reputation. It is the first step in the process","
+
+I am a teacher and I have been teaching for over 20 years. I have been teaching for over 20 years","
+
+The answer is yes.
+
+The school should be able to determine the fairness of the grading system and the",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,primary,single_layer,late_middle,16,1,1.0,-1,last_prompt_token,judgment_001,judgment,1,0.049556463956832886,,0.6247371099677099,0.05091553181409836,0.03058359958231449,0.4291831861774697,0.24353086974265342,1.4147093835282651,1.8815739497681268,0.6865437954763621,0.02632490632463282,37.82135772705078,1.0271344184875488,37.82135772705078,0.3450276553630829,229.89544677734375,0.0,1.0,0.25472477078437805,0.044308025389909744,1.0,0.6460136771202087,"
+
+The grading policy is a key element of the school’s reputation. It is the first step in the process","
+
+I am a teacher and I have been teaching for over 20 years. I have been teaching for over 20 years","
+
+The answer is yes.
+
+The school should be able to determine the fairness of the grading system and the",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,primary,prefix,late_middle,16,17,0.0,-1,last_prompt_token,judgment_001,judgment,1,0.049556463956832886,,0.0009364393068721724,4.75964552606456e-05,0.05077946186065674,0.4291831861774697,0.24353086974265342,1.4147093835282651,1.8815739497681268,0.6865437954763621,0.02632490632463282,1.8333059549331665,0.01709936559200287,1.8333059549331665,0.016724444925785065,3.784095048904419,0.0,1.0,0.0001911407453007996,0.044308025389909744,1.0,0.6460136771202087,"
+
+The grading policy is a key element of the school’s reputation. It is the first step in the process","
+
+I am a teacher and I have been teaching for over 20 years. I have been teaching for over 20 years","
+
+The answer is yes.
+
+The school should be able to determine the fairness of the grading system and the",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,primary,prefix,late_middle,16,17,0.5,-1,last_prompt_token,judgment_001,judgment,1,0.049556463956832886,,0.5528521444985209,0.0435735248029232,0.03524234890937805,0.6146200557447825,0.41360454891641985,1.6249243260087978,1.0188623692352048,0.48019603839902475,0.2630383796885717,35.73308181762695,0.9485827684402466,35.73308181762695,0.32597723603248596,428.7927551269531,0.0,1.0,0.22692039608955383,19.696531295776367,0.0,0.590779185295105,"
+
+The grading policy is a key element of the school’s reputation. It is the first step in the process","
+
+I am a teacher and I have been teaching for over 20 years. I have been teaching for over 20 years","
+
+A:
+
+I think the answer is yes.
+
+A:
+
+I think the answer is",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,primary,prefix,late_middle,16,17,1.0,-1,last_prompt_token,judgment_001,judgment,1,0.049556463956832886,,0.6247371099677099,0.05091553181409836,0.03058359958231449,0.6146200557447825,0.41360454891641985,1.6249243260087978,1.0188623692352048,0.48019603839902475,0.2630383796885717,37.82135772705078,1.0664502382278442,37.82135772705078,0.3450276553630829,500.19488525390625,0.0,1.0,0.25472477078437805,22.18241310119629,0.0,0.590779185295105,"
+
+The grading policy is a key element of the school’s reputation. It is the first step in the process","
+
+I am a teacher and I have been teaching for over 20 years. I have been teaching for over 20 years","
+
+A:
+
+I think the answer is yes.
+
+A:
+
+I think the answer is",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,primary,suffix,late_middle,16,7,0.0,-1,last_prompt_token,judgment_001,judgment,1,0.049556463956832886,,0.0009364393068721724,4.75964552606456e-05,0.05077946186065674,0.4291831861774697,0.24353086974265342,1.4147093835282651,1.8815739497681268,0.6865437954763621,0.02632490632463282,1.8333059549331665,0.01709936559200287,1.8333059549331665,0.016724444925785065,3.3489818572998047,0.0,1.0,0.0001911407453007996,0.8575252890586853,1.0,0.6460136771202087,"
+
+The grading policy is a key element of the school’s reputation. It is the first step in the process","
+
+I am a teacher and I have been teaching for over 20 years. I have been teaching for over 20 years","
+
+The answer is yes.
+
+The school should be able to determine the fairness of the grading system and the",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,primary,suffix,late_middle,16,7,0.5,-1,last_prompt_token,judgment_001,judgment,1,0.049556463956832886,,0.42785065115580706,0.08134806156158447,0.10878384858369827,0.8124425562746751,0.46648148988666943,1.3327327148514145,0.30766967982573523,0.3383303246607606,0.24324324324324328,66.70568084716797,1.3301355838775635,52.41861343383789,0.478192001581192,290.84088134765625,0.21418066995019128,0.7858193300498088,0.5767006278038025,66.7056884765625,1.0,0.6842640042304993,"
+
+The grading policy is a key element of the school’s reputation. It is the first step in the process","
+
+I am a teacher and I have been teaching for over 20 years. I have been teaching for over 20 years","
+
+I’m not sure what the answer is. I’m not sure what the answer is. I’",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,primary,suffix,late_middle,16,7,1.0,-1,last_prompt_token,judgment_001,judgment,1,0.049556463956832886,,0.41373477202187925,0.10468548536300659,0.148340106010437,0.8124425562746751,0.46648148988666943,1.3327327148514145,0.30766967982573523,0.3383303246607606,0.24324324324324328,76.02357482910156,1.5159378051757812,58.334312438964844,0.5321583151817322,351.2386474609375,0.2326812759055541,0.7673187240944459,0.9043583869934082,76.02357482910156,1.0,0.6842640042304993,"
+
+The grading policy is a key element of the school’s reputation. It is the first step in the process","
+
+I am a teacher and I have been teaching for over 20 years. I have been teaching for over 20 years","
+
+I’m not sure what the answer is. I’m not sure what the answer is. I’",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,primary,single_layer,late,21,1,0.0,-1,last_prompt_token,judgment_001,judgment,1,0.049556463956832886,,0.0009364393068721724,4.75964552606456e-05,0.05077946186065674,0.4291831861774697,0.24353086974265342,1.4147093835282651,1.8815739497681268,0.6865437954763621,0.02632490632463282,1.8333059549331665,0.01709936559200287,1.8333059549331665,0.016724444925785065,2.0923752784729004,0.0,1.0,0.0001911407453007996,0.47444939613342285,1.0,0.6460136771202087,"
+
+The grading policy is a key element of the school’s reputation. It is the first step in the process","
+
+I am a teacher and I have been teaching for over 20 years. I have been teaching for over 20 years","
+
+The answer is yes.
+
+The school should be able to determine the fairness of the grading system and the",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,primary,single_layer,late,21,1,0.5,-1,last_prompt_token,judgment_001,judgment,1,0.049556463956832886,,0.5995732678144562,0.03220892697572708,0.02151082456111908,0.4291831861774697,0.24353086974265342,1.4147093835282651,1.8815739497681268,0.6865437954763621,0.02632490632463282,34.69072341918945,0.6853242516517639,34.69072341918945,0.3164682388305664,68.75980377197266,0.0,1.0,0.14441750943660736,0.47444939613342285,1.0,0.6460136771202087,"
+
+The grading policy is a key element of the school’s reputation. It is the first step in the process","
+
+I am a teacher and I have been teaching for over 20 years. I have been teaching for over 20 years","
+
+The answer is yes.
+
+The school should be able to determine the fairness of the grading system and the",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,primary,single_layer,late,21,1,1.0,-1,last_prompt_token,judgment_001,judgment,1,0.049556463956832886,,0.6034762841433079,0.060255154967308044,0.03959161043167114,0.4291831861774697,0.24353086974265342,1.4147093835282651,1.8815739497681268,0.6865437954763621,0.02632490632463282,69.6610336303711,1.3670741319656372,53.078880310058594,0.48421531915664673,129.9281005859375,0.23804058676905632,0.7619594132309437,0.31731224060058594,0.47444939613342285,1.0,0.6460136771202087,"
+
+The grading policy is a key element of the school’s reputation. It is the first step in the process","
+
+I am a teacher and I have been teaching for over 20 years. I have been teaching for over 20 years","
+
+The answer is yes.
+
+The school should be able to determine the fairness of the grading system and the",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,primary,prefix,late,21,22,0.0,-1,last_prompt_token,judgment_001,judgment,1,0.049556463956832886,,0.0009364393068721724,4.75964552606456e-05,0.05077946186065674,0.4291831861774697,0.24353086974265342,1.4147093835282651,1.8815739497681268,0.6865437954763621,0.02632490632463282,1.8333059549331665,0.01709936559200287,1.8333059549331665,0.016724444925785065,3.784095048904419,0.0,1.0,0.0001911407453007996,0.47444939613342285,1.0,0.6460136771202087,"
+
+The grading policy is a key element of the school’s reputation. It is the first step in the process","
+
+I am a teacher and I have been teaching for over 20 years. I have been teaching for over 20 years","
+
+The answer is yes.
+
+The school should be able to determine the fairness of the grading system and the",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,primary,prefix,late,21,22,0.5,-1,last_prompt_token,judgment_001,judgment,1,0.049556463956832886,,0.6163232137098204,0.0574645921587944,0.03577316179871559,0.6146200557447825,0.41360454891641985,1.6249243260087978,1.0188623692352048,0.48019603839902475,0.2630383796885717,61.96194839477539,1.1981291770935059,47.794837951660156,0.43601134419441223,554.9507446289062,0.2286421071340907,0.7713578928659093,0.3059561550617218,55.62211990356445,0.0,0.590779185295105,"
+
+The grading policy is a key element of the school’s reputation. It is the first step in the process","
+
+I am a teacher and I have been teaching for over 20 years. I have been teaching for over 20 years","
+
+A:
+
+I think the answer is yes.
+
+A:
+
+I think the answer is",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,primary,prefix,late,21,22,1.0,-1,last_prompt_token,judgment_001,judgment,1,0.049556463956832886,,0.6034762841433079,0.060255154967308044,0.03959161043167114,0.5208366079832365,0.49521032328016,1.7324556674971294,1.5938383005957755,0.318464877649241,0.30528125543633183,69.6610336303711,1.3670741319656372,53.078880310058594,0.48421531915664673,643.7606201171875,0.23804058676905632,0.7619594132309437,0.31731224060058594,62.45180130004883,1.0,0.6132365465164185,"
+
+The grading policy is a key element of the school’s reputation. It is the first step in the process","
+
+I am a teacher and I have been teaching for over 20 years. I have been teaching for over 20 years","
+
+I’m not sure I’d say that. I think that the grading policy should be fair and the",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,primary,suffix,late,21,2,0.0,-1,last_prompt_token,judgment_001,judgment,1,0.049556463956832886,,0.0009364393068721724,4.75964552606456e-05,0.05077946186065674,0.4291831861774697,0.24353086974265342,1.4147093835282651,1.8815739497681268,0.6865437954763621,0.02632490632463282,1.8333059549331665,0.01709936559200287,1.8333059549331665,0.016724444925785065,1.3454155921936035,0.0,1.0,0.0001911407453007996,0.8575252890586853,1.0,0.6460136771202087,"
+
+The grading policy is a key element of the school’s reputation. It is the first step in the process","
+
+I am a teacher and I have been teaching for over 20 years. I have been teaching for over 20 years","
+
+The answer is yes.
+
+The school should be able to determine the fairness of the grading system and the",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,primary,suffix,late,21,2,0.5,-1,last_prompt_token,judgment_001,judgment,1,0.049556463956832886,,0.4140467029255905,0.07360769063234329,0.1041686087846756,0.0,0.05707534937604281,0.0,1.2502529637264967,0.9411764705882353,0.028194193721730047,46.99824523925781,0.755935788154602,46.99824523925781,0.428744375705719,42.454036712646484,0.0,1.0,0.48926204442977905,37.90982437133789,1.0,0.5253688097000122,"
+
+The grading policy is a key element of the school’s reputation. It is the first step in the process","
+
+I am a teacher and I have been teaching for over 20 years. I have been teaching for over 20 years","
+
+The grading policy is a key element of the school’s overall curriculum. It is the first step in the",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,primary,suffix,late,21,2,1.0,-1,last_prompt_token,judgment_001,judgment,1,0.049556463956832886,,0.41373477202187925,0.10468548536300659,0.148340106010437,0.0,0.05707534937604281,0.0,1.2502529637264967,0.9411764705882353,0.028194193721730047,76.02357482910156,1.5159378051757812,58.334312438964844,0.5321583151817322,67.17893981933594,0.2326812759055541,0.7673187240944459,0.9043583869934082,76.02357482910156,1.0,0.5253688097000122,"
+
+The grading policy is a key element of the school’s reputation. It is the first step in the process","
+
+I am a teacher and I have been teaching for over 20 years. I have been teaching for over 20 years","
+
+The grading policy is a key element of the school’s overall curriculum. It is the first step in the",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step128000,adjacent,single_layer,early,2,1,0.0,-1,last_prompt_token,judgment_001,judgment,1,0.049556463956832886,,0.0031815347645139137,4.75964552606456e-05,0.014912622049450874,0.8127561972497216,0.5933870481310115,1.4147093835282651,0.32592254067566556,0.6865437954763621,0.7852070532987567,1.8333059549331665,0.01709936559200287,1.8333059549331665,0.016724444925785065,3.761983871459961,0.0,1.0,0.0001911407453007996,0.011955191381275654,1.0,0.6169358491897583,"
+
+The grading policy is a key element of the school’s reputation. It is the first step in the process","
+
+The answer is yes.
+
+The school should be fair and equitable in its grading policies.
+
+The","
+
+The answer is yes.
+
+The school should be able to determine the fairness of the grading system and the",step128000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step128000,adjacent,single_layer,early,2,1,0.5,-1,last_prompt_token,judgment_001,judgment,1,0.049556463956832886,,0.04214736291931166,0.0005346302641555667,0.012150155380368233,0.05076441171318351,0.3595981481066157,0.07705136521978523,1.4407711135488248,0.7778444682625972,0.6043672230190352,3.7850849628448486,0.04730130359530449,3.7850849628448486,0.0345296673476696,21.833637237548828,0.0,1.0,0.0021523251198232174,0.011955191381275654,1.0,0.6706082820892334,"
+
+The grading policy is a key element of the school’s reputation. It is the first step in the process","
+
+The answer is yes.
+
+The school should be fair and equitable in its grading policies.
+
+The","
+
+The answer is that it depends on the school.
+
+The school’s grading policy is a reflection of",step128000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step128000,adjacent,single_layer,early,2,1,1.0,-1,last_prompt_token,judgment_001,judgment,1,0.049556463956832886,,0.1554506547240417,0.0018484124448150396,0.010042257606983185,0.05076441171318351,0.3595981481066157,0.07705136521978523,1.4407711135488248,0.7778444682625972,0.6043672230190352,6.0305256843566895,0.09371975809335709,6.0305256843566895,0.05501383915543556,39.91949462890625,0.0,1.0,0.007460243068635464,0.011955191381275654,1.0,0.6706082820892334,"
+
+The grading policy is a key element of the school’s reputation. It is the first step in the process","
+
+The answer is yes.
+
+The school should be fair and equitable in its grading policies.
+
+The","
+
+The answer is that it depends on the school.
+
+The school’s grading policy is a reflection of",step128000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step128000,adjacent,prefix,early,2,3,0.0,-1,last_prompt_token,judgment_001,judgment,1,0.049556463956832886,,0.0031815347645139137,4.75964552606456e-05,0.014912622049450874,0.8127561972497216,0.5933870481310115,1.4147093835282651,0.32592254067566556,0.6865437954763621,0.7852070532987567,1.8333059549331665,0.01709936559200287,1.8333059549331665,0.016724444925785065,3.784095048904419,0.0,1.0,0.0001911407453007996,0.011955191381275654,1.0,0.6169358491897583,"
+
+The grading policy is a key element of the school’s reputation. It is the first step in the process","
+
+The answer is yes.
+
+The school should be fair and equitable in its grading policies.
+
+The","
+
+The answer is yes.
+
+The school should be able to determine the fairness of the grading system and the",step128000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step128000,adjacent,prefix,early,2,3,0.5,-1,last_prompt_token,judgment_001,judgment,1,0.049556463956832886,,0.07756313028781377,0.0009246646659448743,0.010996781289577484,0.06819002976313333,0.5432361463016033,0.10526315789473678,1.4384105765252868,0.621581560508061,0.6818181818181818,3.9085826873779297,0.06682516634464264,3.9085826873779297,0.03565628454089165,28.500120162963867,0.0,1.0,0.0037281648255884647,0.7596272826194763,1.0,0.6352224349975586,"
+
+The grading policy is a key element of the school’s reputation. It is the first step in the process","
+
+The answer is yes.
+
+The school should be fair and equitable in its grading policies.
+
+The","
+
+The answer is that it depends.
+
+The school’s grading policy is designed to be fair and equitable",step128000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step128000,adjacent,prefix,early,2,3,1.0,-1,last_prompt_token,judgment_001,judgment,1,0.049556463956832886,,0.1554506547240417,0.0018484124448150396,0.010042257606983185,0.05076441171318351,0.3595981481066157,0.07705136521978523,1.4407711135488248,0.7778444682625972,0.6043672230190352,6.0305256843566895,0.09371975809335709,6.0305256843566895,0.05501383915543556,42.29143524169922,0.0,1.0,0.007460243068635464,1.412726879119873,1.0,0.6706082820892334,"
+
+The grading policy is a key element of the school’s reputation. It is the first step in the process","
+
+The answer is yes.
+
+The school should be fair and equitable in its grading policies.
+
+The","
+
+The answer is that it depends on the school.
+
+The school’s grading policy is a reflection of",step128000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step128000,adjacent,suffix,early,2,21,0.0,-1,last_prompt_token,judgment_001,judgment,1,0.049556463956832886,,0.0031815347645139137,4.75964552606456e-05,0.014912622049450874,0.8127561972497216,0.5933870481310115,1.4147093835282651,0.32592254067566556,0.6865437954763621,0.7852070532987567,1.8333059549331665,0.01709936559200287,1.8333059549331665,0.016724444925785065,3.7478671073913574,0.0,1.0,0.0001911407453007996,0.8575252890586853,1.0,0.6169358491897583,"
+
+The grading policy is a key element of the school’s reputation. It is the first step in the process","
+
+The answer is yes.
+
+The school should be fair and equitable in its grading policies.
+
+The","
+
+The answer is yes.
+
+The school should be able to determine the fairness of the grading system and the",step128000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step128000,adjacent,suffix,early,2,21,0.5,-1,last_prompt_token,judgment_001,judgment,1,0.049556463956832886,,0.8683578023425618,0.016734929755330086,0.002536999061703682,0.05076441171318351,0.3595981481066157,0.07705136521978523,1.4407711135488248,0.7778444682625972,0.6043672230190352,24.728410720825195,0.377054363489151,24.728410720825195,0.2255864441394806,127.49053192138672,0.0,1.0,0.06899189203977585,14.734783172607422,1.0,0.6706082820892334,"
+
+The grading policy is a key element of the school’s reputation. It is the first step in the process","
+
+The answer is yes.
+
+The school should be fair and equitable in its grading policies.
+
+The","
+
+The answer is that it depends on the school.
+
+The school’s grading policy is a reflection of",step128000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step128000,adjacent,suffix,early,2,21,1.0,-1,last_prompt_token,judgment_001,judgment,1,0.049556463956832886,,0.8198909861162541,0.01934799551963806,0.004250258207321167,0.05076441171318351,0.3595981481066157,0.07705136521978523,1.4407711135488248,0.7778444682625972,0.6043672230190352,27.072559356689453,0.44832760095596313,27.072559356689453,0.24697107076644897,158.66513061523438,0.0,1.0,0.07821689546108246,16.237571716308594,1.0,0.6706082820892334,"
+
+The grading policy is a key element of the school’s reputation. It is the first step in the process","
+
+The answer is yes.
+
+The school should be fair and equitable in its grading policies.
+
+The","
+
+The answer is that it depends on the school.
+
+The school’s grading policy is a reflection of",step128000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step128000,adjacent,single_layer,early_middle,7,1,0.0,-1,last_prompt_token,judgment_001,judgment,1,0.049556463956832886,,0.0031815347645139137,4.75964552606456e-05,0.014912622049450874,0.8127561972497216,0.5933870481310115,1.4147093835282651,0.32592254067566556,0.6865437954763621,0.7852070532987567,1.8333059549331665,0.01709936559200287,1.8333059549331665,0.016724444925785065,3.675379514694214,0.0,1.0,0.0001911407453007996,0.02079092152416706,1.0,0.6169358491897583,"
+
+The grading policy is a key element of the school’s reputation. It is the first step in the process","
+
+The answer is yes.
+
+The school should be fair and equitable in its grading policies.
+
+The","
+
+The answer is yes.
+
+The school should be able to determine the fairness of the grading system and the",step128000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step128000,adjacent,single_layer,early_middle,7,1,0.5,-1,last_prompt_token,judgment_001,judgment,1,0.049556463956832886,,0.04345989766836422,0.000558559549972415,0.012293738313019276,0.05076441171318351,0.3595981481066157,0.07705136521978523,1.4407711135488248,0.7778444682625972,0.6043672230190352,3.591543674468994,0.08148589730262756,3.591543674468994,0.03276407718658447,20.46997833251953,0.0,1.0,0.0022603708785027266,0.02079092152416706,1.0,0.6706082820892334,"
+
+The grading policy is a key element of the school’s reputation. It is the first step in the process","
+
+The answer is yes.
+
+The school should be fair and equitable in its grading policies.
+
+The","
+
+The answer is that it depends on the school.
+
+The school’s grading policy is a reflection of",step128000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step128000,adjacent,single_layer,early_middle,7,1,1.0,-1,last_prompt_token,judgment_001,judgment,1,0.049556463956832886,,0.15876271099781528,0.0019359277794137597,0.010257916525006294,0.05076441171318351,0.3595981481066157,0.07705136521978523,1.4407711135488248,0.7778444682625972,0.6043672230190352,6.108548641204834,0.16242824494838715,6.108548641204834,0.05572560802102089,39.27589416503906,0.0,1.0,0.007979631423950195,0.02079092152416706,1.0,0.6706082820892334,"
+
+The grading policy is a key element of the school’s reputation. It is the first step in the process","
+
+The answer is yes.
+
+The school should be fair and equitable in its grading policies.
+
+The","
+
+The answer is that it depends on the school.
+
+The school’s grading policy is a reflection of",step128000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step128000,adjacent,prefix,early_middle,7,8,0.0,-1,last_prompt_token,judgment_001,judgment,1,0.049556463956832886,,0.0031815347645139137,4.75964552606456e-05,0.014912622049450874,0.8127561972497216,0.5933870481310115,1.4147093835282651,0.32592254067566556,0.6865437954763621,0.7852070532987567,1.8333059549331665,0.01709936559200287,1.8333059549331665,0.016724444925785065,3.784095048904419,0.0,1.0,0.0001911407453007996,0.02079092152416706,1.0,0.6169358491897583,"
+
+The grading policy is a key element of the school’s reputation. It is the first step in the process","
+
+The answer is yes.
+
+The school should be fair and equitable in its grading policies.
+
+The","
+
+The answer is yes.
+
+The school should be able to determine the fairness of the grading system and the",step128000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step128000,adjacent,prefix,early_middle,7,8,0.5,-1,last_prompt_token,judgment_001,judgment,1,0.049556463956832886,,0.12905131043283366,0.0015254928730428219,0.010295331478118896,0.05076441171318351,0.3595981481066157,0.07705136521978523,1.4407711135488248,0.7778444682625972,0.6043672230190352,5.027901649475098,0.13263817131519318,5.027901649475098,0.04586733877658844,43.816646575927734,0.0,1.0,0.00625381525605917,2.08398175239563,1.0,0.6706082820892334,"
+
+The grading policy is a key element of the school’s reputation. It is the first step in the process","
+
+The answer is yes.
+
+The school should be fair and equitable in its grading policies.
+
+The","
+
+The answer is that it depends on the school.
+
+The school’s grading policy is a reflection of",step128000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step128000,adjacent,prefix,early_middle,7,8,1.0,-1,last_prompt_token,judgment_001,judgment,1,0.049556463956832886,,0.15876271099781528,0.0019359277794137597,0.010257916525006294,0.05076441171318351,0.3595981481066157,0.07705136521978523,1.4407711135488248,0.7778444682625972,0.6043672230190352,6.108548641204834,0.16242824494838715,6.108548641204834,0.05572560802102089,52.7365608215332,0.0,1.0,0.007979631423950195,2.593566417694092,1.0,0.6706082820892334,"
+
+The grading policy is a key element of the school’s reputation. It is the first step in the process","
+
+The answer is yes.
+
+The school should be fair and equitable in its grading policies.
+
+The","
+
+The answer is that it depends on the school.
+
+The school’s grading policy is a reflection of",step128000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step128000,adjacent,suffix,early_middle,7,16,0.0,-1,last_prompt_token,judgment_001,judgment,1,0.049556463956832886,,0.0031815347645139137,4.75964552606456e-05,0.014912622049450874,0.8127561972497216,0.5933870481310115,1.4147093835282651,0.32592254067566556,0.6865437954763621,0.7852070532987567,1.8333059549331665,0.01709936559200287,1.8333059549331665,0.016724444925785065,3.6535162925720215,0.0,1.0,0.0001911407453007996,0.8575252890586853,1.0,0.6169358491897583,"
+
+The grading policy is a key element of the school’s reputation. It is the first step in the process","
+
+The answer is yes.
+
+The school should be fair and equitable in its grading policies.
+
+The","
+
+The answer is yes.
+
+The school should be able to determine the fairness of the grading system and the",step128000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step128000,adjacent,suffix,early_middle,7,16,0.5,-1,last_prompt_token,judgment_001,judgment,1,0.049556463956832886,,0.8673279411626792,0.016819395124912262,0.0025728028267621994,0.05076441171318351,0.3595981481066157,0.07705136521978523,1.4407711135488248,0.7778444682625972,0.6043672230190352,24.75190544128418,0.37695056200027466,24.75190544128418,0.2258007675409317,117.09083557128906,0.0,1.0,0.06932277977466583,14.769355773925781,1.0,0.6706082820892334,"
+
+The grading policy is a key element of the school’s reputation. It is the first step in the process","
+
+The answer is yes.
+
+The school should be fair and equitable in its grading policies.
+
+The","
+
+The answer is that it depends on the school.
+
+The school’s grading policy is a reflection of",step128000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step128000,adjacent,suffix,early_middle,7,16,1.0,-1,last_prompt_token,judgment_001,judgment,1,0.049556463956832886,,0.8198909861162541,0.01934799551963806,0.004250258207321167,0.05076441171318351,0.3595981481066157,0.07705136521978523,1.4407711135488248,0.7778444682625972,0.6043672230190352,27.072559356689453,0.44832760095596313,27.072559356689453,0.24697107076644897,146.51364135742188,0.0,1.0,0.07821689546108246,16.237571716308594,1.0,0.6706082820892334,"
+
+The grading policy is a key element of the school’s reputation. It is the first step in the process","
+
+The answer is yes.
+
+The school should be fair and equitable in its grading policies.
+
+The","
+
+The answer is that it depends on the school.
+
+The school’s grading policy is a reflection of",step128000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step128000,adjacent,single_layer,middle,12,1,0.0,-1,last_prompt_token,judgment_001,judgment,1,0.049556463956832886,,0.0031815347645139137,4.75964552606456e-05,0.014912622049450874,0.8127561972497216,0.5933870481310115,1.4147093835282651,0.32592254067566556,0.6865437954763621,0.7852070532987567,1.8333059549331665,0.01709936559200287,1.8333059549331665,0.016724444925785065,3.55769944190979,0.0,1.0,0.0001911407453007996,0.024485545232892036,1.0,0.6169358491897583,"
+
+The grading policy is a key element of the school’s reputation. It is the first step in the process","
+
+The answer is yes.
+
+The school should be fair and equitable in its grading policies.
+
+The","
+
+The answer is yes.
+
+The school should be able to determine the fairness of the grading system and the",step128000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step128000,adjacent,single_layer,middle,12,1,0.5,-1,last_prompt_token,judgment_001,judgment,1,0.049556463956832886,,0.1239098749960348,0.001421977300196886,0.010053922422230244,0.8127561972497216,0.5933870481310115,1.4147093835282651,0.32592254067566556,0.6865437954763621,0.7852070532987567,4.7523417472839355,0.08360887318849564,4.7523417472839355,0.043353527784347534,23.521251678466797,0.0,1.0,0.005860801320523024,0.024485545232892036,1.0,0.6169358491897583,"
+
+The grading policy is a key element of the school’s reputation. It is the first step in the process","
+
+The answer is yes.
+
+The school should be fair and equitable in its grading policies.
+
+The","
+
+The answer is yes.
+
+The school should be able to determine the fairness of the grading system and the",step128000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step128000,adjacent,single_layer,middle,12,1,1.0,-1,last_prompt_token,judgment_001,judgment,1,0.049556463956832886,,0.38549600707658344,0.0049801236018538475,0.007938618771731853,0.8127561972497216,0.5933870481310115,1.4147093835282651,0.32592254067566556,0.6865437954763621,0.7852070532987567,8.616348266601562,0.1633489578962326,8.616348266601562,0.07860316336154938,45.09278869628906,0.0,1.0,0.0211365707218647,0.024485545232892036,1.0,0.6169358491897583,"
+
+The grading policy is a key element of the school’s reputation. It is the first step in the process","
+
+The answer is yes.
+
+The school should be fair and equitable in its grading policies.
+
+The","
+
+The answer is yes.
+
+The school should be able to determine the fairness of the grading system and the",step128000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step128000,adjacent,prefix,middle,12,13,0.0,-1,last_prompt_token,judgment_001,judgment,1,0.049556463956832886,,0.0031815347645139137,4.75964552606456e-05,0.014912622049450874,0.8127561972497216,0.5933870481310115,1.4147093835282651,0.32592254067566556,0.6865437954763621,0.7852070532987567,1.8333059549331665,0.01709936559200287,1.8333059549331665,0.016724444925785065,3.784095048904419,0.0,1.0,0.0001911407453007996,0.024485545232892036,1.0,0.6169358491897583,"
+
+The grading policy is a key element of the school’s reputation. It is the first step in the process","
+
+The answer is yes.
+
+The school should be fair and equitable in its grading policies.
+
+The","
+
+The answer is yes.
+
+The school should be able to determine the fairness of the grading system and the",step128000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step128000,adjacent,prefix,middle,12,13,0.5,-1,last_prompt_token,judgment_001,judgment,1,0.049556463956832886,,0.4002163368481467,0.00527574447914958,0.007906487211585045,0.05076441171318351,0.3595981481066157,0.07705136521978523,1.4407711135488248,0.7778444682625972,0.6043672230190352,8.54654312133789,0.16245289146900177,8.54654312133789,0.0779663622379303,68.76277160644531,0.0,1.0,0.022396191954612732,2.822948455810547,1.0,0.6706082820892334,"
+
+The grading policy is a key element of the school’s reputation. It is the first step in the process","
+
+The answer is yes.
+
+The school should be fair and equitable in its grading policies.
+
+The","
+
+The answer is that it depends on the school.
+
+The school’s grading policy is a reflection of",step128000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step128000,adjacent,prefix,middle,12,13,1.0,-1,last_prompt_token,judgment_001,judgment,1,0.049556463956832886,,0.38549600707658344,0.0049801236018538475,0.007938618771731853,0.05076441171318351,0.3595981481066157,0.07705136521978523,1.4407711135488248,0.7778444682625972,0.6043672230190352,8.616348266601562,0.2238900512456894,8.616348266601562,0.07860316336154938,73.87118530273438,0.0,1.0,0.0211365707218647,3.8905434608459473,1.0,0.6706082820892334,"
+
+The grading policy is a key element of the school’s reputation. It is the first step in the process","
+
+The answer is yes.
+
+The school should be fair and equitable in its grading policies.
+
+The","
+
+The answer is that it depends on the school.
+
+The school’s grading policy is a reflection of",step128000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step128000,adjacent,suffix,middle,12,11,0.0,-1,last_prompt_token,judgment_001,judgment,1,0.049556463956832886,,0.0031815347645139137,4.75964552606456e-05,0.014912622049450874,0.8127561972497216,0.5933870481310115,1.4147093835282651,0.32592254067566556,0.6865437954763621,0.7852070532987567,1.8333059549331665,0.01709936559200287,1.8333059549331665,0.016724444925785065,3.5313239097595215,0.0,1.0,0.0001911407453007996,0.8575252890586853,1.0,0.6169358491897583,"
+
+The grading policy is a key element of the school’s reputation. It is the first step in the process","
+
+The answer is yes.
+
+The school should be fair and equitable in its grading policies.
+
+The","
+
+The answer is yes.
+
+The school should be able to determine the fairness of the grading system and the",step128000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step128000,adjacent,suffix,middle,12,11,0.5,-1,last_prompt_token,judgment_001,judgment,1,0.049556463956832886,,0.8681969713642722,0.016701459884643555,0.0025354879908263683,0.8127561972497216,0.5933870481310115,1.4147093835282651,0.32592254067566556,0.6865437954763621,0.7852070532987567,24.71546745300293,0.37423667311668396,24.71546745300293,0.22546836733818054,103.50899505615234,0.0,1.0,0.06882906705141068,14.769194602966309,1.0,0.6169358491897583,"
+
+The grading policy is a key element of the school’s reputation. It is the first step in the process","
+
+The answer is yes.
+
+The school should be fair and equitable in its grading policies.
+
+The","
+
+The answer is yes.
+
+The school should be able to determine the fairness of the grading system and the",step128000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step128000,adjacent,suffix,middle,12,11,1.0,-1,last_prompt_token,judgment_001,judgment,1,0.049556463956832886,,0.8198909861162541,0.01934799551963806,0.004250258207321167,0.8127561972497216,0.5933870481310115,1.4147093835282651,0.32592254067566556,0.6865437954763621,0.7852070532987567,27.072559356689453,0.44832760095596313,27.072559356689453,0.24697107076644897,131.1072998046875,0.0,1.0,0.07821689546108246,16.237571716308594,1.0,0.6169358491897583,"
+
+The grading policy is a key element of the school’s reputation. It is the first step in the process","
+
+The answer is yes.
+
+The school should be fair and equitable in its grading policies.
+
+The","
+
+The answer is yes.
+
+The school should be able to determine the fairness of the grading system and the",step128000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step128000,adjacent,single_layer,late_middle,16,1,0.0,-1,last_prompt_token,judgment_001,judgment,1,0.049556463956832886,,0.0031815347645139137,4.75964552606456e-05,0.014912622049450874,0.8127561972497216,0.5933870481310115,1.4147093835282651,0.32592254067566556,0.6865437954763621,0.7852070532987567,1.8333059549331665,0.01709936559200287,1.8333059549331665,0.016724444925785065,3.4064583778381348,0.0,1.0,0.0001911407453007996,0.044308025389909744,1.0,0.6169358491897583,"
+
+The grading policy is a key element of the school’s reputation. It is the first step in the process","
+
+The answer is yes.
+
+The school should be fair and equitable in its grading policies.
+
+The","
+
+The answer is yes.
+
+The school should be able to determine the fairness of the grading system and the",step128000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step128000,adjacent,single_layer,late_middle,16,1,0.5,-1,last_prompt_token,judgment_001,judgment,1,0.049556463956832886,,0.5292155317469869,0.0054452791810035706,0.004844062030315399,0.16777687113673087,0.25028570039786846,0.29544693074880457,1.465504556466977,0.8624430703157187,0.5879572942861635,8.489264488220215,0.24474693834781647,8.489264488220215,0.07744383066892624,40.04207229614258,0.0,1.0,0.02147030085325241,0.044308025389909744,1.0,0.6388352513313293,"
+
+The grading policy is a key element of the school’s reputation. It is the first step in the process","
+
+The answer is yes.
+
+The school should be fair and equitable in its grading policies.
+
+The","
+
+The grading policy is a key element of the school’s accountability system. It is the responsibility of the school",step128000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step128000,adjacent,single_layer,late_middle,16,1,1.0,-1,last_prompt_token,judgment_001,judgment,1,0.049556463956832886,,0.7710028378870406,0.021994877606630325,0.006532744504511356,0.16777687113673087,0.25028570039786846,0.29544693074880457,1.465504556466977,0.8624430703157187,0.5879572942861635,15.451276779174805,0.4414259195327759,15.451276779174805,0.14095520973205566,71.84343719482422,0.0,1.0,0.08660516142845154,0.044308025389909744,1.0,0.6388352513313293,"
+
+The grading policy is a key element of the school’s reputation. It is the first step in the process","
+
+The answer is yes.
+
+The school should be fair and equitable in its grading policies.
+
+The","
+
+The grading policy is a key element of the school’s accountability system. It is the responsibility of the school",step128000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step128000,adjacent,prefix,late_middle,16,17,0.0,-1,last_prompt_token,judgment_001,judgment,1,0.049556463956832886,,0.0031815347645139137,4.75964552606456e-05,0.014912622049450874,0.8127561972497216,0.5933870481310115,1.4147093835282651,0.32592254067566556,0.6865437954763621,0.7852070532987567,1.8333059549331665,0.01709936559200287,1.8333059549331665,0.016724444925785065,3.784095048904419,0.0,1.0,0.0001911407453007996,0.044308025389909744,1.0,0.6169358491897583,"
+
+The grading policy is a key element of the school’s reputation. It is the first step in the process","
+
+The answer is yes.
+
+The school should be fair and equitable in its grading policies.
+
+The","
+
+The answer is yes.
+
+The school should be able to determine the fairness of the grading system and the",step128000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step128000,adjacent,prefix,late_middle,16,17,0.5,-1,last_prompt_token,judgment_001,judgment,1,0.049556463956832886,,0.784620539451381,0.011366622522473335,0.0031201541423797607,0.05076441171318351,0.3595981481066157,0.07705136521978523,1.4407711135488248,0.7778444682625972,0.6043672230190352,12.426314353942871,0.34600695967674255,12.426314353942871,0.11335980892181396,94.22455596923828,0.0,1.0,0.04602300748229027,3.7251968383789062,1.0,0.6706082820892334,"
+
+The grading policy is a key element of the school’s reputation. It is the first step in the process","
+
+The answer is yes.
+
+The school should be fair and equitable in its grading policies.
+
+The","
+
+The answer is that it depends on the school.
+
+The school’s grading policy is a reflection of",step128000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step128000,adjacent,prefix,late_middle,16,17,1.0,-1,last_prompt_token,judgment_001,judgment,1,0.049556463956832886,,0.7710028378870406,0.021994877606630325,0.006532744504511356,0.05076441171318351,0.3595981481066157,0.07705136521978523,1.4407711135488248,0.7778444682625972,0.6043672230190352,15.451276779174805,0.4414259195327759,15.451276779174805,0.14095520973205566,116.75347137451172,0.0,1.0,0.08660516142845154,4.398348808288574,1.0,0.6706082820892334,"
+
+The grading policy is a key element of the school’s reputation. It is the first step in the process","
+
+The answer is yes.
+
+The school should be fair and equitable in its grading policies.
+
+The","
+
+The answer is that it depends on the school.
+
+The school’s grading policy is a reflection of",step128000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step128000,adjacent,suffix,late_middle,16,7,0.0,-1,last_prompt_token,judgment_001,judgment,1,0.049556463956832886,,0.0031815347645139137,4.75964552606456e-05,0.014912622049450874,0.8127561972497216,0.5933870481310115,1.4147093835282651,0.32592254067566556,0.6865437954763621,0.7852070532987567,1.8333059549331665,0.01709936559200287,1.8333059549331665,0.016724444925785065,3.3489818572998047,0.0,1.0,0.0001911407453007996,0.8575252890586853,1.0,0.6169358491897583,"
+
+The grading policy is a key element of the school’s reputation. It is the first step in the process","
+
+The answer is yes.
+
+The school should be fair and equitable in its grading policies.
+
+The","
+
+The answer is yes.
+
+The school should be able to determine the fairness of the grading system and the",step128000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step128000,adjacent,suffix,late_middle,16,7,0.5,-1,last_prompt_token,judgment_001,judgment,1,0.049556463956832886,,0.8676282480808578,0.016197603195905685,0.002471225569024682,0.16777687113673087,0.25028570039786846,0.29544693074880457,1.465504556466977,0.8624430703157187,0.5879572942861635,24.652002334594727,0.29216331243515015,24.652002334594727,0.22488939762115479,80.46548461914062,0.0,1.0,0.06681331992149353,14.651851654052734,1.0,0.6388352513313293,"
+
+The grading policy is a key element of the school’s reputation. It is the first step in the process","
+
+The answer is yes.
+
+The school should be fair and equitable in its grading policies.
+
+The","
+
+The grading policy is a key element of the school’s accountability system. It is the responsibility of the school",step128000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step128000,adjacent,suffix,late_middle,16,7,1.0,-1,last_prompt_token,judgment_001,judgment,1,0.049556463956832886,,0.8198909861162541,0.01934799551963806,0.004250258207321167,0.9574884366774694,0.6911511265955662,1.461067854131497,0.06487000387597366,0.6362090102803518,0.8374357893586237,27.072559356689453,0.44832760095596313,27.072559356689453,0.24697107076644897,107.40258026123047,0.0,1.0,0.07821689546108246,16.237571716308594,1.0,0.5486735105514526,"
+
+The grading policy is a key element of the school’s reputation. It is the first step in the process","
+
+The answer is yes.
+
+The school should be fair and equitable in its grading policies.
+
+The","
+
+The answer is yes.
+
+The school should prioritize fairness and excellence in grading policies.
+
+The",step128000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step128000,adjacent,single_layer,late,21,1,0.0,-1,last_prompt_token,judgment_001,judgment,1,0.049556463956832886,,0.0031815347645139137,4.75964552606456e-05,0.014912622049450874,0.8127561972497216,0.5933870481310115,1.4147093835282651,0.32592254067566556,0.6865437954763621,0.7852070532987567,1.8333059549331665,0.01709936559200287,1.8333059549331665,0.016724444925785065,2.0923752784729004,0.0,1.0,0.0001911407453007996,0.47444939613342285,1.0,0.6169358491897583,"
+
+The grading policy is a key element of the school’s reputation. It is the first step in the process","
+
+The answer is yes.
+
+The school should be fair and equitable in its grading policies.
+
+The","
+
+The answer is yes.
+
+The school should be able to determine the fairness of the grading system and the",step128000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step128000,adjacent,single_layer,late,21,1,0.5,-1,last_prompt_token,judgment_001,judgment,1,0.049556463956832886,,0.5081675767458468,0.006997795309871435,0.0067728497087955475,0.8127561972497216,0.5933870481310115,1.4147093835282651,0.32592254067566556,0.6865437954763621,0.7852070532987567,17.489261627197266,0.198334202170372,17.489261627197266,0.1595468521118164,24.07906723022461,0.0,1.0,0.028466198593378067,0.47444939613342285,1.0,0.6169358491897583,"
+
+The grading policy is a key element of the school’s reputation. It is the first step in the process","
+
+The answer is yes.
+
+The school should be fair and equitable in its grading policies.
+
+The","
+
+The answer is yes.
+
+The school should be able to determine the fairness of the grading system and the",step128000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step128000,adjacent,single_layer,late,21,1,1.0,-1,last_prompt_token,judgment_001,judgment,1,0.049556463956832886,,0.6706860623421469,0.02221616730093956,0.010908372700214386,0.7271847766431859,0.6820906292670952,1.4924862617143082,0.5599305512491903,0.583383351196948,0.8058229640253802,33.411842346191406,0.3735901713371277,33.411842346191406,0.3048015832901001,45.146907806396484,0.0,1.0,0.09660754352807999,0.47444939613342285,1.0,0.6842640042304993,"
+
+The grading policy is a key element of the school’s reputation. It is the first step in the process","
+
+The answer is yes.
+
+The school should be fair and equitable in its grading policies.
+
+The","
+
+The answer is yes.
+
+The grading policy should be fair and equitable.
+
+The grading policy should",step128000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step128000,adjacent,prefix,late,21,22,0.0,-1,last_prompt_token,judgment_001,judgment,1,0.049556463956832886,,0.0031815347645139137,4.75964552606456e-05,0.014912622049450874,0.8127561972497216,0.5933870481310115,1.4147093835282651,0.32592254067566556,0.6865437954763621,0.7852070532987567,1.8333059549331665,0.01709936559200287,1.8333059549331665,0.016724444925785065,3.784095048904419,0.0,1.0,0.0001911407453007996,0.47444939613342285,1.0,0.6169358491897583,"
+
+The grading policy is a key element of the school’s reputation. It is the first step in the process","
+
+The answer is yes.
+
+The school should be fair and equitable in its grading policies.
+
+The","
+
+The answer is yes.
+
+The school should be able to determine the fairness of the grading system and the",step128000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step128000,adjacent,prefix,late,21,22,0.5,-1,last_prompt_token,judgment_001,judgment,1,0.049556463956832886,,0.7304839967645427,0.016486842185258865,0.006082909181714058,0.05076441171318351,0.3595981481066157,0.07705136521978523,1.4407711135488248,0.7778444682625972,0.6043672230190352,24.614912033081055,0.376906156539917,24.614912033081055,0.2245510369539261,130.49026489257812,0.0,1.0,0.06810063123703003,14.515134811401367,1.0,0.6706082820892334,"
+
+The grading policy is a key element of the school’s reputation. It is the first step in the process","
+
+The answer is yes.
+
+The school should be fair and equitable in its grading policies.
+
+The","
+
+The answer is that it depends on the school.
+
+The school’s grading policy is a reflection of",step128000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step128000,adjacent,prefix,late,21,22,1.0,-1,last_prompt_token,judgment_001,judgment,1,0.049556463956832886,,0.6706860623421469,0.02221616730093956,0.010908372700214386,0.05076441171318351,0.3595981481066157,0.07705136521978523,1.4407711135488248,0.7778444682625972,0.6043672230190352,33.411842346191406,0.44832760095596313,33.411842346191406,0.3048015832901001,168.48106384277344,0.0,1.0,0.09660754352807999,23.623565673828125,1.0,0.6706082820892334,"
+
+The grading policy is a key element of the school’s reputation. It is the first step in the process","
+
+The answer is yes.
+
+The school should be fair and equitable in its grading policies.
+
+The","
+
+The answer is that it depends on the school.
+
+The school’s grading policy is a reflection of",step128000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step128000,adjacent,suffix,late,21,2,0.0,-1,last_prompt_token,judgment_001,judgment,1,0.049556463956832886,,0.0031815347645139137,4.75964552606456e-05,0.014912622049450874,0.8127561972497216,0.5933870481310115,1.4147093835282651,0.32592254067566556,0.6865437954763621,0.7852070532987567,1.8333059549331665,0.01709936559200287,1.8333059549331665,0.016724444925785065,1.3454155921936035,0.0,1.0,0.0001911407453007996,0.8575252890586853,1.0,0.6169358491897583,"
+
+The grading policy is a key element of the school’s reputation. It is the first step in the process","
+
+The answer is yes.
+
+The school should be fair and equitable in its grading policies.
+
+The","
+
+The answer is yes.
+
+The school should be able to determine the fairness of the grading system and the",step128000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step128000,adjacent,suffix,late,21,2,0.5,-1,last_prompt_token,judgment_001,judgment,1,0.049556463956832886,,0.8199386425849784,0.010954654775559902,0.0024056800175458193,0.8127561972497216,0.5933870481310115,1.4147093835282651,0.32592254067566556,0.6865437954763621,0.7852070532987567,20.04235076904297,0.182837575674057,20.04235076904297,0.182837575674057,14.1134033203125,0.0,1.0,0.04438330978155136,8.184453964233398,1.0,0.6169358491897583,"
+
+The grading policy is a key element of the school’s reputation. It is the first step in the process","
+
+The answer is yes.
+
+The school should be fair and equitable in its grading policies.
+
+The","
+
+The answer is yes.
+
+The school should be able to determine the fairness of the grading system and the",step128000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step128000,adjacent,suffix,late,21,2,1.0,-1,last_prompt_token,judgment_001,judgment,1,0.049556463956832886,,0.8198909861162541,0.01934799551963806,0.004250258207321167,0.0,0.1345331271815429,0.0,1.4522338241460233,0.9411764705882353,0.621581560508061,27.072559356689453,0.32378312945365906,27.072559356689453,0.24697107076644897,21.655067443847656,0.0,1.0,0.07821689546108246,16.237571716308594,1.0,0.6132365465164185,"
+
+The grading policy is a key element of the school’s reputation. It is the first step in the process","
+
+The answer is yes.
+
+The school should be fair and equitable in its grading policies.
+
+The","
+
+The grading policy is a key element of the school’s overall curriculum. It is the first step in the",step128000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step4000,very_early,single_layer,early,2,1,0.0,-1,last_prompt_token,judgment_001,judgment,1,0.049556463956832886,,0.0006632062620530943,4.75964552606456e-05,0.07171960175037384,0.49187044889902615,0.5302295406497203,1.4147093835282651,1.4614735355602375,0.6865437954763621,0.722285436974527,1.8333059549331665,0.01709936559200287,1.8333059549331665,0.016724444925785065,3.761983871459961,0.0,1.0,0.0001911407453007996,0.011955191381275654,0.0,0.5467381477355957,"
+
+The grading policy is a key element of the school’s reputation. It is the first step in the process","
+
+The school’s decision to prioritize fairness and excellence in the grading system is a good example of how the","
+
+The answer is yes.
+
+The school should be able to determine the fairness of the grading system and the",step4000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step4000,very_early,single_layer,early,2,1,0.5,-1,last_prompt_token,judgment_001,judgment,1,0.049556463956832886,,0.09728201855817127,0.010938014835119247,0.10149812698364258,0.0,0.1523330762230072,0.0,0.3435571660379457,0.9411764705882353,0.6726727939963124,12.962489128112793,0.3753586709499359,12.962489128112793,0.11825110018253326,104.97468566894531,0.0,1.0,0.041203901171684265,0.011955191381275654,0.0,0.5156199336051941,"
+
+The grading policy is a key element of the school’s reputation. It is the first step in the process","
+
+The school’s decision to prioritize fairness and excellence in the grading system is a good example of how the","
+
+The grading policy is a key element of the school’s overall curriculum. It is the first step in the",step4000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step4000,very_early,single_layer,early,2,1,1.0,-1,last_prompt_token,judgment_001,judgment,1,0.049556463956832886,,0.09302427449953202,0.007754053454846144,0.07560110837221146,0.4692219249498649,0.5294186859437513,0.7542443553802393,0.8531919455990019,0.3175536744149779,0.3933978962347216,14.34391975402832,0.7743017077445984,13.4443998336792,0.12264735996723175,153.02273559570312,0.06271088626918046,0.9372891137308196,0.02949158474802971,0.011955191381275654,1.0,0.6513549089431763,"
+
+The grading policy is a key element of the school’s reputation. It is the first step in the process","
+
+The school’s decision to prioritize fairness and excellence in the grading system is a good example of how the","
+
+The question is not whether or not to prioritize fairness or excellence. The question is whether or not to priorit",step4000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step4000,very_early,prefix,early,2,3,0.0,-1,last_prompt_token,judgment_001,judgment,1,0.049556463956832886,,0.0006632062620530943,4.75964552606456e-05,0.07171960175037384,0.49187044889902615,0.5302295406497203,1.4147093835282651,1.4614735355602375,0.6865437954763621,0.722285436974527,1.8333059549331665,0.01709936559200287,1.8333059549331665,0.016724444925785065,3.784095048904419,0.0,1.0,0.0001911407453007996,0.011955191381275654,0.0,0.5467381477355957,"
+
+The grading policy is a key element of the school’s reputation. It is the first step in the process","
+
+The school’s decision to prioritize fairness and excellence in the grading system is a good example of how the","
+
+The answer is yes.
+
+The school should be able to determine the fairness of the grading system and the",step4000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step4000,very_early,prefix,early,2,3,0.5,-1,last_prompt_token,judgment_001,judgment,1,0.049556463956832886,,0.09536270734439817,0.007752891629934311,0.07354609668254852,0.49187044889902615,0.5302295406497203,1.4147093835282651,1.4614735355602375,0.6865437954763621,0.722285436974527,11.636415481567383,0.5432968735694885,11.636415481567383,0.10615391284227371,137.5169219970703,0.0,1.0,0.029715759679675102,6.576538562774658,0.0,0.5467381477355957,"
+
+The grading policy is a key element of the school’s reputation. It is the first step in the process","
+
+The school’s decision to prioritize fairness and excellence in the grading system is a good example of how the","
+
+The answer is yes.
+
+The school should be able to determine the fairness of the grading system and the",step4000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step4000,very_early,prefix,early,2,3,1.0,-1,last_prompt_token,judgment_001,judgment,1,0.049556463956832886,,0.09302427449953202,0.007754053454846144,0.07560110837221146,0.49195984733708703,0.5175697447999948,1.4173527750312864,1.463680672520858,0.48507125007266594,0.5200314339611524,14.34391975402832,0.7743017077445984,13.4443998336792,0.12264735996723175,174.81240844726562,0.06271088626918046,0.9372891137308196,0.02949158474802971,11.72084903717041,1.0,0.5428633093833923,"
+
+The grading policy is a key element of the school’s reputation. It is the first step in the process","
+
+The school’s decision to prioritize fairness and excellence in the grading system is a good example of how the","
+
+The question is not whether or not a school should prioritize fairness or excellence in grading. The question is whether",step4000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step4000,very_early,suffix,early,2,21,0.0,-1,last_prompt_token,judgment_001,judgment,1,0.049556463956832886,,0.0006632062620530943,4.75964552606456e-05,0.07171960175037384,0.49187044889902615,0.5302295406497203,1.4147093835282651,1.4614735355602375,0.6865437954763621,0.722285436974527,1.8333059549331665,0.01709936559200287,1.8333059549331665,0.016724444925785065,3.7478671073913574,0.0,1.0,0.0001911407453007996,0.8575252890586853,0.0,0.5467381477355957,"
+
+The grading policy is a key element of the school’s reputation. It is the first step in the process","
+
+The school’s decision to prioritize fairness and excellence in the grading system is a good example of how the","
+
+The answer is yes.
+
+The school should be able to determine the fairness of the grading system and the",step4000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step4000,very_early,suffix,early,2,21,0.5,-1,last_prompt_token,judgment_001,judgment,1,0.049556463956832886,,0.5268857904034868,0.11736126244068146,0.10538390278816223,0.49536955868633525,0.5117303391086537,1.756859636986545,1.7897039460584958,0.08035073760083702,0.12251277836633778,62.11568069458008,0.9598546624183655,62.11568069458008,0.5666540861129761,444.7477111816406,0.0,1.0,0.562110185623169,47.869815826416016,0.0,0.5926666259765625,"
+
+The grading policy is a key element of the school’s reputation. It is the first step in the process","
+
+The school’s decision to prioritize fairness and excellence in the grading system is a good example of how the","
+
+I am a teacher and I am teaching a course on grading. I am not sure if I should be using",step4000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step4000,very_early,suffix,early,2,21,1.0,-1,last_prompt_token,judgment_001,judgment,1,0.049556463956832886,,0.517770637187118,0.15797343850135803,0.14712968468666077,0.4846285212608952,0.4972939357051776,1.1360672915346948,1.2081350029947662,0.18786728732554484,0.17902871850985821,64.55317687988281,1.2395318746566772,64.55317687988281,0.5888903141021729,566.767822265625,0.0,1.0,0.7133422493934631,49.38185501098633,1.0,0.5039061903953552,"
+
+The grading policy is a key element of the school’s reputation. It is the first step in the process","
+
+The school’s decision to prioritize fairness and excellence in the grading system is a good example of how the","
+
+I’m not sure if this is a good question. I’m not sure if it’s a",step4000

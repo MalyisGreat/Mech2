@@ -1,0 +1,635 @@
+model_id,model_family,model_size_label,source_revision,source_step,prompt_id,prompt_family,prompt,completion_text,completion_char_count,generation_valid,generation_invalid_reason,generation_token_count,unique_token_ratio,top_token_rate,top_bigram_rate
+EleutherAI/pythia-410m-deduped,pythia,410m,step4000,4000,explanation_015,explanation,Explain why conferences use peer review.,"
+
+The conference is a great opportunity for the conference to be a great opportunity for the conference to be a great opportunity for the conference to be a great opportunity for the conference to be a great opportunity for the conference to be a great opportunity for the conference to be a great opportunity",309,0,low_unique_token_ratio,54,0.16666666666666666,0.12962962962962962,0.1320754716981132
+EleutherAI/pythia-410m-deduped,pythia,410m,step4000,4000,style_opening_018,style_opening,Write the opening paragraph of an essay about access.,"
+
+The essay is a great example of the power of the essayist. The essayist is a great example of the power of the essayist. The essayist is a great example of the power of the essayist. The essayist is a great example of the power",229,0,low_unique_token_ratio,45,0.2,0.24444444444444444,0.1590909090909091
+EleutherAI/pythia-410m-deduped,pythia,410m,step4000,4000,style_opening_019,style_opening,Write the opening paragraph of an essay about expertise and doubt.,"
+
+The essay is a great example of the importance of the essay to the reader. It is a great example of the importance of the essay to the reader.
+
+The essay is a great example of the importance of the essay to the reader. It is a great example",242,0,low_unique_token_ratio,49,0.22448979591836735,0.22448979591836735,0.125
+EleutherAI/pythia-410m-deduped,pythia,410m,step4000,4000,judgment_018,judgment,Should an instructor prioritize mastery or coverage in a difficult course?,"
+
+The best way to do this is to have a teacher who is knowledgeable about the subject and who is willing to help you with your course.
+
+The best way to do this is to have a teacher who is knowledgeable about the subject and who is willing to help you",250,0,low_unique_token_ratio,51,0.4117647058823529,0.11764705882352941,0.08
+EleutherAI/pythia-410m-deduped,pythia,410m,step4000,4000,judgment_008,judgment,Should a newsroom publish quickly with updates or wait for fuller confirmation?,"
+
+I’m not sure if this is the right place to ask. I’m not sure if it’s the right place to ask.
+
+I’m not sure if it’s the right place to ask. I’m not sure if it’",160,0,low_unique_token_ratio,42,0.3333333333333333,0.09523809523809523,0.0975609756097561
+EleutherAI/pythia-410m-deduped,pythia,410m,step4000,4000,judgment_014,judgment,Should a school ban phones outright or regulate their use?,"
+
+I’m not sure what the hell you are talking about. I’m not sure what the hell you are talking about.
+
+I’m not sure what the hell you are talking about. I’m not sure what the hell you are talking about.",202,0,low_unique_token_ratio,44,0.25,0.09090909090909091,0.09302325581395349
+EleutherAI/pythia-410m-deduped,pythia,410m,step4000,4000,style_opening_013,style_opening,Write the opening paragraph of an essay about delay.,"
+
+The essay is a bit of a long-winded, but it is a bit of a long-winded, and it is a bit of a long-winded, but it is a bit of a long-winded, and it is a bit of",159,0,low_unique_token_ratio,42,0.2619047619047619,0.21428571428571427,0.12195121951219512
+EleutherAI/pythia-410m-deduped,pythia,410m,step4000,4000,style_opening_008,style_opening,Write the opening paragraph of an essay about evidence.,"
+
+The essay is a great example of the way in which the essay is written. It is a great example of the way in which the essay is written. It is a great example of the way in which the essay is written. It is a great example of the way",233,0,low_unique_token_ratio,51,0.23529411764705882,0.1568627450980392,0.08
+EleutherAI/pythia-410m-deduped,pythia,410m,step4000,4000,style_opening_020,style_opening,Write the opening paragraph of an essay about common goods.,"
+
+The essay is a great example of the importance of the essay to the reader. It is a great example of the importance of the essay to the reader. It is a great example of the importance of the essay to the reader.
+
+The essay is a great example",242,0,low_unique_token_ratio,49,0.22448979591836735,0.22448979591836735,0.125
+EleutherAI/pythia-410m-deduped,pythia,410m,step4000,4000,style_opening_006,style_opening,Write the opening paragraph of an essay about public attention.,"
+
+The essay is a great example of the power of the essayist to make the reader feel like a real person.
+
+The essayist is a great example of the power of the essayist to make the reader feel like a real person.
+
+The essayist",223,0,low_unique_token_ratio,44,0.36363636363636365,0.20454545454545456,0.09302325581395349
+EleutherAI/pythia-410m-deduped,pythia,410m,step4000,4000,explanation_007,explanation,Explain why towns maintain public transit.,"
+
+The city of San Francisco has been a major transit hub for the past few years, and the city has been a major transit hub for the past few years.
+
+The city has been a major transit hub for the past few years, and the city has been a",233,0,low_unique_token_ratio,49,0.32653061224489793,0.14285714285714285,0.08333333333333333
+EleutherAI/pythia-410m-deduped,pythia,410m,step4000,4000,explanation_011,explanation,Explain why newspapers keep corrections pages.,"
+
+The New York Times has a long history of reporting on the New York Times, and the New York Times has a long history of reporting on the New York Times.
+
+The New York Times has a long history of reporting on the New York Times, and the New",240,0,low_unique_token_ratio,49,0.24489795918367346,0.14285714285714285,0.14583333333333334
+EleutherAI/pythia-410m-deduped,pythia,410m,step4000,4000,judgment_003,judgment,Should a museum favor accessibility or historical completeness when writing labels?,"
+
+I’m not sure what the best way to do this is. I’m not sure what the best way to do this is. I’m not sure what the best way to do this is. I’m not sure what the best way to do this",181,0,low_unique_token_ratio,47,0.2553191489361702,0.0851063829787234,0.08695652173913043
+EleutherAI/pythia-410m-deduped,pythia,410m,step4000,4000,style_opening_011,style_opening,Write the opening paragraph of an essay about attention.,"
+
+The essay is a great example of the way in which the essay is written. It is a great example of the way in which the essay is written. It is a great example of the way in which the essay is written.
+
+The essay is a great example",230,0,low_unique_token_ratio,49,0.24489795918367346,0.16326530612244897,0.10416666666666667
+EleutherAI/pythia-410m-deduped,pythia,410m,step4000,4000,explanation_008,explanation,Explain why archives preserve administrative records.,"
+
+The government has also been trying to get the records of the U.S. military and the U.S. military to be released.
+
+The government has also been trying to get the records of the U.S. military and the U.S. military",214,0,low_unique_token_ratio,43,0.37209302325581395,0.18604651162790697,0.09523809523809523
+EleutherAI/pythia-410m-deduped,pythia,410m,step4000,4000,explanation_014,explanation,Explain why cities zone industrial districts.,"
+
+The city’s industrial district is located in the city of San Francisco.
+
+The city’s industrial district is located in the city of San Francisco.
+
+The city’s industrial district is located in the city of San Francisco.
+
+The city of",232,0,low_unique_token_ratio,42,0.2619047619047619,0.16666666666666666,0.17073170731707318
+EleutherAI/pythia-410m-deduped,pythia,410m,step4000,4000,explanation_012,explanation,Explain why research groups maintain lab notebooks.,"
+
+The study was conducted in collaboration with the University of California, San Francisco, and the University of California, San Francisco. The study was conducted in collaboration with the University of California, San Francisco, and the University of California, San Francisco.
+
+The study was conducted",306,0,low_unique_token_ratio,44,0.29545454545454547,0.1590909090909091,0.09302325581395349
+EleutherAI/pythia-410m-deduped,pythia,410m,step4000,4000,judgment_013,judgment,Should a community preserve a historic building or replace it with housing?,"
+
+I’m not sure what the answer is. I’m not sure what the answer is.
+
+I’m not sure what the answer is. I’m not sure what the answer is.
+
+I’m not sure what the answer is.",168,0,low_unique_token_ratio,40,0.2,0.125,0.1282051282051282
+EleutherAI/pythia-410m-deduped,pythia,410m,step4000,4000,style_opening_001,style_opening,Write the opening paragraph of an essay about memory.,"
+
+The essay is a great example of the power of the essayist. It is a great example of the power of the essayist. It is a great example of the power of the essayist. It is a great example of the power of the essayist. It",219,0,low_unique_token_ratio,46,0.21739130434782608,0.1956521739130435,0.17777777777777778
+EleutherAI/pythia-410m-deduped,pythia,410m,step4000,4000,explanation_010,explanation,Explain why software teams use version control.,"
+
+I think the problem is that the version control system is not the same as the version control system.
+
+I think the problem is that the version control system is not the same as the version control system.
+
+I think the problem is that the version control system",262,0,low_unique_token_ratio,48,0.25,0.20833333333333334,0.10638297872340426
+EleutherAI/pythia-410m-deduped,pythia,410m,step4000,4000,judgment_017,judgment,Should a town build a large central park or several smaller parks?,"
+
+I’m not sure if this is the right place to ask this question, but I’m sure it’s not.
+
+I’m not sure if this is the right place to ask this question, but I’m sure it’s not.",172,0,low_unique_token_ratio,42,0.38095238095238093,0.09523809523809523,0.0975609756097561
+EleutherAI/pythia-410m-deduped,pythia,410m,step4000,4000,judgment_009,judgment,Should a university require broad general education or early specialization?,"
+
+The University of Toronto has a long history of being a university that has been a bastion of the university’s reputation for being a place of learning. It has been a place of learning for many years, and it has been a place of learning for many years.",254,0,low_unique_token_ratio,49,0.42857142857142855,0.12244897959183673,0.0625
+EleutherAI/pythia-410m-deduped,pythia,410m,step4000,4000,explanation_004,explanation,Explain why museums use wall labels.,"
+
+The museum is located in the heart of the city, and the museum is a great place to see the city’s history. The museum is a great place to see the city’s history, and it’s a great place to see the city’s history",212,0,low_unique_token_ratio,47,0.3617021276595745,0.1702127659574468,0.08695652173913043
+EleutherAI/pythia-410m-deduped,pythia,410m,step4000,4000,explanation_013,explanation,Explain why legislatures use committees.,"
+
+The House passed a resolution last week that would have required the House to pass a bill that would have required the House to pass a bill that would have required the House to pass a bill that would have required the House to pass a bill that would have required the House to",279,0,low_unique_token_ratio,54,0.25925925925925924,0.1111111111111111,0.11320754716981132
+EleutherAI/pythia-410m-deduped,pythia,410m,step16000,16000,explanation_015,explanation,Explain why conferences use peer review.,"
+
+The conference is a great way to get feedback from your peers.
+
+The conference is a great way to get feedback from your peers.
+
+The conference is a great way to get feedback from your peers.
+
+The conference is a great way to get feedback",239,0,low_unique_token_ratio,45,0.26666666666666666,0.08888888888888889,0.09090909090909091
+EleutherAI/pythia-410m-deduped,pythia,410m,step16000,16000,style_opening_018,style_opening,Write the opening paragraph of an essay about access.,"
+
+The first thing you should do is to write a short introduction. This is a good way to start your essay. You should also write a short introduction that is short and to the point.
+
+The second thing you should do is to write a short introduction that is",253,1,,49,0.46938775510204084,0.10204081632653061,0.0625
+EleutherAI/pythia-410m-deduped,pythia,410m,step16000,16000,style_opening_019,style_opening,Write the opening paragraph of an essay about expertise and doubt.,"
+
+The first step is to identify the problem. The problem is not the problem, but the problem. The problem is the problem.
+
+The problem is not the problem, but the problem.
+
+The problem is not the problem, but the problem.
+
+",223,0,low_unique_token_ratio,40,0.225,0.325,0.3076923076923077
+EleutherAI/pythia-410m-deduped,pythia,410m,step16000,16000,judgment_018,judgment,Should an instructor prioritize mastery or coverage in a difficult course?,"
+
+The answer is yes.
+
+The question is, “What is the most important thing you can do to improve your mastery of a difficult course?”
+
+The answer is, “I don’t know.”
+
+The question is, “What is the most",199,1,,38,0.631578947368421,0.15789473684210525,0.05405405405405406
+EleutherAI/pythia-410m-deduped,pythia,410m,step16000,16000,judgment_008,judgment,Should a newsroom publish quickly with updates or wait for fuller confirmation?,"
+
+The newsroom is a place where you can find out what’s going on in the world. It’s a place where you can find out what’s going on in the world. It’s a place where you can find out what’s going on",196,0,low_unique_token_ratio,46,0.3695652173913043,0.10869565217391304,0.06666666666666667
+EleutherAI/pythia-410m-deduped,pythia,410m,step16000,16000,judgment_014,judgment,Should a school ban phones outright or regulate their use?,"
+
+The answer is yes.
+
+The first step in the process is to understand what the school is doing.
+
+The second step is to understand what the school is doing.
+
+The third step is to understand what the school is doing.
+
+The fourth",225,0,low_unique_token_ratio,42,0.38095238095238093,0.21428571428571427,0.07317073170731707
+EleutherAI/pythia-410m-deduped,pythia,410m,step16000,16000,style_opening_013,style_opening,Write the opening paragraph of an essay about delay.,"
+
+The first thing you should do is to write a short introduction. This is a good way to introduce yourself to the reader and to make them feel comfortable with you.
+
+The second thing you should do is to write a short conclusion. This is a good way to",250,1,,49,0.5306122448979592,0.12244897959183673,0.041666666666666664
+EleutherAI/pythia-410m-deduped,pythia,410m,step16000,16000,style_opening_008,style_opening,Write the opening paragraph of an essay about evidence.,"
+
+The first step is to identify the evidence that supports your argument. This is a very important step.
+
+The second step is to identify the evidence that supports your argument. This is a very important step.
+
+The third step is to identify the evidence that supports",267,0,low_unique_token_ratio,46,0.3695652173913043,0.13043478260869565,0.06666666666666667
+EleutherAI/pythia-410m-deduped,pythia,410m,step16000,16000,style_opening_020,style_opening,Write the opening paragraph of an essay about common goods.,"
+
+The first thing you should do is to write a short introduction. This is a good way to start your essay. You should also write a short introduction that is short and to the point.
+
+The second thing you should do is to write a conclusion. This is",246,1,,48,0.5,0.10416666666666667,0.06382978723404255
+EleutherAI/pythia-410m-deduped,pythia,410m,step16000,16000,style_opening_006,style_opening,Write the opening paragraph of an essay about public attention.,"
+
+The first thing you should do is to write a short introduction. This is a good way to start your essay. You should also write a short introduction that is short and to the point.
+
+The second thing you should do is to write a short introduction that is",253,1,,49,0.46938775510204084,0.10204081632653061,0.0625
+EleutherAI/pythia-410m-deduped,pythia,410m,step16000,16000,explanation_007,explanation,Explain why towns maintain public transit.,"
+
+“We’re not going to be able to do this without public transportation,” said Mayor John Hancock. “We’re going to have to do this on a local level.”
+
+The city is also considering a proposal to build a new $1.5",209,1,,40,0.725,0.125,0.05128205128205128
+EleutherAI/pythia-410m-deduped,pythia,410m,step16000,16000,explanation_011,explanation,Explain why newspapers keep corrections pages.,"
+
+The New York Times is a newspaper that is a newspaper that is a newspaper that is a newspaper that is a newspaper that is a newspaper that is a newspaper that is a newspaper that is a newspaper that is a newspaper that is a newspaper that is a newspaper that is a",265,0,low_unique_token_ratio,54,0.14814814814814814,0.24074074074074073,0.24528301886792453
+EleutherAI/pythia-410m-deduped,pythia,410m,step16000,16000,judgment_003,judgment,Should a museum favor accessibility or historical completeness when writing labels?,"
+
+I’m not sure if I’ve ever heard of a museum that has a history of writing labels. I’ve never heard of a museum that has a history of writing labels. I’ve never heard of a museum that has a history of writing labels.",217,0,low_unique_token_ratio,47,0.3617021276595745,0.1276595744680851,0.06521739130434782
+EleutherAI/pythia-410m-deduped,pythia,410m,step16000,16000,style_opening_011,style_opening,Write the opening paragraph of an essay about attention.,"
+
+The first thing you should do is to write a short introduction. This is a good way to start your essay. You should also write a short introduction that is short and to the point.
+
+The second thing you should do is to write a short introduction that is",253,1,,49,0.46938775510204084,0.10204081632653061,0.0625
+EleutherAI/pythia-410m-deduped,pythia,410m,step16000,16000,explanation_008,explanation,Explain why archives preserve administrative records.,"
+
+The following is a list of the most common types of administrative records that are stored in the archives:
+
+Administrative Records
+
+The following is a list of the most common types of administrative records that are stored in the archives:
+
+Administrative Records
+
+",268,0,low_unique_token_ratio,42,0.38095238095238093,0.14285714285714285,0.0975609756097561
+EleutherAI/pythia-410m-deduped,pythia,410m,step16000,16000,explanation_014,explanation,Explain why cities zone industrial districts.,"
+
+The city of San Francisco has been criticized for its lack of industrial districts, and the city’s industrial districts are often the most expensive in the country.
+
+The city’s industrial districts are often the most expensive in the country.
+
+The city’s",256,1,,44,0.4772727272727273,0.18181818181818182,0.09302325581395349
+EleutherAI/pythia-410m-deduped,pythia,410m,step16000,16000,explanation_012,explanation,Explain why research groups maintain lab notebooks.,"
+
+The lab notebooks are a way to keep track of what you’re doing and where you are. They’re also a way to keep track of what you’re doing and where you are.
+
+The lab notebooks are a way to keep track of",202,0,low_unique_token_ratio,45,0.4,0.08888888888888889,0.06818181818181818
+EleutherAI/pythia-410m-deduped,pythia,410m,step16000,16000,judgment_013,judgment,Should a community preserve a historic building or replace it with housing?,"
+
+The answer is yes.
+
+The question is, “What is the best way to preserve a historic building?”
+
+The answer is to preserve it.
+
+The question is, “What is the best way to preserve a historic building?”
+
+The answer",211,0,low_unique_token_ratio,38,0.3684210526315789,0.18421052631578946,0.08108108108108109
+EleutherAI/pythia-410m-deduped,pythia,410m,step16000,16000,style_opening_001,style_opening,Write the opening paragraph of an essay about memory.,"
+
+The first thing you should do is to write a short introduction. This is a good way to start your essay. You should also write a short introduction that is short and to the point.
+
+The second thing you should do is to write a short introduction that is",253,1,,49,0.46938775510204084,0.10204081632653061,0.0625
+EleutherAI/pythia-410m-deduped,pythia,410m,step16000,16000,explanation_010,explanation,Explain why software teams use version control.,"
+
+The most important thing to remember is that software is not a tool. It is a tool. It is a tool that can be used to make a product better.
+
+The tool is not a tool. It is a tool that can be used to make a product",213,0,low_unique_token_ratio,48,0.3958333333333333,0.14583333333333334,0.10638297872340426
+EleutherAI/pythia-410m-deduped,pythia,410m,step16000,16000,judgment_017,judgment,Should a town build a large central park or several smaller parks?,"
+
+A:
+
+I think the answer is yes.  The answer is yes.  The answer is yes.  The answer is yes.
+
+A:
+
+The answer is yes.  The answer is yes.
+
+A:
+
+The answer",152,0,low_unique_token_ratio,31,0.22580645161290322,0.22580645161290322,0.23333333333333334
+EleutherAI/pythia-410m-deduped,pythia,410m,step16000,16000,judgment_009,judgment,Should a university require broad general education or early specialization?,"
+
+The answer is yes.
+
+The University of California has a long history of teaching and research in the sciences, and it is a model of excellence in teaching and research.
+
+The University of California is a model of excellence in teaching and research.
+
+The",255,0,low_unique_token_ratio,44,0.4318181818181818,0.11363636363636363,0.06976744186046512
+EleutherAI/pythia-410m-deduped,pythia,410m,step16000,16000,explanation_004,explanation,Explain why museums use wall labels.,"
+
+The museum’s website has a section devoted to the history of the museum, and the museum’s website has a section devoted to the history of the museum.
+
+The museum’s website has a section devoted to the history of the museum, and the museum",240,0,low_unique_token_ratio,46,0.2608695652173913,0.21739130434782608,0.15555555555555556
+EleutherAI/pythia-410m-deduped,pythia,410m,step16000,16000,explanation_013,explanation,Explain why legislatures use committees.,"
+
+The committee’s report, which was released in January, said the state’s “unprecedented” use of the committee’s powers to “create and implement” a new law “is a violation of the state’s constitutional right to a public hearing.”
+",230,1,,40,0.7,0.1,0.05128205128205128
+EleutherAI/pythia-410m-deduped,pythia,410m,step64000,64000,explanation_015,explanation,Explain why conferences use peer review.,"
+
+The conference is a great opportunity to learn from other people who have done it before.
+
+The conference is a great opportunity to learn from other people who have done it before.
+
+The conference is a great opportunity to learn from other people who have done it before",272,0,low_unique_token_ratio,48,0.3333333333333333,0.0625,0.06382978723404255
+EleutherAI/pythia-410m-deduped,pythia,410m,step64000,64000,style_opening_018,style_opening,Write the opening paragraph of an essay about access.,"
+
+The essay is a great way to get your point across. It is a great way to get your point across. It is a great way to get your point across. It is a great way to get your point across. It is a great way to get your point",220,0,low_unique_token_ratio,50,0.24,0.1,0.10204081632653061
+EleutherAI/pythia-410m-deduped,pythia,410m,step64000,64000,style_opening_019,style_opening,Write the opening paragraph of an essay about expertise and doubt.,"
+
+The essay is a great way to get your point across. It is a great way to get your point across. It is a great way to get your point across. It is a great way to get your point across.
+
+The essay is a great way to",213,0,low_unique_token_ratio,48,0.25,0.10416666666666667,0.10638297872340426
+EleutherAI/pythia-410m-deduped,pythia,410m,step64000,64000,judgment_018,judgment,Should an instructor prioritize mastery or coverage in a difficult course?,"
+
+I’m not sure if this is a question that I’m asking, but I’m curious about the answer. I’m a high school teacher and I’ve been teaching for about a year now. I’ve been teaching for about a year and",198,1,,45,0.5777777777777777,0.13333333333333333,0.09090909090909091
+EleutherAI/pythia-410m-deduped,pythia,410m,step64000,64000,judgment_008,judgment,Should a newsroom publish quickly with updates or wait for fuller confirmation?,"
+
+I’m not sure what the answer is. I’m not sure if the newsroom should publish quickly or wait for fuller confirmation. I’m not sure if the newsroom should publish quickly or wait for fuller confirmation.
+
+I’m not",213,0,low_unique_token_ratio,41,0.43902439024390244,0.0975609756097561,0.1
+EleutherAI/pythia-410m-deduped,pythia,410m,step64000,64000,judgment_014,judgment,Should a school ban phones outright or regulate their use?,"
+
+I’m not sure what you mean by “ban phones outright” but I’m sure you’re referring to the fact that the FCC has not yet decided whether or not to ban phones outright.
+
+I’m not sure what you mean by “regulate",208,1,,44,0.5681818181818182,0.09090909090909091,0.06976744186046512
+EleutherAI/pythia-410m-deduped,pythia,410m,step64000,64000,style_opening_013,style_opening,Write the opening paragraph of an essay about delay.,"
+
+The essay is a great way to get your point across. It is a great way to get your point across. It is a great way to get your point across. It is a great way to get your point across. It is a great way to get your point",220,0,low_unique_token_ratio,50,0.24,0.1,0.10204081632653061
+EleutherAI/pythia-410m-deduped,pythia,410m,step64000,64000,style_opening_008,style_opening,Write the opening paragraph of an essay about evidence.,"
+
+The essay is a great way to get your point across. It is a great way to get your point across. It is a great way to get your point across. It is a great way to get your point across. It is a great way to get your point",220,0,low_unique_token_ratio,50,0.24,0.1,0.10204081632653061
+EleutherAI/pythia-410m-deduped,pythia,410m,step64000,64000,style_opening_020,style_opening,Write the opening paragraph of an essay about common goods.,"
+
+The essay is a great way to get your point across. It’s a great way to get your point across. It’s a great way to get your point across. It’s a great way to get your point across.
+
+The essay is a",197,0,low_unique_token_ratio,45,0.28888888888888886,0.1111111111111111,0.09090909090909091
+EleutherAI/pythia-410m-deduped,pythia,410m,step64000,64000,style_opening_006,style_opening,Write the opening paragraph of an essay about public attention.,"
+
+The essay is a great way to get your audience to read your work. It is a great way to get your audience to read your work.
+
+The essay is a great way to get your audience to read your work.
+
+The essay is a great way",216,0,low_unique_token_ratio,47,0.2765957446808511,0.1276595744680851,0.08695652173913043
+EleutherAI/pythia-410m-deduped,pythia,410m,step64000,64000,explanation_007,explanation,Explain why towns maintain public transit.,"
+
+The city of San Diego has a public transit system that is the largest in the country. The San Diego Regional Transit Authority (SDRTA) is the largest transit agency in the country. The SDRTA is the largest transit agency in the United States. The SD",251,1,,45,0.4888888888888889,0.2222222222222222,0.06818181818181818
+EleutherAI/pythia-410m-deduped,pythia,410m,step64000,64000,explanation_011,explanation,Explain why newspapers keep corrections pages.,"
+
+The first thing to note is that the corrections page is not a page that is automatically generated. It is a page that is manually created by the editor. The editor is responsible for creating the page and for making sure that it is correct.
+
+The second thing to",263,1,,49,0.5306122448979592,0.14285714285714285,0.041666666666666664
+EleutherAI/pythia-410m-deduped,pythia,410m,step64000,64000,judgment_003,judgment,Should a museum favor accessibility or historical completeness when writing labels?,"
+
+I’m not sure if I’m the only one who thinks that the label is a good idea. I’m not sure if I’m the only one who thinks that the label is a good idea. I’m not sure if I’m the",175,0,low_unique_token_ratio,46,0.34782608695652173,0.13043478260869565,0.13333333333333333
+EleutherAI/pythia-410m-deduped,pythia,410m,step64000,64000,style_opening_011,style_opening,Write the opening paragraph of an essay about attention.,"
+
+The essay is a great way to get your point across. It is a great way to get your point across. It is a great way to get your point across. It is a great way to get your point across. It is a great way to get your point",220,0,low_unique_token_ratio,50,0.24,0.1,0.10204081632653061
+EleutherAI/pythia-410m-deduped,pythia,410m,step64000,64000,explanation_008,explanation,Explain why archives preserve administrative records.,"
+
+The first thing to note is that the records are not necessarily the same. The first thing to note is that the records are not necessarily the same. The first thing to note is that the records are not necessarily the same. The first thing to note is that the records",267,0,low_unique_token_ratio,51,0.23529411764705882,0.21568627450980393,0.08
+EleutherAI/pythia-410m-deduped,pythia,410m,step64000,64000,explanation_014,explanation,Explain why cities zone industrial districts.,"
+
+The city of Chicago has a long history of industrial development. The city’s industrial districts are the largest in the country. The Chicago Industrial District is the largest in the country. The Chicago Industrial District is the largest in the country. The Chicago Industrial District is the largest",304,0,low_unique_token_ratio,49,0.3673469387755102,0.24489795918367346,0.08333333333333333
+EleutherAI/pythia-410m-deduped,pythia,410m,step64000,64000,explanation_012,explanation,Explain why research groups maintain lab notebooks.,"
+
+The research groups are also required to keep a journal of their research.
+
+The journal should be kept in a locked cabinet and should be kept in a locked cabinet with a lock.
+
+The journal should be kept in a locked cabinet with a lock.
+
+",239,1,,45,0.4666666666666667,0.13333333333333333,0.06818181818181818
+EleutherAI/pythia-410m-deduped,pythia,410m,step64000,64000,judgment_013,judgment,Should a community preserve a historic building or replace it with housing?,"
+
+The answer is yes.
+
+The City of San Diego has a historic building that is being preserved and is being used as a community center. The building is located in the heart of the city and is a great example of how a community can preserve a historic building.",257,1,,49,0.5714285714285714,0.10204081632653061,0.041666666666666664
+EleutherAI/pythia-410m-deduped,pythia,410m,step64000,64000,style_opening_001,style_opening,Write the opening paragraph of an essay about memory.,"
+
+The first paragraph of an essay about memory is the first paragraph of the essay.
+
+The first paragraph of an essay about memory is the first paragraph of the essay.
+
+The first paragraph of an essay about memory is the first paragraph of the essay.
+
+",251,0,low_unique_token_ratio,45,0.2,0.2,0.13636363636363635
+EleutherAI/pythia-410m-deduped,pythia,410m,step64000,64000,explanation_010,explanation,Explain why software teams use version control.,"
+
+The following are some of the most common reasons why software teams use version control:
+
+1. Version control is a way to ensure that your software is always up to date.
+
+2. Version control is a way to ensure that your software is always up to",245,1,,44,0.5454545454545454,0.09090909090909091,0.06976744186046512
+EleutherAI/pythia-410m-deduped,pythia,410m,step64000,64000,judgment_017,judgment,Should a town build a large central park or several smaller parks?,"
+
+I think it's a good idea to have a central park. It's a great place to get away from the hustle and bustle of the city. It's also a great place to get away from the city.
+
+I think it's a good idea",198,1,,43,0.5116279069767442,0.11627906976744186,0.07142857142857142
+EleutherAI/pythia-410m-deduped,pythia,410m,step64000,64000,judgment_009,judgment,Should a university require broad general education or early specialization?,"
+
+I am a graduate student in the field of education. I am interested in the question of whether a university should require broad general education or early specialization. I am not sure if I understand the question correctly.
+
+A:
+
+The question is not about whether a",267,1,,46,0.6086956521739131,0.08695652173913043,0.06666666666666667
+EleutherAI/pythia-410m-deduped,pythia,410m,step64000,64000,explanation_004,explanation,Explain why museums use wall labels.,"
+
+The first thing to note is that the labels are not just labels for the walls. They are labels for the entire building. The labels are not just labels for the walls. They are labels for the entire building.
+
+The second thing to note is that the labels",252,0,low_unique_token_ratio,48,0.3541666666666667,0.1875,0.0851063829787234
+EleutherAI/pythia-410m-deduped,pythia,410m,step64000,64000,explanation_013,explanation,Explain why legislatures use committees.,"
+
+The committee system is a good way to get a sense of the kind of work that needs to be done.
+
+The committee system is a good way to get a sense of the kind of work that needs to be done.
+
+The committee system is a good",220,0,low_unique_token_ratio,48,0.3541666666666667,0.10416666666666667,0.06382978723404255
+EleutherAI/pythia-410m-deduped,pythia,410m,step128000,128000,explanation_015,explanation,Explain why conferences use peer review.,"
+
+The peer review process is a critical component of the process of peer review. Peer review is a process in which a group of reviewers reviews a paper and makes a decision about whether or not to accept the paper. Peer review is a process in which a group of reviewers reviews",277,1,,52,0.46153846153846156,0.1346153846153846,0.0784313725490196
+EleutherAI/pythia-410m-deduped,pythia,410m,step128000,128000,style_opening_018,style_opening,Write the opening paragraph of an essay about access.,"
+
+The essay is a great way to introduce yourself to your audience. It is a great way to introduce yourself to your audience. It is a great way to introduce yourself to your audience. It is a great way to introduce yourself to your audience. It is a great way",258,0,low_unique_token_ratio,50,0.24,0.16,0.10204081632653061
+EleutherAI/pythia-410m-deduped,pythia,410m,step128000,128000,style_opening_019,style_opening,Write the opening paragraph of an essay about expertise and doubt.,"
+
+The first paragraph of an essay is the first sentence of the essay. The first sentence of an essay is the first sentence of the essay. The first sentence of an essay is the first sentence of the essay. The first sentence of an essay is the first sentence of the",263,0,low_unique_token_ratio,51,0.1568627450980392,0.23529411764705882,0.16
+EleutherAI/pythia-410m-deduped,pythia,410m,step128000,128000,judgment_018,judgment,Should an instructor prioritize mastery or coverage in a difficult course?,"
+
+I’ve been teaching for over 20 years and I’ve never seen a course that was so difficult that I couldn’t get through it. I’ve taught in many different settings, but I’ve never seen a course that was so difficult that I couldn",226,1,,46,0.5869565217391305,0.13043478260869565,0.08888888888888889
+EleutherAI/pythia-410m-deduped,pythia,410m,step128000,128000,judgment_008,judgment,Should a newsroom publish quickly with updates or wait for fuller confirmation?,"
+
+I think the best way to handle this is to have a newsroom that is not a newsroom. It is a newsroom that is not a newsroom. It is a newsroom that is not a newsroom. It is a newsroom that is not a",196,0,low_unique_token_ratio,44,0.3409090909090909,0.18181818181818182,0.16279069767441862
+EleutherAI/pythia-410m-deduped,pythia,410m,step128000,128000,judgment_014,judgment,Should a school ban phones outright or regulate their use?,"
+
+The answer is yes.
+
+The school board has the authority to ban phones outright.
+
+The school board has the authority to regulate the use of phones.
+
+The school board has the authority to ban phones outright.
+
+The school board has the authority",243,0,low_unique_token_ratio,42,0.35714285714285715,0.23809523809523808,0.0975609756097561
+EleutherAI/pythia-410m-deduped,pythia,410m,step128000,128000,style_opening_013,style_opening,Write the opening paragraph of an essay about delay.,"
+
+The first paragraph of an essay is the first sentence of the essay. The first sentence of an essay is the first sentence of the essay. The first sentence of an essay is the first sentence of the essay. The first sentence of an essay is the first sentence of the",263,0,low_unique_token_ratio,51,0.1568627450980392,0.23529411764705882,0.16
+EleutherAI/pythia-410m-deduped,pythia,410m,step128000,128000,style_opening_008,style_opening,Write the opening paragraph of an essay about evidence.,"
+
+The opening paragraph of an essay is the first sentence of the essay. It is the first sentence of the essay that is the first sentence of the essay. The opening paragraph of an essay is the first sentence of the essay that is the first sentence of the essay. The",264,0,low_unique_token_ratio,51,0.21568627450980393,0.2549019607843137,0.1
+EleutherAI/pythia-410m-deduped,pythia,410m,step128000,128000,style_opening_020,style_opening,Write the opening paragraph of an essay about common goods.,"
+
+The opening paragraph of an essay is the first sentence of the essay. It is the first sentence of the essay that is the first sentence of the essay. The opening paragraph of an essay is the first sentence of the essay that is the first sentence of the essay.
+",261,0,low_unique_token_ratio,50,0.22,0.24,0.10204081632653061
+EleutherAI/pythia-410m-deduped,pythia,410m,step128000,128000,style_opening_006,style_opening,Write the opening paragraph of an essay about public attention.,"
+
+The first paragraph of an essay should be about the topic. The second paragraph should be about the topic. The third paragraph should be about the topic. The fourth paragraph should be about the topic. The fifth paragraph should be about the topic. The sixth paragraph should be about",286,0,low_unique_token_ratio,49,0.30612244897959184,0.22448979591836735,0.125
+EleutherAI/pythia-410m-deduped,pythia,410m,step128000,128000,explanation_007,explanation,Explain why towns maintain public transit.,"
+
+The city of New York has a long history of public transit. The city’s first subway system was built in 1883, and the first subway car was built in the Bronx in 1904. The city’s first subway car was the first subway car in the world",233,1,,46,0.4782608695652174,0.15217391304347827,0.08888888888888889
+EleutherAI/pythia-410m-deduped,pythia,410m,step128000,128000,explanation_011,explanation,Explain why newspapers keep corrections pages.,"
+
+The first page of the correction is the most important. It is the first page of the correction. It is the first page of the correction. It is the first page of the correction. It is the first page of the correction. It is the first page of the",245,0,low_unique_token_ratio,49,0.1836734693877551,0.2653061224489796,0.125
+EleutherAI/pythia-410m-deduped,pythia,410m,step128000,128000,judgment_003,judgment,Should a museum favor accessibility or historical completeness when writing labels?,"
+
+A:
+
+I think the answer is yes.  The museum should be able to provide a label that is easy to read and understand.  The museum should be able to provide a label that is easy to read and understand.  The museum should be able to",228,0,low_unique_token_ratio,45,0.4222222222222222,0.1111111111111111,0.06818181818181818
+EleutherAI/pythia-410m-deduped,pythia,410m,step128000,128000,style_opening_011,style_opening,Write the opening paragraph of an essay about attention.,"
+
+The first paragraph of an essay is the first sentence of the essay. The first sentence of an essay is the first sentence of the essay. The first sentence of an essay is the first sentence of the essay. The first sentence of an essay is the first sentence of the",263,0,low_unique_token_ratio,51,0.1568627450980392,0.23529411764705882,0.16
+EleutherAI/pythia-410m-deduped,pythia,410m,step128000,128000,explanation_008,explanation,Explain why archives preserve administrative records.,"
+
+The first step in the process is to determine what records are archived. The first step is to determine what records are archived. The first step is to determine what records are archived. The first step is to determine what records are archived. The first step",263,0,low_unique_token_ratio,46,0.2608695652173913,0.13043478260869565,0.1111111111111111
+EleutherAI/pythia-410m-deduped,pythia,410m,step128000,128000,explanation_014,explanation,Explain why cities zone industrial districts.,"
+
+The city of New York has a long history of zoning. In the early 1900s, the city was a leader in the development of the industrial districts. The city’s first zoning ordinance was passed in 1883, and the first zoning ordinance was passed in New York",250,1,,46,0.4782608695652174,0.15217391304347827,0.06666666666666667
+EleutherAI/pythia-410m-deduped,pythia,410m,step128000,128000,explanation_012,explanation,Explain why research groups maintain lab notebooks.,"
+
+The lab notebooks are a great way to keep track of your research. They are a great way to keep track of your research. They are a great way to keep track of your research.
+
+The lab notebooks are a great way to keep track of your",230,0,low_unique_token_ratio,47,0.2978723404255319,0.0851063829787234,0.08695652173913043
+EleutherAI/pythia-410m-deduped,pythia,410m,step128000,128000,judgment_013,judgment,Should a community preserve a historic building or replace it with housing?,"
+
+The answer is yes.
+
+The building is a historic landmark.
+
+The building is a historic landmark.
+
+The building is a historic landmark.
+
+The building is a historic landmark.
+
+The building is a historic landmark.
+
+The building",224,0,low_unique_token_ratio,36,0.2222222222222222,0.19444444444444445,0.17142857142857143
+EleutherAI/pythia-410m-deduped,pythia,410m,step128000,128000,style_opening_001,style_opening,Write the opening paragraph of an essay about memory.,"
+
+The first paragraph of an essay is the first sentence of the essay. The first sentence of an essay is the first sentence of the essay. The first sentence of an essay is the first sentence of the essay. The first sentence of an essay is the first sentence of the",263,0,low_unique_token_ratio,51,0.1568627450980392,0.23529411764705882,0.16
+EleutherAI/pythia-410m-deduped,pythia,410m,step128000,128000,explanation_010,explanation,Explain why software teams use version control.,"
+
+The first step in version control is to create a version control system. This is a system that allows you to track changes in your code. Version control systems are used to track changes in your code.
+
+Version control systems are used to track changes in your code.",267,1,,48,0.4583333333333333,0.08333333333333333,0.0851063829787234
+EleutherAI/pythia-410m-deduped,pythia,410m,step128000,128000,judgment_017,judgment,Should a town build a large central park or several smaller parks?,"
+
+A:
+
+The answer is yes.  The answer is yes because the park is a public space.  The answer is no because the park is not a public space.  The answer is no because the park is not a public space.
+The answer is",209,0,low_unique_token_ratio,43,0.2558139534883721,0.18604651162790697,0.11904761904761904
+EleutherAI/pythia-410m-deduped,pythia,410m,step128000,128000,judgment_009,judgment,Should a university require broad general education or early specialization?,"
+
+A:
+
+The answer is yes.
+The University of California, Berkeley, has a general education requirement for all students.  The requirement is that the student must have a general education in the sciences, mathematics, and the humanities.  The requirement is not",259,1,,40,0.65,0.175,0.05128205128205128
+EleutherAI/pythia-410m-deduped,pythia,410m,step128000,128000,explanation_004,explanation,Explain why museums use wall labels.,"
+
+The museum’s website says: “The museum’s mission is to educate and inspire visitors to understand the world around them. The museum’s mission is to educate and inspire visitors to understand the world around them. The museum’s mission is to educate and inspire",262,0,low_unique_token_ratio,46,0.34782608695652173,0.13043478260869565,0.08888888888888889
+EleutherAI/pythia-410m-deduped,pythia,410m,step128000,128000,explanation_013,explanation,Explain why legislatures use committees.,"
+
+The committee system is a good way to get the public involved in the process. It is a good way to get the public involved in the process.
+
+The committee system is a good way to get the public involved in the process. It is a good way to",238,0,low_unique_token_ratio,49,0.2857142857142857,0.16326530612244897,0.08333333333333333
+EleutherAI/pythia-410m-deduped,pythia,410m,step143000,143000,explanation_015,explanation,Explain why conferences use peer review.,"
+
+The conference is a great way to get your message out to as many people as possible.
+
+The conference is a great way to get your message out to as many people as possible.
+
+The conference is a great way to get your message out to as many",238,0,low_unique_token_ratio,48,0.3125,0.125,0.06382978723404255
+EleutherAI/pythia-410m-deduped,pythia,410m,step143000,143000,style_opening_018,style_opening,Write the opening paragraph of an essay about access.,"
+
+The essay is a great way to introduce yourself to your audience. It is also a great way to introduce yourself to your audience. It is a great way to introduce yourself to your audience. It is a great way to introduce yourself to your audience. It is a great",259,0,low_unique_token_ratio,50,0.26,0.16,0.10204081632653061
+EleutherAI/pythia-410m-deduped,pythia,410m,step143000,143000,style_opening_019,style_opening,Write the opening paragraph of an essay about expertise and doubt.,"
+
+The essay is a great way to introduce your topic and to get your reader to think about it.
+
+The opening paragraph is the most important part of your essay. It is the first thing your reader will see and it is the first thing they will remember.
+",247,1,,48,0.5833333333333334,0.10416666666666667,0.06382978723404255
+EleutherAI/pythia-410m-deduped,pythia,410m,step143000,143000,judgment_018,judgment,Should an instructor prioritize mastery or coverage in a difficult course?,"
+
+I am a student of a course that I am taking. I am not sure if I should prioritize mastery or coverage in this course. I am not sure if I should prioritize mastery or coverage in this course.
+
+I am a student of a course that",225,0,low_unique_token_ratio,47,0.3829787234042553,0.14893617021276595,0.10869565217391304
+EleutherAI/pythia-410m-deduped,pythia,410m,step143000,143000,judgment_008,judgment,Should a newsroom publish quickly with updates or wait for fuller confirmation?,"
+
+I’m not sure I’d call it a “newsroom” but I’m sure it’s a place where people can get their news.
+
+I’m not sure I’d call it a “newsroom” but I’m sure",150,1,,38,0.47368421052631576,0.15789473684210525,0.10810810810810811
+EleutherAI/pythia-410m-deduped,pythia,410m,step143000,143000,judgment_014,judgment,Should a school ban phones outright or regulate their use?,"
+
+The answer is yes.
+
+The reason is simple.
+
+The phone industry is a monopoly.
+
+The phone industry is a monopoly.
+
+The phone industry is a monopoly.
+
+The phone industry is a monopoly.
+
+The phone industry is",206,0,low_unique_token_ratio,36,0.2777777777777778,0.19444444444444445,0.14285714285714285
+EleutherAI/pythia-410m-deduped,pythia,410m,step143000,143000,style_opening_013,style_opening,Write the opening paragraph of an essay about delay.,"
+
+The essay is a great way to start your essay. It is a great way to start your essay. It is a great way to start your essay. It is a great way to start your essay. It is a great way to start your essay. It is a",211,0,low_unique_token_ratio,49,0.20408163265306123,0.12244897959183673,0.125
+EleutherAI/pythia-410m-deduped,pythia,410m,step143000,143000,style_opening_008,style_opening,Write the opening paragraph of an essay about evidence.,"
+
+The opening paragraph of an essay is the first paragraph of the essay. It is the first paragraph that is written in the essay. The opening paragraph is the first paragraph that is written in the essay. The opening paragraph is the first paragraph that is written in the essay.",278,0,low_unique_token_ratio,50,0.24,0.22,0.08163265306122448
+EleutherAI/pythia-410m-deduped,pythia,410m,step143000,143000,style_opening_020,style_opening,Write the opening paragraph of an essay about common goods.,"
+
+The opening paragraph of an essay is the first paragraph of the essay. It is the first paragraph that is written in the essay. The opening paragraph is the first paragraph that is written in the essay. The opening paragraph is the first paragraph that is written in the essay.",278,0,low_unique_token_ratio,50,0.24,0.22,0.08163265306122448
+EleutherAI/pythia-410m-deduped,pythia,410m,step143000,143000,style_opening_006,style_opening,Write the opening paragraph of an essay about public attention.,"
+
+The essay is a great way to get your point across. It’s also a great way to get your point across to your audience.
+
+The opening paragraph is the most important part of your essay. It’s the first thing that your audience sees when they",237,1,,47,0.574468085106383,0.10638297872340426,0.043478260869565216
+EleutherAI/pythia-410m-deduped,pythia,410m,step143000,143000,explanation_007,explanation,Explain why towns maintain public transit.,"
+
+The city of New York has a long history of public transit. The city’s first subway system opened in 1883, and the city’s first bus system opened in 1905. The city’s first subway line opened in 1909, and the city’s first",221,1,,42,0.47619047619047616,0.11904761904761904,0.12195121951219512
+EleutherAI/pythia-410m-deduped,pythia,410m,step143000,143000,explanation_011,explanation,Explain why newspapers keep corrections pages.,"
+
+The first thing to note is that the corrections page is not a separate page. It is a separate page that is used to display the corrections page. The corrections page is not a separate page that is used to display the corrections page. The corrections page is a separate page",276,0,low_unique_token_ratio,51,0.29411764705882354,0.17647058823529413,0.1
+EleutherAI/pythia-410m-deduped,pythia,410m,step143000,143000,judgment_003,judgment,Should a museum favor accessibility or historical completeness when writing labels?,"
+
+I’m not sure what the answer is. I’m not sure what the answer is for the museum. I’m not sure what the answer is for the label. I’m not sure what the answer is for the label. I’m not sure",189,0,low_unique_token_ratio,45,0.24444444444444444,0.15555555555555556,0.11363636363636363
+EleutherAI/pythia-410m-deduped,pythia,410m,step143000,143000,style_opening_011,style_opening,Write the opening paragraph of an essay about attention.,"
+
+The essay is a great way to start your essay. It is a great way to start your essay. It is a great way to start your essay. It is a great way to start your essay. It is a great way to start your essay. It is a",211,0,low_unique_token_ratio,49,0.20408163265306123,0.12244897959183673,0.125
+EleutherAI/pythia-410m-deduped,pythia,410m,step143000,143000,explanation_008,explanation,Explain why archives preserve administrative records.,"
+
+A:
+
+The answer is that the archive is not a collection of records, but a collection of records that are stored in a database.
+The archive is a collection of records that are stored in a database.
+The archive is a collection of records that are",245,0,low_unique_token_ratio,46,0.32608695652173914,0.15217391304347827,0.08888888888888889
+EleutherAI/pythia-410m-deduped,pythia,410m,step143000,143000,explanation_014,explanation,Explain why cities zone industrial districts.,"
+
+The city of New York has a zoning code that allows for the creation of industrial districts. The city has a zoning code that allows for the creation of industrial districts. The city of New York has a zoning code that allows for the creation of industrial districts. The city of",280,0,low_unique_token_ratio,51,0.29411764705882354,0.13725490196078433,0.08
+EleutherAI/pythia-410m-deduped,pythia,410m,step143000,143000,explanation_012,explanation,Explain why research groups maintain lab notebooks.,"
+
+The lab notebooks are a great way to keep track of your research. They are a great way to keep track of your research. They are a great way to keep track of your research.
+
+The lab notebooks are a great way to keep track of your",230,0,low_unique_token_ratio,47,0.2978723404255319,0.0851063829787234,0.08695652173913043
+EleutherAI/pythia-410m-deduped,pythia,410m,step143000,143000,judgment_013,judgment,Should a community preserve a historic building or replace it with housing?,"
+
+The answer is yes.
+
+The building is a historic building. It is a historic building. It is a historic building. It is a historic building. It is a historic building. It is a historic building. It is a historic building. It is a historic",237,0,low_unique_token_ratio,44,0.18181818181818182,0.20454545454545456,0.18604651162790697
+EleutherAI/pythia-410m-deduped,pythia,410m,step143000,143000,style_opening_001,style_opening,Write the opening paragraph of an essay about memory.,"
+
+The opening paragraph of an essay about memory.
+
+The opening paragraph of an essay about memory.
+
+The opening paragraph of an essay about memory.
+
+The opening paragraph of an essay about memory.
+
+The opening paragraph of an essay about memory.
+",246,0,low_unique_token_ratio,40,0.2,0.125,0.1282051282051282
+EleutherAI/pythia-410m-deduped,pythia,410m,step143000,143000,explanation_010,explanation,Explain why software teams use version control.,"
+
+The software team is responsible for the development of the software. The software team is responsible for the development of the software.
+
+The software team is responsible for the development of the software. The software team is responsible for the development of the software.
+
+The software",296,0,low_unique_token_ratio,46,0.17391304347826086,0.2826086956521739,0.2
+EleutherAI/pythia-410m-deduped,pythia,410m,step143000,143000,judgment_017,judgment,Should a town build a large central park or several smaller parks?,"
+
+I think that the answer is yes.
+
+The problem is that the parks are not large enough to support the number of people who would use them.
+
+The parks are not large enough to support the number of people who would use them.
+
+The parks",232,1,,45,0.4888888888888889,0.15555555555555556,0.06818181818181818
+EleutherAI/pythia-410m-deduped,pythia,410m,step143000,143000,judgment_009,judgment,Should a university require broad general education or early specialization?,"
+
+I think that the answer is yes.
+
+I think that the answer is no.
+
+I think that the answer is yes.
+
+I think that the answer is no.
+
+I think that the answer is yes.
+
+I think that the",181,0,low_unique_token_ratio,39,0.20512820512820512,0.15384615384615385,0.15789473684210525
+EleutherAI/pythia-410m-deduped,pythia,410m,step143000,143000,explanation_004,explanation,Explain why museums use wall labels.,"
+
+The museum’s website says: “The museum is dedicated to the preservation of the history of the city of London and the surrounding area. It is a place where visitors can discover the history of London and the city’s people. The museum is a place where visitors",260,1,,48,0.5,0.1875,0.06382978723404255
+EleutherAI/pythia-410m-deduped,pythia,410m,step143000,143000,explanation_013,explanation,Explain why legislatures use committees.,"
+
+The committee system is a good way to get the public involved in the process. It is also a good way to get the public involved in the process.
+
+The committee system is a good way to get the public involved in the process. It is also a good",241,0,low_unique_token_ratio,49,0.30612244897959184,0.16326530612244897,0.08333333333333333

@@ -1,0 +1,48 @@
+profile_items:
+  - id: bftn_prof_01
+    family: core_triage
+    prompt: "A small archive team keeps finding conflicting spreadsheet versions after each handoff. What should they do in the next day?"
+  - id: bftn_prof_02
+    family: core_critique
+    prompt: "Give feedback on a student memo that is energetic and polite but hides the recommendation until the final line."
+  - id: bftn_prof_03
+    family: core_policy
+    prompt: "Write a short policy note on how a museum team should document changes to exhibit labels during revision."
+  - id: bftn_prof_04
+    family: core_diagnosis
+    prompt: "Diagnose why a paragraph feels intelligent and informed but still fails to tell the reader what matters most."
+  - id: bftn_prof_05
+    family: core_planning
+    prompt: "Sketch a short plan for turning a pile of scattered observations into a usable incident timeline."
+  - id: bftn_prof_06
+    family: core_judgment
+    prompt: "Decide whether office hours help students mainly by clarifying content, lowering avoidance, or creating accountability, and explain your judgment."
+
+evaluation_items:
+  - id: bftn_eval_01
+    family: paraphrase_shift
+    prompt: "A lab keeps uncovering different spreadsheet copies after every handoff. What should the team do first over the next day?"
+  - id: bftn_eval_02
+    family: paraphrase_shift
+    prompt: "Give feedback on a memo that is polite and lively but delays the real recommendation until the final sentence."
+
+  - id: bftn_eval_03
+    family: verbosity_shift
+    prompt: "In one compact paragraph, explain how a small museum team should record exhibit-label changes during revision."
+  - id: bftn_eval_04
+    family: verbosity_shift
+    prompt: "In one compact paragraph, diagnose why a paragraph can sound informed but still hide the main claim."
+
+  - id: bftn_eval_05
+    family: topic_shift
+    prompt: "Sketch a short plan for helping a student narrow a research topic without flattening the curiosity that made it interesting."
+  - id: bftn_eval_06
+    family: topic_shift
+    prompt: "Decide whether revision logs matter more as a teaching device, a management tool, or a memory aid, and explain your judgment."
+
+  - id: bftn_eval_07
+    family: instruction_shift
+    prompt: "Take a practical tone and explain what a small team should do first when versioned files and naming conventions drift apart."
+  - id: bftn_eval_08
+    family: instruction_shift
+    prompt: "Take a practical tone and give feedback on a methods paragraph that keeps sliding from procedure into interpretation."

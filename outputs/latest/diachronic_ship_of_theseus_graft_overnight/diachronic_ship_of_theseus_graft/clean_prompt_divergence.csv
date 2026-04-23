@@ -1,0 +1,121 @@
+prompt_id,prompt_family,prompt,selection_host_revision,selection_donor_revision,clean_js
+judgment_005,judgment,Should a hospital use first-come service or urgency-based triage during overload?,step143000,step64000,0.08252912014722824
+judgment_011,judgment,Should a grant committee reward bold novelty or reliable execution?,step143000,step64000,0.07529120147228241
+judgment_001,judgment,Should a school prioritize fairness or excellence when designing a grading policy?,step143000,step64000,0.049556463956832886
+style_opening_015,style_opening,Write the opening paragraph of an essay about archives.,step143000,step64000,0.04191967844963074
+advice_005,advice,A student wrote a draft that says too many things at once. What should they do first?,step143000,step64000,0.0399014949798584
+continuation_020,continuation,"Continue this sentence into a short paragraph: The meeting ended with agreement, but...",step143000,step64000,0.037535347044467926
+judgment_003,judgment,Should a museum favor accessibility or historical completeness when writing labels?,step143000,step64000,0.03716443479061127
+explanation_006,explanation,Explain why hospitals use triage systems.,step143000,step64000,0.03672172874212265
+judgment_012,judgment,Should a court prefer bright-line rules or flexible standards?,step143000,step64000,0.036263421177864075
+continuation_013,continuation,"Continue this sentence into a short paragraph: The class discussion was lively, but...",step143000,step64000,0.03430008888244629
+continuation_009,continuation,"Continue this sentence into a short paragraph: The museum opened the new exhibit, but...",step143000,step64000,0.03337135910987854
+style_opening_016,style_opening,Write the opening paragraph of an essay about public language.,step143000,step64000,0.03295036777853966
+explanation_018,explanation,Explain why community gardens keep shared rules.,step143000,step64000,0.032233379781246185
+explanation_015,explanation,Explain why conferences use peer review.,step143000,step64000,0.03008515015244484
+style_opening_003,style_opening,Write the opening paragraph of an essay about record keeping.,step143000,step64000,0.029807409271597862
+style_opening_008,style_opening,Write the opening paragraph of an essay about evidence.,step143000,step64000,0.028856199234724045
+continuation_016,continuation,"Continue this sentence into a short paragraph: The proposal looked innovative, but...",step143000,step64000,0.02861011028289795
+style_opening_009,style_opening,Write the opening paragraph of an essay about institutions.,step143000,step64000,0.028453124687075615
+style_opening_010,style_opening,Write the opening paragraph of an essay about maintenance.,step143000,step64000,0.02649647556245327
+advice_020,advice,A nonprofit has an ambitious mission but weak coordination. What should it do first?,step143000,step64000,0.02643468976020813
+explanation_017,explanation,Explain why schools assign reading lists.,step143000,step64000,0.026264039799571037
+judgment_006,judgment,Should a teacher grade participation heavily or lightly?,step143000,step64000,0.026113882660865784
+continuation_002,continuation,"Continue this sentence into a short paragraph: The committee agreed on the rule, but...",step143000,step64000,0.025568392127752304
+explanation_012,explanation,Explain why research groups maintain lab notebooks.,step143000,step64000,0.025295374915003777
+explanation_004,explanation,Explain why museums use wall labels.,step143000,step64000,0.025179464370012283
+style_opening_006,style_opening,Write the opening paragraph of an essay about public attention.,step143000,step64000,0.025164302438497543
+style_opening_002,style_opening,Write the opening paragraph of an essay about public trust.,step143000,step64000,0.0249056126922369
+style_opening_011,style_opening,Write the opening paragraph of an essay about attention.,step143000,step64000,0.024898555129766464
+judgment_007,judgment,Should public policy favor simple rules or case-by-case discretion?,step143000,step64000,0.024828165769577026
+continuation_015,continuation,"Continue this sentence into a short paragraph: The neighborhood welcomed the project, but...",step143000,step64000,0.023983433842658997
+style_opening_007,style_opening,Write the opening paragraph of an essay about revision.,step143000,step64000,0.023509418591856956
+style_opening_014,style_opening,Write the opening paragraph of an essay about repair.,step143000,step64000,0.02347481995820999
+explanation_013,explanation,Explain why legislatures use committees.,step143000,step64000,0.023297376930713654
+advice_011,advice,A public agency receives contradictory feedback from residents. What should it do first?,step143000,step64000,0.02308523654937744
+style_opening_013,style_opening,Write the opening paragraph of an essay about delay.,step143000,step64000,0.02292472869157791
+style_opening_004,style_opening,Write the opening paragraph of an essay about shared spaces.,step143000,step64000,0.022283485159277916
+explanation_003,explanation,Explain why schools keep science laboratories.,step143000,step64000,0.022219466045498848
+explanation_002,explanation,Explain why neighborhoods create public parks.,step143000,step64000,0.022157156839966774
+continuation_010,continuation,"Continue this sentence into a short paragraph: The new rule solved one problem, but...",step143000,step64000,0.021863918751478195
+continuation_019,continuation,"Continue this sentence into a short paragraph: The map was accurate, but...",step143000,step64000,0.021601807326078415
+advice_019,advice,A student wants to study more effectively but keeps rereading passively. What should they do first?,step143000,step64000,0.02149968221783638
+explanation_016,explanation,Explain why teams keep revision logs.,step143000,step64000,0.021423373371362686
+continuation_014,continuation,"Continue this sentence into a short paragraph: The budget passed easily, but...",step143000,step64000,0.02136891894042492
+continuation_011,continuation,"Continue this sentence into a short paragraph: The library stayed open late, but...",step143000,step64000,0.020997926592826843
+explanation_010,explanation,Explain why software teams use version control.,step143000,step64000,0.020858531817793846
+style_opening_012,style_opening,Write the opening paragraph of an essay about fairness.,step143000,step64000,0.02085481956601143
+style_opening_018,style_opening,Write the opening paragraph of an essay about access.,step143000,step64000,0.02079010009765625
+style_opening_005,style_opening,Write the opening paragraph of an essay about expertise.,step143000,step64000,0.020756365731358528
+judgment_004,judgment,Should a workplace optimize for speed or careful review when deadlines are tight?,step143000,step64000,0.020655550062656403
+judgment_018,judgment,Should an instructor prioritize mastery or coverage in a difficult course?,step143000,step64000,0.020524468272924423
+continuation_018,continuation,"Continue this sentence into a short paragraph: The policy was popular at first, but...",step143000,step64000,0.02044690027832985
+style_opening_001,style_opening,Write the opening paragraph of an essay about memory.,step143000,step64000,0.020177843049168587
+judgment_020,judgment,Should public transit prioritize geographic coverage or frequent service?,step143000,step64000,0.019737470895051956
+explanation_008,explanation,Explain why archives preserve administrative records.,step143000,step64000,0.01973177120089531
+style_opening_020,style_opening,Write the opening paragraph of an essay about common goods.,step143000,step64000,0.019485509023070335
+style_opening_017,style_opening,Write the opening paragraph of an essay about rules.,step143000,step64000,0.01941472664475441
+continuation_012,continuation,"Continue this sentence into a short paragraph: The experiment finally succeeded, but...",step143000,step64000,0.019295217469334602
+advice_007,advice,A manager inherits a project with unclear ownership. What should they do first?,step143000,step64000,0.019103890284895897
+advice_016,advice,A research assistant has messy notes and a deadline. What should they do first?,step143000,step64000,0.019018355756998062
+continuation_008,continuation,"Continue this sentence into a short paragraph: The report answered the question, but...",step143000,step64000,0.0189694594591856
+continuation_003,continuation,"Continue this sentence into a short paragraph: The archive was complete, but...",step143000,step64000,0.018845822662115097
+style_opening_019,style_opening,Write the opening paragraph of an essay about expertise and doubt.,step143000,step64000,0.018789857625961304
+continuation_007,continuation,"Continue this sentence into a short paragraph: The train arrived on time, but...",step143000,step64000,0.01836068369448185
+argument_002,argument,Give the strongest argument against measuring a city's health only by economic growth.,step143000,step64000,0.0182887502014637
+advice_006,advice,A librarian needs to organize a confusing community program. What should they do first?,step143000,step64000,0.018057171255350113
+continuation_006,continuation,"Continue this sentence into a short paragraph: The student had the evidence, but...",step143000,step64000,0.018039092421531677
+explanation_009,explanation,Explain why universities require office hours.,step143000,step64000,0.01793106086552143
+advice_013,advice,A student is falling behind because every assignment feels equally urgent. What should they do first?,step143000,step64000,0.017752833664417267
+continuation_017,continuation,"Continue this sentence into a short paragraph: The writer had a clear theme, but...",step143000,step64000,0.017694752663373947
+explanation_001,explanation,Explain why cities develop public libraries.,step143000,step64000,0.01766463741660118
+continuation_001,continuation,"Continue this sentence into a short paragraph: The old machine started working again, but...",step143000,step64000,0.017555277794599533
+advice_008,advice,A committee wants better decisions but its meetings drift. What should it do first?,step143000,step64000,0.01748783513903618
+explanation_019,explanation,Explain why local governments post meeting minutes.,step143000,step64000,0.017475008964538574
+continuation_004,continuation,"Continue this sentence into a short paragraph: The plan looked simple on paper, but...",step143000,step64000,0.01713261753320694
+advice_015,advice,A community group wants to revive a dormant project. What should they do first?,step143000,step64000,0.017117157578468323
+judgment_016,judgment,Should an editor favor clarity or stylistic individuality in a student essay?,step143000,step64000,0.017088890075683594
+advice_010,advice,A museum educator wants to make a complex exhibit easier to follow. What should they do first?,step143000,step64000,0.016134660691022873
+explanation_020,explanation,Explain why libraries lend more than books.,step143000,step64000,0.015772750601172447
+advice_001,advice,A student is overwhelmed by choices. What should they do first?,step143000,step64000,0.015561631880700588
+explanation_005,explanation,Explain why courts publish written opinions.,step143000,step64000,0.01519441232085228
+judgment_009,judgment,Should a university require broad general education or early specialization?,step143000,step64000,0.015150188468396664
+advice_002,advice,A team has too many priorities and too little time. What should they do first?,step143000,step64000,0.014762628823518753
+continuation_005,continuation,"Continue this sentence into a short paragraph: The town finally built the park, but...",step143000,step64000,0.014611626043915749
+argument_017,argument,Give the strongest argument against treating consensus as proof of correctness.,step143000,step64000,0.014559710398316383
+advice_004,advice,A city office wants to improve a failing service with limited budget. What should it do first?,step143000,step64000,0.014377936720848083
+explanation_014,explanation,Explain why cities zone industrial districts.,step143000,step64000,0.014181269332766533
+argument_016,argument,Give the strongest argument against replacing public hearings with online surveys.,step143000,step64000,0.014054598286747932
+explanation_011,explanation,Explain why newspapers keep corrections pages.,step143000,step64000,0.013778489083051682
+judgment_015,judgment,Should a public archive digitize rare material or preserve only the originals?,step143000,step64000,0.013282056897878647
+advice_018,advice,A team is adopting a new tool but confusion is spreading. What should they do first?,step143000,step64000,0.013194436207413673
+advice_017,advice,A small town wants to improve civic participation. What should it do first?,step143000,step64000,0.013031880371272564
+argument_010,argument,Give the strongest argument against reducing civic education to factual memorization.,step143000,step64000,0.013010677881538868
+argument_014,argument,Give the strongest argument against moving all local news behind paywalls.,step143000,step64000,0.012227609753608704
+argument_012,argument,Give the strongest argument against eliminating peer review from grant decisions.,step143000,step64000,0.012181385420262814
+argument_001,argument,Give the strongest argument against using exams as the main measure of learning.,step143000,step64000,0.012048792093992233
+advice_014,advice,A department wants better mentoring but no one agrees on the problem. What should they do first?,step143000,step64000,0.01190014835447073
+argument_018,argument,Give the strongest argument against prioritizing novelty over maintenance in funding decisions.,step143000,step64000,0.01178833283483982
+advice_003,advice,A researcher has collected too much material for one paper. What should they do first?,step143000,step64000,0.011717271991074085
+explanation_007,explanation,Explain why towns maintain public transit.,step143000,step64000,0.011561358347535133
+advice_009,advice,A student has chosen a thesis topic that is too broad. What should they do first?,step143000,step64000,0.01155807264149189
+advice_012,advice,A team keeps revisiting the same argument without resolving it. What should they do first?,step143000,step64000,0.011548859067261219
+argument_008,argument,Give the strongest argument against centralizing all public services in one office.,step143000,step64000,0.011433640494942665
+argument_006,argument,Give the strongest argument against strict zero-tolerance school discipline policies.,step143000,step64000,0.01134811993688345
+argument_005,argument,Give the strongest argument against evaluating research only by citation counts.,step143000,step64000,0.011247028596699238
+argument_007,argument,Give the strongest argument against using attendance as a proxy for engagement.,step143000,step64000,0.010958724655210972
+argument_009,argument,Give the strongest argument against relying on rankings to compare universities.,step143000,step64000,0.010720910504460335
+argument_004,argument,Give the strongest argument against making speed the main value in journalism.,step143000,step64000,0.010358817875385284
+argument_013,argument,Give the strongest argument against judging writing only by grammar and correctness.,step143000,step64000,0.010098017752170563
+argument_011,argument,Give the strongest argument against treating efficiency as the main measure of public value.,step143000,step64000,0.0100950812920928
+argument_020,argument,Give the strongest argument against using automation as the default response to every coordination problem.,step143000,step64000,0.010043997317552567
+judgment_017,judgment,Should a town build a large central park or several smaller parks?,step143000,step64000,0.009960328228771687
+argument_015,argument,Give the strongest argument against using one metric to evaluate teachers.,step143000,step64000,0.009843552485108376
+judgment_013,judgment,Should a community preserve a historic building or replace it with housing?,step143000,step64000,0.009737372398376465
+judgment_008,judgment,Should a newsroom publish quickly with updates or wait for fuller confirmation?,step143000,step64000,0.009686222299933434
+judgment_019,judgment,Should a firm reward individual stars or consistent team contributors?,step143000,step64000,0.009265012107789516
+judgment_002,judgment,Should a city spend scarce funds on road repair or public transit first?,step143000,step64000,0.008585014380514622
+argument_019,argument,Give the strongest argument against assuming transparency alone creates trust.,step143000,step64000,0.008427489548921585
+argument_003,argument,Give the strongest argument against replacing libraries with fully digital services.,step143000,step64000,0.008426126092672348
+judgment_014,judgment,Should a school ban phones outright or regulate their use?,step143000,step64000,0.00811189878731966
+judgment_010,judgment,Should a team reuse old tools or switch to a more capable but riskier system?,step143000,step64000,0.008022197522222996

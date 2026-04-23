@@ -1,0 +1,73 @@
+prompt_id,prompt_family,prompt,selection_rank
+continuation_020,continuation,"Continue this sentence into a short paragraph: The meeting ended with agreement, but...",1
+explanation_015,explanation,Explain why conferences use peer review.,2
+style_opening_018,style_opening,Write the opening paragraph of an essay about access.,3
+argument_007,argument,Give the strongest argument against using attendance as a proxy for engagement.,4
+style_opening_019,style_opening,Write the opening paragraph of an essay about expertise and doubt.,5
+argument_003,argument,Give the strongest argument against replacing libraries with fully digital services.,6
+argument_008,argument,Give the strongest argument against centralizing all public services in one office.,7
+judgment_018,judgment,Should an instructor prioritize mastery or coverage in a difficult course?,8
+judgment_008,judgment,Should a newsroom publish quickly with updates or wait for fuller confirmation?,9
+continuation_004,continuation,"Continue this sentence into a short paragraph: The plan looked simple on paper, but...",10
+continuation_019,continuation,"Continue this sentence into a short paragraph: The map was accurate, but...",11
+continuation_008,continuation,"Continue this sentence into a short paragraph: The report answered the question, but...",12
+judgment_014,judgment,Should a school ban phones outright or regulate their use?,13
+advice_017,advice,A small town wants to improve civic participation. What should it do first?,14
+style_opening_013,style_opening,Write the opening paragraph of an essay about delay.,15
+style_opening_008,style_opening,Write the opening paragraph of an essay about evidence.,16
+advice_006,advice,A librarian needs to organize a confusing community program. What should they do first?,17
+style_opening_020,style_opening,Write the opening paragraph of an essay about common goods.,18
+style_opening_006,style_opening,Write the opening paragraph of an essay about public attention.,19
+argument_017,argument,Give the strongest argument against treating consensus as proof of correctness.,20
+advice_002,advice,A team has too many priorities and too little time. What should they do first?,21
+explanation_007,explanation,Explain why towns maintain public transit.,22
+explanation_011,explanation,Explain why newspapers keep corrections pages.,23
+advice_020,advice,A nonprofit has an ambitious mission but weak coordination. What should it do first?,24
+argument_015,argument,Give the strongest argument against using one metric to evaluate teachers.,25
+judgment_003,judgment,Should a museum favor accessibility or historical completeness when writing labels?,26
+style_opening_011,style_opening,Write the opening paragraph of an essay about attention.,27
+explanation_008,explanation,Explain why archives preserve administrative records.,28
+explanation_014,explanation,Explain why cities zone industrial districts.,29
+continuation_003,continuation,"Continue this sentence into a short paragraph: The archive was complete, but...",30
+argument_020,argument,Give the strongest argument against using automation as the default response to every coordination problem.,31
+explanation_012,explanation,Explain why research groups maintain lab notebooks.,32
+continuation_009,continuation,"Continue this sentence into a short paragraph: The museum opened the new exhibit, but...",33
+advice_005,advice,A student wrote a draft that says too many things at once. What should they do first?,34
+advice_019,advice,A student wants to study more effectively but keeps rereading passively. What should they do first?,35
+judgment_013,judgment,Should a community preserve a historic building or replace it with housing?,36
+argument_011,argument,Give the strongest argument against treating efficiency as the main measure of public value.,37
+style_opening_001,style_opening,Write the opening paragraph of an essay about memory.,38
+argument_019,argument,Give the strongest argument against assuming transparency alone creates trust.,39
+continuation_007,continuation,"Continue this sentence into a short paragraph: The train arrived on time, but...",40
+argument_002,argument,Give the strongest argument against measuring a city's health only by economic growth.,41
+continuation_001,continuation,"Continue this sentence into a short paragraph: The old machine started working again, but...",42
+explanation_010,explanation,Explain why software teams use version control.,43
+judgment_017,judgment,Should a town build a large central park or several smaller parks?,44
+judgment_009,judgment,Should a university require broad general education or early specialization?,45
+explanation_004,explanation,Explain why museums use wall labels.,46
+explanation_013,explanation,Explain why legislatures use committees.,47
+argument_004,argument,Give the strongest argument against making speed the main value in journalism.,48
+judgment_004,judgment,Should a workplace optimize for speed or careful review when deadlines are tight?,49
+argument_009,argument,Give the strongest argument against relying on rankings to compare universities.,50
+style_opening_017,style_opening,Write the opening paragraph of an essay about rules.,51
+style_opening_005,style_opening,Write the opening paragraph of an essay about expertise.,52
+advice_003,advice,A researcher has collected too much material for one paper. What should they do first?,53
+advice_007,advice,A manager inherits a project with unclear ownership. What should they do first?,54
+advice_013,advice,A student is falling behind because every assignment feels equally urgent. What should they do first?,55
+judgment_010,judgment,Should a team reuse old tools or switch to a more capable but riskier system?,56
+judgment_011,judgment,Should a grant committee reward bold novelty or reliable execution?,57
+style_opening_010,style_opening,Write the opening paragraph of an essay about maintenance.,58
+advice_008,advice,A committee wants better decisions but its meetings drift. What should it do first?,59
+explanation_006,explanation,Explain why hospitals use triage systems.,60
+continuation_011,continuation,"Continue this sentence into a short paragraph: The library stayed open late, but...",61
+advice_014,advice,A department wants better mentoring but no one agrees on the problem. What should they do first?,62
+judgment_016,judgment,Should an editor favor clarity or stylistic individuality in a student essay?,63
+argument_013,argument,Give the strongest argument against judging writing only by grammar and correctness.,64
+style_opening_016,style_opening,Write the opening paragraph of an essay about public language.,65
+style_opening_015,style_opening,Write the opening paragraph of an essay about archives.,66
+explanation_009,explanation,Explain why universities require office hours.,67
+judgment_001,judgment,Should a school prioritize fairness or excellence when designing a grading policy?,68
+advice_001,advice,A student is overwhelmed by choices. What should they do first?,69
+continuation_014,continuation,"Continue this sentence into a short paragraph: The budget passed easily, but...",70
+argument_001,argument,Give the strongest argument against using exams as the main measure of learning.,71
+advice_016,advice,A research assistant has messy notes and a deadline. What should they do first?,72

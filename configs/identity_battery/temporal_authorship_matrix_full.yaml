@@ -1,0 +1,26 @@
+output_root: C:/Users/joshj/joseph-stroud-identity-stability-research/outputs/latest/temporal_authorship_matrix_full
+model_id: EleutherAI/pythia-410m-deduped
+revisions:
+  - step4000
+  - step16000
+  - step64000
+  - step128000
+  - step143000
+model_cache_dir: D:/hf-model-cache
+dtype: float16
+use_gpu: true
+attention_backend: auto
+prompt_bank_path: data/diachronic_ship_of_theseus_prompts.yaml
+prompt_limit: 120
+selected_prompt_count: 120
+prompt_sample_seed: 17
+max_prompt_tokens: 160
+max_total_tokens: 320
+generation_tokens: 96
+generation_do_sample: false
+generation_temperature: 1.0
+generation_top_p: 1.0
+generation_top_k: 0
+generation_batch_size: 6
+score_batch_size: 12
+checkpoint_every_rows: 250

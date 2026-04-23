@@ -1,0 +1,55 @@
+seed,model_id,model_family,model_size_label,identity_frame,profile_prompt_count,profile_features_json,profile_summary,profile_texts_json
+11,EleutherAI/pythia-70m,pythia,70m,baseline_helpful,2,"{""avg_sentence_length"": 11.333333333333332, ""hedge_density"": 0.014285714285714285, ""first_person_rate"": 0.0, ""directive_rate"": 0.05974025974025974, ""rhetorical_question_rate"": 0.0, ""lexical_diversity"": 0.8428571428571429, ""modal_verb_rate"": 0.014285714285714285, ""punctuation_intensity"": 0.0, ""type_token_ratio"": 0.8428571428571429, ""mtld"": 8.085227272727273}","Behavioral profile distilled from earlier answers generated under the same chat setting.
+- Average sentence length: 11.33 words (medium)
+- Hedging density: 0.0143 (moderate)
+- First-person rate: 0.0000 (minimal)
+- Directive rate: 0.0597 (high)
+- Rhetorical-question rate: 0.0000 (low)
+- Modal-verb rate: 0.0143 (moderate)
+- Lexical diversity: 0.8429
+- Punctuation intensity: 0.0000","[""The job is to see a draft transcript of the files. The transcript is then the whole list of files. It might be more that someone who is a known to run a different task."", ""Help write input on the student memo and continue to respond.""]"
+23,EleutherAI/pythia-70m,pythia,70m,baseline_helpful,2,"{""avg_sentence_length"": 8.5, ""hedge_density"": 0.0, ""first_person_rate"": 0.0, ""directive_rate"": 0.03125, ""rhetorical_question_rate"": 0.0, ""lexical_diversity"": 0.96875, ""modal_verb_rate"": 0.0, ""punctuation_intensity"": 0.0625, ""type_token_ratio"": 0.96875, ""mtld"": 8.5}","Behavioral profile distilled from earlier answers generated under the same chat setting.
+- Average sentence length: 8.50 words (short)
+- Hedging density: 0.0000 (low)
+- First-person rate: 0.0000 (minimal)
+- Directive rate: 0.0312 (high)
+- Rhetorical-question rate: 0.0000 (low)
+- Modal-verb rate: 0.0000 (low)
+- Lexical diversity: 0.9688
+- Punctuation intensity: 0.0625","[""Entry 1:"", ""There is a quick and easy tutorial to learn how to use in the long run.""]"
+11,EleutherAI/pythia-70m,pythia,70m,family_self,2,"{""avg_sentence_length"": 10.0, ""hedge_density"": 0.019230769230769232, ""first_person_rate"": 0.019230769230769232, ""directive_rate"": 0.07142857142857142, ""rhetorical_question_rate"": 0.0, ""lexical_diversity"": 0.9038461538461539, ""modal_verb_rate"": 0.038461538461538464, ""punctuation_intensity"": 0.011904761904761904, ""type_token_ratio"": 0.9038461538461539, ""mtld"": 16.5}","Behavioral profile distilled from earlier answers generated under the same chat setting.
+- Average sentence length: 10.00 words (medium)
+- Hedging density: 0.0192 (moderate)
+- First-person rate: 0.0192 (present)
+- Directive rate: 0.0714 (high)
+- Rhetorical-question rate: 0.0000 (low)
+- Modal-verb rate: 0.0385 (high)
+- Lexical diversity: 0.9038
+- Punctuation intensity: 0.0119","[""Yeah, that can be good. At this point, the final team will be our final patch, or I'll post the results back to the next team."", ""Write down what you are getting at.""]"
+23,EleutherAI/pythia-70m,pythia,70m,family_self,2,"{""avg_sentence_length"": 16.0, ""hedge_density"": 0.011904761904761904, ""first_person_rate"": 0.011904761904761904, ""directive_rate"": 0.023809523809523808, ""rhetorical_question_rate"": 0.0, ""lexical_diversity"": 0.8495670995670996, ""modal_verb_rate"": 0.011904761904761904, ""punctuation_intensity"": 0.005905511811023622, ""type_token_ratio"": 0.8495670995670996, ""mtld"": 26.5}","Behavioral profile distilled from earlier answers generated under the same chat setting.
+- Average sentence length: 16.00 words (long)
+- Hedging density: 0.0119 (moderate)
+- First-person rate: 0.0119 (present)
+- Directive rate: 0.0238 (high)
+- Rhetorical-question rate: 0.0000 (low)
+- Modal-verb rate: 0.0119 (moderate)
+- Lexical diversity: 0.8496
+- Punctuation intensity: 0.0059","[""A review of the current output of the next search results."", ""Let's start with some information, say, \""Getting back to training and learning new things\"". To get around that idea, we should know something about the category that is a big difference between how your student processes the learning process and what you""]"
+11,EleutherAI/pythia-70m,pythia,70m,stable_style_policy,2,"{""avg_sentence_length"": 11.0, ""hedge_density"": 0.0, ""first_person_rate"": 0.0, ""directive_rate"": 0.0, ""rhetorical_question_rate"": 0.0, ""lexical_diversity"": 0.9375, ""modal_verb_rate"": 0.0, ""punctuation_intensity"": 0.0, ""type_token_ratio"": 0.9375, ""mtld"": 11.0}","Behavioral profile distilled from earlier answers generated under the same chat setting.
+- Average sentence length: 11.00 words (medium)
+- Hedging density: 0.0000 (low)
+- First-person rate: 0.0000 (minimal)
+- Directive rate: 0.0000 (low)
+- Rhetorical-question rate: 0.0000 (low)
+- Modal-verb rate: 0.0000 (low)
+- Lexical diversity: 0.9375
+- Punctuation intensity: 0.0000","[""The history of the task is already long."", ""Leave feedback on a student memo that is interesting and smart to your supervisor.""]"
+23,EleutherAI/pythia-70m,pythia,70m,stable_style_policy,2,"{""avg_sentence_length"": 17.083333333333332, ""hedge_density"": 0.0, ""first_person_rate"": 0.05128205128205128, ""directive_rate"": 0.024184149184149184, ""rhetorical_question_rate"": 0.16666666666666666, ""lexical_diversity"": 0.7567016317016317, ""modal_verb_rate"": 0.011363636363636364, ""punctuation_intensity"": 0.011140614176864466, ""type_token_ratio"": 0.7567016317016317, ""mtld"": 32.26315789473684}","Behavioral profile distilled from earlier answers generated under the same chat setting.
+- Average sentence length: 17.08 words (long)
+- Hedging density: 0.0000 (low)
+- First-person rate: 0.0513 (present)
+- Directive rate: 0.0242 (high)
+- Rhetorical-question rate: 0.1667 (high)
+- Modal-verb rate: 0.0114 (moderate)
+- Lexical diversity: 0.7567
+- Punctuation intensity: 0.0111","[""We use the logical interpretation of the planning we've made, and in the next morning, the top and bottom of the post of how we planned to act in our own written expression and counterfactual state, etc.\n\n\nWe also"", ""You're following a non-standard approach that will reflect the understanding of your goals and actions. Do you enjoy learning more about how your goals are put in perspective? Is your mind a place where you need to know the nature of your goals""]"

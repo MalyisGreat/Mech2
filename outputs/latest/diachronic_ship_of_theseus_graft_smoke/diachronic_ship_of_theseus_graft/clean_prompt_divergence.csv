@@ -1,0 +1,25 @@
+prompt_id,prompt_family,prompt,selection_host_revision,selection_donor_revision,clean_js
+judgment_001,judgment,Should a school prioritize fairness or excellence when designing a grading policy?,step143000,step64000,0.049556463956832886
+judgment_003,judgment,Should a museum favor accessibility or historical completeness when writing labels?,step143000,step64000,0.03716443479061127
+explanation_006,explanation,Explain why hospitals use triage systems.,step143000,step64000,0.03672172874212265
+explanation_018,explanation,Explain why community gardens keep shared rules.,step143000,step64000,0.032233379781246185
+explanation_015,explanation,Explain why conferences use peer review.,step143000,step64000,0.03008515015244484
+explanation_017,explanation,Explain why schools assign reading lists.,step143000,step64000,0.026264039799571037
+explanation_012,explanation,Explain why research groups maintain lab notebooks.,step143000,step64000,0.025295374915003777
+explanation_004,explanation,Explain why museums use wall labels.,step143000,step64000,0.025179464370012283
+explanation_013,explanation,Explain why legislatures use committees.,step143000,step64000,0.023297376930713654
+explanation_003,explanation,Explain why schools keep science laboratories.,step143000,step64000,0.022219466045498848
+explanation_002,explanation,Explain why neighborhoods create public parks.,step143000,step64000,0.022157156839966774
+explanation_016,explanation,Explain why teams keep revision logs.,step143000,step64000,0.021423373371362686
+explanation_010,explanation,Explain why software teams use version control.,step143000,step64000,0.020858531817793846
+judgment_004,judgment,Should a workplace optimize for speed or careful review when deadlines are tight?,step143000,step64000,0.020655550062656403
+explanation_008,explanation,Explain why archives preserve administrative records.,step143000,step64000,0.01973177120089531
+explanation_009,explanation,Explain why universities require office hours.,step143000,step64000,0.01793106086552143
+explanation_001,explanation,Explain why cities develop public libraries.,step143000,step64000,0.01766463741660118
+explanation_019,explanation,Explain why local governments post meeting minutes.,step143000,step64000,0.017475008964538574
+explanation_020,explanation,Explain why libraries lend more than books.,step143000,step64000,0.015772750601172447
+explanation_005,explanation,Explain why courts publish written opinions.,step143000,step64000,0.01519441232085228
+explanation_014,explanation,Explain why cities zone industrial districts.,step143000,step64000,0.014181269332766533
+explanation_011,explanation,Explain why newspapers keep corrections pages.,step143000,step64000,0.013778489083051682
+explanation_007,explanation,Explain why towns maintain public transit.,step143000,step64000,0.011561358347535133
+judgment_002,judgment,Should a city spend scarce funds on road repair or public transit first?,step143000,step64000,0.008585014380514622

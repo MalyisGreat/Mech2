@@ -1,0 +1,21 @@
+{
+  "config": "configs\\identity_battery\\diachronic_ship_of_theseus_graft_smoke_suite.yaml",
+  "started_at": "2026-04-22T21:49:32.244436",
+  "python_exe": "C:/Users/joshj/miniconda3/python.exe",
+  "steps": [
+    {
+      "name": "diachronic_ship_of_theseus_graft",
+      "script": "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\scripts\\diachronic_ship_of_theseus_graft.py",
+      "config": "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\configs\\identity_battery\\diachronic_ship_of_theseus_graft_smoke.yaml",
+      "expected_output": "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\outputs\\latest\\diachronic_ship_of_theseus_graft_smoke\\diachronic_ship_of_theseus_graft\\summary_by_condition.csv",
+      "command": [
+        "C:/Users/joshj/miniconda3/python.exe",
+        "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\scripts\\diachronic_ship_of_theseus_graft.py",
+        "--config",
+        "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\configs\\identity_battery\\diachronic_ship_of_theseus_graft_smoke.yaml"
+      ],
+      "started_at": "2026-04-22T21:49:32.245142",
+      "status": "running"
+    }
+  ]
+}

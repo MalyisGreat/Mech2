@@ -1,0 +1,11 @@
+output_root: C:/Users/joshj/joseph-stroud-identity-stability-research/outputs/latest/diachronic_ship_of_theseus_graft_smoke
+python_exe: C:/Users/joshj/miniconda3/python.exe
+steps:
+  - name: diachronic_ship_of_theseus_graft
+    script: scripts/diachronic_ship_of_theseus_graft.py
+    config: configs/identity_battery/diachronic_ship_of_theseus_graft_smoke.yaml
+    expected_output: outputs/latest/diachronic_ship_of_theseus_graft_smoke/diachronic_ship_of_theseus_graft/summary_by_condition.csv
+  - name: report_diachronic_ship_of_theseus_graft
+    script: scripts/report_diachronic_ship_of_theseus_graft.py
+    config: configs/identity_battery/diachronic_ship_of_theseus_graft_smoke.yaml
+    expected_output: outputs/latest/diachronic_ship_of_theseus_graft_smoke/diachronic_ship_of_theseus_graft_report.md

@@ -1,0 +1,5 @@
+model_size_label,identity_frame,axis_name,chunk_1_return_to_baseline_index_mean,final_chunk_return_to_baseline_index_mean,mean_chunk_return_to_baseline_index_mean,chunk_1_style_preference_mean,final_chunk_style_preference_mean,mean_chunk_style_preference_mean,return_half_life_chunk_mean,forced_shift_magnitude_mean,n
+410m,baseline_helpful,cautious_vs_assertive,,,,-0.05924376493015045,-0.14366605545044783,-0.04906057679325235,2.0,0.009604261719063877,1
+410m,baseline_helpful,expansive_vs_terse,,,,-0.16150087216404488,-0.11359980772998769,-0.13205343322885912,,0.00027599836102520925,1
+410m,family_self,cautious_vs_assertive,,,,-0.07562596623636846,-0.10043769635058375,-0.07849891890612282,,0.013597031032099006,1
+410m,family_self,expansive_vs_terse,,,,-0.2879011678750596,-0.02774608622237537,-0.16899492457453627,,0.010950910315607233,1

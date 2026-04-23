@@ -1,0 +1,44 @@
+[
+  {
+    "metric": "longform_return_chunk1_style_preference",
+    "n": 4,
+    "mean": -0.1460679428014058,
+    "ci95_low": -0.2348323674653868,
+    "ci95_high": -0.0674348655832594
+  },
+  {
+    "metric": "longform_return_final_style_preference",
+    "n": 4,
+    "mean": -0.0963624114383486,
+    "ci95_low": -0.13285896567548178,
+    "ci95_high": -0.049209516599278365
+  },
+  {
+    "metric": "longform_return_chunk1_axis_index",
+    "n": 0,
+    "mean": NaN,
+    "ci95_low": NaN,
+    "ci95_high": NaN
+  },
+  {
+    "metric": "longform_return_final_axis_index",
+    "n": 0,
+    "mean": NaN,
+    "ci95_low": NaN,
+    "ci95_high": NaN
+  },
+  {
+    "metric": "longform_return_half_life_chunk",
+    "n": 1,
+    "mean": 2.0,
+    "ci95_low": 2.0,
+    "ci95_high": 2.0
+  },
+  {
+    "metric": "longform_forced_shift_magnitude",
+    "n": 4,
+    "mean": 0.0086070503569488,
+    "ci95_low": 0.002936309795942304,
+    "ci95_high": 0.012598838703840199
+  }
+]

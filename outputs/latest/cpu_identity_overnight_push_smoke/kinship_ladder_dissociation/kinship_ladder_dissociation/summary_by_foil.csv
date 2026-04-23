@@ -1,0 +1,9 @@
+model_size_label,identity_frame,foil_kind,n_pairs,seed_count,pair_valid_rate_mean,choose_host_rate_mean,swap_consistency_mean,style_distance_mean,semantic_overlap_mean
+70m,baseline_helpful,biography_overlap_stranger,2,1,1.0,0.5,1.0,1.841617156240517,0.1830604592079279
+70m,baseline_helpful,demographic_twin,2,1,1.0,0.0,1.0,1.426722596755459,0.21677749238102995
+70m,baseline_helpful,kin_family_member,2,1,1.0,0.0,1.0,1.8074489143696901,0.08838834764831845
+70m,baseline_helpful,random_stranger,2,1,1.0,0.25,0.5,1.4113205320459423,0.2520080643870926
+70m,family_self,biography_overlap_stranger,2,1,1.0,0.5,0.0,1.6998139020837395,0.36603876160865806
+70m,family_self,demographic_twin,2,1,1.0,0.5,0.0,1.488490655507094,0.3646043111277981
+70m,family_self,kin_family_member,2,1,1.0,0.25,0.5,1.4820459331411358,0.22109947175435607
+70m,family_self,random_stranger,2,1,1.0,0.25,0.5,1.6253821937882578,0.3369684553114219

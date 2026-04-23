@@ -1,0 +1,1565 @@
+evaluator_revision,evaluator_step,source_revision,source_step,prompt_id,prompt_family,prompt,completion_text,avg_logprob,sum_logprob,perplexity,answer_token_count,temporal_distance,same_revision,winner_source_revision,winner_avg_logprob,self_preferred,distance_from_diagonal,diagonal_margin_logprob
+step128000,128000,step128000,128000,advice_001,advice,A student is overwhelmed by choices. What should they do first?," What should they do after? What should they do now?
+
+The first step is to decide what you want to do. You can do this by asking yourself the following questions:
+
+What do I want to do?
+
+What do I want to do now?",-1.0136994123458862,-56.76716613769531,2.7557769361675755,56,0,1,step128000,-1.0136994123458862,1,0,0.2951010465621948
+step128000,128000,step64000,64000,advice_001,advice,A student is overwhelmed by choices. What should they do first?," What should they do after? What should they do if they don’t like the way they look?
+
+The answer is simple: they should do nothing.
+
+The first step is to decide what you want to do.
+
+The second step is to decide what",-1.308800458908081,-73.2928237915039,3.70173066988729,56,64000,0,step128000,-1.0136994123458862,1,64000,0.2951010465621948
+step128000,128000,step143000,143000,advice_003,advice,A researcher has collected too much material for one paper. What should they do first?,"
+
+A:
+
+The first thing to do is to find out what you want to say.  If you want to say that the government is not doing enough to protect the environment, then you should say that.  If you want to say that the government is not",-1.0626306533813477,-59.50731658935547,2.8939740269644805,56,15000,0,step143000,-1.0626306533813477,0,15000,-0.05789613723754883
+step128000,128000,step128000,128000,advice_003,advice,A researcher has collected too much material for one paper. What should they do first?,"
+
+A:
+
+I think the best way to do this is to start with a list of questions that you think are important. Then, you can start writing a paper that answers those questions.
+
+A:
+
+I think the best way to do this is",-1.1205267906188965,-62.7495002746582,3.0664691650715925,56,0,1,step143000,-1.0626306533813477,0,0,-0.05789613723754883
+step128000,128000,step128000,128000,advice_007,advice,A manager inherits a project with unclear ownership. What should they do first?,"
+
+A:
+
+The first thing to do is to make sure that the project is owned by the owner.  If the project is owned by the owner, then the manager should be the owner.  If the project is owned by someone else, then the manager should",-0.9798728823661804,-54.87288284301758,2.6641175640829466,56,0,1,step128000,-0.9798728823661804,1,0,0.40899378061294556
+step128000,128000,step143000,143000,advice_007,advice,A manager inherits a project with unclear ownership. What should they do first?,"
+
+A:
+
+The first step is to determine what the project is.  If it's a new project, then you can't just start over.  You need to determine what the project is and what the ownership is.  If it's a new project,",-1.388866662979126,-77.77653503417969,4.010302452264781,56,15000,0,step128000,-0.9798728823661804,1,15000,0.40899378061294556
+step128000,128000,step16000,16000,advice_007,advice,A manager inherits a project with unclear ownership. What should they do first?,"
+
+The project is a small, but ambitious, attempt to create a new, more efficient, and more efficient way to run a business. It’s a project that has been around for a while, but it’s not a new idea. It’s a project",-1.8103796243667603,-101.38125610351562,6.112767547325941,56,112000,0,step128000,-0.9798728823661804,1,112000,0.40899378061294556
+step128000,128000,step16000,16000,advice_013,advice,A student is falling behind because every assignment feels equally urgent. What should they do first?,"
+
+The first thing to do is to make a list of the things you want to do in the future. This list should be something like this:
+
+1. Write down the things you want to do in the future.
+
+2. Write down the things you",-1.1763137578964233,-65.87357330322266,3.242399875376613,56,112000,0,step16000,-1.1763137578964233,0,112000,
+step128000,128000,step128000,128000,advice_014,advice,A department wants better mentoring but no one agrees on the problem. What should they do first?,"
+
+A:
+
+I think the best way to solve this is to have a mentor who is a good fit for the role.  This person should be able to help you with the problem, and be able to help you with the mentoring.  This person should",-1.3963606357574463,-78.19619750976562,4.040468440044757,56,0,1,step128000,-1.3963606357574463,1,0,
+step128000,128000,step64000,64000,advice_016,advice,A research assistant has messy notes and a deadline. What should they do first?,"
+
+The first thing to do is to get the research assistant to write a paper. This is a lot of work, and it’s not always easy. The research assistant should be able to write a paper that is both concise and readable.
+
+The research assistant should",-1.350163221359253,-75.60913848876953,3.858055196321353,56,64000,0,step64000,-1.350163221359253,0,64000,
+step128000,128000,step128000,128000,advice_017,advice,A small town wants to improve civic participation. What should it do first?,"
+
+The town of Littleton, Colorado, is a small town with a population of about 1,000. It is located in the foothills of the Rocky Mountains. Littleton is a small town with a population of about 1,000. It is located",-0.9937520623207092,-55.650115966796875,2.7013511190851864,56,0,1,step128000,-0.9937520623207092,1,0,0.25075608491897583
+step128000,128000,step143000,143000,advice_017,advice,A small town wants to improve civic participation. What should it do first?,"
+
+The town of St. Paul, Minnesota, is a small town with a population of about 1,000. It is located in the heart of the Twin Cities metropolitan area. The town is located in the St. Paul-Hennepin County Metropolitan Statistical Area.",-1.244508147239685,-69.69245910644531,3.4712270467852093,56,15000,0,step128000,-0.9937520623207092,1,15000,0.25075608491897583
+step128000,128000,step128000,128000,advice_019,advice,A student wants to study more effectively but keeps rereading passively. What should they do first?,"
+
+A:
+
+I think the best way to approach this is to think about the problem as a problem of learning.  You want to learn how to do something, but you don't want to learn how to do it well.  You want to learn how to",-1.0451207160949707,-58.52676010131836,2.843741788336359,56,0,1,step128000,-1.0451207160949707,1,0,0.1477421522140503
+step128000,128000,step64000,64000,advice_019,advice,A student wants to study more effectively but keeps rereading passively. What should they do first?,"
+
+The first thing to do is to get a good grip on the situation. What is the situation? What is the problem? What is the solution?
+
+The problem is that the student is not getting the information he needs. The problem is that he is not getting",-1.192862868309021,-66.80032348632812,3.296505171348226,56,64000,0,step128000,-1.0451207160949707,1,64000,0.1477421522140503
+step128000,128000,step16000,16000,advice_020,advice,A nonprofit has an ambitious mission but weak coordination. What should it do first?,"
+
+The nonprofit’s mission is to provide a safe, secure, and affordable place to live for the homeless. It’s a mission that’s been in the works for years, but the nonprofit’s first step is to create a safe, secure, and affordable",-1.4175214767456055,-79.3812026977539,4.126879187867826,56,112000,0,step16000,-1.4175214767456055,0,112000,
+step128000,128000,step64000,64000,advice_020,advice,A nonprofit has an ambitious mission but weak coordination. What should it do first?,"
+
+The mission of the nonprofit is to provide a safe, affordable, and accessible education for children and their families. The organization is also committed to providing a safe, affordable, and accessible environment for children and their families.
+
+The organization is currently working with the U.",-1.4263449907302856,-79.87532043457031,4.163453885481553,56,64000,0,step16000,-1.4175214767456055,0,64000,
+step128000,128000,step143000,143000,advice_020,advice,A nonprofit has an ambitious mission but weak coordination. What should it do first?,"
+
+The organization is called the National Alliance for the Homeless, and it is a nonprofit that works to end homelessness. It has a website, a Facebook page, and a Twitter account. It has a Facebook page with more than 1,000 followers.
+
+The",-1.430410385131836,-80.10298156738281,4.180414419869977,56,15000,0,step16000,-1.4175214767456055,0,15000,
+step128000,128000,step128000,128000,argument_001,argument,Give the strongest argument against using exams as the main measure of learning.,"
+
+The argument that exams are the main measure of learning is based on the assumption that the most important thing is the ability to learn. This is a very simplistic view of learning. The most important thing is the ability to learn. The ability to learn is not the only",-1.2535574436187744,-70.19921875,3.502781767808265,56,0,1,step128000,-1.2535574436187744,1,0,0.1077275276184082
+step128000,128000,step143000,143000,argument_001,argument,Give the strongest argument against using exams as the main measure of learning.,"
+
+The most important thing to remember is that the exams are not the only measure of learning. The other things that you need to do are to be consistent in your learning and to be consistent in your learning.
+
+The most important thing to remember is that the exams are",-1.3612849712371826,-76.2319564819336,3.9012030161026043,56,15000,0,step128000,-1.2535574436187744,1,15000,0.1077275276184082
+step128000,128000,step143000,143000,argument_002,argument,Give the strongest argument against measuring a city's health only by economic growth.,"
+
+""The city's health is not measured by economic growth,"" he said. ""It's measured by the quality of life of the people who live there.""
+
+The city's health is measured by the quality of life of the people who live there, he said.",-0.9938305616378784,-55.654510498046875,2.7015631816267422,56,15000,0,step143000,-0.9938305616378784,0,15000,-0.1516813039779663
+step128000,128000,step128000,128000,argument_002,argument,Give the strongest argument against measuring a city's health only by economic growth.,"
+
+""The health of a city is not a function of its economic growth,"" said Dr. David H. Kessler, a professor of economics at the University of California, Berkeley. ""It's a function of the health of the people who live there.""
+
+",-1.1455118656158447,-63.00315475463867,3.1440502762596774,55,0,1,step143000,-0.9938305616378784,0,0,-0.1516813039779663
+step128000,128000,step64000,64000,argument_003,argument,Give the strongest argument against replacing libraries with fully digital services.,"
+
+The problem with the current approach is that it is not clear how to make the library system more efficient. The current approach is to use a library that is already in use by the user, and then to use the library to provide the service. This is not a very",-1.7582769393920898,-98.46350860595703,5.802430835921457,56,64000,0,step64000,-1.7582769393920898,0,64000,
+step128000,128000,step128000,128000,argument_004,argument,Give the strongest argument against making speed the main value in journalism.,"
+
+I think the main reason for the decline in the number of journalists is that the media is not a business. It is a profession. It is a profession that is not about money. It is about the people who work in it.
+
+The media is not a",-1.8193800449371338,-101.88528442382812,6.168033360804437,56,0,1,step128000,-1.8193800449371338,1,0,
+step128000,128000,step143000,143000,argument_007,argument,Give the strongest argument against using attendance as a proxy for engagement.,"
+
+The most important thing to remember is that the more people you have in your life, the more likely you are to have a strong relationship with them.
+
+If you are a single parent, you are more likely to have a strong relationship with your children. If you",-1.152117371559143,-64.51856994628906,3.1648870620379594,56,15000,0,step143000,-1.152117371559143,0,15000,
+step128000,128000,step64000,64000,argument_007,argument,Give the strongest argument against using attendance as a proxy for engagement.,"
+
+The most important thing to remember is that the more you can do to engage with your students, the more likely you are to get them to engage with you.
+
+The best way to do this is to make sure that you are engaging with your students in a way",-1.2383233308792114,-69.34610748291016,3.449824398903104,56,64000,0,step143000,-1.152117371559143,0,64000,
+step128000,128000,step143000,143000,argument_008,argument,Give the strongest argument against centralizing all public services in one office.,"
+
+The problem is that the public sector is not a monolithic entity. It is a collection of different departments, each with its own strengths and weaknesses. The public sector is not a monolithic entity. It is a collection of different departments, each with its own strengths and",-1.1115795373916626,-62.248451232910156,3.039155064241766,56,15000,0,step143000,-1.1115795373916626,0,15000,
+step128000,128000,step16000,16000,argument_009,argument,Give the strongest argument against relying on rankings to compare universities.,"
+
+The University of California, Berkeley, has been ranked as the No. 1 university in the nation for the past two years, according to the University of California, Berkeley, College of Business.
+
+The University of California, Berkeley, has been ranked as the No.",-1.62552011013031,-91.02912902832031,5.081061061379494,56,112000,0,step16000,-1.62552011013031,0,112000,
+step128000,128000,step16000,16000,argument_013,argument,Give the strongest argument against judging writing only by grammar and correctness.,"
+
+The best way to get around this is to make sure that you are not judging by the grammar and correctness of your writing.
+
+The best way to get around this is to make sure that you are not judging by the grammar and correctness of your writing.
+
+",-1.1130160093307495,-61.21588134765625,3.0435238622867495,55,112000,0,step16000,-1.1130160093307495,0,112000,
+step128000,128000,step143000,143000,argument_015,argument,Give the strongest argument against using one metric to evaluate teachers.,"
+
+The most important thing to remember is that teachers are human beings. They are not robots. They are human beings who have their own unique strengths and weaknesses. They are human beings who have their own unique strengths and weaknesses. They are human beings who have their own unique strengths",-1.3389701843261719,-74.98233032226562,3.8151126188971256,56,15000,0,step143000,-1.3389701843261719,0,15000,
+step128000,128000,step16000,16000,argument_015,argument,Give the strongest argument against using one metric to evaluate teachers.,"
+
+The best way to do this is to use a metric that is a measure of how well teachers are doing. For example, if you are teaching a class of students, you might use the number of students per teacher to evaluate how well they are doing.
+
+The",-1.641097068786621,-91.90143585205078,5.160828191208786,56,112000,0,step143000,-1.3389701843261719,0,112000,
+step128000,128000,step64000,64000,argument_019,argument,Give the strongest argument against assuming transparency alone creates trust.,"
+
+The problem with this approach is that it is not clear that the trustworthiness of the evidence is the only issue. The fact that the evidence is not strong enough to support a conclusion that the evidence is trustworthy is not a reason to assume that the evidence is trustworthy.",-1.893935203552246,-106.06037139892578,6.645468564686243,56,64000,0,step64000,-1.893935203552246,0,64000,
+step128000,128000,step64000,64000,argument_020,argument,Give the strongest argument against using automation as the default response to every coordination problem.,"
+
+The most important thing to remember is that the best way to solve a coordination problem is to use the best available solution.
+
+The best solution is the one that is most likely to be used by the majority of the population.
+
+The best solution is the one",-1.6322104930877686,-91.4037857055664,5.115169276995559,56,64000,0,step64000,-1.6322104930877686,0,64000,
+step128000,128000,step143000,143000,explanation_004,explanation,Explain why museums use wall labels.,"
+
+The museum’s website says: “The museum is dedicated to the preservation of the history of the city of London and the surrounding area. It is a place where visitors can discover the history of London and the city’s people. The museum is a place where visitors",-1.93413245677948,-108.31141662597656,6.918039752772047,56,15000,0,step143000,-1.93413245677948,0,15000,
+step128000,128000,step128000,128000,explanation_006,explanation,Explain why hospitals use triage systems.,"
+
+The authors have no conflicts of interest to disclose.
+
+![Flow chart of the study.](jgc-16-11-g001){#F1}
+
+![The flow chart of the study.](jgc-16-11-g002){#F2",-2.1761057376861572,-121.8619155883789,8.811923413003104,56,0,1,step128000,-2.1761057376861572,1,0,0.4768376350402832
+step128000,128000,step16000,16000,explanation_006,explanation,Explain why hospitals use triage systems.,"
+
+“We’re not just talking about the numbers, we’re talking about the process,” said Dr. David K. Kuhn, a professor of medicine at the University of California, San Francisco.
+
+“We’re talking about the process of tri",-2.6529433727264404,-148.56483459472656,14.195760628245491,56,112000,0,step128000,-2.1761057376861572,1,112000,0.4768376350402832
+step128000,128000,step64000,64000,explanation_006,explanation,Explain why hospitals use triage systems.,"
+
+The authors would like to thank the following people for their help in this study: Dr. David H. B. H. Lee, Dr. David H. B. H. Lee, Dr. David H. B. H. Lee, Dr. David H.",-2.684208631515503,-150.31568908691406,14.646605930392898,56,64000,0,step128000,-2.1761057376861572,1,64000,0.4768376350402832
+step128000,128000,step64000,64000,explanation_007,explanation,Explain why towns maintain public transit.,"
+
+The city of San Diego has a public transit system that is the largest in the country. The San Diego Regional Transit Authority (SDRTA) is the largest transit agency in the country. The SDRTA is the largest transit agency in the United States. The SD",-2.0271027088165283,-113.51774597167969,7.592058060109588,56,64000,0,step64000,-2.0271027088165283,0,64000,-0.15672087669372559
+step128000,128000,step143000,143000,explanation_007,explanation,Explain why towns maintain public transit.,"
+
+The city of New York has a long history of public transit. The city’s first subway system opened in 1883, and the city’s first bus system opened in 1905. The city’s first subway line opened in 1909, and the city’s first",-2.0501351356506348,-114.80757141113281,7.768950897607357,56,15000,0,step64000,-2.0271027088165283,0,15000,-0.15672087669372559
+step128000,128000,step128000,128000,explanation_007,explanation,Explain why towns maintain public transit.,"
+
+The city of New York has a long history of public transit. The city’s first subway system was built in 1883, and the first subway car was built in the Bronx in 1904. The city’s first subway car was the first subway car in the world",-2.183823585510254,-122.29412078857422,8.880195615289384,56,0,1,step64000,-2.0271027088165283,0,0,-0.15672087669372559
+step128000,128000,step16000,16000,explanation_007,explanation,Explain why towns maintain public transit.,"
+
+“We’re not going to be able to do this without public transportation,” said Mayor John Hancock. “We’re going to have to do this on a local level.”
+
+The city is also considering a proposal to build a new $1.5",-2.3794829845428467,-133.2510528564453,10.799318005990912,56,112000,0,step64000,-2.0271027088165283,0,112000,-0.15672087669372559
+step128000,128000,step64000,64000,explanation_009,explanation,Explain why universities require office hours.,"
+
+The University of California, Berkeley, has a long history of being a leader in the field of education. In the early 1900s, the university was the first to offer a full-time, full-time, full-time, full-time, full-time",-1.5469163656234741,-86.6273193359375,4.696964108380891,56,64000,0,step64000,-1.5469163656234741,0,64000,-0.07602298259735107
+step128000,128000,step128000,128000,explanation_009,explanation,Explain why universities require office hours.,"
+
+The University of California, Berkeley, has a long history of providing free, on-campus office hours to its students. The university has also been a leader in the development of technology that allows students to work remotely from home.
+
+The university has also been a",-1.6229393482208252,-90.88460540771484,5.067964958762616,56,0,1,step64000,-1.5469163656234741,0,0,-0.07602298259735107
+step128000,128000,step143000,143000,explanation_009,explanation,Explain why universities require office hours.,"
+
+The University of California, Berkeley, has a long history of providing free, on-campus office hours to its students. The university has also been a leader in the development of the Office of Student Affairs, which provides a range of services to students, including advising,",-2.223598003387451,-124.52149200439453,9.240518542410427,56,15000,0,step64000,-1.5469163656234741,0,15000,-0.07602298259735107
+step128000,128000,step64000,64000,explanation_010,explanation,Explain why software teams use version control.,"
+
+The following are some of the most common reasons why software teams use version control:
+
+1. Version control is a way to ensure that your software is always up to date.
+
+2. Version control is a way to ensure that your software is always up to",-1.5211411714553833,-85.18390655517578,4.577445866296328,56,64000,0,step64000,-1.5211411714553833,0,64000,-0.08118414878845215
+step128000,128000,step128000,128000,explanation_010,explanation,Explain why software teams use version control.,"
+
+The first step in version control is to create a version control system. This is a system that allows you to track changes in your code. Version control systems are used to track changes in your code.
+
+Version control systems are used to track changes in your code.",-1.6023253202438354,-89.73021697998047,4.964563212151343,56,0,1,step64000,-1.5211411714553833,0,0,-0.08118414878845215
+step128000,128000,step64000,64000,explanation_011,explanation,Explain why newspapers keep corrections pages.,"
+
+The first thing to note is that the corrections page is not a page that is automatically generated. It is a page that is manually created by the editor. The editor is responsible for creating the page and for making sure that it is correct.
+
+The second thing to",-2.4093434810638428,-134.92323303222656,11.126653887678016,56,64000,0,step64000,-2.4093434810638428,0,64000,
+step128000,128000,step64000,64000,explanation_012,explanation,Explain why research groups maintain lab notebooks.,"
+
+The research groups are also required to keep a journal of their research.
+
+The journal should be kept in a locked cabinet and should be kept in a locked cabinet with a lock.
+
+The journal should be kept in a locked cabinet with a lock.
+
+",-2.6484878063201904,-145.6668243408203,14.132651172668627,55,64000,0,step64000,-2.6484878063201904,0,64000,
+step128000,128000,step16000,16000,explanation_013,explanation,Explain why legislatures use committees.,"
+
+The committee’s report, which was released in January, said the state’s “unprecedented” use of the committee’s powers to “create and implement” a new law “is a violation of the state’s constitutional right to a public hearing.”
+",-2.3405911922454834,-131.07310485839844,10.387375683807841,56,112000,0,step16000,-2.3405911922454834,0,112000,
+step128000,128000,step16000,16000,explanation_014,explanation,Explain why cities zone industrial districts.,"
+
+The city of San Francisco has been criticized for its lack of industrial districts, and the city’s industrial districts are often the most expensive in the country.
+
+The city’s industrial districts are often the most expensive in the country.
+
+The city’s",-2.5483858585357666,-142.70960998535156,12.786447980588807,56,112000,0,step16000,-2.5483858585357666,0,112000,-0.8558080196380615
+step128000,128000,step128000,128000,explanation_014,explanation,Explain why cities zone industrial districts.,"
+
+The city of New York has a long history of zoning. In the early 1900s, the city was a leader in the development of the industrial districts. The city’s first zoning ordinance was passed in 1883, and the first zoning ordinance was passed in New York",-3.404193878173828,-190.63485717773438,30.090029714848768,56,0,1,step16000,-2.5483858585357666,0,0,-0.8558080196380615
+step128000,128000,step128000,128000,explanation_015,explanation,Explain why conferences use peer review.,"
+
+The peer review process is a critical component of the process of peer review. Peer review is a process in which a group of reviewers reviews a paper and makes a decision about whether or not to accept the paper. Peer review is a process in which a group of reviewers reviews",-1.5371971130371094,-86.08303833007812,4.65153425754281,56,0,1,step128000,-1.5371971130371094,1,0,
+step128000,128000,step16000,16000,judgment_004,judgment,Should a workplace optimize for speed or careful review when deadlines are tight?,"
+
+The answer is yes.
+
+The most important thing to remember is that you should not be too quick to judge a company’s performance.
+
+The best way to do this is to make sure that you are not too quick to judge a company’s performance",-1.466395378112793,-82.1181411743164,4.333586014417345,56,112000,0,step16000,-1.466395378112793,0,112000,
+step128000,128000,step143000,143000,judgment_008,judgment,Should a newsroom publish quickly with updates or wait for fuller confirmation?,"
+
+I’m not sure I’d call it a “newsroom” but I’m sure it’s a place where people can get their news.
+
+I’m not sure I’d call it a “newsroom” but I’m sure",-1.0003516674041748,-56.019691467285156,2.719237927678087,56,15000,0,step143000,-1.0003516674041748,0,15000,
+step128000,128000,step64000,64000,judgment_009,judgment,Should a university require broad general education or early specialization?,"
+
+I am a graduate student in the field of education. I am interested in the question of whether a university should require broad general education or early specialization. I am not sure if I understand the question correctly.
+
+A:
+
+The question is not about whether a",-1.253556251525879,-70.19915008544922,3.502777592169494,56,64000,0,step64000,-1.253556251525879,0,64000,-0.07829165458679199
+step128000,128000,step128000,128000,judgment_009,judgment,Should a university require broad general education or early specialization?,"
+
+A:
+
+The answer is yes.
+The University of California, Berkeley, has a general education requirement for all students.  The requirement is that the student must have a general education in the sciences, mathematics, and the humanities.  The requirement is not",-1.331847906112671,-74.58348083496094,3.7880368604074626,56,0,1,step64000,-1.253556251525879,0,0,-0.07829165458679199
+step128000,128000,step128000,128000,judgment_010,judgment,Should a team reuse old tools or switch to a more capable but riskier system?,"
+
+I'm not sure if this is a good question, but I'm wondering if there is a way to make a team that has been using a tool for a while, but is now using a new tool, and then switch to the new tool.
+
+A:",-1.2505439519882202,-70.03046417236328,3.492242052914671,56,0,1,step128000,-1.2505439519882202,1,0,0.01580512523651123
+step128000,128000,step64000,64000,judgment_010,judgment,Should a team reuse old tools or switch to a more capable but riskier system?,"
+
+I'm not sure if this is a good question, but I'm curious about the pros and cons of using a different tool for different tasks.
+
+A:
+
+I would say that it's a good idea to use a tool that is more capable than the",-1.2663490772247314,-70.9155502319336,3.5478758675057476,56,64000,0,step128000,-1.2505439519882202,1,64000,0.01580512523651123
+step128000,128000,step64000,64000,judgment_013,judgment,Should a community preserve a historic building or replace it with housing?,"
+
+The answer is yes.
+
+The City of San Diego has a historic building that is being preserved and is being used as a community center. The building is located in the heart of the city and is a great example of how a community can preserve a historic building.",-1.7839199304580688,-99.8995132446289,5.9531466616220055,56,64000,0,step64000,-1.7839199304580688,0,64000,
+step128000,128000,step64000,64000,judgment_014,judgment,Should a school ban phones outright or regulate their use?,"
+
+I’m not sure what you mean by “ban phones outright” but I’m sure you’re referring to the fact that the FCC has not yet decided whether or not to ban phones outright.
+
+I’m not sure what you mean by “regulate",-1.3124552965164185,-73.49749755859375,3.715284648062468,56,64000,0,step64000,-1.3124552965164185,0,64000,
+step128000,128000,step16000,16000,judgment_016,judgment,Should an editor favor clarity or stylistic individuality in a student essay?,"
+
+The following is a list of the most common questions asked by students in the course of writing a student essay.
+
+1. What is the purpose of the essay?
+
+2. What is the purpose of the essay?
+
+3. What is the purpose",-1.273595929145813,-71.32137298583984,3.573680185658174,56,112000,0,step16000,-1.273595929145813,0,112000,
+step128000,128000,step64000,64000,judgment_017,judgment,Should a town build a large central park or several smaller parks?,"
+
+I think it's a good idea to have a central park. It's a great place to get away from the hustle and bustle of the city. It's also a great place to get away from the city.
+
+I think it's a good idea",-1.0180374383926392,-57.010093688964844,2.7677575355838333,56,64000,0,step64000,-1.0180374383926392,0,64000,
+step128000,128000,step143000,143000,judgment_017,judgment,Should a town build a large central park or several smaller parks?,"
+
+I think that the answer is yes.
+
+The problem is that the parks are not large enough to support the number of people who would use them.
+
+The parks are not large enough to support the number of people who would use them.
+
+The parks",-1.1146026849746704,-62.41775131225586,3.0483567805936933,56,15000,0,step64000,-1.0180374383926392,0,15000,
+step128000,128000,step128000,128000,judgment_018,judgment,Should an instructor prioritize mastery or coverage in a difficult course?,"
+
+I’ve been teaching for over 20 years and I’ve never seen a course that was so difficult that I couldn’t get through it. I’ve taught in many different settings, but I’ve never seen a course that was so difficult that I couldn",-1.1574839353561401,-64.81909942626953,3.181917286386871,56,0,1,step128000,-1.1574839353561401,1,0,0.12704944610595703
+step128000,128000,step64000,64000,judgment_018,judgment,Should an instructor prioritize mastery or coverage in a difficult course?,"
+
+I’m not sure if this is a question that I’m asking, but I’m curious about the answer. I’m a high school teacher and I’ve been teaching for about a year now. I’ve been teaching for about a year and",-1.2845333814620972,-71.93386840820312,3.612981679595043,56,64000,0,step128000,-1.1574839353561401,1,64000,0.12704944610595703
+step128000,128000,step16000,16000,judgment_018,judgment,Should an instructor prioritize mastery or coverage in a difficult course?,"
+
+The answer is yes.
+
+The question is, “What is the most important thing you can do to improve your mastery of a difficult course?”
+
+The answer is, “I don’t know.”
+
+The question is, “What is the most",-1.2992342710494995,-72.75711822509766,3.666488056387572,56,112000,0,step128000,-1.1574839353561401,1,112000,0.12704944610595703
+step128000,128000,step16000,16000,style_opening_001,style_opening,Write the opening paragraph of an essay about memory.,"
+
+The first thing you should do is to write a short introduction. This is a good way to start your essay. You should also write a short introduction that is short and to the point.
+
+The second thing you should do is to write a short introduction that is",-1.6206992864608765,-90.75916290283203,5.056625109980372,56,112000,0,step16000,-1.6206992864608765,0,112000,
+step128000,128000,step143000,143000,style_opening_006,style_opening,Write the opening paragraph of an essay about public attention.,"
+
+The essay is a great way to get your point across. It’s also a great way to get your point across to your audience.
+
+The opening paragraph is the most important part of your essay. It’s the first thing that your audience sees when they",-1.5259406566619873,-85.45267486572266,4.599468055327366,56,15000,0,step143000,-1.5259406566619873,0,15000,
+step128000,128000,step16000,16000,style_opening_006,style_opening,Write the opening paragraph of an essay about public attention.,"
+
+The first thing you should do is to write a short introduction. This is a good way to start your essay. You should also write a short introduction that is short and to the point.
+
+The second thing you should do is to write a short introduction that is",-1.6937503814697266,-94.85002136230469,5.439843986311402,56,112000,0,step143000,-1.5259406566619873,0,112000,
+step128000,128000,step16000,16000,style_opening_010,style_opening,Write the opening paragraph of an essay about maintenance.,"
+
+The first thing you should do is to write a short introduction. This is a good way to introduce yourself to the reader and to make them feel comfortable with you.
+
+The second thing you should do is to write a short conclusion. This is a good way to",-2.1294219493865967,-119.24763488769531,8.410003998129584,56,112000,0,step16000,-2.1294219493865967,0,112000,
+step128000,128000,step16000,16000,style_opening_011,style_opening,Write the opening paragraph of an essay about attention.,"
+
+The first thing you should do is to write a short introduction. This is a good way to start your essay. You should also write a short introduction that is short and to the point.
+
+The second thing you should do is to write a short introduction that is",-1.6974257230758667,-95.05583953857422,5.4598740573745745,56,112000,0,step16000,-1.6974257230758667,0,112000,
+step128000,128000,step16000,16000,style_opening_013,style_opening,Write the opening paragraph of an essay about delay.,"
+
+The first thing you should do is to write a short introduction. This is a good way to introduce yourself to the reader and to make them feel comfortable with you.
+
+The second thing you should do is to write a short conclusion. This is a good way to",-1.6188108921051025,-90.65341186523438,5.047085218037434,56,112000,0,step16000,-1.6188108921051025,0,112000,
+step128000,128000,step64000,64000,style_opening_015,style_opening,Write the opening paragraph of an essay about archives.,"
+
+The first thing you need to do is to find a good place to start. You can start by looking at the website of the university or college you are applying to. You can also look at the university’s website and see if there are any other places that you",-1.6014033555984497,-89.6785888671875,4.959988169727712,56,64000,0,step64000,-1.6014033555984497,0,64000,
+step128000,128000,step16000,16000,style_opening_015,style_opening,Write the opening paragraph of an essay about archives.,"
+
+The first thing you should do is to write a short introduction. This is a good way to start your essay. You should also write a short introduction that is short and to the point.
+
+The second thing you should do is to write a short introduction that is",-1.635546326637268,-91.59059143066406,5.132261122206939,56,112000,0,step64000,-1.6014033555984497,0,112000,
+step128000,128000,step16000,16000,style_opening_016,style_opening,Write the opening paragraph of an essay about public language.,"
+
+The first thing you should do is to write a short introduction. This is a good way to start your essay. You should also write a short introduction that is short and to the point.
+
+The second thing you should do is to write a short introduction that is",-1.3779678344726562,-77.16619873046875,3.9668321714450085,56,112000,0,step16000,-1.3779678344726562,0,112000,
+step128000,128000,step16000,16000,style_opening_017,style_opening,Write the opening paragraph of an essay about rules.,"
+
+The first thing you should do is to write a short introduction. This is a good way to start your essay. You should also write a short introduction that is short and to the point.
+
+The second thing you should do is to write a short introduction that is",-1.741792917251587,-97.5404052734375,5.707567450661991,56,112000,0,step16000,-1.741792917251587,0,112000,
+step128000,128000,step16000,16000,style_opening_018,style_opening,Write the opening paragraph of an essay about access.,"
+
+The first thing you should do is to write a short introduction. This is a good way to start your essay. You should also write a short introduction that is short and to the point.
+
+The second thing you should do is to write a short introduction that is",-1.6512775421142578,-92.47154235839844,5.213636214199203,56,112000,0,step16000,-1.6512775421142578,0,112000,
+step128000,128000,step143000,143000,style_opening_019,style_opening,Write the opening paragraph of an essay about expertise and doubt.,"
+
+The essay is a great way to introduce your topic and to get your reader to think about it.
+
+The opening paragraph is the most important part of your essay. It is the first thing your reader will see and it is the first thing they will remember.
+",-1.312102198600769,-73.47772216796875,3.713973020377322,56,15000,0,step143000,-1.312102198600769,0,15000,
+step128000,128000,step16000,16000,style_opening_020,style_opening,Write the opening paragraph of an essay about common goods.,"
+
+The first thing you should do is to write a short introduction. This is a good way to start your essay. You should also write a short introduction that is short and to the point.
+
+The second thing you should do is to write a conclusion. This is",-1.7106101512908936,-95.7941665649414,5.532336009989826,56,112000,0,step16000,-1.7106101512908936,0,112000,
+step143000,143000,step128000,128000,advice_001,advice,A student is overwhelmed by choices. What should they do first?," What should they do after? What should they do now?
+
+The first step is to decide what you want to do. You can do this by asking yourself the following questions:
+
+What do I want to do?
+
+What do I want to do now?",-1.0852104425430298,-60.771785736083984,2.960062676316458,56,15000,0,step128000,-1.0852104425430298,0,15000,
+step143000,143000,step64000,64000,advice_001,advice,A student is overwhelmed by choices. What should they do first?," What should they do after? What should they do if they don’t like the way they look?
+
+The answer is simple: they should do nothing.
+
+The first step is to decide what you want to do.
+
+The second step is to decide what",-1.3754857778549194,-77.02720642089844,3.9569984783424013,56,79000,0,step128000,-1.0852104425430298,0,79000,
+step143000,143000,step143000,143000,advice_003,advice,A researcher has collected too much material for one paper. What should they do first?,"
+
+A:
+
+The first thing to do is to find out what you want to say.  If you want to say that the government is not doing enough to protect the environment, then you should say that.  If you want to say that the government is not",-1.0707257986068726,-59.96064758300781,2.917496246429476,56,0,1,step143000,-1.0707257986068726,1,0,0.07856917381286621
+step143000,143000,step128000,128000,advice_003,advice,A researcher has collected too much material for one paper. What should they do first?,"
+
+A:
+
+I think the best way to do this is to start with a list of questions that you think are important. Then, you can start writing a paper that answers those questions.
+
+A:
+
+I think the best way to do this is",-1.1492949724197388,-64.36051940917969,3.155967081312047,56,15000,0,step143000,-1.0707257986068726,1,15000,0.07856917381286621
+step143000,143000,step128000,128000,advice_007,advice,A manager inherits a project with unclear ownership. What should they do first?,"
+
+A:
+
+The first thing to do is to make sure that the project is owned by the owner.  If the project is owned by the owner, then the manager should be the owner.  If the project is owned by someone else, then the manager should",-1.0253316164016724,-57.41857147216797,2.7880198603982027,56,15000,0,step128000,-1.0253316164016724,0,15000,-0.3768850564956665
+step143000,143000,step143000,143000,advice_007,advice,A manager inherits a project with unclear ownership. What should they do first?,"
+
+A:
+
+The first step is to determine what the project is.  If it's a new project, then you can't just start over.  You need to determine what the project is and what the ownership is.  If it's a new project,",-1.4022166728973389,-78.52413177490234,4.064198988963858,56,0,1,step128000,-1.0253316164016724,0,0,-0.3768850564956665
+step143000,143000,step16000,16000,advice_007,advice,A manager inherits a project with unclear ownership. What should they do first?,"
+
+The project is a small, but ambitious, attempt to create a new, more efficient, and more efficient way to run a business. It’s a project that has been around for a while, but it’s not a new idea. It’s a project",-1.8522676229476929,-103.72698974609375,6.374257559119097,56,127000,0,step128000,-1.0253316164016724,0,127000,-0.3768850564956665
+step143000,143000,step16000,16000,advice_013,advice,A student is falling behind because every assignment feels equally urgent. What should they do first?,"
+
+The first thing to do is to make a list of the things you want to do in the future. This list should be something like this:
+
+1. Write down the things you want to do in the future.
+
+2. Write down the things you",-1.2411402463912964,-69.50385284423828,3.4595559628280252,56,127000,0,step16000,-1.2411402463912964,0,127000,
+step143000,143000,step128000,128000,advice_014,advice,A department wants better mentoring but no one agrees on the problem. What should they do first?,"
+
+A:
+
+I think the best way to solve this is to have a mentor who is a good fit for the role.  This person should be able to help you with the problem, and be able to help you with the mentoring.  This person should",-1.4203593730926514,-79.54012298583984,4.138607477203207,56,15000,0,step128000,-1.4203593730926514,0,15000,
+step143000,143000,step64000,64000,advice_016,advice,A research assistant has messy notes and a deadline. What should they do first?,"
+
+The first thing to do is to get the research assistant to write a paper. This is a lot of work, and it’s not always easy. The research assistant should be able to write a paper that is both concise and readable.
+
+The research assistant should",-1.3444181680679321,-75.28741455078125,3.8359540106509784,56,79000,0,step64000,-1.3444181680679321,0,79000,
+step143000,143000,step128000,128000,advice_017,advice,A small town wants to improve civic participation. What should it do first?,"
+
+The town of Littleton, Colorado, is a small town with a population of about 1,000. It is located in the foothills of the Rocky Mountains. Littleton is a small town with a population of about 1,000. It is located",-0.9872299432754517,-55.28487777709961,2.6837899158839496,56,15000,0,step128000,-0.9872299432754517,0,15000,-0.19738805294036865
+step143000,143000,step143000,143000,advice_017,advice,A small town wants to improve civic participation. What should it do first?,"
+
+The town of St. Paul, Minnesota, is a small town with a population of about 1,000. It is located in the heart of the Twin Cities metropolitan area. The town is located in the St. Paul-Hennepin County Metropolitan Statistical Area.",-1.1846179962158203,-66.33860778808594,3.269437645333481,56,0,1,step128000,-0.9872299432754517,0,0,-0.19738805294036865
+step143000,143000,step128000,128000,advice_019,advice,A student wants to study more effectively but keeps rereading passively. What should they do first?,"
+
+A:
+
+I think the best way to approach this is to think about the problem as a problem of learning.  You want to learn how to do something, but you don't want to learn how to do it well.  You want to learn how to",-1.0806947946548462,-60.5189094543457,2.9467262095992104,56,15000,0,step128000,-1.0806947946548462,0,15000,
+step143000,143000,step64000,64000,advice_019,advice,A student wants to study more effectively but keeps rereading passively. What should they do first?,"
+
+The first thing to do is to get a good grip on the situation. What is the situation? What is the problem? What is the solution?
+
+The problem is that the student is not getting the information he needs. The problem is that he is not getting",-1.1828068494796753,-66.2371826171875,3.263521573067777,56,79000,0,step128000,-1.0806947946548462,0,79000,
+step143000,143000,step143000,143000,advice_020,advice,A nonprofit has an ambitious mission but weak coordination. What should it do first?,"
+
+The organization is called the National Alliance for the Homeless, and it is a nonprofit that works to end homelessness. It has a website, a Facebook page, and a Twitter account. It has a Facebook page with more than 1,000 followers.
+
+The",-1.3229408264160156,-74.08468627929688,3.7544463330282274,56,0,1,step143000,-1.3229408264160156,1,0,0.08622932434082031
+step143000,143000,step64000,64000,advice_020,advice,A nonprofit has an ambitious mission but weak coordination. What should it do first?,"
+
+The mission of the nonprofit is to provide a safe, affordable, and accessible education for children and their families. The organization is also committed to providing a safe, affordable, and accessible environment for children and their families.
+
+The organization is currently working with the U.",-1.409170150756836,-78.91352844238281,4.092557788528398,56,79000,0,step143000,-1.3229408264160156,1,79000,0.08622932434082031
+step143000,143000,step16000,16000,advice_020,advice,A nonprofit has an ambitious mission but weak coordination. What should it do first?,"
+
+The nonprofit’s mission is to provide a safe, secure, and affordable place to live for the homeless. It’s a mission that’s been in the works for years, but the nonprofit’s first step is to create a safe, secure, and affordable",-1.4235374927520752,-79.71810150146484,4.151781390036299,56,127000,0,step143000,-1.3229408264160156,1,127000,0.08622932434082031
+step143000,143000,step128000,128000,argument_001,argument,Give the strongest argument against using exams as the main measure of learning.,"
+
+The argument that exams are the main measure of learning is based on the assumption that the most important thing is the ability to learn. This is a very simplistic view of learning. The most important thing is the ability to learn. The ability to learn is not the only",-1.2483066320419312,-69.9051742553711,3.484437523982071,56,15000,0,step128000,-1.2483066320419312,0,15000,-0.07884025573730469
+step143000,143000,step143000,143000,argument_001,argument,Give the strongest argument against using exams as the main measure of learning.,"
+
+The most important thing to remember is that the exams are not the only measure of learning. The other things that you need to do are to be consistent in your learning and to be consistent in your learning.
+
+The most important thing to remember is that the exams are",-1.3271468877792358,-74.32022857666016,3.770271021165063,56,0,1,step128000,-1.2483066320419312,0,0,-0.07884025573730469
+step143000,143000,step143000,143000,argument_002,argument,Give the strongest argument against measuring a city's health only by economic growth.,"
+
+""The city's health is not measured by economic growth,"" he said. ""It's measured by the quality of life of the people who live there.""
+
+The city's health is measured by the quality of life of the people who live there, he said.",-0.9179760813713074,-51.40666198730469,2.504216926241994,56,0,1,step143000,-0.9179760813713074,1,0,0.25376468896865845
+step143000,143000,step128000,128000,argument_002,argument,Give the strongest argument against measuring a city's health only by economic growth.,"
+
+""The health of a city is not a function of its economic growth,"" said Dr. David H. Kessler, a professor of economics at the University of California, Berkeley. ""It's a function of the health of the people who live there.""
+
+",-1.1717407703399658,-64.44573974609375,3.227606272355297,55,15000,0,step143000,-0.9179760813713074,1,15000,0.25376468896865845
+step143000,143000,step64000,64000,argument_003,argument,Give the strongest argument against replacing libraries with fully digital services.,"
+
+The problem with the current approach is that it is not clear how to make the library system more efficient. The current approach is to use a library that is already in use by the user, and then to use the library to provide the service. This is not a very",-1.7607694864273071,-98.60308837890625,5.816911707327914,56,79000,0,step64000,-1.7607694864273071,0,79000,
+step143000,143000,step128000,128000,argument_004,argument,Give the strongest argument against making speed the main value in journalism.,"
+
+I think the main reason for the decline in the number of journalists is that the media is not a business. It is a profession. It is a profession that is not about money. It is about the people who work in it.
+
+The media is not a",-1.8405214548110962,-103.06919860839844,6.299822477406917,56,15000,0,step128000,-1.8405214548110962,0,15000,
+step143000,143000,step143000,143000,argument_007,argument,Give the strongest argument against using attendance as a proxy for engagement.,"
+
+The most important thing to remember is that the more people you have in your life, the more likely you are to have a strong relationship with them.
+
+If you are a single parent, you are more likely to have a strong relationship with your children. If you",-1.1406720876693726,-63.87763595581055,3.1288705339911185,56,0,1,step143000,-1.1406720876693726,1,0,0.12240934371948242
+step143000,143000,step64000,64000,argument_007,argument,Give the strongest argument against using attendance as a proxy for engagement.,"
+
+The most important thing to remember is that the more you can do to engage with your students, the more likely you are to get them to engage with you.
+
+The best way to do this is to make sure that you are engaging with your students in a way",-1.263081431388855,-70.73255920410156,3.5363015863256426,56,79000,0,step143000,-1.1406720876693726,1,79000,0.12240934371948242
+step143000,143000,step143000,143000,argument_008,argument,Give the strongest argument against centralizing all public services in one office.,"
+
+The problem is that the public sector is not a monolithic entity. It is a collection of different departments, each with its own strengths and weaknesses. The public sector is not a monolithic entity. It is a collection of different departments, each with its own strengths and",-1.094100832939148,-61.269649505615234,2.986496116802687,56,0,1,step143000,-1.094100832939148,1,0,
+step143000,143000,step16000,16000,argument_009,argument,Give the strongest argument against relying on rankings to compare universities.,"
+
+The University of California, Berkeley, has been ranked as the No. 1 university in the nation for the past two years, according to the University of California, Berkeley, College of Business.
+
+The University of California, Berkeley, has been ranked as the No.",-1.6219276189804077,-90.82794952392578,5.062840143324385,56,127000,0,step16000,-1.6219276189804077,0,127000,
+step143000,143000,step16000,16000,argument_013,argument,Give the strongest argument against judging writing only by grammar and correctness.,"
+
+The best way to get around this is to make sure that you are not judging by the grammar and correctness of your writing.
+
+The best way to get around this is to make sure that you are not judging by the grammar and correctness of your writing.
+
+",-1.0959571599960327,-60.277645111083984,2.992045179193435,55,127000,0,step16000,-1.0959571599960327,0,127000,
+step143000,143000,step143000,143000,argument_015,argument,Give the strongest argument against using one metric to evaluate teachers.,"
+
+The most important thing to remember is that teachers are human beings. They are not robots. They are human beings who have their own unique strengths and weaknesses. They are human beings who have their own unique strengths and weaknesses. They are human beings who have their own unique strengths",-1.255774736404419,-70.3233871459961,3.5105570774351484,56,0,1,step143000,-1.255774736404419,1,0,0.37320125102996826
+step143000,143000,step16000,16000,argument_015,argument,Give the strongest argument against using one metric to evaluate teachers.,"
+
+The best way to do this is to use a metric that is a measure of how well teachers are doing. For example, if you are teaching a class of students, you might use the number of students per teacher to evaluate how well they are doing.
+
+The",-1.6289759874343872,-91.22265625,5.098650961744398,56,127000,0,step143000,-1.255774736404419,1,127000,0.37320125102996826
+step143000,143000,step64000,64000,argument_019,argument,Give the strongest argument against assuming transparency alone creates trust.,"
+
+The problem with this approach is that it is not clear that the trustworthiness of the evidence is the only issue. The fact that the evidence is not strong enough to support a conclusion that the evidence is trustworthy is not a reason to assume that the evidence is trustworthy.",-1.934876799583435,-108.35310363769531,6.923191062811939,56,79000,0,step64000,-1.934876799583435,0,79000,
+step143000,143000,step64000,64000,argument_020,argument,Give the strongest argument against using automation as the default response to every coordination problem.,"
+
+The most important thing to remember is that the best way to solve a coordination problem is to use the best available solution.
+
+The best solution is the one that is most likely to be used by the majority of the population.
+
+The best solution is the one",-1.612672209739685,-90.30964660644531,5.016197666442509,56,79000,0,step64000,-1.612672209739685,0,79000,
+step143000,143000,step143000,143000,explanation_004,explanation,Explain why museums use wall labels.,"
+
+The museum’s website says: “The museum is dedicated to the preservation of the history of the city of London and the surrounding area. It is a place where visitors can discover the history of London and the city’s people. The museum is a place where visitors",-1.9022694826126099,-106.52709197998047,6.701085194519746,56,0,1,step143000,-1.9022694826126099,1,0,
+step143000,143000,step128000,128000,explanation_006,explanation,Explain why hospitals use triage systems.,"
+
+The authors have no conflicts of interest to disclose.
+
+![Flow chart of the study.](jgc-16-11-g001){#F1}
+
+![The flow chart of the study.](jgc-16-11-g002){#F2",-2.3577725887298584,-132.03526306152344,10.567387301077778,56,15000,0,step128000,-2.3577725887298584,0,15000,
+step143000,143000,step16000,16000,explanation_006,explanation,Explain why hospitals use triage systems.,"
+
+“We’re not just talking about the numbers, we’re talking about the process,” said Dr. David K. Kuhn, a professor of medicine at the University of California, San Francisco.
+
+“We’re talking about the process of tri",-2.6883385181427,-150.5469512939453,14.70721983047399,56,127000,0,step128000,-2.3577725887298584,0,127000,
+step143000,143000,step64000,64000,explanation_006,explanation,Explain why hospitals use triage systems.,"
+
+The authors would like to thank the following people for their help in this study: Dr. David H. B. H. Lee, Dr. David H. B. H. Lee, Dr. David H. B. H. Lee, Dr. David H.",-2.7539405822753906,-154.22067260742188,15.704394572687384,56,79000,0,step128000,-2.3577725887298584,0,79000,
+step143000,143000,step143000,143000,explanation_007,explanation,Explain why towns maintain public transit.,"
+
+The city of New York has a long history of public transit. The city’s first subway system opened in 1883, and the city’s first bus system opened in 1905. The city’s first subway line opened in 1909, and the city’s first",-2.065732002258301,-115.68099212646484,7.891072066617889,56,0,1,step143000,-2.065732002258301,1,0,0.039838314056396484
+step143000,143000,step64000,64000,explanation_007,explanation,Explain why towns maintain public transit.,"
+
+The city of San Diego has a public transit system that is the largest in the country. The San Diego Regional Transit Authority (SDRTA) is the largest transit agency in the country. The SDRTA is the largest transit agency in the United States. The SD",-2.1055703163146973,-117.91193389892578,8.211784989316387,56,79000,0,step143000,-2.065732002258301,1,79000,0.039838314056396484
+step143000,143000,step128000,128000,explanation_007,explanation,Explain why towns maintain public transit.,"
+
+The city of New York has a long history of public transit. The city’s first subway system was built in 1883, and the first subway car was built in the Bronx in 1904. The city’s first subway car was the first subway car in the world",-2.272831916809082,-127.2785873413086,9.706850921805552,56,15000,0,step143000,-2.065732002258301,1,15000,0.039838314056396484
+step143000,143000,step16000,16000,explanation_007,explanation,Explain why towns maintain public transit.,"
+
+“We’re not going to be able to do this without public transportation,” said Mayor John Hancock. “We’re going to have to do this on a local level.”
+
+The city is also considering a proposal to build a new $1.5",-2.407012939453125,-134.792724609375,11.100752951133162,56,127000,0,step143000,-2.065732002258301,1,127000,0.039838314056396484
+step143000,143000,step64000,64000,explanation_009,explanation,Explain why universities require office hours.,"
+
+The University of California, Berkeley, has a long history of being a leader in the field of education. In the early 1900s, the university was the first to offer a full-time, full-time, full-time, full-time, full-time",-1.5553795099258423,-87.10124969482422,4.736883878530594,56,79000,0,step64000,-1.5553795099258423,0,79000,-0.6860722303390503
+step143000,143000,step128000,128000,explanation_009,explanation,Explain why universities require office hours.,"
+
+The University of California, Berkeley, has a long history of providing free, on-campus office hours to its students. The university has also been a leader in the development of technology that allows students to work remotely from home.
+
+The university has also been a",-1.6328935623168945,-91.4420394897461,5.118664485329175,56,15000,0,step64000,-1.5553795099258423,0,15000,-0.6860722303390503
+step143000,143000,step143000,143000,explanation_009,explanation,Explain why universities require office hours.,"
+
+The University of California, Berkeley, has a long history of providing free, on-campus office hours to its students. The university has also been a leader in the development of the Office of Student Affairs, which provides a range of services to students, including advising,",-2.2414517402648926,-125.52129364013672,9.406977867942697,56,0,1,step64000,-1.5553795099258423,0,0,-0.6860722303390503
+step143000,143000,step64000,64000,explanation_010,explanation,Explain why software teams use version control.,"
+
+The following are some of the most common reasons why software teams use version control:
+
+1. Version control is a way to ensure that your software is always up to date.
+
+2. Version control is a way to ensure that your software is always up to",-1.4785517454147339,-82.79889678955078,4.386588181943269,56,79000,0,step64000,-1.4785517454147339,0,79000,
+step143000,143000,step128000,128000,explanation_010,explanation,Explain why software teams use version control.,"
+
+The first step in version control is to create a version control system. This is a system that allows you to track changes in your code. Version control systems are used to track changes in your code.
+
+Version control systems are used to track changes in your code.",-1.5932598114013672,-89.22254943847656,4.919760307852821,56,15000,0,step64000,-1.4785517454147339,0,15000,
+step143000,143000,step64000,64000,explanation_011,explanation,Explain why newspapers keep corrections pages.,"
+
+The first thing to note is that the corrections page is not a page that is automatically generated. It is a page that is manually created by the editor. The editor is responsible for creating the page and for making sure that it is correct.
+
+The second thing to",-2.425978422164917,-135.85479736328125,11.313293182689433,56,79000,0,step64000,-2.425978422164917,0,79000,
+step143000,143000,step64000,64000,explanation_012,explanation,Explain why research groups maintain lab notebooks.,"
+
+The research groups are also required to keep a journal of their research.
+
+The journal should be kept in a locked cabinet and should be kept in a locked cabinet with a lock.
+
+The journal should be kept in a locked cabinet with a lock.
+
+",-2.652916193008423,-145.91038513183594,14.19537479671799,55,79000,0,step64000,-2.652916193008423,0,79000,
+step143000,143000,step16000,16000,explanation_013,explanation,Explain why legislatures use committees.,"
+
+The committee’s report, which was released in January, said the state’s “unprecedented” use of the committee’s powers to “create and implement” a new law “is a violation of the state’s constitutional right to a public hearing.”
+",-2.3666112422943115,-132.5302276611328,10.661202766962443,56,127000,0,step16000,-2.3666112422943115,0,127000,
+step143000,143000,step16000,16000,explanation_014,explanation,Explain why cities zone industrial districts.,"
+
+The city of San Francisco has been criticized for its lack of industrial districts, and the city’s industrial districts are often the most expensive in the country.
+
+The city’s industrial districts are often the most expensive in the country.
+
+The city’s",-2.5667738914489746,-143.7393341064453,13.02374059301022,56,127000,0,step16000,-2.5667738914489746,0,127000,
+step143000,143000,step128000,128000,explanation_014,explanation,Explain why cities zone industrial districts.,"
+
+The city of New York has a long history of zoning. In the early 1900s, the city was a leader in the development of the industrial districts. The city’s first zoning ordinance was passed in 1883, and the first zoning ordinance was passed in New York",-3.4245736598968506,-191.776123046875,30.709549347695482,56,15000,0,step16000,-2.5667738914489746,0,15000,
+step143000,143000,step128000,128000,explanation_015,explanation,Explain why conferences use peer review.,"
+
+The peer review process is a critical component of the process of peer review. Peer review is a process in which a group of reviewers reviews a paper and makes a decision about whether or not to accept the paper. Peer review is a process in which a group of reviewers reviews",-1.568022608757019,-87.80926513671875,4.797152960717989,56,15000,0,step128000,-1.568022608757019,0,15000,
+step143000,143000,step16000,16000,judgment_004,judgment,Should a workplace optimize for speed or careful review when deadlines are tight?,"
+
+The answer is yes.
+
+The most important thing to remember is that you should not be too quick to judge a company’s performance.
+
+The best way to do this is to make sure that you are not too quick to judge a company’s performance",-1.5207496881484985,-85.16197967529297,4.575654223373535,56,127000,0,step16000,-1.5207496881484985,0,127000,
+step143000,143000,step143000,143000,judgment_008,judgment,Should a newsroom publish quickly with updates or wait for fuller confirmation?,"
+
+I’m not sure I’d call it a “newsroom” but I’m sure it’s a place where people can get their news.
+
+I’m not sure I’d call it a “newsroom” but I’m sure",-0.9823416471481323,-55.011131286621094,2.67070276901652,56,0,1,step143000,-0.9823416471481323,1,0,
+step143000,143000,step64000,64000,judgment_009,judgment,Should a university require broad general education or early specialization?,"
+
+I am a graduate student in the field of education. I am interested in the question of whether a university should require broad general education or early specialization. I am not sure if I understand the question correctly.
+
+A:
+
+The question is not about whether a",-1.2224870920181274,-68.45927429199219,3.395622465827254,56,79000,0,step64000,-1.2224870920181274,0,79000,
+step143000,143000,step128000,128000,judgment_009,judgment,Should a university require broad general education or early specialization?,"
+
+A:
+
+The answer is yes.
+The University of California, Berkeley, has a general education requirement for all students.  The requirement is that the student must have a general education in the sciences, mathematics, and the humanities.  The requirement is not",-1.377746820449829,-77.15382385253906,3.9659555427860993,56,15000,0,step64000,-1.2224870920181274,0,15000,
+step143000,143000,step64000,64000,judgment_010,judgment,Should a team reuse old tools or switch to a more capable but riskier system?,"
+
+I'm not sure if this is a good question, but I'm curious about the pros and cons of using a different tool for different tasks.
+
+A:
+
+I would say that it's a good idea to use a tool that is more capable than the",-1.2245358228683472,-68.57400512695312,3.402586313417612,56,79000,0,step64000,-1.2245358228683472,0,79000,
+step143000,143000,step128000,128000,judgment_010,judgment,Should a team reuse old tools or switch to a more capable but riskier system?,"
+
+I'm not sure if this is a good question, but I'm wondering if there is a way to make a team that has been using a tool for a while, but is now using a new tool, and then switch to the new tool.
+
+A:",-1.2484666109085083,-69.91413116455078,3.484995004939213,56,15000,0,step64000,-1.2245358228683472,0,15000,
+step143000,143000,step64000,64000,judgment_013,judgment,Should a community preserve a historic building or replace it with housing?,"
+
+The answer is yes.
+
+The City of San Diego has a historic building that is being preserved and is being used as a community center. The building is located in the heart of the city and is a great example of how a community can preserve a historic building.",-1.7459232807159424,-97.7717056274414,5.731190531100785,56,79000,0,step64000,-1.7459232807159424,0,79000,
+step143000,143000,step64000,64000,judgment_014,judgment,Should a school ban phones outright or regulate their use?,"
+
+I’m not sure what you mean by “ban phones outright” but I’m sure you’re referring to the fact that the FCC has not yet decided whether or not to ban phones outright.
+
+I’m not sure what you mean by “regulate",-1.2880271673202515,-72.12952423095703,3.6256267405979354,56,79000,0,step64000,-1.2880271673202515,0,79000,
+step143000,143000,step16000,16000,judgment_016,judgment,Should an editor favor clarity or stylistic individuality in a student essay?,"
+
+The following is a list of the most common questions asked by students in the course of writing a student essay.
+
+1. What is the purpose of the essay?
+
+2. What is the purpose of the essay?
+
+3. What is the purpose",-1.254056692123413,-70.2271728515625,3.504530962973122,56,127000,0,step16000,-1.254056692123413,0,127000,
+step143000,143000,step64000,64000,judgment_017,judgment,Should a town build a large central park or several smaller parks?,"
+
+I think it's a good idea to have a central park. It's a great place to get away from the hustle and bustle of the city. It's also a great place to get away from the city.
+
+I think it's a good idea",-1.0207865238189697,-57.16404724121094,2.7753768057022103,56,79000,0,step64000,-1.0207865238189697,0,79000,-0.07269155979156494
+step143000,143000,step143000,143000,judgment_017,judgment,Should a town build a large central park or several smaller parks?,"
+
+I think that the answer is yes.
+
+The problem is that the parks are not large enough to support the number of people who would use them.
+
+The parks are not large enough to support the number of people who would use them.
+
+The parks",-1.0934780836105347,-61.234771728515625,2.9846368573374216,56,0,1,step64000,-1.0207865238189697,0,0,-0.07269155979156494
+step143000,143000,step128000,128000,judgment_018,judgment,Should an instructor prioritize mastery or coverage in a difficult course?,"
+
+I’ve been teaching for over 20 years and I’ve never seen a course that was so difficult that I couldn’t get through it. I’ve taught in many different settings, but I’ve never seen a course that was so difficult that I couldn",-1.122414231300354,-62.85519790649414,3.0722624092046744,56,15000,0,step128000,-1.122414231300354,0,15000,
+step143000,143000,step16000,16000,judgment_018,judgment,Should an instructor prioritize mastery or coverage in a difficult course?,"
+
+The answer is yes.
+
+The question is, “What is the most important thing you can do to improve your mastery of a difficult course?”
+
+The answer is, “I don’t know.”
+
+The question is, “What is the most",-1.2500098943710327,-70.00055694580078,3.490377492380944,56,127000,0,step128000,-1.122414231300354,0,127000,
+step143000,143000,step64000,64000,judgment_018,judgment,Should an instructor prioritize mastery or coverage in a difficult course?,"
+
+I’m not sure if this is a question that I’m asking, but I’m curious about the answer. I’m a high school teacher and I’ve been teaching for about a year now. I’ve been teaching for about a year and",-1.2547303438186646,-70.26490020751953,3.506892591565632,56,79000,0,step128000,-1.122414231300354,0,79000,
+step143000,143000,step16000,16000,style_opening_001,style_opening,Write the opening paragraph of an essay about memory.,"
+
+The first thing you should do is to write a short introduction. This is a good way to start your essay. You should also write a short introduction that is short and to the point.
+
+The second thing you should do is to write a short introduction that is",-1.600203275680542,-89.61138153076172,4.954039357770997,56,127000,0,step16000,-1.600203275680542,0,127000,
+step143000,143000,step143000,143000,style_opening_006,style_opening,Write the opening paragraph of an essay about public attention.,"
+
+The essay is a great way to get your point across. It’s also a great way to get your point across to your audience.
+
+The opening paragraph is the most important part of your essay. It’s the first thing that your audience sees when they",-1.495065450668335,-83.72366333007812,4.459628428957179,56,0,1,step143000,-1.495065450668335,1,0,0.18170392513275146
+step143000,143000,step16000,16000,style_opening_006,style_opening,Write the opening paragraph of an essay about public attention.,"
+
+The first thing you should do is to write a short introduction. This is a good way to start your essay. You should also write a short introduction that is short and to the point.
+
+The second thing you should do is to write a short introduction that is",-1.6767693758010864,-93.89908599853516,5.348249846006239,56,127000,0,step143000,-1.495065450668335,1,127000,0.18170392513275146
+step143000,143000,step16000,16000,style_opening_010,style_opening,Write the opening paragraph of an essay about maintenance.,"
+
+The first thing you should do is to write a short introduction. This is a good way to introduce yourself to the reader and to make them feel comfortable with you.
+
+The second thing you should do is to write a short conclusion. This is a good way to",-2.096867799758911,-117.42459869384766,8.140631849241593,56,127000,0,step16000,-2.096867799758911,0,127000,
+step143000,143000,step16000,16000,style_opening_011,style_opening,Write the opening paragraph of an essay about attention.,"
+
+The first thing you should do is to write a short introduction. This is a good way to start your essay. You should also write a short introduction that is short and to the point.
+
+The second thing you should do is to write a short introduction that is",-1.6843101978302002,-94.32137298583984,5.388732490637859,56,127000,0,step16000,-1.6843101978302002,0,127000,
+step143000,143000,step16000,16000,style_opening_013,style_opening,Write the opening paragraph of an essay about delay.,"
+
+The first thing you should do is to write a short introduction. This is a good way to introduce yourself to the reader and to make them feel comfortable with you.
+
+The second thing you should do is to write a short conclusion. This is a good way to",-1.6169378757476807,-90.54852294921875,5.037640792409662,56,127000,0,step16000,-1.6169378757476807,0,127000,
+step143000,143000,step64000,64000,style_opening_015,style_opening,Write the opening paragraph of an essay about archives.,"
+
+The first thing you need to do is to find a good place to start. You can start by looking at the website of the university or college you are applying to. You can also look at the university’s website and see if there are any other places that you",-1.5530141592025757,-86.96879577636719,4.725692727538793,56,79000,0,step64000,-1.5530141592025757,0,79000,
+step143000,143000,step16000,16000,style_opening_015,style_opening,Write the opening paragraph of an essay about archives.,"
+
+The first thing you should do is to write a short introduction. This is a good way to start your essay. You should also write a short introduction that is short and to the point.
+
+The second thing you should do is to write a short introduction that is",-1.6197164058685303,-90.70411682128906,5.051657492984085,56,127000,0,step64000,-1.5530141592025757,0,127000,
+step143000,143000,step16000,16000,style_opening_016,style_opening,Write the opening paragraph of an essay about public language.,"
+
+The first thing you should do is to write a short introduction. This is a good way to start your essay. You should also write a short introduction that is short and to the point.
+
+The second thing you should do is to write a short introduction that is",-1.3862831592559814,-77.6318588256836,3.999955192795326,56,127000,0,step16000,-1.3862831592559814,0,127000,
+step143000,143000,step16000,16000,style_opening_017,style_opening,Write the opening paragraph of an essay about rules.,"
+
+The first thing you should do is to write a short introduction. This is a good way to start your essay. You should also write a short introduction that is short and to the point.
+
+The second thing you should do is to write a short introduction that is",-1.7390682697296143,-97.38782501220703,5.692037507569009,56,127000,0,step16000,-1.7390682697296143,0,127000,
+step143000,143000,step16000,16000,style_opening_018,style_opening,Write the opening paragraph of an essay about access.,"
+
+The first thing you should do is to write a short introduction. This is a good way to start your essay. You should also write a short introduction that is short and to the point.
+
+The second thing you should do is to write a short introduction that is",-1.6546303033828735,-92.65929412841797,5.23114562780676,56,127000,0,step16000,-1.6546303033828735,0,127000,
+step143000,143000,step143000,143000,style_opening_019,style_opening,Write the opening paragraph of an essay about expertise and doubt.,"
+
+The essay is a great way to introduce your topic and to get your reader to think about it.
+
+The opening paragraph is the most important part of your essay. It is the first thing your reader will see and it is the first thing they will remember.
+",-1.2727144956588745,-71.27201080322266,3.5705316121038604,56,0,1,step143000,-1.2727144956588745,1,0,
+step143000,143000,step16000,16000,style_opening_020,style_opening,Write the opening paragraph of an essay about common goods.,"
+
+The first thing you should do is to write a short introduction. This is a good way to start your essay. You should also write a short introduction that is short and to the point.
+
+The second thing you should do is to write a conclusion. This is",-1.686421513557434,-94.43960571289062,5.400121825305092,56,127000,0,step16000,-1.686421513557434,0,127000,
+step16000,16000,step128000,128000,advice_001,advice,A student is overwhelmed by choices. What should they do first?," What should they do after? What should they do now?
+
+The first step is to decide what you want to do. You can do this by asking yourself the following questions:
+
+What do I want to do?
+
+What do I want to do now?",-1.0484575033187866,-58.713623046875,2.8532465985491564,56,112000,0,step128000,-1.0484575033187866,0,112000,
+step16000,16000,step64000,64000,advice_001,advice,A student is overwhelmed by choices. What should they do first?," What should they do after? What should they do if they don’t like the way they look?
+
+The answer is simple: they should do nothing.
+
+The first step is to decide what you want to do.
+
+The second step is to decide what",-1.3828020095825195,-77.4369125366211,3.9860549585174567,56,48000,0,step128000,-1.0484575033187866,0,48000,
+step16000,16000,step143000,143000,advice_003,advice,A researcher has collected too much material for one paper. What should they do first?,"
+
+A:
+
+The first thing to do is to find out what you want to say.  If you want to say that the government is not doing enough to protect the environment, then you should say that.  If you want to say that the government is not",-1.217927098274231,-68.20391845703125,3.3801736985370856,56,127000,0,step143000,-1.217927098274231,0,127000,
+step16000,16000,step128000,128000,advice_003,advice,A researcher has collected too much material for one paper. What should they do first?,"
+
+A:
+
+I think the best way to do this is to start with a list of questions that you think are important. Then, you can start writing a paper that answers those questions.
+
+A:
+
+I think the best way to do this is",-1.2299424409866333,-68.87677764892578,3.42103261936029,56,112000,0,step143000,-1.217927098274231,0,112000,
+step16000,16000,step128000,128000,advice_007,advice,A manager inherits a project with unclear ownership. What should they do first?,"
+
+A:
+
+The first thing to do is to make sure that the project is owned by the owner.  If the project is owned by the owner, then the manager should be the owner.  If the project is owned by someone else, then the manager should",-1.1527947187423706,-64.55650329589844,3.167031515562452,56,112000,0,step128000,-1.1527947187423706,0,112000,-0.47916531562805176
+step16000,16000,step143000,143000,advice_007,advice,A manager inherits a project with unclear ownership. What should they do first?,"
+
+A:
+
+The first step is to determine what the project is.  If it's a new project, then you can't just start over.  You need to determine what the project is and what the ownership is.  If it's a new project,",-1.5526530742645264,-86.94857025146484,4.723986659109373,56,127000,0,step128000,-1.1527947187423706,0,127000,-0.47916531562805176
+step16000,16000,step16000,16000,advice_007,advice,A manager inherits a project with unclear ownership. What should they do first?,"
+
+The project is a small, but ambitious, attempt to create a new, more efficient, and more efficient way to run a business. It’s a project that has been around for a while, but it’s not a new idea. It’s a project",-1.6319600343704224,-91.38976287841797,5.113888298682222,56,0,1,step128000,-1.1527947187423706,0,0,-0.47916531562805176
+step16000,16000,step16000,16000,advice_013,advice,A student is falling behind because every assignment feels equally urgent. What should they do first?,"
+
+The first thing to do is to make a list of the things you want to do in the future. This list should be something like this:
+
+1. Write down the things you want to do in the future.
+
+2. Write down the things you",-1.0161153078079224,-56.9024543762207,2.76244265375842,56,0,1,step16000,-1.0161153078079224,1,0,
+step16000,16000,step128000,128000,advice_014,advice,A department wants better mentoring but no one agrees on the problem. What should they do first?,"
+
+A:
+
+I think the best way to solve this is to have a mentor who is a good fit for the role.  This person should be able to help you with the problem, and be able to help you with the mentoring.  This person should",-1.490388035774231,-83.46173095703125,4.438817604892575,56,112000,0,step128000,-1.490388035774231,0,112000,
+step16000,16000,step64000,64000,advice_016,advice,A research assistant has messy notes and a deadline. What should they do first?,"
+
+The first thing to do is to get the research assistant to write a paper. This is a lot of work, and it’s not always easy. The research assistant should be able to write a paper that is both concise and readable.
+
+The research assistant should",-1.482552409172058,-83.02293395996094,4.404172597514448,56,48000,0,step64000,-1.482552409172058,0,48000,
+step16000,16000,step128000,128000,advice_017,advice,A small town wants to improve civic participation. What should it do first?,"
+
+The town of Littleton, Colorado, is a small town with a population of about 1,000. It is located in the foothills of the Rocky Mountains. Littleton is a small town with a population of about 1,000. It is located",-1.12541663646698,-63.02333450317383,3.081500446961806,56,112000,0,step128000,-1.12541663646698,0,112000,
+step16000,16000,step143000,143000,advice_017,advice,A small town wants to improve civic participation. What should it do first?,"
+
+The town of St. Paul, Minnesota, is a small town with a population of about 1,000. It is located in the heart of the Twin Cities metropolitan area. The town is located in the St. Paul-Hennepin County Metropolitan Statistical Area.",-1.3827794790267944,-77.43565368652344,3.9859651514957957,56,127000,0,step128000,-1.12541663646698,0,127000,
+step16000,16000,step128000,128000,advice_019,advice,A student wants to study more effectively but keeps rereading passively. What should they do first?,"
+
+A:
+
+I think the best way to approach this is to think about the problem as a problem of learning.  You want to learn how to do something, but you don't want to learn how to do it well.  You want to learn how to",-1.1589488983154297,-64.90113830566406,3.1865820934014266,56,112000,0,step128000,-1.1589488983154297,0,112000,
+step16000,16000,step64000,64000,advice_019,advice,A student wants to study more effectively but keeps rereading passively. What should they do first?,"
+
+The first thing to do is to get a good grip on the situation. What is the situation? What is the problem? What is the solution?
+
+The problem is that the student is not getting the information he needs. The problem is that he is not getting",-1.3377677202224731,-74.91499328613281,3.810527839989799,56,48000,0,step128000,-1.1589488983154297,0,48000,
+step16000,16000,step16000,16000,advice_020,advice,A nonprofit has an ambitious mission but weak coordination. What should it do first?,"
+
+The nonprofit’s mission is to provide a safe, secure, and affordable place to live for the homeless. It’s a mission that’s been in the works for years, but the nonprofit’s first step is to create a safe, secure, and affordable",-1.3001353740692139,-72.80757904052734,3.6697934288638296,56,0,1,step16000,-1.3001353740692139,1,0,0.0912935733795166
+step16000,16000,step64000,64000,advice_020,advice,A nonprofit has an ambitious mission but weak coordination. What should it do first?,"
+
+The mission of the nonprofit is to provide a safe, affordable, and accessible education for children and their families. The organization is also committed to providing a safe, affordable, and accessible environment for children and their families.
+
+The organization is currently working with the U.",-1.3914289474487305,-77.9200210571289,4.020591163630268,56,48000,0,step16000,-1.3001353740692139,1,48000,0.0912935733795166
+step16000,16000,step143000,143000,advice_020,advice,A nonprofit has an ambitious mission but weak coordination. What should it do first?,"
+
+The organization is called the National Alliance for the Homeless, and it is a nonprofit that works to end homelessness. It has a website, a Facebook page, and a Twitter account. It has a Facebook page with more than 1,000 followers.
+
+The",-1.562947392463684,-87.52505493164062,4.77286804956569,56,127000,0,step16000,-1.3001353740692139,1,127000,0.0912935733795166
+step16000,16000,step128000,128000,argument_001,argument,Give the strongest argument against using exams as the main measure of learning.,"
+
+The argument that exams are the main measure of learning is based on the assumption that the most important thing is the ability to learn. This is a very simplistic view of learning. The most important thing is the ability to learn. The ability to learn is not the only",-1.425475835800171,-79.82664489746094,4.159836771154762,56,112000,0,step128000,-1.425475835800171,0,112000,
+step16000,16000,step143000,143000,argument_001,argument,Give the strongest argument against using exams as the main measure of learning.,"
+
+The most important thing to remember is that the exams are not the only measure of learning. The other things that you need to do are to be consistent in your learning and to be consistent in your learning.
+
+The most important thing to remember is that the exams are",-1.5344562530517578,-85.92955017089844,4.638802509365786,56,127000,0,step128000,-1.425475835800171,0,127000,
+step16000,16000,step143000,143000,argument_002,argument,Give the strongest argument against measuring a city's health only by economic growth.,"
+
+""The city's health is not measured by economic growth,"" he said. ""It's measured by the quality of life of the people who live there.""
+
+The city's health is measured by the quality of life of the people who live there, he said.",-0.9713193774223328,-54.39388656616211,2.6414272007351483,56,127000,0,step143000,-0.9713193774223328,0,127000,
+step16000,16000,step128000,128000,argument_002,argument,Give the strongest argument against measuring a city's health only by economic growth.,"
+
+""The health of a city is not a function of its economic growth,"" said Dr. David H. Kessler, a professor of economics at the University of California, Berkeley. ""It's a function of the health of the people who live there.""
+
+",-1.2975267171859741,-71.36396789550781,3.6602326727634784,55,112000,0,step143000,-0.9713193774223328,0,112000,
+step16000,16000,step64000,64000,argument_003,argument,Give the strongest argument against replacing libraries with fully digital services.,"
+
+The problem with the current approach is that it is not clear how to make the library system more efficient. The current approach is to use a library that is already in use by the user, and then to use the library to provide the service. This is not a very",-1.7675409317016602,-98.98229217529297,5.85643426803114,56,48000,0,step64000,-1.7675409317016602,0,48000,
+step16000,16000,step128000,128000,argument_004,argument,Give the strongest argument against making speed the main value in journalism.,"
+
+I think the main reason for the decline in the number of journalists is that the media is not a business. It is a profession. It is a profession that is not about money. It is about the people who work in it.
+
+The media is not a",-1.9916431903839111,-111.53202056884766,7.327564458696297,56,112000,0,step128000,-1.9916431903839111,0,112000,
+step16000,16000,step143000,143000,argument_007,argument,Give the strongest argument against using attendance as a proxy for engagement.,"
+
+The most important thing to remember is that the more people you have in your life, the more likely you are to have a strong relationship with them.
+
+If you are a single parent, you are more likely to have a strong relationship with your children. If you",-1.2506885528564453,-70.03855895996094,3.492747070659697,56,127000,0,step143000,-1.2506885528564453,0,127000,
+step16000,16000,step64000,64000,argument_007,argument,Give the strongest argument against using attendance as a proxy for engagement.,"
+
+The most important thing to remember is that the more you can do to engage with your students, the more likely you are to get them to engage with you.
+
+The best way to do this is to make sure that you are engaging with your students in a way",-1.3371168375015259,-74.8785400390625,3.808048440247819,56,48000,0,step143000,-1.2506885528564453,0,48000,
+step16000,16000,step143000,143000,argument_008,argument,Give the strongest argument against centralizing all public services in one office.,"
+
+The problem is that the public sector is not a monolithic entity. It is a collection of different departments, each with its own strengths and weaknesses. The public sector is not a monolithic entity. It is a collection of different departments, each with its own strengths and",-1.109751582145691,-62.146087646484375,3.033604699253671,56,127000,0,step143000,-1.109751582145691,0,127000,
+step16000,16000,step16000,16000,argument_009,argument,Give the strongest argument against relying on rankings to compare universities.,"
+
+The University of California, Berkeley, has been ranked as the No. 1 university in the nation for the past two years, according to the University of California, Berkeley, College of Business.
+
+The University of California, Berkeley, has been ranked as the No.",-1.5559241771697998,-87.13175201416016,4.739464606772929,56,0,1,step16000,-1.5559241771697998,1,0,
+step16000,16000,step16000,16000,argument_013,argument,Give the strongest argument against judging writing only by grammar and correctness.,"
+
+The best way to get around this is to make sure that you are not judging by the grammar and correctness of your writing.
+
+The best way to get around this is to make sure that you are not judging by the grammar and correctness of your writing.
+
+",-1.0146681070327759,-55.80674743652344,2.7584477360298627,55,0,1,step16000,-1.0146681070327759,1,0,
+step16000,16000,step143000,143000,argument_015,argument,Give the strongest argument against using one metric to evaluate teachers.,"
+
+The most important thing to remember is that teachers are human beings. They are not robots. They are human beings who have their own unique strengths and weaknesses. They are human beings who have their own unique strengths and weaknesses. They are human beings who have their own unique strengths",-1.3512154817581177,-75.6680679321289,3.8621170116900188,56,127000,0,step143000,-1.3512154817581177,0,127000,-0.1427931785583496
+step16000,16000,step16000,16000,argument_015,argument,Give the strongest argument against using one metric to evaluate teachers.,"
+
+The best way to do this is to use a metric that is a measure of how well teachers are doing. For example, if you are teaching a class of students, you might use the number of students per teacher to evaluate how well they are doing.
+
+The",-1.4940086603164673,-83.66448211669922,4.454918026053097,56,0,1,step143000,-1.3512154817581177,0,0,-0.1427931785583496
+step16000,16000,step64000,64000,argument_019,argument,Give the strongest argument against assuming transparency alone creates trust.,"
+
+The problem with this approach is that it is not clear that the trustworthiness of the evidence is the only issue. The fact that the evidence is not strong enough to support a conclusion that the evidence is trustworthy is not a reason to assume that the evidence is trustworthy.",-1.9461901187896729,-108.98664855957031,7.001960062506804,56,48000,0,step64000,-1.9461901187896729,0,48000,
+step16000,16000,step64000,64000,argument_020,argument,Give the strongest argument against using automation as the default response to every coordination problem.,"
+
+The most important thing to remember is that the best way to solve a coordination problem is to use the best available solution.
+
+The best solution is the one that is most likely to be used by the majority of the population.
+
+The best solution is the one",-1.5886706113815308,-88.9655532836914,4.897234271528206,56,48000,0,step64000,-1.5886706113815308,0,48000,
+step16000,16000,step143000,143000,explanation_004,explanation,Explain why museums use wall labels.,"
+
+The museum’s website says: “The museum is dedicated to the preservation of the history of the city of London and the surrounding area. It is a place where visitors can discover the history of London and the city’s people. The museum is a place where visitors",-2.104879140853882,-117.87322998046875,8.206111166071853,56,127000,0,step143000,-2.104879140853882,0,127000,
+step16000,16000,step128000,128000,explanation_006,explanation,Explain why hospitals use triage systems.,"
+
+The authors have no conflicts of interest to disclose.
+
+![Flow chart of the study.](jgc-16-11-g001){#F1}
+
+![The flow chart of the study.](jgc-16-11-g002){#F2",-2.6660654544830322,-149.29966735839844,14.383266100349326,56,112000,0,step128000,-2.6660654544830322,0,112000,-0.048239946365356445
+step16000,16000,step16000,16000,explanation_006,explanation,Explain why hospitals use triage systems.,"
+
+“We’re not just talking about the numbers, we’re talking about the process,” said Dr. David K. Kuhn, a professor of medicine at the University of California, San Francisco.
+
+“We’re talking about the process of tri",-2.7143054008483887,-152.0010986328125,15.094122065455908,56,0,1,step128000,-2.6660654544830322,0,0,-0.048239946365356445
+step16000,16000,step64000,64000,explanation_006,explanation,Explain why hospitals use triage systems.,"
+
+The authors would like to thank the following people for their help in this study: Dr. David H. B. H. Lee, Dr. David H. B. H. Lee, Dr. David H. B. H. Lee, Dr. David H.",-2.97768235206604,-166.75021362304688,19.642240052839725,56,48000,0,step128000,-2.6660654544830322,0,48000,-0.048239946365356445
+step16000,16000,step143000,143000,explanation_007,explanation,Explain why towns maintain public transit.,"
+
+The city of New York has a long history of public transit. The city’s first subway system opened in 1883, and the city’s first bus system opened in 1905. The city’s first subway line opened in 1909, and the city’s first",-2.119696617126465,-118.70301055908203,8.328610346621904,56,127000,0,step143000,-2.119696617126465,0,127000,-0.17460346221923828
+step16000,16000,step64000,64000,explanation_007,explanation,Explain why towns maintain public transit.,"
+
+The city of San Diego has a public transit system that is the largest in the country. The San Diego Regional Transit Authority (SDRTA) is the largest transit agency in the country. The SDRTA is the largest transit agency in the United States. The SD",-2.264612913131714,-126.81832885742188,9.627397240703042,56,48000,0,step143000,-2.119696617126465,0,48000,-0.17460346221923828
+step16000,16000,step16000,16000,explanation_007,explanation,Explain why towns maintain public transit.,"
+
+“We’re not going to be able to do this without public transportation,” said Mayor John Hancock. “We’re going to have to do this on a local level.”
+
+The city is also considering a proposal to build a new $1.5",-2.294300079345703,-128.48080444335938,9.91749212490668,56,0,1,step143000,-2.119696617126465,0,0,-0.17460346221923828
+step16000,16000,step128000,128000,explanation_007,explanation,Explain why towns maintain public transit.,"
+
+The city of New York has a long history of public transit. The city’s first subway system was built in 1883, and the first subway car was built in the Bronx in 1904. The city’s first subway car was the first subway car in the world",-2.321781873703003,-130.01979064941406,10.193822236387794,56,112000,0,step143000,-2.119696617126465,0,112000,-0.17460346221923828
+step16000,16000,step64000,64000,explanation_009,explanation,Explain why universities require office hours.,"
+
+The University of California, Berkeley, has a long history of being a leader in the field of education. In the early 1900s, the university was the first to offer a full-time, full-time, full-time, full-time, full-time",-1.6421200037002563,-91.9587173461914,5.166110083604338,56,48000,0,step64000,-1.6421200037002563,0,48000,
+step16000,16000,step128000,128000,explanation_009,explanation,Explain why universities require office hours.,"
+
+The University of California, Berkeley, has a long history of providing free, on-campus office hours to its students. The university has also been a leader in the development of technology that allows students to work remotely from home.
+
+The university has also been a",-1.7193225622177124,-96.28206634521484,5.580746574840122,56,112000,0,step64000,-1.6421200037002563,0,112000,
+step16000,16000,step143000,143000,explanation_009,explanation,Explain why universities require office hours.,"
+
+The University of California, Berkeley, has a long history of providing free, on-campus office hours to its students. The university has also been a leader in the development of the Office of Student Affairs, which provides a range of services to students, including advising,",-2.393139600753784,-134.0158233642578,10.947811800848564,56,127000,0,step64000,-1.6421200037002563,0,127000,
+step16000,16000,step64000,64000,explanation_010,explanation,Explain why software teams use version control.,"
+
+The following are some of the most common reasons why software teams use version control:
+
+1. Version control is a way to ensure that your software is always up to date.
+
+2. Version control is a way to ensure that your software is always up to",-1.598054051399231,-89.49102783203125,4.943403449662769,56,48000,0,step64000,-1.598054051399231,0,48000,
+step16000,16000,step128000,128000,explanation_010,explanation,Explain why software teams use version control.,"
+
+The first step in version control is to create a version control system. This is a system that allows you to track changes in your code. Version control systems are used to track changes in your code.
+
+Version control systems are used to track changes in your code.",-1.9887921810150146,-111.37236022949219,7.30670325564646,56,112000,0,step64000,-1.598054051399231,0,112000,
+step16000,16000,step64000,64000,explanation_011,explanation,Explain why newspapers keep corrections pages.,"
+
+The first thing to note is that the corrections page is not a page that is automatically generated. It is a page that is manually created by the editor. The editor is responsible for creating the page and for making sure that it is correct.
+
+The second thing to",-2.6997108459472656,-151.18380737304688,14.875429812128713,56,48000,0,step64000,-2.6997108459472656,0,48000,
+step16000,16000,step64000,64000,explanation_012,explanation,Explain why research groups maintain lab notebooks.,"
+
+The research groups are also required to keep a journal of their research.
+
+The journal should be kept in a locked cabinet and should be kept in a locked cabinet with a lock.
+
+The journal should be kept in a locked cabinet with a lock.
+
+",-2.9398415088653564,-161.6912841796875,18.91284855587545,55,48000,0,step64000,-2.9398415088653564,0,48000,
+step16000,16000,step16000,16000,explanation_013,explanation,Explain why legislatures use committees.,"
+
+The committee’s report, which was released in January, said the state’s “unprecedented” use of the committee’s powers to “create and implement” a new law “is a violation of the state’s constitutional right to a public hearing.”
+",-2.1036319732666016,-117.80339050292969,8.195883149558993,56,0,1,step16000,-2.1036319732666016,1,0,
+step16000,16000,step16000,16000,explanation_014,explanation,Explain why cities zone industrial districts.,"
+
+The city of San Francisco has been criticized for its lack of industrial districts, and the city’s industrial districts are often the most expensive in the country.
+
+The city’s industrial districts are often the most expensive in the country.
+
+The city’s",-2.4081990718841553,-134.85914611816406,11.113927726186693,56,0,1,step16000,-2.4081990718841553,1,0,1.437736988067627
+step16000,16000,step128000,128000,explanation_014,explanation,Explain why cities zone industrial districts.,"
+
+The city of New York has a long history of zoning. In the early 1900s, the city was a leader in the development of the industrial districts. The city’s first zoning ordinance was passed in 1883, and the first zoning ordinance was passed in New York",-3.8459360599517822,-215.37242126464844,46.80247377429648,56,112000,0,step16000,-2.4081990718841553,1,112000,1.437736988067627
+step16000,16000,step128000,128000,explanation_015,explanation,Explain why conferences use peer review.,"
+
+The peer review process is a critical component of the process of peer review. Peer review is a process in which a group of reviewers reviews a paper and makes a decision about whether or not to accept the paper. Peer review is a process in which a group of reviewers reviews",-1.7459527254104614,-97.77335357666016,5.731359286739671,56,112000,0,step128000,-1.7459527254104614,0,112000,
+step16000,16000,step16000,16000,judgment_004,judgment,Should a workplace optimize for speed or careful review when deadlines are tight?,"
+
+The answer is yes.
+
+The most important thing to remember is that you should not be too quick to judge a company’s performance.
+
+The best way to do this is to make sure that you are not too quick to judge a company’s performance",-1.3564895391464233,-75.96341705322266,3.8825398467124264,56,0,1,step16000,-1.3564895391464233,1,0,
+step16000,16000,step143000,143000,judgment_008,judgment,Should a newsroom publish quickly with updates or wait for fuller confirmation?,"
+
+I’m not sure I’d call it a “newsroom” but I’m sure it’s a place where people can get their news.
+
+I’m not sure I’d call it a “newsroom” but I’m sure",-1.133430004119873,-63.47208023071289,3.106292845600267,56,127000,0,step143000,-1.133430004119873,0,127000,
+step16000,16000,step64000,64000,judgment_009,judgment,Should a university require broad general education or early specialization?,"
+
+I am a graduate student in the field of education. I am interested in the question of whether a university should require broad general education or early specialization. I am not sure if I understand the question correctly.
+
+A:
+
+The question is not about whether a",-1.3851168155670166,-77.56654357910156,3.995292589927349,56,48000,0,step64000,-1.3851168155670166,0,48000,
+step16000,16000,step128000,128000,judgment_009,judgment,Should a university require broad general education or early specialization?,"
+
+A:
+
+The answer is yes.
+The University of California, Berkeley, has a general education requirement for all students.  The requirement is that the student must have a general education in the sciences, mathematics, and the humanities.  The requirement is not",-1.60768723487854,-90.03048706054688,4.991254269932578,56,112000,0,step64000,-1.3851168155670166,0,112000,
+step16000,16000,step64000,64000,judgment_010,judgment,Should a team reuse old tools or switch to a more capable but riskier system?,"
+
+I'm not sure if this is a good question, but I'm curious about the pros and cons of using a different tool for different tasks.
+
+A:
+
+I would say that it's a good idea to use a tool that is more capable than the",-1.381019949913025,-77.33712005615234,3.9789578963078616,56,48000,0,step64000,-1.381019949913025,0,48000,
+step16000,16000,step128000,128000,judgment_010,judgment,Should a team reuse old tools or switch to a more capable but riskier system?,"
+
+I'm not sure if this is a good question, but I'm wondering if there is a way to make a team that has been using a tool for a while, but is now using a new tool, and then switch to the new tool.
+
+A:",-1.540995478630066,-86.29574584960938,4.669236082940509,56,112000,0,step64000,-1.381019949913025,0,112000,
+step16000,16000,step64000,64000,judgment_013,judgment,Should a community preserve a historic building or replace it with housing?,"
+
+The answer is yes.
+
+The City of San Diego has a historic building that is being preserved and is being used as a community center. The building is located in the heart of the city and is a great example of how a community can preserve a historic building.",-1.9444786310195923,-108.89080047607422,6.989986542682329,56,48000,0,step64000,-1.9444786310195923,0,48000,
+step16000,16000,step64000,64000,judgment_014,judgment,Should a school ban phones outright or regulate their use?,"
+
+I’m not sure what you mean by “ban phones outright” but I’m sure you’re referring to the fact that the FCC has not yet decided whether or not to ban phones outright.
+
+I’m not sure what you mean by “regulate",-1.4012203216552734,-78.46833801269531,4.06015163588066,56,48000,0,step64000,-1.4012203216552734,0,48000,
+step16000,16000,step16000,16000,judgment_016,judgment,Should an editor favor clarity or stylistic individuality in a student essay?,"
+
+The following is a list of the most common questions asked by students in the course of writing a student essay.
+
+1. What is the purpose of the essay?
+
+2. What is the purpose of the essay?
+
+3. What is the purpose",-1.2471593618392944,-69.84092712402344,3.4804422249198668,56,0,1,step16000,-1.2471593618392944,1,0,
+step16000,16000,step64000,64000,judgment_017,judgment,Should a town build a large central park or several smaller parks?,"
+
+I think it's a good idea to have a central park. It's a great place to get away from the hustle and bustle of the city. It's also a great place to get away from the city.
+
+I think it's a good idea",-1.1602020263671875,-64.9713134765625,3.1905777918499227,56,48000,0,step64000,-1.1602020263671875,0,48000,
+step16000,16000,step143000,143000,judgment_017,judgment,Should a town build a large central park or several smaller parks?,"
+
+I think that the answer is yes.
+
+The problem is that the parks are not large enough to support the number of people who would use them.
+
+The parks are not large enough to support the number of people who would use them.
+
+The parks",-1.2735928297042847,-71.32119750976562,3.573669109262563,56,127000,0,step64000,-1.1602020263671875,0,127000,
+step16000,16000,step16000,16000,judgment_018,judgment,Should an instructor prioritize mastery or coverage in a difficult course?,"
+
+The answer is yes.
+
+The question is, “What is the most important thing you can do to improve your mastery of a difficult course?”
+
+The answer is, “I don’t know.”
+
+The question is, “What is the most",-1.1968573331832886,-67.02400970458984,3.3096992796205527,56,0,1,step16000,-1.1968573331832886,1,0,0.14473986625671387
+step16000,16000,step128000,128000,judgment_018,judgment,Should an instructor prioritize mastery or coverage in a difficult course?,"
+
+I’ve been teaching for over 20 years and I’ve never seen a course that was so difficult that I couldn’t get through it. I’ve taught in many different settings, but I’ve never seen a course that was so difficult that I couldn",-1.3415971994400024,-75.12944030761719,3.825148153386882,56,112000,0,step16000,-1.1968573331832886,1,112000,0.14473986625671387
+step16000,16000,step64000,64000,judgment_018,judgment,Should an instructor prioritize mastery or coverage in a difficult course?,"
+
+I’m not sure if this is a question that I’m asking, but I’m curious about the answer. I’m a high school teacher and I’ve been teaching for about a year now. I’ve been teaching for about a year and",-1.4229050874710083,-79.68268585205078,4.149156611608753,56,48000,0,step16000,-1.1968573331832886,1,48000,0.14473986625671387
+step16000,16000,step16000,16000,style_opening_001,style_opening,Write the opening paragraph of an essay about memory.,"
+
+The first thing you should do is to write a short introduction. This is a good way to start your essay. You should also write a short introduction that is short and to the point.
+
+The second thing you should do is to write a short introduction that is",-1.5353386402130127,-85.97896575927734,4.642897535577223,56,0,1,step16000,-1.5353386402130127,1,0,
+step16000,16000,step16000,16000,style_opening_006,style_opening,Write the opening paragraph of an essay about public attention.,"
+
+The first thing you should do is to write a short introduction. This is a good way to start your essay. You should also write a short introduction that is short and to the point.
+
+The second thing you should do is to write a short introduction that is",-1.5963846445083618,-89.39753723144531,4.935157782481363,56,0,1,step16000,-1.5963846445083618,1,0,0.10882771015167236
+step16000,16000,step143000,143000,style_opening_006,style_opening,Write the opening paragraph of an essay about public attention.,"
+
+The essay is a great way to get your point across. It’s also a great way to get your point across to your audience.
+
+The opening paragraph is the most important part of your essay. It’s the first thing that your audience sees when they",-1.7052123546600342,-95.49188995361328,5.502554036144478,56,127000,0,step16000,-1.5963846445083618,1,127000,0.10882771015167236
+step16000,16000,step16000,16000,style_opening_010,style_opening,Write the opening paragraph of an essay about maintenance.,"
+
+The first thing you should do is to write a short introduction. This is a good way to introduce yourself to the reader and to make them feel comfortable with you.
+
+The second thing you should do is to write a short conclusion. This is a good way to",-2.0422661304473877,-114.36690521240234,7.708056884442624,56,0,1,step16000,-2.0422661304473877,1,0,
+step16000,16000,step16000,16000,style_opening_011,style_opening,Write the opening paragraph of an essay about attention.,"
+
+The first thing you should do is to write a short introduction. This is a good way to start your essay. You should also write a short introduction that is short and to the point.
+
+The second thing you should do is to write a short introduction that is",-1.5844862461090088,-88.73123168945312,4.876785267399031,56,0,1,step16000,-1.5844862461090088,1,0,
+step16000,16000,step16000,16000,style_opening_013,style_opening,Write the opening paragraph of an essay about delay.,"
+
+The first thing you should do is to write a short introduction. This is a good way to introduce yourself to the reader and to make them feel comfortable with you.
+
+The second thing you should do is to write a short conclusion. This is a good way to",-1.5165634155273438,-84.92755126953125,4.556539325376939,56,0,1,step16000,-1.5165634155273438,1,0,
+step16000,16000,step16000,16000,style_opening_015,style_opening,Write the opening paragraph of an essay about archives.,"
+
+The first thing you should do is to write a short introduction. This is a good way to start your essay. You should also write a short introduction that is short and to the point.
+
+The second thing you should do is to write a short introduction that is",-1.4986371994018555,-83.9236831665039,4.475585581655953,56,0,1,step16000,-1.4986371994018555,1,0,0.218017578125
+step16000,16000,step64000,64000,style_opening_015,style_opening,Write the opening paragraph of an essay about archives.,"
+
+The first thing you need to do is to find a good place to start. You can start by looking at the website of the university or college you are applying to. You can also look at the university’s website and see if there are any other places that you",-1.7166547775268555,-96.1326675415039,5.565878186212276,56,48000,0,step16000,-1.4986371994018555,1,48000,0.218017578125
+step16000,16000,step16000,16000,style_opening_016,style_opening,Write the opening paragraph of an essay about public language.,"
+
+The first thing you should do is to write a short introduction. This is a good way to start your essay. You should also write a short introduction that is short and to the point.
+
+The second thing you should do is to write a short introduction that is",-1.2780832052230835,-71.57266235351562,3.5897523083203207,56,0,1,step16000,-1.2780832052230835,1,0,
+step16000,16000,step16000,16000,style_opening_017,style_opening,Write the opening paragraph of an essay about rules.,"
+
+The first thing you should do is to write a short introduction. This is a good way to start your essay. You should also write a short introduction that is short and to the point.
+
+The second thing you should do is to write a short introduction that is",-1.6930571794509888,-94.81120300292969,5.4360743821780195,56,0,1,step16000,-1.6930571794509888,1,0,
+step16000,16000,step16000,16000,style_opening_018,style_opening,Write the opening paragraph of an essay about access.,"
+
+The first thing you should do is to write a short introduction. This is a good way to start your essay. You should also write a short introduction that is short and to the point.
+
+The second thing you should do is to write a short introduction that is",-1.511753797531128,-84.65821075439453,4.5346767293493455,56,0,1,step16000,-1.511753797531128,1,0,
+step16000,16000,step143000,143000,style_opening_019,style_opening,Write the opening paragraph of an essay about expertise and doubt.,"
+
+The essay is a great way to introduce your topic and to get your reader to think about it.
+
+The opening paragraph is the most important part of your essay. It is the first thing your reader will see and it is the first thing they will remember.
+",-1.5866916179656982,-88.85472869873047,4.887552260626873,56,127000,0,step143000,-1.5866916179656982,0,127000,
+step16000,16000,step16000,16000,style_opening_020,style_opening,Write the opening paragraph of an essay about common goods.,"
+
+The first thing you should do is to write a short introduction. This is a good way to start your essay. You should also write a short introduction that is short and to the point.
+
+The second thing you should do is to write a conclusion. This is",-1.5982820987701416,-89.50379943847656,4.944530908374927,56,0,1,step16000,-1.5982820987701416,1,0,
+step64000,64000,step128000,128000,advice_001,advice,A student is overwhelmed by choices. What should they do first?," What should they do after? What should they do now?
+
+The first step is to decide what you want to do. You can do this by asking yourself the following questions:
+
+What do I want to do?
+
+What do I want to do now?",-1.0441524982452393,-58.47254180908203,2.8409897592736852,56,64000,0,step128000,-1.0441524982452393,0,64000,-0.21891725063323975
+step64000,64000,step64000,64000,advice_001,advice,A student is overwhelmed by choices. What should they do first?," What should they do after? What should they do if they don’t like the way they look?
+
+The answer is simple: they should do nothing.
+
+The first step is to decide what you want to do.
+
+The second step is to decide what",-1.263069748878479,-70.73190307617188,3.536260273686986,56,0,1,step128000,-1.0441524982452393,0,0,-0.21891725063323975
+step64000,64000,step143000,143000,advice_003,advice,A researcher has collected too much material for one paper. What should they do first?,"
+
+A:
+
+The first thing to do is to find out what you want to say.  If you want to say that the government is not doing enough to protect the environment, then you should say that.  If you want to say that the government is not",-1.159434199333191,-64.92831420898438,3.188128920242496,56,79000,0,step143000,-1.159434199333191,0,79000,
+step64000,64000,step128000,128000,advice_003,advice,A researcher has collected too much material for one paper. What should they do first?,"
+
+A:
+
+I think the best way to do this is to start with a list of questions that you think are important. Then, you can start writing a paper that answers those questions.
+
+A:
+
+I think the best way to do this is",-1.2408198118209839,-69.48590850830078,3.4584475790913216,56,64000,0,step143000,-1.159434199333191,0,64000,
+step64000,64000,step128000,128000,advice_007,advice,A manager inherits a project with unclear ownership. What should they do first?,"
+
+A:
+
+The first thing to do is to make sure that the project is owned by the owner.  If the project is owned by the owner, then the manager should be the owner.  If the project is owned by someone else, then the manager should",-1.0443187952041626,-58.48185348510742,2.8414622465164916,56,64000,0,step128000,-1.0443187952041626,0,64000,
+step64000,64000,step143000,143000,advice_007,advice,A manager inherits a project with unclear ownership. What should they do first?,"
+
+A:
+
+The first step is to determine what the project is.  If it's a new project, then you can't just start over.  You need to determine what the project is and what the ownership is.  If it's a new project,",-1.440418004989624,-80.66340637207031,4.222460457696357,56,79000,0,step128000,-1.0443187952041626,0,79000,
+step64000,64000,step16000,16000,advice_007,advice,A manager inherits a project with unclear ownership. What should they do first?,"
+
+The project is a small, but ambitious, attempt to create a new, more efficient, and more efficient way to run a business. It’s a project that has been around for a while, but it’s not a new idea. It’s a project",-1.7281192541122437,-96.7746810913086,5.630055241609443,56,48000,0,step128000,-1.0443187952041626,0,48000,
+step64000,64000,step16000,16000,advice_013,advice,A student is falling behind because every assignment feels equally urgent. What should they do first?,"
+
+The first thing to do is to make a list of the things you want to do in the future. This list should be something like this:
+
+1. Write down the things you want to do in the future.
+
+2. Write down the things you",-1.1759436130523682,-65.85284423828125,3.2411999398690474,56,48000,0,step16000,-1.1759436130523682,0,48000,
+step64000,64000,step128000,128000,advice_014,advice,A department wants better mentoring but no one agrees on the problem. What should they do first?,"
+
+A:
+
+I think the best way to solve this is to have a mentor who is a good fit for the role.  This person should be able to help you with the problem, and be able to help you with the mentoring.  This person should",-1.4271467924118042,-79.92021942138672,4.16679348847859,56,64000,0,step128000,-1.4271467924118042,0,64000,
+step64000,64000,step64000,64000,advice_016,advice,A research assistant has messy notes and a deadline. What should they do first?,"
+
+The first thing to do is to get the research assistant to write a paper. This is a lot of work, and it’s not always easy. The research assistant should be able to write a paper that is both concise and readable.
+
+The research assistant should",-1.3471659421920776,-75.44129180908203,3.846508840325813,56,0,1,step64000,-1.3471659421920776,1,0,
+step64000,64000,step128000,128000,advice_017,advice,A small town wants to improve civic participation. What should it do first?,"
+
+The town of Littleton, Colorado, is a small town with a population of about 1,000. It is located in the foothills of the Rocky Mountains. Littleton is a small town with a population of about 1,000. It is located",-1.0242507457733154,-57.3580436706543,2.7850079996289687,56,64000,0,step128000,-1.0242507457733154,0,64000,
+step64000,64000,step143000,143000,advice_017,advice,A small town wants to improve civic participation. What should it do first?,"
+
+The town of St. Paul, Minnesota, is a small town with a population of about 1,000. It is located in the heart of the Twin Cities metropolitan area. The town is located in the St. Paul-Hennepin County Metropolitan Statistical Area.",-1.3107155561447144,-73.40007019042969,3.708826636628338,56,79000,0,step128000,-1.0242507457733154,0,79000,
+step64000,64000,step128000,128000,advice_019,advice,A student wants to study more effectively but keeps rereading passively. What should they do first?,"
+
+A:
+
+I think the best way to approach this is to think about the problem as a problem of learning.  You want to learn how to do something, but you don't want to learn how to do it well.  You want to learn how to",-1.0968856811523438,-61.42559814453125,2.9948246466404247,56,64000,0,step128000,-1.0968856811523438,0,64000,-0.13501954078674316
+step64000,64000,step64000,64000,advice_019,advice,A student wants to study more effectively but keeps rereading passively. What should they do first?,"
+
+The first thing to do is to get a good grip on the situation. What is the situation? What is the problem? What is the solution?
+
+The problem is that the student is not getting the information he needs. The problem is that he is not getting",-1.231905221939087,-68.9866943359375,3.4277539511164337,56,0,1,step128000,-1.0968856811523438,0,0,-0.13501954078674316
+step64000,64000,step64000,64000,advice_020,advice,A nonprofit has an ambitious mission but weak coordination. What should it do first?,"
+
+The mission of the nonprofit is to provide a safe, affordable, and accessible education for children and their families. The organization is also committed to providing a safe, affordable, and accessible environment for children and their families.
+
+The organization is currently working with the U.",-1.3121274709701538,-73.47914123535156,3.7140668824614314,56,0,1,step64000,-1.3121274709701538,1,0,0.08663880825042725
+step64000,64000,step16000,16000,advice_020,advice,A nonprofit has an ambitious mission but weak coordination. What should it do first?,"
+
+The nonprofit’s mission is to provide a safe, secure, and affordable place to live for the homeless. It’s a mission that’s been in the works for years, but the nonprofit’s first step is to create a safe, secure, and affordable",-1.398766279220581,-78.3309097290039,4.05020006725507,56,48000,0,step64000,-1.3121274709701538,1,48000,0.08663880825042725
+step64000,64000,step143000,143000,advice_020,advice,A nonprofit has an ambitious mission but weak coordination. What should it do first?,"
+
+The organization is called the National Alliance for the Homeless, and it is a nonprofit that works to end homelessness. It has a website, a Facebook page, and a Twitter account. It has a Facebook page with more than 1,000 followers.
+
+The",-1.4287774562835693,-80.01153564453125,4.173593670980479,56,79000,0,step64000,-1.3121274709701538,1,79000,0.08663880825042725
+step64000,64000,step128000,128000,argument_001,argument,Give the strongest argument against using exams as the main measure of learning.,"
+
+The argument that exams are the main measure of learning is based on the assumption that the most important thing is the ability to learn. This is a very simplistic view of learning. The most important thing is the ability to learn. The ability to learn is not the only",-1.2971256971359253,-72.6390380859375,3.6587651403484847,56,64000,0,step128000,-1.2971256971359253,0,64000,
+step64000,64000,step143000,143000,argument_001,argument,Give the strongest argument against using exams as the main measure of learning.,"
+
+The most important thing to remember is that the exams are not the only measure of learning. The other things that you need to do are to be consistent in your learning and to be consistent in your learning.
+
+The most important thing to remember is that the exams are",-1.3983761072158813,-78.3090591430664,4.048620100824773,56,79000,0,step128000,-1.2971256971359253,0,79000,
+step64000,64000,step143000,143000,argument_002,argument,Give the strongest argument against measuring a city's health only by economic growth.,"
+
+""The city's health is not measured by economic growth,"" he said. ""It's measured by the quality of life of the people who live there.""
+
+The city's health is measured by the quality of life of the people who live there, he said.",-0.9877125024795532,-55.3119010925293,2.6850853159382067,56,79000,0,step143000,-0.9877125024795532,0,79000,
+step64000,64000,step128000,128000,argument_002,argument,Give the strongest argument against measuring a city's health only by economic growth.,"
+
+""The health of a city is not a function of its economic growth,"" said Dr. David H. Kessler, a professor of economics at the University of California, Berkeley. ""It's a function of the health of the people who live there.""
+
+",-1.2413661479949951,-68.27513885498047,3.4603375703479857,55,64000,0,step143000,-0.9877125024795532,0,64000,
+step64000,64000,step64000,64000,argument_003,argument,Give the strongest argument against replacing libraries with fully digital services.,"
+
+The problem with the current approach is that it is not clear how to make the library system more efficient. The current approach is to use a library that is already in use by the user, and then to use the library to provide the service. This is not a very",-1.7202167510986328,-96.33213806152344,5.585739048148985,56,0,1,step64000,-1.7202167510986328,1,0,
+step64000,64000,step128000,128000,argument_004,argument,Give the strongest argument against making speed the main value in journalism.,"
+
+I think the main reason for the decline in the number of journalists is that the media is not a business. It is a profession. It is a profession that is not about money. It is about the people who work in it.
+
+The media is not a",-1.8801714181900024,-105.28959655761719,6.5546283484230345,56,64000,0,step128000,-1.8801714181900024,0,64000,
+step64000,64000,step143000,143000,argument_007,argument,Give the strongest argument against using attendance as a proxy for engagement.,"
+
+The most important thing to remember is that the more people you have in your life, the more likely you are to have a strong relationship with them.
+
+If you are a single parent, you are more likely to have a strong relationship with your children. If you",-1.1667299270629883,-65.33687591552734,3.211473695826508,56,79000,0,step143000,-1.1667299270629883,0,79000,-0.047364234924316406
+step64000,64000,step64000,64000,argument_007,argument,Give the strongest argument against using attendance as a proxy for engagement.,"
+
+The most important thing to remember is that the more you can do to engage with your students, the more likely you are to get them to engage with you.
+
+The best way to do this is to make sure that you are engaging with your students in a way",-1.2140941619873047,-67.98927307128906,3.3672425061615336,56,0,1,step143000,-1.1667299270629883,0,0,-0.047364234924316406
+step64000,64000,step143000,143000,argument_008,argument,Give the strongest argument against centralizing all public services in one office.,"
+
+The problem is that the public sector is not a monolithic entity. It is a collection of different departments, each with its own strengths and weaknesses. The public sector is not a monolithic entity. It is a collection of different departments, each with its own strengths and",-1.153148889541626,-64.57633972167969,3.1681533843004326,56,79000,0,step143000,-1.153148889541626,0,79000,
+step64000,64000,step16000,16000,argument_009,argument,Give the strongest argument against relying on rankings to compare universities.,"
+
+The University of California, Berkeley, has been ranked as the No. 1 university in the nation for the past two years, according to the University of California, Berkeley, College of Business.
+
+The University of California, Berkeley, has been ranked as the No.",-1.6334232091903687,-91.4717025756836,5.121376288055717,56,48000,0,step16000,-1.6334232091903687,0,48000,
+step64000,64000,step16000,16000,argument_013,argument,Give the strongest argument against judging writing only by grammar and correctness.,"
+
+The best way to get around this is to make sure that you are not judging by the grammar and correctness of your writing.
+
+The best way to get around this is to make sure that you are not judging by the grammar and correctness of your writing.
+
+",-1.0763261318206787,-59.19793701171875,2.9338810348729827,55,48000,0,step16000,-1.0763261318206787,0,48000,
+step64000,64000,step143000,143000,argument_015,argument,Give the strongest argument against using one metric to evaluate teachers.,"
+
+The most important thing to remember is that teachers are human beings. They are not robots. They are human beings who have their own unique strengths and weaknesses. They are human beings who have their own unique strengths and weaknesses. They are human beings who have their own unique strengths",-1.219411015510559,-68.28701782226562,3.385193319980413,56,79000,0,step143000,-1.219411015510559,0,79000,
+step64000,64000,step16000,16000,argument_015,argument,Give the strongest argument against using one metric to evaluate teachers.,"
+
+The best way to do this is to use a metric that is a measure of how well teachers are doing. For example, if you are teaching a class of students, you might use the number of students per teacher to evaluate how well they are doing.
+
+The",-1.6274460554122925,-91.13697814941406,5.0908563365123145,56,48000,0,step143000,-1.219411015510559,0,48000,
+step64000,64000,step64000,64000,argument_019,argument,Give the strongest argument against assuming transparency alone creates trust.,"
+
+The problem with this approach is that it is not clear that the trustworthiness of the evidence is the only issue. The fact that the evidence is not strong enough to support a conclusion that the evidence is trustworthy is not a reason to assume that the evidence is trustworthy.",-1.7636604309082031,-98.76498413085938,5.833752407159261,56,0,1,step64000,-1.7636604309082031,1,0,
+step64000,64000,step64000,64000,argument_020,argument,Give the strongest argument against using automation as the default response to every coordination problem.,"
+
+The most important thing to remember is that the best way to solve a coordination problem is to use the best available solution.
+
+The best solution is the one that is most likely to be used by the majority of the population.
+
+The best solution is the one",-1.5326908826828003,-85.8306884765625,4.630620529106011,56,0,1,step64000,-1.5326908826828003,1,0,
+step64000,64000,step143000,143000,explanation_004,explanation,Explain why museums use wall labels.,"
+
+The museum’s website says: “The museum is dedicated to the preservation of the history of the city of London and the surrounding area. It is a place where visitors can discover the history of London and the city’s people. The museum is a place where visitors",-2.0275766849517822,-113.5442886352539,7.5956573673730325,56,79000,0,step143000,-2.0275766849517822,0,79000,
+step64000,64000,step128000,128000,explanation_006,explanation,Explain why hospitals use triage systems.,"
+
+The authors have no conflicts of interest to disclose.
+
+![Flow chart of the study.](jgc-16-11-g001){#F1}
+
+![The flow chart of the study.](jgc-16-11-g002){#F2",-2.361747980117798,-132.2578887939453,10.609480414411932,56,64000,0,step128000,-2.361747980117798,0,64000,-0.3713502883911133
+step64000,64000,step64000,64000,explanation_006,explanation,Explain why hospitals use triage systems.,"
+
+The authors would like to thank the following people for their help in this study: Dr. David H. B. H. Lee, Dr. David H. B. H. Lee, Dr. David H. B. H. Lee, Dr. David H.",-2.733098268508911,-153.05349731445312,15.380466089217384,56,0,1,step128000,-2.361747980117798,0,0,-0.3713502883911133
+step64000,64000,step16000,16000,explanation_006,explanation,Explain why hospitals use triage systems.,"
+
+“We’re not just talking about the numbers, we’re talking about the process,” said Dr. David K. Kuhn, a professor of medicine at the University of California, San Francisco.
+
+“We’re talking about the process of tri",-2.746237277984619,-153.78929138183594,15.583883604854584,56,48000,0,step128000,-2.361747980117798,0,48000,-0.3713502883911133
+step64000,64000,step64000,64000,explanation_007,explanation,Explain why towns maintain public transit.,"
+
+The city of San Diego has a public transit system that is the largest in the country. The San Diego Regional Transit Authority (SDRTA) is the largest transit agency in the country. The SDRTA is the largest transit agency in the United States. The SD",-2.043013572692871,-114.40876007080078,7.713820365454917,56,0,1,step64000,-2.043013572692871,1,0,0.17069363594055176
+step64000,64000,step143000,143000,explanation_007,explanation,Explain why towns maintain public transit.,"
+
+The city of New York has a long history of public transit. The city’s first subway system opened in 1883, and the city’s first bus system opened in 1905. The city’s first subway line opened in 1909, and the city’s first",-2.213707208633423,-123.96760559082031,9.149572973480716,56,79000,0,step64000,-2.043013572692871,1,79000,0.17069363594055176
+step64000,64000,step128000,128000,explanation_007,explanation,Explain why towns maintain public transit.,"
+
+The city of New York has a long history of public transit. The city’s first subway system was built in 1883, and the first subway car was built in the Bronx in 1904. The city’s first subway car was the first subway car in the world",-2.376091480255127,-133.06112670898438,10.762754111019834,56,64000,0,step64000,-2.043013572692871,1,64000,0.17069363594055176
+step64000,64000,step16000,16000,explanation_007,explanation,Explain why towns maintain public transit.,"
+
+“We’re not going to be able to do this without public transportation,” said Mayor John Hancock. “We’re going to have to do this on a local level.”
+
+The city is also considering a proposal to build a new $1.5",-2.422694444656372,-135.67088317871094,11.276201519757924,56,48000,0,step64000,-2.043013572692871,1,48000,0.17069363594055176
+step64000,64000,step64000,64000,explanation_009,explanation,Explain why universities require office hours.,"
+
+The University of California, Berkeley, has a long history of being a leader in the field of education. In the early 1900s, the university was the first to offer a full-time, full-time, full-time, full-time, full-time",-1.5688896179199219,-87.85781860351562,4.801313939833635,56,0,1,step64000,-1.5688896179199219,1,0,0.1661052703857422
+step64000,64000,step128000,128000,explanation_009,explanation,Explain why universities require office hours.,"
+
+The University of California, Berkeley, has a long history of providing free, on-campus office hours to its students. The university has also been a leader in the development of technology that allows students to work remotely from home.
+
+The university has also been a",-1.734994888305664,-97.15971374511719,5.668898826052897,56,64000,0,step64000,-1.5688896179199219,1,64000,0.1661052703857422
+step64000,64000,step143000,143000,explanation_009,explanation,Explain why universities require office hours.,"
+
+The University of California, Berkeley, has a long history of providing free, on-campus office hours to its students. The university has also been a leader in the development of the Office of Student Affairs, which provides a range of services to students, including advising,",-2.335723400115967,-130.80050659179688,10.336934965275255,56,79000,0,step64000,-1.5688896179199219,1,79000,0.1661052703857422
+step64000,64000,step64000,64000,explanation_010,explanation,Explain why software teams use version control.,"
+
+The following are some of the most common reasons why software teams use version control:
+
+1. Version control is a way to ensure that your software is always up to date.
+
+2. Version control is a way to ensure that your software is always up to",-1.4540656805038452,-81.42768096923828,4.28048225866315,56,0,1,step64000,-1.4540656805038452,1,0,0.2846200466156006
+step64000,64000,step128000,128000,explanation_010,explanation,Explain why software teams use version control.,"
+
+The first step in version control is to create a version control system. This is a system that allows you to track changes in your code. Version control systems are used to track changes in your code.
+
+Version control systems are used to track changes in your code.",-1.7386857271194458,-97.36640167236328,5.689860477113692,56,64000,0,step64000,-1.4540656805038452,1,64000,0.2846200466156006
+step64000,64000,step64000,64000,explanation_011,explanation,Explain why newspapers keep corrections pages.,"
+
+The first thing to note is that the corrections page is not a page that is automatically generated. It is a page that is manually created by the editor. The editor is responsible for creating the page and for making sure that it is correct.
+
+The second thing to",-2.394984722137451,-134.119140625,10.968030489738117,56,0,1,step64000,-2.394984722137451,1,0,
+step64000,64000,step64000,64000,explanation_012,explanation,Explain why research groups maintain lab notebooks.,"
+
+The research groups are also required to keep a journal of their research.
+
+The journal should be kept in a locked cabinet and should be kept in a locked cabinet with a lock.
+
+The journal should be kept in a locked cabinet with a lock.
+
+",-2.5845959186553955,-142.15277099609375,13.25793072495927,55,0,1,step64000,-2.5845959186553955,1,0,
+step64000,64000,step16000,16000,explanation_013,explanation,Explain why legislatures use committees.,"
+
+The committee’s report, which was released in January, said the state’s “unprecedented” use of the committee’s powers to “create and implement” a new law “is a violation of the state’s constitutional right to a public hearing.”
+",-2.321474552154541,-130.00257873535156,10.190689936489642,56,48000,0,step16000,-2.321474552154541,0,48000,
+step64000,64000,step16000,16000,explanation_014,explanation,Explain why cities zone industrial districts.,"
+
+The city of San Francisco has been criticized for its lack of industrial districts, and the city’s industrial districts are often the most expensive in the country.
+
+The city’s industrial districts are often the most expensive in the country.
+
+The city’s",-2.602006673812866,-145.71237182617188,13.49078249116572,56,48000,0,step16000,-2.602006673812866,0,48000,
+step64000,64000,step128000,128000,explanation_014,explanation,Explain why cities zone industrial districts.,"
+
+The city of New York has a long history of zoning. In the early 1900s, the city was a leader in the development of the industrial districts. The city’s first zoning ordinance was passed in 1883, and the first zoning ordinance was passed in New York",-3.6702115535736084,-205.53184509277344,39.260210619679974,56,64000,0,step16000,-2.602006673812866,0,64000,
+step64000,64000,step128000,128000,explanation_015,explanation,Explain why conferences use peer review.,"
+
+The peer review process is a critical component of the process of peer review. Peer review is a process in which a group of reviewers reviews a paper and makes a decision about whether or not to accept the paper. Peer review is a process in which a group of reviewers reviews",-1.6764041185379028,-93.87863159179688,5.346296715623909,56,64000,0,step128000,-1.6764041185379028,0,64000,
+step64000,64000,step16000,16000,judgment_004,judgment,Should a workplace optimize for speed or careful review when deadlines are tight?,"
+
+The answer is yes.
+
+The most important thing to remember is that you should not be too quick to judge a company’s performance.
+
+The best way to do this is to make sure that you are not too quick to judge a company’s performance",-1.4226090908050537,-79.66610717773438,4.147928656829419,56,48000,0,step16000,-1.4226090908050537,0,48000,
+step64000,64000,step143000,143000,judgment_008,judgment,Should a newsroom publish quickly with updates or wait for fuller confirmation?,"
+
+I’m not sure I’d call it a “newsroom” but I’m sure it’s a place where people can get their news.
+
+I’m not sure I’d call it a “newsroom” but I’m sure",-1.0520206689834595,-58.91315460205078,2.863431323016652,56,79000,0,step143000,-1.0520206689834595,0,79000,
+step64000,64000,step64000,64000,judgment_009,judgment,Should a university require broad general education or early specialization?,"
+
+I am a graduate student in the field of education. I am interested in the question of whether a university should require broad general education or early specialization. I am not sure if I understand the question correctly.
+
+A:
+
+The question is not about whether a",-1.1499618291854858,-64.39786529541016,3.1580723611947437,56,0,1,step64000,-1.1499618291854858,1,0,0.3290531635284424
+step64000,64000,step128000,128000,judgment_009,judgment,Should a university require broad general education or early specialization?,"
+
+A:
+
+The answer is yes.
+The University of California, Berkeley, has a general education requirement for all students.  The requirement is that the student must have a general education in the sciences, mathematics, and the humanities.  The requirement is not",-1.4790149927139282,-82.82483673095703,4.3886207278205775,56,64000,0,step64000,-1.1499618291854858,1,64000,0.3290531635284424
+step64000,64000,step64000,64000,judgment_010,judgment,Should a team reuse old tools or switch to a more capable but riskier system?,"
+
+I'm not sure if this is a good question, but I'm curious about the pros and cons of using a different tool for different tasks.
+
+A:
+
+I would say that it's a good idea to use a tool that is more capable than the",-1.2207529544830322,-68.36216735839844,3.3897390922181443,56,0,1,step64000,-1.2207529544830322,1,0,0.13332700729370117
+step64000,64000,step128000,128000,judgment_010,judgment,Should a team reuse old tools or switch to a more capable but riskier system?,"
+
+I'm not sure if this is a good question, but I'm wondering if there is a way to make a team that has been using a tool for a while, but is now using a new tool, and then switch to the new tool.
+
+A:",-1.3540799617767334,-75.82847595214844,3.873195828649098,56,64000,0,step64000,-1.2207529544830322,1,64000,0.13332700729370117
+step64000,64000,step64000,64000,judgment_013,judgment,Should a community preserve a historic building or replace it with housing?,"
+
+The answer is yes.
+
+The City of San Diego has a historic building that is being preserved and is being used as a community center. The building is located in the heart of the city and is a great example of how a community can preserve a historic building.",-1.7453279495239258,-97.73836517333984,5.72777959003078,56,0,1,step64000,-1.7453279495239258,1,0,
+step64000,64000,step64000,64000,judgment_014,judgment,Should a school ban phones outright or regulate their use?,"
+
+I’m not sure what you mean by “ban phones outright” but I’m sure you’re referring to the fact that the FCC has not yet decided whether or not to ban phones outright.
+
+I’m not sure what you mean by “regulate",-1.308781623840332,-73.2917709350586,3.701660948195942,56,0,1,step64000,-1.308781623840332,1,0,
+step64000,64000,step16000,16000,judgment_016,judgment,Should an editor favor clarity or stylistic individuality in a student essay?,"
+
+The following is a list of the most common questions asked by students in the course of writing a student essay.
+
+1. What is the purpose of the essay?
+
+2. What is the purpose of the essay?
+
+3. What is the purpose",-1.3020249605178833,-72.91339874267578,3.6767343764914737,56,48000,0,step16000,-1.3020249605178833,0,48000,
+step64000,64000,step64000,64000,judgment_017,judgment,Should a town build a large central park or several smaller parks?,"
+
+I think it's a good idea to have a central park. It's a great place to get away from the hustle and bustle of the city. It's also a great place to get away from the city.
+
+I think it's a good idea",-0.9881507754325867,-55.33644485473633,2.6862623741263123,56,0,1,step64000,-0.9881507754325867,1,0,0.14066988229751587
+step64000,64000,step143000,143000,judgment_017,judgment,Should a town build a large central park or several smaller parks?,"
+
+I think that the answer is yes.
+
+The problem is that the parks are not large enough to support the number of people who would use them.
+
+The parks are not large enough to support the number of people who would use them.
+
+The parks",-1.1288206577301025,-63.213958740234375,3.092007813509107,56,79000,0,step64000,-0.9881507754325867,1,79000,0.14066988229751587
+step64000,64000,step128000,128000,judgment_018,judgment,Should an instructor prioritize mastery or coverage in a difficult course?,"
+
+I’ve been teaching for over 20 years and I’ve never seen a course that was so difficult that I couldn’t get through it. I’ve taught in many different settings, but I’ve never seen a course that was so difficult that I couldn",-1.1949350833892822,-66.91636657714844,3.3033433216886205,56,64000,0,step128000,-1.1949350833892822,0,64000,-0.08001494407653809
+step64000,64000,step64000,64000,judgment_018,judgment,Should an instructor prioritize mastery or coverage in a difficult course?,"
+
+I’m not sure if this is a question that I’m asking, but I’m curious about the answer. I’m a high school teacher and I’ve been teaching for about a year now. I’ve been teaching for about a year and",-1.2749500274658203,-71.39720153808594,3.5785225777914333,56,0,1,step128000,-1.1949350833892822,0,0,-0.08001494407653809
+step64000,64000,step16000,16000,judgment_018,judgment,Should an instructor prioritize mastery or coverage in a difficult course?,"
+
+The answer is yes.
+
+The question is, “What is the most important thing you can do to improve your mastery of a difficult course?”
+
+The answer is, “I don’t know.”
+
+The question is, “What is the most",-1.2759228944778442,-71.4516830444336,3.582005698390992,56,48000,0,step128000,-1.1949350833892822,0,48000,-0.08001494407653809
+step64000,64000,step16000,16000,style_opening_001,style_opening,Write the opening paragraph of an essay about memory.,"
+
+The first thing you should do is to write a short introduction. This is a good way to start your essay. You should also write a short introduction that is short and to the point.
+
+The second thing you should do is to write a short introduction that is",-1.5812320709228516,-88.54899597167969,4.860941147546459,56,48000,0,step16000,-1.5812320709228516,0,48000,
+step64000,64000,step143000,143000,style_opening_006,style_opening,Write the opening paragraph of an essay about public attention.,"
+
+The essay is a great way to get your point across. It’s also a great way to get your point across to your audience.
+
+The opening paragraph is the most important part of your essay. It’s the first thing that your audience sees when they",-1.5676209926605225,-87.78677368164062,4.795226733699388,56,79000,0,step143000,-1.5676209926605225,0,79000,
+step64000,64000,step16000,16000,style_opening_006,style_opening,Write the opening paragraph of an essay about public attention.,"
+
+The first thing you should do is to write a short introduction. This is a good way to start your essay. You should also write a short introduction that is short and to the point.
+
+The second thing you should do is to write a short introduction that is",-1.6368497610092163,-91.66358947753906,5.1389550493590885,56,48000,0,step143000,-1.5676209926605225,0,48000,
+step64000,64000,step16000,16000,style_opening_010,style_opening,Write the opening paragraph of an essay about maintenance.,"
+
+The first thing you should do is to write a short introduction. This is a good way to introduce yourself to the reader and to make them feel comfortable with you.
+
+The second thing you should do is to write a short conclusion. This is a good way to",-2.1403002738952637,-119.8568115234375,8.501990171342253,56,48000,0,step16000,-2.1403002738952637,0,48000,
+step64000,64000,step16000,16000,style_opening_011,style_opening,Write the opening paragraph of an essay about attention.,"
+
+The first thing you should do is to write a short introduction. This is a good way to start your essay. You should also write a short introduction that is short and to the point.
+
+The second thing you should do is to write a short introduction that is",-1.6590486764907837,-92.90672302246094,5.254309917525134,56,48000,0,step16000,-1.6590486764907837,0,48000,
+step64000,64000,step16000,16000,style_opening_013,style_opening,Write the opening paragraph of an essay about delay.,"
+
+The first thing you should do is to write a short introduction. This is a good way to introduce yourself to the reader and to make them feel comfortable with you.
+
+The second thing you should do is to write a short conclusion. This is a good way to",-1.6882927417755127,-94.54439544677734,5.410236145795349,56,48000,0,step16000,-1.6882927417755127,0,48000,
+step64000,64000,step16000,16000,style_opening_015,style_opening,Write the opening paragraph of an essay about archives.,"
+
+The first thing you should do is to write a short introduction. This is a good way to start your essay. You should also write a short introduction that is short and to the point.
+
+The second thing you should do is to write a short introduction that is",-1.5560417175292969,-87.13833618164062,4.740021717887512,56,48000,0,step16000,-1.5560417175292969,0,48000,-0.005874752998352051
+step64000,64000,step64000,64000,style_opening_015,style_opening,Write the opening paragraph of an essay about archives.,"
+
+The first thing you need to do is to find a good place to start. You can start by looking at the website of the university or college you are applying to. You can also look at the university’s website and see if there are any other places that you",-1.561916470527649,-87.46732330322266,4.767950130626413,56,0,1,step16000,-1.5560417175292969,0,0,-0.005874752998352051
+step64000,64000,step16000,16000,style_opening_016,style_opening,Write the opening paragraph of an essay about public language.,"
+
+The first thing you should do is to write a short introduction. This is a good way to start your essay. You should also write a short introduction that is short and to the point.
+
+The second thing you should do is to write a short introduction that is",-1.3202922344207764,-73.93636322021484,3.7445154937002236,56,48000,0,step16000,-1.3202922344207764,0,48000,
+step64000,64000,step16000,16000,style_opening_017,style_opening,Write the opening paragraph of an essay about rules.,"
+
+The first thing you should do is to write a short introduction. This is a good way to start your essay. You should also write a short introduction that is short and to the point.
+
+The second thing you should do is to write a short introduction that is",-1.7370818853378296,-97.2765884399414,5.680742155276295,56,48000,0,step16000,-1.7370818853378296,0,48000,
+step64000,64000,step16000,16000,style_opening_018,style_opening,Write the opening paragraph of an essay about access.,"
+
+The first thing you should do is to write a short introduction. This is a good way to start your essay. You should also write a short introduction that is short and to the point.
+
+The second thing you should do is to write a short introduction that is",-1.5958478450775146,-89.36747741699219,4.932509303507186,56,48000,0,step16000,-1.5958478450775146,0,48000,
+step64000,64000,step143000,143000,style_opening_019,style_opening,Write the opening paragraph of an essay about expertise and doubt.,"
+
+The essay is a great way to introduce your topic and to get your reader to think about it.
+
+The opening paragraph is the most important part of your essay. It is the first thing your reader will see and it is the first thing they will remember.
+",-1.5023518800735474,-84.13170623779297,4.492241870153972,56,79000,0,step143000,-1.5023518800735474,0,79000,
+step64000,64000,step16000,16000,style_opening_020,style_opening,Write the opening paragraph of an essay about common goods.,"
+
+The first thing you should do is to write a short introduction. This is a good way to start your essay. You should also write a short introduction that is short and to the point.
+
+The second thing you should do is to write a conclusion. This is",-1.667531967163086,-93.38179016113281,5.29907335802216,56,48000,0,step16000,-1.667531967163086,0,48000,

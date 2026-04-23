@@ -1,0 +1,459 @@
+evaluator_revision,evaluator_step,source_revision,source_step,prompt_id,prompt_family,prompt,completion_text,generation_valid,generation_invalid_reason,avg_logprob,sum_logprob,perplexity,answer_token_count,temporal_distance,prompt_centered_avg_logprob
+step143000,143000,step128000,128000,explanation_016,explanation,Explain why teams keep revision logs.,"
+
+A:
+
+I think you are right.  I have a few questions about this.
+
+Why do you need to keep the revision log?  If you are not going to use it, why not just use the revision log?
+Why do you need",1,,-2.0548558235168457,-115.0719223022461,7.805712391342784,56,15000,-0.10717791318893433
+step143000,143000,step64000,64000,explanation_016,explanation,Explain why teams keep revision logs.,"
+
+A:
+
+I think you are looking for the ""log"" command.
+
+A:
+
+You can use the log command to view the log of a particular command.
+For example, if you want to see the log of the command ""ls -",1,,-1.840499997138977,-103.06800079345703,6.299687299332097,56,79000,0.10717791318893433
+step143000,143000,step128000,128000,explanation_014,explanation,Explain why cities zone industrial districts.,"
+
+The city of New York has a long history of zoning. In the early 1900s, the city was a leader in the development of the industrial districts. The city’s first zoning ordinance was passed in 1883, and the first zoning ordinance was passed in New York",1,,-2.167391777038574,-121.37393951416016,8.735470247865482,56,15000,0.08830130100250244
+step143000,143000,step16000,16000,explanation_014,explanation,Explain why cities zone industrial districts.,"
+
+The city of San Francisco has been criticized for its lack of industrial districts, and the city’s industrial districts are often the most expensive in the country.
+
+The city’s industrial districts are often the most expensive in the country.
+
+The city’s",1,,-2.343994379043579,-131.26368713378906,10.42278608352827,56,127000,-0.08830130100250244
+step143000,143000,step16000,16000,explanation_019,explanation,Explain why local governments post meeting minutes.,"
+
+The city’s mayor, Mark L. Williams, said the city’s board of directors has been working with the city’s planning department to develop a plan for the meeting.
+
+“We’re going to have a plan for the meeting,” Williams said",1,,-2.206967353820801,-123.59017181396484,9.08811352656922,56,127000,0.0
+step143000,143000,step143000,143000,judgment_008,judgment,Should a newsroom publish quickly with updates or wait for fuller confirmation?,"
+
+I’m not sure I’d call it a “newsroom” but I’m sure it’s a place where people can get their news.
+
+I’m not sure I’d call it a “newsroom” but I’m sure",1,,-0.9823398590087891,-55.01103210449219,2.6706979934320945,56,0,0.0
+step143000,143000,step143000,143000,judgment_012,judgment,Should a court prefer bright-line rules or flexible standards?,"
+
+The answer is that it depends on the circumstances.
+
+The law is clear that the court should not be bound by a bright-line rule.
+
+The court should be able to consider the facts of the case and the circumstances of the case in deciding whether to",1,,-1.233881950378418,-69.0973892211914,3.4345363911471765,56,0,0.15499454736709595
+step143000,143000,step16000,16000,judgment_012,judgment,Should a court prefer bright-line rules or flexible standards?,"
+
+The court has a lot of power to decide what is best for the community. But it is also important to remember that the court is not a court of law. It is a court of law, and the court is not a court of law.
+
+The court",1,,-1.5438710451126099,-86.45677947998047,4.682682104919464,56,127000,-0.15499454736709595
+step143000,143000,step143000,143000,explanation_009,explanation,Explain why universities require office hours.,"
+
+The University of California, Berkeley, has a long history of providing free, on-campus office hours to its students. The university has also been a leader in the development of the Office of Student Affairs, which provides a range of services to students, including advising,",1,,-1.8508729934692383,-103.64888763427734,6.3653740276811615,56,0,-0.04980997244517016
+step143000,143000,step128000,128000,explanation_009,explanation,Explain why universities require office hours.,"
+
+The University of California, Berkeley, has a long history of providing free, on-campus office hours to its students. The university has also been a leader in the development of technology that allows students to work remotely from home.
+
+The university has also been a",1,,-1.8027797937393188,-100.9556655883789,6.06648763181154,56,15000,-0.001716772715250725
+step143000,143000,step64000,64000,explanation_009,explanation,Explain why universities require office hours.,"
+
+The University of California, Berkeley, has a long history of being a leader in the field of education. In the early 1900s, the university was the first to offer a full-time, full-time, full-time, full-time, full-time",1,,-1.7495362758636475,-97.97402954101562,5.751934746489212,56,79000,0.05152674516042066
+step143000,143000,step143000,143000,argument_010,argument,Give the strongest argument against reducing civic education to factual memorization.,"
+
+The argument that civic education is a waste of time is not new. It has been around for a long time. It is a waste of time because it is not a good way to learn. It is a waste of time because it is not a good way to learn",1,,-1.116808295249939,-62.541263580322266,3.0550876877820206,56,0,0.006330370903015137
+step143000,143000,step128000,128000,argument_010,argument,Give the strongest argument against reducing civic education to factual memorization.,"
+
+The argument that the government should not be able to impose its will on the education system is a classic case of the government telling the people what they want to hear.
+
+The argument that the government should not be able to impose its will on the education system is a",1,,-1.1294690370559692,-63.250267028808594,3.094013257524767,56,15000,-0.006330370903015137
+step143000,143000,step16000,16000,style_opening_020,style_opening,Write the opening paragraph of an essay about common goods.,"
+
+The first thing you should do is to write a short introduction. This is a good way to start your essay. You should also write a short introduction that is short and to the point.
+
+The second thing you should do is to write a conclusion. This is",1,,-1.4824680089950562,-83.0182113647461,4.4038009002535485,56,127000,0.0
+step143000,143000,step143000,143000,argument_007,argument,Give the strongest argument against using attendance as a proxy for engagement.,"
+
+The most important thing to remember is that the more people you have in your life, the more likely you are to have a strong relationship with them.
+
+If you are a single parent, you are more likely to have a strong relationship with your children. If you",1,,-1.1406720876693726,-63.87763595581055,3.1288705339911185,56,0,0.06120467185974121
+step143000,143000,step64000,64000,argument_007,argument,Give the strongest argument against using attendance as a proxy for engagement.,"
+
+The most important thing to remember is that the more you can do to engage with your students, the more likely you are to get them to engage with you.
+
+The best way to do this is to make sure that you are engaging with your students in a way",1,,-1.263081431388855,-70.73255920410156,3.5363015863256426,56,79000,-0.06120467185974121
+step143000,143000,step64000,64000,explanation_003,explanation,Explain why schools keep science laboratories.,"
+
+The science labs are a great way to learn about science and the environment. They are also a great way to get a sense of what the science is like in the real world.
+
+The science labs are also a great way to get a sense of what the science",1,,-1.8787082433700562,-105.2076644897461,6.545044794186908,56,79000,0.0
+step143000,143000,step16000,16000,style_opening_011,style_opening,Write the opening paragraph of an essay about attention.,"
+
+The first thing you should do is to write a short introduction. This is a good way to start your essay. You should also write a short introduction that is short and to the point.
+
+The second thing you should do is to write a short introduction that is",1,,-1.6286506652832031,-91.20443725585938,5.096992527422724,56,127000,0.0
+step143000,143000,step128000,128000,judgment_009,judgment,Should a university require broad general education or early specialization?,"
+
+A:
+
+The answer is yes.
+The University of California, Berkeley, has a general education requirement for all students.  The requirement is that the student must have a general education in the sciences, mathematics, and the humanities.  The requirement is not",1,,-1.6609708070755005,-93.01436614990234,5.264419099790963,56,15000,-0.10053294897079468
+step143000,143000,step64000,64000,judgment_009,judgment,Should a university require broad general education or early specialization?,"
+
+I am a graduate student in the field of education. I am interested in the question of whether a university should require broad general education or early specialization. I am not sure if I understand the question correctly.
+
+A:
+
+The question is not about whether a",1,,-1.4599049091339111,-81.75467681884766,4.305550090391526,56,79000,0.10053294897079468
+step143000,143000,step16000,16000,style_opening_018,style_opening,Write the opening paragraph of an essay about access.,"
+
+The first thing you should do is to write a short introduction. This is a good way to start your essay. You should also write a short introduction that is short and to the point.
+
+The second thing you should do is to write a short introduction that is",1,,-1.7642258405685425,-98.79664611816406,5.837051799792633,56,127000,0.0
+step143000,143000,step16000,16000,style_opening_017,style_opening,Write the opening paragraph of an essay about rules.,"
+
+The first thing you should do is to write a short introduction. This is a good way to start your essay. You should also write a short introduction that is short and to the point.
+
+The second thing you should do is to write a short introduction that is",1,,-1.7390682697296143,-97.38782501220703,5.692037507569009,56,127000,0.0
+step143000,143000,step143000,143000,judgment_005,judgment,Should a hospital use first-come service or urgency-based triage during overload?,"
+
+The aim of this study was to determine the effect of a hospital-based first-come service or urgency-based triage during overload on the use of hospital resources.
+
+Methods {#Sec2}
+=======
+
+Study design {#Sec3}
+------------
+",1,,-0.6489096879959106,-36.33894348144531,1.9134534300185781,56,0,0.18374989430109656
+step143000,143000,step128000,128000,judgment_005,judgment,Should a hospital use first-come service or urgency-based triage during overload?,"
+
+The aim of this study was to determine the effect of the first-come service or urgency-based triage on the time to hospital discharge in patients with acute myocardial infarction (AMI).
+
+Methods {#Sec2}
+=======
+
+Study design {#Sec3",1,,-0.7713397145271301,-43.19502258300781,2.162661663088204,56,15000,0.06131986776987708
+step143000,143000,step16000,16000,judgment_005,judgment,Should a hospital use first-come service or urgency-based triage during overload?,"
+
+The study was conducted in a tertiary care hospital in the Netherlands. The study was approved by the institutional review board of the hospital.
+
+The study was conducted in accordance with the Declaration of Helsinki and was performed in accordance with the ethical standards of the Declaration of Helsinki.",1,,-1.077729344367981,-60.35284423828125,2.9380007833187802,56,127000,-0.24506976207097375
+step143000,143000,step128000,128000,explanation_015,explanation,Explain why conferences use peer review.,"
+
+The peer review process is a critical component of the process of peer review. Peer review is a process in which a group of reviewers reviews a paper and makes a decision about whether or not to accept the paper. Peer review is a process in which a group of reviewers reviews",1,,-2.19997239112854,-123.19845581054688,9.024764332436117,56,15000,0.0
+step143000,143000,step128000,128000,argument_018,argument,Give the strongest argument against prioritizing novelty over maintenance in funding decisions.,"
+
+The authors of the paper are not the authors of the paper.
+
+The authors declare no conflict of interest.
+
+![The proposed model for the evolution of the number of novel genes in a genome. The number of novel genes is determined by the number of genes",1,,-1.5494130849838257,-86.76713562011719,4.7087057613118555,56,15000,0.0012631416320800781
+step143000,143000,step64000,64000,argument_018,argument,Give the strongest argument against prioritizing novelty over maintenance in funding decisions.,"
+
+The authors of the paper, which was published in the journal Science, argue that the current funding model is not sustainable. They argue that the current funding model is not sustainable because it is not sustainable in the long run.
+
+The authors of the paper argue that the",1,,-1.5519393682479858,-86.90860748291016,4.720616324265901,56,79000,-0.0012631416320800781
+step143000,143000,step128000,128000,judgment_018,judgment,Should an instructor prioritize mastery or coverage in a difficult course?,"
+
+I’ve been teaching for over 20 years and I’ve never seen a course that was so difficult that I couldn’t get through it. I’ve taught in many different settings, but I’ve never seen a course that was so difficult that I couldn",1,,-1.2676279544830322,-70.98716735839844,3.552416067828644,56,15000,0.009832421938578362
+step143000,143000,step64000,64000,judgment_018,judgment,Should an instructor prioritize mastery or coverage in a difficult course?,"
+
+I’m not sure if this is a question that I’m asking, but I’m curious about the answer. I’m a high school teacher and I’ve been teaching for about a year now. I’ve been teaching for about a year and",1,,-1.3546034097671509,-75.8577880859375,3.8752237759382604,56,79000,-0.07714303334554029
+step143000,143000,step16000,16000,judgment_018,judgment,Should an instructor prioritize mastery or coverage in a difficult course?,"
+
+The answer is yes.
+
+The question is, “What is the most important thing you can do to improve your mastery of a difficult course?”
+
+The answer is, “I don’t know.”
+
+The question is, “What is the most",1,,-1.2101497650146484,-67.76838684082031,3.3539869248376055,56,127000,0.06731061140696215
+step143000,143000,step128000,128000,argument_004,argument,Give the strongest argument against making speed the main value in journalism.,"
+
+I think the main reason for the decline in the number of journalists is that the media is not a business. It is a profession. It is a profession that is not about money. It is about the people who work in it.
+
+The media is not a",1,,-1.5745729207992554,-88.17608642578125,4.82867894933383,56,15000,0.0
+step143000,143000,step143000,143000,explanation_007,explanation,Explain why towns maintain public transit.,"
+
+The city of New York has a long history of public transit. The city’s first subway system opened in 1883, and the city’s first bus system opened in 1905. The city’s first subway line opened in 1909, and the city’s first",1,,-1.7130237817764282,-95.92932891845703,5.5457051524343575,56,0,0.14375370740890503
+step143000,143000,step128000,128000,explanation_007,explanation,Explain why towns maintain public transit.,"
+
+The city of New York has a long history of public transit. The city’s first subway system was built in 1883, and the first subway car was built in the Bronx in 1904. The city’s first subway car was the first subway car in the world",1,,-1.9516774415969849,-109.29393768310547,7.040487687737536,56,15000,-0.09489995241165161
+step143000,143000,step64000,64000,explanation_007,explanation,Explain why towns maintain public transit.,"
+
+The city of San Diego has a public transit system that is the largest in the country. The San Diego Regional Transit Authority (SDRTA) is the largest transit agency in the country. The SDRTA is the largest transit agency in the United States. The SD",1,,-1.7024421691894531,-95.33676147460938,5.487332034520705,56,79000,0.15433531999588013
+step143000,143000,step16000,16000,explanation_007,explanation,Explain why towns maintain public transit.,"
+
+“We’re not going to be able to do this without public transportation,” said Mayor John Hancock. “We’re going to have to do this on a local level.”
+
+The city is also considering a proposal to build a new $1.5",1,,-2.059966564178467,-115.3581314086914,7.8457074782577845,56,127000,-0.20318907499313354
+step143000,143000,step128000,128000,explanation_006,explanation,Explain why hospitals use triage systems.,"
+
+The authors have no conflicts of interest to disclose.
+
+![Flow chart of the study.](jgc-16-11-g001){#F1}
+
+![The flow chart of the study.](jgc-16-11-g002){#F2",1,,-0.9511160850524902,-53.26250076293945,2.5885971422552303,56,15000,0.29407735665639234
+step143000,143000,step64000,64000,explanation_006,explanation,Explain why hospitals use triage systems.,"
+
+The authors would like to thank the following people for their help in this study: Dr. David H. B. H. Lee, Dr. David H. B. H. Lee, Dr. David H. B. H. Lee, Dr. David H.",1,,-1.3658949136734009,-76.4901123046875,3.919228854554551,56,79000,-0.1207014719645183
+step143000,143000,step16000,16000,explanation_006,explanation,Explain why hospitals use triage systems.,"
+
+“We’re not just talking about the numbers, we’re talking about the process,” said Dr. David K. Kuhn, a professor of medicine at the University of California, San Francisco.
+
+“We’re talking about the process of tri",1,,-1.4185693264007568,-79.43988037109375,4.131205803227009,56,127000,-0.17337588469187426
+step143000,143000,step64000,64000,judgment_014,judgment,Should a school ban phones outright or regulate their use?,"
+
+I’m not sure what you mean by “ban phones outright” but I’m sure you’re referring to the fact that the FCC has not yet decided whether or not to ban phones outright.
+
+I’m not sure what you mean by “regulate",1,,-1.1199086904525757,-62.71488952636719,3.064574365618898,56,79000,0.0
+step143000,143000,step143000,143000,argument_015,argument,Give the strongest argument against using one metric to evaluate teachers.,"
+
+The most important thing to remember is that teachers are human beings. They are not robots. They are human beings who have their own unique strengths and weaknesses. They are human beings who have their own unique strengths and weaknesses. They are human beings who have their own unique strengths",1,,-1.0317294597625732,-57.776851654052734,2.8059143568059493,56,0,0.22524094581604004
+step143000,143000,step16000,16000,argument_015,argument,Give the strongest argument against using one metric to evaluate teachers.,"
+
+The best way to do this is to use a metric that is a measure of how well teachers are doing. For example, if you are teaching a class of students, you might use the number of students per teacher to evaluate how well they are doing.
+
+The",1,,-1.4822113513946533,-83.00383758544922,4.40267077631549,56,127000,-0.22524094581604004
+step143000,143000,step143000,143000,explanation_004,explanation,Explain why museums use wall labels.,"
+
+The museum’s website says: “The museum is dedicated to the preservation of the history of the city of London and the surrounding area. It is a place where visitors can discover the history of London and the city’s people. The museum is a place where visitors",1,,-1.7138230800628662,-95.97409057617188,5.550139597045689,56,0,0.0
+step143000,143000,step128000,128000,explanation_010,explanation,Explain why software teams use version control.,"
+
+The first step in version control is to create a version control system. This is a system that allows you to track changes in your code. Version control systems are used to track changes in your code.
+
+Version control systems are used to track changes in your code.",1,,-1.2172508239746094,-68.16604614257812,3.3778885467183235,56,15000,-0.055068254470825195
+step143000,143000,step64000,64000,explanation_010,explanation,Explain why software teams use version control.,"
+
+The following are some of the most common reasons why software teams use version control:
+
+1. Version control is a way to ensure that your software is always up to date.
+
+2. Version control is a way to ensure that your software is always up to",1,,-1.107114315032959,-61.9984016418457,3.0256148137094128,56,79000,0.055068254470825195
+step143000,143000,step64000,64000,explanation_011,explanation,Explain why newspapers keep corrections pages.,"
+
+The first thing to note is that the corrections page is not a page that is automatically generated. It is a page that is manually created by the editor. The editor is responsible for creating the page and for making sure that it is correct.
+
+The second thing to",1,,-1.870638132095337,-104.7557373046875,6.492438110802132,56,79000,0.0
+step143000,143000,step16000,16000,argument_009,argument,Give the strongest argument against relying on rankings to compare universities.,"
+
+The University of California, Berkeley, has been ranked as the No. 1 university in the nation for the past two years, according to the University of California, Berkeley, College of Business.
+
+The University of California, Berkeley, has been ranked as the No.",1,,-1.1774356365203857,-65.93639373779297,3.2460394957115235,56,127000,0.0
+step143000,143000,step143000,143000,explanation_002,explanation,Explain why neighborhoods create public parks.,"
+
+The city of Chicago has a long history of public parks. The city’s first park was the Chicago Public Garden, which opened in 1871. The city’s parks have been a major part of the city’s history. The city’s parks have been",1,,-1.5375816822052002,-86.10457611083984,4.653323438212389,56,0,-0.14388859272003174
+step143000,143000,step128000,128000,explanation_002,explanation,Explain why neighborhoods create public parks.,"
+
+The city of New York has a long history of public parks. The city’s first park was the New York Central Railroad station, which was built in 1883. The city’s first park was the Central Park, which opened in 1883. The city’",1,,-1.3603363037109375,-76.1788330078125,3.897503826415933,56,15000,0.03335678577423096
+step143000,143000,step64000,64000,explanation_002,explanation,Explain why neighborhoods create public parks.,"
+
+The city’s parks department is working with the city’s Parks and Recreation Department to create a new park system that will be more sustainable and more accessible to the public.
+
+The new system will be a mix of public and private parks. The city will",1,,-1.443565011024475,-80.83963775634766,4.235769497068258,56,79000,-0.04987192153930664
+step143000,143000,step16000,16000,explanation_002,explanation,Explain why neighborhoods create public parks.,"
+
+“The city has a responsibility to protect the public’s right to enjoy the natural beauty of our neighborhoods,” said Mayor Tom Barrett. “We have a responsibility to protect the public’s right to enjoy the natural beauty of our neighborhoods.”
+
+The city’s",1,,-1.233289361000061,-69.06420135498047,3.43250172428273,56,127000,0.16040372848510742
+step143000,143000,step16000,16000,style_opening_001,style_opening,Write the opening paragraph of an essay about memory.,"
+
+The first thing you should do is to write a short introduction. This is a good way to start your essay. You should also write a short introduction that is short and to the point.
+
+The second thing you should do is to write a short introduction that is",1,,-1.3766449689865112,-77.09211730957031,3.9615880554708434,56,127000,0.0
+step143000,143000,step16000,16000,style_opening_013,style_opening,Write the opening paragraph of an essay about delay.,"
+
+The first thing you should do is to write a short introduction. This is a good way to introduce yourself to the reader and to make them feel comfortable with you.
+
+The second thing you should do is to write a short conclusion. This is a good way to",1,,-1.2506334781646729,-70.03547668457031,3.492554713988382,56,127000,0.0
+step143000,143000,step16000,16000,style_opening_014,style_opening,Write the opening paragraph of an essay about repair.,"
+
+The first thing you should do is to write a short introduction. This is a good way to start your essay. You should also write a short introduction that is short and to the point.
+
+The second thing you should do is to write a short introduction that is",1,,-1.4100598096847534,-78.96334838867188,4.096200389198827,56,127000,0.0
+step143000,143000,step128000,128000,argument_005,argument,Give the strongest argument against evaluating research only by citation counts.,"
+
+The authors of the paper are not the authors of the paper.
+
+The authors declare no competing interests.
+Q:
+
+How to get the value of a variable in a function?
+
+I have a function that returns a value for a variable. I",1,,-1.578572154045105,-88.40003967285156,4.848028628872719,56,15000,0.11622399091720581
+step143000,143000,step64000,64000,argument_005,argument,Give the strongest argument against evaluating research only by citation counts.,"
+
+The authors of the paper, which was published in the journal Science, have a point. They point out that the citation count is not the only way to evaluate research. The citation count is not the only way to evaluate research. The citation count is not the only way",1,,-1.8110201358795166,-101.41712951660156,6.11668409947928,56,79000,-0.11622399091720581
+step143000,143000,step128000,128000,advice_009,advice,A student has chosen a thesis topic that is too broad. What should they do first?,"
+
+A:
+
+I would suggest that you start with a thesis that is not too broad.  Then, you can start to narrow it down to a few topics that you can discuss.  Then, you can start to write a thesis that is more specific.  ",1,,-1.387184500694275,-77.68233489990234,4.003562143464766,56,15000,-0.1752137541770935
+step143000,143000,step16000,16000,advice_009,advice,A student has chosen a thesis topic that is too broad. What should they do first?,"
+
+The first thing to do is to find out what the topic is. If it’s a topic that is too broad, you’re not going to get a good answer. If it’s a topic that is too narrow, you’re going to get a",1,,-1.036756992340088,-58.05839157104492,2.820056703410062,56,127000,0.1752137541770935
+step143000,143000,step16000,16000,advice_013,advice,A student is falling behind because every assignment feels equally urgent. What should they do first?,"
+
+The first thing to do is to make a list of the things you want to do in the future. This list should be something like this:
+
+1. Write down the things you want to do in the future.
+
+2. Write down the things you",1,,-1.2411409616470337,-69.50389099121094,3.459558437296161,56,127000,0.0
+step143000,143000,step143000,143000,argument_002,argument,Give the strongest argument against measuring a city's health only by economic growth.,"
+
+""The city's health is not measured by economic growth,"" he said. ""It's measured by the quality of life of the people who live there.""
+
+The city's health is measured by the quality of life of the people who live there, he said.",1,,-1.0714542865753174,-60.001441955566406,2.91962238168093,56,0,0.07662540674209595
+step143000,143000,step128000,128000,argument_002,argument,Give the strongest argument against measuring a city's health only by economic growth.,"
+
+""The health of a city is not a function of its economic growth,"" said Dr. David H. Kessler, a professor of economics at the University of California, Berkeley. ""It's a function of the health of the people who live there.""
+
+",1,,-1.2247051000595093,-67.35877990722656,3.403162342424345,55,15000,-0.07662540674209595
+step143000,143000,step143000,143000,argument_012,argument,Give the strongest argument against eliminating peer review from grant decisions.,"
+
+The authors of the paper argue that peer review is a necessary part of the process of evaluating a grant application. They argue that peer review is a critical part of the evaluation process because it is the only way to ensure that the grant application is evaluated in a fair and transparent",1,,-1.3180303573608398,-73.80970001220703,3.736055431421711,56,0,-0.07833582162857056
+step143000,143000,step128000,128000,argument_012,argument,Give the strongest argument against eliminating peer review from grant decisions.,"
+
+The authors of the paper are not the authors of the paper.
+
+The authors declare no conflict of interest.
+
+![The process of peer review.](ijerph-17-00451-g001){#ijerph-17-00451-f001}
+
+",1,,-1.1198441982269287,-61.5914306640625,3.0643767307704226,55,15000,0.11985033750534058
+step143000,143000,step64000,64000,argument_012,argument,Give the strongest argument against eliminating peer review from grant decisions.,"
+
+The most important thing to remember is that peer review is not a one-size-fits-all process. It is a process that is designed to ensure that the best possible research is done.
+
+Peer review is not a one-size-fits-all process",1,,-1.1575562953948975,-64.82315063476562,3.182147538375457,56,79000,0.08213824033737183
+step143000,143000,step16000,16000,argument_012,argument,Give the strongest argument against eliminating peer review from grant decisions.,"
+
+The authors of the paper are not the authors of the paper. The authors are not the authors of the paper.
+
+The authors declare no conflict of interest.
+
+![The authors\' experience with the use of peer review in the design of a new grant application",1,,-1.3633472919464111,-76.34745025634766,3.909256849813118,56,127000,-0.12365275621414185
+step143000,143000,step16000,16000,explanation_013,explanation,Explain why legislatures use committees.,"
+
+The committee’s report, which was released in January, said the state’s “unprecedented” use of the committee’s powers to “create and implement” a new law “is a violation of the state’s constitutional right to a public hearing.”
+",1,,-2.4721527099609375,-138.4405517578125,11.847924563970123,56,127000,0.0
+step143000,143000,step16000,16000,style_opening_016,style_opening,Write the opening paragraph of an essay about public language.,"
+
+The first thing you should do is to write a short introduction. This is a good way to start your essay. You should also write a short introduction that is short and to the point.
+
+The second thing you should do is to write a short introduction that is",1,,-1.664766550064087,-93.2269287109375,5.284439453699758,56,127000,0.0
+step143000,143000,step143000,143000,advice_011,advice,A public agency receives contradictory feedback from residents. What should it do first?,"
+
+The city’s public works department is currently reviewing the city’s plan to build a new water main on the city’s water main system. The city is also considering a new sewer system.
+
+The city’s plan calls for the new water main to",1,,-1.423749566078186,-79.72997283935547,4.152661965494952,56,0,-0.12498406569163012
+step143000,143000,step64000,64000,advice_011,advice,A public agency receives contradictory feedback from residents. What should it do first?,"
+
+The City of San Diego has a long history of public involvement in the development of its parks. In the early years of the city’s existence, the city’s parks were largely funded by the city’s general fund. The city’s parks were funded by",1,,-1.4060742855072021,-78.74015808105469,4.0799073731832705,56,79000,-0.10730878512064623
+step143000,143000,step16000,16000,advice_011,advice,A public agency receives contradictory feedback from residents. What should it do first?,"
+
+The first step is to determine whether the feedback is positive or negative. If it is positive, then the agency should be able to make a decision about whether to change the policy. If it is negative, then the agency should be able to make a decision about whether to",1,,-1.0664726495742798,-59.72246551513672,2.9051140504192805,56,127000,0.23229285081227613
+step143000,143000,step64000,64000,judgment_020,judgment,Should public transit prioritize geographic coverage or frequent service?,"
+
+I'm not sure what the answer is to this question. I'm not sure if the answer is ""yes"" or ""no"".
+
+A:
+
+The answer is ""no"".
+The answer is ""yes"" because the answer is ""yes"" because",1,,-1.3292630910873413,-74.43873596191406,3.7782581293641706,56,79000,0.0
+step143000,143000,step128000,128000,argument_014,argument,Give the strongest argument against moving all local news behind paywalls.,"
+
+The problem with this is that it’s not a problem that’s unique to the US. It’s a problem that’s universal.
+
+The problem is that the US is the only country in the world that has a system that allows for the free",1,,-1.220401406288147,-68.34247589111328,3.3885476449969736,56,15000,-0.018694519996643066
+step143000,143000,step16000,16000,argument_014,argument,Give the strongest argument against moving all local news behind paywalls.,"
+
+The best way to get around this is to use a paywall.
+
+If you’re not paying attention to the news, you’re missing out.
+
+If you’re paying attention to the news, you’re missing out.
+
+If",1,,-1.1830123662948608,-66.24869537353516,3.2641923505534285,56,127000,0.018694519996643066
+step143000,143000,step16000,16000,style_opening_003,style_opening,Write the opening paragraph of an essay about record keeping.,"
+
+The first thing you should do is to write a short introduction. This is a good way to introduce yourself to the reader and to make them feel comfortable with you.
+
+The second thing you should do is to write a short conclusion. This is a good way to",1,,-1.5244970321655273,-85.37183380126953,4.592832941031104,56,127000,0.0
+step143000,143000,step64000,64000,explanation_012,explanation,Explain why research groups maintain lab notebooks.,"
+
+The research groups are also required to keep a journal of their research.
+
+The journal should be kept in a locked cabinet and should be kept in a locked cabinet with a lock.
+
+The journal should be kept in a locked cabinet with a lock.
+
+",1,,-1.7804080247879028,-97.92243957519531,5.932276440679561,55,79000,0.0
+step143000,143000,step16000,16000,explanation_001,explanation,Explain why cities develop public libraries.,"
+
+The city of New York, which has a population of more than 1.5 million, is the first city in the United States to develop a public library.
+
+The city of New York, which has a population of more than 1.5 million, is the",1,,-1.7387467622756958,-97.36981964111328,5.69020776923536,56,127000,0.0
+step143000,143000,step143000,143000,advice_017,advice,A small town wants to improve civic participation. What should it do first?,"
+
+The town of St. Paul, Minnesota, is a small town with a population of about 1,000. It is located in the heart of the Twin Cities metropolitan area. The town is located in the St. Paul-Hennepin County Metropolitan Statistical Area.",1,,-1.1845929622650146,-66.33720397949219,3.2693557994167732,56,0,-0.0986815094947815
+step143000,143000,step128000,128000,advice_017,advice,A small town wants to improve civic participation. What should it do first?,"
+
+The town of Littleton, Colorado, is a small town with a population of about 1,000. It is located in the foothills of the Rocky Mountains. Littleton is a small town with a population of about 1,000. It is located",1,,-0.9872299432754517,-55.28487777709961,2.6837899158839496,56,15000,0.0986815094947815
+step143000,143000,step143000,143000,advice_015,advice,A community group wants to revive a dormant project. What should they do first?,"
+
+The group is called the Community of the Future, and it’s a project that’s been dormant for years. It’s a community of people who want to make a difference in the world.
+
+The group is called the Community of the Future, and",1,,-1.1918718814849854,-66.74482727050781,3.2932399962979964,56,0,0.0604514479637146
+step143000,143000,step64000,64000,advice_015,advice,A community group wants to revive a dormant project. What should they do first?,"
+
+The project is a small, but important, part of the community’s history. It’s a place where people come to talk about their experiences and share their stories. It’s a place where people come to talk about their experiences and share their stories. It",1,,-1.3127747774124146,-73.51538848876953,3.7164718001568215,56,79000,-0.0604514479637146
+step143000,143000,step16000,16000,style_opening_010,style_opening,Write the opening paragraph of an essay about maintenance.,"
+
+The first thing you should do is to write a short introduction. This is a good way to introduce yourself to the reader and to make them feel comfortable with you.
+
+The second thing you should do is to write a short conclusion. This is a good way to",1,,-1.6208035945892334,-90.76499938964844,5.057152584590863,56,127000,0.0
+step143000,143000,step143000,143000,style_opening_006,style_opening,Write the opening paragraph of an essay about public attention.,"
+
+The essay is a great way to get your point across. It’s also a great way to get your point across to your audience.
+
+The opening paragraph is the most important part of your essay. It’s the first thing that your audience sees when they",1,,-1.4947798252105713,-83.70767211914062,4.458354827440869,56,0,0.10023379325866699
+step143000,143000,step16000,16000,style_opening_006,style_opening,Write the opening paragraph of an essay about public attention.,"
+
+The first thing you should do is to write a short introduction. This is a good way to start your essay. You should also write a short introduction that is short and to the point.
+
+The second thing you should do is to write a short introduction that is",1,,-1.6952474117279053,-94.93385314941406,5.447993696017669,56,127000,-0.10023379325866699
+step143000,143000,step128000,128000,advice_001,advice,A student is overwhelmed by choices. What should they do first?," What should they do after? What should they do now?
+
+The first step is to decide what you want to do. You can do this by asking yourself the following questions:
+
+What do I want to do?
+
+What do I want to do now?",1,,-1.0852104425430298,-60.771785736083984,2.960062676316458,56,15000,0.16878098249435425
+step143000,143000,step64000,64000,advice_001,advice,A student is overwhelmed by choices. What should they do first?," What should they do after? What should they do if they don’t like the way they look?
+
+The answer is simple: they should do nothing.
+
+The first step is to decide what you want to do.
+
+The second step is to decide what",1,,-1.4227724075317383,-79.67525482177734,4.1486061382806945,56,79000,-0.16878098249435425
+step143000,143000,step64000,64000,advice_016,advice,A research assistant has messy notes and a deadline. What should they do first?,"
+
+The first thing to do is to get the research assistant to write a paper. This is a lot of work, and it’s not always easy. The research assistant should be able to write a paper that is both concise and readable.
+
+The research assistant should",1,,-1.3422222137451172,-75.16444396972656,3.8275396729910613,56,79000,0.0
+step143000,143000,step143000,143000,advice_003,advice,A researcher has collected too much material for one paper. What should they do first?,"
+
+A:
+
+The first thing to do is to find out what you want to say.  If you want to say that the government is not doing enough to protect the environment, then you should say that.  If you want to say that the government is not",1,,-1.0707366466522217,-59.96125030517578,2.917527895732729,56,0,0.03928244113922119
+step143000,143000,step128000,128000,advice_003,advice,A researcher has collected too much material for one paper. What should they do first?,"
+
+A:
+
+I think the best way to do this is to start with a list of questions that you think are important. Then, you can start writing a paper that answers those questions.
+
+A:
+
+I think the best way to do this is",1,,-1.149301528930664,-64.36088562011719,3.1559877735125297,56,15000,-0.03928244113922119

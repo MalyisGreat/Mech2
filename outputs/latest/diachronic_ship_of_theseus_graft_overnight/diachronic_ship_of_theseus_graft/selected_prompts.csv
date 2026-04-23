@@ -1,0 +1,9 @@
+prompt_id,prompt_family,prompt,selection_host_revision,selection_donor_revision,clean_js,selection_rank
+judgment_005,judgment,Should a hospital use first-come service or urgency-based triage during overload?,step143000,step64000,0.08252912014722824,1
+judgment_011,judgment,Should a grant committee reward bold novelty or reliable execution?,step143000,step64000,0.07529120147228241,2
+judgment_001,judgment,Should a school prioritize fairness or excellence when designing a grading policy?,step143000,step64000,0.049556463956832886,3
+style_opening_015,style_opening,Write the opening paragraph of an essay about archives.,step143000,step64000,0.04191967844963074,4
+advice_005,advice,A student wrote a draft that says too many things at once. What should they do first?,step143000,step64000,0.0399014949798584,5
+continuation_020,continuation,"Continue this sentence into a short paragraph: The meeting ended with agreement, but...",step143000,step64000,0.037535347044467926,6
+judgment_003,judgment,Should a museum favor accessibility or historical completeness when writing labels?,step143000,step64000,0.03716443479061127,7
+explanation_006,explanation,Explain why hospitals use triage systems.,step143000,step64000,0.03672172874212265,8

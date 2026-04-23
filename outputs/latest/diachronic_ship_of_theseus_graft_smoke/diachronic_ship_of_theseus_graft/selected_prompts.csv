@@ -1,0 +1,7 @@
+prompt_id,prompt_family,prompt,selection_host_revision,selection_donor_revision,clean_js,selection_rank
+judgment_001,judgment,Should a school prioritize fairness or excellence when designing a grading policy?,step143000,step64000,0.049556463956832886,1
+judgment_003,judgment,Should a museum favor accessibility or historical completeness when writing labels?,step143000,step64000,0.03716443479061127,2
+explanation_006,explanation,Explain why hospitals use triage systems.,step143000,step64000,0.03672172874212265,3
+explanation_018,explanation,Explain why community gardens keep shared rules.,step143000,step64000,0.032233379781246185,4
+explanation_015,explanation,Explain why conferences use peer review.,step143000,step64000,0.03008515015244484,5
+explanation_017,explanation,Explain why schools assign reading lists.,step143000,step64000,0.026264039799571037,6

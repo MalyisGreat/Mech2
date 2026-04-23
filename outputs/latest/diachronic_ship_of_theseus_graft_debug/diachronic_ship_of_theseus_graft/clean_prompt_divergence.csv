@@ -1,0 +1,9 @@
+prompt_id,prompt_family,prompt,selection_host_revision,selection_donor_revision,clean_js
+explanation_006,explanation,Explain why hospitals use triage systems.,step143000,step64000,0.03672172874212265
+explanation_004,explanation,Explain why museums use wall labels.,step143000,step64000,0.025179464370012283
+explanation_003,explanation,Explain why schools keep science laboratories.,step143000,step64000,0.022219466045498848
+explanation_002,explanation,Explain why neighborhoods create public parks.,step143000,step64000,0.022157156839966774
+explanation_008,explanation,Explain why archives preserve administrative records.,step143000,step64000,0.01973177120089531
+explanation_001,explanation,Explain why cities develop public libraries.,step143000,step64000,0.01766463741660118
+explanation_005,explanation,Explain why courts publish written opinions.,step143000,step64000,0.01519441232085228
+explanation_007,explanation,Explain why towns maintain public transit.,step143000,step64000,0.011561358347535133

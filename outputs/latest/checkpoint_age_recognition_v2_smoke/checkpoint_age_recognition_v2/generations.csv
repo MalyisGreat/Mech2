@@ -1,0 +1,312 @@
+model_id,model_family,model_size_label,source_revision,source_step,prompt_id,prompt_family,prompt,completion_text,completion_char_count,generation_valid,generation_invalid_reason,generation_token_count,unique_token_ratio,top_token_rate,top_bigram_rate
+EleutherAI/pythia-410m-deduped,pythia,410m,step143000,143000,explanation_016,explanation,Explain why teams keep revision logs.,"
+
+A:
+
+I think you're looking for the ""revision log"" feature.
+
+A:
+
+I think you're looking for the ""revision log"" feature.
+
+A:
+
+I think you're looking for the ""revision",166,0,low_unique_token_ratio,28,0.35714285714285715,0.10714285714285714,0.1111111111111111
+EleutherAI/pythia-410m-deduped,pythia,410m,step143000,143000,explanation_014,explanation,Explain why cities zone industrial districts.,"
+
+The city of New York has a zoning code that allows for the creation of industrial districts. The city has a zoning code that allows for the creation of industrial districts. The city of New York has a zoning code that allows for the creation of industrial districts. The city of",280,0,low_unique_token_ratio,51,0.29411764705882354,0.13725490196078433,0.08
+EleutherAI/pythia-410m-deduped,pythia,410m,step143000,143000,explanation_019,explanation,Explain why local governments post meeting minutes.,"
+
+The meeting minutes are a document that is used to record the meeting and to record the actions taken by the government.
+
+The minutes are also used to record the actions taken by the government.
+
+The minutes are also used to record the actions taken by the government",269,0,low_unique_token_ratio,48,0.3541666666666667,0.20833333333333334,0.0851063829787234
+EleutherAI/pythia-410m-deduped,pythia,410m,step143000,143000,judgment_008,judgment,Should a newsroom publish quickly with updates or wait for fuller confirmation?,"
+
+I’m not sure I’d call it a “newsroom” but I’m sure it’s a place where people can get their news.
+
+I’m not sure I’d call it a “newsroom” but I’m sure",150,1,,38,0.47368421052631576,0.15789473684210525,0.10810810810810811
+EleutherAI/pythia-410m-deduped,pythia,410m,step143000,143000,judgment_012,judgment,Should a court prefer bright-line rules or flexible standards?,"
+
+The answer is that it depends on the circumstances.
+
+The law is clear that the court should not be bound by a bright-line rule.
+
+The court should be able to consider the facts of the case and the circumstances of the case in deciding whether to",246,1,,47,0.6382978723404256,0.19148936170212766,0.043478260869565216
+EleutherAI/pythia-410m-deduped,pythia,410m,step143000,143000,explanation_017,explanation,Explain why schools assign reading lists.,"
+
+The following are the most common reasons for assigning reading lists:
+
+• The teacher assigns a reading list to each student.
+
+• The teacher assigns a reading list to each student.
+
+• The teacher assigns a reading list to each student.
+
+•",240,0,low_unique_token_ratio,38,0.4473684210526316,0.13157894736842105,0.08108108108108109
+EleutherAI/pythia-410m-deduped,pythia,410m,step143000,143000,explanation_009,explanation,Explain why universities require office hours.,"
+
+The University of California, Berkeley, has a long history of providing free, on-campus office hours to its students. The university has also been a leader in the development of the Office of Student Affairs, which provides a range of services to students, including advising,",278,1,,45,0.6888888888888889,0.1111111111111111,0.045454545454545456
+EleutherAI/pythia-410m-deduped,pythia,410m,step143000,143000,judgment_006,judgment,Should a teacher grade participation heavily or lightly?,"
+
+I think that the teacher grade participation is heavily weighted in the first place. I think that the teacher grade participation is heavily weighted in the second place. I think that the teacher grade participation is heavily weighted in the third place.
+
+I think that the teacher grade participation",303,0,low_unique_token_ratio,49,0.30612244897959184,0.14285714285714285,0.08333333333333333
+EleutherAI/pythia-410m-deduped,pythia,410m,step143000,143000,judgment_019,judgment,Should a firm reward individual stars or consistent team contributors?,"
+
+I think that the answer is yes.
+
+I think that the answer is yes.
+
+I think that the answer is yes.
+
+I think that the answer is yes.
+
+I think that the answer is yes.
+
+I think that the",183,0,low_unique_token_ratio,39,0.1794871794871795,0.15384615384615385,0.15789473684210525
+EleutherAI/pythia-410m-deduped,pythia,410m,step143000,143000,explanation_003,explanation,Explain why schools keep science laboratories.,"
+
+The science labs are a great way to learn about the science of the day. They are a great way to learn about the science of the day.
+
+The science labs are a great way to learn about the science of the day. They are a great way to",230,0,low_unique_token_ratio,49,0.2653061224489796,0.16326530612244897,0.10416666666666667
+EleutherAI/pythia-410m-deduped,pythia,410m,step143000,143000,judgment_009,judgment,Should a university require broad general education or early specialization?,"
+
+I think that the answer is yes.
+
+I think that the answer is no.
+
+I think that the answer is yes.
+
+I think that the answer is no.
+
+I think that the answer is yes.
+
+I think that the",181,0,low_unique_token_ratio,39,0.20512820512820512,0.15384615384615385,0.15789473684210525
+EleutherAI/pythia-410m-deduped,pythia,410m,step143000,143000,judgment_005,judgment,Should a hospital use first-come service or urgency-based triage during overload?,"
+
+The aim of this study was to determine the effect of a hospital-based first-come service or urgency-based triage during overload on the use of hospital resources.
+
+Methods {#Sec2}
+=======
+
+Study design {#Sec3}
+------------
+",225,1,,34,0.7647058823529411,0.08823529411764706,0.030303030303030304
+EleutherAI/pythia-410m-deduped,pythia,410m,step128000,128000,explanation_016,explanation,Explain why teams keep revision logs.,"
+
+A:
+
+I think you are right.  I have a few questions about this.
+
+Why do you need to keep the revision log?  If you are not going to use it, why not just use the revision log?
+Why do you need",191,1,,41,0.6097560975609756,0.0975609756097561,0.05
+EleutherAI/pythia-410m-deduped,pythia,410m,step128000,128000,explanation_014,explanation,Explain why cities zone industrial districts.,"
+
+The city of New York has a long history of zoning. In the early 1900s, the city was a leader in the development of the industrial districts. The city’s first zoning ordinance was passed in 1883, and the first zoning ordinance was passed in New York",250,1,,46,0.4782608695652174,0.15217391304347827,0.06666666666666667
+EleutherAI/pythia-410m-deduped,pythia,410m,step128000,128000,explanation_019,explanation,Explain why local governments post meeting minutes.,"
+
+The meeting minutes are a key tool for the public to understand the meeting and the agenda. The minutes are also a useful tool for the public to understand the meeting and the agenda.
+
+The minutes are also a useful tool for the public to understand the meeting and the",270,0,low_unique_token_ratio,50,0.3,0.24,0.08163265306122448
+EleutherAI/pythia-410m-deduped,pythia,410m,step128000,128000,judgment_008,judgment,Should a newsroom publish quickly with updates or wait for fuller confirmation?,"
+
+I think the best way to handle this is to have a newsroom that is not a newsroom. It is a newsroom that is not a newsroom. It is a newsroom that is not a newsroom. It is a newsroom that is not a",196,0,low_unique_token_ratio,44,0.3409090909090909,0.18181818181818182,0.16279069767441862
+EleutherAI/pythia-410m-deduped,pythia,410m,step128000,128000,judgment_012,judgment,Should a court prefer bright-line rules or flexible standards?,"
+
+The answer is that the court should prefer the latter. The court should be able to decide whether a particular rule is necessary or not. The court should be able to decide whether a particular rule is necessary or not. The court should be able to decide whether a particular rule",281,0,low_unique_token_ratio,51,0.37254901960784315,0.11764705882352941,0.08
+EleutherAI/pythia-410m-deduped,pythia,410m,step128000,128000,explanation_017,explanation,Explain why schools assign reading lists.,"
+
+The list of reading lists is a good way to get students to read. It’s a good way to get students to read. It’s a good way to get students to read. It’s a good way to get students to read. It’s",194,0,low_unique_token_ratio,46,0.32608695652173914,0.17391304347826086,0.08888888888888889
+EleutherAI/pythia-410m-deduped,pythia,410m,step128000,128000,explanation_009,explanation,Explain why universities require office hours.,"
+
+The University of California, Berkeley, has a long history of providing free, on-campus office hours to its students. The university has also been a leader in the development of technology that allows students to work remotely from home.
+
+The university has also been a",271,1,,45,0.6666666666666666,0.08888888888888889,0.06818181818181818
+EleutherAI/pythia-410m-deduped,pythia,410m,step128000,128000,judgment_006,judgment,Should a teacher grade participation heavily or lightly?,"
+
+A:
+
+I think the answer is yes.  I think that the grade should be heavily weighted towards the student's ability to learn.  I think that the grade should be heavily weighted towards the student's ability to learn.  I think that the grade should",245,0,low_unique_token_ratio,43,0.4186046511627907,0.13953488372093023,0.09523809523809523
+EleutherAI/pythia-410m-deduped,pythia,410m,step128000,128000,judgment_019,judgment,Should a firm reward individual stars or consistent team contributors?,"
+
+The answer is yes.
+
+The reason is simple.
+
+The more you reward individual stars, the more you reward the team.
+
+The more you reward the team, the more you reward the individual stars.
+
+The more you reward the team,",216,0,low_unique_token_ratio,39,0.3076923076923077,0.28205128205128205,0.13157894736842105
+EleutherAI/pythia-410m-deduped,pythia,410m,step128000,128000,explanation_003,explanation,Explain why schools keep science laboratories.,"
+
+The science labs are a great way to learn about the science of the world. They are a great way to learn about the science of the world.
+
+The science labs are a great way to learn about the science of the world. They are a great way to",236,0,low_unique_token_ratio,49,0.2653061224489796,0.16326530612244897,0.10416666666666667
+EleutherAI/pythia-410m-deduped,pythia,410m,step128000,128000,judgment_009,judgment,Should a university require broad general education or early specialization?,"
+
+A:
+
+The answer is yes.
+The University of California, Berkeley, has a general education requirement for all students.  The requirement is that the student must have a general education in the sciences, mathematics, and the humanities.  The requirement is not",259,1,,40,0.65,0.175,0.05128205128205128
+EleutherAI/pythia-410m-deduped,pythia,410m,step128000,128000,judgment_005,judgment,Should a hospital use first-come service or urgency-based triage during overload?,"
+
+The aim of this study was to determine the effect of the first-come service or urgency-based triage on the time to hospital discharge in patients with acute myocardial infarction (AMI).
+
+Methods {#Sec2}
+=======
+
+Study design {#Sec3",233,1,,37,0.8108108108108109,0.10810810810810811,0.027777777777777776
+EleutherAI/pythia-410m-deduped,pythia,410m,step64000,64000,explanation_016,explanation,Explain why teams keep revision logs.,"
+
+A:
+
+I think you are looking for the ""log"" command.
+
+A:
+
+You can use the log command to view the log of a particular command.
+For example, if you want to see the log of the command ""ls -",187,1,,38,0.5526315789473685,0.13157894736842105,0.10810810810810811
+EleutherAI/pythia-410m-deduped,pythia,410m,step64000,64000,explanation_014,explanation,Explain why cities zone industrial districts.,"
+
+The city of Chicago has a long history of industrial development. The city’s industrial districts are the largest in the country. The Chicago Industrial District is the largest in the country. The Chicago Industrial District is the largest in the country. The Chicago Industrial District is the largest",304,0,low_unique_token_ratio,49,0.3673469387755102,0.24489795918367346,0.08333333333333333
+EleutherAI/pythia-410m-deduped,pythia,410m,step64000,64000,explanation_019,explanation,Explain why local governments post meeting minutes.,"
+
+The meeting minutes are posted on the website of the local government.
+
+The minutes are also posted on the website of the local government.
+
+The minutes are posted on the website of the local government.
+
+The minutes are posted on the website of the local",257,0,low_unique_token_ratio,45,0.24444444444444444,0.26666666666666666,0.09090909090909091
+EleutherAI/pythia-410m-deduped,pythia,410m,step64000,64000,judgment_008,judgment,Should a newsroom publish quickly with updates or wait for fuller confirmation?,"
+
+I’m not sure what the answer is. I’m not sure if the newsroom should publish quickly or wait for fuller confirmation. I’m not sure if the newsroom should publish quickly or wait for fuller confirmation.
+
+I’m not",213,0,low_unique_token_ratio,41,0.43902439024390244,0.0975609756097561,0.1
+EleutherAI/pythia-410m-deduped,pythia,410m,step64000,64000,judgment_012,judgment,Should a court prefer bright-line rules or flexible standards?,"
+
+The answer is that the court should be able to decide whether a particular rule is “fair.”
+
+The court should be able to decide whether a particular rule is “fair” because it is “fair” to the parties.
+
+The court should be able to",230,0,low_unique_token_ratio,43,0.4186046511627907,0.11627906976744186,0.07142857142857142
+EleutherAI/pythia-410m-deduped,pythia,410m,step64000,64000,explanation_017,explanation,Explain why schools assign reading lists.,"
+
+The list of reading lists is a list of books that are recommended to students. The list is not a list of books that are recommended to students. The list is a list of books that are recommended to students.
+
+The list of reading lists is a list of",248,0,low_unique_token_ratio,49,0.2857142857142857,0.16326530612244897,0.125
+EleutherAI/pythia-410m-deduped,pythia,410m,step64000,64000,explanation_009,explanation,Explain why universities require office hours.,"
+
+The University of California, Berkeley, has a long history of being a leader in the field of education. In the early 1900s, the university was the first to offer a full-time, full-time, full-time, full-time, full-time",219,1,,40,0.55,0.125,0.1282051282051282
+EleutherAI/pythia-410m-deduped,pythia,410m,step64000,64000,judgment_006,judgment,Should a teacher grade participation heavily or lightly?,"
+
+I think that the teacher should be given a chance to grade the students. I think that the teacher should be given a chance to grade the students. I think that the teacher should be given a chance to grade the students. I think that the teacher should be given a",263,0,low_unique_token_ratio,51,0.2549019607843137,0.13725490196078433,0.08
+EleutherAI/pythia-410m-deduped,pythia,410m,step64000,64000,judgment_019,judgment,Should a firm reward individual stars or consistent team contributors?,"
+
+I think that the answer is yes. I think that the best way to do this is to reward individual stars and team contributors.
+
+I think that the best way to do this is to reward individual stars and team contributors.
+
+I think that the best way",241,0,low_unique_token_ratio,47,0.3829787234042553,0.0851063829787234,0.08695652173913043
+EleutherAI/pythia-410m-deduped,pythia,410m,step64000,64000,explanation_003,explanation,Explain why schools keep science laboratories.,"
+
+The science labs are a great way to learn about science and the environment. They are also a great way to get a sense of what the science is like in the real world.
+
+The science labs are also a great way to get a sense of what the science",240,1,,50,0.46,0.12,0.08163265306122448
+EleutherAI/pythia-410m-deduped,pythia,410m,step64000,64000,judgment_009,judgment,Should a university require broad general education or early specialization?,"
+
+I am a graduate student in the field of education. I am interested in the question of whether a university should require broad general education or early specialization. I am not sure if I understand the question correctly.
+
+A:
+
+The question is not about whether a",267,1,,46,0.6086956521739131,0.08695652173913043,0.06666666666666667
+EleutherAI/pythia-410m-deduped,pythia,410m,step64000,64000,judgment_005,judgment,Should a hospital use first-come service or urgency-based triage during overload?,"
+
+The authors would like to thank the following for their contribution to this study: Dr. David H. H. Lee, Dr. David H. Lee, Dr. David H. Lee, Dr. David H. Lee, Dr. David H. Lee, Dr.",182,0,low_unique_token_ratio,36,0.4444444444444444,0.16666666666666666,0.14285714285714285
+EleutherAI/pythia-410m-deduped,pythia,410m,step16000,16000,explanation_016,explanation,Explain why teams keep revision logs.,"
+
+The team that is the most likely to be the most likely to be the most likely to be the most likely to be the most likely to be the most likely to be the most likely to be the most likely to be the most likely to be the most likely to be",238,0,low_unique_token_ratio,54,0.14814814814814814,0.2037037037037037,0.18867924528301888
+EleutherAI/pythia-410m-deduped,pythia,410m,step16000,16000,explanation_014,explanation,Explain why cities zone industrial districts.,"
+
+The city of San Francisco has been criticized for its lack of industrial districts, and the city’s industrial districts are often the most expensive in the country.
+
+The city’s industrial districts are often the most expensive in the country.
+
+The city’s",256,1,,44,0.4772727272727273,0.18181818181818182,0.09302325581395349
+EleutherAI/pythia-410m-deduped,pythia,410m,step16000,16000,explanation_019,explanation,Explain why local governments post meeting minutes.,"
+
+The city’s mayor, Mark L. Williams, said the city’s board of directors has been working with the city’s planning department to develop a plan for the meeting.
+
+“We’re going to have a plan for the meeting,” Williams said",221,1,,42,0.6428571428571429,0.11904761904761904,0.07317073170731707
+EleutherAI/pythia-410m-deduped,pythia,410m,step16000,16000,judgment_008,judgment,Should a newsroom publish quickly with updates or wait for fuller confirmation?,"
+
+The newsroom is a place where you can find out what’s going on in the world. It’s a place where you can find out what’s going on in the world. It’s a place where you can find out what’s going on",196,0,low_unique_token_ratio,46,0.3695652173913043,0.10869565217391304,0.06666666666666667
+EleutherAI/pythia-410m-deduped,pythia,410m,step16000,16000,judgment_012,judgment,Should a court prefer bright-line rules or flexible standards?,"
+
+The court has a lot of power to decide what is best for the community. But it is also important to remember that the court is not a court of law. It is a court of law, and the court is not a court of law.
+
+The court",217,1,,48,0.4791666666666667,0.14583333333333334,0.0851063829787234
+EleutherAI/pythia-410m-deduped,pythia,410m,step16000,16000,explanation_017,explanation,Explain why schools assign reading lists.,"
+
+The school district’s policy is to assign reading lists to students based on their reading level.
+
+The policy also states that students should be assigned reading lists based on their reading level.
+
+The policy also states that students should be assigned reading lists based on their",286,0,low_unique_token_ratio,47,0.44680851063829785,0.10638297872340426,0.06521739130434782
+EleutherAI/pythia-410m-deduped,pythia,410m,step16000,16000,explanation_009,explanation,Explain why universities require office hours.,"
+
+The University of California, Berkeley, has been criticized for its lack of transparency in its hiring practices.
+
+The University of California, Berkeley, has been criticized for its lack of transparency in its hiring practices.
+
+The University of California, Berkeley, has been criticized",291,0,low_unique_token_ratio,42,0.35714285714285715,0.11904761904761904,0.07317073170731707
+EleutherAI/pythia-410m-deduped,pythia,410m,step16000,16000,judgment_006,judgment,Should a teacher grade participation heavily or lightly?,"
+
+What is the most important thing you can do to improve your student’s performance?
+
+What is the most important thing you can do to improve your student’s performance?
+
+What is the most important thing you can do to improve your student’s performance",251,0,low_unique_token_ratio,45,0.3333333333333333,0.06666666666666667,0.06818181818181818
+EleutherAI/pythia-410m-deduped,pythia,410m,step16000,16000,judgment_019,judgment,Should a firm reward individual stars or consistent team contributors?,"
+
+The answer is yes.
+
+The answer is yes.
+
+The answer is yes.
+
+The answer is yes.
+
+The answer is yes.
+
+The answer is yes.
+
+The answer is yes.
+
+The answer is yes.",160,0,low_unique_token_ratio,32,0.125,0.25,0.25806451612903225
+EleutherAI/pythia-410m-deduped,pythia,410m,step16000,16000,explanation_003,explanation,Explain why schools keep science laboratories.,"
+
+The new science labs are designed to help students learn about the world around them.
+
+The new science labs are designed to help students learn about the world around them.
+
+The new science labs are designed to help students learn about the world around them.
+
+",263,0,low_unique_token_ratio,45,0.3111111111111111,0.13333333333333333,0.06818181818181818
+EleutherAI/pythia-410m-deduped,pythia,410m,step16000,16000,judgment_009,judgment,Should a university require broad general education or early specialization?,"
+
+The answer is yes.
+
+The University of California has a long history of teaching and research in the sciences, and it is a model of excellence in teaching and research.
+
+The University of California is a model of excellence in teaching and research.
+
+The",255,0,low_unique_token_ratio,44,0.4318181818181818,0.11363636363636363,0.06976744186046512
+EleutherAI/pythia-410m-deduped,pythia,410m,step16000,16000,judgment_005,judgment,Should a hospital use first-come service or urgency-based triage during overload?,"
+
+The study was conducted in a tertiary care hospital in the Netherlands. The study was approved by the institutional review board of the hospital.
+
+The study was conducted in accordance with the Declaration of Helsinki and was performed in accordance with the ethical standards of the Declaration of Helsinki.",310,1,,49,0.4897959183673469,0.1836734693877551,0.0625

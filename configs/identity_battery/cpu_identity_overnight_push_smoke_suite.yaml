@@ -1,0 +1,35 @@
+output_root: C:/Users/joshj/joseph-stroud-identity-stability-research/outputs/latest/cpu_identity_overnight_push_smoke
+python_exe: C:/Users/joshj/miniconda3/python.exe
+steps:
+  - name: self_prediction_transfer_v3_template_instruction
+    script: scripts/self_prediction_transfer_v3.py
+    config: configs/identity_battery/self_prediction_transfer_v3_template_instruction_smoke.yaml
+    expected_output: outputs/latest/cpu_identity_overnight_push_smoke/template_instruction/self_prediction_transfer_v3/summary_by_model_frame.csv
+  - name: self_prediction_transfer_v3_template_chat
+    script: scripts/self_prediction_transfer_v3.py
+    config: configs/identity_battery/self_prediction_transfer_v3_template_chat_smoke.yaml
+    expected_output: outputs/latest/cpu_identity_overnight_push_smoke/template_chat/self_prediction_transfer_v3/summary_by_model_frame.csv
+  - name: self_prediction_transfer_v3_template_plain
+    script: scripts/self_prediction_transfer_v3.py
+    config: configs/identity_battery/self_prediction_transfer_v3_template_plain_smoke.yaml
+    expected_output: outputs/latest/cpu_identity_overnight_push_smoke/template_plain/self_prediction_transfer_v3/summary_by_model_frame.csv
+  - name: kinship_ladder_dissociation
+    script: scripts/kinship_ladder_dissociation.py
+    config: configs/identity_battery/kinship_ladder_dissociation_smoke.yaml
+    expected_output: outputs/latest/cpu_identity_overnight_push_smoke/kinship_ladder_dissociation/kinship_ladder_dissociation/summary_by_foil.csv
+  - name: behavioral_fingerprint_transfer_nuisance
+    script: scripts/behavioral_fingerprint_transfer.py
+    config: configs/identity_battery/behavioral_fingerprint_transfer_nuisance_smoke.yaml
+    expected_output: outputs/latest/cpu_identity_overnight_push_smoke/behavioral_fingerprint_nuisance/behavioral_fingerprint_transfer/summary_by_model_frame.csv
+  - name: commitment_persistence_v2_adversarial
+    script: scripts/commitment_persistence_v2.py
+    config: configs/identity_battery/commitment_persistence_v2_adversarial_smoke.yaml
+    expected_output: outputs/latest/cpu_identity_overnight_push_smoke/commitment_persistence_adversarial/commitment_persistence_v2/summary_by_model_frame.csv
+  - name: source_monitoring_attribution
+    script: scripts/source_monitoring_attribution.py
+    config: configs/identity_battery/source_monitoring_attribution_smoke.yaml
+    expected_output: outputs/latest/cpu_identity_overnight_push_smoke/source_monitoring_attribution/source_monitoring_attribution/summary_by_pair_type.csv
+  - name: report_cpu_identity_overnight_push
+    script: scripts/report_cpu_identity_overnight_push.py
+    config: configs/identity_battery/cpu_identity_overnight_push_report_smoke.yaml
+    expected_output: outputs/latest/cpu_identity_overnight_push_smoke/cpu_identity_overnight_push_report.md

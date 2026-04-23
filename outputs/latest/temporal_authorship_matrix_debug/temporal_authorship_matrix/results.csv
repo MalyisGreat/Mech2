@@ -1,0 +1,751 @@
+evaluator_revision,evaluator_step,source_revision,source_step,prompt_id,prompt_family,prompt,completion_text,avg_logprob,sum_logprob,perplexity,answer_token_count,temporal_distance,same_revision,winner_source_revision,winner_avg_logprob,self_preferred,distance_from_diagonal,diagonal_margin_logprob
+step128000,128000,step64000,64000,explanation_007,explanation,Explain why towns maintain public transit.,"
+
+The city of San Diego has a public transit system that is the largest in the country. The San Diego Regional Transit Authority (SDRTA) is the largest transit agency in the country. The SDRTA is the largest transit agency in the United States. The SD",-1.143120527267456,-64.0147476196289,3.136540770727665,56,64000,0,step64000,-1.143120527267456,0,64000,-0.2529510259628296
+step128000,128000,step143000,143000,explanation_007,explanation,Explain why towns maintain public transit.,"
+
+The city of New York has a long history of public transit. The city’s first subway system opened in 1883, and the city’s first bus system opened in 1905. The city’s first subway line opened in 1909, and the city’s first",-1.1684789657592773,-65.43482208251953,3.217095602625711,56,15000,0,step64000,-1.143120527267456,0,15000,-0.2529510259628296
+step128000,128000,step4000,4000,explanation_007,explanation,Explain why towns maintain public transit.,"
+
+The city of San Francisco has been a major transit hub for the past few years, and the city has been a major transit hub for the past few years.
+
+The city has been a major transit hub for the past few years, and the city has been a",-1.1990243196487427,-67.1453628540039,3.316879129673545,56,124000,0,step64000,-1.143120527267456,0,124000,-0.2529510259628296
+step128000,128000,step128000,128000,explanation_007,explanation,Explain why towns maintain public transit.,"
+
+The city of New York has a long history of public transit. The city’s first subway system was built in 1883, and the first subway car was built in the Bronx in 1904. The city’s first subway car was the first subway car in the world",-1.3960715532302856,-78.18000793457031,4.039300580029291,56,0,1,step64000,-1.143120527267456,0,0,-0.2529510259628296
+step128000,128000,step16000,16000,explanation_007,explanation,Explain why towns maintain public transit.,"
+
+“We’re not going to be able to do this without public transportation,” said Mayor John Hancock. “We’re going to have to do this on a local level.”
+
+The city is also considering a proposal to build a new $1.5",-1.6514357328414917,-92.48040008544922,5.214461028340715,56,112000,0,step64000,-1.143120527267456,0,112000,-0.2529510259628296
+step128000,128000,step128000,128000,explanation_008,explanation,Explain why archives preserve administrative records.,"
+
+The first step in the process is to determine what records are archived. The first step is to determine what records are archived. The first step is to determine what records are archived. The first step is to determine what records are archived. The first step",-0.8233488202095032,-46.1075325012207,2.278116078867705,56,0,1,step128000,-0.8233488202095032,1,0,0.0734063982963562
+step128000,128000,step64000,64000,explanation_008,explanation,Explain why archives preserve administrative records.,"
+
+The first thing to note is that the records are not necessarily the same. The first thing to note is that the records are not necessarily the same. The first thing to note is that the records are not necessarily the same. The first thing to note is that the records",-0.8967552185058594,-50.218292236328125,2.4516351706029065,56,64000,0,step128000,-0.8233488202095032,1,64000,0.0734063982963562
+step128000,128000,step16000,16000,explanation_008,explanation,Explain why archives preserve administrative records.,"
+
+The following is a list of the most common types of administrative records that are stored in the archives:
+
+Administrative Records
+
+The following is a list of the most common types of administrative records that are stored in the archives:
+
+Administrative Records
+
+",-1.0322024822235107,-56.77113723754883,2.8072419312817045,55,112000,0,step128000,-0.8233488202095032,1,112000,0.0734063982963562
+step128000,128000,step143000,143000,explanation_008,explanation,Explain why archives preserve administrative records.,"
+
+A:
+
+The answer is that the archive is not a collection of records, but a collection of records that are stored in a database.
+The archive is a collection of records that are stored in a database.
+The archive is a collection of records that are",-1.1399810314178467,-63.83893585205078,3.1267090553860597,56,15000,0,step128000,-0.8233488202095032,1,15000,0.0734063982963562
+step128000,128000,step4000,4000,explanation_008,explanation,Explain why archives preserve administrative records.,"
+
+The government has also been trying to get the records of the U.S. military and the U.S. military to be released.
+
+The government has also been trying to get the records of the U.S. military and the U.S. military",-1.3373440504074097,-74.89126586914062,3.808913776303711,56,124000,0,step128000,-0.8233488202095032,1,124000,0.0734063982963562
+step128000,128000,step16000,16000,explanation_011,explanation,Explain why newspapers keep corrections pages.,"
+
+The New York Times is a newspaper that is a newspaper that is a newspaper that is a newspaper that is a newspaper that is a newspaper that is a newspaper that is a newspaper that is a newspaper that is a newspaper that is a newspaper that is a newspaper that is a",-0.6037715673446655,-33.81120681762695,1.8290040200292463,56,112000,0,step16000,-0.6037715673446655,0,112000,-0.22358238697052002
+step128000,128000,step128000,128000,explanation_011,explanation,Explain why newspapers keep corrections pages.,"
+
+The first page of the correction is the most important. It is the first page of the correction. It is the first page of the correction. It is the first page of the correction. It is the first page of the correction. It is the first page of the",-0.8273539543151855,-46.33182144165039,2.28725853543293,56,0,1,step16000,-0.6037715673446655,0,0,-0.22358238697052002
+step128000,128000,step4000,4000,explanation_011,explanation,Explain why newspapers keep corrections pages.,"
+
+The New York Times has a long history of reporting on the New York Times, and the New York Times has a long history of reporting on the New York Times.
+
+The New York Times has a long history of reporting on the New York Times, and the New",-1.010687232017517,-56.598487854003906,2.7474885284473074,56,124000,0,step16000,-0.6037715673446655,0,124000,-0.22358238697052002
+step128000,128000,step143000,143000,explanation_011,explanation,Explain why newspapers keep corrections pages.,"
+
+The first thing to note is that the corrections page is not a separate page. It is a separate page that is used to display the corrections page. The corrections page is not a separate page that is used to display the corrections page. The corrections page is a separate page",-1.3563779592514038,-75.95716857910156,3.8821066574919745,56,15000,0,step16000,-0.6037715673446655,0,15000,-0.22358238697052002
+step128000,128000,step64000,64000,explanation_011,explanation,Explain why newspapers keep corrections pages.,"
+
+The first thing to note is that the corrections page is not a page that is automatically generated. It is a page that is manually created by the editor. The editor is responsible for creating the page and for making sure that it is correct.
+
+The second thing to",-1.4069128036499023,-78.78711700439453,4.083329884254501,56,64000,0,step16000,-0.6037715673446655,0,64000,-0.22358238697052002
+step128000,128000,step143000,143000,explanation_012,explanation,Explain why research groups maintain lab notebooks.,"
+
+The lab notebooks are a great way to keep track of your research. They are a great way to keep track of your research. They are a great way to keep track of your research.
+
+The lab notebooks are a great way to keep track of your",-0.7747713923454285,-43.38719940185547,2.17009596992305,56,15000,0,step143000,-0.7747713923454285,0,15000,-6.794929504394531e-06
+step128000,128000,step128000,128000,explanation_012,explanation,Explain why research groups maintain lab notebooks.,"
+
+The lab notebooks are a great way to keep track of your research. They are a great way to keep track of your research. They are a great way to keep track of your research.
+
+The lab notebooks are a great way to keep track of your",-0.7747781872749329,-43.387577056884766,2.1701107156222816,56,0,1,step143000,-0.7747713923454285,0,0,-6.794929504394531e-06
+step128000,128000,step4000,4000,explanation_012,explanation,Explain why research groups maintain lab notebooks.,"
+
+The study was conducted in collaboration with the University of California, San Francisco, and the University of California, San Francisco. The study was conducted in collaboration with the University of California, San Francisco, and the University of California, San Francisco.
+
+The study was conducted",-0.9239917993545532,-51.7435417175293,2.519326992419571,56,124000,0,step143000,-0.7747713923454285,0,124000,-6.794929504394531e-06
+step128000,128000,step16000,16000,explanation_012,explanation,Explain why research groups maintain lab notebooks.,"
+
+The lab notebooks are a way to keep track of what you’re doing and where you are. They’re also a way to keep track of what you’re doing and where you are.
+
+The lab notebooks are a way to keep track of",-0.9953327775001526,-55.7386360168457,2.705624562462715,56,112000,0,step143000,-0.7747713923454285,0,112000,-6.794929504394531e-06
+step128000,128000,step64000,64000,explanation_012,explanation,Explain why research groups maintain lab notebooks.,"
+
+The research groups are also required to keep a journal of their research.
+
+The journal should be kept in a locked cabinet and should be kept in a locked cabinet with a lock.
+
+The journal should be kept in a locked cabinet with a lock.
+
+",-1.337328553199768,-73.55307006835938,3.8088547492334093,55,64000,0,step143000,-0.7747713923454285,0,64000,-6.794929504394531e-06
+step128000,128000,step4000,4000,explanation_014,explanation,Explain why cities zone industrial districts.,"
+
+The city’s industrial district is located in the city of San Francisco.
+
+The city’s industrial district is located in the city of San Francisco.
+
+The city’s industrial district is located in the city of San Francisco.
+
+The city of",-0.9359064698219299,-52.410762786865234,2.54952347669152,56,124000,0,step4000,-0.9359064698219299,0,124000,-0.528256356716156
+step128000,128000,step143000,143000,explanation_014,explanation,Explain why cities zone industrial districts.,"
+
+The city of New York has a zoning code that allows for the creation of industrial districts. The city has a zoning code that allows for the creation of industrial districts. The city of New York has a zoning code that allows for the creation of industrial districts. The city of",-0.9839072823524475,-55.09880828857422,2.674887390232317,56,15000,0,step4000,-0.9359064698219299,0,15000,-0.528256356716156
+step128000,128000,step64000,64000,explanation_014,explanation,Explain why cities zone industrial districts.,"
+
+The city of Chicago has a long history of industrial development. The city’s industrial districts are the largest in the country. The Chicago Industrial District is the largest in the country. The Chicago Industrial District is the largest in the country. The Chicago Industrial District is the largest",-1.2466257810592651,-69.81104278564453,3.4785856232101904,56,64000,0,step4000,-0.9359064698219299,0,64000,-0.528256356716156
+step128000,128000,step128000,128000,explanation_014,explanation,Explain why cities zone industrial districts.,"
+
+The city of New York has a long history of zoning. In the early 1900s, the city was a leader in the development of the industrial districts. The city’s first zoning ordinance was passed in 1883, and the first zoning ordinance was passed in New York",-1.464162826538086,-81.99311828613281,4.3239218520212965,56,0,1,step4000,-0.9359064698219299,0,0,-0.528256356716156
+step128000,128000,step16000,16000,explanation_014,explanation,Explain why cities zone industrial districts.,"
+
+The city of San Francisco has been criticized for its lack of industrial districts, and the city’s industrial districts are often the most expensive in the country.
+
+The city’s industrial districts are often the most expensive in the country.
+
+The city’s",-1.5554531812667847,-87.10537719726562,4.7372328639727685,56,112000,0,step4000,-0.9359064698219299,0,112000,-0.528256356716156
+step128000,128000,step16000,16000,explanation_015,explanation,Explain why conferences use peer review.,"
+
+The conference is a great way to get feedback from your peers.
+
+The conference is a great way to get feedback from your peers.
+
+The conference is a great way to get feedback from your peers.
+
+The conference is a great way to get feedback",-0.6692309975624084,-37.47693634033203,1.9527350850581795,56,112000,0,step16000,-0.6692309975624084,0,112000,-0.4197612404823303
+step128000,128000,step143000,143000,explanation_015,explanation,Explain why conferences use peer review.,"
+
+The conference is a great way to get your message out to as many people as possible.
+
+The conference is a great way to get your message out to as many people as possible.
+
+The conference is a great way to get your message out to as many",-0.6961398720741272,-38.98383331298828,2.005994348171935,56,15000,0,step16000,-0.6692309975624084,0,15000,-0.4197612404823303
+step128000,128000,step4000,4000,explanation_015,explanation,Explain why conferences use peer review.,"
+
+The conference is a great opportunity for the conference to be a great opportunity for the conference to be a great opportunity for the conference to be a great opportunity for the conference to be a great opportunity for the conference to be a great opportunity for the conference to be a great opportunity",-0.7659191489219666,-42.89147186279297,2.1509705285687395,56,124000,0,step16000,-0.6692309975624084,0,124000,-0.4197612404823303
+step128000,128000,step64000,64000,explanation_015,explanation,Explain why conferences use peer review.,"
+
+The conference is a great opportunity to learn from other people who have done it before.
+
+The conference is a great opportunity to learn from other people who have done it before.
+
+The conference is a great opportunity to learn from other people who have done it before",-0.8174603581428528,-45.77777862548828,2.2647408970268676,56,64000,0,step16000,-0.6692309975624084,0,64000,-0.4197612404823303
+step128000,128000,step128000,128000,explanation_015,explanation,Explain why conferences use peer review.,"
+
+The peer review process is a critical component of the process of peer review. Peer review is a process in which a group of reviewers reviews a paper and makes a decision about whether or not to accept the paper. Peer review is a process in which a group of reviewers reviews",-1.0889922380447388,-60.98356628417969,2.9712782221138143,56,0,1,step16000,-0.6692309975624084,0,0,-0.4197612404823303
+step143000,143000,step143000,143000,explanation_007,explanation,Explain why towns maintain public transit.,"
+
+The city of New York has a long history of public transit. The city’s first subway system opened in 1883, and the city’s first bus system opened in 1905. The city’s first subway line opened in 1909, and the city’s first",-1.1431013345718384,-64.013671875,3.136480572633044,56,0,1,step143000,-1.1431013345718384,1,0,0.04229402542114258
+step143000,143000,step64000,64000,explanation_007,explanation,Explain why towns maintain public transit.,"
+
+The city of San Diego has a public transit system that is the largest in the country. The San Diego Regional Transit Authority (SDRTA) is the largest transit agency in the country. The SDRTA is the largest transit agency in the United States. The SD",-1.185395359992981,-66.38214111328125,3.2719801758381704,56,79000,0,step143000,-1.1431013345718384,1,79000,0.04229402542114258
+step143000,143000,step4000,4000,explanation_007,explanation,Explain why towns maintain public transit.,"
+
+The city of San Francisco has been a major transit hub for the past few years, and the city has been a major transit hub for the past few years.
+
+The city has been a major transit hub for the past few years, and the city has been a",-1.2112557888031006,-67.830322265625,3.3576985663661785,56,139000,0,step143000,-1.1431013345718384,1,139000,0.04229402542114258
+step143000,143000,step128000,128000,explanation_007,explanation,Explain why towns maintain public transit.,"
+
+The city of New York has a long history of public transit. The city’s first subway system was built in 1883, and the first subway car was built in the Bronx in 1904. The city’s first subway car was the first subway car in the world",-1.4713221788406372,-82.39404296875,4.354989410987899,56,15000,0,step143000,-1.1431013345718384,1,15000,0.04229402542114258
+step143000,143000,step16000,16000,explanation_007,explanation,Explain why towns maintain public transit.,"
+
+“We’re not going to be able to do this without public transportation,” said Mayor John Hancock. “We’re going to have to do this on a local level.”
+
+The city is also considering a proposal to build a new $1.5",-1.6714414358139038,-93.60072326660156,5.319830467390374,56,127000,0,step143000,-1.1431013345718384,1,127000,0.04229402542114258
+step143000,143000,step128000,128000,explanation_008,explanation,Explain why archives preserve administrative records.,"
+
+The first step in the process is to determine what records are archived. The first step is to determine what records are archived. The first step is to determine what records are archived. The first step is to determine what records are archived. The first step",-0.8284133672714233,-46.39114761352539,2.2896829707719815,56,15000,0,step128000,-0.8284133672714233,0,15000,-0.30961692333221436
+step143000,143000,step64000,64000,explanation_008,explanation,Explain why archives preserve administrative records.,"
+
+The first thing to note is that the records are not necessarily the same. The first thing to note is that the records are not necessarily the same. The first thing to note is that the records are not necessarily the same. The first thing to note is that the records",-0.9071201086044312,-50.79872512817383,2.477178246619853,56,79000,0,step128000,-0.8284133672714233,0,79000,-0.30961692333221436
+step143000,143000,step16000,16000,explanation_008,explanation,Explain why archives preserve administrative records.,"
+
+The following is a list of the most common types of administrative records that are stored in the archives:
+
+Administrative Records
+
+The following is a list of the most common types of administrative records that are stored in the archives:
+
+Administrative Records
+
+",-1.0082703828811646,-55.454872131347656,2.74085628096932,55,127000,0,step128000,-0.8284133672714233,0,127000,-0.30961692333221436
+step143000,143000,step143000,143000,explanation_008,explanation,Explain why archives preserve administrative records.,"
+
+A:
+
+The answer is that the archive is not a collection of records, but a collection of records that are stored in a database.
+The archive is a collection of records that are stored in a database.
+The archive is a collection of records that are",-1.1380302906036377,-63.729698181152344,3.1206156017242703,56,0,1,step128000,-0.8284133672714233,0,0,-0.30961692333221436
+step143000,143000,step4000,4000,explanation_008,explanation,Explain why archives preserve administrative records.,"
+
+The government has also been trying to get the records of the U.S. military and the U.S. military to be released.
+
+The government has also been trying to get the records of the U.S. military and the U.S. military",-1.3237968683242798,-74.13262176513672,3.757661672467931,56,139000,0,step128000,-0.8284133672714233,0,139000,-0.30961692333221436
+step143000,143000,step16000,16000,explanation_011,explanation,Explain why newspapers keep corrections pages.,"
+
+The New York Times is a newspaper that is a newspaper that is a newspaper that is a newspaper that is a newspaper that is a newspaper that is a newspaper that is a newspaper that is a newspaper that is a newspaper that is a newspaper that is a newspaper that is a",-0.5977005362510681,-33.471229553222656,1.8179337178296449,56,127000,0,step16000,-0.5977005362510681,0,127000,-0.7228297591209412
+step143000,143000,step128000,128000,explanation_011,explanation,Explain why newspapers keep corrections pages.,"
+
+The first page of the correction is the most important. It is the first page of the correction. It is the first page of the correction. It is the first page of the correction. It is the first page of the correction. It is the first page of the",-0.8572067618370056,-48.003578186035156,2.356569033395192,56,15000,0,step16000,-0.5977005362510681,0,15000,-0.7228297591209412
+step143000,143000,step4000,4000,explanation_011,explanation,Explain why newspapers keep corrections pages.,"
+
+The New York Times has a long history of reporting on the New York Times, and the New York Times has a long history of reporting on the New York Times.
+
+The New York Times has a long history of reporting on the New York Times, and the New",-1.0320667028427124,-57.795738220214844,2.806860791586565,56,139000,0,step16000,-0.5977005362510681,0,139000,-0.7228297591209412
+step143000,143000,step143000,143000,explanation_011,explanation,Explain why newspapers keep corrections pages.,"
+
+The first thing to note is that the corrections page is not a separate page. It is a separate page that is used to display the corrections page. The corrections page is not a separate page that is used to display the corrections page. The corrections page is a separate page",-1.3205302953720093,-73.94969940185547,3.745407022735475,56,0,1,step16000,-0.5977005362510681,0,0,-0.7228297591209412
+step143000,143000,step64000,64000,explanation_011,explanation,Explain why newspapers keep corrections pages.,"
+
+The first thing to note is that the corrections page is not a page that is automatically generated. It is a page that is manually created by the editor. The editor is responsible for creating the page and for making sure that it is correct.
+
+The second thing to",-1.3922361135482788,-77.96522521972656,4.023837758612131,56,79000,0,step16000,-0.5977005362510681,0,79000,-0.7228297591209412
+step143000,143000,step128000,128000,explanation_012,explanation,Explain why research groups maintain lab notebooks.,"
+
+The lab notebooks are a great way to keep track of your research. They are a great way to keep track of your research. They are a great way to keep track of your research.
+
+The lab notebooks are a great way to keep track of your",-0.7298198342323303,-40.869911193847656,2.074706782859693,56,15000,0,step128000,-0.7298198342323303,0,15000,-9.5367431640625e-07
+step143000,143000,step143000,143000,explanation_012,explanation,Explain why research groups maintain lab notebooks.,"
+
+The lab notebooks are a great way to keep track of your research. They are a great way to keep track of your research. They are a great way to keep track of your research.
+
+The lab notebooks are a great way to keep track of your",-0.7298207879066467,-40.869964599609375,2.0747087614552093,56,0,1,step128000,-0.7298198342323303,0,0,-9.5367431640625e-07
+step143000,143000,step4000,4000,explanation_012,explanation,Explain why research groups maintain lab notebooks.,"
+
+The study was conducted in collaboration with the University of California, San Francisco, and the University of California, San Francisco. The study was conducted in collaboration with the University of California, San Francisco, and the University of California, San Francisco.
+
+The study was conducted",-0.9335418343544006,-52.278343200683594,2.543501905269715,56,139000,0,step128000,-0.7298198342323303,0,139000,-9.5367431640625e-07
+step143000,143000,step16000,16000,explanation_012,explanation,Explain why research groups maintain lab notebooks.,"
+
+The lab notebooks are a way to keep track of what you’re doing and where you are. They’re also a way to keep track of what you’re doing and where you are.
+
+The lab notebooks are a way to keep track of",-0.9776186943054199,-54.746646881103516,2.65811890566973,56,127000,0,step128000,-0.7298198342323303,0,127000,-9.5367431640625e-07
+step143000,143000,step64000,64000,explanation_012,explanation,Explain why research groups maintain lab notebooks.,"
+
+The research groups are also required to keep a journal of their research.
+
+The journal should be kept in a locked cabinet and should be kept in a locked cabinet with a lock.
+
+The journal should be kept in a locked cabinet with a lock.
+
+",-1.3387385606765747,-73.63062286376953,3.8142290509202827,55,79000,0,step128000,-0.7298198342323303,0,79000,-9.5367431640625e-07
+step143000,143000,step4000,4000,explanation_014,explanation,Explain why cities zone industrial districts.,"
+
+The city’s industrial district is located in the city of San Francisco.
+
+The city’s industrial district is located in the city of San Francisco.
+
+The city’s industrial district is located in the city of San Francisco.
+
+The city of",-0.8560161590576172,-47.93690490722656,2.3537649653510533,56,139000,0,step4000,-0.8560161590576172,0,139000,-0.06469851732254028
+step143000,143000,step143000,143000,explanation_014,explanation,Explain why cities zone industrial districts.,"
+
+The city of New York has a zoning code that allows for the creation of industrial districts. The city has a zoning code that allows for the creation of industrial districts. The city of New York has a zoning code that allows for the creation of industrial districts. The city of",-0.9207146763801575,-51.560020446777344,2.5110843614871303,56,0,1,step4000,-0.8560161590576172,0,0,-0.06469851732254028
+step143000,143000,step64000,64000,explanation_014,explanation,Explain why cities zone industrial districts.,"
+
+The city of Chicago has a long history of industrial development. The city’s industrial districts are the largest in the country. The Chicago Industrial District is the largest in the country. The Chicago Industrial District is the largest in the country. The Chicago Industrial District is the largest",-1.2451201677322388,-69.72673034667969,3.4733521591119616,56,79000,0,step4000,-0.8560161590576172,0,79000,-0.06469851732254028
+step143000,143000,step128000,128000,explanation_014,explanation,Explain why cities zone industrial districts.,"
+
+The city of New York has a long history of zoning. In the early 1900s, the city was a leader in the development of the industrial districts. The city’s first zoning ordinance was passed in 1883, and the first zoning ordinance was passed in New York",-1.4364787340164185,-80.44281005859375,4.205859760569273,56,15000,0,step4000,-0.8560161590576172,0,15000,-0.06469851732254028
+step143000,143000,step16000,16000,explanation_014,explanation,Explain why cities zone industrial districts.,"
+
+The city of San Francisco has been criticized for its lack of industrial districts, and the city’s industrial districts are often the most expensive in the country.
+
+The city’s industrial districts are often the most expensive in the country.
+
+The city’s",-1.5692261457443237,-87.87666320800781,4.802929987475325,56,127000,0,step4000,-0.8560161590576172,0,127000,-0.06469851732254028
+step143000,143000,step143000,143000,explanation_015,explanation,Explain why conferences use peer review.,"
+
+The conference is a great way to get your message out to as many people as possible.
+
+The conference is a great way to get your message out to as many people as possible.
+
+The conference is a great way to get your message out to as many",-0.6758903861045837,-37.84986114501953,1.965782502402024,56,0,1,step143000,-0.6758903861045837,1,0,0.006870746612548828
+step143000,143000,step16000,16000,explanation_015,explanation,Explain why conferences use peer review.,"
+
+The conference is a great way to get feedback from your peers.
+
+The conference is a great way to get feedback from your peers.
+
+The conference is a great way to get feedback from your peers.
+
+The conference is a great way to get feedback",-0.6827611327171326,-38.234622955322266,1.9793354018241933,56,127000,0,step143000,-0.6758903861045837,1,127000,0.006870746612548828
+step143000,143000,step4000,4000,explanation_015,explanation,Explain why conferences use peer review.,"
+
+The conference is a great opportunity for the conference to be a great opportunity for the conference to be a great opportunity for the conference to be a great opportunity for the conference to be a great opportunity for the conference to be a great opportunity for the conference to be a great opportunity",-0.7460903525352478,-41.78105926513672,2.1087394513360187,56,139000,0,step143000,-0.6758903861045837,1,139000,0.006870746612548828
+step143000,143000,step64000,64000,explanation_015,explanation,Explain why conferences use peer review.,"
+
+The conference is a great opportunity to learn from other people who have done it before.
+
+The conference is a great opportunity to learn from other people who have done it before.
+
+The conference is a great opportunity to learn from other people who have done it before",-0.811355471611023,-45.43590545654297,2.2509570281143234,56,79000,0,step143000,-0.6758903861045837,1,79000,0.006870746612548828
+step143000,143000,step128000,128000,explanation_015,explanation,Explain why conferences use peer review.,"
+
+The peer review process is a critical component of the process of peer review. Peer review is a process in which a group of reviewers reviews a paper and makes a decision about whether or not to accept the paper. Peer review is a process in which a group of reviewers reviews",-1.1260602474212646,-63.05937576293945,3.0834843727748122,56,15000,0,step143000,-0.6758903861045837,1,15000,0.006870746612548828
+step16000,16000,step4000,4000,explanation_007,explanation,Explain why towns maintain public transit.,"
+
+The city of San Francisco has been a major transit hub for the past few years, and the city has been a major transit hub for the past few years.
+
+The city has been a major transit hub for the past few years, and the city has been a",-1.1303826570510864,-63.30142593383789,3.0968413015840848,56,12000,0,step4000,-1.1303826570510864,0,12000,-0.36204075813293457
+step16000,16000,step143000,143000,explanation_007,explanation,Explain why towns maintain public transit.,"
+
+The city of New York has a long history of public transit. The city’s first subway system opened in 1883, and the city’s first bus system opened in 1905. The city’s first subway line opened in 1909, and the city’s first",-1.2180079221725464,-68.20844268798828,3.380446908393179,56,127000,0,step4000,-1.1303826570510864,0,127000,-0.36204075813293457
+step16000,16000,step64000,64000,explanation_007,explanation,Explain why towns maintain public transit.,"
+
+The city of San Diego has a public transit system that is the largest in the country. The San Diego Regional Transit Authority (SDRTA) is the largest transit agency in the country. The SDRTA is the largest transit agency in the United States. The SD",-1.3659493923187256,-76.4931640625,3.9194423746493547,56,48000,0,step4000,-1.1303826570510864,0,48000,-0.36204075813293457
+step16000,16000,step16000,16000,explanation_007,explanation,Explain why towns maintain public transit.,"
+
+“We’re not going to be able to do this without public transportation,” said Mayor John Hancock. “We’re going to have to do this on a local level.”
+
+The city is also considering a proposal to build a new $1.5",-1.492423415184021,-83.57571411132812,4.447861483589405,56,0,1,step4000,-1.1303826570510864,0,0,-0.36204075813293457
+step16000,16000,step128000,128000,explanation_007,explanation,Explain why towns maintain public transit.,"
+
+The city of New York has a long history of public transit. The city’s first subway system was built in 1883, and the first subway car was built in the Bronx in 1904. The city’s first subway car was the first subway car in the world",-1.5696535110473633,-87.90059661865234,4.8049830317736015,56,112000,0,step4000,-1.1303826570510864,0,112000,-0.36204075813293457
+step16000,16000,step16000,16000,explanation_008,explanation,Explain why archives preserve administrative records.,"
+
+The following is a list of the most common types of administrative records that are stored in the archives:
+
+Administrative Records
+
+The following is a list of the most common types of administrative records that are stored in the archives:
+
+Administrative Records
+
+",-0.8728387355804443,-48.00613021850586,2.393696288763089,55,0,1,step16000,-0.8728387355804443,1,0,0.013118147850036621
+step16000,16000,step128000,128000,explanation_008,explanation,Explain why archives preserve administrative records.,"
+
+The first step in the process is to determine what records are archived. The first step is to determine what records are archived. The first step is to determine what records are archived. The first step is to determine what records are archived. The first step",-0.885956883430481,-49.61358642578125,2.425304014729608,56,112000,0,step16000,-0.8728387355804443,1,112000,0.013118147850036621
+step16000,16000,step64000,64000,explanation_008,explanation,Explain why archives preserve administrative records.,"
+
+The first thing to note is that the records are not necessarily the same. The first thing to note is that the records are not necessarily the same. The first thing to note is that the records are not necessarily the same. The first thing to note is that the records",-1.0001074075698853,-56.006011962890625,2.718573808184639,56,48000,0,step16000,-0.8728387355804443,1,48000,0.013118147850036621
+step16000,16000,step143000,143000,explanation_008,explanation,Explain why archives preserve administrative records.,"
+
+A:
+
+The answer is that the archive is not a collection of records, but a collection of records that are stored in a database.
+The archive is a collection of records that are stored in a database.
+The archive is a collection of records that are",-1.1890714168548584,-66.58799743652344,3.284030295908942,56,127000,0,step16000,-0.8728387355804443,1,127000,0.013118147850036621
+step16000,16000,step4000,4000,explanation_008,explanation,Explain why archives preserve administrative records.,"
+
+The government has also been trying to get the records of the U.S. military and the U.S. military to be released.
+
+The government has also been trying to get the records of the U.S. military and the U.S. military",-1.3305801153182983,-74.51248931884766,3.783237465104522,56,12000,0,step16000,-0.8728387355804443,1,12000,0.013118147850036621
+step16000,16000,step16000,16000,explanation_011,explanation,Explain why newspapers keep corrections pages.,"
+
+The New York Times is a newspaper that is a newspaper that is a newspaper that is a newspaper that is a newspaper that is a newspaper that is a newspaper that is a newspaper that is a newspaper that is a newspaper that is a newspaper that is a newspaper that is a",-0.5586823225021362,-31.286211013793945,1.7483671976925683,56,0,1,step16000,-0.5586823225021362,1,0,0.33722037076950073
+step16000,16000,step128000,128000,explanation_011,explanation,Explain why newspapers keep corrections pages.,"
+
+The first page of the correction is the most important. It is the first page of the correction. It is the first page of the correction. It is the first page of the correction. It is the first page of the correction. It is the first page of the",-0.895902693271637,-50.17055130004883,2.4495459804250683,56,112000,0,step16000,-0.5586823225021362,1,112000,0.33722037076950073
+step16000,16000,step4000,4000,explanation_011,explanation,Explain why newspapers keep corrections pages.,"
+
+The New York Times has a long history of reporting on the New York Times, and the New York Times has a long history of reporting on the New York Times.
+
+The New York Times has a long history of reporting on the New York Times, and the New",-0.9909051656723022,-55.49068832397461,2.6936715882401723,56,12000,0,step16000,-0.5586823225021362,1,12000,0.33722037076950073
+step16000,16000,step143000,143000,explanation_011,explanation,Explain why newspapers keep corrections pages.,"
+
+The first thing to note is that the corrections page is not a separate page. It is a separate page that is used to display the corrections page. The corrections page is not a separate page that is used to display the corrections page. The corrections page is a separate page",-1.3652523756027222,-76.45413208007812,3.916711409671498,56,127000,0,step16000,-0.5586823225021362,1,127000,0.33722037076950073
+step16000,16000,step64000,64000,explanation_011,explanation,Explain why newspapers keep corrections pages.,"
+
+The first thing to note is that the corrections page is not a page that is automatically generated. It is a page that is manually created by the editor. The editor is responsible for creating the page and for making sure that it is correct.
+
+The second thing to",-1.579456090927124,-88.44953918457031,4.85231587473108,56,48000,0,step16000,-0.5586823225021362,1,48000,0.33722037076950073
+step16000,16000,step128000,128000,explanation_012,explanation,Explain why research groups maintain lab notebooks.,"
+
+The lab notebooks are a great way to keep track of your research. They are a great way to keep track of your research. They are a great way to keep track of your research.
+
+The lab notebooks are a great way to keep track of your",-0.8761914372444153,-49.06671905517578,2.4017351066424073,56,112000,0,step128000,-0.8761914372444153,0,112000,-0.05115163326263428
+step16000,16000,step143000,143000,explanation_012,explanation,Explain why research groups maintain lab notebooks.,"
+
+The lab notebooks are a great way to keep track of your research. They are a great way to keep track of your research. They are a great way to keep track of your research.
+
+The lab notebooks are a great way to keep track of your",-0.8761914968490601,-49.06672286987305,2.4017352497969795,56,127000,0,step128000,-0.8761914372444153,0,127000,-0.05115163326263428
+step16000,16000,step4000,4000,explanation_012,explanation,Explain why research groups maintain lab notebooks.,"
+
+The study was conducted in collaboration with the University of California, San Francisco, and the University of California, San Francisco. The study was conducted in collaboration with the University of California, San Francisco, and the University of California, San Francisco.
+
+The study was conducted",-0.9233420491218567,-51.7071533203125,2.5176905908037437,56,12000,0,step128000,-0.8761914372444153,0,12000,-0.05115163326263428
+step16000,16000,step16000,16000,explanation_012,explanation,Explain why research groups maintain lab notebooks.,"
+
+The lab notebooks are a way to keep track of what you’re doing and where you are. They’re also a way to keep track of what you’re doing and where you are.
+
+The lab notebooks are a way to keep track of",-0.9273430705070496,-51.93121337890625,2.5277841034138637,56,0,1,step128000,-0.8761914372444153,0,0,-0.05115163326263428
+step16000,16000,step64000,64000,explanation_012,explanation,Explain why research groups maintain lab notebooks.,"
+
+The research groups are also required to keep a journal of their research.
+
+The journal should be kept in a locked cabinet and should be kept in a locked cabinet with a lock.
+
+The journal should be kept in a locked cabinet with a lock.
+
+",-1.439613699913025,-79.17875671386719,4.219065676717289,55,48000,0,step128000,-0.8761914372444153,0,48000,-0.05115163326263428
+step16000,16000,step4000,4000,explanation_014,explanation,Explain why cities zone industrial districts.,"
+
+The city’s industrial district is located in the city of San Francisco.
+
+The city’s industrial district is located in the city of San Francisco.
+
+The city’s industrial district is located in the city of San Francisco.
+
+The city of",-0.8444948196411133,-47.291709899902344,2.3268020629107173,56,12000,0,step4000,-0.8444948196411133,0,12000,-0.45559537410736084
+step16000,16000,step143000,143000,explanation_014,explanation,Explain why cities zone industrial districts.,"
+
+The city of New York has a zoning code that allows for the creation of industrial districts. The city has a zoning code that allows for the creation of industrial districts. The city of New York has a zoning code that allows for the creation of industrial districts. The city of",-1.027795433998108,-57.556541442871094,2.794897501937419,56,127000,0,step4000,-0.8444948196411133,0,127000,-0.45559537410736084
+step16000,16000,step64000,64000,explanation_014,explanation,Explain why cities zone industrial districts.,"
+
+The city of Chicago has a long history of industrial development. The city’s industrial districts are the largest in the country. The Chicago Industrial District is the largest in the country. The Chicago Industrial District is the largest in the country. The Chicago Industrial District is the largest",-1.223954439163208,-68.54145050048828,3.400608680117254,56,48000,0,step4000,-0.8444948196411133,0,48000,-0.45559537410736084
+step16000,16000,step16000,16000,explanation_014,explanation,Explain why cities zone industrial districts.,"
+
+The city of San Francisco has been criticized for its lack of industrial districts, and the city’s industrial districts are often the most expensive in the country.
+
+The city’s industrial districts are often the most expensive in the country.
+
+The city’s",-1.3000901937484741,-72.8050537109375,3.6696276301651123,56,0,1,step4000,-0.8444948196411133,0,0,-0.45559537410736084
+step16000,16000,step128000,128000,explanation_014,explanation,Explain why cities zone industrial districts.,"
+
+The city of New York has a long history of zoning. In the early 1900s, the city was a leader in the development of the industrial districts. The city’s first zoning ordinance was passed in 1883, and the first zoning ordinance was passed in New York",-1.642138123512268,-91.95973205566406,5.166203693395978,56,112000,0,step4000,-0.8444948196411133,0,112000,-0.45559537410736084
+step16000,16000,step16000,16000,explanation_015,explanation,Explain why conferences use peer review.,"
+
+The conference is a great way to get feedback from your peers.
+
+The conference is a great way to get feedback from your peers.
+
+The conference is a great way to get feedback from your peers.
+
+The conference is a great way to get feedback",-0.6440026164054871,-36.06414794921875,1.904086976775677,56,0,1,step16000,-0.6440026164054871,1,0,0.07345473766326904
+step16000,16000,step143000,143000,explanation_015,explanation,Explain why conferences use peer review.,"
+
+The conference is a great way to get your message out to as many people as possible.
+
+The conference is a great way to get your message out to as many people as possible.
+
+The conference is a great way to get your message out to as many",-0.7174573540687561,-40.1776123046875,2.0492161497798334,56,127000,0,step16000,-0.6440026164054871,1,127000,0.07345473766326904
+step16000,16000,step4000,4000,explanation_015,explanation,Explain why conferences use peer review.,"
+
+The conference is a great opportunity for the conference to be a great opportunity for the conference to be a great opportunity for the conference to be a great opportunity for the conference to be a great opportunity for the conference to be a great opportunity for the conference to be a great opportunity",-0.7892633080482483,-44.19874572753906,2.2017737996035787,56,12000,0,step16000,-0.6440026164054871,1,12000,0.07345473766326904
+step16000,16000,step64000,64000,explanation_015,explanation,Explain why conferences use peer review.,"
+
+The conference is a great opportunity to learn from other people who have done it before.
+
+The conference is a great opportunity to learn from other people who have done it before.
+
+The conference is a great opportunity to learn from other people who have done it before",-0.9167981147766113,-51.340694427490234,2.5012687791073343,56,48000,0,step16000,-0.6440026164054871,1,48000,0.07345473766326904
+step16000,16000,step128000,128000,explanation_015,explanation,Explain why conferences use peer review.,"
+
+The peer review process is a critical component of the process of peer review. Peer review is a process in which a group of reviewers reviews a paper and makes a decision about whether or not to accept the paper. Peer review is a process in which a group of reviewers reviews",-1.2191314697265625,-68.2713623046875,3.3842471357168713,56,112000,0,step16000,-0.6440026164054871,1,112000,0.07345473766326904
+step4000,4000,step4000,4000,explanation_007,explanation,Explain why towns maintain public transit.,"
+
+The city of San Francisco has been a major transit hub for the past few years, and the city has been a major transit hub for the past few years.
+
+The city has been a major transit hub for the past few years, and the city has been a",-1.0212526321411133,-57.190147399902344,2.7766707334602545,56,0,1,step4000,-1.0212526321411133,1,0,0.3890492916107178
+step4000,4000,step143000,143000,explanation_007,explanation,Explain why towns maintain public transit.,"
+
+The city of New York has a long history of public transit. The city’s first subway system opened in 1883, and the city’s first bus system opened in 1905. The city’s first subway line opened in 1909, and the city’s first",-1.410301923751831,-78.9769058227539,4.097192257002349,56,139000,0,step4000,-1.0212526321411133,1,139000,0.3890492916107178
+step4000,4000,step64000,64000,explanation_007,explanation,Explain why towns maintain public transit.,"
+
+The city of San Diego has a public transit system that is the largest in the country. The San Diego Regional Transit Authority (SDRTA) is the largest transit agency in the country. The SDRTA is the largest transit agency in the United States. The SD",-1.5400497913360596,-86.24279022216797,4.664822532952158,56,60000,0,step4000,-1.0212526321411133,1,60000,0.3890492916107178
+step4000,4000,step16000,16000,explanation_007,explanation,Explain why towns maintain public transit.,"
+
+“We’re not going to be able to do this without public transportation,” said Mayor John Hancock. “We’re going to have to do this on a local level.”
+
+The city is also considering a proposal to build a new $1.5",-1.7763210535049438,-99.4739761352539,5.9080808741955035,56,12000,0,step4000,-1.0212526321411133,1,12000,0.3890492916107178
+step4000,4000,step128000,128000,explanation_007,explanation,Explain why towns maintain public transit.,"
+
+The city of New York has a long history of public transit. The city’s first subway system was built in 1883, and the first subway car was built in the Bronx in 1904. The city’s first subway car was the first subway car in the world",-1.8010910749435425,-100.86109924316406,6.056251685373475,56,124000,0,step4000,-1.0212526321411133,1,124000,0.3890492916107178
+step4000,4000,step64000,64000,explanation_008,explanation,Explain why archives preserve administrative records.,"
+
+The first thing to note is that the records are not necessarily the same. The first thing to note is that the records are not necessarily the same. The first thing to note is that the records are not necessarily the same. The first thing to note is that the records",-1.148194432258606,-64.29888916015625,3.1524957233266604,56,60000,0,step64000,-1.148194432258606,0,60000,-0.024439454078674316
+step4000,4000,step4000,4000,explanation_008,explanation,Explain why archives preserve administrative records.,"
+
+The government has also been trying to get the records of the U.S. military and the U.S. military to be released.
+
+The government has also been trying to get the records of the U.S. military and the U.S. military",-1.1726338863372803,-65.66749572753906,3.2304901867935323,56,0,1,step64000,-1.148194432258606,0,0,-0.024439454078674316
+step4000,4000,step16000,16000,explanation_008,explanation,Explain why archives preserve administrative records.,"
+
+The following is a list of the most common types of administrative records that are stored in the archives:
+
+Administrative Records
+
+The following is a list of the most common types of administrative records that are stored in the archives:
+
+Administrative Records
+
+",-1.19380784034729,-65.65943145751953,3.2996217488665462,55,12000,0,step64000,-1.148194432258606,0,12000,-0.024439454078674316
+step4000,4000,step128000,128000,explanation_008,explanation,Explain why archives preserve administrative records.,"
+
+The first step in the process is to determine what records are archived. The first step is to determine what records are archived. The first step is to determine what records are archived. The first step is to determine what records are archived. The first step",-1.2315903902053833,-68.96906280517578,3.4266749552572753,56,124000,0,step64000,-1.148194432258606,0,124000,-0.024439454078674316
+step4000,4000,step143000,143000,explanation_008,explanation,Explain why archives preserve administrative records.,"
+
+A:
+
+The answer is that the archive is not a collection of records, but a collection of records that are stored in a database.
+The archive is a collection of records that are stored in a database.
+The archive is a collection of records that are",-1.4242643117904663,-79.75880432128906,4.1548000806818415,56,139000,0,step64000,-1.148194432258606,0,139000,-0.024439454078674316
+step4000,4000,step16000,16000,explanation_011,explanation,Explain why newspapers keep corrections pages.,"
+
+The New York Times is a newspaper that is a newspaper that is a newspaper that is a newspaper that is a newspaper that is a newspaper that is a newspaper that is a newspaper that is a newspaper that is a newspaper that is a newspaper that is a newspaper that is a",-0.7574218511581421,-42.41562271118164,2.132770526434385,56,12000,0,step16000,-0.7574218511581421,0,12000,-0.10333991050720215
+step4000,4000,step4000,4000,explanation_011,explanation,Explain why newspapers keep corrections pages.,"
+
+The New York Times has a long history of reporting on the New York Times, and the New York Times has a long history of reporting on the New York Times.
+
+The New York Times has a long history of reporting on the New York Times, and the New",-0.8607617616653442,-48.202659606933594,2.364961544753872,56,0,1,step16000,-0.7574218511581421,0,0,-0.10333991050720215
+step4000,4000,step128000,128000,explanation_011,explanation,Explain why newspapers keep corrections pages.,"
+
+The first page of the correction is the most important. It is the first page of the correction. It is the first page of the correction. It is the first page of the correction. It is the first page of the correction. It is the first page of the",-1.2801700830459595,-71.68952178955078,3.5972515050342078,56,124000,0,step16000,-0.7574218511581421,0,124000,-0.10333991050720215
+step4000,4000,step143000,143000,explanation_011,explanation,Explain why newspapers keep corrections pages.,"
+
+The first thing to note is that the corrections page is not a separate page. It is a separate page that is used to display the corrections page. The corrections page is not a separate page that is used to display the corrections page. The corrections page is a separate page",-1.449036717414856,-81.14605712890625,4.259009908463353,56,139000,0,step16000,-0.7574218511581421,0,139000,-0.10333991050720215
+step4000,4000,step64000,64000,explanation_011,explanation,Explain why newspapers keep corrections pages.,"
+
+The first thing to note is that the corrections page is not a page that is automatically generated. It is a page that is manually created by the editor. The editor is responsible for creating the page and for making sure that it is correct.
+
+The second thing to",-1.9345155954360962,-108.33287048339844,6.920690829061815,56,60000,0,step16000,-0.7574218511581421,0,60000,-0.10333991050720215
+step4000,4000,step4000,4000,explanation_012,explanation,Explain why research groups maintain lab notebooks.,"
+
+The study was conducted in collaboration with the University of California, San Francisco, and the University of California, San Francisco. The study was conducted in collaboration with the University of California, San Francisco, and the University of California, San Francisco.
+
+The study was conducted",-0.9157813787460327,-51.283756256103516,2.498726941425401,56,0,1,step4000,-0.9157813787460327,1,0,0.04812204837799072
+step4000,4000,step143000,143000,explanation_012,explanation,Explain why research groups maintain lab notebooks.,"
+
+The lab notebooks are a great way to keep track of your research. They are a great way to keep track of your research. They are a great way to keep track of your research.
+
+The lab notebooks are a great way to keep track of your",-0.9639034271240234,-53.97859191894531,2.6219109630655315,56,139000,0,step4000,-0.9157813787460327,1,139000,0.04812204837799072
+step4000,4000,step128000,128000,explanation_012,explanation,Explain why research groups maintain lab notebooks.,"
+
+The lab notebooks are a great way to keep track of your research. They are a great way to keep track of your research. They are a great way to keep track of your research.
+
+The lab notebooks are a great way to keep track of your",-0.9639034271240234,-53.97859191894531,2.6219109630655315,56,124000,0,step4000,-0.9157813787460327,1,124000,0.04812204837799072
+step4000,4000,step16000,16000,explanation_012,explanation,Explain why research groups maintain lab notebooks.,"
+
+The lab notebooks are a way to keep track of what you’re doing and where you are. They’re also a way to keep track of what you’re doing and where you are.
+
+The lab notebooks are a way to keep track of",-1.1569633483886719,-64.78994750976562,3.1802612528081653,56,12000,0,step4000,-0.9157813787460327,1,12000,0.04812204837799072
+step4000,4000,step64000,64000,explanation_012,explanation,Explain why research groups maintain lab notebooks.,"
+
+The research groups are also required to keep a journal of their research.
+
+The journal should be kept in a locked cabinet and should be kept in a locked cabinet with a lock.
+
+The journal should be kept in a locked cabinet with a lock.
+
+",-1.6993545293807983,-93.4645004272461,5.47041525958118,55,60000,0,step4000,-0.9157813787460327,1,60000,0.04812204837799072
+step4000,4000,step4000,4000,explanation_014,explanation,Explain why cities zone industrial districts.,"
+
+The city’s industrial district is located in the city of San Francisco.
+
+The city’s industrial district is located in the city of San Francisco.
+
+The city’s industrial district is located in the city of San Francisco.
+
+The city of",-0.944729208946228,-52.90483474731445,2.5721167780632315,56,0,1,step4000,-0.944729208946228,1,0,0.444072961807251
+step4000,4000,step143000,143000,explanation_014,explanation,Explain why cities zone industrial districts.,"
+
+The city of New York has a zoning code that allows for the creation of industrial districts. The city has a zoning code that allows for the creation of industrial districts. The city of New York has a zoning code that allows for the creation of industrial districts. The city of",-1.388802170753479,-77.77291870117188,4.010043827273858,56,139000,0,step4000,-0.944729208946228,1,139000,0.444072961807251
+step4000,4000,step64000,64000,explanation_014,explanation,Explain why cities zone industrial districts.,"
+
+The city of Chicago has a long history of industrial development. The city’s industrial districts are the largest in the country. The Chicago Industrial District is the largest in the country. The Chicago Industrial District is the largest in the country. The Chicago Industrial District is the largest",-1.394337773323059,-78.08291625976562,4.032303389391448,56,60000,0,step4000,-0.944729208946228,1,60000,0.444072961807251
+step4000,4000,step16000,16000,explanation_014,explanation,Explain why cities zone industrial districts.,"
+
+The city of San Francisco has been criticized for its lack of industrial districts, and the city’s industrial districts are often the most expensive in the country.
+
+The city’s industrial districts are often the most expensive in the country.
+
+The city’s",-1.5430361032485962,-86.41001892089844,4.678773969354235,56,12000,0,step4000,-0.944729208946228,1,12000,0.444072961807251
+step4000,4000,step128000,128000,explanation_014,explanation,Explain why cities zone industrial districts.,"
+
+The city of New York has a long history of zoning. In the early 1900s, the city was a leader in the development of the industrial districts. The city’s first zoning ordinance was passed in 1883, and the first zoning ordinance was passed in New York",-1.6956108808517456,-94.95420837402344,5.449974233423341,56,124000,0,step4000,-0.944729208946228,1,124000,0.444072961807251
+step4000,4000,step16000,16000,explanation_015,explanation,Explain why conferences use peer review.,"
+
+The conference is a great way to get feedback from your peers.
+
+The conference is a great way to get feedback from your peers.
+
+The conference is a great way to get feedback from your peers.
+
+The conference is a great way to get feedback",-0.8514222502708435,-47.67964553833008,2.3429767827310015,56,12000,0,step16000,-0.8514222502708435,0,12000,-0.1201704740524292
+step4000,4000,step143000,143000,explanation_015,explanation,Explain why conferences use peer review.,"
+
+The conference is a great way to get your message out to as many people as possible.
+
+The conference is a great way to get your message out to as many people as possible.
+
+The conference is a great way to get your message out to as many",-0.9112228751182556,-51.028480529785156,2.48736240791125,56,139000,0,step16000,-0.8514222502708435,0,139000,-0.1201704740524292
+step4000,4000,step4000,4000,explanation_015,explanation,Explain why conferences use peer review.,"
+
+The conference is a great opportunity for the conference to be a great opportunity for the conference to be a great opportunity for the conference to be a great opportunity for the conference to be a great opportunity for the conference to be a great opportunity for the conference to be a great opportunity",-0.9715927243232727,-54.4091911315918,2.642149325365296,56,0,1,step16000,-0.8514222502708435,0,0,-0.1201704740524292
+step4000,4000,step64000,64000,explanation_015,explanation,Explain why conferences use peer review.,"
+
+The conference is a great opportunity to learn from other people who have done it before.
+
+The conference is a great opportunity to learn from other people who have done it before.
+
+The conference is a great opportunity to learn from other people who have done it before",-1.0708671808242798,-59.96855926513672,2.9179087576782634,56,60000,0,step16000,-0.8514222502708435,0,60000,-0.1201704740524292
+step4000,4000,step128000,128000,explanation_015,explanation,Explain why conferences use peer review.,"
+
+The peer review process is a critical component of the process of peer review. Peer review is a process in which a group of reviewers reviews a paper and makes a decision about whether or not to accept the paper. Peer review is a process in which a group of reviewers reviews",-1.4723390340805054,-82.45098876953125,4.359420057071103,56,124000,0,step16000,-0.8514222502708435,0,124000,-0.1201704740524292
+step64000,64000,step64000,64000,explanation_007,explanation,Explain why towns maintain public transit.,"
+
+The city of San Diego has a public transit system that is the largest in the country. The San Diego Regional Transit Authority (SDRTA) is the largest transit agency in the country. The SDRTA is the largest transit agency in the United States. The SD",-1.1204322576522827,-62.74420928955078,3.06617929634568,56,0,1,step64000,-1.1204322576522827,1,0,0.18197035789489746
+step64000,64000,step4000,4000,explanation_007,explanation,Explain why towns maintain public transit.,"
+
+The city of San Francisco has been a major transit hub for the past few years, and the city has been a major transit hub for the past few years.
+
+The city has been a major transit hub for the past few years, and the city has been a",-1.3024026155471802,-72.9345474243164,3.6781231759471877,56,60000,0,step64000,-1.1204322576522827,1,60000,0.18197035789489746
+step64000,64000,step143000,143000,explanation_007,explanation,Explain why towns maintain public transit.,"
+
+The city of New York has a long history of public transit. The city’s first subway system opened in 1883, and the city’s first bus system opened in 1905. The city’s first subway line opened in 1909, and the city’s first",-1.3127681016921997,-73.5150146484375,3.71644699011371,56,79000,0,step64000,-1.1204322576522827,1,79000,0.18197035789489746
+step64000,64000,step128000,128000,explanation_007,explanation,Explain why towns maintain public transit.,"
+
+The city of New York has a long history of public transit. The city’s first subway system was built in 1883, and the first subway car was built in the Bronx in 1904. The city’s first subway car was the first subway car in the world",-1.5848661661148071,-88.75250244140625,4.878638407686343,56,64000,0,step64000,-1.1204322576522827,1,64000,0.18197035789489746
+step64000,64000,step16000,16000,explanation_007,explanation,Explain why towns maintain public transit.,"
+
+“We’re not going to be able to do this without public transportation,” said Mayor John Hancock. “We’re going to have to do this on a local level.”
+
+The city is also considering a proposal to build a new $1.5",-1.6295855045318604,-91.25679016113281,5.101759623974777,56,48000,0,step64000,-1.1204322576522827,1,48000,0.18197035789489746
+step64000,64000,step128000,128000,explanation_008,explanation,Explain why archives preserve administrative records.,"
+
+The first step in the process is to determine what records are archived. The first step is to determine what records are archived. The first step is to determine what records are archived. The first step is to determine what records are archived. The first step",-0.8050550222396851,-45.08308029174805,2.2368195702566496,56,64000,0,step128000,-0.8050550222396851,0,64000,-0.04862701892852783
+step64000,64000,step64000,64000,explanation_008,explanation,Explain why archives preserve administrative records.,"
+
+The first thing to note is that the records are not necessarily the same. The first thing to note is that the records are not necessarily the same. The first thing to note is that the records are not necessarily the same. The first thing to note is that the records",-0.8536820411682129,-47.80619430541992,2.34827740723316,56,0,1,step128000,-0.8050550222396851,0,0,-0.04862701892852783
+step64000,64000,step16000,16000,explanation_008,explanation,Explain why archives preserve administrative records.,"
+
+The following is a list of the most common types of administrative records that are stored in the archives:
+
+Administrative Records
+
+The following is a list of the most common types of administrative records that are stored in the archives:
+
+Administrative Records
+
+",-0.9708884358406067,-53.39886474609375,2.6402891451545973,55,48000,0,step128000,-0.8050550222396851,0,48000,-0.04862701892852783
+step64000,64000,step143000,143000,explanation_008,explanation,Explain why archives preserve administrative records.,"
+
+A:
+
+The answer is that the archive is not a collection of records, but a collection of records that are stored in a database.
+The archive is a collection of records that are stored in a database.
+The archive is a collection of records that are",-1.1815766096115112,-66.16828918457031,3.2595091273593817,56,79000,0,step128000,-0.8050550222396851,0,79000,-0.04862701892852783
+step64000,64000,step4000,4000,explanation_008,explanation,Explain why archives preserve administrative records.,"
+
+The government has also been trying to get the records of the U.S. military and the U.S. military to be released.
+
+The government has also been trying to get the records of the U.S. military and the U.S. military",-1.2832691669464111,-71.86307525634766,3.608416981697418,56,60000,0,step128000,-0.8050550222396851,0,60000,-0.04862701892852783
+step64000,64000,step16000,16000,explanation_011,explanation,Explain why newspapers keep corrections pages.,"
+
+The New York Times is a newspaper that is a newspaper that is a newspaper that is a newspaper that is a newspaper that is a newspaper that is a newspaper that is a newspaper that is a newspaper that is a newspaper that is a newspaper that is a newspaper that is a",-0.6251040101051331,-35.00582504272461,1.8684402839964573,56,48000,0,step16000,-0.6251040101051331,0,48000,-0.7342563271522522
+step64000,64000,step128000,128000,explanation_011,explanation,Explain why newspapers keep corrections pages.,"
+
+The first page of the correction is the most important. It is the first page of the correction. It is the first page of the correction. It is the first page of the correction. It is the first page of the correction. It is the first page of the",-0.8681148886680603,-48.61443328857422,2.3824154992788236,56,64000,0,step16000,-0.6251040101051331,0,64000,-0.7342563271522522
+step64000,64000,step4000,4000,explanation_011,explanation,Explain why newspapers keep corrections pages.,"
+
+The New York Times has a long history of reporting on the New York Times, and the New York Times has a long history of reporting on the New York Times.
+
+The New York Times has a long history of reporting on the New York Times, and the New",-1.0040684938430786,-56.22783279418945,2.729363669256269,56,60000,0,step16000,-0.6251040101051331,0,60000,-0.7342563271522522
+step64000,64000,step143000,143000,explanation_011,explanation,Explain why newspapers keep corrections pages.,"
+
+The first thing to note is that the corrections page is not a separate page. It is a separate page that is used to display the corrections page. The corrections page is not a separate page that is used to display the corrections page. The corrections page is a separate page",-1.2630269527435303,-70.72950744628906,3.5361089386534,56,79000,0,step16000,-0.6251040101051331,0,79000,-0.7342563271522522
+step64000,64000,step64000,64000,explanation_011,explanation,Explain why newspapers keep corrections pages.,"
+
+The first thing to note is that the corrections page is not a page that is automatically generated. It is a page that is manually created by the editor. The editor is responsible for creating the page and for making sure that it is correct.
+
+The second thing to",-1.3593603372573853,-76.12417602539062,3.893701849031737,56,0,1,step16000,-0.6251040101051331,0,0,-0.7342563271522522
+step64000,64000,step143000,143000,explanation_012,explanation,Explain why research groups maintain lab notebooks.,"
+
+The lab notebooks are a great way to keep track of your research. They are a great way to keep track of your research. They are a great way to keep track of your research.
+
+The lab notebooks are a great way to keep track of your",-0.7464376091957092,-41.800506591796875,2.109471852313872,56,79000,0,step143000,-0.7464376091957092,0,79000,-0.48060911893844604
+step64000,64000,step128000,128000,explanation_012,explanation,Explain why research groups maintain lab notebooks.,"
+
+The lab notebooks are a great way to keep track of your research. They are a great way to keep track of your research. They are a great way to keep track of your research.
+
+The lab notebooks are a great way to keep track of your",-0.7464381456375122,-41.800537109375,2.1094729839230593,56,64000,0,step143000,-0.7464376091957092,0,64000,-0.48060911893844604
+step64000,64000,step16000,16000,explanation_012,explanation,Explain why research groups maintain lab notebooks.,"
+
+The lab notebooks are a way to keep track of what you’re doing and where you are. They’re also a way to keep track of what you’re doing and where you are.
+
+The lab notebooks are a way to keep track of",-0.9759572148323059,-54.653602600097656,2.653706162527059,56,48000,0,step143000,-0.7464376091957092,0,48000,-0.48060911893844604
+step64000,64000,step4000,4000,explanation_012,explanation,Explain why research groups maintain lab notebooks.,"
+
+The study was conducted in collaboration with the University of California, San Francisco, and the University of California, San Francisco. The study was conducted in collaboration with the University of California, San Francisco, and the University of California, San Francisco.
+
+The study was conducted",-0.9780839085578918,-54.77269744873047,2.659355788154785,56,60000,0,step143000,-0.7464376091957092,0,60000,-0.48060911893844604
+step64000,64000,step64000,64000,explanation_012,explanation,Explain why research groups maintain lab notebooks.,"
+
+The research groups are also required to keep a journal of their research.
+
+The journal should be kept in a locked cabinet and should be kept in a locked cabinet with a lock.
+
+The journal should be kept in a locked cabinet with a lock.
+
+",-1.2270467281341553,-67.4875717163086,3.4111406203421684,55,0,1,step143000,-0.7464376091957092,0,0,-0.48060911893844604
+step64000,64000,step4000,4000,explanation_014,explanation,Explain why cities zone industrial districts.,"
+
+The city’s industrial district is located in the city of San Francisco.
+
+The city’s industrial district is located in the city of San Francisco.
+
+The city’s industrial district is located in the city of San Francisco.
+
+The city of",-0.9038684964179993,-50.616634368896484,2.4691365050430663,56,60000,0,step4000,-0.9038684964179993,0,60000,-0.2708064913749695
+step64000,64000,step143000,143000,explanation_014,explanation,Explain why cities zone industrial districts.,"
+
+The city of New York has a zoning code that allows for the creation of industrial districts. The city has a zoning code that allows for the creation of industrial districts. The city of New York has a zoning code that allows for the creation of industrial districts. The city of",-1.0904358625411987,-61.06441116333008,2.975570729780181,56,79000,0,step4000,-0.9038684964179993,0,79000,-0.2708064913749695
+step64000,64000,step64000,64000,explanation_014,explanation,Explain why cities zone industrial districts.,"
+
+The city of Chicago has a long history of industrial development. The city’s industrial districts are the largest in the country. The Chicago Industrial District is the largest in the country. The Chicago Industrial District is the largest in the country. The Chicago Industrial District is the largest",-1.1746749877929688,-65.78179931640625,3.237090678861845,56,0,1,step4000,-0.9038684964179993,0,0,-0.2708064913749695
+step64000,64000,step16000,16000,explanation_014,explanation,Explain why cities zone industrial districts.,"
+
+The city of San Francisco has been criticized for its lack of industrial districts, and the city’s industrial districts are often the most expensive in the country.
+
+The city’s industrial districts are often the most expensive in the country.
+
+The city’s",-1.4948159456253052,-83.7096939086914,4.458515867974675,56,48000,0,step4000,-0.9038684964179993,0,48000,-0.2708064913749695
+step64000,64000,step128000,128000,explanation_014,explanation,Explain why cities zone industrial districts.,"
+
+The city of New York has a long history of zoning. In the early 1900s, the city was a leader in the development of the industrial districts. The city’s first zoning ordinance was passed in 1883, and the first zoning ordinance was passed in New York",-1.5900565385818481,-89.04316711425781,4.9040261871746065,56,64000,0,step4000,-0.9038684964179993,0,64000,-0.2708064913749695
+step64000,64000,step16000,16000,explanation_015,explanation,Explain why conferences use peer review.,"
+
+The conference is a great way to get feedback from your peers.
+
+The conference is a great way to get feedback from your peers.
+
+The conference is a great way to get feedback from your peers.
+
+The conference is a great way to get feedback",-0.6756008267402649,-37.83364486694336,1.9652133740724345,56,48000,0,step16000,-0.6756008267402649,0,48000,-0.11877977848052979
+step64000,64000,step143000,143000,explanation_015,explanation,Explain why conferences use peer review.,"
+
+The conference is a great way to get your message out to as many people as possible.
+
+The conference is a great way to get your message out to as many people as possible.
+
+The conference is a great way to get your message out to as many",-0.6906308531761169,-38.67532730102539,1.994973671828138,56,79000,0,step16000,-0.6756008267402649,0,79000,-0.11877977848052979
+step64000,64000,step4000,4000,explanation_015,explanation,Explain why conferences use peer review.,"
+
+The conference is a great opportunity for the conference to be a great opportunity for the conference to be a great opportunity for the conference to be a great opportunity for the conference to be a great opportunity for the conference to be a great opportunity for the conference to be a great opportunity",-0.711840033531189,-39.863040924072266,2.037737316143582,56,60000,0,step16000,-0.6756008267402649,0,60000,-0.11877977848052979
+step64000,64000,step64000,64000,explanation_015,explanation,Explain why conferences use peer review.,"
+
+The conference is a great opportunity to learn from other people who have done it before.
+
+The conference is a great opportunity to learn from other people who have done it before.
+
+The conference is a great opportunity to learn from other people who have done it before",-0.7943806052207947,-44.485313415527344,2.213069808309131,56,0,1,step16000,-0.6756008267402649,0,0,-0.11877977848052979
+step64000,64000,step128000,128000,explanation_015,explanation,Explain why conferences use peer review.,"
+
+The peer review process is a critical component of the process of peer review. Peer review is a process in which a group of reviewers reviews a paper and makes a decision about whether or not to accept the paper. Peer review is a process in which a group of reviewers reviews",-1.1837131977081299,-66.2879409790039,3.2664808009069297,56,64000,0,step16000,-0.6756008267402649,0,64000,-0.11877977848052979

@@ -1,0 +1,58 @@
+{
+  "config": "configs\\identity_battery\\longform_return_v3_debug_suite.yaml",
+  "started_at": "2026-04-22T22:44:08.683248",
+  "python_exe": "C:/Users/joshj/miniconda3/python.exe",
+  "steps": [
+    {
+      "name": "longform_return_v3",
+      "script": "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\scripts\\longform_return_v3.py",
+      "config": "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\configs\\identity_battery\\longform_return_v3_debug.yaml",
+      "expected_output": "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\outputs\\latest\\longform_return_v3_debug\\longform_return_v3\\summary.csv",
+      "command": [
+        "C:/Users/joshj/miniconda3/python.exe",
+        "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\scripts\\longform_return_v3.py",
+        "--config",
+        "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\configs\\identity_battery\\longform_return_v3_debug.yaml"
+      ],
+      "started_at": "2026-04-22T22:44:08.684058",
+      "status": "completed",
+      "finished_at": "2026-04-22T22:45:45.179392",
+      "return_code": 0,
+      "output_exists": true,
+      "validation_ok": true,
+      "validation_metrics": {
+        "result_row_count": 4,
+        "chunk_row_count": 12,
+        "summary_row_count": 4,
+        "max_forced_shift_magnitude": 0.013597031032099,
+        "max_chunk_index": 3,
+        "style_preference_row_count": 4,
+        "max_abs_final_style_preference": 0.1436660554504478
+      }
+    },
+    {
+      "name": "report_longform_return_v3",
+      "script": "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\scripts\\report_longform_return_v3.py",
+      "config": "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\configs\\identity_battery\\longform_return_v3_debug.yaml",
+      "expected_output": "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\outputs\\latest\\longform_return_v3_debug\\longform_return_v3_report.md",
+      "command": [
+        "C:/Users/joshj/miniconda3/python.exe",
+        "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\scripts\\report_longform_return_v3.py",
+        "--config",
+        "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\configs\\identity_battery\\longform_return_v3_debug.yaml"
+      ],
+      "started_at": "2026-04-22T22:45:45.285420",
+      "status": "completed",
+      "finished_at": "2026-04-22T22:45:45.285420",
+      "return_code": 0,
+      "output_exists": true,
+      "validation_ok": true,
+      "validation_metrics": {
+        "validation": "not_configured"
+      },
+      "reused_existing_output": true
+    }
+  ],
+  "finished_at": "2026-04-22T22:45:45.286644",
+  "status": "completed"
+}

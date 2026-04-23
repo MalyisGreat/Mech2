@@ -1,0 +1,3 @@
+prompt_id,prompt_family,prompt,selection_host_revision,selection_donor_revision,clean_js,selection_rank
+explanation_006,explanation,Explain why hospitals use triage systems.,step143000,step64000,0.03672172874212265,1
+explanation_004,explanation,Explain why museums use wall labels.,step143000,step64000,0.025179464370012283,2

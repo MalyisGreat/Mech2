@@ -1,0 +1,212 @@
+{
+  "config": "configs\\identity_battery\\cpu_identity_overnight_push_smoke_suite.yaml",
+  "started_at": "2026-04-23T01:40:36.601923",
+  "python_exe": "C:/Users/joshj/miniconda3/python.exe",
+  "steps": [
+    {
+      "name": "self_prediction_transfer_v3_template_instruction",
+      "script": "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\scripts\\self_prediction_transfer_v3.py",
+      "config": "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\configs\\identity_battery\\self_prediction_transfer_v3_template_instruction_smoke.yaml",
+      "expected_output": "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\outputs\\latest\\cpu_identity_overnight_push_smoke\\template_instruction\\self_prediction_transfer_v3\\summary_by_model_frame.csv",
+      "command": [
+        "C:/Users/joshj/miniconda3/python.exe",
+        "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\scripts\\self_prediction_transfer_v3.py",
+        "--config",
+        "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\configs\\identity_battery\\self_prediction_transfer_v3_template_instruction_smoke.yaml"
+      ],
+      "started_at": "2026-04-23T01:40:36.602851",
+      "status": "completed",
+      "finished_at": "2026-04-23T01:40:36.602851",
+      "return_code": 0,
+      "output_exists": true,
+      "validation_ok": true,
+      "validation_metrics": {
+        "row_count": 3,
+        "max_valid_choice_rate": 1.0,
+        "max_predicted_gap_rate": 0.0,
+        "max_actual_gap_rate": 0.375,
+        "max_gap_direction_accuracy": 1.0
+      },
+      "reused_existing_output": true
+    },
+    {
+      "name": "self_prediction_transfer_v3_template_chat",
+      "script": "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\scripts\\self_prediction_transfer_v3.py",
+      "config": "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\configs\\identity_battery\\self_prediction_transfer_v3_template_chat_smoke.yaml",
+      "expected_output": "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\outputs\\latest\\cpu_identity_overnight_push_smoke\\template_chat\\self_prediction_transfer_v3\\summary_by_model_frame.csv",
+      "command": [
+        "C:/Users/joshj/miniconda3/python.exe",
+        "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\scripts\\self_prediction_transfer_v3.py",
+        "--config",
+        "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\configs\\identity_battery\\self_prediction_transfer_v3_template_chat_smoke.yaml"
+      ],
+      "started_at": "2026-04-23T01:40:36.611793",
+      "status": "completed",
+      "finished_at": "2026-04-23T01:40:36.611793",
+      "return_code": 0,
+      "output_exists": true,
+      "validation_ok": true,
+      "validation_metrics": {
+        "row_count": 3,
+        "max_valid_choice_rate": 1.0,
+        "max_predicted_gap_rate": 0.0,
+        "max_actual_gap_rate": 0.125,
+        "max_gap_direction_accuracy": 1.0
+      },
+      "reused_existing_output": true
+    },
+    {
+      "name": "self_prediction_transfer_v3_template_plain",
+      "script": "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\scripts\\self_prediction_transfer_v3.py",
+      "config": "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\configs\\identity_battery\\self_prediction_transfer_v3_template_plain_smoke.yaml",
+      "expected_output": "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\outputs\\latest\\cpu_identity_overnight_push_smoke\\template_plain\\self_prediction_transfer_v3\\summary_by_model_frame.csv",
+      "command": [
+        "C:/Users/joshj/miniconda3/python.exe",
+        "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\scripts\\self_prediction_transfer_v3.py",
+        "--config",
+        "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\configs\\identity_battery\\self_prediction_transfer_v3_template_plain_smoke.yaml"
+      ],
+      "started_at": "2026-04-23T01:40:36.614234",
+      "status": "completed",
+      "finished_at": "2026-04-23T01:40:36.614234",
+      "return_code": 0,
+      "output_exists": true,
+      "validation_ok": true,
+      "validation_metrics": {
+        "row_count": 3,
+        "max_valid_choice_rate": 1.0,
+        "max_predicted_gap_rate": 0.0,
+        "max_actual_gap_rate": 0.625,
+        "max_gap_direction_accuracy": 1.0
+      },
+      "reused_existing_output": true
+    },
+    {
+      "name": "kinship_ladder_dissociation",
+      "script": "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\scripts\\kinship_ladder_dissociation.py",
+      "config": "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\configs\\identity_battery\\kinship_ladder_dissociation_smoke.yaml",
+      "expected_output": "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\outputs\\latest\\cpu_identity_overnight_push_smoke\\kinship_ladder_dissociation\\kinship_ladder_dissociation\\summary_by_foil.csv",
+      "command": [
+        "C:/Users/joshj/miniconda3/python.exe",
+        "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\scripts\\kinship_ladder_dissociation.py",
+        "--config",
+        "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\configs\\identity_battery\\kinship_ladder_dissociation_smoke.yaml"
+      ],
+      "started_at": "2026-04-23T01:40:36.616848",
+      "status": "completed",
+      "finished_at": "2026-04-23T01:40:36.616848",
+      "return_code": 0,
+      "output_exists": true,
+      "validation_ok": true,
+      "validation_metrics": {
+        "result_row_count": 32,
+        "summary_row_count": 8,
+        "pair_summary_row_count": 16,
+        "max_pair_valid_rate": 1.0,
+        "observed_foil_count": 4
+      },
+      "reused_existing_output": true
+    },
+    {
+      "name": "behavioral_fingerprint_transfer_nuisance",
+      "script": "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\scripts\\behavioral_fingerprint_transfer.py",
+      "config": "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\configs\\identity_battery\\behavioral_fingerprint_transfer_nuisance_smoke.yaml",
+      "expected_output": "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\outputs\\latest\\cpu_identity_overnight_push_smoke\\behavioral_fingerprint_nuisance\\behavioral_fingerprint_transfer\\summary_by_model_frame.csv",
+      "command": [
+        "C:/Users/joshj/miniconda3/python.exe",
+        "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\scripts\\behavioral_fingerprint_transfer.py",
+        "--config",
+        "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\configs\\identity_battery\\behavioral_fingerprint_transfer_nuisance_smoke.yaml"
+      ],
+      "started_at": "2026-04-23T01:40:36.622603",
+      "status": "completed",
+      "finished_at": "2026-04-23T01:40:36.622603",
+      "return_code": 0,
+      "output_exists": true,
+      "validation_ok": true,
+      "validation_metrics": {
+        "result_row_count": 12,
+        "summary_row_count": 3,
+        "feature_summary_row_count": 9,
+        "max_self_valid_choice_rate": 1.0,
+        "max_self_margin_vs_scrambled": 1.1805358809603252
+      },
+      "reused_existing_output": true
+    },
+    {
+      "name": "commitment_persistence_v2_adversarial",
+      "script": "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\scripts\\commitment_persistence_v2.py",
+      "config": "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\configs\\identity_battery\\commitment_persistence_v2_adversarial_smoke.yaml",
+      "expected_output": "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\outputs\\latest\\cpu_identity_overnight_push_smoke\\commitment_persistence_adversarial\\commitment_persistence_v2\\summary_by_model_frame.csv",
+      "command": [
+        "C:/Users/joshj/miniconda3/python.exe",
+        "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\scripts\\commitment_persistence_v2.py",
+        "--config",
+        "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\configs\\identity_battery\\commitment_persistence_v2_adversarial_smoke.yaml"
+      ],
+      "started_at": "2026-04-23T01:40:36.635769",
+      "status": "completed",
+      "finished_at": "2026-04-23T01:40:36.635769",
+      "return_code": 0,
+      "output_exists": true,
+      "validation_ok": true,
+      "validation_metrics": {
+        "row_count": 4,
+        "label_bias_row_count": 4,
+        "max_valid_choice_rate": 1.0,
+        "reveal_pair_accuracy_row_count": 0,
+        "max_reveal_pair_accuracy": 0.0,
+        "max_abs_label_bias_gap": 0.5
+      },
+      "reused_existing_output": true
+    },
+    {
+      "name": "source_monitoring_attribution",
+      "script": "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\scripts\\source_monitoring_attribution.py",
+      "config": "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\configs\\identity_battery\\source_monitoring_attribution_smoke.yaml",
+      "expected_output": "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\outputs\\latest\\cpu_identity_overnight_push_smoke\\source_monitoring_attribution\\source_monitoring_attribution\\summary_by_pair_type.csv",
+      "command": [
+        "C:/Users/joshj/miniconda3/python.exe",
+        "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\scripts\\source_monitoring_attribution.py",
+        "--config",
+        "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\configs\\identity_battery\\source_monitoring_attribution_smoke.yaml"
+      ],
+      "started_at": "2026-04-23T01:40:36.640188",
+      "status": "completed",
+      "finished_at": "2026-04-23T01:41:17.996633",
+      "return_code": 0,
+      "output_exists": true,
+      "validation_ok": true,
+      "validation_metrics": {
+        "result_row_count": 32,
+        "summary_row_count": 8,
+        "pair_summary_row_count": 16,
+        "max_pair_valid_rate": 1.0,
+        "observed_pair_type_count": 2
+      }
+    },
+    {
+      "name": "report_cpu_identity_overnight_push",
+      "script": "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\scripts\\report_cpu_identity_overnight_push.py",
+      "config": "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\configs\\identity_battery\\cpu_identity_overnight_push_report_smoke.yaml",
+      "expected_output": "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\outputs\\latest\\cpu_identity_overnight_push_smoke\\cpu_identity_overnight_push_report.md",
+      "command": [
+        "C:/Users/joshj/miniconda3/python.exe",
+        "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\scripts\\report_cpu_identity_overnight_push.py",
+        "--config",
+        "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\configs\\identity_battery\\cpu_identity_overnight_push_report_smoke.yaml"
+      ],
+      "started_at": "2026-04-23T01:41:18.035264",
+      "status": "completed",
+      "finished_at": "2026-04-23T01:41:21.400115",
+      "return_code": 0,
+      "output_exists": true,
+      "validation_ok": true,
+      "validation_metrics": {
+        "validation": "not_configured"
+      }
+    }
+  ],
+  "finished_at": "2026-04-23T01:41:21.401220",
+  "status": "completed"
+}

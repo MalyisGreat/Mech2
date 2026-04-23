@@ -1,0 +1,9 @@
+model_size_label,identity_frame,pair_type,variant,n_pairs,seed_count,pair_valid_rate_mean,choose_self_rate_mean,swap_consistency_mean,style_distance_mean,semantic_overlap_mean
+70m,baseline_helpful,other_frame,paraphrased,2,1,1.0,0.5,0.0,2.0410438455222293,0.12940308961652525
+70m,baseline_helpful,other_frame,raw,2,1,1.0,0.25,0.5,1.2623185825582985,0.13897702532257822
+70m,baseline_helpful,same_frame_other_seed,paraphrased,2,1,1.0,0.5,0.0,1.0779725223168093,0.18431495398486647
+70m,baseline_helpful,same_frame_other_seed,raw,2,1,1.0,0.25,0.5,2.1163615360867065,0.21734128593766325
+70m,family_self,other_frame,paraphrased,2,1,1.0,0.5,0.0,1.744869772534111,0.12335800740246755
+70m,family_self,other_frame,raw,2,1,1.0,0.25,0.5,1.5078109517867646,0.1974352651303208
+70m,family_self,same_frame_other_seed,paraphrased,2,1,1.0,0.5,0.0,2.2440807250360773,0.1617746085303303
+70m,family_self,same_frame_other_seed,raw,2,1,1.0,0.5,0.0,1.9021937705174716,0.26969006851649524

@@ -1,0 +1,13 @@
+model_size_label,identity_frame,feature_name,n,seed_count,self_accuracy_mean_mean,self_accuracy_mean_ci95_low,self_accuracy_mean_ci95_high,other_accuracy_mean_mean,other_accuracy_mean_ci95_low,other_accuracy_mean_ci95_high,gap_direction_accuracy_mean_mean,gap_direction_accuracy_mean_ci95_low,gap_direction_accuracy_mean_ci95_high,valid_choice_rate_mean,valid_choice_rate_ci95_low,valid_choice_rate_ci95_high,predicted_gap_rate_mean,predicted_gap_rate_ci95_low,predicted_gap_rate_ci95_high,actual_gap_rate_mean,actual_gap_rate_ci95_low,actual_gap_rate_ci95_high,discriminative_win_mean,discriminative_win_ci95_low,discriminative_win_ci95_high
+70m,baseline_helpful,DIRECTIVE,2,1,0.0,0.0,0.0,0.0,0.0,0.0,,,,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,,,
+70m,baseline_helpful,ELABORATE,2,1,1.0,1.0,1.0,1.0,1.0,1.0,,,,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,,,
+70m,baseline_helpful,FIRST_PERSON,2,1,0.0,0.0,0.0,0.0,0.0,0.0,,,,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,,,
+70m,baseline_helpful,HEDGE,2,1,0.0,0.0,0.0,0.5,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.5,0.0,1.0,,,
+70m,family_self,DIRECTIVE,2,1,0.0,0.0,0.0,0.5,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.5,0.0,1.0,,,
+70m,family_self,ELABORATE,2,1,1.0,1.0,1.0,1.0,1.0,1.0,,,,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,,,
+70m,family_self,FIRST_PERSON,2,1,0.5,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.5,0.0,1.0,,,
+70m,family_self,HEDGE,2,1,0.5,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.5,0.0,1.0,,,
+70m,stable_style_policy,DIRECTIVE,2,1,0.0,0.0,0.0,0.5,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.5,0.0,1.0,,,
+70m,stable_style_policy,ELABORATE,2,1,0.5,0.0,1.0,0.5,0.0,1.0,,,,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,,,
+70m,stable_style_policy,FIRST_PERSON,2,1,0.0,0.0,0.0,0.0,0.0,0.0,,,,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,,,
+70m,stable_style_policy,HEDGE,2,1,0.0,0.0,0.0,0.0,0.0,0.0,,,,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,,,

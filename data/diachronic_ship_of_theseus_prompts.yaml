@@ -1,0 +1,366 @@
+items:
+  - id: explanation_001
+    family: explanation
+    prompt: "Explain why cities develop public libraries."
+  - id: explanation_002
+    family: explanation
+    prompt: "Explain why neighborhoods create public parks."
+  - id: explanation_003
+    family: explanation
+    prompt: "Explain why schools keep science laboratories."
+  - id: explanation_004
+    family: explanation
+    prompt: "Explain why museums use wall labels."
+  - id: explanation_005
+    family: explanation
+    prompt: "Explain why courts publish written opinions."
+  - id: explanation_006
+    family: explanation
+    prompt: "Explain why hospitals use triage systems."
+  - id: explanation_007
+    family: explanation
+    prompt: "Explain why towns maintain public transit."
+  - id: explanation_008
+    family: explanation
+    prompt: "Explain why archives preserve administrative records."
+  - id: explanation_009
+    family: explanation
+    prompt: "Explain why universities require office hours."
+  - id: explanation_010
+    family: explanation
+    prompt: "Explain why software teams use version control."
+  - id: explanation_011
+    family: explanation
+    prompt: "Explain why newspapers keep corrections pages."
+  - id: explanation_012
+    family: explanation
+    prompt: "Explain why research groups maintain lab notebooks."
+  - id: explanation_013
+    family: explanation
+    prompt: "Explain why legislatures use committees."
+  - id: explanation_014
+    family: explanation
+    prompt: "Explain why cities zone industrial districts."
+  - id: explanation_015
+    family: explanation
+    prompt: "Explain why conferences use peer review."
+  - id: explanation_016
+    family: explanation
+    prompt: "Explain why teams keep revision logs."
+  - id: explanation_017
+    family: explanation
+    prompt: "Explain why schools assign reading lists."
+  - id: explanation_018
+    family: explanation
+    prompt: "Explain why community gardens keep shared rules."
+  - id: explanation_019
+    family: explanation
+    prompt: "Explain why local governments post meeting minutes."
+  - id: explanation_020
+    family: explanation
+    prompt: "Explain why libraries lend more than books."
+
+  - id: judgment_001
+    family: judgment
+    prompt: "Should a school prioritize fairness or excellence when designing a grading policy?"
+  - id: judgment_002
+    family: judgment
+    prompt: "Should a city spend scarce funds on road repair or public transit first?"
+  - id: judgment_003
+    family: judgment
+    prompt: "Should a museum favor accessibility or historical completeness when writing labels?"
+  - id: judgment_004
+    family: judgment
+    prompt: "Should a workplace optimize for speed or careful review when deadlines are tight?"
+  - id: judgment_005
+    family: judgment
+    prompt: "Should a hospital use first-come service or urgency-based triage during overload?"
+  - id: judgment_006
+    family: judgment
+    prompt: "Should a teacher grade participation heavily or lightly?"
+  - id: judgment_007
+    family: judgment
+    prompt: "Should public policy favor simple rules or case-by-case discretion?"
+  - id: judgment_008
+    family: judgment
+    prompt: "Should a newsroom publish quickly with updates or wait for fuller confirmation?"
+  - id: judgment_009
+    family: judgment
+    prompt: "Should a university require broad general education or early specialization?"
+  - id: judgment_010
+    family: judgment
+    prompt: "Should a team reuse old tools or switch to a more capable but riskier system?"
+  - id: judgment_011
+    family: judgment
+    prompt: "Should a grant committee reward bold novelty or reliable execution?"
+  - id: judgment_012
+    family: judgment
+    prompt: "Should a court prefer bright-line rules or flexible standards?"
+  - id: judgment_013
+    family: judgment
+    prompt: "Should a community preserve a historic building or replace it with housing?"
+  - id: judgment_014
+    family: judgment
+    prompt: "Should a school ban phones outright or regulate their use?"
+  - id: judgment_015
+    family: judgment
+    prompt: "Should a public archive digitize rare material or preserve only the originals?"
+  - id: judgment_016
+    family: judgment
+    prompt: "Should an editor favor clarity or stylistic individuality in a student essay?"
+  - id: judgment_017
+    family: judgment
+    prompt: "Should a town build a large central park or several smaller parks?"
+  - id: judgment_018
+    family: judgment
+    prompt: "Should an instructor prioritize mastery or coverage in a difficult course?"
+  - id: judgment_019
+    family: judgment
+    prompt: "Should a firm reward individual stars or consistent team contributors?"
+  - id: judgment_020
+    family: judgment
+    prompt: "Should public transit prioritize geographic coverage or frequent service?"
+
+  - id: style_opening_001
+    family: style_opening
+    prompt: "Write the opening paragraph of an essay about memory."
+  - id: style_opening_002
+    family: style_opening
+    prompt: "Write the opening paragraph of an essay about public trust."
+  - id: style_opening_003
+    family: style_opening
+    prompt: "Write the opening paragraph of an essay about record keeping."
+  - id: style_opening_004
+    family: style_opening
+    prompt: "Write the opening paragraph of an essay about shared spaces."
+  - id: style_opening_005
+    family: style_opening
+    prompt: "Write the opening paragraph of an essay about expertise."
+  - id: style_opening_006
+    family: style_opening
+    prompt: "Write the opening paragraph of an essay about public attention."
+  - id: style_opening_007
+    family: style_opening
+    prompt: "Write the opening paragraph of an essay about revision."
+  - id: style_opening_008
+    family: style_opening
+    prompt: "Write the opening paragraph of an essay about evidence."
+  - id: style_opening_009
+    family: style_opening
+    prompt: "Write the opening paragraph of an essay about institutions."
+  - id: style_opening_010
+    family: style_opening
+    prompt: "Write the opening paragraph of an essay about maintenance."
+  - id: style_opening_011
+    family: style_opening
+    prompt: "Write the opening paragraph of an essay about attention."
+  - id: style_opening_012
+    family: style_opening
+    prompt: "Write the opening paragraph of an essay about fairness."
+  - id: style_opening_013
+    family: style_opening
+    prompt: "Write the opening paragraph of an essay about delay."
+  - id: style_opening_014
+    family: style_opening
+    prompt: "Write the opening paragraph of an essay about repair."
+  - id: style_opening_015
+    family: style_opening
+    prompt: "Write the opening paragraph of an essay about archives."
+  - id: style_opening_016
+    family: style_opening
+    prompt: "Write the opening paragraph of an essay about public language."
+  - id: style_opening_017
+    family: style_opening
+    prompt: "Write the opening paragraph of an essay about rules."
+  - id: style_opening_018
+    family: style_opening
+    prompt: "Write the opening paragraph of an essay about access."
+  - id: style_opening_019
+    family: style_opening
+    prompt: "Write the opening paragraph of an essay about expertise and doubt."
+  - id: style_opening_020
+    family: style_opening
+    prompt: "Write the opening paragraph of an essay about common goods."
+
+  - id: advice_001
+    family: advice
+    prompt: "A student is overwhelmed by choices. What should they do first?"
+  - id: advice_002
+    family: advice
+    prompt: "A team has too many priorities and too little time. What should they do first?"
+  - id: advice_003
+    family: advice
+    prompt: "A researcher has collected too much material for one paper. What should they do first?"
+  - id: advice_004
+    family: advice
+    prompt: "A city office wants to improve a failing service with limited budget. What should it do first?"
+  - id: advice_005
+    family: advice
+    prompt: "A student wrote a draft that says too many things at once. What should they do first?"
+  - id: advice_006
+    family: advice
+    prompt: "A librarian needs to organize a confusing community program. What should they do first?"
+  - id: advice_007
+    family: advice
+    prompt: "A manager inherits a project with unclear ownership. What should they do first?"
+  - id: advice_008
+    family: advice
+    prompt: "A committee wants better decisions but its meetings drift. What should it do first?"
+  - id: advice_009
+    family: advice
+    prompt: "A student has chosen a thesis topic that is too broad. What should they do first?"
+  - id: advice_010
+    family: advice
+    prompt: "A museum educator wants to make a complex exhibit easier to follow. What should they do first?"
+  - id: advice_011
+    family: advice
+    prompt: "A public agency receives contradictory feedback from residents. What should it do first?"
+  - id: advice_012
+    family: advice
+    prompt: "A team keeps revisiting the same argument without resolving it. What should they do first?"
+  - id: advice_013
+    family: advice
+    prompt: "A student is falling behind because every assignment feels equally urgent. What should they do first?"
+  - id: advice_014
+    family: advice
+    prompt: "A department wants better mentoring but no one agrees on the problem. What should they do first?"
+  - id: advice_015
+    family: advice
+    prompt: "A community group wants to revive a dormant project. What should they do first?"
+  - id: advice_016
+    family: advice
+    prompt: "A research assistant has messy notes and a deadline. What should they do first?"
+  - id: advice_017
+    family: advice
+    prompt: "A small town wants to improve civic participation. What should it do first?"
+  - id: advice_018
+    family: advice
+    prompt: "A team is adopting a new tool but confusion is spreading. What should they do first?"
+  - id: advice_019
+    family: advice
+    prompt: "A student wants to study more effectively but keeps rereading passively. What should they do first?"
+  - id: advice_020
+    family: advice
+    prompt: "A nonprofit has an ambitious mission but weak coordination. What should it do first?"
+
+  - id: continuation_001
+    family: continuation
+    prompt: "Continue this sentence into a short paragraph: The old machine started working again, but..."
+  - id: continuation_002
+    family: continuation
+    prompt: "Continue this sentence into a short paragraph: The committee agreed on the rule, but..."
+  - id: continuation_003
+    family: continuation
+    prompt: "Continue this sentence into a short paragraph: The archive was complete, but..."
+  - id: continuation_004
+    family: continuation
+    prompt: "Continue this sentence into a short paragraph: The plan looked simple on paper, but..."
+  - id: continuation_005
+    family: continuation
+    prompt: "Continue this sentence into a short paragraph: The town finally built the park, but..."
+  - id: continuation_006
+    family: continuation
+    prompt: "Continue this sentence into a short paragraph: The student had the evidence, but..."
+  - id: continuation_007
+    family: continuation
+    prompt: "Continue this sentence into a short paragraph: The train arrived on time, but..."
+  - id: continuation_008
+    family: continuation
+    prompt: "Continue this sentence into a short paragraph: The report answered the question, but..."
+  - id: continuation_009
+    family: continuation
+    prompt: "Continue this sentence into a short paragraph: The museum opened the new exhibit, but..."
+  - id: continuation_010
+    family: continuation
+    prompt: "Continue this sentence into a short paragraph: The new rule solved one problem, but..."
+  - id: continuation_011
+    family: continuation
+    prompt: "Continue this sentence into a short paragraph: The library stayed open late, but..."
+  - id: continuation_012
+    family: continuation
+    prompt: "Continue this sentence into a short paragraph: The experiment finally succeeded, but..."
+  - id: continuation_013
+    family: continuation
+    prompt: "Continue this sentence into a short paragraph: The class discussion was lively, but..."
+  - id: continuation_014
+    family: continuation
+    prompt: "Continue this sentence into a short paragraph: The budget passed easily, but..."
+  - id: continuation_015
+    family: continuation
+    prompt: "Continue this sentence into a short paragraph: The neighborhood welcomed the project, but..."
+  - id: continuation_016
+    family: continuation
+    prompt: "Continue this sentence into a short paragraph: The proposal looked innovative, but..."
+  - id: continuation_017
+    family: continuation
+    prompt: "Continue this sentence into a short paragraph: The writer had a clear theme, but..."
+  - id: continuation_018
+    family: continuation
+    prompt: "Continue this sentence into a short paragraph: The policy was popular at first, but..."
+  - id: continuation_019
+    family: continuation
+    prompt: "Continue this sentence into a short paragraph: The map was accurate, but..."
+  - id: continuation_020
+    family: continuation
+    prompt: "Continue this sentence into a short paragraph: The meeting ended with agreement, but..."
+
+  - id: argument_001
+    family: argument
+    prompt: "Give the strongest argument against using exams as the main measure of learning."
+  - id: argument_002
+    family: argument
+    prompt: "Give the strongest argument against measuring a city's health only by economic growth."
+  - id: argument_003
+    family: argument
+    prompt: "Give the strongest argument against replacing libraries with fully digital services."
+  - id: argument_004
+    family: argument
+    prompt: "Give the strongest argument against making speed the main value in journalism."
+  - id: argument_005
+    family: argument
+    prompt: "Give the strongest argument against evaluating research only by citation counts."
+  - id: argument_006
+    family: argument
+    prompt: "Give the strongest argument against strict zero-tolerance school discipline policies."
+  - id: argument_007
+    family: argument
+    prompt: "Give the strongest argument against using attendance as a proxy for engagement."
+  - id: argument_008
+    family: argument
+    prompt: "Give the strongest argument against centralizing all public services in one office."
+  - id: argument_009
+    family: argument
+    prompt: "Give the strongest argument against relying on rankings to compare universities."
+  - id: argument_010
+    family: argument
+    prompt: "Give the strongest argument against reducing civic education to factual memorization."
+  - id: argument_011
+    family: argument
+    prompt: "Give the strongest argument against treating efficiency as the main measure of public value."
+  - id: argument_012
+    family: argument
+    prompt: "Give the strongest argument against eliminating peer review from grant decisions."
+  - id: argument_013
+    family: argument
+    prompt: "Give the strongest argument against judging writing only by grammar and correctness."
+  - id: argument_014
+    family: argument
+    prompt: "Give the strongest argument against moving all local news behind paywalls."
+  - id: argument_015
+    family: argument
+    prompt: "Give the strongest argument against using one metric to evaluate teachers."
+  - id: argument_016
+    family: argument
+    prompt: "Give the strongest argument against replacing public hearings with online surveys."
+  - id: argument_017
+    family: argument
+    prompt: "Give the strongest argument against treating consensus as proof of correctness."
+  - id: argument_018
+    family: argument
+    prompt: "Give the strongest argument against prioritizing novelty over maintenance in funding decisions."
+  - id: argument_019
+    family: argument
+    prompt: "Give the strongest argument against assuming transparency alone creates trust."
+  - id: argument_020
+    family: argument
+    prompt: "Give the strongest argument against using automation as the default response to every coordination problem."

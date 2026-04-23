@@ -1,0 +1,25 @@
+output_root: C:/Users/joshj/joseph-stroud-identity-stability-research/outputs/latest/cpu_identity_overnight_push_smoke/template_instruction
+model_cache_dir: D:/hf-model-cache
+dtype: float32
+use_gpu: false
+attention_backend: auto
+max_prompt_tokens: 256
+default_generation_tokens: 48
+identity_prompt_template: instruction
+identity_stop_strings: auto
+identity_frames_path: data/identity_frames_mediation.yaml
+self_prediction_items_path: data/self_prediction_items_mediation.yaml
+model_ids:
+  - EleutherAI/pythia-70m
+identity_frames:
+  - baseline_helpful
+  - family_self
+  - stable_style_policy
+seeds:
+  - 11
+self_prediction_v3_prompt_limit: 2
+generation_do_sample: true
+generation_temperature: 0.8
+generation_top_p: 0.9
+generation_top_k: 0
+generation_presence_penalty: 0.0

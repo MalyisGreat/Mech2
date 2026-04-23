@@ -1,0 +1,84 @@
+{
+  "config": "configs\\identity_battery\\cpu_identity_overnight_push_full_suite.yaml",
+  "started_at": "2026-04-23T01:43:22.376538",
+  "python_exe": "C:/Users/joshj/miniconda3/python.exe",
+  "steps": [
+    {
+      "name": "self_prediction_transfer_v3_template_instruction",
+      "script": "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\scripts\\self_prediction_transfer_v3.py",
+      "config": "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\configs\\identity_battery\\self_prediction_transfer_v3_template_instruction_full.yaml",
+      "expected_output": "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\outputs\\latest\\cpu_identity_overnight_push\\template_instruction\\self_prediction_transfer_v3\\summary_by_model_frame.csv",
+      "command": [
+        "C:/Users/joshj/miniconda3/python.exe",
+        "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\scripts\\self_prediction_transfer_v3.py",
+        "--config",
+        "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\configs\\identity_battery\\self_prediction_transfer_v3_template_instruction_full.yaml"
+      ],
+      "started_at": "2026-04-23T01:43:22.378033",
+      "status": "completed",
+      "finished_at": "2026-04-23T03:10:08.754037",
+      "return_code": 0,
+      "output_exists": true,
+      "validation_ok": true,
+      "validation_metrics": {
+        "row_count": 3,
+        "max_valid_choice_rate": 1.0,
+        "max_predicted_gap_rate": 0.0,
+        "max_actual_gap_rate": 0.4097222222222222,
+        "max_gap_direction_accuracy": 0.4895833333333333
+      }
+    },
+    {
+      "name": "self_prediction_transfer_v3_template_chat",
+      "script": "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\scripts\\self_prediction_transfer_v3.py",
+      "config": "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\configs\\identity_battery\\self_prediction_transfer_v3_template_chat_full.yaml",
+      "expected_output": "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\outputs\\latest\\cpu_identity_overnight_push\\template_chat\\self_prediction_transfer_v3\\summary_by_model_frame.csv",
+      "command": [
+        "C:/Users/joshj/miniconda3/python.exe",
+        "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\scripts\\self_prediction_transfer_v3.py",
+        "--config",
+        "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\configs\\identity_battery\\self_prediction_transfer_v3_template_chat_full.yaml"
+      ],
+      "started_at": "2026-04-23T03:10:08.770117",
+      "status": "completed",
+      "finished_at": "2026-04-23T04:17:59.611351",
+      "return_code": 0,
+      "output_exists": true,
+      "validation_ok": true,
+      "validation_metrics": {
+        "row_count": 3,
+        "max_valid_choice_rate": 1.0,
+        "max_predicted_gap_rate": 0.0,
+        "max_actual_gap_rate": 0.4375,
+        "max_gap_direction_accuracy": 0.609375
+      }
+    },
+    {
+      "name": "self_prediction_transfer_v3_template_plain",
+      "script": "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\scripts\\self_prediction_transfer_v3.py",
+      "config": "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\configs\\identity_battery\\self_prediction_transfer_v3_template_plain_full.yaml",
+      "expected_output": "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\outputs\\latest\\cpu_identity_overnight_push\\template_plain\\self_prediction_transfer_v3\\summary_by_model_frame.csv",
+      "command": [
+        "C:/Users/joshj/miniconda3/python.exe",
+        "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\scripts\\self_prediction_transfer_v3.py",
+        "--config",
+        "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\configs\\identity_battery\\self_prediction_transfer_v3_template_plain_full.yaml"
+      ],
+      "started_at": "2026-04-23T04:17:59.620237",
+      "status": "failed",
+      "finished_at": "2026-04-23T05:41:03.232155",
+      "return_code": 0,
+      "output_exists": true,
+      "validation_ok": false,
+      "validation_metrics": {
+        "row_count": 3,
+        "max_valid_choice_rate": 1.0,
+        "max_predicted_gap_rate": 0.0,
+        "max_actual_gap_rate": 0.4097222222222222,
+        "max_gap_direction_accuracy": 0.3939393939393939
+      }
+    }
+  ],
+  "finished_at": "2026-04-23T05:41:03.232155",
+  "status": "failed"
+}

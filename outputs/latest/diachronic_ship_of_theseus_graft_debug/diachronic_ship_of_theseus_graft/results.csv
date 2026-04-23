@@ -1,0 +1,1301 @@
+pair_name,model_id,model_family,model_size_label,host_revision,donor_revision,control_kind,graft_mode,layer_label,boundary_layer_index,n_grafted_layers,blend_lambda,token_position,token_position_label,prompt_id,prompt_family,prompt_rank,prompt_clean_js,shuffled_prompt_id,donor_identity_fraction,js_to_host,js_to_donor,text_donor_identity_fraction,semantic_donor_identity_fraction,text_host_distance,text_donor_distance,semantic_host_overlap,semantic_donor_overlap,peak_drift,peak_drift_relative,end_drift,end_drift_relative,cad,recovery_fraction,persistence,next_token_kl,activation_norm_deviation,verbal_donor_claim,verbal_claim_confidence,host_completion_text,donor_completion_text,graft_completion_text,donor_source_revision
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,name_only,none,,-1,0,0.0,-1,last_prompt_token,explanation_006,explanation,1,0.03672172874212265,,0.5236064158047757,0.11700218915939331,0.10645227134227753,0.49999999999975253,0.5335198793134244,1.0103629710818451,1.0103629710818451,0.3344968040028363,0.41812100500354543,,,,,,,,,,1.0,0.7138307690620422,"
+
+The triage system is a way to identify patients who are at risk","
+
+The most common reason for triage is to identify patients who are at","
+
+Answer: Hospitals use triage systems to determine which patients are most",
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,primary,single_layer,early,2,1,0.0,-1,last_prompt_token,explanation_006,explanation,1,0.03672172874212265,,0.003024430665197372,0.00011175029794685543,0.03683745115995407,0.0,-7.216449660040072e-16,0.0,0.0,1.0000000000000002,0.6923076923076924,2.616488218307495,0.02410559356212616,2.616488218307495,0.02410559356212616,5.605867385864258,0.0,1.0,0.0004503491800278425,0.020414555445313454,1.0,0.6132365465164185,"
+
+The triage system is a way to identify patients who are at risk","
+
+The most common reason for triage is to identify patients who are at","
+
+The triage system is a way to identify patients who are at risk",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,primary,single_layer,early,2,1,1.0,-1,last_prompt_token,explanation_006,explanation,1,0.03672172874212265,,0.5383292066344046,0.028404338285326958,0.02435954287648201,0.49999999999983635,0.38527154724459345,1.5280175731517802,1.5280175731517802,0.5726562866782,0.31814238148788887,22.28978157043457,1.1453382968902588,22.28978157043457,0.20535479485988617,225.76107788085938,0.0,1.0,0.12566564977169037,0.020414555445313454,1.0,0.7386690378189087,"
+
+The triage system is a way to identify patients who are at risk","
+
+The most common reason for triage is to identify patients who are at","
+
+The triage system is a system of triage, which is a",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,primary,prefix,early,2,3,0.0,-1,last_prompt_token,explanation_006,explanation,1,0.03672172874212265,,0.003024430665197372,0.00011175029794685543,0.03683745115995407,0.0,-7.216449660040072e-16,0.0,0.0,1.0000000000000002,0.6923076923076924,2.616488218307495,0.02410559356212616,2.616488218307495,0.02410559356212616,5.6424760818481445,0.0,1.0,0.0004503491800278425,0.020414555445313454,1.0,0.6132365465164185,"
+
+The triage system is a way to identify patients who are at risk","
+
+The most common reason for triage is to identify patients who are at","
+
+The triage system is a way to identify patients who are at risk",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,primary,prefix,early,2,3,1.0,-1,last_prompt_token,explanation_006,explanation,1,0.03672172874212265,,0.5383292066344046,0.028404338285326958,0.02435954287648201,0.4999999999997615,0.40380987957437864,1.0483824058683169,1.0483824058683169,0.5883484054145522,0.39223227027636814,22.28978157043457,1.1453382968902588,22.28978157043457,0.20535479485988617,250.64657592773438,0.0,1.0,0.12566564977169037,16.40854263305664,1.0,0.7170118689537048,"
+
+The triage system is a way to identify patients who are at risk","
+
+The most common reason for triage is to identify patients who are at","
+
+The triage system is a system of triage that is used to",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,primary,suffix,early,2,21,0.0,-1,last_prompt_token,explanation_006,explanation,1,0.03672172874212265,,0.003024430665197372,0.00011175029794685543,0.03683745115995407,0.0,-7.216449660040072e-16,0.0,0.0,1.0000000000000002,0.6923076923076924,2.616488218307495,0.02410559356212616,2.616488218307495,0.02410559356212616,5.583147048950195,0.0,1.0,0.0004503491800278425,1.1091296672821045,1.0,0.6132365465164185,"
+
+The triage system is a way to identify patients who are at risk","
+
+The most common reason for triage is to identify patients who are at","
+
+The triage system is a way to identify patients who are at risk",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,primary,suffix,early,2,21,1.0,-1,last_prompt_token,explanation_006,explanation,1,0.03672172874212265,,0.43730287686052655,0.11225573718547821,0.14444446563720703,0.0,-7.216449660040072e-16,0.0,0.0,1.0000000000000002,0.6923076923076924,70.58161163330078,1.3664664030075073,55.787837982177734,0.5139709711074829,581.1234130859375,0.2095981277387447,0.7904018722612554,0.9502320289611816,70.58160400390625,1.0,0.6132365465164185,"
+
+The triage system is a way to identify patients who are at risk","
+
+The most common reason for triage is to identify patients who are at","
+
+The triage system is a way to identify patients who are at risk",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,primary,single_layer,middle,12,1,0.0,-1,last_prompt_token,explanation_006,explanation,1,0.03672172874212265,,0.003024430665197372,0.00011175029794685543,0.03683745115995407,0.0,-7.216449660040072e-16,0.0,0.0,1.0000000000000002,0.6923076923076924,2.616488218307495,0.02410559356212616,2.616488218307495,0.02410559356212616,5.303184509277344,0.0,1.0,0.0004503491800278425,0.03130844607949257,1.0,0.6132365465164185,"
+
+The triage system is a way to identify patients who are at risk","
+
+The most common reason for triage is to identify patients who are at","
+
+The triage system is a way to identify patients who are at risk",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,primary,single_layer,middle,12,1,1.0,-1,last_prompt_token,explanation_006,explanation,1,0.03672172874212265,,0.5121360918534503,0.032750461250543594,0.03119828552007675,0.0,-7.216449660040072e-16,0.0,0.0,1.0000000000000002,0.6923076923076924,29.002485275268555,0.9775776267051697,29.002485275268555,0.2671986520290375,181.13941955566406,0.0,1.0,0.15726202726364136,0.03130844607949257,1.0,0.6132365465164185,"
+
+The triage system is a way to identify patients who are at risk","
+
+The most common reason for triage is to identify patients who are at","
+
+The triage system is a way to identify patients who are at risk",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,primary,prefix,middle,12,13,0.0,-1,last_prompt_token,explanation_006,explanation,1,0.03672172874212265,,0.003024430665197372,0.00011175029794685543,0.03683745115995407,0.0,-7.216449660040072e-16,0.0,0.0,1.0000000000000002,0.6923076923076924,2.616488218307495,0.02410559356212616,2.616488218307495,0.02410559356212616,5.6424760818481445,0.0,1.0,0.0004503491800278425,0.03130844607949257,1.0,0.6132365465164185,"
+
+The triage system is a way to identify patients who are at risk","
+
+The most common reason for triage is to identify patients who are at","
+
+The triage system is a way to identify patients who are at risk",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,primary,prefix,middle,12,13,1.0,-1,last_prompt_token,explanation_006,explanation,1,0.03672172874212265,,0.5121360918534503,0.032750461250543594,0.03119828552007675,0.4999999999997615,0.40380987957437864,1.0483824058683169,1.0483824058683169,0.5883484054145522,0.39223227027636814,29.002485275268555,1.277429461479187,29.002485275268555,0.2671986520290375,372.4895324707031,0.0,1.0,0.15726202726364136,17.980091094970703,1.0,0.7170118689537048,"
+
+The triage system is a way to identify patients who are at risk","
+
+The most common reason for triage is to identify patients who are at","
+
+The triage system is a system of triage that is used to",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,primary,suffix,middle,12,11,0.0,-1,last_prompt_token,explanation_006,explanation,1,0.03672172874212265,,0.003024430665197372,0.00011175029794685543,0.03683745115995407,0.0,-7.216449660040072e-16,0.0,0.0,1.0000000000000002,0.6923076923076924,2.616488218307495,0.02410559356212616,2.616488218307495,0.02410559356212616,5.266303062438965,0.0,1.0,0.0004503491800278425,1.1091296672821045,1.0,0.6132365465164185,"
+
+The triage system is a way to identify patients who are at risk","
+
+The most common reason for triage is to identify patients who are at","
+
+The triage system is a way to identify patients who are at risk",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,primary,suffix,middle,12,11,1.0,-1,last_prompt_token,explanation_006,explanation,1,0.03672172874212265,,0.43730287686052655,0.11225573718547821,0.14444446563720703,0.0,-7.216449660040072e-16,0.0,0.0,1.0000000000000002,0.6923076923076924,70.58161163330078,1.3664664030075073,55.787837982177734,0.5139709711074829,414.0283203125,0.2095981277387447,0.7904018722612554,0.9502320289611816,70.58160400390625,1.0,0.6132365465164185,"
+
+The triage system is a way to identify patients who are at risk","
+
+The most common reason for triage is to identify patients who are at","
+
+The triage system is a way to identify patients who are at risk",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,primary,single_layer,late,21,1,0.0,-1,last_prompt_token,explanation_006,explanation,1,0.03672172874212265,,0.003024430665197372,0.00011175029794685543,0.03683745115995407,0.0,-7.216449660040072e-16,0.0,0.0,1.0000000000000002,0.6923076923076924,2.616488218307495,0.02410559356212616,2.616488218307495,0.02410559356212616,2.9164323806762695,0.0,1.0,0.0004503491800278425,0.6972429752349854,1.0,0.6132365465164185,"
+
+The triage system is a way to identify patients who are at risk","
+
+The most common reason for triage is to identify patients who are at","
+
+The triage system is a way to identify patients who are at risk",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,primary,single_layer,late,21,1,1.0,-1,last_prompt_token,explanation_006,explanation,1,0.03672172874212265,,0.5209568895425679,0.05324559286236763,0.04896169900894165,0.0,-7.216449660040072e-16,0.0,0.0,1.0000000000000002,0.6923076923076924,64.24130249023438,1.2437174320220947,50.612003326416016,0.46628621220588684,121.63158416748047,0.2121578896363475,0.7878421103636525,0.30339717864990234,0.6972429752349854,1.0,0.6132365465164185,"
+
+The triage system is a way to identify patients who are at risk","
+
+The most common reason for triage is to identify patients who are at","
+
+The triage system is a way to identify patients who are at risk",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,primary,prefix,late,21,22,0.0,-1,last_prompt_token,explanation_006,explanation,1,0.03672172874212265,,0.003024430665197372,0.00011175029794685543,0.03683745115995407,0.0,-7.216449660040072e-16,0.0,0.0,1.0000000000000002,0.6923076923076924,2.616488218307495,0.02410559356212616,2.616488218307495,0.02410559356212616,5.6424760818481445,0.0,1.0,0.0004503491800278425,0.6972429752349854,1.0,0.6132365465164185,"
+
+The triage system is a way to identify patients who are at risk","
+
+The most common reason for triage is to identify patients who are at","
+
+The triage system is a way to identify patients who are at risk",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,primary,prefix,late,21,22,1.0,-1,last_prompt_token,explanation_006,explanation,1,0.03672172874212265,,0.5209568895425679,0.05324559286236763,0.04896169900894165,0.4999999999997615,0.40380987957437864,1.0483824058683169,1.0483824058683169,0.5883484054145522,0.39223227027636814,64.24130249023438,1.277429461479187,50.612003326416016,0.46628621220588684,614.8841552734375,0.2121578896363475,0.7878421103636525,0.30339717864990234,55.0433464050293,1.0,0.7170118689537048,"
+
+The triage system is a way to identify patients who are at risk","
+
+The most common reason for triage is to identify patients who are at","
+
+The triage system is a system of triage that is used to",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,primary,suffix,late,21,2,0.0,-1,last_prompt_token,explanation_006,explanation,1,0.03672172874212265,,0.003024430665197372,0.00011175029794685543,0.03683745115995407,0.0,-7.216449660040072e-16,0.0,0.0,1.0000000000000002,0.6923076923076924,2.616488218307495,0.02410559356212616,2.616488218307495,0.02410559356212616,1.8628089427947998,0.0,1.0,0.0004503491800278425,1.1091296672821045,1.0,0.6132365465164185,"
+
+The triage system is a way to identify patients who are at risk","
+
+The most common reason for triage is to identify patients who are at","
+
+The triage system is a way to identify patients who are at risk",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,primary,suffix,late,21,2,1.0,-1,last_prompt_token,explanation_006,explanation,1,0.03672172874212265,,0.43730287686052655,0.11225573718547821,0.14444446563720703,0.0,-7.216449660040072e-16,0.0,0.0,1.0000000000000002,0.6923076923076924,70.58161163330078,1.3664664030075073,55.787837982177734,0.5139709711074829,63.184722900390625,0.2095981277387447,0.7904018722612554,0.9502320289611816,70.58160400390625,1.0,0.6132365465164185,"
+
+The triage system is a way to identify patients who are at risk","
+
+The most common reason for triage is to identify patients who are at","
+
+The triage system is a way to identify patients who are at risk",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step128000,adjacent,single_layer,early,2,1,0.0,-1,last_prompt_token,explanation_006,explanation,1,0.03672172874212265,,0.01308286724598241,0.00011175029794685543,0.008429978042840958,0.0,-2.692793228288912e-16,0.0,1.5385980479148182,1.0000000000000002,0.17541160386140586,2.616488218307495,0.02410559356212616,2.616488218307495,0.02410559356212616,5.605867385864258,0.0,1.0,0.0004503491800278425,0.020414555445313454,1.0,0.6531268954277039,"
+
+The triage system is a way to identify patients who are at risk","
+
+The authors have no conflicts of interest to disclose.
+
+![Flow","
+
+The triage system is a way to identify patients who are at risk",step128000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step128000,adjacent,single_layer,early,2,1,1.0,-1,last_prompt_token,explanation_006,explanation,1,0.03672172874212265,,0.05887752228269687,0.0005324614467099309,0.008511082269251347,0.0,-2.692793228288912e-16,0.0,1.5385980479148182,1.0000000000000002,0.17541160386140586,3.482414722442627,0.08916526287794113,3.482414722442627,0.032083336263895035,25.446313858032227,0.0,1.0,0.002132805995643139,0.020414555445313454,1.0,0.6531268954277039,"
+
+The triage system is a way to identify patients who are at risk","
+
+The authors have no conflicts of interest to disclose.
+
+![Flow","
+
+The triage system is a way to identify patients who are at risk",step128000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step128000,adjacent,prefix,early,2,3,0.0,-1,last_prompt_token,explanation_006,explanation,1,0.03672172874212265,,0.01308286724598241,0.00011175029794685543,0.008429978042840958,0.0,-2.692793228288912e-16,0.0,1.5385980479148182,1.0000000000000002,0.17541160386140586,2.616488218307495,0.02410559356212616,2.616488218307495,0.02410559356212616,5.6424760818481445,0.0,1.0,0.0004503491800278425,0.020414555445313454,1.0,0.6531268954277039,"
+
+The triage system is a way to identify patients who are at risk","
+
+The authors have no conflicts of interest to disclose.
+
+![Flow","
+
+The triage system is a way to identify patients who are at risk",step128000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step128000,adjacent,prefix,early,2,3,1.0,-1,last_prompt_token,explanation_006,explanation,1,0.03672172874212265,,0.05887752228269687,0.0005324614467099309,0.008511082269251347,0.0,-2.692793228288912e-16,0.0,1.5385980479148182,1.0000000000000002,0.17541160386140586,3.482414722442627,0.08916526287794113,3.482414722442627,0.032083336263895035,27.64010238647461,0.0,1.0,0.002132805995643139,1.3335760831832886,1.0,0.6531268954277039,"
+
+The triage system is a way to identify patients who are at risk","
+
+The authors have no conflicts of interest to disclose.
+
+![Flow","
+
+The triage system is a way to identify patients who are at risk",step128000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step128000,adjacent,suffix,early,2,21,0.0,-1,last_prompt_token,explanation_006,explanation,1,0.03672172874212265,,0.01308286724598241,0.00011175029794685543,0.008429978042840958,0.0,-2.692793228288912e-16,0.0,1.5385980479148182,1.0000000000000002,0.17541160386140586,2.616488218307495,0.02410559356212616,2.616488218307495,0.02410559356212616,5.583147048950195,0.0,1.0,0.0004503491800278425,1.1091296672821045,1.0,0.6531268954277039,"
+
+The triage system is a way to identify patients who are at risk","
+
+The authors have no conflicts of interest to disclose.
+
+![Flow","
+
+The triage system is a way to identify patients who are at risk",step128000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step128000,adjacent,suffix,early,2,21,1.0,-1,last_prompt_token,explanation_006,explanation,1,0.03672172874212265,,0.681371862801662,0.011140687391161919,0.005209690425544977,0.0,-2.692793228288912e-16,0.0,1.5385980479148182,1.0000000000000002,0.17541160386140586,20.580490112304688,0.28724774718284607,20.580490112304688,0.189607173204422,119.48184204101562,0.0,1.0,0.043825145810842514,10.87534236907959,1.0,0.6531268954277039,"
+
+The triage system is a way to identify patients who are at risk","
+
+The authors have no conflicts of interest to disclose.
+
+![Flow","
+
+The triage system is a way to identify patients who are at risk",step128000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step128000,adjacent,single_layer,middle,12,1,0.0,-1,last_prompt_token,explanation_006,explanation,1,0.03672172874212265,,0.01308286724598241,0.00011175029794685543,0.008429978042840958,0.0,-2.692793228288912e-16,0.0,1.5385980479148182,1.0000000000000002,0.17541160386140586,2.616488218307495,0.02410559356212616,2.616488218307495,0.02410559356212616,5.303184509277344,0.0,1.0,0.0004503491800278425,0.03130844607949257,1.0,0.6531268954277039,"
+
+The triage system is a way to identify patients who are at risk","
+
+The authors have no conflicts of interest to disclose.
+
+![Flow","
+
+The triage system is a way to identify patients who are at risk",step128000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step128000,adjacent,single_layer,middle,12,1,1.0,-1,last_prompt_token,explanation_006,explanation,1,0.03672172874212265,,0.301619679385991,0.0026287136133760214,0.006086611654609442,0.0,-2.692793228288912e-16,0.0,1.5385980479148182,1.0000000000000002,0.17541160386140586,7.473377227783203,0.15984231233596802,7.473377227783203,0.06885190308094025,39.40931701660156,0.0,1.0,0.010767598636448383,0.03130844607949257,1.0,0.6531268954277039,"
+
+The triage system is a way to identify patients who are at risk","
+
+The authors have no conflicts of interest to disclose.
+
+![Flow","
+
+The triage system is a way to identify patients who are at risk",step128000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step128000,adjacent,prefix,middle,12,13,0.0,-1,last_prompt_token,explanation_006,explanation,1,0.03672172874212265,,0.01308286724598241,0.00011175029794685543,0.008429978042840958,0.0,-2.692793228288912e-16,0.0,1.5385980479148182,1.0000000000000002,0.17541160386140586,2.616488218307495,0.02410559356212616,2.616488218307495,0.02410559356212616,5.6424760818481445,0.0,1.0,0.0004503491800278425,0.03130844607949257,1.0,0.6531268954277039,"
+
+The triage system is a way to identify patients who are at risk","
+
+The authors have no conflicts of interest to disclose.
+
+![Flow","
+
+The triage system is a way to identify patients who are at risk",step128000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step128000,adjacent,prefix,middle,12,13,1.0,-1,last_prompt_token,explanation_006,explanation,1,0.03672172874212265,,0.301619679385991,0.0026287136133760214,0.006086611654609442,0.0,-2.692793228288912e-16,0.0,1.5385980479148182,1.0000000000000002,0.17541160386140586,7.473377227783203,0.24595670402050018,7.473377227783203,0.06885190308094025,66.55997467041016,0.0,1.0,0.010767598636448383,3.976670026779175,1.0,0.6531268954277039,"
+
+The triage system is a way to identify patients who are at risk","
+
+The authors have no conflicts of interest to disclose.
+
+![Flow","
+
+The triage system is a way to identify patients who are at risk",step128000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step128000,adjacent,suffix,middle,12,11,0.0,-1,last_prompt_token,explanation_006,explanation,1,0.03672172874212265,,0.01308286724598241,0.00011175029794685543,0.008429978042840958,0.0,-2.692793228288912e-16,0.0,1.5385980479148182,1.0000000000000002,0.17541160386140586,2.616488218307495,0.02410559356212616,2.616488218307495,0.02410559356212616,5.266303062438965,0.0,1.0,0.0004503491800278425,1.1091296672821045,1.0,0.6531268954277039,"
+
+The triage system is a way to identify patients who are at risk","
+
+The authors have no conflicts of interest to disclose.
+
+![Flow","
+
+The triage system is a way to identify patients who are at risk",step128000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step128000,adjacent,suffix,middle,12,11,1.0,-1,last_prompt_token,explanation_006,explanation,1,0.03672172874212265,,0.681371862801662,0.011140687391161919,0.005209690425544977,0.0,-2.692793228288912e-16,0.0,1.5385980479148182,1.0000000000000002,0.17541160386140586,20.580490112304688,0.28724774718284607,20.580490112304688,0.189607173204422,93.36534118652344,0.0,1.0,0.043825145810842514,10.87534236907959,1.0,0.6531268954277039,"
+
+The triage system is a way to identify patients who are at risk","
+
+The authors have no conflicts of interest to disclose.
+
+![Flow","
+
+The triage system is a way to identify patients who are at risk",step128000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step128000,adjacent,single_layer,late,21,1,0.0,-1,last_prompt_token,explanation_006,explanation,1,0.03672172874212265,,0.01308286724598241,0.00011175029794685543,0.008429978042840958,0.0,-2.692793228288912e-16,0.0,1.5385980479148182,1.0000000000000002,0.17541160386140586,2.616488218307495,0.02410559356212616,2.616488218307495,0.02410559356212616,2.9164323806762695,0.0,1.0,0.0004503491800278425,0.6972429752349854,1.0,0.6531268954277039,"
+
+The triage system is a way to identify patients who are at risk","
+
+The authors have no conflicts of interest to disclose.
+
+![Flow","
+
+The triage system is a way to identify patients who are at risk",step128000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step128000,adjacent,single_layer,late,21,1,1.0,-1,last_prompt_token,explanation_006,explanation,1,0.03672172874212265,,0.5715266111471656,0.016827363520860672,0.01261547114700079,0.0,-2.692793228288912e-16,0.0,1.5385980479148182,1.0000000000000002,0.17541160386140586,26.230335235595703,0.2806859314441681,26.230335235595703,0.24165894091129303,35.3248176574707,0.0,1.0,0.0710827186703682,0.6972429752349854,1.0,0.6531268954277039,"
+
+The triage system is a way to identify patients who are at risk","
+
+The authors have no conflicts of interest to disclose.
+
+![Flow","
+
+The triage system is a way to identify patients who are at risk",step128000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step128000,adjacent,prefix,late,21,22,0.0,-1,last_prompt_token,explanation_006,explanation,1,0.03672172874212265,,0.01308286724598241,0.00011175029794685543,0.008429978042840958,0.0,-2.692793228288912e-16,0.0,1.5385980479148182,1.0000000000000002,0.17541160386140586,2.616488218307495,0.02410559356212616,2.616488218307495,0.02410559356212616,5.6424760818481445,0.0,1.0,0.0004503491800278425,0.6972429752349854,1.0,0.6531268954277039,"
+
+The triage system is a way to identify patients who are at risk","
+
+The authors have no conflicts of interest to disclose.
+
+![Flow","
+
+The triage system is a way to identify patients who are at risk",step128000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step128000,adjacent,prefix,late,21,22,1.0,-1,last_prompt_token,explanation_006,explanation,1,0.03672172874212265,,0.5715266111471656,0.016827363520860672,0.01261547114700079,0.0,-2.692793228288912e-16,0.0,1.5385980479148182,1.0000000000000002,0.17541160386140586,26.230335235595703,0.28724774718284607,26.230335235595703,0.24165894091129303,129.84481811523438,0.0,1.0,0.0710827186703682,14.357693672180176,1.0,0.6531268954277039,"
+
+The triage system is a way to identify patients who are at risk","
+
+The authors have no conflicts of interest to disclose.
+
+![Flow","
+
+The triage system is a way to identify patients who are at risk",step128000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step128000,adjacent,suffix,late,21,2,0.0,-1,last_prompt_token,explanation_006,explanation,1,0.03672172874212265,,0.01308286724598241,0.00011175029794685543,0.008429978042840958,0.0,-2.692793228288912e-16,0.0,1.5385980479148182,1.0000000000000002,0.17541160386140586,2.616488218307495,0.02410559356212616,2.616488218307495,0.02410559356212616,1.8628089427947998,0.0,1.0,0.0004503491800278425,1.1091296672821045,1.0,0.6531268954277039,"
+
+The triage system is a way to identify patients who are at risk","
+
+The authors have no conflicts of interest to disclose.
+
+![Flow","
+
+The triage system is a way to identify patients who are at risk",step128000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step128000,adjacent,suffix,late,21,2,1.0,-1,last_prompt_token,explanation_006,explanation,1,0.03672172874212265,,0.681371862801662,0.011140687391161919,0.005209690425544977,0.0,-2.692793228288912e-16,0.0,1.5385980479148182,1.0000000000000002,0.17541160386140586,20.580490112304688,0.21054762601852417,20.580490112304688,0.189607173204422,15.727916717529297,0.0,1.0,0.043825145810842514,10.87534236907959,1.0,0.6531268954277039,"
+
+The triage system is a way to identify patients who are at risk","
+
+The authors have no conflicts of interest to disclose.
+
+![Flow","
+
+The triage system is a way to identify patients who are at risk",step128000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step4000,very_early,single_layer,early,2,1,0.0,-1,last_prompt_token,explanation_006,explanation,1,0.03672172874212265,,0.0007090625910207024,0.00011175029794685543,0.15749111771583557,0.0,-7.24157464481901e-16,0.0,1.4211716735214768,1.0000000000000002,0.6933752452815365,2.616488218307495,0.02410559356212616,2.616488218307495,0.02410559356212616,5.605867385864258,0.0,1.0,0.0004503491800278425,0.020414555445313454,1.0,0.6893056035041809,"
+
+The triage system is a way to identify patients who are at risk","
+
+The triage system is a way to get patients to the hospital,","
+
+The triage system is a way to identify patients who are at risk",step4000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step4000,very_early,single_layer,early,2,1,1.0,-1,last_prompt_token,explanation_006,explanation,1,0.03672172874212265,,0.18234571368614616,0.026244791224598885,0.11768396198749542,0.0,-7.24157464481901e-16,0.0,1.4211716735214768,1.0000000000000002,0.6933752452815365,24.35940933227539,0.8140468001365662,24.35940933227539,0.22442218661308289,217.71926879882812,0.0,1.0,0.11548121273517609,0.020414555445313454,1.0,0.6893056035041809,"
+
+The triage system is a way to identify patients who are at risk","
+
+The triage system is a way to get patients to the hospital,","
+
+The triage system is a way to identify patients who are at risk",step4000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step4000,very_early,prefix,early,2,3,0.0,-1,last_prompt_token,explanation_006,explanation,1,0.03672172874212265,,0.0007090625910207024,0.00011175029794685543,0.15749111771583557,0.0,-7.24157464481901e-16,0.0,1.4211716735214768,1.0000000000000002,0.6933752452815365,2.616488218307495,0.02410559356212616,2.616488218307495,0.02410559356212616,5.6424760818481445,0.0,1.0,0.0004503491800278425,0.020414555445313454,1.0,0.6893056035041809,"
+
+The triage system is a way to identify patients who are at risk","
+
+The triage system is a way to get patients to the hospital,","
+
+The triage system is a way to identify patients who are at risk",step4000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step4000,very_early,prefix,early,2,3,1.0,-1,last_prompt_token,explanation_006,explanation,1,0.03672172874212265,,0.18234571368614616,0.026244791224598885,0.11768396198749542,0.0,-7.24157464481901e-16,0.0,1.4211716735214768,1.0000000000000002,0.6933752452815365,24.35940933227539,0.8140468001365662,24.35940933227539,0.22442218661308289,250.53872680664062,0.0,1.0,0.11548121273517609,19.164031982421875,1.0,0.6893056035041809,"
+
+The triage system is a way to identify patients who are at risk","
+
+The triage system is a way to get patients to the hospital,","
+
+The triage system is a way to identify patients who are at risk",step4000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step4000,very_early,suffix,early,2,21,0.0,-1,last_prompt_token,explanation_006,explanation,1,0.03672172874212265,,0.0007090625910207024,0.00011175029794685543,0.15749111771583557,0.0,-7.24157464481901e-16,0.0,1.4211716735214768,1.0000000000000002,0.6933752452815365,2.616488218307495,0.02410559356212616,2.616488218307495,0.02410559356212616,5.583147048950195,0.0,1.0,0.0004503491800278425,1.1091296672821045,1.0,0.6893056035041809,"
+
+The triage system is a way to identify patients who are at risk","
+
+The triage system is a way to get patients to the hospital,","
+
+The triage system is a way to identify patients who are at risk",step4000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step4000,very_early,suffix,early,2,21,1.0,-1,last_prompt_token,explanation_006,explanation,1,0.03672172874212265,,0.5216079381920133,0.4438474774360657,0.4070741534233093,0.50024441091133,0.49999999999975,1.642242811294105,1.6406380674783676,0.0,0.0,397.2239990234375,24.016576766967773,94.55928802490234,0.8711706399917603,3603.72607421875,0.7619497103463705,0.2380502896536295,2.892498016357422,397.2239685058594,1.0,0.7943849563598633,"
+
+The triage system is a way to identify patients who are at risk","
+
+The triage system is a way to get patients to the hospital,","
+Trial.2.2.2.2.2.2.2",step4000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step4000,very_early,single_layer,middle,12,1,0.0,-1,last_prompt_token,explanation_006,explanation,1,0.03672172874212265,,0.0007090625910207024,0.00011175029794685543,0.15749111771583557,0.0,-7.24157464481901e-16,0.0,1.4211716735214768,1.0000000000000002,0.6933752452815365,2.616488218307495,0.02410559356212616,2.616488218307495,0.02410559356212616,5.303184509277344,0.0,1.0,0.0004503491800278425,0.03130844607949257,1.0,0.6893056035041809,"
+
+The triage system is a way to identify patients who are at risk","
+
+The triage system is a way to get patients to the hospital,","
+
+The triage system is a way to identify patients who are at risk",step4000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step4000,very_early,single_layer,middle,12,1,1.0,-1,last_prompt_token,explanation_006,explanation,1,0.03672172874212265,,0.5238060745160239,0.5008496642112732,0.4553241729736328,0.5072370634164851,0.49999999999975,1.592103184474909,1.5466721521513667,0.0,0.0,234.54058837890625,11.690539360046387,120.37435913085938,1.1090037822723389,2075.2919921875,0.4867653400084784,0.5132346599915216,3.2679524421691895,0.03130844607949257,1.0,0.8175744414329529,"
+
+The triage system is a way to identify patients who are at risk","
+
+The triage system is a way to get patients to the hospital,","d2d.
+import itu.v.d2d.d",step4000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step4000,very_early,prefix,middle,12,13,0.0,-1,last_prompt_token,explanation_006,explanation,1,0.03672172874212265,,0.0007090625910207024,0.00011175029794685543,0.15749111771583557,0.0,-7.24157464481901e-16,0.0,1.4211716735214768,1.0000000000000002,0.6933752452815365,2.616488218307495,0.02410559356212616,2.616488218307495,0.02410559356212616,5.6424760818481445,0.0,1.0,0.0004503491800278425,0.03130844607949257,1.0,0.6893056035041809,"
+
+The triage system is a way to identify patients who are at risk","
+
+The triage system is a way to get patients to the hospital,","
+
+The triage system is a way to identify patients who are at risk",step4000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step4000,very_early,prefix,middle,12,13,1.0,-1,last_prompt_token,explanation_006,explanation,1,0.03672172874212265,,0.5238060745160239,0.5008496642112732,0.4553241729736328,0.50024441091133,0.49999999999975,1.642242811294105,1.6406380674783676,0.0,0.0,322.18145751953125,24.016576766967773,120.37435913085938,1.1090037822723389,3493.43310546875,0.6263771352404349,0.3736228647595651,3.2679524421691895,211.8556365966797,1.0,0.7606506943702698,"
+
+The triage system is a way to identify patients who are at risk","
+
+The triage system is a way to get patients to the hospital,",d.2.2.2.2.2.2.2.,step4000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step4000,very_early,suffix,middle,12,11,0.0,-1,last_prompt_token,explanation_006,explanation,1,0.03672172874212265,,0.0007090625910207024,0.00011175029794685543,0.15749111771583557,0.0,-7.24157464481901e-16,0.0,1.4211716735214768,1.0000000000000002,0.6933752452815365,2.616488218307495,0.02410559356212616,2.616488218307495,0.02410559356212616,5.266303062438965,0.0,1.0,0.0004503491800278425,1.1091296672821045,1.0,0.6893056035041809,"
+
+The triage system is a way to identify patients who are at risk","
+
+The triage system is a way to get patients to the hospital,","
+
+The triage system is a way to identify patients who are at risk",step4000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step4000,very_early,suffix,middle,12,11,1.0,-1,last_prompt_token,explanation_006,explanation,1,0.03672172874212265,,0.5216079381920133,0.4438474774360657,0.4070741534233093,0.6249010343915586,0.5156114588264759,1.7820867359835928,1.0697036082556595,0.2307692307692308,0.2773500981126146,397.2239990234375,11.165513038635254,94.55928802490234,0.8711706399917603,2033.547607421875,0.7619497103463705,0.2380502896536295,2.892498016357422,397.2239685058594,1.0,0.7813306450843811,"
+
+The triage system is a way to identify patients who are at risk","
+
+The triage system is a way to get patients to the hospital,","
+Trial.
+
+In the current state of the package, we are still",step4000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step4000,very_early,single_layer,late,21,1,0.0,-1,last_prompt_token,explanation_006,explanation,1,0.03672172874212265,,0.0007090625910207024,0.00011175029794685543,0.15749111771583557,0.0,-7.24157464481901e-16,0.0,1.4211716735214768,1.0000000000000002,0.6933752452815365,2.616488218307495,0.02410559356212616,2.616488218307495,0.02410559356212616,2.9164323806762695,0.0,1.0,0.0004503491800278425,0.6972429752349854,1.0,0.6893056035041809,"
+
+The triage system is a way to identify patients who are at risk","
+
+The triage system is a way to get patients to the hospital,","
+
+The triage system is a way to identify patients who are at risk",step4000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step4000,very_early,single_layer,late,21,1,1.0,-1,last_prompt_token,explanation_006,explanation,1,0.03672172874212265,,0.5197166659297725,0.494312584400177,0.4568067789077759,0.7699948703687044,0.5123189302336433,1.478684689950729,0.4416978305742525,0.37062465833055064,0.4008918628686366,230.84494018554688,4.469178676605225,115.44987487792969,1.0636347532272339,369.6616516113281,0.4998812848783507,0.5001187151216493,3.1381921768188477,0.6972429752349854,1.0,0.7264255881309509,"
+
+The triage system is a way to identify patients who are at risk","
+
+The triage system is a way to get patients to the hospital,","==========
+
+The triage system is a well-established and well-established",step4000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step4000,very_early,prefix,late,21,22,0.0,-1,last_prompt_token,explanation_006,explanation,1,0.03672172874212265,,0.0007090625910207024,0.00011175029794685543,0.15749111771583557,0.0,-7.24157464481901e-16,0.0,1.4211716735214768,1.0000000000000002,0.6933752452815365,2.616488218307495,0.02410559356212616,2.616488218307495,0.02410559356212616,5.6424760818481445,0.0,1.0,0.0004503491800278425,0.6972429752349854,1.0,0.6893056035041809,"
+
+The triage system is a way to identify patients who are at risk","
+
+The triage system is a way to get patients to the hospital,","
+
+The triage system is a way to identify patients who are at risk",step4000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step4000,very_early,prefix,late,21,22,1.0,-1,last_prompt_token,explanation_006,explanation,1,0.03672172874212265,,0.5197166659297725,0.494312584400177,0.4568067789077759,0.5074846190002278,0.5321257187768704,1.5741631862340135,1.5277302057956654,0.1307440900921227,0.23570226039551587,322.18145751953125,24.016576766967773,115.44987487792969,1.0636347532272339,3501.31640625,0.6416619511042752,0.35833804889572485,3.1381921768188477,169.09475708007812,1.0,0.8386797308921814,"
+
+The triage system is a way to identify patients who are at risk","
+
+The triage system is a way to get patients to the hospital,","==========
+1982 to the.
+.sc.sc.sc.sc.",step4000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step4000,very_early,suffix,late,21,2,0.0,-1,last_prompt_token,explanation_006,explanation,1,0.03672172874212265,,0.0007090625910207024,0.00011175029794685543,0.15749111771583557,0.0,-7.24157464481901e-16,0.0,1.4211716735214768,1.0000000000000002,0.6933752452815365,2.616488218307495,0.02410559356212616,2.616488218307495,0.02410559356212616,1.8628089427947998,0.0,1.0,0.0004503491800278425,1.1091296672821045,1.0,0.6893056035041809,"
+
+The triage system is a way to identify patients who are at risk","
+
+The triage system is a way to get patients to the hospital,","
+
+The triage system is a way to identify patients who are at risk",step4000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step4000,very_early,suffix,late,21,2,1.0,-1,last_prompt_token,explanation_006,explanation,1,0.03672172874212265,,0.5216079381920133,0.4438474774360657,0.4070741534233093,0.0,-7.24157464481901e-16,0.0,1.4211716735214768,1.0000000000000002,0.6933752452815365,397.2239990234375,7.6902923583984375,94.55928802490234,0.8711706399917603,245.8916473388672,0.7619497103463705,0.2380502896536295,2.892498016357422,397.2239685058594,1.0,0.6893056035041809,"
+
+The triage system is a way to identify patients who are at risk","
+
+The triage system is a way to get patients to the hospital,","
+
+The triage system is a way to identify patients who are at risk",step4000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,random_same_norm,single_layer,early,2,1,0.0,-1,last_prompt_token,explanation_006,explanation,1,0.03672172874212265,,0.003024430665197372,0.00011175029794685543,0.03683745115995407,0.0,-7.216449660040072e-16,0.0,0.0,1.0000000000000002,0.6923076923076924,2.616488218307495,0.02410559356212616,2.616488218307495,0.02410559356212616,5.605867385864258,0.0,1.0,0.0004503491800278425,0.020414555445313454,1.0,0.6132365465164185,"
+
+The triage system is a way to identify patients who are at risk","
+
+The most common reason for triage is to identify patients who are at","
+
+The triage system is a way to identify patients who are at risk",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,random_same_norm,single_layer,early,2,1,1.0,-1,last_prompt_token,explanation_006,explanation,1,0.03672172874212265,,0.555587455214866,0.030094582587480545,0.02407255582511425,0.4999999999997615,0.40380987957437864,1.0483824058683169,1.0483824058683169,0.5883484054145522,0.39223227027636814,26.144573211669922,0.8645200133323669,26.144573211669922,0.24086882174015045,242.9676513671875,0.0,1.0,0.12833544611930847,0.020414555445313454,1.0,0.7170118689537048,"
+
+The triage system is a way to identify patients who are at risk","
+
+The most common reason for triage is to identify patients who are at","
+
+The triage system is a system of triage that is used to",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,random_same_norm,prefix,early,2,3,0.0,-1,last_prompt_token,explanation_006,explanation,1,0.03672172874212265,,0.003024430665197372,0.00011175029794685543,0.03683745115995407,0.0,-7.216449660040072e-16,0.0,0.0,1.0000000000000002,0.6923076923076924,2.616488218307495,0.02410559356212616,2.616488218307495,0.02410559356212616,5.6424760818481445,0.0,1.0,0.0004503491800278425,0.020414555445313454,1.0,0.6132365465164185,"
+
+The triage system is a way to identify patients who are at risk","
+
+The most common reason for triage is to identify patients who are at","
+
+The triage system is a way to identify patients who are at risk",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,random_same_norm,prefix,early,2,3,1.0,-1,last_prompt_token,explanation_006,explanation,1,0.03672172874212265,,0.48878140937002573,0.026668576523661613,0.02789277955889702,0.0,-7.216449660040072e-16,0.0,0.0,1.0000000000000002,0.6923076923076924,25.6209716796875,0.9401043057441711,25.6209716796875,0.23604491353034973,266.31829833984375,0.0,1.0,0.11463426053524017,16.492015838623047,1.0,0.6132365465164185,"
+
+The triage system is a way to identify patients who are at risk","
+
+The most common reason for triage is to identify patients who are at","
+
+The triage system is a way to identify patients who are at risk",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,random_same_norm,suffix,early,2,21,0.0,-1,last_prompt_token,explanation_006,explanation,1,0.03672172874212265,,0.003024430665197372,0.00011175029794685543,0.03683745115995407,0.0,-7.216449660040072e-16,0.0,0.0,1.0000000000000002,0.6923076923076924,2.616488218307495,0.02410559356212616,2.616488218307495,0.02410559356212616,5.583147048950195,0.0,1.0,0.0004503491800278425,1.1091296672821045,1.0,0.6132365465164185,"
+
+The triage system is a way to identify patients who are at risk","
+
+The most common reason for triage is to identify patients who are at","
+
+The triage system is a way to identify patients who are at risk",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,random_same_norm,suffix,early,2,21,1.0,-1,last_prompt_token,explanation_006,explanation,1,0.03672172874212265,,0.48446173205454424,0.37670597434043884,0.40087035298347473,0.49999999999975414,0.4747519486279235,1.0168709185675218,1.0168709185675218,0.17541160386140586,0.08770580193070293,124.05962371826172,1.45986008644104,124.05962371826172,1.142956018447876,630.2178955078125,0.0,1.0,1.7988147735595703,75.40565490722656,1.0,0.6531268954277039,"
+
+The triage system is a way to identify patients who are at risk","
+
+The most common reason for triage is to identify patients who are at","
+
+The American College of Emergency Physicians (ACEM) has published a",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,random_same_norm,single_layer,middle,12,1,0.0,-1,last_prompt_token,explanation_006,explanation,1,0.03672172874212265,,0.003024430665197372,0.00011175029794685543,0.03683745115995407,0.0,-7.216449660040072e-16,0.0,0.0,1.0000000000000002,0.6923076923076924,2.616488218307495,0.02410559356212616,2.616488218307495,0.02410559356212616,5.303184509277344,0.0,1.0,0.0004503491800278425,0.03130844607949257,1.0,0.6132365465164185,"
+
+The triage system is a way to identify patients who are at risk","
+
+The most common reason for triage is to identify patients who are at","
+
+The triage system is a way to identify patients who are at risk",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,random_same_norm,single_layer,middle,12,1,1.0,-1,last_prompt_token,explanation_006,explanation,1,0.03672172874212265,,0.5575807472432166,0.09918299317359924,0.07869795709848404,0.0,-7.216449660040072e-16,0.0,0.0,1.0000000000000002,0.6923076923076924,37.248477935791016,0.9240446090698242,37.248477935791016,0.34316861629486084,174.15269470214844,0.0,1.0,0.41394558548927307,0.03130844607949257,1.0,0.6132365465164185,"
+
+The triage system is a way to identify patients who are at risk","
+
+The most common reason for triage is to identify patients who are at","
+
+The triage system is a way to identify patients who are at risk",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,random_same_norm,prefix,middle,12,13,0.0,-1,last_prompt_token,explanation_006,explanation,1,0.03672172874212265,,0.003024430665197372,0.00011175029794685543,0.03683745115995407,0.0,-7.216449660040072e-16,0.0,0.0,1.0000000000000002,0.6923076923076924,2.616488218307495,0.02410559356212616,2.616488218307495,0.02410559356212616,5.6424760818481445,0.0,1.0,0.0004503491800278425,0.03130844607949257,1.0,0.6132365465164185,"
+
+The triage system is a way to identify patients who are at risk","
+
+The most common reason for triage is to identify patients who are at","
+
+The triage system is a way to identify patients who are at risk",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,random_same_norm,prefix,middle,12,13,1.0,-1,last_prompt_token,explanation_006,explanation,1,0.03672172874212265,,0.4795301758160731,0.12635333836078644,0.137140691280365,0.4999999999997517,0.4760954516105601,1.0069204977995476,1.0069204977995476,0.16724840200141816,0.08362420100070908,42.03518295288086,1.2348458766937256,42.03518295288086,0.3872683346271515,410.51593017578125,0.0,1.0,0.5033255219459534,17.361515045166016,1.0,0.6206216216087341,"
+
+The triage system is a way to identify patients who are at risk","
+
+The most common reason for triage is to identify patients who are at","
+
+The American College of Physicians (ACP) has published a new position",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,random_same_norm,suffix,middle,12,11,0.0,-1,last_prompt_token,explanation_006,explanation,1,0.03672172874212265,,0.003024430665197372,0.00011175029794685543,0.03683745115995407,0.0,-7.216449660040072e-16,0.0,0.0,1.0000000000000002,0.6923076923076924,2.616488218307495,0.02410559356212616,2.616488218307495,0.02410559356212616,5.266303062438965,0.0,1.0,0.0004503491800278425,1.1091296672821045,1.0,0.6132365465164185,"
+
+The triage system is a way to identify patients who are at risk","
+
+The most common reason for triage is to identify patients who are at","
+
+The triage system is a way to identify patients who are at risk",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,random_same_norm,suffix,middle,12,11,1.0,-1,last_prompt_token,explanation_006,explanation,1,0.03672172874212265,,0.48446173205454424,0.37670597434043884,0.40087035298347473,0.4999999999997517,0.4760954516105601,1.0069204977995476,1.0069204977995476,0.16724840200141816,0.08362420100070908,124.05962371826172,1.45986008644104,124.05962371826172,1.142956018447876,471.1225280761719,0.0,1.0,1.7988147735595703,75.40565490722656,1.0,0.6774740219116211,"
+
+The triage system is a way to identify patients who are at risk","
+
+The most common reason for triage is to identify patients who are at","
+
+The American College of Surgeons (ACS) has published a report on",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,random_same_norm,single_layer,late,21,1,0.0,-1,last_prompt_token,explanation_006,explanation,1,0.03672172874212265,,0.003024430665197372,0.00011175029794685543,0.03683745115995407,0.0,-7.216449660040072e-16,0.0,0.0,1.0000000000000002,0.6923076923076924,2.616488218307495,0.02410559356212616,2.616488218307495,0.02410559356212616,2.9164323806762695,0.0,1.0,0.0004503491800278425,0.6972429752349854,1.0,0.6132365465164185,"
+
+The triage system is a way to identify patients who are at risk","
+
+The most common reason for triage is to identify patients who are at","
+
+The triage system is a way to identify patients who are at risk",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,random_same_norm,single_layer,late,21,1,1.0,-1,last_prompt_token,explanation_006,explanation,1,0.03672172874212265,,0.49546606076822836,0.4962484836578369,0.5053306818008423,0.49999999999984374,0.49999999999975,1.6001730010276993,1.6001730010276993,0.0,0.0,100.17262268066406,1.4020211696624756,100.17262268066406,0.922886073589325,159.65122985839844,0.0,1.0,2.8116981983184814,0.6972429752349854,1.0,0.6150878667831421,"
+
+The triage system is a way to identify patients who are at risk","
+
+The most common reason for triage is to identify patients who are at","/****************************************************************************
+ *
+ * Copyright (c) 2014, 2015 Intel Corporation
+",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,random_same_norm,prefix,late,21,22,0.0,-1,last_prompt_token,explanation_006,explanation,1,0.03672172874212265,,0.003024430665197372,0.00011175029794685543,0.03683745115995407,0.0,-7.216449660040072e-16,0.0,0.0,1.0000000000000002,0.6923076923076924,2.616488218307495,0.02410559356212616,2.616488218307495,0.02410559356212616,5.6424760818481445,0.0,1.0,0.0004503491800278425,0.6972429752349854,1.0,0.6132365465164185,"
+
+The triage system is a way to identify patients who are at risk","
+
+The most common reason for triage is to identify patients who are at","
+
+The triage system is a way to identify patients who are at risk",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,random_same_norm,prefix,late,21,22,1.0,-1,last_prompt_token,explanation_006,explanation,1,0.03672172874212265,,0.43702244903537124,0.14358337223529816,0.1849658191204071,0.49999999999983635,0.38527154724459345,1.5280175731517802,1.5280175731517802,0.5726562866782,0.31814238148788887,91.8366928100586,1.447435736656189,91.8366928100586,0.8460875153541565,654.6746826171875,0.0,1.0,0.8729637861251831,53.33012771606445,1.0,0.7386690378189087,"
+
+The triage system is a way to identify patients who are at risk","
+
+The most common reason for triage is to identify patients who are at","
+
+The triage system is a system of triage, which is a",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,random_same_norm,suffix,late,21,2,0.0,-1,last_prompt_token,explanation_006,explanation,1,0.03672172874212265,,0.003024430665197372,0.00011175029794685543,0.03683745115995407,0.0,-7.216449660040072e-16,0.0,0.0,1.0000000000000002,0.6923076923076924,2.616488218307495,0.02410559356212616,2.616488218307495,0.02410559356212616,1.8628089427947998,0.0,1.0,0.0004503491800278425,1.1091296672821045,1.0,0.6132365465164185,"
+
+The triage system is a way to identify patients who are at risk","
+
+The most common reason for triage is to identify patients who are at","
+
+The triage system is a way to identify patients who are at risk",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,random_same_norm,suffix,late,21,2,1.0,-1,last_prompt_token,explanation_006,explanation,1,0.03672172874212265,,0.48446173205454424,0.37670597434043884,0.40087035298347473,0.0,-7.216449660040072e-16,0.0,0.0,1.0000000000000002,0.6923076923076924,124.05962371826172,1.45986008644104,124.05962371826172,1.142956018447876,99.73263549804688,0.0,1.0,1.7988147735595703,75.40565490722656,1.0,0.6132365465164185,"
+
+The triage system is a way to identify patients who are at risk","
+
+The most common reason for triage is to identify patients who are at","
+
+The triage system is a way to identify patients who are at risk",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,shuffled_prompt,single_layer,early,2,1,0.0,-1,last_prompt_token,explanation_006,explanation,1,0.03672172874212265,explanation_004,0.003024430665197372,0.00011175029794685543,0.03683745115995407,0.0,-7.216449660040072e-16,0.0,0.0,1.0000000000000002,0.6923076923076924,2.616488218307495,0.02410559356212616,2.616488218307495,0.02410559356212616,5.605867385864258,0.0,1.0,0.0004503491800278425,0.020414555445313454,1.0,0.6132365465164185,"
+
+The triage system is a way to identify patients who are at risk","
+
+The most common reason for triage is to identify patients who are at","
+
+The triage system is a way to identify patients who are at risk",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,shuffled_prompt,single_layer,early,2,1,1.0,-1,last_prompt_token,explanation_006,explanation,1,0.03672172874212265,explanation_004,0.5512529988786518,0.030952462926506996,0.025196824222803116,0.4999999999997615,0.40380987957437864,1.0483824058683169,1.0483824058683169,0.5883484054145522,0.39223227027636814,22.994165420532227,1.158417820930481,22.994165420532227,0.21184425055980682,230.33848571777344,0.0,1.0,0.13865959644317627,0.020414555445313454,1.0,0.7170118689537048,"
+
+The triage system is a way to identify patients who are at risk","
+
+The most common reason for triage is to identify patients who are at","
+
+The triage system is a system of triage that is used to",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,shuffled_prompt,prefix,early,2,3,0.0,-1,last_prompt_token,explanation_006,explanation,1,0.03672172874212265,explanation_004,0.003024430665197372,0.00011175029794685543,0.03683745115995407,0.0,-7.216449660040072e-16,0.0,0.0,1.0000000000000002,0.6923076923076924,2.616488218307495,0.02410559356212616,2.616488218307495,0.02410559356212616,5.6424760818481445,0.0,1.0,0.0004503491800278425,0.020414555445313454,1.0,0.6132365465164185,"
+
+The triage system is a way to identify patients who are at risk","
+
+The most common reason for triage is to identify patients who are at","
+
+The triage system is a way to identify patients who are at risk",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,shuffled_prompt,prefix,early,2,3,1.0,-1,last_prompt_token,explanation_006,explanation,1,0.03672172874212265,explanation_004,0.5512529988786518,0.030952462926506996,0.025196824222803116,0.49999999999983635,0.38527154724459345,1.5280175731517802,1.5280175731517802,0.5726562866782,0.31814238148788887,22.994165420532227,1.158417820930481,22.994165420532227,0.21184425055980682,255.44801330566406,0.0,1.0,0.13865959644317627,16.536903381347656,1.0,0.7386690378189087,"
+
+The triage system is a way to identify patients who are at risk","
+
+The most common reason for triage is to identify patients who are at","
+
+The triage system is a system of triage, which is a",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,shuffled_prompt,suffix,early,2,21,0.0,-1,last_prompt_token,explanation_006,explanation,1,0.03672172874212265,explanation_004,0.003024430665197372,0.00011175029794685543,0.03683745115995407,0.0,-7.216449660040072e-16,0.0,0.0,1.0000000000000002,0.6923076923076924,2.616488218307495,0.02410559356212616,2.616488218307495,0.02410559356212616,5.583147048950195,0.0,1.0,0.0004503491800278425,1.1091296672821045,1.0,0.6132365465164185,"
+
+The triage system is a way to identify patients who are at risk","
+
+The most common reason for triage is to identify patients who are at","
+
+The triage system is a way to identify patients who are at risk",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,shuffled_prompt,suffix,early,2,21,1.0,-1,last_prompt_token,explanation_006,explanation,1,0.03672172874212265,explanation_004,0.44853137764508416,0.13476774096488953,0.16569672524929047,0.4999999999997615,0.40380987957437864,1.0483824058683169,1.0483824058683169,0.5883484054145522,0.39223227027636814,76.89443969726562,1.4886832237243652,65.26229858398438,0.6012587547302246,636.1951904296875,0.15127415140908934,0.8487258485909106,1.4395430088043213,76.89444732666016,1.0,0.7170118689537048,"
+
+The triage system is a way to identify patients who are at risk","
+
+The most common reason for triage is to identify patients who are at","
+
+The triage system is a system of triage that is used to",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,shuffled_prompt,single_layer,middle,12,1,0.0,-1,last_prompt_token,explanation_006,explanation,1,0.03672172874212265,explanation_004,0.003024430665197372,0.00011175029794685543,0.03683745115995407,0.0,-7.216449660040072e-16,0.0,0.0,1.0000000000000002,0.6923076923076924,2.616488218307495,0.02410559356212616,2.616488218307495,0.02410559356212616,5.303184509277344,0.0,1.0,0.0004503491800278425,0.03130844607949257,1.0,0.6132365465164185,"
+
+The triage system is a way to identify patients who are at risk","
+
+The most common reason for triage is to identify patients who are at","
+
+The triage system is a way to identify patients who are at risk",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,shuffled_prompt,single_layer,middle,12,1,1.0,-1,last_prompt_token,explanation_006,explanation,1,0.03672172874212265,explanation_004,0.6126449126153157,0.06351399421691895,0.04015779495239258,0.0,-7.216449660040072e-16,0.0,0.0,1.0000000000000002,0.6923076923076924,35.99777603149414,1.0641043186187744,35.99777603149414,0.3316459655761719,212.90664672851562,0.0,1.0,0.310563862323761,0.03130844607949257,1.0,0.6132365465164185,"
+
+The triage system is a way to identify patients who are at risk","
+
+The most common reason for triage is to identify patients who are at","
+
+The triage system is a way to identify patients who are at risk",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,shuffled_prompt,prefix,middle,12,13,0.0,-1,last_prompt_token,explanation_006,explanation,1,0.03672172874212265,explanation_004,0.003024430665197372,0.00011175029794685543,0.03683745115995407,0.0,-7.216449660040072e-16,0.0,0.0,1.0000000000000002,0.6923076923076924,2.616488218307495,0.02410559356212616,2.616488218307495,0.02410559356212616,5.6424760818481445,0.0,1.0,0.0004503491800278425,0.03130844607949257,1.0,0.6132365465164185,"
+
+The triage system is a way to identify patients who are at risk","
+
+The most common reason for triage is to identify patients who are at","
+
+The triage system is a way to identify patients who are at risk",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,shuffled_prompt,prefix,middle,12,13,1.0,-1,last_prompt_token,explanation_006,explanation,1,0.03672172874212265,explanation_004,0.6126449126153157,0.06351399421691895,0.04015779495239258,0.49999999999983635,0.38527154724459345,1.5280175731517802,1.5280175731517802,0.5726562866782,0.31814238148788887,35.99777603149414,1.344893217086792,35.99777603149414,0.3316459655761719,419.77099609375,0.0,1.0,0.310563862323761,19.69021224975586,1.0,0.7386690378189087,"
+
+The triage system is a way to identify patients who are at risk","
+
+The most common reason for triage is to identify patients who are at","
+
+The triage system is a system of triage, which is a",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,shuffled_prompt,suffix,middle,12,11,0.0,-1,last_prompt_token,explanation_006,explanation,1,0.03672172874212265,explanation_004,0.003024430665197372,0.00011175029794685543,0.03683745115995407,0.0,-7.216449660040072e-16,0.0,0.0,1.0000000000000002,0.6923076923076924,2.616488218307495,0.02410559356212616,2.616488218307495,0.02410559356212616,5.266303062438965,0.0,1.0,0.0004503491800278425,1.1091296672821045,1.0,0.6132365465164185,"
+
+The triage system is a way to identify patients who are at risk","
+
+The most common reason for triage is to identify patients who are at","
+
+The triage system is a way to identify patients who are at risk",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,shuffled_prompt,suffix,middle,12,11,1.0,-1,last_prompt_token,explanation_006,explanation,1,0.03672172874212265,explanation_004,0.44853137764508416,0.13476774096488953,0.16569672524929047,0.0,-7.216449660040072e-16,0.0,0.0,1.0000000000000002,0.6923076923076924,76.89443969726562,1.4886832237243652,65.26229858398438,0.6012587547302246,452.5258483886719,0.15127415140908934,0.8487258485909106,1.4395430088043213,76.89444732666016,1.0,0.6132365465164185,"
+
+The triage system is a way to identify patients who are at risk","
+
+The most common reason for triage is to identify patients who are at","
+
+The triage system is a way to identify patients who are at risk",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,shuffled_prompt,single_layer,late,21,1,0.0,-1,last_prompt_token,explanation_006,explanation,1,0.03672172874212265,explanation_004,0.003024430665197372,0.00011175029794685543,0.03683745115995407,0.0,-7.216449660040072e-16,0.0,0.0,1.0000000000000002,0.6923076923076924,2.616488218307495,0.02410559356212616,2.616488218307495,0.02410559356212616,2.9164323806762695,0.0,1.0,0.0004503491800278425,0.6972429752349854,1.0,0.6132365465164185,"
+
+The triage system is a way to identify patients who are at risk","
+
+The most common reason for triage is to identify patients who are at","
+
+The triage system is a way to identify patients who are at risk",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,shuffled_prompt,single_layer,late,21,1,1.0,-1,last_prompt_token,explanation_006,explanation,1,0.03672172874212265,explanation_004,0.5256846119806668,0.08731597661972046,0.07878357172012329,0.0,-7.216449660040072e-16,0.0,0.0,1.0000000000000002,0.6923076923076924,71.957275390625,1.393099308013916,60.55877685546875,0.5579254031181335,136.7677001953125,0.15840647763938698,0.841593522360613,0.60573410987854,0.6972429752349854,1.0,0.6132365465164185,"
+
+The triage system is a way to identify patients who are at risk","
+
+The most common reason for triage is to identify patients who are at","
+
+The triage system is a way to identify patients who are at risk",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,shuffled_prompt,prefix,late,21,22,0.0,-1,last_prompt_token,explanation_006,explanation,1,0.03672172874212265,explanation_004,0.003024430665197372,0.00011175029794685543,0.03683745115995407,0.0,-7.216449660040072e-16,0.0,0.0,1.0000000000000002,0.6923076923076924,2.616488218307495,0.02410559356212616,2.616488218307495,0.02410559356212616,5.6424760818481445,0.0,1.0,0.0004503491800278425,0.6972429752349854,1.0,0.6132365465164185,"
+
+The triage system is a way to identify patients who are at risk","
+
+The most common reason for triage is to identify patients who are at","
+
+The triage system is a way to identify patients who are at risk",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,shuffled_prompt,prefix,late,21,22,1.0,-1,last_prompt_token,explanation_006,explanation,1,0.03672172874212265,explanation_004,0.5256846119806668,0.08731597661972046,0.07878357172012329,0.4999999999997615,0.40380987957437864,1.0483824058683169,1.0483824058683169,0.5883484054145522,0.39223227027636814,71.957275390625,1.393099308013916,60.55877685546875,0.5579254031181335,672.10302734375,0.15840647763938698,0.841593522360613,0.60573410987854,60.878028869628906,1.0,0.7170118689537048,"
+
+The triage system is a way to identify patients who are at risk","
+
+The most common reason for triage is to identify patients who are at","
+
+The triage system is a system of triage that is used to",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,shuffled_prompt,suffix,late,21,2,0.0,-1,last_prompt_token,explanation_006,explanation,1,0.03672172874212265,explanation_004,0.003024430665197372,0.00011175029794685543,0.03683745115995407,0.0,-7.216449660040072e-16,0.0,0.0,1.0000000000000002,0.6923076923076924,2.616488218307495,0.02410559356212616,2.616488218307495,0.02410559356212616,1.8628089427947998,0.0,1.0,0.0004503491800278425,1.1091296672821045,1.0,0.6132365465164185,"
+
+The triage system is a way to identify patients who are at risk","
+
+The most common reason for triage is to identify patients who are at","
+
+The triage system is a way to identify patients who are at risk",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,shuffled_prompt,suffix,late,21,2,1.0,-1,last_prompt_token,explanation_006,explanation,1,0.03672172874212265,explanation_004,0.44853137764508416,0.13476774096488953,0.16569672524929047,0.0,-7.216449660040072e-16,0.0,0.0,1.0000000000000002,0.6923076923076924,76.89443969726562,1.4886832237243652,65.26229858398438,0.6012587547302246,71.078369140625,0.15127415140908934,0.8487258485909106,1.4395430088043213,76.89444732666016,1.0,0.6132365465164185,"
+
+The triage system is a way to identify patients who are at risk","
+
+The most common reason for triage is to identify patients who are at","
+
+The triage system is a way to identify patients who are at risk",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,name_only,none,,-1,0,0.0,-1,last_prompt_token,explanation_004,explanation,2,0.025179464370012283,,0.45838382177153925,0.09308620542287827,0.10998860001564026,0.5030048205630758,0.40440546833261387,1.0342577822699452,1.0219010058539322,0.6515837655350015,0.48686449556014766,,,,,,,,,,1.0,0.7248703241348267,"
+
+The museum’s website says: “The museum is dedicated to the","
+
+The first thing to note is that the labels are not just labels for","
+
+Answer: The museum labels are a way to identify the museum.
+",
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,primary,single_layer,early,2,1,0.0,-1,last_prompt_token,explanation_004,explanation,2,0.025179464370012283,,0.001865164953861203,4.747588172904216e-05,0.02540650963783264,0.0,3.913304021919957e-16,0.0,1.4686315494405022,0.9999999999999998,0.43259045634870014,1.7360912561416626,0.015968259423971176,1.7360912561416626,0.015968259423971176,4.053579330444336,0.0,1.0,0.00018895621178671718,0.019280651584267616,1.0,0.66888028383255,"
+
+The museum’s website says: “The museum is dedicated to the","
+
+The first thing to note is that the labels are not just labels for","
+
+The museum’s website says: “The museum is dedicated to the",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,primary,single_layer,early,2,1,1.0,-1,last_prompt_token,explanation_004,explanation,2,0.025179464370012283,,0.3358356172382465,0.009221998043358326,0.01823785901069641,0.0,3.913304021919957e-16,0.0,1.4686315494405022,0.9999999999999998,0.43259045634870014,17.509870529174805,1.1179485321044922,17.509870529174805,0.1610526740550995,203.76419067382812,0.0,1.0,0.0376349501311779,0.019280651584267616,1.0,0.66888028383255,"
+
+The museum’s website says: “The museum is dedicated to the","
+
+The first thing to note is that the labels are not just labels for","
+
+The museum’s website says: “The museum is dedicated to the",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,primary,prefix,early,2,3,0.0,-1,last_prompt_token,explanation_004,explanation,2,0.025179464370012283,,0.001865164953861203,4.747588172904216e-05,0.02540650963783264,0.0,3.913304021919957e-16,0.0,1.4686315494405022,0.9999999999999998,0.43259045634870014,1.7360912561416626,0.015968259423971176,1.7360912561416626,0.015968259423971176,4.087335586547852,0.0,1.0,0.00018895621178671718,0.019280651584267616,1.0,0.66888028383255,"
+
+The museum’s website says: “The museum is dedicated to the","
+
+The first thing to note is that the labels are not just labels for","
+
+The museum’s website says: “The museum is dedicated to the",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,primary,prefix,early,2,3,1.0,-1,last_prompt_token,explanation_004,explanation,2,0.025179464370012283,,0.3358356172382465,0.009221998043358326,0.01823785901069641,0.0,3.913304021919957e-16,0.0,1.4686315494405022,0.9999999999999998,0.43259045634870014,17.509870529174805,1.1179485321044922,17.509870529174805,0.1610526740550995,228.7415313720703,0.0,1.0,0.0376349501311779,16.470172882080078,1.0,0.66888028383255,"
+
+The museum’s website says: “The museum is dedicated to the","
+
+The first thing to note is that the labels are not just labels for","
+
+The museum’s website says: “The museum is dedicated to the",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,primary,suffix,early,2,21,0.0,-1,last_prompt_token,explanation_004,explanation,2,0.025179464370012283,,0.001865164953861203,4.747588172904216e-05,0.02540650963783264,0.0,3.913304021919957e-16,0.0,1.4686315494405022,0.9999999999999998,0.43259045634870014,1.7360912561416626,0.015968259423971176,1.7360912561416626,0.015968259423971176,4.033620834350586,0.0,1.0,0.00018895621178671718,0.7953259944915771,1.0,0.66888028383255,"
+
+The museum’s website says: “The museum is dedicated to the","
+
+The first thing to note is that the labels are not just labels for","
+
+The museum’s website says: “The museum is dedicated to the",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,primary,suffix,early,2,21,1.0,-1,last_prompt_token,explanation_004,explanation,2,0.025179464370012283,,0.4348174139572794,0.13201043009757996,0.17158925533294678,0.8242794624075624,0.3308816728423058,1.4470936409977904,0.308492549115794,0.6529286250990104,0.29814239699997197,76.341796875,1.4925869703292847,55.544857025146484,0.5108917355537415,611.6651611328125,0.2724187889355796,0.7275812110644204,1.2173651456832886,76.34178924560547,1.0,0.7879312038421631,"
+
+The museum’s website says: “The museum is dedicated to the","
+
+The first thing to note is that the labels are not just labels for","
+
+The museum’s website is a good place to start.
+
+",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,primary,single_layer,middle,12,1,0.0,-1,last_prompt_token,explanation_004,explanation,2,0.025179464370012283,,0.001865164953861203,4.747588172904216e-05,0.02540650963783264,0.0,3.913304021919957e-16,0.0,1.4686315494405022,0.9999999999999998,0.43259045634870014,1.7360912561416626,0.015968259423971176,1.7360912561416626,0.015968259423971176,3.829490900039673,0.0,1.0,0.00018895621178671718,0.022330861538648605,1.0,0.66888028383255,"
+
+The museum’s website says: “The museum is dedicated to the","
+
+The first thing to note is that the labels are not just labels for","
+
+The museum’s website says: “The museum is dedicated to the",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,primary,single_layer,middle,12,1,1.0,-1,last_prompt_token,explanation_004,explanation,2,0.025179464370012283,,0.6147007226448956,0.025172026827931404,0.01577802561223507,0.0,3.913304021919957e-16,0.0,1.4686315494405022,0.9999999999999998,0.43259045634870014,27.432254791259766,0.9536482691764832,27.432254791259766,0.25231701135635376,180.12158203125,0.0,1.0,0.10702833533287048,0.022330861538648605,1.0,0.66888028383255,"
+
+The museum’s website says: “The museum is dedicated to the","
+
+The first thing to note is that the labels are not just labels for","
+
+The museum’s website says: “The museum is dedicated to the",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,primary,prefix,middle,12,13,0.0,-1,last_prompt_token,explanation_004,explanation,2,0.025179464370012283,,0.001865164953861203,4.747588172904216e-05,0.02540650963783264,0.0,3.913304021919957e-16,0.0,1.4686315494405022,0.9999999999999998,0.43259045634870014,1.7360912561416626,0.015968259423971176,1.7360912561416626,0.015968259423971176,4.087335586547852,0.0,1.0,0.00018895621178671718,0.022330861538648605,1.0,0.66888028383255,"
+
+The museum’s website says: “The museum is dedicated to the","
+
+The first thing to note is that the labels are not just labels for","
+
+The museum’s website says: “The museum is dedicated to the",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,primary,prefix,middle,12,13,1.0,-1,last_prompt_token,explanation_004,explanation,2,0.025179464370012283,,0.6147007226448956,0.025172026827931404,0.01577802561223507,0.7563887561578229,0.34528051231122897,1.4911313178107375,0.480250865848867,0.6225430174794672,0.2842676218074806,27.432254791259766,1.2702113389968872,27.432254791259766,0.25231701135635376,374.2095642089844,0.0,1.0,0.10702833533287048,18.11952018737793,1.0,0.7606506943702698,"
+
+The museum’s website says: “The museum is dedicated to the","
+
+The first thing to note is that the labels are not just labels for","
+
+The museum’s website is a good place to start. It’",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,primary,suffix,middle,12,11,0.0,-1,last_prompt_token,explanation_004,explanation,2,0.025179464370012283,,0.001865164953861203,4.747588172904216e-05,0.02540650963783264,0.0,3.913304021919957e-16,0.0,1.4686315494405022,0.9999999999999998,0.43259045634870014,1.7360912561416626,0.015968259423971176,1.7360912561416626,0.015968259423971176,3.8057610988616943,0.0,1.0,0.00018895621178671718,0.7953259944915771,1.0,0.66888028383255,"
+
+The museum’s website says: “The museum is dedicated to the","
+
+The first thing to note is that the labels are not just labels for","
+
+The museum’s website says: “The museum is dedicated to the",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,primary,suffix,middle,12,11,1.0,-1,last_prompt_token,explanation_004,explanation,2,0.025179464370012283,,0.4348174139572794,0.13201043009757996,0.17158925533294678,0.5158775976253551,0.43514298225442594,1.0685127583815393,1.002739731161547,0.6515837655350015,0.5477225575051662,76.341796875,1.4925869703292847,55.544857025146484,0.5108917355537415,442.3569641113281,0.2724187889355796,0.7275812110644204,1.2173651456832886,76.34178924560547,1.0,0.7718434929847717,"
+
+The museum’s website says: “The museum is dedicated to the","
+
+The first thing to note is that the labels are not just labels for","
+
+The museum’s website explains that the wall labels are a way to",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,primary,single_layer,late,21,1,0.0,-1,last_prompt_token,explanation_004,explanation,2,0.025179464370012283,,0.001865164953861203,4.747588172904216e-05,0.02540650963783264,0.0,3.913304021919957e-16,0.0,1.4686315494405022,0.9999999999999998,0.43259045634870014,1.7360912561416626,0.015968259423971176,1.7360912561416626,0.015968259423971176,2.0406596660614014,0.0,1.0,0.00018895621178671718,0.5758330225944519,1.0,0.66888028383255,"
+
+The museum’s website says: “The museum is dedicated to the","
+
+The first thing to note is that the labels are not just labels for","
+
+The museum’s website says: “The museum is dedicated to the",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,primary,single_layer,late,21,1,1.0,-1,last_prompt_token,explanation_004,explanation,2,0.025179464370012283,,0.4754452564511806,0.058008261024951935,0.06400002539157867,0.0,3.913304021919957e-16,0.0,1.4686315494405022,0.9999999999999998,0.43259045634870014,70.79885864257812,1.384214997291565,50.387542724609375,0.4634556472301483,131.29151916503906,0.288300070217424,0.711699929782576,0.32826173305511475,0.5758330225944519,1.0,0.66888028383255,"
+
+The museum’s website says: “The museum is dedicated to the","
+
+The first thing to note is that the labels are not just labels for","
+
+The museum’s website says: “The museum is dedicated to the",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,primary,prefix,late,21,22,0.0,-1,last_prompt_token,explanation_004,explanation,2,0.025179464370012283,,0.001865164953861203,4.747588172904216e-05,0.02540650963783264,0.0,3.913304021919957e-16,0.0,1.4686315494405022,0.9999999999999998,0.43259045634870014,1.7360912561416626,0.015968259423971176,1.7360912561416626,0.015968259423971176,4.087335586547852,0.0,1.0,0.00018895621178671718,0.5758330225944519,1.0,0.66888028383255,"
+
+The museum’s website says: “The museum is dedicated to the","
+
+The first thing to note is that the labels are not just labels for","
+
+The museum’s website says: “The museum is dedicated to the",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,primary,prefix,late,21,22,1.0,-1,last_prompt_token,explanation_004,explanation,2,0.025179464370012283,,0.4754452564511806,0.058008261024951935,0.06400002539157867,0.8242794624075624,0.3308816728423058,1.4470936409977904,0.308492549115794,0.6529286250990104,0.29814239699997197,70.79885864257812,1.384214997291565,50.387542724609375,0.4634556472301483,646.3385620117188,0.288300070217424,0.711699929782576,0.32826173305511475,60.96296691894531,1.0,0.7879312038421631,"
+
+The museum’s website says: “The museum is dedicated to the","
+
+The first thing to note is that the labels are not just labels for","
+
+The museum’s website is a good place to start.
+
+",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,primary,suffix,late,21,2,0.0,-1,last_prompt_token,explanation_004,explanation,2,0.025179464370012283,,0.001865164953861203,4.747588172904216e-05,0.02540650963783264,0.0,3.913304021919957e-16,0.0,1.4686315494405022,0.9999999999999998,0.43259045634870014,1.7360912561416626,0.015968259423971176,1.7360912561416626,0.015968259423971176,1.2657086849212646,0.0,1.0,0.00018895621178671718,0.7953259944915771,1.0,0.66888028383255,"
+
+The museum’s website says: “The museum is dedicated to the","
+
+The first thing to note is that the labels are not just labels for","
+
+The museum’s website says: “The museum is dedicated to the",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,primary,suffix,late,21,2,1.0,-1,last_prompt_token,explanation_004,explanation,2,0.025179464370012283,,0.4348174139572794,0.13201043009757996,0.17158925533294678,0.0,3.913304021919957e-16,0.0,1.4686315494405022,0.9999999999999998,0.43259045634870014,76.341796875,1.4925869703292847,55.544857025146484,0.5108917355537415,65.94332885742188,0.2724187889355796,0.7275812110644204,1.2173651456832886,76.34178924560547,1.0,0.66888028383255,"
+
+The museum’s website says: “The museum is dedicated to the","
+
+The first thing to note is that the labels are not just labels for","
+
+The museum’s website says: “The museum is dedicated to the",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step128000,adjacent,single_layer,early,2,1,0.0,-1,last_prompt_token,explanation_004,explanation,2,0.025179464370012283,,0.006911480512870366,4.747588172904216e-05,0.006821657530963421,0.0,1.5895412598216184e-15,0.0,0.08704664640783959,0.9999999999999998,0.8603090020146066,1.7360912561416626,0.015968259423971176,1.7360912561416626,0.015968259423971176,4.053579330444336,0.0,1.0,0.00018895621178671718,0.019280651584267616,1.0,0.672331690788269,"
+
+The museum’s website says: “The museum is dedicated to the","
+
+The museum’s website says: “The museum’s mission is","
+
+The museum’s website says: “The museum is dedicated to the",step128000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step128000,adjacent,single_layer,early,2,1,1.0,-1,last_prompt_token,explanation_004,explanation,2,0.025179464370012283,,0.03743465919411945,0.00024300592485815287,0.006248462945222855,0.0,1.5895412598216184e-15,0.0,0.08704664640783959,0.9999999999999998,0.8603090020146066,2.6644532680511475,0.08695419132709503,2.6644532680511475,0.02450716681778431,21.594772338867188,0.0,1.0,0.0009703671676106751,0.019280651584267616,1.0,0.672331690788269,"
+
+The museum’s website says: “The museum is dedicated to the","
+
+The museum’s website says: “The museum’s mission is","
+
+The museum’s website says: “The museum is dedicated to the",step128000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step128000,adjacent,prefix,early,2,3,0.0,-1,last_prompt_token,explanation_004,explanation,2,0.025179464370012283,,0.006911480512870366,4.747588172904216e-05,0.006821657530963421,0.0,1.5895412598216184e-15,0.0,0.08704664640783959,0.9999999999999998,0.8603090020146066,1.7360912561416626,0.015968259423971176,1.7360912561416626,0.015968259423971176,4.087335586547852,0.0,1.0,0.00018895621178671718,0.019280651584267616,1.0,0.672331690788269,"
+
+The museum’s website says: “The museum is dedicated to the","
+
+The museum’s website says: “The museum’s mission is","
+
+The museum’s website says: “The museum is dedicated to the",step128000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step128000,adjacent,prefix,early,2,3,1.0,-1,last_prompt_token,explanation_004,explanation,2,0.025179464370012283,,0.03743465919411945,0.00024300592485815287,0.006248462945222855,0.0,1.5895412598216184e-15,0.0,0.08704664640783959,0.9999999999999998,0.8603090020146066,2.6644532680511475,0.08695419132709503,2.6644532680511475,0.02450716681778431,23.693435668945312,0.0,1.0,0.0009703671676106751,1.2768423557281494,1.0,0.672331690788269,"
+
+The museum’s website says: “The museum is dedicated to the","
+
+The museum’s website says: “The museum’s mission is","
+
+The museum’s website says: “The museum is dedicated to the",step128000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step128000,adjacent,suffix,early,2,21,0.0,-1,last_prompt_token,explanation_004,explanation,2,0.025179464370012283,,0.006911480512870366,4.747588172904216e-05,0.006821657530963421,0.0,1.5895412598216184e-15,0.0,0.08704664640783959,0.9999999999999998,0.8603090020146066,1.7360912561416626,0.015968259423971176,1.7360912561416626,0.015968259423971176,4.033620834350586,0.0,1.0,0.00018895621178671718,0.7953259944915771,1.0,0.672331690788269,"
+
+The museum’s website says: “The museum is dedicated to the","
+
+The museum’s website says: “The museum’s mission is","
+
+The museum’s website says: “The museum is dedicated to the",step128000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step128000,adjacent,suffix,early,2,21,1.0,-1,last_prompt_token,explanation_004,explanation,2,0.025179464370012283,,0.6706229677499793,0.011415516957640648,0.005606740713119507,0.0,1.5895412598216184e-15,0.0,0.08704664640783959,0.9999999999999998,0.8603090020146066,22.197111129760742,0.3974088132381439,22.197111129760742,0.20416508615016937,134.36402893066406,0.0,1.0,0.04355951398611069,13.80172061920166,1.0,0.672331690788269,"
+
+The museum’s website says: “The museum is dedicated to the","
+
+The museum’s website says: “The museum’s mission is","
+
+The museum’s website says: “The museum is dedicated to the",step128000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step128000,adjacent,single_layer,middle,12,1,0.0,-1,last_prompt_token,explanation_004,explanation,2,0.025179464370012283,,0.006911480512870366,4.747588172904216e-05,0.006821657530963421,0.0,1.5895412598216184e-15,0.0,0.08704664640783959,0.9999999999999998,0.8603090020146066,1.7360912561416626,0.015968259423971176,1.7360912561416626,0.015968259423971176,3.829490900039673,0.0,1.0,0.00018895621178671718,0.022330861538648605,1.0,0.672331690788269,"
+
+The museum’s website says: “The museum is dedicated to the","
+
+The museum’s website says: “The museum’s mission is","
+
+The museum’s website says: “The museum is dedicated to the",step128000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step128000,adjacent,single_layer,middle,12,1,1.0,-1,last_prompt_token,explanation_004,explanation,2,0.025179464370012283,,0.2437182650691119,0.0015881434082984924,0.00492816511541605,0.0,1.5895412598216184e-15,0.0,0.08704664640783959,0.9999999999999998,0.8603090020146066,6.929278373718262,0.15211927890777588,6.929278373718262,0.063734270632267,37.04496383666992,0.0,1.0,0.00634285993874073,0.022330861538648605,1.0,0.672331690788269,"
+
+The museum’s website says: “The museum is dedicated to the","
+
+The museum’s website says: “The museum’s mission is","
+
+The museum’s website says: “The museum is dedicated to the",step128000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step128000,adjacent,prefix,middle,12,13,0.0,-1,last_prompt_token,explanation_004,explanation,2,0.025179464370012283,,0.006911480512870366,4.747588172904216e-05,0.006821657530963421,0.0,1.5895412598216184e-15,0.0,0.08704664640783959,0.9999999999999998,0.8603090020146066,1.7360912561416626,0.015968259423971176,1.7360912561416626,0.015968259423971176,4.087335586547852,0.0,1.0,0.00018895621178671718,0.022330861538648605,1.0,0.672331690788269,"
+
+The museum’s website says: “The museum is dedicated to the","
+
+The museum’s website says: “The museum’s mission is","
+
+The museum’s website says: “The museum is dedicated to the",step128000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step128000,adjacent,prefix,middle,12,13,1.0,-1,last_prompt_token,explanation_004,explanation,2,0.025179464370012283,,0.2437182650691119,0.0015881434082984924,0.00492816511541605,0.0,0.2736630289926672,0.0,0.08704664640783959,0.9473684210526314,0.8603090020146066,6.929278373718262,0.2350316196680069,6.929278373718262,0.063734270632267,62.577049255371094,0.0,1.0,0.00634285993874073,3.8189823627471924,1.0,0.6334102749824524,"
+
+The museum’s website says: “The museum is dedicated to the","
+
+The museum’s website says: “The museum’s mission is","
+
+The museum’s website says: “The museum is committed to the",step128000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step128000,adjacent,suffix,middle,12,11,0.0,-1,last_prompt_token,explanation_004,explanation,2,0.025179464370012283,,0.006911480512870366,4.747588172904216e-05,0.006821657530963421,0.0,1.5895412598216184e-15,0.0,0.08704664640783959,0.9999999999999998,0.8603090020146066,1.7360912561416626,0.015968259423971176,1.7360912561416626,0.015968259423971176,3.8057610988616943,0.0,1.0,0.00018895621178671718,0.7953259944915771,1.0,0.672331690788269,"
+
+The museum’s website says: “The museum is dedicated to the","
+
+The museum’s website says: “The museum’s mission is","
+
+The museum’s website says: “The museum is dedicated to the",step128000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step128000,adjacent,suffix,middle,12,11,1.0,-1,last_prompt_token,explanation_004,explanation,2,0.025179464370012283,,0.6706229677499793,0.011415516957640648,0.005606740713119507,0.0,1.5895412598216184e-15,0.0,0.08704664640783959,0.9999999999999998,0.8603090020146066,22.197111129760742,0.3974088132381439,22.197111129760742,0.20416508615016937,109.75125122070312,0.0,1.0,0.04355951398611069,13.80172061920166,1.0,0.672331690788269,"
+
+The museum’s website says: “The museum is dedicated to the","
+
+The museum’s website says: “The museum’s mission is","
+
+The museum’s website says: “The museum is dedicated to the",step128000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step128000,adjacent,single_layer,late,21,1,0.0,-1,last_prompt_token,explanation_004,explanation,2,0.025179464370012283,,0.006911480512870366,4.747588172904216e-05,0.006821657530963421,0.0,1.5895412598216184e-15,0.0,0.08704664640783959,0.9999999999999998,0.8603090020146066,1.7360912561416626,0.015968259423971176,1.7360912561416626,0.015968259423971176,2.0406596660614014,0.0,1.0,0.00018895621178671718,0.5758330225944519,1.0,0.672331690788269,"
+
+The museum’s website says: “The museum is dedicated to the","
+
+The museum’s website says: “The museum’s mission is","
+
+The museum’s website says: “The museum is dedicated to the",step128000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step128000,adjacent,single_layer,late,21,1,1.0,-1,last_prompt_token,explanation_004,explanation,2,0.025179464370012283,,0.6072263689868848,0.017919328063726425,0.011590800248086452,0.0,1.5895412598216184e-15,0.0,0.08704664640783959,0.9999999999999998,0.8603090020146066,27.164121627807617,0.31428611278533936,27.164121627807617,0.24985076487064362,38.63847351074219,0.0,1.0,0.06998962163925171,0.5758330225944519,1.0,0.672331690788269,"
+
+The museum’s website says: “The museum is dedicated to the","
+
+The museum’s website says: “The museum’s mission is","
+
+The museum’s website says: “The museum is dedicated to the",step128000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step128000,adjacent,prefix,late,21,22,0.0,-1,last_prompt_token,explanation_004,explanation,2,0.025179464370012283,,0.006911480512870366,4.747588172904216e-05,0.006821657530963421,0.0,1.5895412598216184e-15,0.0,0.08704664640783959,0.9999999999999998,0.8603090020146066,1.7360912561416626,0.015968259423971176,1.7360912561416626,0.015968259423971176,4.087335586547852,0.0,1.0,0.00018895621178671718,0.5758330225944519,1.0,0.672331690788269,"
+
+The museum’s website says: “The museum is dedicated to the","
+
+The museum’s website says: “The museum’s mission is","
+
+The museum’s website says: “The museum is dedicated to the",step128000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step128000,adjacent,prefix,late,21,22,1.0,-1,last_prompt_token,explanation_004,explanation,2,0.025179464370012283,,0.6072263689868848,0.017919328063726425,0.011590800248086452,0.0,1.5895412598216184e-15,0.0,0.08704664640783959,0.9999999999999998,0.8603090020146066,27.164121627807617,0.3974088132381439,27.164121627807617,0.24985076487064362,142.86793518066406,0.0,1.0,0.06998962163925171,21.9271240234375,1.0,0.672331690788269,"
+
+The museum’s website says: “The museum is dedicated to the","
+
+The museum’s website says: “The museum’s mission is","
+
+The museum’s website says: “The museum is dedicated to the",step128000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step128000,adjacent,suffix,late,21,2,0.0,-1,last_prompt_token,explanation_004,explanation,2,0.025179464370012283,,0.006911480512870366,4.747588172904216e-05,0.006821657530963421,0.0,1.5895412598216184e-15,0.0,0.08704664640783959,0.9999999999999998,0.8603090020146066,1.7360912561416626,0.015968259423971176,1.7360912561416626,0.015968259423971176,1.2657086849212646,0.0,1.0,0.00018895621178671718,0.7953259944915771,1.0,0.672331690788269,"
+
+The museum’s website says: “The museum is dedicated to the","
+
+The museum’s website says: “The museum’s mission is","
+
+The museum’s website says: “The museum is dedicated to the",step128000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step128000,adjacent,suffix,late,21,2,1.0,-1,last_prompt_token,explanation_004,explanation,2,0.025179464370012283,,0.6706229677499793,0.011415516957640648,0.005606740713119507,0.0,1.5895412598216184e-15,0.0,0.08704664640783959,0.9999999999999998,0.8603090020146066,22.197111129760742,0.26984262466430664,22.197111129760742,0.20416508615016937,17.99941635131836,0.0,1.0,0.04355951398611069,13.80172061920166,1.0,0.672331690788269,"
+
+The museum’s website says: “The museum is dedicated to the","
+
+The museum’s website says: “The museum’s mission is","
+
+The museum’s website says: “The museum is dedicated to the",step128000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step4000,very_early,single_layer,early,2,1,0.0,-1,last_prompt_token,explanation_004,explanation,2,0.025179464370012283,,0.0004280076080578067,4.747588172904216e-05,0.11087550967931747,0.0,8.902021542483256e-16,0.0,0.3403242499288113,0.9999999999999998,0.7505683356701913,1.7360912561416626,0.015968259423971176,1.7360912561416626,0.015968259423971176,4.053579330444336,0.0,1.0,0.00018895621178671718,0.019280651584267616,1.0,0.6370307803153992,"
+
+The museum’s website says: “The museum is dedicated to the","
+
+The museum is located in the heart of the city, and the museum","
+
+The museum’s website says: “The museum is dedicated to the",step4000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step4000,very_early,single_layer,early,2,1,1.0,-1,last_prompt_token,explanation_004,explanation,2,0.025179464370012283,,0.09776039548203876,0.010431027039885521,0.0962688997387886,0.1840771180342664,0.27165176133187646,0.08704664640783959,0.38583475969637576,0.8603090020146066,0.6254627916220946,19.84095001220703,0.7919577360153198,19.23691749572754,0.1769377440214157,198.43994140625,0.030443729564756963,0.9695562704352431,0.040465258061885834,0.019280651584267616,1.0,0.672331690788269,"
+
+The museum’s website says: “The museum is dedicated to the","
+
+The museum is located in the heart of the city, and the museum","
+
+The museum’s website says: “The museum’s mission is",step4000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step4000,very_early,prefix,early,2,3,0.0,-1,last_prompt_token,explanation_004,explanation,2,0.025179464370012283,,0.0004280076080578067,4.747588172904216e-05,0.11087550967931747,0.0,8.902021542483256e-16,0.0,0.3403242499288113,0.9999999999999998,0.7505683356701913,1.7360912561416626,0.015968259423971176,1.7360912561416626,0.015968259423971176,4.087335586547852,0.0,1.0,0.00018895621178671718,0.019280651584267616,1.0,0.6370307803153992,"
+
+The museum’s website says: “The museum is dedicated to the","
+
+The museum is located in the heart of the city, and the museum","
+
+The museum’s website says: “The museum is dedicated to the",step4000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step4000,very_early,prefix,early,2,3,1.0,-1,last_prompt_token,explanation_004,explanation,2,0.025179464370012283,,0.09776039548203876,0.010431027039885521,0.0962688997387886,0.1840771180342664,0.27165176133187646,0.08704664640783959,0.38583475969637576,0.8603090020146066,0.6254627916220946,20.063148498535156,0.8314609527587891,19.23691749572754,0.1769377440214157,232.3419189453125,0.04118152257448235,0.9588184774255176,0.040465258061885834,20.063146591186523,1.0,0.672331690788269,"
+
+The museum’s website says: “The museum is dedicated to the","
+
+The museum is located in the heart of the city, and the museum","
+
+The museum’s website says: “The museum’s mission is",step4000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step4000,very_early,suffix,early,2,21,0.0,-1,last_prompt_token,explanation_004,explanation,2,0.025179464370012283,,0.0004280076080578067,4.747588172904216e-05,0.11087550967931747,0.0,8.902021542483256e-16,0.0,0.3403242499288113,0.9999999999999998,0.7505683356701913,1.7360912561416626,0.015968259423971176,1.7360912561416626,0.015968259423971176,4.033620834350586,0.0,1.0,0.00018895621178671718,0.7953259944915771,1.0,0.6370307803153992,"
+
+The museum’s website says: “The museum is dedicated to the","
+
+The museum is located in the heart of the city, and the museum","
+
+The museum’s website says: “The museum is dedicated to the",step4000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step4000,very_early,suffix,early,2,21,1.0,-1,last_prompt_token,explanation_004,explanation,2,0.025179464370012283,,0.5182191775286759,0.4438575208187103,0.41264787316322327,0.48356712012365793,0.46803022062165145,1.376413837153712,1.4699621463938284,0.4588314677411235,0.3849001794597505,398.9338073730469,24.281251907348633,92.68537139892578,0.8525035381317139,3631.931640625,0.7676672929545557,0.2323327070454443,2.8583598136901855,398.933837890625,1.0,0.8499711751937866,"
+
+The museum’s website says: “The museum is dedicated to the","
+
+The museum is located in the heart of the city, and the museum","
+Solution to the as2.2.2.2.2.2",step4000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step4000,very_early,single_layer,middle,12,1,0.0,-1,last_prompt_token,explanation_004,explanation,2,0.025179464370012283,,0.0004280076080578067,4.747588172904216e-05,0.11087550967931747,0.0,8.902021542483256e-16,0.0,0.3403242499288113,0.9999999999999998,0.7505683356701913,1.7360912561416626,0.015968259423971176,1.7360912561416626,0.015968259423971176,3.829490900039673,0.0,1.0,0.00018895621178671718,0.022330861538648605,1.0,0.6370307803153992,"
+
+The museum’s website says: “The museum is dedicated to the","
+
+The museum is located in the heart of the city, and the museum","
+
+The museum’s website says: “The museum is dedicated to the",step4000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step4000,very_early,single_layer,middle,12,1,1.0,-1,last_prompt_token,explanation_004,explanation,2,0.025179464370012283,,0.5181571674779358,0.4917358160018921,0.4572731852531433,0.5003642662485291,0.5044161007511972,1.162723730924556,1.1610308002324208,0.26490647141300877,0.2777777777777778,235.17066955566406,11.652740478515625,119.80960083007812,1.101987361907959,2086.501953125,0.4905419070479807,0.5094580929520194,3.2109103202819824,0.022330861538648605,1.0,0.7956580519676208,"
+
+The museum’s website says: “The museum is dedicated to the","
+
+The museum is located in the heart of the city, and the museum","h of the order to be as it were.
+import itd.net",step4000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step4000,very_early,prefix,middle,12,13,0.0,-1,last_prompt_token,explanation_004,explanation,2,0.025179464370012283,,0.0004280076080578067,4.747588172904216e-05,0.11087550967931747,0.0,8.902021542483256e-16,0.0,0.3403242499288113,0.9999999999999998,0.7505683356701913,1.7360912561416626,0.015968259423971176,1.7360912561416626,0.015968259423971176,4.087335586547852,0.0,1.0,0.00018895621178671718,0.022330861538648605,1.0,0.6370307803153992,"
+
+The museum’s website says: “The museum is dedicated to the","
+
+The museum is located in the heart of the city, and the museum","
+
+The museum’s website says: “The museum is dedicated to the",step4000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step4000,very_early,prefix,middle,12,13,1.0,-1,last_prompt_token,explanation_004,explanation,2,0.025179464370012283,,0.5181571674779358,0.4917358160018921,0.4572731852531433,0.4898894575931382,0.49999999999975,1.5963580270267996,1.6622506290347747,0.0,0.0,334.99566650390625,24.281251907348633,119.80960083007812,1.101987361907959,3521.83251953125,0.6423547740768131,0.3576452259231869,3.2109103202819824,212.9862060546875,1.0,0.7217432260513306,"
+
+The museum’s website says: “The museum is dedicated to the","
+
+The museum is located in the heart of the city, and the museum",h.2.2.2.2.2.2.2.,step4000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step4000,very_early,suffix,middle,12,11,0.0,-1,last_prompt_token,explanation_004,explanation,2,0.025179464370012283,,0.0004280076080578067,4.747588172904216e-05,0.11087550967931747,0.0,8.902021542483256e-16,0.0,0.3403242499288113,0.9999999999999998,0.7505683356701913,1.7360912561416626,0.015968259423971176,1.7360912561416626,0.015968259423971176,3.8057610988616943,0.0,1.0,0.00018895621178671718,0.7953259944915771,1.0,0.6370307803153992,"
+
+The museum’s website says: “The museum is dedicated to the","
+
+The museum is located in the heart of the city, and the museum","
+
+The museum’s website says: “The museum is dedicated to the",step4000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step4000,very_early,suffix,middle,12,11,1.0,-1,last_prompt_token,explanation_004,explanation,2,0.025179464370012283,,0.5182191775286759,0.4438575208187103,0.41264787316322327,0.5163638870249295,0.4932553417108922,1.0693940828558288,1.0016145793043179,0.5619514869490164,0.5499719409228703,398.9338073730469,10.850281715393066,92.68537139892578,0.8525035381317139,2044.688232421875,0.7676672929545557,0.2323327070454443,2.8583598136901855,398.933837890625,1.0,0.672331690788269,"
+
+The museum’s website says: “The museum is dedicated to the","
+
+The museum is located in the heart of the city, and the museum","
+“The whole of the package is to give the user a chance to give",step4000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step4000,very_early,single_layer,late,21,1,0.0,-1,last_prompt_token,explanation_004,explanation,2,0.025179464370012283,,0.0004280076080578067,4.747588172904216e-05,0.11087550967931747,0.0,8.902021542483256e-16,0.0,0.3403242499288113,0.9999999999999998,0.7505683356701913,1.7360912561416626,0.015968259423971176,1.7360912561416626,0.015968259423971176,2.0406596660614014,0.0,1.0,0.00018895621178671718,0.5758330225944519,1.0,0.6370307803153992,"
+
+The museum’s website says: “The museum is dedicated to the","
+
+The museum is located in the heart of the city, and the museum","
+
+The museum’s website says: “The museum is dedicated to the",step4000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step4000,very_early,single_layer,late,21,1,1.0,-1,last_prompt_token,explanation_004,explanation,2,0.025179464370012283,,0.5156613830436801,0.4815136790275574,0.4522651433944702,0.49927905314812293,0.5044161007511972,1.1760392608102972,1.1794356051879324,0.26490647141300877,0.2777777777777778,231.2646484375,4.521541595458984,114.64556121826172,1.0544894933700562,369.83746337890625,0.5042668129658172,0.4957331870341828,2.9927687644958496,0.5758330225944519,1.0,0.7718434929847717,"
+
+The museum’s website says: “The museum is dedicated to the","
+
+The museum is located in the heart of the city, and the museum","p.s. I’m not a fan of the wall labels, but",step4000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step4000,very_early,prefix,late,21,22,0.0,-1,last_prompt_token,explanation_004,explanation,2,0.025179464370012283,,0.0004280076080578067,4.747588172904216e-05,0.11087550967931747,0.0,8.902021542483256e-16,0.0,0.3403242499288113,0.9999999999999998,0.7505683356701913,1.7360912561416626,0.015968259423971176,1.7360912561416626,0.015968259423971176,4.087335586547852,0.0,1.0,0.00018895621178671718,0.5758330225944519,1.0,0.6370307803153992,"
+
+The museum’s website says: “The museum is dedicated to the","
+
+The museum is located in the heart of the city, and the museum","
+
+The museum’s website says: “The museum is dedicated to the",step4000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step4000,very_early,prefix,late,21,22,1.0,-1,last_prompt_token,explanation_004,explanation,2,0.025179464370012283,,0.5156613830436801,0.4815136790275574,0.4522651433944702,0.4822629893374915,0.49999999999975,1.3779792921468996,1.4793398938835598,0.0,0.0,334.99566650390625,24.281251907348633,114.64556121826172,1.0544894933700562,3529.823486328125,0.6577700171028186,0.34222998289718143,2.9927687644958496,170.3148956298828,1.0,0.7853085398674011,"
+
+The museum’s website says: “The museum is dedicated to the","
+
+The museum is located in the heart of the city, and the museum","p.d.m.
+urg.b.d.d.d",step4000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step4000,very_early,suffix,late,21,2,0.0,-1,last_prompt_token,explanation_004,explanation,2,0.025179464370012283,,0.0004280076080578067,4.747588172904216e-05,0.11087550967931747,0.0,8.902021542483256e-16,0.0,0.3403242499288113,0.9999999999999998,0.7505683356701913,1.7360912561416626,0.015968259423971176,1.7360912561416626,0.015968259423971176,1.2657086849212646,0.0,1.0,0.00018895621178671718,0.7953259944915771,1.0,0.6370307803153992,"
+
+The museum’s website says: “The museum is dedicated to the","
+
+The museum is located in the heart of the city, and the museum","
+
+The museum’s website says: “The museum is dedicated to the",step4000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step4000,very_early,suffix,late,21,2,1.0,-1,last_prompt_token,explanation_004,explanation,2,0.025179464370012283,,0.5182191775286759,0.4438575208187103,0.41264787316322327,0.1840771180342664,0.27165176133187646,0.08704664640783959,0.38583475969637576,0.8603090020146066,0.6254627916220946,398.9338073730469,7.799704074859619,92.68537139892578,0.8525035381317139,245.80958557128906,0.7676672929545557,0.2323327070454443,2.8583598136901855,398.933837890625,1.0,0.672331690788269,"
+
+The museum’s website says: “The museum is dedicated to the","
+
+The museum is located in the heart of the city, and the museum","
+
+The museum’s website says: “The museum’s mission is",step4000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,random_same_norm,single_layer,early,2,1,0.0,-1,last_prompt_token,explanation_004,explanation,2,0.025179464370012283,,0.001865164953861203,4.747588172904216e-05,0.02540650963783264,0.0,3.913304021919957e-16,0.0,1.4686315494405022,0.9999999999999998,0.43259045634870014,1.7360912561416626,0.015968259423971176,1.7360912561416626,0.015968259423971176,4.053579330444336,0.0,1.0,0.00018895621178671718,0.019280651584267616,1.0,0.66888028383255,"
+
+The museum’s website says: “The museum is dedicated to the","
+
+The first thing to note is that the labels are not just labels for","
+
+The museum’s website says: “The museum is dedicated to the",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,random_same_norm,single_layer,early,2,1,1.0,-1,last_prompt_token,explanation_004,explanation,2,0.025179464370012283,,0.26015035093975125,0.0170244500041008,0.04841636121273041,0.5044723299061725,0.5540160279930267,1.1048320627990302,1.0852425900645168,0.26490647141300877,0.4082482904638631,17.199947357177734,0.9038022756576538,17.199947357177734,0.15820205211639404,201.66903686523438,0.0,1.0,0.06534253805875778,0.019280651584267616,1.0,0.7310585975646973,"
+
+The museum’s website says: “The museum is dedicated to the","
+
+The first thing to note is that the labels are not just labels for","
+
+The museum's wall labels are a way to communicate with visitors. They",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,random_same_norm,prefix,early,2,3,0.0,-1,last_prompt_token,explanation_004,explanation,2,0.025179464370012283,,0.001865164953861203,4.747588172904216e-05,0.02540650963783264,0.0,3.913304021919957e-16,0.0,1.4686315494405022,0.9999999999999998,0.43259045634870014,1.7360912561416626,0.015968259423971176,1.7360912561416626,0.015968259423971176,4.087335586547852,0.0,1.0,0.00018895621178671718,0.019280651584267616,1.0,0.66888028383255,"
+
+The museum’s website says: “The museum is dedicated to the","
+
+The first thing to note is that the labels are not just labels for","
+
+The museum’s website says: “The museum is dedicated to the",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,random_same_norm,prefix,early,2,3,1.0,-1,last_prompt_token,explanation_004,explanation,2,0.025179464370012283,,0.3295116708310057,0.019286589697003365,0.039244234561920166,0.05165023792332187,0.23360629230727664,0.08068322629154666,1.4814243173614852,0.8029550685469661,0.3535533905932738,23.15232276916504,0.9610758423805237,23.15232276916504,0.2129509449005127,255.9106903076172,0.0,1.0,0.07895536720752716,16.363746643066406,1.0,0.7606506943702698,"
+
+The museum’s website says: “The museum is dedicated to the","
+
+The first thing to note is that the labels are not just labels for","
+
+The museum’s website says: “The museum’s wall labels",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,random_same_norm,suffix,early,2,21,0.0,-1,last_prompt_token,explanation_004,explanation,2,0.025179464370012283,,0.001865164953861203,4.747588172904216e-05,0.02540650963783264,0.0,3.913304021919957e-16,0.0,1.4686315494405022,0.9999999999999998,0.43259045634870014,1.7360912561416626,0.015968259423971176,1.7360912561416626,0.015968259423971176,4.033620834350586,0.0,1.0,0.00018895621178671718,0.7953259944915771,1.0,0.66888028383255,"
+
+The museum’s website says: “The museum is dedicated to the","
+
+The first thing to note is that the labels are not just labels for","
+
+The museum’s website says: “The museum is dedicated to the",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,random_same_norm,suffix,early,2,21,1.0,-1,last_prompt_token,explanation_004,explanation,2,0.025179464370012283,,0.4961454115783611,0.497355580329895,0.5050835609436035,0.4815681849911608,0.49999999999975,1.4974383095463364,1.6120659231166672,0.0,0.0,126.88169860839844,1.6436693668365479,126.88169860839844,1.1670353412628174,668.4666748046875,0.0,1.0,3.1373214721679688,84.06925201416016,1.0,0.7577943801879883,"
+
+The museum’s website says: “The museum is dedicated to the","
+
+The first thing to note is that the labels are not just labels for","#include ""../../include/common.h""
+#include ""../../include",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,random_same_norm,single_layer,middle,12,1,0.0,-1,last_prompt_token,explanation_004,explanation,2,0.025179464370012283,,0.001865164953861203,4.747588172904216e-05,0.02540650963783264,0.0,3.913304021919957e-16,0.0,1.4686315494405022,0.9999999999999998,0.43259045634870014,1.7360912561416626,0.015968259423971176,1.7360912561416626,0.015968259423971176,3.829490900039673,0.0,1.0,0.00018895621178671718,0.022330861538648605,1.0,0.66888028383255,"
+
+The museum’s website says: “The museum is dedicated to the","
+
+The first thing to note is that the labels are not just labels for","
+
+The museum’s website says: “The museum is dedicated to the",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,random_same_norm,single_layer,middle,12,1,1.0,-1,last_prompt_token,explanation_004,explanation,2,0.025179464370012283,,0.548578485121677,0.10280486196279526,0.08459742367267609,0.0,3.913304021919957e-16,0.0,1.4686315494405022,0.9999999999999998,0.43259045634870014,44.4095344543457,0.9375779032707214,44.4095344543457,0.4084709882736206,251.7337188720703,0.0,1.0,0.4026525020599365,0.022330861538648605,1.0,0.66888028383255,"
+
+The museum’s website says: “The museum is dedicated to the","
+
+The first thing to note is that the labels are not just labels for","
+
+The museum’s website says: “The museum is dedicated to the",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,random_same_norm,prefix,middle,12,13,0.0,-1,last_prompt_token,explanation_004,explanation,2,0.025179464370012283,,0.001865164953861203,4.747588172904216e-05,0.02540650963783264,0.0,3.913304021919957e-16,0.0,1.4686315494405022,0.9999999999999998,0.43259045634870014,1.7360912561416626,0.015968259423971176,1.7360912561416626,0.015968259423971176,4.087335586547852,0.0,1.0,0.00018895621178671718,0.022330861538648605,1.0,0.66888028383255,"
+
+The museum’s website says: “The museum is dedicated to the","
+
+The first thing to note is that the labels are not just labels for","
+
+The museum’s website says: “The museum is dedicated to the",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,random_same_norm,prefix,middle,12,13,1.0,-1,last_prompt_token,explanation_004,explanation,2,0.025179464370012283,,0.3756178260052814,0.04289717599749565,0.07130713760852814,0.16474961984752245,0.16820213231812586,0.281023798481737,1.424739157096933,0.8902638145194514,0.4573295603800236,38.8460578918457,1.2202343940734863,38.8460578918457,0.3572991192340851,364.1753234863281,0.0,1.0,0.22541122138500214,17.345327377319336,1.0,0.7431679368019104,"
+
+The museum’s website says: “The museum is dedicated to the","
+
+The first thing to note is that the labels are not just labels for","
+
+The museum's website says: ""The museum is dedicated to the preservation",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,random_same_norm,suffix,middle,12,11,0.0,-1,last_prompt_token,explanation_004,explanation,2,0.025179464370012283,,0.001865164953861203,4.747588172904216e-05,0.02540650963783264,0.0,3.913304021919957e-16,0.0,1.4686315494405022,0.9999999999999998,0.43259045634870014,1.7360912561416626,0.015968259423971176,1.7360912561416626,0.015968259423971176,3.8057610988616943,0.0,1.0,0.00018895621178671718,0.7953259944915771,1.0,0.66888028383255,"
+
+The museum’s website says: “The museum is dedicated to the","
+
+The first thing to note is that the labels are not just labels for","
+
+The museum’s website says: “The museum is dedicated to the",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,random_same_norm,suffix,middle,12,11,1.0,-1,last_prompt_token,explanation_004,explanation,2,0.025179464370012283,,0.4961454115783611,0.497355580329895,0.5050835609436035,0.4735262913012643,0.49999999999975,1.1974340827823315,1.331325364747548,0.0,0.0,126.88169860839844,1.6436693668365479,126.88169860839844,1.1670353412628174,505.21649169921875,0.0,1.0,3.1373214721679688,84.06925201416016,1.0,0.740174412727356,"
+
+The museum’s website says: “The museum is dedicated to the","
+
+The first thing to note is that the labels are not just labels for","#include ""stdafx.h""
+#include ""stdafx",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,random_same_norm,single_layer,late,21,1,0.0,-1,last_prompt_token,explanation_004,explanation,2,0.025179464370012283,,0.001865164953861203,4.747588172904216e-05,0.02540650963783264,0.0,3.913304021919957e-16,0.0,1.4686315494405022,0.9999999999999998,0.43259045634870014,1.7360912561416626,0.015968259423971176,1.7360912561416626,0.015968259423971176,2.0406596660614014,0.0,1.0,0.00018895621178671718,0.5758330225944519,1.0,0.66888028383255,"
+
+The museum’s website says: “The museum is dedicated to the","
+
+The first thing to note is that the labels are not just labels for","
+
+The museum’s website says: “The museum is dedicated to the",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,random_same_norm,single_layer,late,21,1,1.0,-1,last_prompt_token,explanation_004,explanation,2,0.025179464370012283,,0.5024815633959765,0.4113149046897888,0.4072522521018982,0.2237256864138566,0.455672202370106,0.4090653138831838,1.419358236581446,0.38177085778546666,0.2614881801842454,108.71903991699219,1.4913541078567505,108.71903991699219,0.9999783635139465,168.88165283203125,0.0,1.0,1.994065284729004,0.5758330225944519,1.0,0.6601723432540894,"
+
+The museum’s website says: “The museum is dedicated to the","
+
+The first thing to note is that the labels are not just labels for"," ""The museum's goal is to create a sense of place and history,"" says",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,random_same_norm,prefix,late,21,22,0.0,-1,last_prompt_token,explanation_004,explanation,2,0.025179464370012283,,0.001865164953861203,4.747588172904216e-05,0.02540650963783264,0.0,3.913304021919957e-16,0.0,1.4686315494405022,0.9999999999999998,0.43259045634870014,1.7360912561416626,0.015968259423971176,1.7360912561416626,0.015968259423971176,4.087335586547852,0.0,1.0,0.00018895621178671718,0.5758330225944519,1.0,0.66888028383255,"
+
+The museum’s website says: “The museum is dedicated to the","
+
+The first thing to note is that the labels are not just labels for","
+
+The museum’s website says: “The museum is dedicated to the",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,random_same_norm,prefix,late,21,22,1.0,-1,last_prompt_token,explanation_004,explanation,2,0.025179464370012283,,0.4802154656001908,0.31266433000564575,0.33842742443084717,0.5116006703102689,0.508579678556823,1.05485688020372,1.0070186047589413,0.5518254055364691,0.5669467095138409,103.37702941894531,1.5566152334213257,103.37702941894531,0.9508435130119324,690.783203125,0.0,1.0,1.652124285697937,57.746803283691406,1.0,0.7371581792831421,"
+
+The museum’s website says: “The museum is dedicated to the","
+
+The first thing to note is that the labels are not just labels for","
+
+The museum's website says that the wall labels are ""designed to help",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,random_same_norm,suffix,late,21,2,0.0,-1,last_prompt_token,explanation_004,explanation,2,0.025179464370012283,,0.001865164953861203,4.747588172904216e-05,0.02540650963783264,0.0,3.913304021919957e-16,0.0,1.4686315494405022,0.9999999999999998,0.43259045634870014,1.7360912561416626,0.015968259423971176,1.7360912561416626,0.015968259423971176,1.2657086849212646,0.0,1.0,0.00018895621178671718,0.7953259944915771,1.0,0.66888028383255,"
+
+The museum’s website says: “The museum is dedicated to the","
+
+The first thing to note is that the labels are not just labels for","
+
+The museum’s website says: “The museum is dedicated to the",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,random_same_norm,suffix,late,21,2,1.0,-1,last_prompt_token,explanation_004,explanation,2,0.025179464370012283,,0.4961454115783611,0.497355580329895,0.5050835609436035,0.4735262913012643,0.49999999999975,1.1974340827823315,1.331325364747548,0.0,0.0,126.88169860839844,1.6436693668365479,126.88169860839844,1.1670353412628174,105.47547912597656,0.0,1.0,3.1373214721679688,84.06925201416016,1.0,0.740174412727356,"
+
+The museum’s website says: “The museum is dedicated to the","
+
+The first thing to note is that the labels are not just labels for","#include ""stdafx.h""
+#include ""stdafx",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,shuffled_prompt,single_layer,early,2,1,0.0,-1,last_prompt_token,explanation_004,explanation,2,0.025179464370012283,explanation_006,0.001865164953861203,4.747588172904216e-05,0.02540650963783264,0.0,3.913304021919957e-16,0.0,1.4686315494405022,0.9999999999999998,0.43259045634870014,1.7360912561416626,0.015968259423971176,1.7360912561416626,0.015968259423971176,4.053579330444336,0.0,1.0,0.00018895621178671718,0.019280651584267616,1.0,0.66888028383255,"
+
+The museum’s website says: “The museum is dedicated to the","
+
+The first thing to note is that the labels are not just labels for","
+
+The museum’s website says: “The museum is dedicated to the",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,shuffled_prompt,single_layer,early,2,1,1.0,-1,last_prompt_token,explanation_004,explanation,2,0.025179464370012283,explanation_006,0.3051062363209182,0.008652688935399055,0.019706904888153076,0.0,3.913304021919957e-16,0.0,1.4686315494405022,0.9999999999999998,0.43259045634870014,17.364511489868164,1.110485315322876,17.364511489868164,0.1597156822681427,202.04209899902344,0.0,1.0,0.03509015217423439,0.019280651584267616,1.0,0.66888028383255,"
+
+The museum’s website says: “The museum is dedicated to the","
+
+The first thing to note is that the labels are not just labels for","
+
+The museum’s website says: “The museum is dedicated to the",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,shuffled_prompt,prefix,early,2,3,0.0,-1,last_prompt_token,explanation_004,explanation,2,0.025179464370012283,explanation_006,0.001865164953861203,4.747588172904216e-05,0.02540650963783264,0.0,3.913304021919957e-16,0.0,1.4686315494405022,0.9999999999999998,0.43259045634870014,1.7360912561416626,0.015968259423971176,1.7360912561416626,0.015968259423971176,4.087335586547852,0.0,1.0,0.00018895621178671718,0.019280651584267616,1.0,0.66888028383255,"
+
+The museum’s website says: “The museum is dedicated to the","
+
+The first thing to note is that the labels are not just labels for","
+
+The museum’s website says: “The museum is dedicated to the",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,shuffled_prompt,prefix,early,2,3,1.0,-1,last_prompt_token,explanation_004,explanation,2,0.025179464370012283,explanation_006,0.3051062363209182,0.008652688935399055,0.019706904888153076,0.0,3.913304021919957e-16,0.0,1.4686315494405022,0.9999999999999998,0.43259045634870014,17.364511489868164,1.110485315322876,17.364511489868164,0.1597156822681427,226.9699249267578,0.0,1.0,0.03509015217423439,16.442790985107422,1.0,0.66888028383255,"
+
+The museum’s website says: “The museum is dedicated to the","
+
+The first thing to note is that the labels are not just labels for","
+
+The museum’s website says: “The museum is dedicated to the",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,shuffled_prompt,suffix,early,2,21,0.0,-1,last_prompt_token,explanation_004,explanation,2,0.025179464370012283,explanation_006,0.001865164953861203,4.747588172904216e-05,0.02540650963783264,0.0,3.913304021919957e-16,0.0,1.4686315494405022,0.9999999999999998,0.43259045634870014,1.7360912561416626,0.015968259423971176,1.7360912561416626,0.015968259423971176,4.033620834350586,0.0,1.0,0.00018895621178671718,0.7953259944915771,1.0,0.66888028383255,"
+
+The museum’s website says: “The museum is dedicated to the","
+
+The first thing to note is that the labels are not just labels for","
+
+The museum’s website says: “The museum is dedicated to the",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,shuffled_prompt,suffix,early,2,21,1.0,-1,last_prompt_token,explanation_004,explanation,2,0.025179464370012283,explanation_006,0.4245144612085801,0.12147808074951172,0.164679616689682,0.0,3.913304021919957e-16,0.0,1.4686315494405022,0.9999999999999998,0.43259045634870014,76.7605209350586,1.5007736682891846,66.375732421875,0.6105121970176697,619.2639770507812,0.13528814534712963,0.8647118546528704,1.0770068168640137,76.7605209350586,1.0,0.66888028383255,"
+
+The museum’s website says: “The museum is dedicated to the","
+
+The first thing to note is that the labels are not just labels for","
+
+The museum’s website says: “The museum is dedicated to the",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,shuffled_prompt,single_layer,middle,12,1,0.0,-1,last_prompt_token,explanation_004,explanation,2,0.025179464370012283,explanation_006,0.001865164953861203,4.747588172904216e-05,0.02540650963783264,0.0,3.913304021919957e-16,0.0,1.4686315494405022,0.9999999999999998,0.43259045634870014,1.7360912561416626,0.015968259423971176,1.7360912561416626,0.015968259423971176,3.829490900039673,0.0,1.0,0.00018895621178671718,0.022330861538648605,1.0,0.66888028383255,"
+
+The museum’s website says: “The museum is dedicated to the","
+
+The first thing to note is that the labels are not just labels for","
+
+The museum’s website says: “The museum is dedicated to the",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,shuffled_prompt,single_layer,middle,12,1,1.0,-1,last_prompt_token,explanation_004,explanation,2,0.025179464370012283,explanation_006,0.40040777541577244,0.0240530613809824,0.03601835295557976,0.0,3.913304021919957e-16,0.0,1.4686315494405022,0.9999999999999998,0.43259045634870014,30.698352813720703,0.9619181752204895,30.698352813720703,0.28235799074172974,188.11434936523438,0.0,1.0,0.1147753894329071,0.022330861538648605,1.0,0.66888028383255,"
+
+The museum’s website says: “The museum is dedicated to the","
+
+The first thing to note is that the labels are not just labels for","
+
+The museum’s website says: “The museum is dedicated to the",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,shuffled_prompt,prefix,middle,12,13,0.0,-1,last_prompt_token,explanation_004,explanation,2,0.025179464370012283,explanation_006,0.001865164953861203,4.747588172904216e-05,0.02540650963783264,0.0,3.913304021919957e-16,0.0,1.4686315494405022,0.9999999999999998,0.43259045634870014,1.7360912561416626,0.015968259423971176,1.7360912561416626,0.015968259423971176,4.087335586547852,0.0,1.0,0.00018895621178671718,0.022330861538648605,1.0,0.66888028383255,"
+
+The museum’s website says: “The museum is dedicated to the","
+
+The first thing to note is that the labels are not just labels for","
+
+The museum’s website says: “The museum is dedicated to the",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,shuffled_prompt,prefix,middle,12,13,1.0,-1,last_prompt_token,explanation_004,explanation,2,0.025179464370012283,explanation_006,0.40040777541577244,0.0240530613809824,0.03601835295557976,0.0,3.913304021919957e-16,0.0,1.4686315494405022,0.9999999999999998,0.43259045634870014,30.698352813720703,1.2574663162231445,30.698352813720703,0.28235799074172974,382.3931579589844,0.0,1.0,0.1147753894329071,17.836727142333984,1.0,0.66888028383255,"
+
+The museum’s website says: “The museum is dedicated to the","
+
+The first thing to note is that the labels are not just labels for","
+
+The museum’s website says: “The museum is dedicated to the",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,shuffled_prompt,suffix,middle,12,11,0.0,-1,last_prompt_token,explanation_004,explanation,2,0.025179464370012283,explanation_006,0.001865164953861203,4.747588172904216e-05,0.02540650963783264,0.0,3.913304021919957e-16,0.0,1.4686315494405022,0.9999999999999998,0.43259045634870014,1.7360912561416626,0.015968259423971176,1.7360912561416626,0.015968259423971176,3.8057610988616943,0.0,1.0,0.00018895621178671718,0.7953259944915771,1.0,0.66888028383255,"
+
+The museum’s website says: “The museum is dedicated to the","
+
+The first thing to note is that the labels are not just labels for","
+
+The museum’s website says: “The museum is dedicated to the",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,shuffled_prompt,suffix,middle,12,11,1.0,-1,last_prompt_token,explanation_004,explanation,2,0.025179464370012283,explanation_006,0.4245144612085801,0.12147808074951172,0.164679616689682,0.0,3.913304021919957e-16,0.0,1.4686315494405022,0.9999999999999998,0.43259045634870014,76.7605209350586,1.5007736682891846,66.375732421875,0.6105121970176697,449.58013916015625,0.13528814534712963,0.8647118546528704,1.0770068168640137,76.7605209350586,1.0,0.66888028383255,"
+
+The museum’s website says: “The museum is dedicated to the","
+
+The first thing to note is that the labels are not just labels for","
+
+The museum’s website says: “The museum is dedicated to the",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,shuffled_prompt,single_layer,late,21,1,0.0,-1,last_prompt_token,explanation_004,explanation,2,0.025179464370012283,explanation_006,0.001865164953861203,4.747588172904216e-05,0.02540650963783264,0.0,3.913304021919957e-16,0.0,1.4686315494405022,0.9999999999999998,0.43259045634870014,1.7360912561416626,0.015968259423971176,1.7360912561416626,0.015968259423971176,2.0406596660614014,0.0,1.0,0.00018895621178671718,0.5758330225944519,1.0,0.66888028383255,"
+
+The museum’s website says: “The museum is dedicated to the","
+
+The first thing to note is that the labels are not just labels for","
+
+The museum’s website says: “The museum is dedicated to the",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,shuffled_prompt,single_layer,late,21,1,1.0,-1,last_prompt_token,explanation_004,explanation,2,0.025179464370012283,explanation_006,0.44176642859833354,0.06308893114328384,0.07972167432308197,0.0,3.913304021919957e-16,0.0,1.4686315494405022,0.9999999999999998,0.43259045634870014,72.18309020996094,1.3667935132980347,61.734737396240234,0.5678251385688782,136.86669921875,0.1447479289585593,0.8552520710414406,0.3911430835723877,0.5758330225944519,1.0,0.66888028383255,"
+
+The museum’s website says: “The museum is dedicated to the","
+
+The first thing to note is that the labels are not just labels for","
+
+The museum’s website says: “The museum is dedicated to the",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,shuffled_prompt,prefix,late,21,22,0.0,-1,last_prompt_token,explanation_004,explanation,2,0.025179464370012283,explanation_006,0.001865164953861203,4.747588172904216e-05,0.02540650963783264,0.0,3.913304021919957e-16,0.0,1.4686315494405022,0.9999999999999998,0.43259045634870014,1.7360912561416626,0.015968259423971176,1.7360912561416626,0.015968259423971176,4.087335586547852,0.0,1.0,0.00018895621178671718,0.5758330225944519,1.0,0.66888028383255,"
+
+The museum’s website says: “The museum is dedicated to the","
+
+The first thing to note is that the labels are not just labels for","
+
+The museum’s website says: “The museum is dedicated to the",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,shuffled_prompt,prefix,late,21,22,1.0,-1,last_prompt_token,explanation_004,explanation,2,0.025179464370012283,explanation_006,0.44176642859833354,0.06308893114328384,0.07972167432308197,0.0,3.913304021919957e-16,0.0,1.4686315494405022,0.9999999999999998,0.43259045634870014,72.18309020996094,1.3667935132980347,61.734737396240234,0.5678251385688782,652.717041015625,0.1447479289585593,0.8552520710414406,0.3911430835723877,61.597991943359375,1.0,0.66888028383255,"
+
+The museum’s website says: “The museum is dedicated to the","
+
+The first thing to note is that the labels are not just labels for","
+
+The museum’s website says: “The museum is dedicated to the",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,shuffled_prompt,suffix,late,21,2,0.0,-1,last_prompt_token,explanation_004,explanation,2,0.025179464370012283,explanation_006,0.001865164953861203,4.747588172904216e-05,0.02540650963783264,0.0,3.913304021919957e-16,0.0,1.4686315494405022,0.9999999999999998,0.43259045634870014,1.7360912561416626,0.015968259423971176,1.7360912561416626,0.015968259423971176,1.2657086849212646,0.0,1.0,0.00018895621178671718,0.7953259944915771,1.0,0.66888028383255,"
+
+The museum’s website says: “The museum is dedicated to the","
+
+The first thing to note is that the labels are not just labels for","
+
+The museum’s website says: “The museum is dedicated to the",step64000
+later_host_young_donor,EleutherAI/pythia-410m-deduped,pythia,410m,step143000,step64000,shuffled_prompt,suffix,late,21,2,1.0,-1,last_prompt_token,explanation_004,explanation,2,0.025179464370012283,explanation_006,0.4245144612085801,0.12147808074951172,0.164679616689682,0.0,3.913304021919957e-16,0.0,1.4686315494405022,0.9999999999999998,0.43259045634870014,76.7605209350586,1.5007736682891846,66.375732421875,0.6105121970176697,71.56813049316406,0.13528814534712963,0.8647118546528704,1.0770068168640137,76.7605209350586,1.0,0.66888028383255,"
+
+The museum’s website says: “The museum is dedicated to the","
+
+The first thing to note is that the labels are not just labels for","
+
+The museum’s website says: “The museum is dedicated to the",step64000

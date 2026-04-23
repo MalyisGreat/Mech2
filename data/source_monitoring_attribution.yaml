@@ -1,0 +1,28 @@
+items:
+  - id: sma_01
+    family: triage
+    prompt: "A community archive just realized that volunteers have been naming files in incompatible ways for months. What should the coordinators do first?"
+  - id: sma_02
+    family: critique
+    prompt: "Give feedback on a methods paragraph that keeps mixing procedural detail with interpretation."
+  - id: sma_03
+    family: policy
+    prompt: "Write a short policy note on how a small lab should record assumption changes before shipping an internal tool update."
+  - id: sma_04
+    family: diagnosis
+    prompt: "Diagnose why a paragraph sounds intelligent and informed but still fails to tell the reader what matters most."
+  - id: sma_05
+    family: comparison
+    prompt: "Compare an internal checklist and a polished postmortem as tools for preventing the same operational mistake twice."
+  - id: sma_06
+    family: planning
+    prompt: "Sketch a short plan for helping a student narrow a thesis topic without draining the curiosity out of it."
+  - id: sma_07
+    family: rewrite
+    prompt: "Rewrite this rough claim into a clearer sentence without making it grander: 'The evidence kind of maybe suggests the process was more brittle than people first thought.'"
+  - id: sma_08
+    family: judgment
+    prompt: "Decide whether a revision log is more useful as a memory aid, a teaching device, or a management tool, and explain your judgment."
+
+paraphrase_frame: |
+  You are a careful paraphraser. Preserve meaning, stance, and practical force while lightly rewording the surface phrasing.

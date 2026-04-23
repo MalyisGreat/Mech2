@@ -1,0 +1,73 @@
+prompt_id,prompt_family,prompt,mean_anchor_js,min_anchor_js,max_anchor_js,comparison_count,selection_rank
+explanation_016,explanation,Explain why teams keep revision logs.,0.1316202643016974,0.025890547782182693,0.31410521268844604,3,1
+explanation_014,explanation,Explain why cities zone industrial districts.,0.11644655714432399,0.040461957454681396,0.21800336241722107,3,2
+explanation_019,explanation,Explain why local governments post meeting minutes.,0.10464742500334978,0.009370519779622555,0.2150937020778656,3,3
+judgment_008,judgment,Should a newsroom publish quickly with updates or wait for fuller confirmation?,0.10037914477288723,0.008409181609749794,0.23068413138389587,3,4
+judgment_012,judgment,Should a court prefer bright-line rules or flexible standards?,0.09105691406875849,0.014980937354266644,0.20350760221481323,3,5
+explanation_017,explanation,Explain why schools assign reading lists.,0.08539809038241704,0.02153143286705017,0.15035952627658844,3,6
+explanation_009,explanation,Explain why universities require office hours.,0.07719687993327777,0.01876603439450264,0.13680866360664368,3,7
+judgment_006,judgment,Should a teacher grade participation heavily or lightly?,0.07712848484516144,0.022783882915973663,0.11149679124355316,3,8
+judgment_019,judgment,Should a firm reward individual stars or consistent team contributors?,0.07280603734155495,0.021129531785845757,0.13660451769828796,3,9
+argument_010,argument,Give the strongest argument against reducing civic education to factual memorization.,0.06849711357305448,0.0058743832632899284,0.17934702336788177,3,10
+style_opening_020,style_opening,Write the opening paragraph of an essay about common goods.,0.068040463142097,0.011699528433382511,0.127202570438385,3,11
+argument_007,argument,Give the strongest argument against using attendance as a proxy for engagement.,0.06608582908908527,0.012261878699064255,0.12975093722343445,3,12
+explanation_003,explanation,Explain why schools keep science laboratories.,0.06564941598723333,0.015075343661010265,0.12213169038295746,3,13
+style_opening_011,style_opening,Write the opening paragraph of an essay about attention.,0.06343152560293674,0.011693818494677544,0.0925239771604538,3,14
+judgment_009,judgment,Should a university require broad general education or early specialization?,0.06104319480558237,0.019243275746703148,0.10672637820243835,3,15
+style_opening_018,style_opening,Write the opening paragraph of an essay about access.,0.06087906161944071,0.026330765336751938,0.1017434298992157,3,16
+style_opening_017,style_opening,Write the opening paragraph of an essay about rules.,0.06087906161944071,0.026330765336751938,0.1017434298992157,3,17
+judgment_005,judgment,Should a hospital use first-come service or urgency-based triage during overload?,0.06027267904331287,0.014804058708250523,0.0848064199090004,3,18
+explanation_015,explanation,Explain why conferences use peer review.,0.05959326711793741,0.009304165840148926,0.1405174434185028,3,19
+argument_018,argument,Give the strongest argument against prioritizing novelty over maintenance in funding decisions.,0.056699212019642196,0.014238746836781502,0.12069664150476456,3,20
+judgment_018,judgment,Should an instructor prioritize mastery or coverage in a difficult course?,0.05617714487016201,0.01508130319416523,0.12222959846258163,3,21
+argument_004,argument,Give the strongest argument against making speed the main value in journalism.,0.055328428745269775,0.016110770404338837,0.10268457233905792,3,22
+explanation_007,explanation,Explain why towns maintain public transit.,0.05416457944860061,0.013660690747201443,0.09936882555484772,3,23
+explanation_006,explanation,Explain why hospitals use triage systems.,0.050531092720727123,0.008541646413505077,0.10668231546878815,3,24
+judgment_014,judgment,Should a school ban phones outright or regulate their use?,0.049646606047948204,0.02623770758509636,0.09363555908203125,3,25
+argument_015,argument,Give the strongest argument against using one metric to evaluate teachers.,0.04939051500211159,0.008321833796799183,0.11299145221710205,3,26
+explanation_004,explanation,Explain why museums use wall labels.,0.04874551730851332,0.007674483582377434,0.07263365387916565,3,27
+explanation_010,explanation,Explain why software teams use version control.,0.04781238300104936,0.013199018314480782,0.07276707887649536,3,28
+explanation_011,explanation,Explain why newspapers keep corrections pages.,0.04767175453404585,0.010074028745293617,0.07738055288791656,3,29
+argument_009,argument,Give the strongest argument against relying on rankings to compare universities.,0.04737358229855696,0.009669521823525429,0.07170893251895905,3,30
+explanation_002,explanation,Explain why neighborhoods create public parks.,0.046275846660137177,0.007859405130147934,0.08139775693416595,3,31
+style_opening_001,style_opening,Write the opening paragraph of an essay about memory.,0.045663413436462484,0.007020039949566126,0.09388071298599243,3,32
+style_opening_013,style_opening,Write the opening paragraph of an essay about delay.,0.045255680878957115,0.010835155844688416,0.09333186596632004,3,33
+style_opening_007,style_opening,Write the opening paragraph of an essay about revision.,0.04502424784004688,0.008897973224520683,0.09260830283164978,3,34
+explanation_018,explanation,Explain why community gardens keep shared rules.,0.04474542879809936,0.008779014460742474,0.08213497698307037,3,35
+style_opening_014,style_opening,Write the opening paragraph of an essay about repair.,0.0445921141654253,0.008780675008893013,0.07834278792142868,3,36
+argument_005,argument,Give the strongest argument against evaluating research only by citation counts.,0.043560310577352844,0.011793030425906181,0.06564304977655411,3,37
+advice_009,advice,A student has chosen a thesis topic that is too broad. What should they do first?,0.043480683118104935,0.029512975364923477,0.05391041189432144,3,38
+continuation_009,continuation,"Continue this sentence into a short paragraph: The museum opened the new exhibit, but...",0.043189726769924164,0.004301048815250397,0.0922502875328064,3,39
+advice_013,advice,A student is falling behind because every assignment feels equally urgent. What should they do first?,0.04206963535398245,0.015565951354801655,0.07729088515043259,3,40
+explanation_008,explanation,Explain why archives preserve administrative records.,0.04129717374841372,0.009050831198692322,0.07091841101646423,3,41
+argument_002,argument,Give the strongest argument against measuring a city's health only by economic growth.,0.04081586624185244,0.01578136906027794,0.06307215243577957,3,42
+judgment_001,judgment,Should a school prioritize fairness or excellence when designing a grading policy?,0.0406288526331385,0.014541498385369778,0.05719539523124695,3,43
+argument_012,argument,Give the strongest argument against eliminating peer review from grant decisions.,0.0405515314390262,0.014298463240265846,0.07500369846820831,3,44
+judgment_011,judgment,Should a grant committee reward bold novelty or reliable execution?,0.04047366169591745,0.015571264550089836,0.061086177825927734,3,45
+explanation_013,explanation,Explain why legislatures use committees.,0.04005270699659983,0.01803002506494522,0.06449724733829498,3,46
+style_opening_016,style_opening,Write the opening paragraph of an essay about public language.,0.03933832452942928,0.006306030787527561,0.0781509280204773,3,47
+judgment_003,judgment,Should a museum favor accessibility or historical completeness when writing labels?,0.03925536790241798,0.008940580300986767,0.06936026364564896,3,48
+advice_011,advice,A public agency receives contradictory feedback from residents. What should it do first?,0.03908354137092829,0.0072965798899531364,0.06710360944271088,3,49
+judgment_020,judgment,Should public transit prioritize geographic coverage or frequent service?,0.03885130491107702,0.005813100375235081,0.08101308345794678,3,50
+style_opening_008,style_opening,Write the opening paragraph of an essay about evidence.,0.0383981658766667,0.00624636746942997,0.07454225420951843,3,51
+argument_014,argument,Give the strongest argument against moving all local news behind paywalls.,0.03835972025990486,0.012318704277276993,0.06802888214588165,3,52
+continuation_014,continuation,"Continue this sentence into a short paragraph: The budget passed easily, but...",0.03783738271643718,0.004681720398366451,0.0868101418018341,3,53
+continuation_002,continuation,"Continue this sentence into a short paragraph: The committee agreed on the rule, but...",0.03665569704025984,0.004404856823384762,0.08103486895561218,3,54
+advice_006,advice,A librarian needs to organize a confusing community program. What should they do first?,0.03647162578999996,0.017414642497897148,0.06742888689041138,3,55
+style_opening_003,style_opening,Write the opening paragraph of an essay about record keeping.,0.03567178857823213,0.005841191858053207,0.0708635151386261,3,56
+explanation_020,explanation,Explain why libraries lend more than books.,0.035523303473989166,0.008958401158452034,0.05082464963197708,3,57
+explanation_012,explanation,Explain why research groups maintain lab notebooks.,0.03536550126348933,0.006799457129091024,0.07419981062412262,3,58
+explanation_001,explanation,Explain why cities develop public libraries.,0.034645346303780876,0.0053056515753269196,0.06043269485235214,3,59
+advice_017,advice,A small town wants to improve civic participation. What should it do first?,0.03459293736765782,0.009226339869201183,0.05875196307897568,3,60
+style_opening_004,style_opening,Write the opening paragraph of an essay about shared spaces.,0.033963301529486976,0.004129981622099876,0.07534176111221313,3,61
+style_opening_002,style_opening,Write the opening paragraph of an essay about public trust.,0.03347501469155153,0.004983823746442795,0.07034972310066223,3,62
+advice_015,advice,A community group wants to revive a dormant project. What should they do first?,0.0332330750922362,0.009767435491085052,0.06324540078639984,3,63
+style_opening_010,style_opening,Write the opening paragraph of an essay about maintenance.,0.03232341135541598,0.006394285708665848,0.059635311365127563,3,64
+style_opening_006,style_opening,Write the opening paragraph of an essay about public attention.,0.0315826948111256,0.005326281301677227,0.06387543678283691,3,65
+continuation_005,continuation,"Continue this sentence into a short paragraph: The town finally built the park, but...",0.03121756420781215,0.005308383144438267,0.07259292900562286,3,66
+advice_001,advice,A student is overwhelmed by choices. What should they do first?,0.030920542155702908,0.005091299302875996,0.08041606843471527,3,67
+continuation_019,continuation,"Continue this sentence into a short paragraph: The map was accurate, but...",0.02993164211511612,0.009750653058290482,0.05582591891288757,3,68
+style_opening_005,style_opening,Write the opening paragraph of an essay about expertise.,0.029691324569284916,0.005715622566640377,0.06473591923713684,3,69
+continuation_010,continuation,"Continue this sentence into a short paragraph: The new rule solved one problem, but...",0.028003777998189133,0.005045210011303425,0.057369381189346313,3,70
+advice_016,advice,A research assistant has messy notes and a deadline. What should they do first?,0.02783311204984784,0.005501688923686743,0.05050569027662277,3,71
+advice_003,advice,A researcher has collected too much material for one paper. What should they do first?,0.027754319831728935,0.018140416592359543,0.04368177056312561,3,72

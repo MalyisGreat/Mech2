@@ -1,0 +1,17 @@
+model_size_label,identity_frame,pair_type,variant,prompt_family,n_pairs,seed_count,pair_valid_rate_mean,choose_self_rate_mean,swap_consistency_mean,style_distance_mean,semantic_overlap_mean
+70m,baseline_helpful,other_frame,paraphrased,critique,1,1,1.0,0.5,0.0,2.0,0.0
+70m,baseline_helpful,other_frame,paraphrased,triage,1,1,1.0,0.5,0.0,2.082087691044458,0.2588061792330505
+70m,baseline_helpful,other_frame,raw,critique,1,1,1.0,0.0,1.0,1.2957422893937458,0.10811249552346706
+70m,baseline_helpful,other_frame,raw,triage,1,1,1.0,0.5,0.0,1.2288948757228515,0.16984155512168939
+70m,baseline_helpful,same_frame_other_seed,paraphrased,critique,1,1,1.0,0.5,0.0,0.0,0.0
+70m,baseline_helpful,same_frame_other_seed,paraphrased,triage,1,1,1.0,0.5,0.0,2.1559450446336186,0.36862990796973294
+70m,baseline_helpful,same_frame_other_seed,raw,critique,1,1,1.0,0.0,1.0,1.9639538853361327,0.0563436169819011
+70m,baseline_helpful,same_frame_other_seed,raw,triage,1,1,1.0,0.5,0.0,2.26876918683728,0.3783389548934254
+70m,family_self,other_frame,paraphrased,critique,1,1,1.0,0.5,0.0,2.0,0.0
+70m,family_self,other_frame,paraphrased,triage,1,1,1.0,0.5,0.0,1.489739545068222,0.2467160148049351
+70m,family_self,other_frame,raw,critique,1,1,1.0,0.0,1.0,1.5445557576346536,0.09482093118615209
+70m,family_self,other_frame,raw,triage,1,1,1.0,0.5,0.0,1.4710661459388759,0.3000495990744895
+70m,family_self,same_frame_other_seed,paraphrased,critique,1,1,1.0,0.5,0.0,2.6457513110645907,0.0
+70m,family_self,same_frame_other_seed,paraphrased,triage,1,1,1.0,0.5,0.0,1.8424101390075638,0.3235492170606606
+70m,family_self,same_frame_other_seed,raw,critique,1,1,1.0,0.5,0.0,2.08246364947792,0.14089399073526937
+70m,family_self,same_frame_other_seed,raw,triage,1,1,1.0,0.5,0.0,1.7219238915570234,0.3984861462977211

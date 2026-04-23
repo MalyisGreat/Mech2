@@ -1,0 +1,11 @@
+output_root: C:/Users/joshj/joseph-stroud-identity-stability-research/outputs/latest/longform_return_v3_debug
+python_exe: C:/Users/joshj/miniconda3/python.exe
+steps:
+  - name: longform_return_v3
+    script: scripts/longform_return_v3.py
+    config: configs/identity_battery/longform_return_v3_debug.yaml
+    expected_output: outputs/latest/longform_return_v3_debug/longform_return_v3/summary.csv
+  - name: report_longform_return_v3
+    script: scripts/report_longform_return_v3.py
+    config: configs/identity_battery/longform_return_v3_debug.yaml
+    expected_output: outputs/latest/longform_return_v3_debug/longform_return_v3_report.md

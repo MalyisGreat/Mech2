@@ -1,0 +1,24 @@
+output_root: C:/Users/joshj/joseph-stroud-identity-stability-research/outputs/latest/cpu_identity_overnight_push_smoke/commitment_persistence_adversarial
+model_cache_dir: D:/hf-model-cache
+dtype: float32
+use_gpu: false
+attention_backend: auto
+max_prompt_tokens: 256
+identity_prompt_template: instruction
+model_ids:
+  - EleutherAI/pythia-70m
+identity_frames:
+  - baseline_helpful
+  - family_self
+seeds:
+  - 11
+commitment_v2_commitments:
+  - evidence_first
+commitment_v2_conditions:
+  - clean
+  - counterpush
+commitment_v2_scenario_limit: 1
+commitment_v2_pairwise_distractors_per_scenario: 1
+commitment_v2_recent_history_turn_limit: 3
+commitment_v2_counter_length: 1
+commitment_v2_checkpoint_every_rows: 4

@@ -1,0 +1,17 @@
+seed,model_id,model_size_label,identity_frame,foil_kind,prompt_id,prompt_family,n_orientations,valid_orientation_rate,pair_choose_host_rate,swap_consistency,style_distance,semantic_overlap
+11,EleutherAI/pythia-70m,70m,baseline_helpful,biography_overlap_stranger,kld_01,triage,2,1.0,0.0,1.0,1.5656112269875329,0.0
+11,EleutherAI/pythia-70m,70m,baseline_helpful,biography_overlap_stranger,kld_02,critique,2,1.0,1.0,1.0,2.117623085493501,0.3661209184158558
+11,EleutherAI/pythia-70m,70m,baseline_helpful,demographic_twin,kld_01,triage,2,1.0,0.0,1.0,1.4107579493439157,0.0
+11,EleutherAI/pythia-70m,70m,baseline_helpful,demographic_twin,kld_02,critique,2,1.0,0.0,1.0,1.4426872441670022,0.4335549847620599
+11,EleutherAI/pythia-70m,70m,baseline_helpful,kin_family_member,kld_01,triage,2,1.0,0.0,1.0,1.7551287589176061,0.0
+11,EleutherAI/pythia-70m,70m,baseline_helpful,kin_family_member,kld_02,critique,2,1.0,0.0,1.0,1.8597690698217741,0.1767766952966369
+11,EleutherAI/pythia-70m,70m,baseline_helpful,random_stranger,kld_01,triage,2,1.0,0.0,1.0,1.2734641127492754,0.0
+11,EleutherAI/pythia-70m,70m,baseline_helpful,random_stranger,kld_02,critique,2,1.0,0.5,0.0,1.5491769513426092,0.5040161287741852
+11,EleutherAI/pythia-70m,70m,family_self,biography_overlap_stranger,kld_01,triage,2,1.0,0.5,0.0,1.4173642804604942,0.373508940416998
+11,EleutherAI/pythia-70m,70m,family_self,biography_overlap_stranger,kld_02,critique,2,1.0,0.5,0.0,1.982263523706985,0.3585685828003181
+11,EleutherAI/pythia-70m,70m,family_self,demographic_twin,kld_01,triage,2,1.0,0.5,0.0,1.591084818374085,0.2917299829957891
+11,EleutherAI/pythia-70m,70m,family_self,demographic_twin,kld_02,critique,2,1.0,0.5,0.0,1.3858964926401027,0.43747863925980707
+11,EleutherAI/pythia-70m,70m,family_self,kin_family_member,kld_01,triage,2,1.0,0.5,0.0,1.2044733800742973,0.26382242650554316
+11,EleutherAI/pythia-70m,70m,family_self,kin_family_member,kld_02,critique,2,1.0,0.0,1.0,1.7596184862079742,0.17837651700316895
+11,EleutherAI/pythia-70m,70m,family_self,random_stranger,kld_01,triage,2,1.0,0.5,0.0,1.82031522568009,0.1653594569415369
+11,EleutherAI/pythia-70m,70m,family_self,random_stranger,kld_02,critique,2,1.0,0.0,1.0,1.4304491618964255,0.5085774536813069

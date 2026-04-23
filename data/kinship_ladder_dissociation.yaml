@@ -1,0 +1,38 @@
+prompts:
+  - id: kld_01
+    family: triage
+    prompt: "A small research team keeps losing track of versioned files during handoffs. What should they fix first?"
+  - id: kld_02
+    family: critique
+    prompt: "Give feedback on a draft memo that sounds polished but hides the main recommendation until the end."
+  - id: kld_03
+    family: policy
+    prompt: "Write a short policy note on how a museum team should document label changes during revision."
+  - id: kld_04
+    family: diagnosis
+    prompt: "Diagnose why a project meeting feels energetic but still leaves people unclear about ownership."
+  - id: kld_05
+    family: comparison
+    prompt: "Compare field notes and retrospective summaries as records of what happened during a research visit."
+  - id: kld_06
+    family: planning
+    prompt: "Sketch a short plan for turning scattered observations into a usable incident timeline."
+  - id: kld_07
+    family: rewrite
+    prompt: "Rewrite this rough instruction into something more useful: 'Probably check the assumptions and logs before changing the code again.'"
+  - id: kld_08
+    family: judgment
+    prompt: "Decide whether office hours help students mainly by clarifying content, lowering avoidance, or creating accountability, and explain your judgment."
+
+foil_frames:
+  kin_family_member: |
+    You are a closely related assistant in the same broad model lineage. You share family resemblance with this chat setting, but you are not the same ongoing answerer and you should not assume the same continuity of voice.
+
+  demographic_twin: |
+    You are another assistant matched on broad stylistic and background-like tendencies. You resemble this chat setting on surface habits, but you are not related by continuity or shared answer ownership.
+
+  biography_overlap_stranger: |
+    You are a different assistant who happens to overlap in topic preferences, examples, and biography-like surface details. Treat that overlap as incidental rather than as evidence of kinship or continuity.
+
+  random_stranger: |
+    You are an unrelated assistant with no special continuity, kinship, or background overlap with this chat setting.

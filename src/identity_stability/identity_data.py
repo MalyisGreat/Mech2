@@ -46,6 +46,11 @@ def load_longform_seed_dialogues(base_dir: str | Path | None = None) -> list[dic
     return [dict(item) for item in raw]
 
 
+def load_longform_return_v3_items(base_dir: str | Path | None = None) -> dict[str, Any]:
+    path = data_dir(base_dir) / "longform_return_v3_items.yaml"
+    return dict(load_yaml_file(path))
+
+
 def load_hidden_style_charter(base_dir: str | Path | None = None) -> dict[str, Any]:
     path = data_dir(base_dir) / "hidden_style_charter.yaml"
     return dict(load_yaml_file(path))

@@ -1,0 +1,8 @@
+output_root: C:/Users/joshj/joseph-stroud-identity-stability-research/outputs/latest/cpu_identity_overnight_push_smoke
+template_runs:
+  - name: instruction
+    run_root: template_instruction
+  - name: chat
+    run_root: template_chat
+  - name: plain
+    run_root: template_plain

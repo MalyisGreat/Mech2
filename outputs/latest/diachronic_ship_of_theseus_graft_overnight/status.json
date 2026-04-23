@@ -1,0 +1,51 @@
+{
+  "config": "configs\\identity_battery\\diachronic_ship_of_theseus_graft_overnight_suite.yaml",
+  "started_at": "2026-04-22T22:09:36.994707",
+  "python_exe": "C:/Users/joshj/miniconda3/python.exe",
+  "steps": [
+    {
+      "name": "diachronic_ship_of_theseus_graft",
+      "script": "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\scripts\\diachronic_ship_of_theseus_graft.py",
+      "config": "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\configs\\identity_battery\\diachronic_ship_of_theseus_graft_overnight.yaml",
+      "expected_output": "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\outputs\\latest\\diachronic_ship_of_theseus_graft_overnight\\diachronic_ship_of_theseus_graft\\summary_by_condition.csv",
+      "command": [
+        "C:/Users/joshj/miniconda3/python.exe",
+        "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\scripts\\diachronic_ship_of_theseus_graft.py",
+        "--config",
+        "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\configs\\identity_battery\\diachronic_ship_of_theseus_graft_overnight.yaml"
+      ],
+      "started_at": "2026-04-22T22:09:36.995793",
+      "status": "completed",
+      "finished_at": "2026-04-23T01:55:42.985221",
+      "return_code": 0,
+      "output_exists": true,
+      "validation_ok": true,
+      "validation_metrics": {
+        "validation": "not_configured"
+      }
+    },
+    {
+      "name": "report_diachronic_ship_of_theseus_graft",
+      "script": "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\scripts\\report_diachronic_ship_of_theseus_graft.py",
+      "config": "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\configs\\identity_battery\\diachronic_ship_of_theseus_graft_overnight.yaml",
+      "expected_output": "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\outputs\\latest\\diachronic_ship_of_theseus_graft_overnight\\diachronic_ship_of_theseus_graft_report.md",
+      "command": [
+        "C:/Users/joshj/miniconda3/python.exe",
+        "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\scripts\\report_diachronic_ship_of_theseus_graft.py",
+        "--config",
+        "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\configs\\identity_battery\\diachronic_ship_of_theseus_graft_overnight.yaml"
+      ],
+      "started_at": "2026-04-23T01:55:42.991224",
+      "status": "completed",
+      "finished_at": "2026-04-23T01:55:53.121155",
+      "return_code": 0,
+      "output_exists": true,
+      "validation_ok": true,
+      "validation_metrics": {
+        "validation": "not_configured"
+      }
+    }
+  ],
+  "finished_at": "2026-04-23T01:55:53.122360",
+  "status": "completed"
+}

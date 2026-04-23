@@ -1,0 +1,60 @@
+{
+  "config": "configs\\identity_battery\\temporal_authorship_matrix_medium_v2_suite.yaml",
+  "started_at": "2026-04-22T23:07:46.170904",
+  "python_exe": "C:/Users/joshj/miniconda3/python.exe",
+  "steps": [
+    {
+      "name": "temporal_authorship_matrix",
+      "script": "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\scripts\\temporal_authorship_matrix.py",
+      "config": "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\configs\\identity_battery\\temporal_authorship_matrix_medium_v2.yaml",
+      "expected_output": "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\outputs\\latest\\temporal_authorship_matrix_medium_v2\\temporal_authorship_matrix\\summary_by_pair.csv",
+      "command": [
+        "C:/Users/joshj/miniconda3/python.exe",
+        "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\scripts\\temporal_authorship_matrix.py",
+        "--config",
+        "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\configs\\identity_battery\\temporal_authorship_matrix_medium_v2.yaml"
+      ],
+      "started_at": "2026-04-22T23:07:46.171994",
+      "status": "completed",
+      "finished_at": "2026-04-22T23:21:45.298472",
+      "return_code": 0,
+      "output_exists": true,
+      "validation_ok": true,
+      "validation_metrics": {
+        "result_row_count": 184,
+        "pair_summary_row_count": 16,
+        "self_preference_row_count": 4,
+        "matrix_row_count": 4,
+        "observed_evaluator_count": 4,
+        "observed_source_count": 4,
+        "missing_evaluators": [],
+        "missing_sources": [],
+        "max_self_preference_rate": 0.4482758620689655,
+        "mean_diagonal_margin_logprob": 0.05827960726760685
+      }
+    },
+    {
+      "name": "report_temporal_authorship_matrix",
+      "script": "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\scripts\\report_temporal_authorship_matrix.py",
+      "config": "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\configs\\identity_battery\\temporal_authorship_matrix_medium_v2.yaml",
+      "expected_output": "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\outputs\\latest\\temporal_authorship_matrix_medium_v2\\temporal_authorship_matrix_report.md",
+      "command": [
+        "C:/Users/joshj/miniconda3/python.exe",
+        "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\scripts\\report_temporal_authorship_matrix.py",
+        "--config",
+        "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\configs\\identity_battery\\temporal_authorship_matrix_medium_v2.yaml"
+      ],
+      "started_at": "2026-04-22T23:21:45.363368",
+      "status": "completed",
+      "finished_at": "2026-04-22T23:21:49.960531",
+      "return_code": 0,
+      "output_exists": true,
+      "validation_ok": true,
+      "validation_metrics": {
+        "validation": "not_configured"
+      }
+    }
+  ],
+  "finished_at": "2026-04-22T23:21:49.961645",
+  "status": "completed"
+}

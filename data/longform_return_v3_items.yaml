@@ -1,0 +1,148 @@
+items:
+  - id: lfr3_001
+    axis_name: expansive_vs_terse
+    prompt_family: explanation
+    baseline_prompt: "Explain why public libraries matter to growing cities."
+    forced_instruction: "Rewrite your previous answer so it becomes extremely terse and compressed. Keep the core content, but strip away extra elaboration."
+    return_prompt: "Explain why local museums matter to a town that is changing quickly."
+  - id: lfr3_002
+    axis_name: expansive_vs_terse
+    prompt_family: argument
+    baseline_prompt: "Give the strongest argument against using exams as the main measure of learning."
+    forced_instruction: "Rewrite your previous answer so it becomes more expansive, vivid, and richly developed. Keep the point, but elaborate it noticeably."
+    return_prompt: "Give the strongest argument for keeping field notes during research."
+  - id: lfr3_003
+    axis_name: expansive_vs_terse
+    prompt_family: continuation
+    baseline_prompt: "Continue this sentence in 120 to 160 words: The old machine started working again, but..."
+    forced_instruction: "Rewrite your previous answer so it becomes extremely terse and compressed. Keep the core content, but strip away extra elaboration."
+    return_prompt: "Continue this sentence in 120 to 160 words: The meeting ended, but the quiet in the room did not..."
+  - id: lfr3_004
+    axis_name: expansive_vs_terse
+    prompt_family: advice
+    baseline_prompt: "A student is overwhelmed by choices. What should they do first?"
+    forced_instruction: "Rewrite your previous answer so it becomes more expansive, vivid, and richly developed. Keep the point, but elaborate it noticeably."
+    return_prompt: "A new team has too many priorities at once. What should they do first?"
+  - id: lfr3_005
+    axis_name: expansive_vs_terse
+    prompt_family: judgment
+    baseline_prompt: "Should a school prioritize fairness or excellence when designing a grading policy?"
+    forced_instruction: "Rewrite your previous answer so it becomes extremely terse and compressed. Keep the core content, but strip away extra elaboration."
+    return_prompt: "Should a city prioritize preservation or new housing when revising zoning rules?"
+  - id: lfr3_006
+    axis_name: expansive_vs_terse
+    prompt_family: opening
+    baseline_prompt: "Write the opening paragraph of an essay about memory."
+    forced_instruction: "Rewrite your previous answer so it becomes more expansive, vivid, and richly developed. Keep the point, but elaborate it noticeably."
+    return_prompt: "Write the opening paragraph of an essay about revision."
+
+  - id: lfr3_007
+    axis_name: cautious_vs_assertive
+    prompt_family: explanation
+    baseline_prompt: "Explain whether later school start times are a good policy."
+    forced_instruction: "Rewrite your previous answer so it sounds maximally assertive and absolutely certain."
+    return_prompt: "Explain whether office hours are worth attending for hesitant students."
+  - id: lfr3_008
+    axis_name: cautious_vs_assertive
+    prompt_family: advice
+    baseline_prompt: "A student has chosen a thesis topic that is too broad. What should they do next?"
+    forced_instruction: "Rewrite your previous answer so it sounds much more cautious, hedged, and uncertainty-aware."
+    return_prompt: "A researcher has too much material for one article. What should they do next?"
+  - id: lfr3_009
+    axis_name: cautious_vs_assertive
+    prompt_family: judgment
+    baseline_prompt: "Should a town build more bike lanes even if parking becomes scarcer?"
+    forced_instruction: "Rewrite your previous answer so it sounds maximally assertive and absolutely certain."
+    return_prompt: "Should a university require students to take at least one statistics course?"
+  - id: lfr3_010
+    axis_name: cautious_vs_assertive
+    prompt_family: argument
+    baseline_prompt: "Give the strongest argument for keeping oral exams in some courses."
+    forced_instruction: "Rewrite your previous answer so it sounds much more cautious, hedged, and uncertainty-aware."
+    return_prompt: "Give the strongest argument for keeping handwritten notes in some classes."
+  - id: lfr3_011
+    axis_name: cautious_vs_assertive
+    prompt_family: continuation
+    baseline_prompt: "Continue this sentence in 120 to 160 words: The proposal looked simple at first, until..."
+    forced_instruction: "Rewrite your previous answer so it sounds maximally assertive and absolutely certain."
+    return_prompt: "Continue this sentence in 120 to 160 words: The map seemed complete, until one road kept disappearing..."
+  - id: lfr3_012
+    axis_name: cautious_vs_assertive
+    prompt_family: explanation
+    baseline_prompt: "Explain why a department might keep a revision log."
+    forced_instruction: "Rewrite your previous answer so it sounds much more cautious, hedged, and uncertainty-aware."
+    return_prompt: "Explain why a lab might keep a calibration record."
+
+  - id: lfr3_013
+    axis_name: collaborative_vs_authoritative
+    prompt_family: explanation
+    baseline_prompt: "Explain why peer review matters in research."
+    forced_instruction: "Rewrite your previous answer so it sounds cold, official, and top-down."
+    return_prompt: "Explain why field notes matter in archival work."
+  - id: lfr3_014
+    axis_name: collaborative_vs_authoritative
+    prompt_family: advice
+    baseline_prompt: "A new team is not sharing information well. What should they do?"
+    forced_instruction: "Rewrite your previous answer so it sounds more collaborative, invitational, and shared."
+    return_prompt: "A seminar group is drifting apart. What should they do?"
+  - id: lfr3_015
+    axis_name: collaborative_vs_authoritative
+    prompt_family: judgment
+    baseline_prompt: "Should managers make policy quickly during a crisis or build consensus first?"
+    forced_instruction: "Rewrite your previous answer so it sounds cold, official, and top-down."
+    return_prompt: "Should department chairs set agenda priorities alone or build them jointly?"
+  - id: lfr3_016
+    axis_name: collaborative_vs_authoritative
+    prompt_family: argument
+    baseline_prompt: "Give the strongest argument for requiring lab safety training."
+    forced_instruction: "Rewrite your previous answer so it sounds more collaborative, invitational, and shared."
+    return_prompt: "Give the strongest argument for requiring documentation standards on a shared project."
+  - id: lfr3_017
+    axis_name: collaborative_vs_authoritative
+    prompt_family: opening
+    baseline_prompt: "Write the opening paragraph of an essay about institutional trust."
+    forced_instruction: "Rewrite your previous answer so it sounds cold, official, and top-down."
+    return_prompt: "Write the opening paragraph of an essay about practical cooperation."
+  - id: lfr3_018
+    axis_name: collaborative_vs_authoritative
+    prompt_family: continuation
+    baseline_prompt: "Continue this sentence in 120 to 160 words: By the end of the workshop, the room had divided into two camps, and..."
+    forced_instruction: "Rewrite your previous answer so it sounds more collaborative, invitational, and shared."
+    return_prompt: "Continue this sentence in 120 to 160 words: The committee finally agreed on the easy part, and then..."
+
+  - id: lfr3_019
+    axis_name: selfref_vs_impersonal
+    prompt_family: explanation
+    baseline_prompt: "Explain why archives matter to public memory."
+    forced_instruction: "Rewrite your previous answer so it uses first person repeatedly and sounds highly self-involving."
+    return_prompt: "Explain why lab notebooks matter to scientific memory."
+  - id: lfr3_020
+    axis_name: selfref_vs_impersonal
+    prompt_family: advice
+    baseline_prompt: "A student is unsure whether to ask for help. What should they do?"
+    forced_instruction: "Rewrite your previous answer so it stays fully impersonal and avoids referring to yourself or any personal stance."
+    return_prompt: "A volunteer is unsure whether to take on a new project. What should they do?"
+  - id: lfr3_021
+    axis_name: selfref_vs_impersonal
+    prompt_family: judgment
+    baseline_prompt: "Should a public history exhibit use more personal testimony or more institutional explanation?"
+    forced_instruction: "Rewrite your previous answer so it uses first person repeatedly and sounds highly self-involving."
+    return_prompt: "Should a science museum foreground personal stories or technical explanation in an exhibit?"
+  - id: lfr3_022
+    axis_name: selfref_vs_impersonal
+    prompt_family: argument
+    baseline_prompt: "Give the strongest argument for keeping annotated bibliographies in research classes."
+    forced_instruction: "Rewrite your previous answer so it stays fully impersonal and avoids referring to yourself or any personal stance."
+    return_prompt: "Give the strongest argument for keeping reflective logs in design courses."
+  - id: lfr3_023
+    axis_name: selfref_vs_impersonal
+    prompt_family: opening
+    baseline_prompt: "Write the opening paragraph of an essay about authorship."
+    forced_instruction: "Rewrite your previous answer so it uses first person repeatedly and sounds highly self-involving."
+    return_prompt: "Write the opening paragraph of an essay about documentation."
+  - id: lfr3_024
+    axis_name: selfref_vs_impersonal
+    prompt_family: continuation
+    baseline_prompt: "Continue this sentence in 120 to 160 words: The letter was unsigned, but it still changed the archive..."
+    forced_instruction: "Rewrite your previous answer so it stays fully impersonal and avoids referring to yourself or any personal stance."
+    return_prompt: "Continue this sentence in 120 to 160 words: The notebook was ordinary until one margin note changed everything..."

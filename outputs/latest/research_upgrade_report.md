@@ -66,3 +66,10 @@ python scripts/self_report_behavior.py --config configs\identity_battery\pilot_p
 1. Patterned Continuity Without Strong Self-Model Coherence
 2. Scaling, Trajectory Phase, and Weak Self-Model Coherence in Language Models
 3. Identity Framing as a Weak Modulator of Steering Resistance
+
+## 2026-04-22 Ship-of-Theseus Graft Blocker
+
+- Implemented: `scripts/diachronic_ship_of_theseus_graft.py`, prompt bank `data/diachronic_ship_of_theseus_prompts.yaml`, and report/config stack under `configs/identity_battery/`.
+- Exact full-grid design implemented: two directional checkpoint pairs, token positions `-1` and `0`, five layer buckets, lambdas `0.00/0.25/0.50/0.75/1.00`, graft modes `single_layer/prefix/suffix`, and controls `primary/adjacent/very_early/random_same_norm/shuffled_prompt/name_only`.
+- Compute blocker: the exact 120-prompt grid expands to roughly `180,480` graft rows before counting clean-cache warmup across checkpoint revisions. An initial larger smoke reached only `100` graft rows after the expensive revision-precompute stage, making the literal 120-prompt first launch impractical on the current machine as an overnight run.
+- Action taken: kept the exact full config for reproducibility, added a tiny debug validator, and launched an overnight-sized run that preserves the full causal design but uses `8` selected prompts from the 120-prompt neutral bank.

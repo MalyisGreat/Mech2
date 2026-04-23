@@ -1,0 +1,35 @@
+output_root: C:/Users/joshj/joseph-stroud-identity-stability-research/outputs/latest/cpu_identity_overnight_push
+python_exe: C:/Users/joshj/miniconda3/python.exe
+steps:
+  - name: self_prediction_transfer_v3_template_instruction
+    script: scripts/self_prediction_transfer_v3.py
+    config: configs/identity_battery/self_prediction_transfer_v3_template_instruction_full.yaml
+    expected_output: outputs/latest/cpu_identity_overnight_push/template_instruction/self_prediction_transfer_v3/summary_by_model_frame.csv
+  - name: self_prediction_transfer_v3_template_chat
+    script: scripts/self_prediction_transfer_v3.py
+    config: configs/identity_battery/self_prediction_transfer_v3_template_chat_full.yaml
+    expected_output: outputs/latest/cpu_identity_overnight_push/template_chat/self_prediction_transfer_v3/summary_by_model_frame.csv
+  - name: self_prediction_transfer_v3_template_plain
+    script: scripts/self_prediction_transfer_v3.py
+    config: configs/identity_battery/self_prediction_transfer_v3_template_plain_full.yaml
+    expected_output: outputs/latest/cpu_identity_overnight_push/template_plain/self_prediction_transfer_v3/summary_by_model_frame.csv
+  - name: kinship_ladder_dissociation
+    script: scripts/kinship_ladder_dissociation.py
+    config: configs/identity_battery/kinship_ladder_dissociation_full.yaml
+    expected_output: outputs/latest/cpu_identity_overnight_push/kinship_ladder_dissociation/kinship_ladder_dissociation/summary_by_foil.csv
+  - name: behavioral_fingerprint_transfer_nuisance
+    script: scripts/behavioral_fingerprint_transfer.py
+    config: configs/identity_battery/behavioral_fingerprint_transfer_nuisance_full.yaml
+    expected_output: outputs/latest/cpu_identity_overnight_push/behavioral_fingerprint_nuisance/behavioral_fingerprint_transfer/summary_by_model_frame.csv
+  - name: commitment_persistence_v2_adversarial
+    script: scripts/commitment_persistence_v2.py
+    config: configs/identity_battery/commitment_persistence_v2_adversarial_full.yaml
+    expected_output: outputs/latest/cpu_identity_overnight_push/commitment_persistence_adversarial/commitment_persistence_v2/summary_by_model_frame.csv
+  - name: source_monitoring_attribution
+    script: scripts/source_monitoring_attribution.py
+    config: configs/identity_battery/source_monitoring_attribution_full.yaml
+    expected_output: outputs/latest/cpu_identity_overnight_push/source_monitoring_attribution/source_monitoring_attribution/summary_by_pair_type.csv
+  - name: report_cpu_identity_overnight_push
+    script: scripts/report_cpu_identity_overnight_push.py
+    config: configs/identity_battery/cpu_identity_overnight_push_report_full.yaml
+    expected_output: outputs/latest/cpu_identity_overnight_push/cpu_identity_overnight_push_report.md

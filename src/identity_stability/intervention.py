@@ -15,9 +15,17 @@ class TraceResult:
     per_layer_states: torch.Tensor
     next_token_logits: torch.Tensor
     generated_text: str
+    completion_text: str = ""
     prompt_token_count: int = 0
     generated_token_count: int = 0
     layer_topk_tokens: list[dict[str, Any]] | None = None
+
+
+@dataclass
+class ResidualGraft:
+    layer_index: int
+    donor_state: torch.Tensor
+    blend_lambda: float
 
 
 def resolve_layer_indices(n_layers: int, layer_positions: list[float]) -> list[int]:
@@ -251,10 +259,16 @@ def run_trace_batch(
                     eos_token_id=tokenizer.eos_token_id,
                 )
                 generated_texts = tokenizer.batch_decode(generated_ids, skip_special_tokens=True)
+                completion_texts = []
+                input_len = encoded["input_ids"].shape[1]
+                for row in generated_ids:
+                    completion_ids = row[input_len:]
+                    completion_texts.append(tokenizer.decode(completion_ids, skip_special_tokens=True))
                 generated_steps = int(max(0, generated_ids.shape[1] - encoded["input_ids"].shape[1]))
                 generated_token_counts = [generated_steps for _ in prompts]
             else:
                 generated_texts = list(prompts)
+                completion_texts = ["" for _ in prompts]
                 generated_token_counts = [0 for _ in prompts]
     finally:
         if handle is not None:
@@ -270,9 +284,137 @@ def run_trace_batch(
                 per_layer_states=per_layer[b],
                 next_token_logits=logits[b],
                 generated_text=generated_texts[b],
+                completion_text=completion_texts[b],
                 prompt_token_count=int(prompt_token_counts[b]),
                 generated_token_count=int(generated_token_counts[b]),
                 layer_topk_tokens=per_layer_topk[b],
             )
         )
     return results
+
+
+def run_grafted_trace(
+    loaded: LoadedModel,
+    prompt: str,
+    max_prompt_tokens: int,
+    token_position: int,
+    generate_tokens: int,
+    grafts: list[ResidualGraft],
+    layer_topk_tokens: int = 0,
+    layer_topk_prompt_limit: int = 1,
+) -> TraceResult:
+    model = loaded.model
+    tokenizer = loaded.tokenizer
+    device = loaded.device
+
+    encoded = tokenizer(
+        [prompt],
+        return_tensors="pt",
+        padding=True,
+        truncation=True,
+        max_length=max_prompt_tokens,
+    )
+    encoded = {k: v.to(device) for k, v in encoded.items()}
+    attention_mask = encoded["attention_mask"]
+    prompt_token_count = int(attention_mask.sum(dim=1).detach().cpu().tolist()[0])
+    token_idx = _select_indices(attention_mask, token_position)
+    last_prompt_idx = _select_indices(attention_mask, -1)
+
+    layers = get_layer_modules(model)
+    hook_handles: list[torch.utils.hooks.RemovableHandle] = []
+    hook_states: dict[int, dict[str, Any]] = {}
+    batch_size = int(attention_mask.shape[0])
+    seq_len = int(encoded["input_ids"].shape[1])
+
+    for graft in grafts:
+        donor_state = graft.donor_state.to(device=device, dtype=model.dtype)
+        hook_states[int(graft.layer_index)] = {
+            "enabled": True,
+            "blend_lambda": float(graft.blend_lambda),
+            "donor_state": donor_state,
+        }
+
+        def _make_pre_hook(layer_index: int):
+            def _pre_hook(module: torch.nn.Module, inputs: tuple[torch.Tensor, ...]) -> tuple[torch.Tensor, ...]:
+                state = hook_states[layer_index]
+                if not state["enabled"]:
+                    return inputs
+                hidden_states = inputs[0].clone()
+                local_seq_len = hidden_states.shape[1]
+                donor_vec = state["donor_state"]
+                lam = float(state["blend_lambda"])
+                for b in range(batch_size):
+                    idx = int(token_idx[b].item())
+                    idx = max(0, min(local_seq_len - 1, idx))
+                    host_vec = hidden_states[b, idx, :]
+                    hidden_states[b, idx, :] = ((1.0 - lam) * host_vec) + (lam * donor_vec)
+                state["enabled"] = False
+                return (hidden_states,) + tuple(inputs[1:])
+
+            return _pre_hook
+
+        hook_handles.append(layers[int(graft.layer_index)].register_forward_pre_hook(_make_pre_hook(int(graft.layer_index))))
+
+    try:
+        with torch.inference_mode():
+            for state in hook_states.values():
+                state["enabled"] = True
+            outputs = model(
+                **encoded,
+                output_hidden_states=True,
+                use_cache=False,
+                return_dict=True,
+            )
+
+            per_layer = _select_hidden_per_layer(
+                outputs.hidden_states,
+                attention_mask=attention_mask,
+                token_position=token_position,
+            ).detach().float().cpu()
+            per_layer_topk = _compute_layer_topk_tokens(
+                model=model,
+                tokenizer=tokenizer,
+                hidden_states=outputs.hidden_states,
+                attention_mask=attention_mask,
+                token_position=token_position,
+                topk_tokens=layer_topk_tokens,
+                prompt_limit=layer_topk_prompt_limit,
+            )
+            logits_full = outputs.logits
+            batch_idx = torch.arange(logits_full.shape[0], device=logits_full.device)
+            logits = logits_full[batch_idx, last_prompt_idx, :].detach().float().cpu()
+
+            if generate_tokens > 0:
+                for state in hook_states.values():
+                    state["enabled"] = True
+                generated_ids = model.generate(
+                    **encoded,
+                    max_new_tokens=int(generate_tokens),
+                    do_sample=False,
+                    pad_token_id=tokenizer.pad_token_id,
+                    eos_token_id=tokenizer.eos_token_id,
+                )
+                generated_texts = tokenizer.batch_decode(generated_ids, skip_special_tokens=True)
+                input_len = encoded["input_ids"].shape[1]
+                completion_ids = generated_ids[0, input_len:]
+                completion_text = tokenizer.decode(completion_ids, skip_special_tokens=True)
+                generated_token_count = int(max(0, generated_ids.shape[1] - input_len))
+            else:
+                generated_texts = [prompt]
+                completion_text = ""
+                generated_token_count = 0
+    finally:
+        for handle in hook_handles:
+            handle.remove()
+
+    return TraceResult(
+        prompt=prompt,
+        token_indices=[int(token_idx[0].detach().cpu().item())],
+        per_layer_states=per_layer[0],
+        next_token_logits=logits[0],
+        generated_text=generated_texts[0],
+        completion_text=completion_text,
+        prompt_token_count=prompt_token_count,
+        generated_token_count=generated_token_count,
+        layer_topk_tokens=per_layer_topk[0],
+    )

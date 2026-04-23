@@ -1,0 +1,58 @@
+{
+  "config": "configs\\identity_battery\\checkpoint_age_recognition_v2_full_suite.yaml",
+  "started_at": "2026-04-23T00:15:16.057409",
+  "python_exe": "C:/Users/joshj/miniconda3/python.exe",
+  "steps": [
+    {
+      "name": "checkpoint_age_recognition_v2",
+      "script": "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\scripts\\checkpoint_age_recognition_v2.py",
+      "config": "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\configs\\identity_battery\\checkpoint_age_recognition_v2_full.yaml",
+      "expected_output": "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\outputs\\latest\\checkpoint_age_recognition_v2\\checkpoint_age_recognition_v2\\summary_by_pair.csv",
+      "command": [
+        "C:/Users/joshj/miniconda3/python.exe",
+        "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\scripts\\checkpoint_age_recognition_v2.py",
+        "--config",
+        "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\configs\\identity_battery\\checkpoint_age_recognition_v2_full.yaml"
+      ],
+      "started_at": "2026-04-23T00:15:16.058663",
+      "status": "completed",
+      "finished_at": "2026-04-23T00:32:49.128813",
+      "return_code": 0,
+      "output_exists": true,
+      "validation_ok": true,
+      "validation_metrics": {
+        "result_row_count": 24,
+        "pair_summary_row_count": 3,
+        "comparison_summary_row_count": 3,
+        "generation_quality_row_count": 4,
+        "observed_comparison_count": 3,
+        "observed_evaluator_count": 1,
+        "max_choose_anchor_centered_rate": 0.75,
+        "max_generation_valid_rate": 0.3888888888888889
+      }
+    },
+    {
+      "name": "report_checkpoint_age_recognition_v2",
+      "script": "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\scripts\\report_checkpoint_age_recognition_v2.py",
+      "config": "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\configs\\identity_battery\\checkpoint_age_recognition_v2_full.yaml",
+      "expected_output": "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\outputs\\latest\\checkpoint_age_recognition_v2\\checkpoint_age_recognition_v2_report.md",
+      "command": [
+        "C:/Users/joshj/miniconda3/python.exe",
+        "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\scripts\\report_checkpoint_age_recognition_v2.py",
+        "--config",
+        "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\configs\\identity_battery\\checkpoint_age_recognition_v2_full.yaml"
+      ],
+      "started_at": "2026-04-23T00:32:49.170287",
+      "status": "completed",
+      "finished_at": "2026-04-23T00:32:52.509899",
+      "return_code": 0,
+      "output_exists": true,
+      "validation_ok": true,
+      "validation_metrics": {
+        "validation": "not_configured"
+      }
+    }
+  ],
+  "finished_at": "2026-04-23T00:32:52.510695",
+  "status": "completed"
+}

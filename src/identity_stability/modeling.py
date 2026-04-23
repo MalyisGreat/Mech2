@@ -12,6 +12,7 @@ from transformers import AutoModelForCausalLM, AutoTokenizer, PreTrainedModel, P
 @dataclass
 class LoadedModel:
     model_id: str
+    revision: str | None
     model: PreTrainedModel
     tokenizer: PreTrainedTokenizerBase
     device: torch.device
@@ -83,16 +84,18 @@ def load_model(
     dtype_name: str,
     use_gpu: bool,
     attention_backend: str = "auto",
+    revision: str | None = None,
 ) -> LoadedModel:
     device = resolve_device(use_gpu=use_gpu)
     torch_dtype = resolve_torch_dtype(dtype_name, device)
-    local_files_only = _cached_snapshot_exists(model_id, cache_dir)
+    local_files_only = _cached_snapshot_exists(model_id, cache_dir) if revision is None else False
     _configure_hf_parallel_loading()
 
     tokenizer = AutoTokenizer.from_pretrained(
         model_id,
         cache_dir=str(cache_dir),
         local_files_only=local_files_only,
+        revision=revision,
     )
     if tokenizer.pad_token_id is None:
         tokenizer.pad_token = tokenizer.eos_token
@@ -115,6 +118,7 @@ def load_model(
                 load_kwargs["attn_implementation"] = attn_impl
             model = AutoModelForCausalLM.from_pretrained(
                 model_id,
+                revision=revision,
                 **load_kwargs,
             )
             break
@@ -146,6 +150,7 @@ def load_model(
 
     return LoadedModel(
         model_id=model_id,
+        revision=revision,
         model=model,
         tokenizer=tokenizer,
         device=model_device,

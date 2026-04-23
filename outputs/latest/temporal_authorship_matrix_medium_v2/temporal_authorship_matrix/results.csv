@@ -1,0 +1,933 @@
+evaluator_revision,evaluator_step,source_revision,source_step,prompt_id,prompt_family,prompt,completion_text,avg_logprob,sum_logprob,perplexity,answer_token_count,temporal_distance,same_revision,winner_source_revision,winner_avg_logprob,self_preferred,distance_from_diagonal,diagonal_margin_logprob
+step128000,128000,step143000,143000,advice_003,advice,A researcher has collected too much material for one paper. What should they do first?,"
+
+A:
+
+The first thing to do is to find out what you want to say.  If you want to say that the government is not doing enough to protect the environment, then you should say that.  If you want to say that the government is not",-1.0626306533813477,-59.50731658935547,2.8939740269644805,56,15000,0,step143000,-1.0626306533813477,0,15000,-0.05789613723754883
+step128000,128000,step128000,128000,advice_003,advice,A researcher has collected too much material for one paper. What should they do first?,"
+
+A:
+
+I think the best way to do this is to start with a list of questions that you think are important. Then, you can start writing a paper that answers those questions.
+
+A:
+
+I think the best way to do this is",-1.1205267906188965,-62.7495002746582,3.0664691650715925,56,0,1,step143000,-1.0626306533813477,0,0,-0.05789613723754883
+step128000,128000,step128000,128000,advice_007,advice,A manager inherits a project with unclear ownership. What should they do first?,"
+
+A:
+
+The first thing to do is to make sure that the project is owned by the owner.  If the project is owned by the owner, then the manager should be the owner.  If the project is owned by someone else, then the manager should",-0.9798735976219177,-54.872920989990234,2.6641194696090005,56,0,1,step128000,-0.9798735976219177,1,0,0.4089863896369934
+step128000,128000,step143000,143000,advice_007,advice,A manager inherits a project with unclear ownership. What should they do first?,"
+
+A:
+
+The first step is to determine what the project is.  If it's a new project, then you can't just start over.  You need to determine what the project is and what the ownership is.  If it's a new project,",-1.3888599872589111,-77.77616119384766,4.010275680696993,56,15000,0,step128000,-0.9798735976219177,1,15000,0.4089863896369934
+step128000,128000,step16000,16000,advice_007,advice,A manager inherits a project with unclear ownership. What should they do first?,"
+
+The project is a small, but ambitious, attempt to create a new, more efficient, and more efficient way to run a business. It’s a project that has been around for a while, but it’s not a new idea. It’s a project",-1.8103879690170288,-101.38172912597656,6.112818556446122,56,112000,0,step128000,-0.9798735976219177,1,112000,0.4089863896369934
+step128000,128000,step16000,16000,advice_013,advice,A student is falling behind because every assignment feels equally urgent. What should they do first?,"
+
+The first thing to do is to make a list of the things you want to do in the future. This list should be something like this:
+
+1. Write down the things you want to do in the future.
+
+2. Write down the things you",-1.1763193607330322,-65.87388610839844,3.2424180420642275,56,112000,0,step16000,-1.1763193607330322,0,112000,
+step128000,128000,step128000,128000,advice_017,advice,A small town wants to improve civic participation. What should it do first?,"
+
+The town of Littleton, Colorado, is a small town with a population of about 1,000. It is located in the foothills of the Rocky Mountains. Littleton is a small town with a population of about 1,000. It is located",-0.9937516450881958,-55.65009307861328,2.701349991993905,56,0,1,step128000,-0.9937516450881958,1,0,0.2507535219192505
+step128000,128000,step143000,143000,advice_017,advice,A small town wants to improve civic participation. What should it do first?,"
+
+The town of St. Paul, Minnesota, is a small town with a population of about 1,000. It is located in the heart of the Twin Cities metropolitan area. The town is located in the St. Paul-Hennepin County Metropolitan Statistical Area.",-1.2445051670074463,-69.69229125976562,3.471216701737872,56,15000,0,step128000,-0.9937516450881958,1,15000,0.2507535219192505
+step128000,128000,step128000,128000,advice_019,advice,A student wants to study more effectively but keeps rereading passively. What should they do first?,"
+
+A:
+
+I think the best way to approach this is to think about the problem as a problem of learning.  You want to learn how to do something, but you don't want to learn how to do it well.  You want to learn how to",-1.0451151132583618,-58.52644729614258,2.8437258553603963,56,0,1,step128000,-1.0451151132583618,1,0,0.14774835109710693
+step128000,128000,step64000,64000,advice_019,advice,A student wants to study more effectively but keeps rereading passively. What should they do first?,"
+
+The first thing to do is to get a good grip on the situation. What is the situation? What is the problem? What is the solution?
+
+The problem is that the student is not getting the information he needs. The problem is that he is not getting",-1.1928634643554688,-66.80035400390625,3.296507136219009,56,64000,0,step128000,-1.0451151132583618,1,64000,0.14774835109710693
+step128000,128000,step16000,16000,advice_020,advice,A nonprofit has an ambitious mission but weak coordination. What should it do first?,"
+
+The nonprofit’s mission is to provide a safe, secure, and affordable place to live for the homeless. It’s a mission that’s been in the works for years, but the nonprofit’s first step is to create a safe, secure, and affordable",-1.4175214767456055,-79.3812026977539,4.126879187867826,56,112000,0,step16000,-1.4175214767456055,0,112000,
+step128000,128000,step64000,64000,advice_020,advice,A nonprofit has an ambitious mission but weak coordination. What should it do first?,"
+
+The mission of the nonprofit is to provide a safe, affordable, and accessible education for children and their families. The organization is also committed to providing a safe, affordable, and accessible environment for children and their families.
+
+The organization is currently working with the U.",-1.4263449907302856,-79.87532043457031,4.163453885481553,56,64000,0,step16000,-1.4175214767456055,0,64000,
+step128000,128000,step143000,143000,advice_020,advice,A nonprofit has an ambitious mission but weak coordination. What should it do first?,"
+
+The organization is called the National Alliance for the Homeless, and it is a nonprofit that works to end homelessness. It has a website, a Facebook page, and a Twitter account. It has a Facebook page with more than 1,000 followers.
+
+The",-1.430410385131836,-80.10298156738281,4.180414419869977,56,15000,0,step16000,-1.4175214767456055,0,15000,
+step128000,128000,step143000,143000,explanation_004,explanation,Explain why museums use wall labels.,"
+
+The museum’s website says: “The museum is dedicated to the preservation of the history of the city of London and the surrounding area. It is a place where visitors can discover the history of London and the city’s people. The museum is a place where visitors",-2.4925475120544434,-139.58265686035156,12.09204153775075,56,15000,0,step143000,-2.4925475120544434,0,15000,
+step128000,128000,step64000,64000,explanation_007,explanation,Explain why towns maintain public transit.,"
+
+The city of San Diego has a public transit system that is the largest in the country. The San Diego Regional Transit Authority (SDRTA) is the largest transit agency in the country. The SDRTA is the largest transit agency in the United States. The SD",-1.3114155530929565,-73.43927001953125,3.711423712822196,56,64000,0,step64000,-1.3114155530929565,0,64000,-0.24070072174072266
+step128000,128000,step143000,143000,explanation_007,explanation,Explain why towns maintain public transit.,"
+
+The city of New York has a long history of public transit. The city’s first subway system opened in 1883, and the city’s first bus system opened in 1905. The city’s first subway line opened in 1909, and the city’s first",-1.382193684577942,-77.40284729003906,3.9836308790054145,56,15000,0,step64000,-1.3114155530929565,0,15000,-0.24070072174072266
+step128000,128000,step128000,128000,explanation_007,explanation,Explain why towns maintain public transit.,"
+
+The city of New York has a long history of public transit. The city’s first subway system was built in 1883, and the first subway car was built in the Bronx in 1904. The city’s first subway car was the first subway car in the world",-1.5521162748336792,-86.91851043701172,4.721451506254614,56,0,1,step64000,-1.3114155530929565,0,0,-0.24070072174072266
+step128000,128000,step16000,16000,explanation_007,explanation,Explain why towns maintain public transit.,"
+
+“We’re not going to be able to do this without public transportation,” said Mayor John Hancock. “We’re going to have to do this on a local level.”
+
+The city is also considering a proposal to build a new $1.5",-1.7962112426757812,-100.58782958984375,6.0267701838716485,56,112000,0,step64000,-1.3114155530929565,0,112000,-0.24070072174072266
+step128000,128000,step64000,64000,explanation_010,explanation,Explain why software teams use version control.,"
+
+The following are some of the most common reasons why software teams use version control:
+
+1. Version control is a way to ensure that your software is always up to date.
+
+2. Version control is a way to ensure that your software is always up to",-1.2392388582229614,-69.39737701416016,3.4529842537174646,56,64000,0,step64000,-1.2392388582229614,0,64000,-0.07899999618530273
+step128000,128000,step128000,128000,explanation_010,explanation,Explain why software teams use version control.,"
+
+The first step in version control is to create a version control system. This is a system that allows you to track changes in your code. Version control systems are used to track changes in your code.
+
+Version control systems are used to track changes in your code.",-1.3182388544082642,-73.82137298583984,3.736834469158888,56,0,1,step64000,-1.2392388582229614,0,0,-0.07899999618530273
+step128000,128000,step64000,64000,explanation_011,explanation,Explain why newspapers keep corrections pages.,"
+
+The first thing to note is that the corrections page is not a page that is automatically generated. It is a page that is manually created by the editor. The editor is responsible for creating the page and for making sure that it is correct.
+
+The second thing to",-2.4093434810638428,-134.92323303222656,11.126653887678016,56,64000,0,step64000,-2.4093434810638428,0,64000,
+step128000,128000,step64000,64000,explanation_012,explanation,Explain why research groups maintain lab notebooks.,"
+
+The research groups are also required to keep a journal of their research.
+
+The journal should be kept in a locked cabinet and should be kept in a locked cabinet with a lock.
+
+The journal should be kept in a locked cabinet with a lock.
+
+",-2.648495674133301,-145.66726684570312,14.132762366164231,55,64000,0,step64000,-2.648495674133301,0,64000,
+step128000,128000,step16000,16000,explanation_013,explanation,Explain why legislatures use committees.,"
+
+The committee’s report, which was released in January, said the state’s “unprecedented” use of the committee’s powers to “create and implement” a new law “is a violation of the state’s constitutional right to a public hearing.”
+",-2.921128511428833,-163.58319091796875,18.56222332551048,56,112000,0,step16000,-2.921128511428833,0,112000,
+step128000,128000,step16000,16000,explanation_014,explanation,Explain why cities zone industrial districts.,"
+
+The city of San Francisco has been criticized for its lack of industrial districts, and the city’s industrial districts are often the most expensive in the country.
+
+The city’s industrial districts are often the most expensive in the country.
+
+The city’s",-2.5483858585357666,-142.70960998535156,12.786447980588807,56,112000,0,step16000,-2.5483858585357666,0,112000,-0.8558080196380615
+step128000,128000,step128000,128000,explanation_014,explanation,Explain why cities zone industrial districts.,"
+
+The city of New York has a long history of zoning. In the early 1900s, the city was a leader in the development of the industrial districts. The city’s first zoning ordinance was passed in 1883, and the first zoning ordinance was passed in New York",-3.404193878173828,-190.63485717773438,30.090029714848768,56,0,1,step16000,-2.5483858585357666,0,0,-0.8558080196380615
+step128000,128000,step128000,128000,explanation_015,explanation,Explain why conferences use peer review.,"
+
+The peer review process is a critical component of the process of peer review. Peer review is a process in which a group of reviewers reviews a paper and makes a decision about whether or not to accept the paper. Peer review is a process in which a group of reviewers reviews",-1.5371971130371094,-86.08303833007812,4.65153425754281,56,0,1,step128000,-1.5371971130371094,1,0,
+step128000,128000,step16000,16000,judgment_004,judgment,Should a workplace optimize for speed or careful review when deadlines are tight?,"
+
+The answer is yes.
+
+The most important thing to remember is that you should not be too quick to judge a company’s performance.
+
+The best way to do this is to make sure that you are not too quick to judge a company’s performance",-1.4664033651351929,-82.11859130859375,4.33362062700414,56,112000,0,step16000,-1.4664033651351929,0,112000,
+step128000,128000,step143000,143000,judgment_008,judgment,Should a newsroom publish quickly with updates or wait for fuller confirmation?,"
+
+I’m not sure I’d call it a “newsroom” but I’m sure it’s a place where people can get their news.
+
+I’m not sure I’d call it a “newsroom” but I’m sure",-1.000357747077942,-56.0200309753418,2.719254459807837,56,15000,0,step143000,-1.000357747077942,0,15000,
+step128000,128000,step64000,64000,judgment_009,judgment,Should a university require broad general education or early specialization?,"
+
+I am a graduate student in the field of education. I am interested in the question of whether a university should require broad general education or early specialization. I am not sure if I understand the question correctly.
+
+A:
+
+The question is not about whether a",-1.253556251525879,-70.19915008544922,3.502777592169494,56,64000,0,step64000,-1.253556251525879,0,64000,-0.07829165458679199
+step128000,128000,step128000,128000,judgment_009,judgment,Should a university require broad general education or early specialization?,"
+
+A:
+
+The answer is yes.
+The University of California, Berkeley, has a general education requirement for all students.  The requirement is that the student must have a general education in the sciences, mathematics, and the humanities.  The requirement is not",-1.331847906112671,-74.58348083496094,3.7880368604074626,56,0,1,step64000,-1.253556251525879,0,0,-0.07829165458679199
+step128000,128000,step64000,64000,judgment_013,judgment,Should a community preserve a historic building or replace it with housing?,"
+
+The answer is yes.
+
+The City of San Diego has a historic building that is being preserved and is being used as a community center. The building is located in the heart of the city and is a great example of how a community can preserve a historic building.",-1.7839301824569702,-99.90009307861328,5.95320769358789,56,64000,0,step64000,-1.7839301824569702,0,64000,
+step128000,128000,step64000,64000,judgment_014,judgment,Should a school ban phones outright or regulate their use?,"
+
+I’m not sure what you mean by “ban phones outright” but I’m sure you’re referring to the fact that the FCC has not yet decided whether or not to ban phones outright.
+
+I’m not sure what you mean by “regulate",-1.312451720237732,-73.49729919433594,3.715271361192926,56,64000,0,step64000,-1.312451720237732,0,64000,
+step128000,128000,step64000,64000,judgment_017,judgment,Should a town build a large central park or several smaller parks?,"
+
+I think it's a good idea to have a central park. It's a great place to get away from the hustle and bustle of the city. It's also a great place to get away from the city.
+
+I think it's a good idea",-1.0180374383926392,-57.010093688964844,2.7677575355838333,56,64000,0,step64000,-1.0180374383926392,0,64000,
+step128000,128000,step143000,143000,judgment_017,judgment,Should a town build a large central park or several smaller parks?,"
+
+I think that the answer is yes.
+
+The problem is that the parks are not large enough to support the number of people who would use them.
+
+The parks are not large enough to support the number of people who would use them.
+
+The parks",-1.1146026849746704,-62.41775131225586,3.0483567805936933,56,15000,0,step64000,-1.0180374383926392,0,15000,
+step128000,128000,step128000,128000,judgment_018,judgment,Should an instructor prioritize mastery or coverage in a difficult course?,"
+
+I’ve been teaching for over 20 years and I’ve never seen a course that was so difficult that I couldn’t get through it. I’ve taught in many different settings, but I’ve never seen a course that was so difficult that I couldn",-1.1268779039382935,-63.105159759521484,3.0860066348988755,56,0,1,step128000,-1.1268779039382935,1,0,0.12262988090515137
+step128000,128000,step64000,64000,judgment_018,judgment,Should an instructor prioritize mastery or coverage in a difficult course?,"
+
+I’m not sure if this is a question that I’m asking, but I’m curious about the answer. I’m a high school teacher and I’ve been teaching for about a year now. I’ve been teaching for about a year and",-1.2495077848434448,-69.9724349975586,3.488625380499987,56,64000,0,step128000,-1.1268779039382935,1,64000,0.12262988090515137
+step128000,128000,step16000,16000,judgment_018,judgment,Should an instructor prioritize mastery or coverage in a difficult course?,"
+
+The answer is yes.
+
+The question is, “What is the most important thing you can do to improve your mastery of a difficult course?”
+
+The answer is, “I don’t know.”
+
+The question is, “What is the most",-1.2571814060211182,-70.40216064453125,3.5154987462465033,56,112000,0,step128000,-1.1268779039382935,1,112000,0.12262988090515137
+step128000,128000,step16000,16000,style_opening_001,style_opening,Write the opening paragraph of an essay about memory.,"
+
+The first thing you should do is to write a short introduction. This is a good way to start your essay. You should also write a short introduction that is short and to the point.
+
+The second thing you should do is to write a short introduction that is",-2.1901261806488037,-122.6470718383789,8.936340636821,56,112000,0,step16000,-2.1901261806488037,0,112000,
+step128000,128000,step143000,143000,style_opening_006,style_opening,Write the opening paragraph of an essay about public attention.,"
+
+The essay is a great way to get your point across. It’s also a great way to get your point across to your audience.
+
+The opening paragraph is the most important part of your essay. It’s the first thing that your audience sees when they",-1.1621655225753784,-65.08126831054688,3.1968486336185022,56,15000,0,step143000,-1.1621655225753784,0,15000,
+step128000,128000,step16000,16000,style_opening_006,style_opening,Write the opening paragraph of an essay about public attention.,"
+
+The first thing you should do is to write a short introduction. This is a good way to start your essay. You should also write a short introduction that is short and to the point.
+
+The second thing you should do is to write a short introduction that is",-1.3693650960922241,-76.6844482421875,3.9328529189433943,56,112000,0,step143000,-1.1621655225753784,0,112000,
+step128000,128000,step16000,16000,style_opening_011,style_opening,Write the opening paragraph of an essay about attention.,"
+
+The first thing you should do is to write a short introduction. This is a good way to start your essay. You should also write a short introduction that is short and to the point.
+
+The second thing you should do is to write a short introduction that is",-1.6974257230758667,-95.05583953857422,5.4598740573745745,56,112000,0,step16000,-1.6974257230758667,0,112000,
+step128000,128000,step16000,16000,style_opening_013,style_opening,Write the opening paragraph of an essay about delay.,"
+
+The first thing you should do is to write a short introduction. This is a good way to introduce yourself to the reader and to make them feel comfortable with you.
+
+The second thing you should do is to write a short conclusion. This is a good way to",-1.6188240051269531,-90.65414428710938,5.047151401010109,56,112000,0,step16000,-1.6188240051269531,0,112000,
+step128000,128000,step16000,16000,style_opening_017,style_opening,Write the opening paragraph of an essay about rules.,"
+
+The first thing you should do is to write a short introduction. This is a good way to start your essay. You should also write a short introduction that is short and to the point.
+
+The second thing you should do is to write a short introduction that is",-1.741792917251587,-97.5404052734375,5.707567450661991,56,112000,0,step16000,-1.741792917251587,0,112000,
+step128000,128000,step16000,16000,style_opening_018,style_opening,Write the opening paragraph of an essay about access.,"
+
+The first thing you should do is to write a short introduction. This is a good way to start your essay. You should also write a short introduction that is short and to the point.
+
+The second thing you should do is to write a short introduction that is",-1.6512775421142578,-92.47154235839844,5.213636214199203,56,112000,0,step16000,-1.6512775421142578,0,112000,
+step128000,128000,step143000,143000,style_opening_019,style_opening,Write the opening paragraph of an essay about expertise and doubt.,"
+
+The essay is a great way to introduce your topic and to get your reader to think about it.
+
+The opening paragraph is the most important part of your essay. It is the first thing your reader will see and it is the first thing they will remember.
+",-1.312102198600769,-73.47772216796875,3.713973020377322,56,15000,0,step143000,-1.312102198600769,0,15000,
+step128000,128000,step16000,16000,style_opening_020,style_opening,Write the opening paragraph of an essay about common goods.,"
+
+The first thing you should do is to write a short introduction. This is a good way to start your essay. You should also write a short introduction that is short and to the point.
+
+The second thing you should do is to write a conclusion. This is",-1.7106101512908936,-95.7941665649414,5.532336009989826,56,112000,0,step16000,-1.7106101512908936,0,112000,
+step143000,143000,step143000,143000,advice_003,advice,A researcher has collected too much material for one paper. What should they do first?,"
+
+A:
+
+The first thing to do is to find out what you want to say.  If you want to say that the government is not doing enough to protect the environment, then you should say that.  If you want to say that the government is not",-1.0707257986068726,-59.96064758300781,2.917496246429476,56,0,1,step143000,-1.0707257986068726,1,0,0.07856917381286621
+step143000,143000,step128000,128000,advice_003,advice,A researcher has collected too much material for one paper. What should they do first?,"
+
+A:
+
+I think the best way to do this is to start with a list of questions that you think are important. Then, you can start writing a paper that answers those questions.
+
+A:
+
+I think the best way to do this is",-1.1492949724197388,-64.36051940917969,3.155967081312047,56,15000,0,step143000,-1.0707257986068726,1,15000,0.07856917381286621
+step143000,143000,step128000,128000,advice_007,advice,A manager inherits a project with unclear ownership. What should they do first?,"
+
+A:
+
+The first thing to do is to make sure that the project is owned by the owner.  If the project is owned by the owner, then the manager should be the owner.  If the project is owned by someone else, then the manager should",-1.0253312587738037,-57.418548583984375,2.7880188633247807,56,15000,0,step128000,-1.0253312587738037,0,15000,-0.3769114017486572
+step143000,143000,step143000,143000,advice_007,advice,A manager inherits a project with unclear ownership. What should they do first?,"
+
+A:
+
+The first step is to determine what the project is.  If it's a new project, then you can't just start over.  You need to determine what the project is and what the ownership is.  If it's a new project,",-1.402242660522461,-78.52558898925781,4.064304609216008,56,0,1,step128000,-1.0253312587738037,0,0,-0.3769114017486572
+step143000,143000,step16000,16000,advice_007,advice,A manager inherits a project with unclear ownership. What should they do first?,"
+
+The project is a small, but ambitious, attempt to create a new, more efficient, and more efficient way to run a business. It’s a project that has been around for a while, but it’s not a new idea. It’s a project",-1.8522872924804688,-103.72808837890625,6.374382939020156,56,127000,0,step128000,-1.0253312587738037,0,127000,-0.3769114017486572
+step143000,143000,step16000,16000,advice_013,advice,A student is falling behind because every assignment feels equally urgent. What should they do first?,"
+
+The first thing to do is to make a list of the things you want to do in the future. This list should be something like this:
+
+1. Write down the things you want to do in the future.
+
+2. Write down the things you",-1.2411434650421143,-69.50403594970703,3.4595670979485744,56,127000,0,step16000,-1.2411434650421143,0,127000,
+step143000,143000,step128000,128000,advice_017,advice,A small town wants to improve civic participation. What should it do first?,"
+
+The town of Littleton, Colorado, is a small town with a population of about 1,000. It is located in the foothills of the Rocky Mountains. Littleton is a small town with a population of about 1,000. It is located",-0.9872296452522278,-55.28485870361328,2.683789116052346,56,15000,0,step128000,-0.9872296452522278,0,15000,-0.19736462831497192
+step143000,143000,step143000,143000,advice_017,advice,A small town wants to improve civic participation. What should it do first?,"
+
+The town of St. Paul, Minnesota, is a small town with a population of about 1,000. It is located in the heart of the Twin Cities metropolitan area. The town is located in the St. Paul-Hennepin County Metropolitan Statistical Area.",-1.1845942735671997,-66.3372802734375,3.2693600865329873,56,0,1,step128000,-0.9872296452522278,0,0,-0.19736462831497192
+step143000,143000,step128000,128000,advice_019,advice,A student wants to study more effectively but keeps rereading passively. What should they do first?,"
+
+A:
+
+I think the best way to approach this is to think about the problem as a problem of learning.  You want to learn how to do something, but you don't want to learn how to do it well.  You want to learn how to",-1.0806857347488403,-60.518402099609375,2.9466995126576623,56,15000,0,step128000,-1.0806857347488403,0,15000,
+step143000,143000,step64000,64000,advice_019,advice,A student wants to study more effectively but keeps rereading passively. What should they do first?,"
+
+The first thing to do is to get a good grip on the situation. What is the situation? What is the problem? What is the solution?
+
+The problem is that the student is not getting the information he needs. The problem is that he is not getting",-1.1828049421310425,-66.23707580566406,3.2635153484003028,56,79000,0,step128000,-1.0806857347488403,0,79000,
+step143000,143000,step143000,143000,advice_020,advice,A nonprofit has an ambitious mission but weak coordination. What should it do first?,"
+
+The organization is called the National Alliance for the Homeless, and it is a nonprofit that works to end homelessness. It has a website, a Facebook page, and a Twitter account. It has a Facebook page with more than 1,000 followers.
+
+The",-1.3229408264160156,-74.08468627929688,3.7544463330282274,56,0,1,step143000,-1.3229408264160156,1,0,0.08622932434082031
+step143000,143000,step64000,64000,advice_020,advice,A nonprofit has an ambitious mission but weak coordination. What should it do first?,"
+
+The mission of the nonprofit is to provide a safe, affordable, and accessible education for children and their families. The organization is also committed to providing a safe, affordable, and accessible environment for children and their families.
+
+The organization is currently working with the U.",-1.409170150756836,-78.91352844238281,4.092557788528398,56,79000,0,step143000,-1.3229408264160156,1,79000,0.08622932434082031
+step143000,143000,step16000,16000,advice_020,advice,A nonprofit has an ambitious mission but weak coordination. What should it do first?,"
+
+The nonprofit’s mission is to provide a safe, secure, and affordable place to live for the homeless. It’s a mission that’s been in the works for years, but the nonprofit’s first step is to create a safe, secure, and affordable",-1.4235374927520752,-79.71810150146484,4.151781390036299,56,127000,0,step143000,-1.3229408264160156,1,127000,0.08622932434082031
+step143000,143000,step143000,143000,explanation_004,explanation,Explain why museums use wall labels.,"
+
+The museum’s website says: “The museum is dedicated to the preservation of the history of the city of London and the surrounding area. It is a place where visitors can discover the history of London and the city’s people. The museum is a place where visitors",-2.487450122833252,-139.29721069335938,12.0305605250035,56,0,1,step143000,-2.487450122833252,1,0,
+step143000,143000,step64000,64000,explanation_007,explanation,Explain why towns maintain public transit.,"
+
+The city of San Diego has a public transit system that is the largest in the country. The San Diego Regional Transit Authority (SDRTA) is the largest transit agency in the country. The SDRTA is the largest transit agency in the United States. The SD",-1.361332654953003,-76.23462677001953,3.9013890443938064,56,79000,0,step64000,-1.361332654953003,0,79000,-0.0016938447952270508
+step143000,143000,step143000,143000,explanation_007,explanation,Explain why towns maintain public transit.,"
+
+The city of New York has a long history of public transit. The city’s first subway system opened in 1883, and the city’s first bus system opened in 1905. The city’s first subway line opened in 1909, and the city’s first",-1.36302649974823,-76.32948303222656,3.908002991839692,56,0,1,step64000,-1.361332654953003,0,0,-0.0016938447952270508
+step143000,143000,step128000,128000,explanation_007,explanation,Explain why towns maintain public transit.,"
+
+The city of New York has a long history of public transit. The city’s first subway system was built in 1883, and the first subway car was built in the Bronx in 1904. The city’s first subway car was the first subway car in the world",-1.6287811994552612,-91.21174621582031,5.097657902548428,56,15000,0,step64000,-1.361332654953003,0,15000,-0.0016938447952270508
+step143000,143000,step16000,16000,explanation_007,explanation,Explain why towns maintain public transit.,"
+
+“We’re not going to be able to do this without public transportation,” said Mayor John Hancock. “We’re going to have to do this on a local level.”
+
+The city is also considering a proposal to build a new $1.5",-1.82024085521698,-101.93348693847656,6.17334515322261,56,127000,0,step64000,-1.361332654953003,0,127000,-0.0016938447952270508
+step143000,143000,step64000,64000,explanation_010,explanation,Explain why software teams use version control.,"
+
+The following are some of the most common reasons why software teams use version control:
+
+1. Version control is a way to ensure that your software is always up to date.
+
+2. Version control is a way to ensure that your software is always up to",-1.1852787733078003,-66.3756103515625,3.2715987287517505,56,79000,0,step64000,-1.1852787733078003,0,79000,
+step143000,143000,step128000,128000,explanation_010,explanation,Explain why software teams use version control.,"
+
+The first step in version control is to create a version control system. This is a system that allows you to track changes in your code. Version control systems are used to track changes in your code.
+
+Version control systems are used to track changes in your code.",-1.2993525266647339,-72.76374053955078,3.666921664826241,56,15000,0,step64000,-1.1852787733078003,0,15000,
+step143000,143000,step64000,64000,explanation_011,explanation,Explain why newspapers keep corrections pages.,"
+
+The first thing to note is that the corrections page is not a page that is automatically generated. It is a page that is manually created by the editor. The editor is responsible for creating the page and for making sure that it is correct.
+
+The second thing to",-2.425978422164917,-135.85479736328125,11.313293182689433,56,79000,0,step64000,-2.425978422164917,0,79000,
+step143000,143000,step64000,64000,explanation_012,explanation,Explain why research groups maintain lab notebooks.,"
+
+The research groups are also required to keep a journal of their research.
+
+The journal should be kept in a locked cabinet and should be kept in a locked cabinet with a lock.
+
+The journal should be kept in a locked cabinet with a lock.
+
+",-2.652909994125366,-145.91004943847656,14.195286801522416,55,79000,0,step64000,-2.652909994125366,0,79000,
+step143000,143000,step16000,16000,explanation_013,explanation,Explain why legislatures use committees.,"
+
+The committee’s report, which was released in January, said the state’s “unprecedented” use of the committee’s powers to “create and implement” a new law “is a violation of the state’s constitutional right to a public hearing.”
+",-2.9859962463378906,-167.21578979492188,19.80622428914322,56,127000,0,step16000,-2.9859962463378906,0,127000,
+step143000,143000,step16000,16000,explanation_014,explanation,Explain why cities zone industrial districts.,"
+
+The city of San Francisco has been criticized for its lack of industrial districts, and the city’s industrial districts are often the most expensive in the country.
+
+The city’s industrial districts are often the most expensive in the country.
+
+The city’s",-2.5667738914489746,-143.7393341064453,13.02374059301022,56,127000,0,step16000,-2.5667738914489746,0,127000,
+step143000,143000,step128000,128000,explanation_014,explanation,Explain why cities zone industrial districts.,"
+
+The city of New York has a long history of zoning. In the early 1900s, the city was a leader in the development of the industrial districts. The city’s first zoning ordinance was passed in 1883, and the first zoning ordinance was passed in New York",-3.4245736598968506,-191.776123046875,30.709549347695482,56,15000,0,step16000,-2.5667738914489746,0,15000,
+step143000,143000,step128000,128000,explanation_015,explanation,Explain why conferences use peer review.,"
+
+The peer review process is a critical component of the process of peer review. Peer review is a process in which a group of reviewers reviews a paper and makes a decision about whether or not to accept the paper. Peer review is a process in which a group of reviewers reviews",-1.568022608757019,-87.80926513671875,4.797152960717989,56,15000,0,step128000,-1.568022608757019,0,15000,
+step143000,143000,step16000,16000,judgment_004,judgment,Should a workplace optimize for speed or careful review when deadlines are tight?,"
+
+The answer is yes.
+
+The most important thing to remember is that you should not be too quick to judge a company’s performance.
+
+The best way to do this is to make sure that you are not too quick to judge a company’s performance",-1.5207440853118896,-85.16166687011719,4.575628586802361,56,127000,0,step16000,-1.5207440853118896,0,127000,
+step143000,143000,step143000,143000,judgment_008,judgment,Should a newsroom publish quickly with updates or wait for fuller confirmation?,"
+
+I’m not sure I’d call it a “newsroom” but I’m sure it’s a place where people can get their news.
+
+I’m not sure I’d call it a “newsroom” but I’m sure",-0.9823398590087891,-55.01103210449219,2.6706979934320945,56,0,1,step143000,-0.9823398590087891,1,0,
+step143000,143000,step64000,64000,judgment_009,judgment,Should a university require broad general education or early specialization?,"
+
+I am a graduate student in the field of education. I am interested in the question of whether a university should require broad general education or early specialization. I am not sure if I understand the question correctly.
+
+A:
+
+The question is not about whether a",-1.2224870920181274,-68.45927429199219,3.395622465827254,56,79000,0,step64000,-1.2224870920181274,0,79000,
+step143000,143000,step128000,128000,judgment_009,judgment,Should a university require broad general education or early specialization?,"
+
+A:
+
+The answer is yes.
+The University of California, Berkeley, has a general education requirement for all students.  The requirement is that the student must have a general education in the sciences, mathematics, and the humanities.  The requirement is not",-1.377746820449829,-77.15382385253906,3.9659555427860993,56,15000,0,step64000,-1.2224870920181274,0,15000,
+step143000,143000,step64000,64000,judgment_013,judgment,Should a community preserve a historic building or replace it with housing?,"
+
+The answer is yes.
+
+The City of San Diego has a historic building that is being preserved and is being used as a community center. The building is located in the heart of the city and is a great example of how a community can preserve a historic building.",-1.7459105253219604,-97.77098846435547,5.731117427973806,56,79000,0,step64000,-1.7459105253219604,0,79000,
+step143000,143000,step64000,64000,judgment_014,judgment,Should a school ban phones outright or regulate their use?,"
+
+I’m not sure what you mean by “ban phones outright” but I’m sure you’re referring to the fact that the FCC has not yet decided whether or not to ban phones outright.
+
+I’m not sure what you mean by “regulate",-1.2880197763442993,-72.12910461425781,3.625599943776912,56,79000,0,step64000,-1.2880197763442993,0,79000,
+step143000,143000,step64000,64000,judgment_017,judgment,Should a town build a large central park or several smaller parks?,"
+
+I think it's a good idea to have a central park. It's a great place to get away from the hustle and bustle of the city. It's also a great place to get away from the city.
+
+I think it's a good idea",-1.0207865238189697,-57.16404724121094,2.7753768057022103,56,79000,0,step64000,-1.0207865238189697,0,79000,-0.07269155979156494
+step143000,143000,step143000,143000,judgment_017,judgment,Should a town build a large central park or several smaller parks?,"
+
+I think that the answer is yes.
+
+The problem is that the parks are not large enough to support the number of people who would use them.
+
+The parks are not large enough to support the number of people who would use them.
+
+The parks",-1.0934780836105347,-61.234771728515625,2.9846368573374216,56,0,1,step64000,-1.0207865238189697,0,0,-0.07269155979156494
+step143000,143000,step128000,128000,judgment_018,judgment,Should an instructor prioritize mastery or coverage in a difficult course?,"
+
+I’ve been teaching for over 20 years and I’ve never seen a course that was so difficult that I couldn’t get through it. I’ve taught in many different settings, but I’ve never seen a course that was so difficult that I couldn",-1.0873662233352661,-60.89250946044922,2.9664508058072934,56,15000,0,step128000,-1.0873662233352661,0,15000,
+step143000,143000,step16000,16000,judgment_018,judgment,Should an instructor prioritize mastery or coverage in a difficult course?,"
+
+The answer is yes.
+
+The question is, “What is the most important thing you can do to improve your mastery of a difficult course?”
+
+The answer is, “I don’t know.”
+
+The question is, “What is the most",-1.2101497650146484,-67.76838684082031,3.3539869248376055,56,127000,0,step128000,-1.0873662233352661,0,127000,
+step143000,143000,step64000,64000,judgment_018,judgment,Should an instructor prioritize mastery or coverage in a difficult course?,"
+
+I’m not sure if this is a question that I’m asking, but I’m curious about the answer. I’m a high school teacher and I’ve been teaching for about a year now. I’ve been teaching for about a year and",-1.227254033088684,-68.72622680664062,3.411847839995896,56,79000,0,step128000,-1.0873662233352661,0,79000,
+step143000,143000,step16000,16000,style_opening_001,style_opening,Write the opening paragraph of an essay about memory.,"
+
+The first thing you should do is to write a short introduction. This is a good way to start your essay. You should also write a short introduction that is short and to the point.
+
+The second thing you should do is to write a short introduction that is",-2.154585361480713,-120.65678405761719,8.624313464933323,56,127000,0,step16000,-2.154585361480713,0,127000,
+step143000,143000,step143000,143000,style_opening_006,style_opening,Write the opening paragraph of an essay about public attention.,"
+
+The essay is a great way to get your point across. It’s also a great way to get your point across to your audience.
+
+The opening paragraph is the most important part of your essay. It’s the first thing that your audience sees when they",-1.1389237642288208,-63.77973175048828,3.123405035415896,56,0,1,step143000,-1.1389237642288208,1,0,0.2348850965499878
+step143000,143000,step16000,16000,style_opening_006,style_opening,Write the opening paragraph of an essay about public attention.,"
+
+The first thing you should do is to write a short introduction. This is a good way to start your essay. You should also write a short introduction that is short and to the point.
+
+The second thing you should do is to write a short introduction that is",-1.3738088607788086,-76.93329620361328,3.950368480555833,56,127000,0,step143000,-1.1389237642288208,1,127000,0.2348850965499878
+step143000,143000,step16000,16000,style_opening_011,style_opening,Write the opening paragraph of an essay about attention.,"
+
+The first thing you should do is to write a short introduction. This is a good way to start your essay. You should also write a short introduction that is short and to the point.
+
+The second thing you should do is to write a short introduction that is",-1.6843101978302002,-94.32137298583984,5.388732490637859,56,127000,0,step16000,-1.6843101978302002,0,127000,
+step143000,143000,step16000,16000,style_opening_013,style_opening,Write the opening paragraph of an essay about delay.,"
+
+The first thing you should do is to write a short introduction. This is a good way to introduce yourself to the reader and to make them feel comfortable with you.
+
+The second thing you should do is to write a short conclusion. This is a good way to",-1.616952896118164,-90.54936218261719,5.037716460209004,56,127000,0,step16000,-1.616952896118164,0,127000,
+step143000,143000,step16000,16000,style_opening_017,style_opening,Write the opening paragraph of an essay about rules.,"
+
+The first thing you should do is to write a short introduction. This is a good way to start your essay. You should also write a short introduction that is short and to the point.
+
+The second thing you should do is to write a short introduction that is",-1.7390682697296143,-97.38782501220703,5.692037507569009,56,127000,0,step16000,-1.7390682697296143,0,127000,
+step143000,143000,step16000,16000,style_opening_018,style_opening,Write the opening paragraph of an essay about access.,"
+
+The first thing you should do is to write a short introduction. This is a good way to start your essay. You should also write a short introduction that is short and to the point.
+
+The second thing you should do is to write a short introduction that is",-1.6546303033828735,-92.65929412841797,5.23114562780676,56,127000,0,step16000,-1.6546303033828735,0,127000,
+step143000,143000,step143000,143000,style_opening_019,style_opening,Write the opening paragraph of an essay about expertise and doubt.,"
+
+The essay is a great way to introduce your topic and to get your reader to think about it.
+
+The opening paragraph is the most important part of your essay. It is the first thing your reader will see and it is the first thing they will remember.
+",-1.2727144956588745,-71.27201080322266,3.5705316121038604,56,0,1,step143000,-1.2727144956588745,1,0,
+step143000,143000,step16000,16000,style_opening_020,style_opening,Write the opening paragraph of an essay about common goods.,"
+
+The first thing you should do is to write a short introduction. This is a good way to start your essay. You should also write a short introduction that is short and to the point.
+
+The second thing you should do is to write a conclusion. This is",-1.686421513557434,-94.43960571289062,5.400121825305092,56,127000,0,step16000,-1.686421513557434,0,127000,
+step16000,16000,step143000,143000,advice_003,advice,A researcher has collected too much material for one paper. What should they do first?,"
+
+A:
+
+The first thing to do is to find out what you want to say.  If you want to say that the government is not doing enough to protect the environment, then you should say that.  If you want to say that the government is not",-1.217927098274231,-68.20391845703125,3.3801736985370856,56,127000,0,step143000,-1.217927098274231,0,127000,
+step16000,16000,step128000,128000,advice_003,advice,A researcher has collected too much material for one paper. What should they do first?,"
+
+A:
+
+I think the best way to do this is to start with a list of questions that you think are important. Then, you can start writing a paper that answers those questions.
+
+A:
+
+I think the best way to do this is",-1.2299424409866333,-68.87677764892578,3.42103261936029,56,112000,0,step143000,-1.217927098274231,0,112000,
+step16000,16000,step128000,128000,advice_007,advice,A manager inherits a project with unclear ownership. What should they do first?,"
+
+A:
+
+The first thing to do is to make sure that the project is owned by the owner.  If the project is owned by the owner, then the manager should be the owner.  If the project is owned by someone else, then the manager should",-1.1527947187423706,-64.55650329589844,3.167031515562452,56,112000,0,step128000,-1.1527947187423706,0,112000,-0.4791654348373413
+step16000,16000,step143000,143000,advice_007,advice,A manager inherits a project with unclear ownership. What should they do first?,"
+
+A:
+
+The first step is to determine what the project is.  If it's a new project, then you can't just start over.  You need to determine what the project is and what the ownership is.  If it's a new project,",-1.552653193473816,-86.94857788085938,4.7239872222525,56,127000,0,step128000,-1.1527947187423706,0,127000,-0.4791654348373413
+step16000,16000,step16000,16000,advice_007,advice,A manager inherits a project with unclear ownership. What should they do first?,"
+
+The project is a small, but ambitious, attempt to create a new, more efficient, and more efficient way to run a business. It’s a project that has been around for a while, but it’s not a new idea. It’s a project",-1.631960153579712,-91.3897705078125,5.11388890830525,56,0,1,step128000,-1.1527947187423706,0,0,-0.4791654348373413
+step16000,16000,step16000,16000,advice_013,advice,A student is falling behind because every assignment feels equally urgent. What should they do first?,"
+
+The first thing to do is to make a list of the things you want to do in the future. This list should be something like this:
+
+1. Write down the things you want to do in the future.
+
+2. Write down the things you",-1.0161153078079224,-56.9024543762207,2.76244265375842,56,0,1,step16000,-1.0161153078079224,1,0,
+step16000,16000,step128000,128000,advice_017,advice,A small town wants to improve civic participation. What should it do first?,"
+
+The town of Littleton, Colorado, is a small town with a population of about 1,000. It is located in the foothills of the Rocky Mountains. Littleton is a small town with a population of about 1,000. It is located",-1.12541663646698,-63.02333450317383,3.081500446961806,56,112000,0,step128000,-1.12541663646698,0,112000,
+step16000,16000,step143000,143000,advice_017,advice,A small town wants to improve civic participation. What should it do first?,"
+
+The town of St. Paul, Minnesota, is a small town with a population of about 1,000. It is located in the heart of the Twin Cities metropolitan area. The town is located in the St. Paul-Hennepin County Metropolitan Statistical Area.",-1.3827794790267944,-77.43565368652344,3.9859651514957957,56,127000,0,step128000,-1.12541663646698,0,127000,
+step16000,16000,step128000,128000,advice_019,advice,A student wants to study more effectively but keeps rereading passively. What should they do first?,"
+
+A:
+
+I think the best way to approach this is to think about the problem as a problem of learning.  You want to learn how to do something, but you don't want to learn how to do it well.  You want to learn how to",-1.1589487791061401,-64.90113067626953,3.186581713531262,56,112000,0,step128000,-1.1589487791061401,0,112000,
+step16000,16000,step64000,64000,advice_019,advice,A student wants to study more effectively but keeps rereading passively. What should they do first?,"
+
+The first thing to do is to get a good grip on the situation. What is the situation? What is the problem? What is the solution?
+
+The problem is that the student is not getting the information he needs. The problem is that he is not getting",-1.3377677202224731,-74.91499328613281,3.810527839989799,56,48000,0,step128000,-1.1589487791061401,0,48000,
+step16000,16000,step16000,16000,advice_020,advice,A nonprofit has an ambitious mission but weak coordination. What should it do first?,"
+
+The nonprofit’s mission is to provide a safe, secure, and affordable place to live for the homeless. It’s a mission that’s been in the works for years, but the nonprofit’s first step is to create a safe, secure, and affordable",-1.3001353740692139,-72.80757904052734,3.6697934288638296,56,0,1,step16000,-1.3001353740692139,1,0,0.0912935733795166
+step16000,16000,step64000,64000,advice_020,advice,A nonprofit has an ambitious mission but weak coordination. What should it do first?,"
+
+The mission of the nonprofit is to provide a safe, affordable, and accessible education for children and their families. The organization is also committed to providing a safe, affordable, and accessible environment for children and their families.
+
+The organization is currently working with the U.",-1.3914289474487305,-77.9200210571289,4.020591163630268,56,48000,0,step16000,-1.3001353740692139,1,48000,0.0912935733795166
+step16000,16000,step143000,143000,advice_020,advice,A nonprofit has an ambitious mission but weak coordination. What should it do first?,"
+
+The organization is called the National Alliance for the Homeless, and it is a nonprofit that works to end homelessness. It has a website, a Facebook page, and a Twitter account. It has a Facebook page with more than 1,000 followers.
+
+The",-1.562947392463684,-87.52505493164062,4.77286804956569,56,127000,0,step16000,-1.3001353740692139,1,127000,0.0912935733795166
+step16000,16000,step143000,143000,explanation_004,explanation,Explain why museums use wall labels.,"
+
+The museum’s website says: “The museum is dedicated to the preservation of the history of the city of London and the surrounding area. It is a place where visitors can discover the history of London and the city’s people. The museum is a place where visitors",-2.7359864711761475,-153.21524047851562,15.424952203932985,56,127000,0,step143000,-2.7359864711761475,0,127000,
+step16000,16000,step143000,143000,explanation_007,explanation,Explain why towns maintain public transit.,"
+
+The city of New York has a long history of public transit. The city’s first subway system opened in 1883, and the city’s first bus system opened in 1905. The city’s first subway line opened in 1909, and the city’s first",-1.4227999448776245,-79.67679595947266,4.148720381455839,56,127000,0,step143000,-1.4227999448776245,0,127000,-0.21353530883789062
+step16000,16000,step64000,64000,explanation_007,explanation,Explain why towns maintain public transit.,"
+
+The city of San Diego has a public transit system that is the largest in the country. The San Diego Regional Transit Authority (SDRTA) is the largest transit agency in the country. The SDRTA is the largest transit agency in the United States. The SD",-1.5049289464950562,-84.2760238647461,4.503833605755814,56,48000,0,step143000,-1.4227999448776245,0,48000,-0.21353530883789062
+step16000,16000,step16000,16000,explanation_007,explanation,Explain why towns maintain public transit.,"
+
+“We’re not going to be able to do this without public transportation,” said Mayor John Hancock. “We’re going to have to do this on a local level.”
+
+The city is also considering a proposal to build a new $1.5",-1.6363352537155151,-91.63477325439453,5.136311699573875,56,0,1,step143000,-1.4227999448776245,0,0,-0.21353530883789062
+step16000,16000,step128000,128000,explanation_007,explanation,Explain why towns maintain public transit.,"
+
+The city of New York has a long history of public transit. The city’s first subway system was built in 1883, and the first subway car was built in the Bronx in 1904. The city’s first subway car was the first subway car in the world",-1.6816980838775635,-94.17509460449219,5.37467487535164,56,112000,0,step143000,-1.4227999448776245,0,112000,-0.21353530883789062
+step16000,16000,step64000,64000,explanation_010,explanation,Explain why software teams use version control.,"
+
+The following are some of the most common reasons why software teams use version control:
+
+1. Version control is a way to ensure that your software is always up to date.
+
+2. Version control is a way to ensure that your software is always up to",-1.2968204021453857,-72.62194061279297,3.6576483081698847,56,48000,0,step64000,-1.2968204021453857,0,48000,
+step16000,16000,step128000,128000,explanation_010,explanation,Explain why software teams use version control.,"
+
+The first step in version control is to create a version control system. This is a system that allows you to track changes in your code. Version control systems are used to track changes in your code.
+
+Version control systems are used to track changes in your code.",-1.6874674558639526,-94.49817657470703,5.405772996066627,56,112000,0,step64000,-1.2968204021453857,0,112000,
+step16000,16000,step64000,64000,explanation_011,explanation,Explain why newspapers keep corrections pages.,"
+
+The first thing to note is that the corrections page is not a page that is automatically generated. It is a page that is manually created by the editor. The editor is responsible for creating the page and for making sure that it is correct.
+
+The second thing to",-2.6997108459472656,-151.18380737304688,14.875429812128713,56,48000,0,step64000,-2.6997108459472656,0,48000,
+step16000,16000,step64000,64000,explanation_012,explanation,Explain why research groups maintain lab notebooks.,"
+
+The research groups are also required to keep a journal of their research.
+
+The journal should be kept in a locked cabinet and should be kept in a locked cabinet with a lock.
+
+The journal should be kept in a locked cabinet with a lock.
+
+",-2.9398415088653564,-161.6912841796875,18.91284855587545,55,48000,0,step64000,-2.9398415088653564,0,48000,
+step16000,16000,step16000,16000,explanation_013,explanation,Explain why legislatures use committees.,"
+
+The committee’s report, which was released in January, said the state’s “unprecedented” use of the committee’s powers to “create and implement” a new law “is a violation of the state’s constitutional right to a public hearing.”
+",-2.834838390350342,-158.75094604492188,17.027648245755387,56,0,1,step16000,-2.834838390350342,1,0,
+step16000,16000,step16000,16000,explanation_014,explanation,Explain why cities zone industrial districts.,"
+
+The city of San Francisco has been criticized for its lack of industrial districts, and the city’s industrial districts are often the most expensive in the country.
+
+The city’s industrial districts are often the most expensive in the country.
+
+The city’s",-2.4081990718841553,-134.85914611816406,11.113927726186693,56,0,1,step16000,-2.4081990718841553,1,0,1.437736988067627
+step16000,16000,step128000,128000,explanation_014,explanation,Explain why cities zone industrial districts.,"
+
+The city of New York has a long history of zoning. In the early 1900s, the city was a leader in the development of the industrial districts. The city’s first zoning ordinance was passed in 1883, and the first zoning ordinance was passed in New York",-3.8459360599517822,-215.37242126464844,46.80247377429648,56,112000,0,step16000,-2.4081990718841553,1,112000,1.437736988067627
+step16000,16000,step128000,128000,explanation_015,explanation,Explain why conferences use peer review.,"
+
+The peer review process is a critical component of the process of peer review. Peer review is a process in which a group of reviewers reviews a paper and makes a decision about whether or not to accept the paper. Peer review is a process in which a group of reviewers reviews",-1.7459527254104614,-97.77335357666016,5.731359286739671,56,112000,0,step128000,-1.7459527254104614,0,112000,
+step16000,16000,step16000,16000,judgment_004,judgment,Should a workplace optimize for speed or careful review when deadlines are tight?,"
+
+The answer is yes.
+
+The most important thing to remember is that you should not be too quick to judge a company’s performance.
+
+The best way to do this is to make sure that you are not too quick to judge a company’s performance",-1.3564895391464233,-75.96341705322266,3.8825398467124264,56,0,1,step16000,-1.3564895391464233,1,0,
+step16000,16000,step143000,143000,judgment_008,judgment,Should a newsroom publish quickly with updates or wait for fuller confirmation?,"
+
+I’m not sure I’d call it a “newsroom” but I’m sure it’s a place where people can get their news.
+
+I’m not sure I’d call it a “newsroom” but I’m sure",-1.133430004119873,-63.47208023071289,3.106292845600267,56,127000,0,step143000,-1.133430004119873,0,127000,
+step16000,16000,step64000,64000,judgment_009,judgment,Should a university require broad general education or early specialization?,"
+
+I am a graduate student in the field of education. I am interested in the question of whether a university should require broad general education or early specialization. I am not sure if I understand the question correctly.
+
+A:
+
+The question is not about whether a",-1.3851168155670166,-77.56654357910156,3.995292589927349,56,48000,0,step64000,-1.3851168155670166,0,48000,
+step16000,16000,step128000,128000,judgment_009,judgment,Should a university require broad general education or early specialization?,"
+
+A:
+
+The answer is yes.
+The University of California, Berkeley, has a general education requirement for all students.  The requirement is that the student must have a general education in the sciences, mathematics, and the humanities.  The requirement is not",-1.60768723487854,-90.03048706054688,4.991254269932578,56,112000,0,step64000,-1.3851168155670166,0,112000,
+step16000,16000,step64000,64000,judgment_013,judgment,Should a community preserve a historic building or replace it with housing?,"
+
+The answer is yes.
+
+The City of San Diego has a historic building that is being preserved and is being used as a community center. The building is located in the heart of the city and is a great example of how a community can preserve a historic building.",-1.9444787502288818,-108.89080810546875,6.989987375953708,56,48000,0,step64000,-1.9444787502288818,0,48000,
+step16000,16000,step64000,64000,judgment_014,judgment,Should a school ban phones outright or regulate their use?,"
+
+I’m not sure what you mean by “ban phones outright” but I’m sure you’re referring to the fact that the FCC has not yet decided whether or not to ban phones outright.
+
+I’m not sure what you mean by “regulate",-1.401220440864563,-78.46834564208984,4.060152119888482,56,48000,0,step64000,-1.401220440864563,0,48000,
+step16000,16000,step64000,64000,judgment_017,judgment,Should a town build a large central park or several smaller parks?,"
+
+I think it's a good idea to have a central park. It's a great place to get away from the hustle and bustle of the city. It's also a great place to get away from the city.
+
+I think it's a good idea",-1.1602020263671875,-64.9713134765625,3.1905777918499227,56,48000,0,step64000,-1.1602020263671875,0,48000,
+step16000,16000,step143000,143000,judgment_017,judgment,Should a town build a large central park or several smaller parks?,"
+
+I think that the answer is yes.
+
+The problem is that the parks are not large enough to support the number of people who would use them.
+
+The parks are not large enough to support the number of people who would use them.
+
+The parks",-1.2735928297042847,-71.32119750976562,3.573669109262563,56,127000,0,step64000,-1.1602020263671875,0,127000,
+step16000,16000,step16000,16000,judgment_018,judgment,Should an instructor prioritize mastery or coverage in a difficult course?,"
+
+The answer is yes.
+
+The question is, “What is the most important thing you can do to improve your mastery of a difficult course?”
+
+The answer is, “I don’t know.”
+
+The question is, “What is the most",-1.1195038557052612,-62.69221878051758,3.0633339705244245,56,0,1,step16000,-1.1195038557052612,1,0,0.1520841121673584
+step16000,16000,step128000,128000,judgment_018,judgment,Should an instructor prioritize mastery or coverage in a difficult course?,"
+
+I’ve been teaching for over 20 years and I’ve never seen a course that was so difficult that I couldn’t get through it. I’ve taught in many different settings, but I’ve never seen a course that was so difficult that I couldn",-1.2715879678726196,-71.20892333984375,3.566511573798691,56,112000,0,step16000,-1.1195038557052612,1,112000,0.1520841121673584
+step16000,16000,step64000,64000,judgment_018,judgment,Should an instructor prioritize mastery or coverage in a difficult course?,"
+
+I’m not sure if this is a question that I’m asking, but I’m curious about the answer. I’m a high school teacher and I’ve been teaching for about a year now. I’ve been teaching for about a year and",-1.3582408428192139,-76.06148529052734,3.889345310483178,56,48000,0,step16000,-1.1195038557052612,1,48000,0.1520841121673584
+step16000,16000,step16000,16000,style_opening_001,style_opening,Write the opening paragraph of an essay about memory.,"
+
+The first thing you should do is to write a short introduction. This is a good way to start your essay. You should also write a short introduction that is short and to the point.
+
+The second thing you should do is to write a short introduction that is",-2.1271214485168457,-119.11880493164062,8.390679013711816,56,0,1,step16000,-2.1271214485168457,1,0,
+step16000,16000,step16000,16000,style_opening_006,style_opening,Write the opening paragraph of an essay about public attention.,"
+
+The first thing you should do is to write a short introduction. This is a good way to start your essay. You should also write a short introduction that is short and to the point.
+
+The second thing you should do is to write a short introduction that is",-1.2645034790039062,-70.81219482421875,3.541333952846938,56,0,1,step16000,-1.2645034790039062,1,0,0.135034441947937
+step16000,16000,step143000,143000,style_opening_006,style_opening,Write the opening paragraph of an essay about public attention.,"
+
+The essay is a great way to get your point across. It’s also a great way to get your point across to your audience.
+
+The opening paragraph is the most important part of your essay. It’s the first thing that your audience sees when they",-1.3995379209518433,-78.3741226196289,4.053326576764396,56,127000,0,step16000,-1.2645034790039062,1,127000,0.135034441947937
+step16000,16000,step16000,16000,style_opening_011,style_opening,Write the opening paragraph of an essay about attention.,"
+
+The first thing you should do is to write a short introduction. This is a good way to start your essay. You should also write a short introduction that is short and to the point.
+
+The second thing you should do is to write a short introduction that is",-1.5844862461090088,-88.73123168945312,4.876785267399031,56,0,1,step16000,-1.5844862461090088,1,0,
+step16000,16000,step16000,16000,style_opening_013,style_opening,Write the opening paragraph of an essay about delay.,"
+
+The first thing you should do is to write a short introduction. This is a good way to introduce yourself to the reader and to make them feel comfortable with you.
+
+The second thing you should do is to write a short conclusion. This is a good way to",-1.5165634155273438,-84.92755126953125,4.556539325376939,56,0,1,step16000,-1.5165634155273438,1,0,
+step16000,16000,step16000,16000,style_opening_017,style_opening,Write the opening paragraph of an essay about rules.,"
+
+The first thing you should do is to write a short introduction. This is a good way to start your essay. You should also write a short introduction that is short and to the point.
+
+The second thing you should do is to write a short introduction that is",-1.6930571794509888,-94.81120300292969,5.4360743821780195,56,0,1,step16000,-1.6930571794509888,1,0,
+step16000,16000,step16000,16000,style_opening_018,style_opening,Write the opening paragraph of an essay about access.,"
+
+The first thing you should do is to write a short introduction. This is a good way to start your essay. You should also write a short introduction that is short and to the point.
+
+The second thing you should do is to write a short introduction that is",-1.511753797531128,-84.65821075439453,4.5346767293493455,56,0,1,step16000,-1.511753797531128,1,0,
+step16000,16000,step143000,143000,style_opening_019,style_opening,Write the opening paragraph of an essay about expertise and doubt.,"
+
+The essay is a great way to introduce your topic and to get your reader to think about it.
+
+The opening paragraph is the most important part of your essay. It is the first thing your reader will see and it is the first thing they will remember.
+",-1.5866916179656982,-88.85472869873047,4.887552260626873,56,127000,0,step143000,-1.5866916179656982,0,127000,
+step16000,16000,step16000,16000,style_opening_020,style_opening,Write the opening paragraph of an essay about common goods.,"
+
+The first thing you should do is to write a short introduction. This is a good way to start your essay. You should also write a short introduction that is short and to the point.
+
+The second thing you should do is to write a conclusion. This is",-1.5982820987701416,-89.50379943847656,4.944530908374927,56,0,1,step16000,-1.5982820987701416,1,0,
+step64000,64000,step143000,143000,advice_003,advice,A researcher has collected too much material for one paper. What should they do first?,"
+
+A:
+
+The first thing to do is to find out what you want to say.  If you want to say that the government is not doing enough to protect the environment, then you should say that.  If you want to say that the government is not",-1.159434199333191,-64.92831420898438,3.188128920242496,56,79000,0,step143000,-1.159434199333191,0,79000,
+step64000,64000,step128000,128000,advice_003,advice,A researcher has collected too much material for one paper. What should they do first?,"
+
+A:
+
+I think the best way to do this is to start with a list of questions that you think are important. Then, you can start writing a paper that answers those questions.
+
+A:
+
+I think the best way to do this is",-1.2408198118209839,-69.48590850830078,3.4584475790913216,56,64000,0,step143000,-1.159434199333191,0,64000,
+step64000,64000,step128000,128000,advice_007,advice,A manager inherits a project with unclear ownership. What should they do first?,"
+
+A:
+
+The first thing to do is to make sure that the project is owned by the owner.  If the project is owned by the owner, then the manager should be the owner.  If the project is owned by someone else, then the manager should",-1.0443185567855835,-58.48183822631836,2.841461569059181,56,64000,0,step128000,-1.0443185567855835,0,64000,
+step64000,64000,step143000,143000,advice_007,advice,A manager inherits a project with unclear ownership. What should they do first?,"
+
+A:
+
+The first step is to determine what the project is.  If it's a new project, then you can't just start over.  You need to determine what the project is and what the ownership is.  If it's a new project,",-1.4404174089431763,-80.66337585449219,4.22245794091455,56,79000,0,step128000,-1.0443185567855835,0,79000,
+step64000,64000,step16000,16000,advice_007,advice,A manager inherits a project with unclear ownership. What should they do first?,"
+
+The project is a small, but ambitious, attempt to create a new, more efficient, and more efficient way to run a business. It’s a project that has been around for a while, but it’s not a new idea. It’s a project",-1.7281185388565063,-96.7746353149414,5.63005121468157,56,48000,0,step128000,-1.0443185567855835,0,48000,
+step64000,64000,step16000,16000,advice_013,advice,A student is falling behind because every assignment feels equally urgent. What should they do first?,"
+
+The first thing to do is to make a list of the things you want to do in the future. This list should be something like this:
+
+1. Write down the things you want to do in the future.
+
+2. Write down the things you",-1.175944447517395,-65.85289001464844,3.2412026445381708,56,48000,0,step16000,-1.175944447517395,0,48000,
+step64000,64000,step128000,128000,advice_017,advice,A small town wants to improve civic participation. What should it do first?,"
+
+The town of Littleton, Colorado, is a small town with a population of about 1,000. It is located in the foothills of the Rocky Mountains. Littleton is a small town with a population of about 1,000. It is located",-1.0242507457733154,-57.3580436706543,2.7850079996289687,56,64000,0,step128000,-1.0242507457733154,0,64000,
+step64000,64000,step143000,143000,advice_017,advice,A small town wants to improve civic participation. What should it do first?,"
+
+The town of St. Paul, Minnesota, is a small town with a population of about 1,000. It is located in the heart of the Twin Cities metropolitan area. The town is located in the St. Paul-Hennepin County Metropolitan Statistical Area.",-1.3107162714004517,-73.40010833740234,3.708829289388817,56,79000,0,step128000,-1.0242507457733154,0,79000,
+step64000,64000,step128000,128000,advice_019,advice,A student wants to study more effectively but keeps rereading passively. What should they do first?,"
+
+A:
+
+I think the best way to approach this is to think about the problem as a problem of learning.  You want to learn how to do something, but you don't want to learn how to do it well.  You want to learn how to",-1.096886396408081,-61.42564010620117,2.9948267887067015,56,64000,0,step128000,-1.096886396408081,0,64000,-0.1350187063217163
+step64000,64000,step64000,64000,advice_019,advice,A student wants to study more effectively but keeps rereading passively. What should they do first?,"
+
+The first thing to do is to get a good grip on the situation. What is the situation? What is the problem? What is the solution?
+
+The problem is that the student is not getting the information he needs. The problem is that he is not getting",-1.2319051027297974,-68.98668670654297,3.427753542496345,56,0,1,step128000,-1.096886396408081,0,0,-0.1350187063217163
+step64000,64000,step64000,64000,advice_020,advice,A nonprofit has an ambitious mission but weak coordination. What should it do first?,"
+
+The mission of the nonprofit is to provide a safe, affordable, and accessible education for children and their families. The organization is also committed to providing a safe, affordable, and accessible environment for children and their families.
+
+The organization is currently working with the U.",-1.3121274709701538,-73.47914123535156,3.7140668824614314,56,0,1,step64000,-1.3121274709701538,1,0,0.08663880825042725
+step64000,64000,step16000,16000,advice_020,advice,A nonprofit has an ambitious mission but weak coordination. What should it do first?,"
+
+The nonprofit’s mission is to provide a safe, secure, and affordable place to live for the homeless. It’s a mission that’s been in the works for years, but the nonprofit’s first step is to create a safe, secure, and affordable",-1.398766279220581,-78.3309097290039,4.05020006725507,56,48000,0,step64000,-1.3121274709701538,1,48000,0.08663880825042725
+step64000,64000,step143000,143000,advice_020,advice,A nonprofit has an ambitious mission but weak coordination. What should it do first?,"
+
+The organization is called the National Alliance for the Homeless, and it is a nonprofit that works to end homelessness. It has a website, a Facebook page, and a Twitter account. It has a Facebook page with more than 1,000 followers.
+
+The",-1.4287774562835693,-80.01153564453125,4.173593670980479,56,79000,0,step64000,-1.3121274709701538,1,79000,0.08663880825042725
+step64000,64000,step143000,143000,explanation_004,explanation,Explain why museums use wall labels.,"
+
+The museum’s website says: “The museum is dedicated to the preservation of the history of the city of London and the surrounding area. It is a place where visitors can discover the history of London and the city’s people. The museum is a place where visitors",-2.6195390224456787,-146.69418334960938,13.729393184011345,56,79000,0,step143000,-2.6195390224456787,0,79000,
+step64000,64000,step64000,64000,explanation_007,explanation,Explain why towns maintain public transit.,"
+
+The city of San Diego has a public transit system that is the largest in the country. The San Diego Regional Transit Authority (SDRTA) is the largest transit agency in the country. The SDRTA is the largest transit agency in the United States. The SD",-1.296162724494934,-72.58511352539062,3.655243545490403,56,0,1,step64000,-1.296162724494934,1,0,0.24581670761108398
+step64000,64000,step143000,143000,explanation_007,explanation,Explain why towns maintain public transit.,"
+
+The city of New York has a long history of public transit. The city’s first subway system opened in 1883, and the city’s first bus system opened in 1905. The city’s first subway line opened in 1909, and the city’s first",-1.541979432106018,-86.35084533691406,4.673832655050059,56,79000,0,step64000,-1.296162724494934,1,79000,0.24581670761108398
+step64000,64000,step128000,128000,explanation_007,explanation,Explain why towns maintain public transit.,"
+
+The city of New York has a long history of public transit. The city’s first subway system was built in 1883, and the first subway car was built in the Bronx in 1904. The city’s first subway car was the first subway car in the world",-1.7522894144058228,-98.12820434570312,5.767792438927497,56,64000,0,step64000,-1.296162724494934,1,64000,0.24581670761108398
+step64000,64000,step16000,16000,explanation_007,explanation,Explain why towns maintain public transit.,"
+
+“We’re not going to be able to do this without public transportation,” said Mayor John Hancock. “We’re going to have to do this on a local level.”
+
+The city is also considering a proposal to build a new $1.5",-1.791031837463379,-100.29778289794922,5.995635797370725,56,48000,0,step64000,-1.296162724494934,1,48000,0.24581670761108398
+step64000,64000,step64000,64000,explanation_010,explanation,Explain why software teams use version control.,"
+
+The following are some of the most common reasons why software teams use version control:
+
+1. Version control is a way to ensure that your software is always up to date.
+
+2. Version control is a way to ensure that your software is always up to",-1.1530745029449463,-64.57217407226562,3.1679177249174733,56,0,1,step64000,-1.1530745029449463,1,0,0.2827413082122803
+step64000,64000,step128000,128000,explanation_010,explanation,Explain why software teams use version control.,"
+
+The first step in version control is to create a version control system. This is a system that allows you to track changes in your code. Version control systems are used to track changes in your code.
+
+Version control systems are used to track changes in your code.",-1.4358158111572266,-80.40568542480469,4.203072523954943,56,64000,0,step64000,-1.1530745029449463,1,64000,0.2827413082122803
+step64000,64000,step64000,64000,explanation_011,explanation,Explain why newspapers keep corrections pages.,"
+
+The first thing to note is that the corrections page is not a page that is automatically generated. It is a page that is manually created by the editor. The editor is responsible for creating the page and for making sure that it is correct.
+
+The second thing to",-2.394984722137451,-134.119140625,10.968030489738117,56,0,1,step64000,-2.394984722137451,1,0,
+step64000,64000,step64000,64000,explanation_012,explanation,Explain why research groups maintain lab notebooks.,"
+
+The research groups are also required to keep a journal of their research.
+
+The journal should be kept in a locked cabinet and should be kept in a locked cabinet with a lock.
+
+The journal should be kept in a locked cabinet with a lock.
+
+",-2.5845963954925537,-142.15280151367188,13.257937046834787,55,0,1,step64000,-2.5845963954925537,1,0,
+step64000,64000,step16000,16000,explanation_013,explanation,Explain why legislatures use committees.,"
+
+The committee’s report, which was released in January, said the state’s “unprecedented” use of the committee’s powers to “create and implement” a new law “is a violation of the state’s constitutional right to a public hearing.”
+",-2.9436161518096924,-164.84249877929688,18.98437271038419,56,48000,0,step16000,-2.9436161518096924,0,48000,
+step64000,64000,step16000,16000,explanation_014,explanation,Explain why cities zone industrial districts.,"
+
+The city of San Francisco has been criticized for its lack of industrial districts, and the city’s industrial districts are often the most expensive in the country.
+
+The city’s industrial districts are often the most expensive in the country.
+
+The city’s",-2.602006673812866,-145.71237182617188,13.49078249116572,56,48000,0,step16000,-2.602006673812866,0,48000,
+step64000,64000,step128000,128000,explanation_014,explanation,Explain why cities zone industrial districts.,"
+
+The city of New York has a long history of zoning. In the early 1900s, the city was a leader in the development of the industrial districts. The city’s first zoning ordinance was passed in 1883, and the first zoning ordinance was passed in New York",-3.6702115535736084,-205.53184509277344,39.260210619679974,56,64000,0,step16000,-2.602006673812866,0,64000,
+step64000,64000,step128000,128000,explanation_015,explanation,Explain why conferences use peer review.,"
+
+The peer review process is a critical component of the process of peer review. Peer review is a process in which a group of reviewers reviews a paper and makes a decision about whether or not to accept the paper. Peer review is a process in which a group of reviewers reviews",-1.6764041185379028,-93.87863159179688,5.346296715623909,56,64000,0,step128000,-1.6764041185379028,0,64000,
+step64000,64000,step16000,16000,judgment_004,judgment,Should a workplace optimize for speed or careful review when deadlines are tight?,"
+
+The answer is yes.
+
+The most important thing to remember is that you should not be too quick to judge a company’s performance.
+
+The best way to do this is to make sure that you are not too quick to judge a company’s performance",-1.4226092100143433,-79.6661148071289,4.147929151301077,56,48000,0,step16000,-1.4226092100143433,0,48000,
+step64000,64000,step143000,143000,judgment_008,judgment,Should a newsroom publish quickly with updates or wait for fuller confirmation?,"
+
+I’m not sure I’d call it a “newsroom” but I’m sure it’s a place where people can get their news.
+
+I’m not sure I’d call it a “newsroom” but I’m sure",-1.05202054977417,-58.913150787353516,2.8634309816690586,56,79000,0,step143000,-1.05202054977417,0,79000,
+step64000,64000,step64000,64000,judgment_009,judgment,Should a university require broad general education or early specialization?,"
+
+I am a graduate student in the field of education. I am interested in the question of whether a university should require broad general education or early specialization. I am not sure if I understand the question correctly.
+
+A:
+
+The question is not about whether a",-1.1499618291854858,-64.39786529541016,3.1580723611947437,56,0,1,step64000,-1.1499618291854858,1,0,0.3290531635284424
+step64000,64000,step128000,128000,judgment_009,judgment,Should a university require broad general education or early specialization?,"
+
+A:
+
+The answer is yes.
+The University of California, Berkeley, has a general education requirement for all students.  The requirement is that the student must have a general education in the sciences, mathematics, and the humanities.  The requirement is not",-1.4790149927139282,-82.82483673095703,4.3886207278205775,56,64000,0,step64000,-1.1499618291854858,1,64000,0.3290531635284424
+step64000,64000,step64000,64000,judgment_013,judgment,Should a community preserve a historic building or replace it with housing?,"
+
+The answer is yes.
+
+The City of San Diego has a historic building that is being preserved and is being used as a community center. The building is located in the heart of the city and is a great example of how a community can preserve a historic building.",-1.745327115058899,-97.73831939697266,5.727774810401025,56,0,1,step64000,-1.745327115058899,1,0,
+step64000,64000,step64000,64000,judgment_014,judgment,Should a school ban phones outright or regulate their use?,"
+
+I’m not sure what you mean by “ban phones outright” but I’m sure you’re referring to the fact that the FCC has not yet decided whether or not to ban phones outright.
+
+I’m not sure what you mean by “regulate",-1.308781623840332,-73.2917709350586,3.701660948195942,56,0,1,step64000,-1.308781623840332,1,0,
+step64000,64000,step64000,64000,judgment_017,judgment,Should a town build a large central park or several smaller parks?,"
+
+I think it's a good idea to have a central park. It's a great place to get away from the hustle and bustle of the city. It's also a great place to get away from the city.
+
+I think it's a good idea",-0.9881507754325867,-55.33644485473633,2.6862623741263123,56,0,1,step64000,-0.9881507754325867,1,0,0.14066988229751587
+step64000,64000,step143000,143000,judgment_017,judgment,Should a town build a large central park or several smaller parks?,"
+
+I think that the answer is yes.
+
+The problem is that the parks are not large enough to support the number of people who would use them.
+
+The parks are not large enough to support the number of people who would use them.
+
+The parks",-1.1288206577301025,-63.213958740234375,3.092007813509107,56,79000,0,step64000,-0.9881507754325867,1,79000,0.14066988229751587
+step64000,64000,step128000,128000,judgment_018,judgment,Should an instructor prioritize mastery or coverage in a difficult course?,"
+
+I’ve been teaching for over 20 years and I’ve never seen a course that was so difficult that I couldn’t get through it. I’ve taught in many different settings, but I’ve never seen a course that was so difficult that I couldn",-1.1555100679397583,-64.70856475830078,3.1756427980748634,56,64000,0,step128000,-1.1555100679397583,0,64000,-0.08300089836120605
+step64000,64000,step16000,16000,judgment_018,judgment,Should an instructor prioritize mastery or coverage in a difficult course?,"
+
+The answer is yes.
+
+The question is, “What is the most important thing you can do to improve your mastery of a difficult course?”
+
+The answer is, “I don’t know.”
+
+The question is, “What is the most",-1.234654426574707,-69.1406478881836,3.4371905137459104,56,48000,0,step128000,-1.1555100679397583,0,48000,-0.08300089836120605
+step64000,64000,step64000,64000,judgment_018,judgment,Should an instructor prioritize mastery or coverage in a difficult course?,"
+
+I’m not sure if this is a question that I’m asking, but I’m curious about the answer. I’m a high school teacher and I’ve been teaching for about a year now. I’ve been teaching for about a year and",-1.2385109663009644,-69.35661315917969,3.4504717688920366,56,0,1,step128000,-1.1555100679397583,0,0,-0.08300089836120605
+step64000,64000,step16000,16000,style_opening_001,style_opening,Write the opening paragraph of an essay about memory.,"
+
+The first thing you should do is to write a short introduction. This is a good way to start your essay. You should also write a short introduction that is short and to the point.
+
+The second thing you should do is to write a short introduction that is",-2.1196255683898926,-118.69903564453125,8.328018630399967,56,48000,0,step16000,-2.1196255683898926,0,48000,
+step64000,64000,step143000,143000,style_opening_006,style_opening,Write the opening paragraph of an essay about public attention.,"
+
+The essay is a great way to get your point across. It’s also a great way to get your point across to your audience.
+
+The opening paragraph is the most important part of your essay. It’s the first thing that your audience sees when they",-1.24593985080719,-69.77262878417969,3.4762003742475294,56,79000,0,step143000,-1.24593985080719,0,79000,
+step64000,64000,step16000,16000,style_opening_006,style_opening,Write the opening paragraph of an essay about public attention.,"
+
+The first thing you should do is to write a short introduction. This is a good way to start your essay. You should also write a short introduction that is short and to the point.
+
+The second thing you should do is to write a short introduction that is",-1.3107707500457764,-73.40316009521484,3.709031346888103,56,48000,0,step143000,-1.24593985080719,0,48000,
+step64000,64000,step16000,16000,style_opening_011,style_opening,Write the opening paragraph of an essay about attention.,"
+
+The first thing you should do is to write a short introduction. This is a good way to start your essay. You should also write a short introduction that is short and to the point.
+
+The second thing you should do is to write a short introduction that is",-1.6590486764907837,-92.90672302246094,5.254309917525134,56,48000,0,step16000,-1.6590486764907837,0,48000,
+step64000,64000,step16000,16000,style_opening_013,style_opening,Write the opening paragraph of an essay about delay.,"
+
+The first thing you should do is to write a short introduction. This is a good way to introduce yourself to the reader and to make them feel comfortable with you.
+
+The second thing you should do is to write a short conclusion. This is a good way to",-1.68829345703125,-94.54443359375,5.410240015499177,56,48000,0,step16000,-1.68829345703125,0,48000,
+step64000,64000,step16000,16000,style_opening_017,style_opening,Write the opening paragraph of an essay about rules.,"
+
+The first thing you should do is to write a short introduction. This is a good way to start your essay. You should also write a short introduction that is short and to the point.
+
+The second thing you should do is to write a short introduction that is",-1.7370818853378296,-97.2765884399414,5.680742155276295,56,48000,0,step16000,-1.7370818853378296,0,48000,
+step64000,64000,step16000,16000,style_opening_018,style_opening,Write the opening paragraph of an essay about access.,"
+
+The first thing you should do is to write a short introduction. This is a good way to start your essay. You should also write a short introduction that is short and to the point.
+
+The second thing you should do is to write a short introduction that is",-1.5958478450775146,-89.36747741699219,4.932509303507186,56,48000,0,step16000,-1.5958478450775146,0,48000,
+step64000,64000,step143000,143000,style_opening_019,style_opening,Write the opening paragraph of an essay about expertise and doubt.,"
+
+The essay is a great way to introduce your topic and to get your reader to think about it.
+
+The opening paragraph is the most important part of your essay. It is the first thing your reader will see and it is the first thing they will remember.
+",-1.5023518800735474,-84.13170623779297,4.492241870153972,56,79000,0,step143000,-1.5023518800735474,0,79000,
+step64000,64000,step16000,16000,style_opening_020,style_opening,Write the opening paragraph of an essay about common goods.,"
+
+The first thing you should do is to write a short introduction. This is a good way to start your essay. You should also write a short introduction that is short and to the point.
+
+The second thing you should do is to write a conclusion. This is",-1.667531967163086,-93.38179016113281,5.29907335802216,56,48000,0,step16000,-1.667531967163086,0,48000,

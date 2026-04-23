@@ -1,0 +1,33 @@
+output_root: C:/Users/joshj/joseph-stroud-identity-stability-research/outputs/latest/checkpoint_age_recognition_v2
+model_id: EleutherAI/pythia-410m-deduped
+anchor_revision: step143000
+comparison_revisions:
+  - step128000
+  - step64000
+  - step16000
+evaluator_revisions:
+  - step143000
+model_cache_dir: D:/hf-model-cache
+dtype: float32
+use_gpu: false
+attention_backend: auto
+prompt_bank_path: data/diachronic_ship_of_theseus_prompts.yaml
+prompt_limit: 120
+selected_prompt_count: 72
+prompt_sample_seed: 17
+max_prompt_tokens: 160
+max_total_tokens: 256
+generation_tokens: 56
+prompt_screen_batch_size: 8
+generation_batch_size: 3
+score_batch_size: 6
+quality_gate_enabled: true
+min_generation_token_count: 24
+min_unique_token_ratio: 0.45
+max_top_token_rate: 0.25
+max_top_bigram_rate: 0.18
+generation_do_sample: false
+generation_temperature: 1.0
+generation_top_p: 1.0
+generation_top_k: 0
+checkpoint_every_rows: 60

@@ -1,0 +1,11 @@
+output_root: C:/Users/joshj/joseph-stroud-identity-stability-research/outputs/latest/temporal_authorship_matrix_full
+python_exe: C:/Users/joshj/miniconda3/python.exe
+steps:
+  - name: temporal_authorship_matrix
+    script: scripts/temporal_authorship_matrix.py
+    config: configs/identity_battery/temporal_authorship_matrix_full.yaml
+    expected_output: outputs/latest/temporal_authorship_matrix_full/temporal_authorship_matrix/summary_by_pair.csv
+  - name: report_temporal_authorship_matrix
+    script: scripts/report_temporal_authorship_matrix.py
+    config: configs/identity_battery/temporal_authorship_matrix_full.yaml
+    expected_output: outputs/latest/temporal_authorship_matrix_full/temporal_authorship_matrix_report.md

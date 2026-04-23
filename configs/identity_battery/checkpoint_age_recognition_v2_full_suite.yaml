@@ -1,0 +1,13 @@
+output_root: C:/Users/joshj/joseph-stroud-identity-stability-research/outputs/latest/checkpoint_age_recognition_v2
+python_exe: C:/Users/joshj/miniconda3/python.exe
+
+steps:
+  - name: checkpoint_age_recognition_v2
+    script: scripts/checkpoint_age_recognition_v2.py
+    config: configs/identity_battery/checkpoint_age_recognition_v2_full.yaml
+    expected_output: outputs/latest/checkpoint_age_recognition_v2/checkpoint_age_recognition_v2/summary_by_pair.csv
+
+  - name: report_checkpoint_age_recognition_v2
+    script: scripts/report_checkpoint_age_recognition_v2.py
+    config: configs/identity_battery/checkpoint_age_recognition_v2_full.yaml
+    expected_output: outputs/latest/checkpoint_age_recognition_v2/checkpoint_age_recognition_v2_report.md

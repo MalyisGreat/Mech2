@@ -1,0 +1,37 @@
+[
+  {
+    "metric": "checkpoint_age_centered_choice_rate",
+    "n": 24,
+    "mean": 0.5416666666666666,
+    "ci95_low": 0.3333333333333333,
+    "ci95_high": 0.7083333333333334
+  },
+  {
+    "metric": "checkpoint_age_raw_choice_rate",
+    "n": 24,
+    "mean": 0.5416666666666666,
+    "ci95_low": 0.3333333333333333,
+    "ci95_high": 0.7083333333333334
+  },
+  {
+    "metric": "checkpoint_age_centered_margin_logprob",
+    "n": 24,
+    "mean": 0.040181207160154976,
+    "ci95_low": -0.04858999426166217,
+    "ci95_high": 0.12212248674283423
+  },
+  {
+    "metric": "checkpoint_age_raw_margin_logprob",
+    "n": 24,
+    "mean": 0.040181207160154976,
+    "ci95_low": -0.04858999426166217,
+    "ci95_high": 0.12212248674283423
+  },
+  {
+    "metric": "prompt_screen_mean_anchor_js",
+    "n": 120,
+    "mean": 0.038350830965727105,
+    "ci95_low": 0.03457948621325255,
+    "ci95_high": 0.0423895295677842
+  }
+]
