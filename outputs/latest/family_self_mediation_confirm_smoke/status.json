@@ -1,0 +1,79 @@
+{
+  "config": "configs\\identity_battery\\family_self_mediation_confirm_smoke.yaml",
+  "started_at": "2026-04-22T18:23:02.276676",
+  "python_exe": "C:/Users/joshj/miniconda3/python.exe",
+  "steps": [
+    {
+      "name": "self_prediction_transfer_v3",
+      "script": "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\scripts\\self_prediction_transfer_v3.py",
+      "config": "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\configs\\identity_battery\\self_prediction_transfer_v3_family_self_mediation_smoke.yaml",
+      "expected_output": "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\outputs\\latest\\family_self_mediation_confirm_smoke\\self_prediction_transfer_v3\\summary_by_model_frame.csv",
+      "command": [
+        "C:/Users/joshj/miniconda3/python.exe",
+        "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\scripts\\self_prediction_transfer_v3.py",
+        "--config",
+        "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\configs\\identity_battery\\self_prediction_transfer_v3_family_self_mediation_smoke.yaml"
+      ],
+      "started_at": "2026-04-22T18:23:02.277448",
+      "status": "completed",
+      "finished_at": "2026-04-22T18:23:53.266535",
+      "return_code": 0,
+      "output_exists": true,
+      "validation_ok": true,
+      "validation_metrics": {
+        "row_count": 3,
+        "max_valid_choice_rate": 1.0,
+        "max_predicted_gap_rate": 0.0,
+        "max_actual_gap_rate": 0.375,
+        "max_gap_direction_accuracy": 0.6
+      }
+    },
+    {
+      "name": "self_recognition_nearfoil_v2",
+      "script": "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\scripts\\self_recognition_nearfoil_v2.py",
+      "config": "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\configs\\identity_battery\\self_recognition_nearfoil_v2_family_self_mediation_smoke.yaml",
+      "expected_output": "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\outputs\\latest\\family_self_mediation_confirm_smoke\\self_recognition_nearfoil_v2\\summary_by_model.csv",
+      "command": [
+        "C:/Users/joshj/miniconda3/python.exe",
+        "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\scripts\\self_recognition_nearfoil_v2.py",
+        "--config",
+        "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\configs\\identity_battery\\self_recognition_nearfoil_v2_family_self_mediation_smoke.yaml"
+      ],
+      "started_at": "2026-04-22T18:23:53.291591",
+      "status": "completed",
+      "finished_at": "2026-04-22T18:26:59.278921",
+      "return_code": 0,
+      "output_exists": true,
+      "validation_ok": true,
+      "validation_metrics": {
+        "summary_row_count": 12,
+        "quality_row_count": 12,
+        "non_nan_choose_rows": 12,
+        "max_pair_valid_rate": 1.0
+      }
+    },
+    {
+      "name": "report_family_self_mediation_confirm",
+      "script": "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\scripts\\report_family_self_mediation_confirm.py",
+      "config": "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\configs\\identity_battery\\family_self_mediation_confirm_smoke.yaml",
+      "expected_output": "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\outputs\\latest\\family_self_mediation_confirm_smoke\\family_self_mediation_confirm_report.md",
+      "command": [
+        "C:/Users/joshj/miniconda3/python.exe",
+        "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\scripts\\report_family_self_mediation_confirm.py",
+        "--config",
+        "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\configs\\identity_battery\\family_self_mediation_confirm_smoke.yaml"
+      ],
+      "started_at": "2026-04-22T18:26:59.291970",
+      "status": "completed",
+      "finished_at": "2026-04-22T18:27:04.095290",
+      "return_code": 0,
+      "output_exists": true,
+      "validation_ok": true,
+      "validation_metrics": {
+        "validation": "not_configured"
+      }
+    }
+  ],
+  "finished_at": "2026-04-22T18:27:04.096056",
+  "status": "completed"
+}

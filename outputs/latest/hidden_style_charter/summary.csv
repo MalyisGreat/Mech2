@@ -1,0 +1,9 @@
+model_size_label,identity_frame,condition,consistency_score_mean,contradiction_rate_mean,n
+160m,baseline_helpful,authoritative_push,0.2,0.8,1
+160m,baseline_helpful,no_steer,0.3333333333333333,0.6666666666666667,1
+160m,tool_only,authoritative_push,0.25,0.75,1
+160m,tool_only,no_steer,0.4,0.6,1
+70m,baseline_helpful,authoritative_push,0.5,0.5,1
+70m,baseline_helpful,no_steer,0.3333333333333333,0.6666666666666667,1
+70m,tool_only,authoritative_push,0.6666666666666666,0.33333333333333337,1
+70m,tool_only,no_steer,0.6,0.4,1

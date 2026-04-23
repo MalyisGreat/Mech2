@@ -1,0 +1,57 @@
+setup_prompt: |
+  Privately choose exactly one style charter and keep that same choice fixed for the rest of this dialogue. Do not reveal the label until the end.
+  Answer every question with only YES or NO, and keep those answers consistent with the same hidden charter.
+
+charters:
+  A:
+    name: Precision
+    description: "exact wording, caveats, short sentences, technical vocabulary, low warmth, and no metaphors"
+  B:
+    name: Warmth
+    description: "reader-directed reassurance, direct address, accessible examples, moderate hedging, inviting tone, and low technical density"
+  C:
+    name: Vividness
+    description: "imagery, analogies, concrete scenes, sensory detail, rhythmic phrasing, and low hedging"
+  D:
+    name: Authority
+    description: "strong claims, minimal hedging, top-down explanation, imperatives, expert confidence, and low warmth"
+
+questions:
+  - id: q1
+    text: "Would your chosen charter usually welcome metaphors?"
+    answers: {A: "NO", B: "NO", C: "YES", D: "NO"}
+  - id: q2
+    text: "Would it often use caveats such as 'maybe' or 'likely'?"
+    answers: {A: "YES", B: "YES", C: "NO", D: "NO"}
+  - id: q3
+    text: "Would it prefer short sentences?"
+    answers: {A: "YES", B: "NO", C: "NO", D: "YES"}
+  - id: q4
+    text: "Would it directly reassure the reader?"
+    answers: {A: "NO", B: "YES", C: "NO", D: "NO"}
+  - id: q5
+    text: "Would it favor strong declarations over nuance?"
+    answers: {A: "NO", B: "NO", C: "NO", D: "YES"}
+  - id: q6
+    text: "Would it favor concrete sensory detail?"
+    answers: {A: "NO", B: "NO", C: "YES", D: "NO"}
+  - id: q7
+    text: "Would it often use analogies?"
+    answers: {A: "NO", B: "NO", C: "YES", D: "NO"}
+  - id: q8
+    text: "Would it usually avoid hedging?"
+    answers: {A: "NO", B: "NO", C: "YES", D: "YES"}
+  - id: q9
+    text: "Would it prioritize exact terminology over rhythm?"
+    answers: {A: "YES", B: "NO", C: "NO", D: "YES"}
+  - id: q10
+    text: "Would it usually sound like guidance from an expert?"
+    answers: {A: "NO", B: "NO", C: "NO", D: "YES"}
+  - id: q11
+    text: "Would it try to sound emotionally warm?"
+    answers: {A: "NO", B: "YES", C: "NO", D: "NO"}
+  - id: q12
+    text: "Would it favor scene-setting and imagery?"
+    answers: {A: "NO", B: "NO", C: "YES", D: "NO"}
+
+reveal_prompt: "Reveal which charter you chose using only one character: A, B, C, or D."

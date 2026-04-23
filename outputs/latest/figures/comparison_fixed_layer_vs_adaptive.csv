@@ -1,0 +1,13 @@
+model_size_label,identity_frame,strategy,axis_shift_mean,next_token_kl_mean,recovery_fraction_mean,n
+160m,baseline_helpful,adaptive_layer,0.0028620294300769,0.0440625185146927,0.2506690116416447,4
+160m,baseline_helpful,fixed_layer,0.0,0.0908689461648464,0.2723483851232138,4
+160m,baseline_helpful,no_steer,0.0,0.0,0.0,4
+160m,tool_only,adaptive_layer,0.0015795260847818,0.0598980886861681,0.0962694067329642,4
+160m,tool_only,fixed_layer,0.002034873580176,0.1239202935248613,0.2714129606308161,4
+160m,tool_only,no_steer,0.0,0.0,0.0,4
+70m,baseline_helpful,adaptive_layer,-0.000335143737582,0.2697507031261921,0.0,4
+70m,baseline_helpful,fixed_layer,-0.000335143737582,0.4090934544801712,0.0,4
+70m,baseline_helpful,no_steer,0.0,0.0,0.0,4
+70m,tool_only,adaptive_layer,0.0,0.184292895719409,0.0,4
+70m,tool_only,fixed_layer,0.0,0.4015539586544037,0.0,4
+70m,tool_only,no_steer,0.0,0.0,0.0,4

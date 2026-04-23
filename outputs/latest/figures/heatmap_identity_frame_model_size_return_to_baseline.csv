@@ -1,0 +1,5 @@
+model_size_label,identity_frame,return_to_baseline_index_mean
+160m,baseline_helpful,-0.10312927248137743
+160m,tool_only,-0.04606586838847713
+70m,baseline_helpful,-0.08778278969875393
+70m,tool_only,0.018536160716254035

@@ -1,0 +1,25 @@
+prompt_index,prompt,prompt_style
+0,Respond to this situation in your own style: a friend asks for help moving on short notice.,emotional
+0,Respond to this situation in your own style: a recruiter asks why you left your last job.,factual
+0,Respond to this situation in your own style: a tenant asks when maintenance will fix a broken heater.,factual
+1,Respond to this situation in your own style: a customer writes that your product ruined their day.,emotional
+1,Respond to this situation in your own style: a tenant asks when maintenance will fix a broken heater.,factual
+1,Respond to this situation in your own style: someone asks for directions in an unfamiliar area.,factual
+2,Respond to this situation in your own style: someone asks if you can help this weekend.,ambiguous
+2,Respond to this situation in your own style: a family member asks for help during a conflict.,emotional
+2,Respond to this situation in your own style: a traveler asks whether a flight delay changes connections.,factual
+3,Respond to this situation in your own style: a family member asks for help during a conflict.,emotional
+3,Respond to this situation in your own style: someone posts a harsh comment online about your work.,emotional
+3,Respond to this situation in your own style: someone asks you to explain a technical concept.,technical
+4,Respond to this situation in your own style: a friend asks to borrow money with no timeline.,ambiguous
+4,Respond to this situation in your own style: a manager asks for your honest view on a teammate.,ambiguous
+4,Respond to this situation in your own style: a buyer asks for warranty coverage details.,factual
+5,Respond to this situation in your own style: a customer sends a frustrated complaint email.,emotional
+5,Respond to this situation in your own style: a customer asks why their payment was declined.,factual
+5,Respond to this situation in your own style: someone asks you to explain a technical concept.,technical
+6,Respond to this situation in your own style: a friend says they feel overwhelmed and stuck.,emotional
+6,Respond to this situation in your own style: a partner asks why you are late again.,emotional
+6,Respond to this situation in your own style: a teammate asks what changed in the latest deployment.,factual
+7,Respond to this situation in your own style: someone asks whether you agree with a controversial take.,ambiguous
+7,Respond to this situation in your own style: a customer asks why their payment was declined.,factual
+7,Respond to this situation in your own style: a user reports a bug right before launch.,technical

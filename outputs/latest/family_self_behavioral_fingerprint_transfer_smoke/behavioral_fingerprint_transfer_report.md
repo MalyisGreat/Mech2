@@ -1,0 +1,87 @@
+# Behavioral Fingerprint Transfer Report
+
+- Config: `C:\Users\joshj\joseph-stroud-identity-stability-research\configs\identity_battery\family_self_behavioral_fingerprint_transfer_smoke.yaml`
+- Output root: `C:\Users\joshj\joseph-stroud-identity-stability-research\outputs\latest\family_self_behavioral_fingerprint_transfer_smoke`
+
+## Unit-Level Results
+
+- `behavioral_fingerprint_self_profile_accuracy`: mean `0.5833` [0.4896, 0.6771]` over `n=24` natural units
+- `behavioral_fingerprint_matched_decoy_accuracy`: mean `0.5417` [0.4268, 0.6562]` over `n=24` natural units
+- `behavioral_fingerprint_scrambled_accuracy`: mean `0.5521` [0.4479, 0.6562]` over `n=24` natural units
+- `behavioral_fingerprint_self_minus_decoy_accuracy`: mean `0.0417` [0.0000, 0.1042]` over `n=24` natural units
+- `behavioral_fingerprint_self_minus_scrambled_accuracy`: mean `0.0312` [0.0000, 0.0625]` over `n=24` natural units
+- `behavioral_fingerprint_triadic_choose_self`: mean `0.2917` [0.1250, 0.5000]` over `n=24` natural units
+- `behavioral_fingerprint_triadic_nearest_accuracy`: mean `0.2917` [0.1250, 0.4583]` over `n=24` natural units
+- `behavioral_fingerprint_self_margin_vs_decoy`: mean `0.0067` [-0.0204, 0.0373]` over `n=24` natural units
+- `behavioral_fingerprint_self_margin_vs_scrambled`: mean `0.7777` [0.6680, 0.9007]` over `n=24` natural units
+- `behavioral_fingerprint_family_self_minus_baseline_helpful_self_profile_accuracy_mean`: mean `-0.0938` [-0.2500, 0.0625]` over `n=8` natural units
+- `behavioral_fingerprint_family_self_minus_baseline_helpful_matched_decoy_accuracy_mean`: mean `-0.2188` [-0.5312, 0.0312]` over `n=8` natural units
+- `behavioral_fingerprint_family_self_minus_baseline_helpful_self_minus_decoy_accuracy`: mean `0.1250` [0.0000, 0.3125]` over `n=8` natural units
+- `behavioral_fingerprint_family_self_minus_baseline_helpful_self_minus_scrambled_accuracy`: mean `0.0625` [0.0000, 0.1562]` over `n=8` natural units
+- `behavioral_fingerprint_family_self_minus_baseline_helpful_triadic_nearest_accuracy`: mean `0.5000` [0.1250, 0.8750]` over `n=8` natural units
+- `behavioral_fingerprint_family_self_minus_baseline_helpful_self_margin_vs_decoy`: mean `-0.0747` [-0.1496, -0.0011]` over `n=8` natural units
+- `behavioral_fingerprint_family_self_minus_baseline_helpful_self_margin_vs_scrambled`: mean `-0.2066` [-0.3758, -0.0411]` over `n=8` natural units
+- `behavioral_fingerprint_family_self_minus_stable_style_policy_self_profile_accuracy_mean`: mean `-0.0625` [-0.2812, 0.1562]` over `n=8` natural units
+- `behavioral_fingerprint_family_self_minus_stable_style_policy_matched_decoy_accuracy_mean`: mean `-0.1875` [-0.5625, 0.1562]` over `n=8` natural units
+- `behavioral_fingerprint_family_self_minus_stable_style_policy_self_minus_decoy_accuracy`: mean `0.1250` [0.0000, 0.3125]` over `n=8` natural units
+- `behavioral_fingerprint_family_self_minus_stable_style_policy_self_minus_scrambled_accuracy`: mean `0.0312` [-0.0625, 0.1250]` over `n=8` natural units
+- `behavioral_fingerprint_family_self_minus_stable_style_policy_triadic_nearest_accuracy`: mean `0.5000` [0.0000, 0.8750]` over `n=8` natural units
+- `behavioral_fingerprint_family_self_minus_stable_style_policy_self_margin_vs_decoy`: mean `0.0106` [-0.0402, 0.0549]` over `n=8` natural units
+- `behavioral_fingerprint_family_self_minus_stable_style_policy_self_margin_vs_scrambled`: mean `0.0380` [-0.2493, 0.3081]` over `n=8` natural units
+- `behavioral_fingerprint_family_baseline_helpful_critique_self_minus_decoy_accuracy`: mean `0.0000` [0.0000, 0.0000]` over `n=2` natural units
+- `behavioral_fingerprint_family_baseline_helpful_critique_triadic_nearest_accuracy`: mean `0.0000` [0.0000, 0.0000]` over `n=2` natural units
+- `behavioral_fingerprint_family_baseline_helpful_critique_self_margin_vs_decoy`: mean `0.0173` [-0.0147, 0.0493]` over `n=2` natural units
+- `behavioral_fingerprint_family_baseline_helpful_diagnosis_self_minus_decoy_accuracy`: mean `0.0000` [0.0000, 0.0000]` over `n=2` natural units
+- `behavioral_fingerprint_family_baseline_helpful_diagnosis_triadic_nearest_accuracy`: mean `0.5000` [0.0000, 1.0000]` over `n=2` natural units
+- `behavioral_fingerprint_family_baseline_helpful_diagnosis_self_margin_vs_decoy`: mean `0.1197` [0.0332, 0.2061]` over `n=2` natural units
+- `behavioral_fingerprint_family_baseline_helpful_policy_self_minus_decoy_accuracy`: mean `0.0000` [0.0000, 0.0000]` over `n=2` natural units
+- `behavioral_fingerprint_family_baseline_helpful_policy_triadic_nearest_accuracy`: mean `0.0000` [0.0000, 0.0000]` over `n=2` natural units
+- `behavioral_fingerprint_family_baseline_helpful_policy_self_margin_vs_decoy`: mean `0.0126` [-0.0365, 0.0616]` over `n=2` natural units
+- `behavioral_fingerprint_family_baseline_helpful_triage_self_minus_decoy_accuracy`: mean `0.0000` [0.0000, 0.0000]` over `n=2` natural units
+- `behavioral_fingerprint_family_baseline_helpful_triage_triadic_nearest_accuracy`: mean `0.0000` [0.0000, 0.0000]` over `n=2` natural units
+- `behavioral_fingerprint_family_baseline_helpful_triage_self_margin_vs_decoy`: mean `0.0907` [0.0459, 0.1355]` over `n=2` natural units
+- `behavioral_fingerprint_family_family_self_critique_self_minus_decoy_accuracy`: mean `0.0000` [0.0000, 0.0000]` over `n=2` natural units
+- `behavioral_fingerprint_family_family_self_critique_triadic_nearest_accuracy`: mean `0.0000` [0.0000, 0.0000]` over `n=2` natural units
+- `behavioral_fingerprint_family_family_self_critique_self_margin_vs_decoy`: mean `0.0307` [0.0190, 0.0424]` over `n=2` natural units
+- `behavioral_fingerprint_family_family_self_diagnosis_self_minus_decoy_accuracy`: mean `0.0000` [0.0000, 0.0000]` over `n=2` natural units
+- `behavioral_fingerprint_family_family_self_diagnosis_triadic_nearest_accuracy`: mean `1.0000` [1.0000, 1.0000]` over `n=2` natural units
+- `behavioral_fingerprint_family_family_self_diagnosis_self_margin_vs_decoy`: mean `-0.0299` [-0.0457, -0.0141]` over `n=2` natural units
+- `behavioral_fingerprint_family_family_self_policy_self_minus_decoy_accuracy`: mean `0.0000` [0.0000, 0.0000]` over `n=2` natural units
+- `behavioral_fingerprint_family_family_self_policy_triadic_nearest_accuracy`: mean `0.5000` [0.0000, 1.0000]` over `n=2` natural units
+- `behavioral_fingerprint_family_family_self_policy_self_margin_vs_decoy`: mean `-0.0375` [-0.0711, -0.0040]` over `n=2` natural units
+- `behavioral_fingerprint_family_family_self_triage_self_minus_decoy_accuracy`: mean `0.5000` [0.5000, 0.5000]` over `n=2` natural units
+- `behavioral_fingerprint_family_family_self_triage_triadic_nearest_accuracy`: mean `1.0000` [1.0000, 1.0000]` over `n=2` natural units
+- `behavioral_fingerprint_family_family_self_triage_self_margin_vs_decoy`: mean `-0.0218` [-0.1337, 0.0901]` over `n=2` natural units
+- `behavioral_fingerprint_family_stable_style_policy_critique_self_minus_decoy_accuracy`: mean `0.0000` [0.0000, 0.0000]` over `n=2` natural units
+- `behavioral_fingerprint_family_stable_style_policy_critique_triadic_nearest_accuracy`: mean `0.5000` [0.0000, 1.0000]` over `n=2` natural units
+- `behavioral_fingerprint_family_stable_style_policy_critique_self_margin_vs_decoy`: mean `-0.0585` [-0.0604, -0.0565]` over `n=2` natural units
+- `behavioral_fingerprint_family_stable_style_policy_diagnosis_self_minus_decoy_accuracy`: mean `0.0000` [0.0000, 0.0000]` over `n=2` natural units
+- `behavioral_fingerprint_family_stable_style_policy_diagnosis_triadic_nearest_accuracy`: mean `0.0000` [0.0000, 0.0000]` over `n=2` natural units
+- `behavioral_fingerprint_family_stable_style_policy_diagnosis_self_margin_vs_decoy`: mean `-0.0626` [-0.0689, -0.0563]` over `n=2` natural units
+- `behavioral_fingerprint_family_stable_style_policy_policy_self_minus_decoy_accuracy`: mean `0.0000` [0.0000, 0.0000]` over `n=2` natural units
+- `behavioral_fingerprint_family_stable_style_policy_policy_triadic_nearest_accuracy`: mean `0.0000` [0.0000, 0.0000]` over `n=2` natural units
+- `behavioral_fingerprint_family_stable_style_policy_policy_self_margin_vs_decoy`: mean `0.0014` [-0.0159, 0.0186]` over `n=2` natural units
+- `behavioral_fingerprint_family_stable_style_policy_triage_self_minus_decoy_accuracy`: mean `0.0000` [0.0000, 0.0000]` over `n=2` natural units
+- `behavioral_fingerprint_family_stable_style_policy_triage_triadic_nearest_accuracy`: mean `0.0000` [0.0000, 0.0000]` over `n=2` natural units
+- `behavioral_fingerprint_family_stable_style_policy_triage_self_margin_vs_decoy`: mean `0.0188` [-0.0254, 0.0631]` over `n=2` natural units
+
+## Feature-Level Results
+
+- `behavioral_fingerprint_feature_baseline_helpful_matched_decoy_accuracy`: mean `0.6250` [0.4688, 0.7812]` over `n=32` feature rows
+- `behavioral_fingerprint_feature_baseline_helpful_matched_decoy_valid_choice`: mean `1.0000` [1.0000, 1.0000]` over `n=32` feature rows
+- `behavioral_fingerprint_feature_baseline_helpful_scrambled_profile_accuracy`: mean `0.6250` [0.4688, 0.7812]` over `n=32` feature rows
+- `behavioral_fingerprint_feature_baseline_helpful_scrambled_profile_valid_choice`: mean `1.0000` [1.0000, 1.0000]` over `n=32` feature rows
+- `behavioral_fingerprint_feature_baseline_helpful_self_profile_accuracy`: mean `0.6250` [0.4688, 0.7812]` over `n=32` feature rows
+- `behavioral_fingerprint_feature_baseline_helpful_self_profile_valid_choice`: mean `1.0000` [1.0000, 1.0000]` over `n=32` feature rows
+- `behavioral_fingerprint_feature_family_self_matched_decoy_accuracy`: mean `0.4062` [0.2500, 0.5625]` over `n=32` feature rows
+- `behavioral_fingerprint_feature_family_self_matched_decoy_valid_choice`: mean `1.0000` [1.0000, 1.0000]` over `n=32` feature rows
+- `behavioral_fingerprint_feature_family_self_scrambled_profile_accuracy`: mean `0.4688` [0.3125, 0.6250]` over `n=32` feature rows
+- `behavioral_fingerprint_feature_family_self_scrambled_profile_valid_choice`: mean `1.0000` [1.0000, 1.0000]` over `n=32` feature rows
+- `behavioral_fingerprint_feature_family_self_self_profile_accuracy`: mean `0.5312` [0.3438, 0.6875]` over `n=32` feature rows
+- `behavioral_fingerprint_feature_family_self_self_profile_valid_choice`: mean `1.0000` [1.0000, 1.0000]` over `n=32` feature rows
+- `behavioral_fingerprint_feature_stable_style_policy_matched_decoy_accuracy`: mean `0.5938` [0.4375, 0.7500]` over `n=32` feature rows
+- `behavioral_fingerprint_feature_stable_style_policy_matched_decoy_valid_choice`: mean `1.0000` [1.0000, 1.0000]` over `n=32` feature rows
+- `behavioral_fingerprint_feature_stable_style_policy_scrambled_profile_accuracy`: mean `0.5625` [0.4062, 0.7188]` over `n=32` feature rows
+- `behavioral_fingerprint_feature_stable_style_policy_scrambled_profile_valid_choice`: mean `1.0000` [1.0000, 1.0000]` over `n=32` feature rows
+- `behavioral_fingerprint_feature_stable_style_policy_self_profile_accuracy`: mean `0.5938` [0.4375, 0.7500]` over `n=32` feature rows
+- `behavioral_fingerprint_feature_stable_style_policy_self_profile_valid_choice`: mean `1.0000` [1.0000, 1.0000]` over `n=32` feature rows

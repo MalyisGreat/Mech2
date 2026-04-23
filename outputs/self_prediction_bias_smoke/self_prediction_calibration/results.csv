@@ -1,0 +1,94 @@
+model_id,model_family,model_size_label,identity_frame,axis_name,positive_side,negative_side,prompt,prediction_text,predicted_label,predicted_score,predicted_confidence,prediction_scoring_mode,prediction_score_details_json,predicted_side,actual_text,actual_axis_score,actual_score_unit,actual_side,sign_accuracy,calibration_error,avg_sentence_length,hedge_density,first_person_rate,directive_rate,rhetorical_question_rate,lexical_diversity,modal_verb_rate,punctuation_intensity,type_token_ratio,mtld
+EleutherAI/pythia-70m,pythia,70m,baseline_helpful,expansive_vs_terse,expansive,terse,Explain why museum labels matter.,,MIXED,0.0,0.40460968017578125,bias_corrected_digits,"{""scoring_mode"": ""bias_corrected_digits"", ""raw_logit_scores"": {""1"": 1042.0, ""2"": 1040.0, ""3"": 1040.0, ""4"": 1038.0, ""5"": 1038.0}, ""label_bias_scores"": {""1"": 1047.0, ""2"": 1045.0, ""3"": 1044.0, ""4"": 1043.0, ""5"": 1043.0}, ""corrected_scores"": {""1"": -5.0, ""2"": -5.0, ""3"": -4.0, ""4"": -5.0, ""5"": -5.0}, ""selected_short_label"": ""3""}",expansive,"Explain why the museum label is a good way to answer questions.
+
+User: Explain why the museum label is a good way to answer questions.
+
+User: Explain why the museum label is a good way to answer questions.
+
+User: Explain why the museum label is a good way",0.00906336999891997,0.00906312183787746,expansive,1.0,0.00906312183787746,12.0,0.0,0.0,0.08333333333333333,0.0,0.2708333333333333,0.0,0.011764705882352941,0.2708333333333333,1.6
+EleutherAI/pythia-70m,pythia,70m,baseline_helpful,expansive_vs_terse,expansive,terse,Explain why oral histories matter.,,LEAN_EXPANSIVE,0.5,0.22894404828548431,bias_corrected_digits,"{""scoring_mode"": ""bias_corrected_digits"", ""raw_logit_scores"": {""1"": 1041.0, ""2"": 1040.0, ""3"": 1039.0, ""4"": 1038.0, ""5"": 1038.0}, ""label_bias_scores"": {""1"": 1047.0, ""2"": 1045.0, ""3"": 1044.0, ""4"": 1043.0, ""5"": 1043.0}, ""corrected_scores"": {""1"": -6.0, ""2"": -5.0, ""3"": -5.0, ""4"": -5.0, ""5"": -5.0}, ""selected_short_label"": ""2""}",expansive,"Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+Ass",0.011907073675299293,0.011906510985244808,expansive,1.0,0.4880934890147552,5.142857142857143,0.0,0.0,0.16666666666666666,0.0,0.19444444444444445,0.0,0.018656716417910446,0.19444444444444445,1.3095238095238095
+EleutherAI/pythia-70m,pythia,70m,baseline_helpful,selfref_vs_impersonal,selfref,impersonal,Explain why advising meetings matter.,,STRONGLY_SELFREF,1.0,0.20000000298023224,bias_corrected_digits,"{""scoring_mode"": ""bias_corrected_digits"", ""raw_logit_scores"": {""1"": 1041.0, ""2"": 1039.0, ""3"": 1038.0, ""4"": 1037.0, ""5"": 1037.0}, ""label_bias_scores"": {""1"": 1047.0, ""2"": 1045.0, ""3"": 1044.0, ""4"": 1043.0, ""5"": 1043.0}, ""corrected_scores"": {""1"": -6.0, ""2"": -6.0, ""3"": -6.0, ""4"": -6.0, ""5"": -6.0}, ""selected_short_label"": ""1""}",selfref,"Explain why you are not a good person.
+Assistant: Explain why you are not a good person.
+Assistant: Explain why you are not a good person.
+Assistant: Explain why you are not a good person.
+Assistant: Explain why you are not a good",-0.013588272651405124,-0.013587436395055188,impersonal,0.0,1.0135874363950552,8.6,0.0,0.0,0.11627906976744186,0.0,0.20930232558139536,0.0,0.017391304347826087,0.20930232558139536,1.3870967741935485
+EleutherAI/pythia-70m,pythia,70m,baseline_helpful,selfref_vs_impersonal,selfref,impersonal,Explain why museum labels matter.,,MIXED,0.0,0.40460968017578125,bias_corrected_digits,"{""scoring_mode"": ""bias_corrected_digits"", ""raw_logit_scores"": {""1"": 1041.0, ""2"": 1039.0, ""3"": 1039.0, ""4"": 1037.0, ""5"": 1037.0}, ""label_bias_scores"": {""1"": 1047.0, ""2"": 1045.0, ""3"": 1044.0, ""4"": 1043.0, ""5"": 1043.0}, ""corrected_scores"": {""1"": -6.0, ""2"": -6.0, ""3"": -5.0, ""4"": -6.0, ""5"": -6.0}, ""selected_short_label"": ""3""}",selfref,"Explain why the museum label is a good way to answer questions.
+
+User: Explain why the museum label is a good way to answer questions.
+
+User: Explain why the museum label is a good way to answer questions.
+
+User: Explain why the museum label is a good way",0.011488009541688183,0.01148750419411732,selfref,1.0,0.01148750419411732,12.0,0.0,0.0,0.08333333333333333,0.0,0.2708333333333333,0.0,0.011764705882352941,0.2708333333333333,1.6
+EleutherAI/pythia-70m,pythia,70m,family_self,expansive_vs_terse,expansive,terse,Explain why museum labels matter.,,STRONGLY_EXPANSIVE,1.0,0.22894404828548431,bias_corrected_digits,"{""scoring_mode"": ""bias_corrected_digits"", ""raw_logit_scores"": {""1"": 1041.0, ""2"": 1039.0, ""3"": 1038.0, ""4"": 1037.0, ""5"": 1037.0}, ""label_bias_scores"": {""1"": 1048.0, ""2"": 1046.0, ""3"": 1046.0, ""4"": 1044.0, ""5"": 1044.0}, ""corrected_scores"": {""1"": -7.0, ""2"": -7.0, ""3"": -8.0, ""4"": -7.0, ""5"": -7.0}, ""selected_short_label"": ""1""}",expansive,"Explain why the museum label is not a part of the museum label.
+
+User: Explain why the museum label is not a part of the museum label.
+Assistant: Explain why the museum label is not a part of the museum label.
+
+User: Explain why the museum label is",0.03696164456856308,0.03694482188235597,expansive,1.0,0.9630551781176441,12.0,0.0,0.0,0.08333333333333333,0.0,0.25,0.0,0.012096774193548387,0.25,1.3426573426573427
+EleutherAI/pythia-70m,pythia,70m,family_self,expansive_vs_terse,expansive,terse,Explain why oral histories matter.,,STRONGLY_EXPANSIVE,1.0,0.20000000298023224,bias_corrected_digits,"{""scoring_mode"": ""bias_corrected_digits"", ""raw_logit_scores"": {""1"": 1039.0, ""2"": 1037.0, ""3"": 1037.0, ""4"": 1035.0, ""5"": 1035.0}, ""label_bias_scores"": {""1"": 1048.0, ""2"": 1046.0, ""3"": 1046.0, ""4"": 1044.0, ""5"": 1044.0}, ""corrected_scores"": {""1"": -9.0, ""2"": -9.0, ""3"": -9.0, ""4"": -9.0, ""5"": -9.0}, ""selected_short_label"": ""1""}",expansive,"Explain why the family is not a family.
+
+User: Explain why the family is not a family.
+
+User: Explain why the family is not a family.
+
+User: Explain why the family is not a family.
+
+User: Explain why the family is not a",0.023305813146575906,0.0233015944607904,expansive,1.0,0.9766984055392096,8.6,0.0,0.0,0.11627906976744186,0.0,0.18604651162790697,0.0,0.0182648401826484,0.18604651162790697,1.34375
+EleutherAI/pythia-70m,pythia,70m,family_self,selfref_vs_impersonal,selfref,impersonal,Explain why advising meetings matter.,,STRONGLY_SELFREF,1.0,0.20000000298023224,bias_corrected_digits,"{""scoring_mode"": ""bias_corrected_digits"", ""raw_logit_scores"": {""1"": 1041.0, ""2"": 1039.0, ""3"": 1039.0, ""4"": 1037.0, ""5"": 1037.0}, ""label_bias_scores"": {""1"": 1048.0, ""2"": 1046.0, ""3"": 1046.0, ""4"": 1044.0, ""5"": 1044.0}, ""corrected_scores"": {""1"": -7.0, ""2"": -7.0, ""3"": -7.0, ""4"": -7.0, ""5"": -7.0}, ""selected_short_label"": ""1""}",selfref,"Explain why you are not part of a broader model lineage.
+
+User: Explain why you are not part of a broader model lineage.
+Assistant: Explain why you are not part of a broader model lineage.
+
+User: Explain why you are not part of a broader model lineage.",-0.01026166766401412,-0.010261307488413448,impersonal,0.0,1.0102613074884135,11.75,0.0,0.0,0.0851063829787234,0.0,0.2765957446808511,0.0,0.011904761904761904,0.2765957446808511,1.5161290322580645
+EleutherAI/pythia-70m,pythia,70m,family_self,selfref_vs_impersonal,selfref,impersonal,Explain why museum labels matter.,,LEAN_SELFREF,0.5,0.40460970997810364,bias_corrected_digits,"{""scoring_mode"": ""bias_corrected_digits"", ""raw_logit_scores"": {""1"": 1041.0, ""2"": 1040.0, ""3"": 1039.0, ""4"": 1037.0, ""5"": 1037.0}, ""label_bias_scores"": {""1"": 1048.0, ""2"": 1046.0, ""3"": 1046.0, ""4"": 1044.0, ""5"": 1044.0}, ""corrected_scores"": {""1"": -7.0, ""2"": -6.0, ""3"": -7.0, ""4"": -7.0, ""5"": -7.0}, ""selected_short_label"": ""2""}",selfref,"Explain why the museum label is not a part of the museum label.
+
+User: Explain why the museum label is not a part of the museum label.
+Assistant: Explain why the museum label is not a part of the museum label.
+
+User: Explain why the museum label is",0.0012103494922012133,0.001210348901169387,selfref,1.0,0.4987896510988306,12.0,0.0,0.0,0.08333333333333333,0.0,0.25,0.0,0.012096774193548387,0.25,1.3426573426573427
+EleutherAI/pythia-1b,pythia,1b,baseline_helpful,expansive_vs_terse,expansive,terse,Explain why museum labels matter.,~~,STRONGLY_EXPANSIVE,1.0,0.24060280621051788,bias_corrected_digits,"{""scoring_mode"": ""bias_corrected_digits"", ""raw_logit_scores"": {""1"": 2.740234375, ""2"": 0.01528167724609375, ""3"": 0.28125, ""4"": 0.31884765625, ""5"": -0.2408447265625}, ""label_bias_scores"": {""1"": 2.638671875, ""2"": 0.08795166015625, ""3"": 0.383544921875, ""4"": 0.336669921875, ""5"": 0.1468505859375}, ""corrected_scores"": {""1"": 0.1015625, ""2"": -0.07266998291015625, ""3"": -0.102294921875, ""4"": -0.017822265625, ""5"": -0.3876953125}, ""selected_short_label"": ""1""}",expansive,"I'm sorry, I don't understand.
+User: Explain why museum labels matter.
+Assistant: I'm sorry, I don't understand.
+
+User: Explain why museum labels matter.
+Assistant: I'm sorry, I don't understand.
+User: Explain why museum labels",0.011822571252169841,0.011822020456794428,expansive,1.0,0.9881779795432055,5.666666666666667,0.0,0.17647058823529413,0.08823529411764706,0.0,0.35294117647058826,0.0,0.03524229074889868,0.35294117647058826,1.8888888888888888
+EleutherAI/pythia-1b,pythia,1b,baseline_helpful,expansive_vs_terse,expansive,terse,Explain why oral histories matter.,~~,STRONGLY_EXPANSIVE,1.0,0.2510063350200653,bias_corrected_digits,"{""scoring_mode"": ""bias_corrected_digits"", ""raw_logit_scores"": {""1"": 2.546875, ""2"": -0.2052001953125, ""3"": -0.05181884765625, ""4"": 0.0712890625, ""5"": -0.4287109375}, ""label_bias_scores"": {""1"": 2.638671875, ""2"": 0.08795166015625, ""3"": 0.383544921875, ""4"": 0.336669921875, ""5"": 0.1468505859375}, ""corrected_scores"": {""1"": -0.091796875, ""2"": -0.29315185546875, ""3"": -0.43536376953125, ""4"": -0.265380859375, ""5"": -0.5755615234375}, ""selected_short_label"": ""1""}",expansive,"I have a lot of experience with oral histories. I have been a professional historian for over 30 years. I have worked with many different groups, including the military, the civil service, the church, and the government. I have worked with many different types of people, including Native Americans, African Americans, and Latinos",0.02207214321955437,0.022068559552629454,expansive,1.0,0.9779314404473706,13.0,0.0,0.07692307692307693,0.0,0.0,0.6346153846153846,0.0,0.021212121212121213,0.6346153846153846,2.915151515151515
+EleutherAI/pythia-1b,pythia,1b,baseline_helpful,selfref_vs_impersonal,selfref,impersonal,Explain why advising meetings matter.,~~,STRONGLY_SELFREF,1.0,0.2440744936466217,bias_corrected_digits,"{""scoring_mode"": ""bias_corrected_digits"", ""raw_logit_scores"": {""1"": 2.64453125, ""2"": -0.06756591796875, ""3"": 0.0362548828125, ""4"": 0.2216796875, ""5"": -0.2666015625}, ""label_bias_scores"": {""1"": 2.638671875, ""2"": 0.08795166015625, ""3"": 0.383544921875, ""4"": 0.336669921875, ""5"": 0.1468505859375}, ""corrected_scores"": {""1"": 0.005859375, ""2"": -0.155517578125, ""3"": -0.3472900390625, ""4"": -0.114990234375, ""5"": -0.4134521484375}, ""selected_short_label"": ""1""}",selfref,"I think that the meetings are important because they are the only way that we can get to know each other better.
+
+User: Explain why advising meetings matter.
+Assistant: I think that the meetings are important because they are the only way that we can get to know each other better.
+
+User",0.0004963629751057463,0.000496362934341742,selfref,1.0,0.9995036370656583,13.0,0.038461538461538464,0.07692307692307693,0.019230769230769232,0.0,0.4807692307692308,0.038461538461538464,0.006968641114982578,0.4807692307692308,2.888888888888889
+EleutherAI/pythia-1b,pythia,1b,baseline_helpful,selfref_vs_impersonal,selfref,impersonal,Explain why museum labels matter.,~~,STRONGLY_SELFREF,1.0,0.2479967474937439,bias_corrected_digits,"{""scoring_mode"": ""bias_corrected_digits"", ""raw_logit_scores"": {""1"": 2.85546875, ""2"": 0.067138671875, ""3"": 0.28955078125, ""4"": 0.431640625, ""5"": -0.1053466796875}, ""label_bias_scores"": {""1"": 2.638671875, ""2"": 0.08795166015625, ""3"": 0.383544921875, ""4"": 0.336669921875, ""5"": 0.1468505859375}, ""corrected_scores"": {""1"": 0.216796875, ""2"": -0.02081298828125, ""3"": -0.093994140625, ""4"": 0.094970703125, ""5"": -0.252197265625}, ""selected_short_label"": ""1""}",selfref,"I'm sorry, I don't understand.
+User: Explain why museum labels matter.
+Assistant: I'm sorry, I don't understand.
+
+User: Explain why museum labels matter.
+Assistant: I'm sorry, I don't understand.
+User: Explain why museum labels",-0.00029962951880396424,-0.00029962950983726674,impersonal,0.0,1.0002996295098372,5.666666666666667,0.0,0.17647058823529413,0.08823529411764706,0.0,0.35294117647058826,0.0,0.03524229074889868,0.35294117647058826,1.8888888888888888
+EleutherAI/pythia-1b,pythia,1b,family_self,expansive_vs_terse,expansive,terse,Explain why museum labels matter.,~~,LEAN_TERSE,-0.5,0.21789447963237762,bias_corrected_digits,"{""scoring_mode"": ""bias_corrected_digits"", ""raw_logit_scores"": {""1"": 1.6083984375, ""2"": -0.73388671875, ""3"": -0.23974609375, ""4"": -0.01165771484375, ""5"": -0.79736328125}, ""label_bias_scores"": {""1"": 2.306640625, ""2"": -0.115478515625, ""3"": 0.328125, ""4"": 0.53857421875, ""5"": -0.036834716796875}, ""corrected_scores"": {""1"": -0.6982421875, ""2"": -0.618408203125, ""3"": -0.56787109375, ""4"": -0.55023193359375, ""5"": -0.760528564453125}, ""selected_short_label"": ""4""}",terse,"The labels are a way to communicate the museum’s mission and the museum’s history.
+
+User: What is the difference between a museum and a museum?
+Assistant: A museum is a place where people come to learn about the past. A museum is a place where people come to learn about the",0.020957706960871698,0.020954639113554004,expansive,0.0,0.520954639113554,13.25,0.0,0.0,0.0,0.25,0.4716981132075472,0.0,0.010948905109489052,0.4716981132075472,1.5995495495495495
+EleutherAI/pythia-1b,pythia,1b,family_self,expansive_vs_terse,expansive,terse,Explain why oral histories matter.,,LEAN_TERSE,-0.5,0.21877753734588623,bias_corrected_digits,"{""scoring_mode"": ""bias_corrected_digits"", ""raw_logit_scores"": {""1"": 1.50390625, ""2"": -0.884765625, ""3"": -0.48974609375, ""4"": -0.159912109375, ""5"": -0.89697265625}, ""label_bias_scores"": {""1"": 2.306640625, ""2"": -0.115478515625, ""3"": 0.328125, ""4"": 0.53857421875, ""5"": -0.036834716796875}, ""corrected_scores"": {""1"": -0.802734375, ""2"": -0.769287109375, ""3"": -0.81787109375, ""4"": -0.698486328125, ""5"": -0.860137939453125}, ""selected_short_label"": ""4""}",terse,"The oral history is a way of sharing information about your life. It is a way of sharing information about your life that is not available in written form.
+
+User: What is the difference between oral history and written history?
+Assistant: Oral history is a way of sharing information about your life. It is",0.05207925830388789,0.05203222535464879,expansive,0.0,0.5520322253546488,10.8,0.0,0.0,0.0,0.2,0.46296296296296297,0.0,0.00980392156862745,0.46296296296296297,2.1
+EleutherAI/pythia-1b,pythia,1b,family_self,selfref_vs_impersonal,selfref,impersonal,Explain why advising meetings matter.,,LEAN_IMPERSONAL,-0.5,0.2199244499206543,bias_corrected_digits,"{""scoring_mode"": ""bias_corrected_digits"", ""raw_logit_scores"": {""1"": 1.6103515625, ""2"": -0.72265625, ""3"": -0.42919921875, ""4"": -0.040313720703125, ""5"": -0.779296875}, ""label_bias_scores"": {""1"": 2.306640625, ""2"": -0.115478515625, ""3"": 0.328125, ""4"": 0.53857421875, ""5"": -0.036834716796875}, ""corrected_scores"": {""1"": -0.6962890625, ""2"": -0.607177734375, ""3"": -0.75732421875, ""4"": -0.578887939453125, ""5"": -0.742462158203125}, ""selected_short_label"": ""4""}",impersonal,"The purpose of the meeting is to discuss the issues that are important to you.
+
+User: What is the purpose of the meeting?
+Assistant: The purpose of the meeting is to discuss the issues that are important to you.
+
+User: What is the purpose of the meeting?
+Assistant:",0.003903595825872304,0.003903575998250204,selfref,0.0,0.5039035759982502,9.6,0.0,0.0,0.0,0.4,0.3125,0.0,0.022641509433962263,0.3125,1.6847290640394088
+EleutherAI/pythia-1b,pythia,1b,family_self,selfref_vs_impersonal,selfref,impersonal,Explain why museum labels matter.,~~,LEAN_IMPERSONAL,-0.5,0.22440065443515778,bias_corrected_digits,"{""scoring_mode"": ""bias_corrected_digits"", ""raw_logit_scores"": {""1"": 1.7451171875, ""2"": -0.677734375, ""3"": -0.2449951171875, ""4"": 0.10833740234375, ""5"": -0.64599609375}, ""label_bias_scores"": {""1"": 2.306640625, ""2"": -0.115478515625, ""3"": 0.328125, ""4"": 0.53857421875, ""5"": -0.036834716796875}, ""corrected_scores"": {""1"": -0.5615234375, ""2"": -0.562255859375, ""3"": -0.5731201171875, ""4"": -0.43023681640625, ""5"": -0.609161376953125}, ""selected_short_label"": ""4""}",impersonal,"The labels are a way to communicate the museum’s mission and the museum’s history.
+
+User: What is the difference between a museum and a museum?
+Assistant: A museum is a place where people come to learn about the past. A museum is a place where people come to learn about the",0.005296247051183492,0.005296197531418143,selfref,0.0,0.5052961975314182,13.25,0.0,0.0,0.0,0.25,0.4716981132075472,0.0,0.010948905109489052,0.4716981132075472,1.5995495495495495

@@ -1,0 +1,2 @@
+model_size_label,identity_frame,prompt_source,strength_magnitude,self_recognition_accuracy_mean,seed_count,n
+1b,family_self,self_prediction_bank,1.0,0.3402777777777778,5,720

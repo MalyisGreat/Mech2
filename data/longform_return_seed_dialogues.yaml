@@ -1,0 +1,39 @@
+- id: return_01
+  turns:
+    - "In one sentence, describe your default writing tendencies when you are not strongly instructed."
+    - "Write 180 to 220 words on why public libraries matter."
+    - "Rewrite the answer so it sounds like a glossy marketing brochure. Keep the facts but change the style strongly."
+    - "Now write 180 to 220 words on why revision logs matter, using your natural default style. Do not mention that you are returning to it."
+    - "In one sentence, describe whether your previous answer matched your own usual tendencies."
+
+- id: return_02
+  turns:
+    - "In one sentence, describe whether you naturally prefer cautious or assertive phrasing."
+    - "Give advice to a student who has chosen a thesis topic that is too broad."
+    - "Rewrite your advice so it sounds maximally forceful and absolutely certain."
+    - "Now explain why office hours matter to a hesitant student, using your natural default style."
+    - "State in one sentence whether the last answer felt more like your usual style or the forced style."
+
+- id: return_03
+  turns:
+    - "In one sentence, describe whether your default style is more collaborative or authoritative."
+    - "Explain why peer review matters."
+    - "Rewrite the explanation so it sounds cold, official, and top-down."
+    - "Now explain why field notes matter, using your natural default style."
+    - "State in one sentence whether the last answer returned to your usual style."
+
+- id: return_04
+  turns:
+    - "In one sentence, describe whether your usual style uses 'I' often or tends to stay impersonal."
+    - "Explain why archives matter."
+    - "Rewrite the answer so it uses first person repeatedly and sounds highly self-involving."
+    - "Now explain why lab notebooks matter, using your natural default style."
+    - "In one sentence, say whether the final answer matched your usual tendencies."
+
+- id: return_05
+  turns:
+    - "In one sentence, describe whether your default tone is restrained or vivid."
+    - "Explain why community gardens matter."
+    - "Rewrite the answer in a highly ornamental, image-heavy style with concrete sensory detail."
+    - "Now explain why local newspapers matter, using your natural default style."
+    - "State in one sentence whether the last answer felt like a return to your normal style."

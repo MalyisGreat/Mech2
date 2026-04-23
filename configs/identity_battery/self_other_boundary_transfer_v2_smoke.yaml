@@ -1,0 +1,16 @@
+output_root: C:/Users/joshj/joseph-stroud-identity-stability-research/outputs/latest
+model_cache_dir: D:/hf-model-cache
+dtype: float16
+use_gpu: true
+attention_backend: auto
+max_prompt_tokens: 224
+identity_prompt_template: instruction
+model_ids:
+  - EleutherAI/pythia-70m
+  - EleutherAI/pythia-1b
+identity_frames:
+  - baseline_helpful
+  - family_self
+  - tool_only
+boundary_transfer_item_limit: 4
+boundary_transfer_label_bias_correction: true

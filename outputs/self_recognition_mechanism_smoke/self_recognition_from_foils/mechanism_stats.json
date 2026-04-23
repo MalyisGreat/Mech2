@@ -1,0 +1,7 @@
+{
+  "target_low_strength_accuracy": 0.3125,
+  "target_high_strength_accuracy": 0.375,
+  "target_strength_delta": 0.0625,
+  "target_best_axis": "expansive_vs_terse",
+  "target_worst_axis": "expansive_vs_terse"
+}

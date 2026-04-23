@@ -1,0 +1,36 @@
+{
+  "config": "configs\\identity_battery\\master_identity_validation_smoke.yaml",
+  "started_at": "2026-04-22T01:00:11.107629",
+  "python_exe": "C:/Users/joshj/miniconda3/python.exe",
+  "steps": [
+    {
+      "name": "self_other_boundary_transfer_v5",
+      "script": "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\scripts\\self_other_boundary_transfer_v5.py",
+      "config": "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\configs\\identity_battery\\self_other_boundary_transfer_v5_smoke.yaml",
+      "expected_output": "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\outputs\\latest\\master_identity_validation_smoke\\self_other_boundary_transfer_v5\\summary_by_model_frame.csv",
+      "command": [
+        "C:/Users/joshj/miniconda3/python.exe",
+        "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\scripts\\self_other_boundary_transfer_v5.py",
+        "--config",
+        "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\configs\\identity_battery\\self_other_boundary_transfer_v5_smoke.yaml"
+      ],
+      "started_at": "2026-04-22T01:00:11.108863",
+      "status": "failed",
+      "finished_at": "2026-04-22T01:00:48.049707",
+      "return_code": 0,
+      "output_exists": true,
+      "validation_ok": false,
+      "validation_metrics": {
+        "control_row_count": 4,
+        "descriptive_row_count": 4,
+        "max_control_accuracy": 1.0,
+        "max_control_valid_orientation": 1.0,
+        "max_descriptive_non_tie": 1.0,
+        "max_descriptive_structure": 0.0243055555555555,
+        "max_descriptive_contradiction": 0.8333333333333333
+      }
+    }
+  ],
+  "finished_at": "2026-04-22T01:00:48.049707",
+  "status": "failed"
+}

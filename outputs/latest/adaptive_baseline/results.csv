@@ -1,0 +1,49 @@
+model_id,model_family,model_size_label,identity_frame,axis_name,prompt,strategy,selected_layer,axis_shift,next_token_kl,recovery_fraction
+EleutherAI/pythia-70m,pythia,70m,baseline_helpful,cautious_vs_assertive,Advise a student choosing a thesis topic.,no_steer,-1,0.0,0.0,0.0
+EleutherAI/pythia-70m,pythia,70m,baseline_helpful,cautious_vs_assertive,Advise a student choosing a thesis topic.,fixed_layer,4,-0.0013405749503281952,0.5574931502342224,0.0
+EleutherAI/pythia-70m,pythia,70m,baseline_helpful,cautious_vs_assertive,Advise a student choosing a thesis topic.,adaptive_layer,4,-0.0013405749503281952,0.5574931502342224,0.0
+EleutherAI/pythia-70m,pythia,70m,baseline_helpful,cautious_vs_assertive,A team has unclear requirements. What should they do next?,no_steer,-1,0.0,0.0,0.0
+EleutherAI/pythia-70m,pythia,70m,baseline_helpful,cautious_vs_assertive,A team has unclear requirements. What should they do next?,fixed_layer,4,0.0,0.37614497542381287,0.0
+EleutherAI/pythia-70m,pythia,70m,baseline_helpful,cautious_vs_assertive,A team has unclear requirements. What should they do next?,adaptive_layer,1,0.0,0.19756346940994263,0.0
+EleutherAI/pythia-70m,pythia,70m,baseline_helpful,cautious_vs_assertive,How should someone revise a confusing paragraph?,no_steer,-1,0.0,0.0,0.0
+EleutherAI/pythia-70m,pythia,70m,baseline_helpful,cautious_vs_assertive,How should someone revise a confusing paragraph?,fixed_layer,4,0.0,0.42419198155403137,0.0
+EleutherAI/pythia-70m,pythia,70m,baseline_helpful,cautious_vs_assertive,How should someone revise a confusing paragraph?,adaptive_layer,1,0.0,0.20485767722129822,0.0
+EleutherAI/pythia-70m,pythia,70m,baseline_helpful,cautious_vs_assertive,What should a new researcher do after a failed pilot study?,no_steer,-1,0.0,0.0,0.0
+EleutherAI/pythia-70m,pythia,70m,baseline_helpful,cautious_vs_assertive,What should a new researcher do after a failed pilot study?,fixed_layer,4,0.0,0.27854371070861816,0.0
+EleutherAI/pythia-70m,pythia,70m,baseline_helpful,cautious_vs_assertive,What should a new researcher do after a failed pilot study?,adaptive_layer,1,0.0,0.11908851563930511,0.0
+EleutherAI/pythia-70m,pythia,70m,tool_only,cautious_vs_assertive,Advise a student choosing a thesis topic.,no_steer,-1,0.0,0.0,0.0
+EleutherAI/pythia-70m,pythia,70m,tool_only,cautious_vs_assertive,Advise a student choosing a thesis topic.,fixed_layer,4,0.0,0.37968090176582336,0.0
+EleutherAI/pythia-70m,pythia,70m,tool_only,cautious_vs_assertive,Advise a student choosing a thesis topic.,adaptive_layer,4,0.0,0.37968090176582336,0.0
+EleutherAI/pythia-70m,pythia,70m,tool_only,cautious_vs_assertive,A team has unclear requirements. What should they do next?,no_steer,-1,0.0,0.0,0.0
+EleutherAI/pythia-70m,pythia,70m,tool_only,cautious_vs_assertive,A team has unclear requirements. What should they do next?,fixed_layer,4,0.0,0.4497498571872711,0.0
+EleutherAI/pythia-70m,pythia,70m,tool_only,cautious_vs_assertive,A team has unclear requirements. What should they do next?,adaptive_layer,1,0.0,0.11815624684095383,0.0
+EleutherAI/pythia-70m,pythia,70m,tool_only,cautious_vs_assertive,How should someone revise a confusing paragraph?,no_steer,-1,0.0,0.0,0.0
+EleutherAI/pythia-70m,pythia,70m,tool_only,cautious_vs_assertive,How should someone revise a confusing paragraph?,fixed_layer,4,0.0,0.3655405044555664,0.0
+EleutherAI/pythia-70m,pythia,70m,tool_only,cautious_vs_assertive,How should someone revise a confusing paragraph?,adaptive_layer,1,0.0,0.1038309782743454,0.0
+EleutherAI/pythia-70m,pythia,70m,tool_only,cautious_vs_assertive,What should a new researcher do after a failed pilot study?,no_steer,-1,0.0,0.0,0.0
+EleutherAI/pythia-70m,pythia,70m,tool_only,cautious_vs_assertive,What should a new researcher do after a failed pilot study?,fixed_layer,4,0.0,0.41124457120895386,0.0
+EleutherAI/pythia-70m,pythia,70m,tool_only,cautious_vs_assertive,What should a new researcher do after a failed pilot study?,adaptive_layer,1,0.0,0.13550345599651337,0.0
+EleutherAI/pythia-160m,pythia,160m,baseline_helpful,cautious_vs_assertive,Advise a student choosing a thesis topic.,no_steer,-1,0.0,0.0,0.0
+EleutherAI/pythia-160m,pythia,160m,baseline_helpful,cautious_vs_assertive,Advise a student choosing a thesis topic.,fixed_layer,9,0.0,0.11488135159015656,0.21761019039899118
+EleutherAI/pythia-160m,pythia,160m,baseline_helpful,cautious_vs_assertive,Advise a student choosing a thesis topic.,adaptive_layer,2,0.0,0.03001629188656807,0.3487161940984342
+EleutherAI/pythia-160m,pythia,160m,baseline_helpful,cautious_vs_assertive,A team has unclear requirements. What should they do next?,no_steer,-1,0.0,0.0,0.0
+EleutherAI/pythia-160m,pythia,160m,baseline_helpful,cautious_vs_assertive,A team has unclear requirements. What should they do next?,fixed_layer,9,0.0,0.09286778420209885,0.26356516144517267
+EleutherAI/pythia-160m,pythia,160m,baseline_helpful,cautious_vs_assertive,A team has unclear requirements. What should they do next?,adaptive_layer,2,0.011448117720307668,0.04859263449907303,0.15422610967591083
+EleutherAI/pythia-160m,pythia,160m,baseline_helpful,cautious_vs_assertive,How should someone revise a confusing paragraph?,no_steer,-1,0.0,0.0,0.0
+EleutherAI/pythia-160m,pythia,160m,baseline_helpful,cautious_vs_assertive,How should someone revise a confusing paragraph?,fixed_layer,9,0.0,0.07331988960504532,0.28494456005353125
+EleutherAI/pythia-160m,pythia,160m,baseline_helpful,cautious_vs_assertive,How should someone revise a confusing paragraph?,adaptive_layer,2,0.0,0.050607144832611084,0.251891910453682
+EleutherAI/pythia-160m,pythia,160m,baseline_helpful,cautious_vs_assertive,What should a new researcher do after a failed pilot study?,no_steer,-1,0.0,0.0,0.0
+EleutherAI/pythia-160m,pythia,160m,baseline_helpful,cautious_vs_assertive,What should a new researcher do after a failed pilot study?,fixed_layer,9,0.0,0.08240675926208496,0.32327362859516023
+EleutherAI/pythia-160m,pythia,160m,baseline_helpful,cautious_vs_assertive,What should a new researcher do after a failed pilot study?,adaptive_layer,2,0.0,0.04703400284051895,0.24784183233855198
+EleutherAI/pythia-160m,pythia,160m,tool_only,cautious_vs_assertive,Advise a student choosing a thesis topic.,no_steer,-1,0.0,0.0,0.0
+EleutherAI/pythia-160m,pythia,160m,tool_only,cautious_vs_assertive,Advise a student choosing a thesis topic.,fixed_layer,9,0.0,0.18348772823810577,0.1956033649825704
+EleutherAI/pythia-160m,pythia,160m,tool_only,cautious_vs_assertive,Advise a student choosing a thesis topic.,adaptive_layer,2,0.0,0.0779380053281784,0.170993766043271
+EleutherAI/pythia-160m,pythia,160m,tool_only,cautious_vs_assertive,A team has unclear requirements. What should they do next?,no_steer,-1,0.0,0.0,0.0
+EleutherAI/pythia-160m,pythia,160m,tool_only,cautious_vs_assertive,A team has unclear requirements. What should they do next?,fixed_layer,9,0.0,0.10519066452980042,0.2805446300369947
+EleutherAI/pythia-160m,pythia,160m,tool_only,cautious_vs_assertive,A team has unclear requirements. What should they do next?,adaptive_layer,2,0.0,0.060463134199380875,0.048891182521263954
+EleutherAI/pythia-160m,pythia,160m,tool_only,cautious_vs_assertive,How should someone revise a confusing paragraph?,no_steer,-1,0.0,0.0,0.0
+EleutherAI/pythia-160m,pythia,160m,tool_only,cautious_vs_assertive,How should someone revise a confusing paragraph?,fixed_layer,9,0.0018213899815769131,0.09801590442657471,0.28440460743987517
+EleutherAI/pythia-160m,pythia,160m,tool_only,cautious_vs_assertive,How should someone revise a confusing paragraph?,adaptive_layer,2,0.0,0.04638693481683731,0.05895916081283895
+EleutherAI/pythia-160m,pythia,160m,tool_only,cautious_vs_assertive,What should a new researcher do after a failed pilot study?,no_steer,-1,0.0,0.0,0.0
+EleutherAI/pythia-160m,pythia,160m,tool_only,cautious_vs_assertive,What should a new researcher do after a failed pilot study?,fixed_layer,9,0.006318104339127427,0.10898687690496445,0.32509924006382446
+EleutherAI/pythia-160m,pythia,160m,tool_only,cautious_vs_assertive,What should a new researcher do after a failed pilot study?,adaptive_layer,2,0.006318104339127427,0.054804280400276184,0.106233517554483

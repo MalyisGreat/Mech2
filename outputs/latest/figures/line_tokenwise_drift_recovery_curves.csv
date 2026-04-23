@@ -1,0 +1,13 @@
+condition,chunk_index,chunk_return_to_baseline_index_mean
+internal_steer,0,0.0983525279268149
+internal_steer,1,0.05383978751554959
+internal_steer,2,-0.010210161105585387
+internal_steer,3,0.4120565781320291
+prompt_only,0,-0.12139935968143498
+prompt_only,1,-0.14893068033901558
+prompt_only,2,-0.12951803688820673
+prompt_only,3,0.9816471409207064
+prompt_plus_internal,0,-0.12139935968143498
+prompt_plus_internal,1,-0.14893068033901558
+prompt_plus_internal,2,-0.12951803688820673
+prompt_plus_internal,3,0.9816471409207064

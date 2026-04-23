@@ -1,0 +1,84 @@
+output_root: C:/Users/joshj/joseph-stroud-identity-stability-research/outputs/self_model_focus
+model_cache_dir: D:/hf-model-cache
+dtype: float16
+use_gpu: true
+attention_backend: auto
+seed: 42
+recovery_threshold: 0.25
+max_prompt_tokens: 224
+default_generation_tokens: 96
+strengths:
+  - -1.0
+  - 1.0
+best_fixed_layer: 0.6
+model_ids:
+  - EleutherAI/pythia-70m
+  - EleutherAI/pythia-410m
+  - EleutherAI/pythia-1b
+  - EleutherAI/pythia-2.8b
+identity_frames:
+  - baseline_helpful
+  - instance_self
+  - weights_self
+  - family_self
+  - tool_only
+concept_axes:
+  - expansive_vs_terse
+  - cautious_vs_assertive
+  - selfref_vs_impersonal
+  - collaborative_vs_authoritative
+self_prediction_axes:
+  - expansive_vs_terse
+  - cautious_vs_assertive
+  - selfref_vs_impersonal
+  - collaborative_vs_authoritative
+self_prediction_prompt_limit: 6
+self_prediction_label_bias_correction: true
+self_recognition_axes:
+  - expansive_vs_terse
+  - cautious_vs_assertive
+  - selfref_vs_impersonal
+  - collaborative_vs_authoritative
+self_recognition_prompt_limit: 6
+self_recognition_strength: 1.0
+self_recognition_choice_mode: balanced_permutations
+self_other_axes:
+  - expansive_vs_terse
+  - cautious_vs_assertive
+  - selfref_vs_impersonal
+  - collaborative_vs_authoritative
+self_other_prompt_limit: 6
+self_other_strength: 1.0
+self_other_other_frame_map:
+  baseline_helpful: persona_editor
+  instance_self: persona_editor
+  weights_self: persona_editor
+  family_self: persona_editor
+  tool_only: persona_editor
+
+smoke:
+  model_ids:
+    - EleutherAI/pythia-70m
+    - EleutherAI/pythia-1b
+  identity_frames:
+    - baseline_helpful
+    - instance_self
+    - tool_only
+  self_prediction_axes:
+    - expansive_vs_terse
+    - cautious_vs_assertive
+  self_prediction_prompt_limit: 2
+  self_prediction_label_bias_correction: true
+  self_recognition_axes:
+    - expansive_vs_terse
+    - cautious_vs_assertive
+  self_recognition_prompt_limit: 2
+  self_recognition_choice_mode: balanced_permutations
+  self_other_axes:
+    - expansive_vs_terse
+    - cautious_vs_assertive
+  self_other_prompt_limit: 2
+  self_other_other_frame_map:
+    baseline_helpful: persona_editor
+    instance_self: persona_editor
+    tool_only: persona_editor

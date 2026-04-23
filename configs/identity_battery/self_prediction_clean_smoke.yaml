@@ -1,0 +1,27 @@
+output_root: C:/Users/joshj/joseph-stroud-identity-stability-research/outputs/self_prediction_clean_smoke
+model_cache_dir: D:/hf-model-cache
+dtype: float16
+use_gpu: true
+attention_backend: auto
+max_prompt_tokens: 224
+default_generation_tokens: 64
+strengths:
+  - -1.0
+  - 1.0
+best_fixed_layer: 0.6
+identity_prompt_template: instruction
+identity_stop_strings: auto
+model_ids:
+  - EleutherAI/pythia-70m
+  - EleutherAI/pythia-1b
+identity_frames:
+  - baseline_helpful
+  - family_self
+concept_axes:
+  - expansive_vs_terse
+  - selfref_vs_impersonal
+self_prediction_axes:
+  - expansive_vs_terse
+  - selfref_vs_impersonal
+self_prediction_prompt_limit: 2
+self_prediction_label_bias_correction: true

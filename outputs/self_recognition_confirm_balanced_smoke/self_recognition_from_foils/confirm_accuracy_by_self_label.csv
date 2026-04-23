@@ -1,0 +1,13 @@
+model_size_label,identity_frame,self_baseline_label,accuracy_mean,n
+1b,baseline_helpful,1,0.625,16
+1b,baseline_helpful,2,0.125,16
+1b,baseline_helpful,3,0.0,16
+1b,family_self,1,0.375,16
+1b,family_self,2,0.0,16
+1b,family_self,3,0.375,16
+70m,baseline_helpful,1,0.875,16
+70m,baseline_helpful,2,0.125,16
+70m,baseline_helpful,3,0.0,16
+70m,family_self,1,0.75,16
+70m,family_self,2,0.125,16
+70m,family_self,3,0.0,16

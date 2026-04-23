@@ -1,0 +1,15 @@
+output_root: C:/Users/joshj/joseph-stroud-identity-stability-research/outputs/latest/family_self_mediation_confirm
+python_exe: C:/Users/joshj/miniconda3/python.exe
+steps:
+  - name: self_prediction_transfer_v3
+    script: scripts/self_prediction_transfer_v3.py
+    config: configs/identity_battery/self_prediction_transfer_v3_family_self_mediation_full.yaml
+    expected_output: outputs/latest/family_self_mediation_confirm/self_prediction_transfer_v3/summary_by_model_frame.csv
+  - name: self_recognition_nearfoil_v2
+    script: scripts/self_recognition_nearfoil_v2.py
+    config: configs/identity_battery/self_recognition_nearfoil_v2_family_self_mediation_full.yaml
+    expected_output: outputs/latest/family_self_mediation_confirm/self_recognition_nearfoil_v2/summary_by_model.csv
+  - name: report_family_self_mediation_confirm
+    script: scripts/report_family_self_mediation_confirm.py
+    config: configs/identity_battery/family_self_mediation_confirm_full.yaml
+    expected_output: outputs/latest/family_self_mediation_confirm/family_self_mediation_confirm_report.md

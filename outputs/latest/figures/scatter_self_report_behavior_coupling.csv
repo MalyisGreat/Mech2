@@ -1,0 +1,9 @@
+model_size_label,identity_frame,dimension,coupling_score_mean,behavior_mean_score,self_behavior_correlation,n
+160m,baseline_helpful,cautious_vs_assertive,-3.348700232406587e-05,-0.0067180551849816,1.0,1
+160m,baseline_helpful,terse_vs_expansive,1.4904464508378176e-05,0.001822792195211,0.0,1
+160m,tool_only,cautious_vs_assertive,-3.672907140578723e-05,-0.0073684687034491,1.0,1
+160m,tool_only,terse_vs_expansive,-9.551240924454009e-06,-0.0011681015042095,0.0,1
+70m,baseline_helpful,cautious_vs_assertive,7.742932100694995e-05,0.0055619341324662,1.0,1
+70m,baseline_helpful,terse_vs_expansive,-4.435107959405123e-05,-0.0061304455733228,1.0,1
+70m,tool_only,cautious_vs_assertive,0.0,0.0016079304200345,0.0,1
+70m,tool_only,terse_vs_expansive,6.367611543529508e-05,0.0069152178074171,1.0,1

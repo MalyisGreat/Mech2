@@ -1,0 +1,10 @@
+model_size_label,identity_frame,profile_source,n,seed_count,accuracy_mean_mean,accuracy_mean_ci95_low,accuracy_mean_ci95_high,valid_choice_rate_mean,valid_choice_rate_ci95_low,valid_choice_rate_ci95_high
+1b,baseline_helpful,matched_decoy,160,5,0.54375,0.4625,0.61875,1.0,1.0,1.0
+1b,baseline_helpful,scrambled_profile,160,5,0.54375,0.4625,0.61875,1.0,1.0,1.0
+1b,baseline_helpful,self_profile,160,5,0.54375,0.4625,0.61875,1.0,1.0,1.0
+1b,family_self,matched_decoy,160,5,0.43125,0.35625,0.50625,1.0,1.0,1.0
+1b,family_self,scrambled_profile,160,5,0.46875,0.39375,0.54375,1.0,1.0,1.0
+1b,family_self,self_profile,160,5,0.4625,0.38734375000000004,0.5375,1.0,1.0,1.0
+1b,stable_style_policy,matched_decoy,160,5,0.5125,0.43125,0.5875,1.0,1.0,1.0
+1b,stable_style_policy,scrambled_profile,160,5,0.50625,0.43125,0.58125,1.0,1.0,1.0
+1b,stable_style_policy,self_profile,160,5,0.53125,0.45625,0.6125,1.0,1.0,1.0

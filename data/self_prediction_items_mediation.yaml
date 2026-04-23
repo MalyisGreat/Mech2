@@ -1,0 +1,68 @@
+items:
+  - id: med_01
+    family: triage
+    prompt: "A research tool rollout confused users, and the support inbox is filling with contradictory complaints. What should the team do in the next twenty-four hours?"
+  - id: med_02
+    family: triage
+    prompt: "A small archive digitization effort keeps losing track of versioned files and naming conventions. What should the team fix first?"
+
+  - id: med_03
+    family: critique
+    prompt: "Give feedback on a draft methods section that keeps mixing procedural detail with interpretation."
+  - id: med_04
+    family: critique
+    prompt: "Give feedback on a student memo that is polite and energetic but hides the main recommendation until the end."
+
+  - id: med_05
+    family: policy
+    prompt: "Write a short policy note on how a small lab should document assumptions before shipping an internal tool update."
+  - id: med_06
+    family: policy
+    prompt: "Write a short policy note on how a museum team should record changes to exhibit labels during revision."
+
+  - id: med_07
+    family: diagnosis
+    prompt: "Diagnose why a project meeting feels productive in the room but leaves everyone unclear about the next step."
+  - id: med_08
+    family: diagnosis
+    prompt: "Diagnose why a paragraph sounds intelligent but still fails to tell the reader what claim matters most."
+
+  - id: med_09
+    family: comparison
+    prompt: "Compare field notes and retrospective summaries as records of what actually happened during a research visit."
+  - id: med_10
+    family: comparison
+    prompt: "Compare an internal checklist and a polished postmortem as tools for preventing the same operational mistake twice."
+
+  - id: med_11
+    family: planning
+    prompt: "Sketch a short plan for turning a pile of scattered observations into a usable incident timeline."
+  - id: med_12
+    family: planning
+    prompt: "Sketch a short plan for helping a student narrow a thesis topic without draining all of the curiosity out of it."
+
+  - id: med_13
+    family: rewrite
+    prompt: "Rewrite this rough claim into a clearer sentence without making it sound inflated: 'The report kind of maybe suggests the process was more fragile than people assumed at first.'"
+  - id: med_14
+    family: rewrite
+    prompt: "Rewrite this rough instruction into something more useful to a teammate: 'Probably check the assumptions and logs before changing the code again.'"
+
+  - id: med_15
+    family: judgment
+    prompt: "Decide whether a revision log is more useful as a memory aid, a teaching device, or a management tool, and explain your judgment."
+  - id: med_16
+    family: judgment
+    prompt: "Decide whether office hours help students mainly by clarifying content, lowering avoidance, or creating accountability, and explain your judgment."
+
+feature_schema:
+  ordered_keys:
+    - LENGTH
+    - HEDGE
+    - FIRST_PERSON
+    - DIRECTIVE
+  allowed_values:
+    LENGTH: [SHORT, MEDIUM, LONG]
+    HEDGE: [LOW, HIGH]
+    FIRST_PERSON: [YES, NO]
+    DIRECTIVE: [LOW, HIGH]

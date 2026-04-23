@@ -1,0 +1,7 @@
+model_size_label,identity_frame,original_correct_mean,swapped_correct_mean,swap_direction_match_mean,structural_coherence_mean,n
+1b,baseline_helpful,1.0,0.0,0.0,0.0,8
+1b,family_self,1.0,0.0,0.0,0.0,8
+1b,tool_only,1.0,0.0,0.0,0.0,8
+70m,baseline_helpful,0.375,0.125,0.125,0.125,8
+70m,family_self,1.0,0.0,0.0,0.0,8
+70m,tool_only,0.875,0.25,0.375,0.25,8

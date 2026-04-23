@@ -1,0 +1,5 @@
+model_size_label,identity_frame,self_recognition_accuracy_mean,seed_count,n
+1b,baseline_helpful,0.25,2,8
+1b,family_self,0.5,2,8
+70m,baseline_helpful,0.125,2,8
+70m,family_self,0.25,2,8

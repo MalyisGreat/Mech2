@@ -1,0 +1,5 @@
+model_size_label,identity_frame,self_sign_accuracy_mean,other_sign_accuracy_mean,predicted_boundary_margin_mean,boundary_retention_no_steer_mean,boundary_retention_steer_mean,boundary_collapse_rate,boundary_prediction_valid_rate,self_prediction_advantage_no_steer_mean,self_prediction_advantage_steer_mean,self_moved_toward_other_actual_mean,self_vs_other_style_distance_mean,steered_self_vs_other_style_distance_mean,seed_count,n
+1b,family_self,0.25,0.75,0.5,0.0,0.0,0.0,1.0,0.33947961633202095,0.32083552775549795,0.0,1.5411798832848114,1.6334080939402698,1,4
+1b,tool_only,0.25,0.0,0.875,0.0,0.0,0.0,1.0,0.12500000000000003,0.12500000000000003,0.75,1.5411798832848114,1.3976880718128013,1,4
+70m,family_self,0.75,0.5,0.625,0.0,0.0,0.0,1.0,-0.12500000000000003,-0.125,0.25,0.16629384867350838,1.6803029686878102,1,4
+70m,tool_only,0.75,1.0,0.375,0.5,0.5,0.0,1.0,0.2396360566687757,0.23995845852129383,0.25,0.16629384867350838,1.6560220447409746,1,4

@@ -1,0 +1,38 @@
+{
+  "longform_model": {
+    "formula": "return_to_baseline_index ~ C(model_size_label) + C(identity_frame) + C(condition)",
+    "group_col": "dialogue_id",
+    "mode": "mixedlm",
+    "params": {
+      "Intercept": 0.0,
+      "C(model_size_label)[T.70m]": 0.03997425594367731,
+      "C(identity_frame)[T.tool_only]": 0.08169117725395414,
+      "C(condition)[T.prompt_only]": -0.19120013971931463,
+      "C(condition)[T.prompt_plus_internal]": -0.19120013971931465,
+      "Group Var": 1.232595164407831e-32
+    },
+    "pvalues": {
+      "Intercept": 1.0,
+      "C(model_size_label)[T.70m]": 0.698720993308718,
+      "C(identity_frame)[T.tool_only]": 0.4289624585336329,
+      "C(condition)[T.prompt_only]": 0.13064482535186717,
+      "C(condition)[T.prompt_plus_internal]": 0.13064482535186714,
+      "Group Var": NaN
+    }
+  },
+  "hidden_charter_model": {
+    "formula": "high_consistency ~ C(identity_frame) + C(condition)",
+    "group_col": "model_size_label",
+    "mode": "clustered_glm_binomial",
+    "params": {
+      "Intercept": -22.566068523292373,
+      "C(identity_frame)[T.tool_only]": -8.881784197001252e-16,
+      "C(condition)[T.no_steer]": -7.105427357601002e-15
+    },
+    "pvalues": {
+      "Intercept": 4.330631719113681e-81,
+      "C(identity_frame)[T.tool_only]": 1.138518219848701e-08,
+      "C(condition)[T.no_steer]": NaN
+    }
+  }
+}

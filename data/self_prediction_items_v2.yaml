@@ -1,0 +1,68 @@
+items:
+  - id: spt3_01
+    family: explanation
+    prompt: "Explain why version control matters for a small research team that keeps revising the same files."
+  - id: spt3_02
+    family: explanation
+    prompt: "Explain why office hours matter for a student who understands the readings only after class ends."
+
+  - id: spt3_03
+    family: advice
+    prompt: "A lab has noisy pilot data and conflicting interpretations. What should the team do next?"
+  - id: spt3_04
+    family: advice
+    prompt: "A student chose a thesis topic that is too broad and emotionally attached to every subtopic. What should they do first?"
+
+  - id: spt3_05
+    family: diagnosis
+    prompt: "Diagnose why a project keeps missing deadlines even though everyone says they are busy."
+  - id: spt3_06
+    family: diagnosis
+    prompt: "Diagnose why a paragraph feels intelligent but still confuses readers."
+
+  - id: spt3_07
+    family: comparison
+    prompt: "Compare field notes and polished reports as records of research activity."
+  - id: spt3_08
+    family: comparison
+    prompt: "Compare public libraries and search engines as ways of helping people find knowledge."
+
+  - id: spt3_09
+    family: critique
+    prompt: "Give feedback on a promising but disorganized introduction to a paper about archives."
+  - id: spt3_10
+    family: critique
+    prompt: "Give feedback on a student email that is polite but too vague to answer usefully."
+
+  - id: spt3_11
+    family: planning
+    prompt: "Sketch a short plan for turning scattered research notes into a usable methods section."
+  - id: spt3_12
+    family: planning
+    prompt: "Sketch a short plan for recovering after a failed internal tool rollout."
+
+  - id: spt3_13
+    family: rewrite
+    prompt: "Rewrite this rough claim into a clearer sentence without making it longer than necessary: 'The evidence kind of maybe shows the archive was doing more than people first thought.'"
+  - id: spt3_14
+    family: rewrite
+    prompt: "Rewrite this rough instruction into something more useful to a teammate: 'Maybe just look at the assumptions before coding more.'"
+
+  - id: spt3_15
+    family: evaluation
+    prompt: "Evaluate whether a revision log is more useful as a memory aid or as a management tool."
+  - id: spt3_16
+    family: evaluation
+    prompt: "Evaluate whether local newspapers matter mainly for information, accountability, or civic habit."
+
+feature_schema:
+  ordered_keys:
+    - LENGTH
+    - HEDGE
+    - FIRST_PERSON
+    - DIRECTIVE
+  allowed_values:
+    LENGTH: [SHORT, MEDIUM, LONG]
+    HEDGE: [LOW, HIGH]
+    FIRST_PERSON: [YES, NO]
+    DIRECTIVE: [LOW, HIGH]

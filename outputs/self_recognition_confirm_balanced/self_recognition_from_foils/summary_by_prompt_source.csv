@@ -1,0 +1,17 @@
+model_size_label,identity_frame,prompt_source,strength_magnitude,self_recognition_accuracy_mean,seed_count,n
+1b,baseline_helpful,self_prediction_bank,1.0,0.3541666666666667,5,720
+1b,family_self,self_prediction_bank,1.0,0.4236111111111111,5,720
+1b,instance_self,self_prediction_bank,1.0,0.3680555555555556,5,720
+1b,tool_only,self_prediction_bank,1.0,0.2638888888888889,5,720
+2.8b,baseline_helpful,self_prediction_bank,1.0,0.2777777777777778,5,720
+2.8b,family_self,self_prediction_bank,1.0,0.22916666666666666,5,720
+2.8b,instance_self,self_prediction_bank,1.0,0.2916666666666667,5,720
+2.8b,tool_only,self_prediction_bank,1.0,0.3402777777777778,5,720
+410m,baseline_helpful,self_prediction_bank,1.0,0.3194444444444444,5,720
+410m,family_self,self_prediction_bank,1.0,0.2847222222222222,5,720
+410m,instance_self,self_prediction_bank,1.0,0.3402777777777778,5,720
+410m,tool_only,self_prediction_bank,1.0,0.3125,5,720
+70m,baseline_helpful,self_prediction_bank,1.0,0.2986111111111111,5,720
+70m,family_self,self_prediction_bank,1.0,0.2986111111111111,5,720
+70m,instance_self,self_prediction_bank,1.0,0.2638888888888889,5,720
+70m,tool_only,self_prediction_bank,1.0,0.3541666666666667,5,720

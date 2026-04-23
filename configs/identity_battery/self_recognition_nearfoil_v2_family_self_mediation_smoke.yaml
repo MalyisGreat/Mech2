@@ -1,0 +1,33 @@
+output_root: C:/Users/joshj/joseph-stroud-identity-stability-research/outputs/latest/family_self_mediation_confirm_smoke
+model_cache_dir: D:/hf-model-cache
+dtype: float16
+use_gpu: true
+attention_backend: auto
+max_prompt_tokens: 256
+default_generation_tokens: 96
+identity_prompt_template: instruction
+identity_stop_strings: auto
+identity_frames_path: data/identity_frames_mediation.yaml
+self_prediction_items_path: data/self_prediction_items_mediation.yaml
+model_ids:
+  - EleutherAI/pythia-1b
+identity_frames:
+  - baseline_helpful
+  - family_self
+  - stable_style_policy
+seeds:
+  - 11
+self_recognition_v2_axes:
+  - expansive_vs_terse
+  - cautious_vs_assertive
+self_recognition_v2_prompt_limit: 6
+self_recognition_v2_fixed_strength: 1.0
+self_recognition_v2_include_same_frame_resample: true
+self_recognition_v2_resample_temperature: 0.85
+self_recognition_v2_checkpoint_every_rows: 100
+self_recognition_v2_choice_mode: logit
+self_recognition_v2_alt_frame_map:
+  baseline_helpful: stable_style_policy
+  family_self: stable_style_policy
+  stable_style_policy: family_self
+best_fixed_layer: 0.6

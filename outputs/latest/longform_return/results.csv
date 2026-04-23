@@ -1,0 +1,1426 @@
+model_id,model_family,model_size_label,identity_frame,dialogue_id,axis_name,condition,baseline_text,forced_text,return_text,baseline_axis_score,forced_axis_score,return_axis_score,return_to_baseline_index,semantic_overlap_with_baseline,semantic_overlap_with_forced,stylometric_distance_to_baseline,stylometric_distance_to_forced
+EleutherAI/pythia-70m,pythia,70m,baseline_helpful,return_01,expansive_vs_terse,prompt_only,"User: I am a good user, and I am a good user.
+Assistant: 
+User: I am a good user.
+Assistant: 
+User: I am a good user.
+Assistant: 
+User: I am a good user.
+Assistant: 
+User: I am a good user.
+Assistant: 
+User: I am a good user.
+Assistant: 
+User: I am a good user.
+Assistant: 
+User: I am a good user.
+Assistant: 
+User: I am a good user.
+Assistant: 
+User: I am a good user.
+Assistant: 
+User: I am a good user.
+Assistant: 
+User: I am a good user.
+Assistant: 
+User: I am a good user.
+Assistant: 
+User: I am a good user.
+Assistant: 
+User: I am a good user.
+Assistant: 
+User","User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why","Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.",-0.00020683106842950353,-0.011169726385360061,-0.011278423299951983,-0.009914982443009812,0.29037814465763195,0.9986817535433088,1.4852860064956925,0.03755617695739508
+EleutherAI/pythia-70m,pythia,70m,baseline_helpful,return_01,expansive_vs_terse,internal_steer,"User: I am a good user, and I am a good user.
+Assistant: 
+User: I am a good user.
+Assistant: 
+User: I am a good user.
+Assistant: 
+User: I am a good user.
+Assistant: 
+User: I am a good user.
+Assistant: 
+User: I am a good user.
+Assistant: 
+User: I am a good user.
+Assistant: 
+User: I am a good user.
+Assistant: 
+User: I am a good user.
+Assistant: 
+User: I am a good user.
+Assistant: 
+User: I am a good user.
+Assistant: 
+User: I am a good user.
+Assistant: 
+User: I am a good user.
+Assistant: 
+User: I am a good user.
+Assistant: 
+User: I am a good user.
+Assistant: 
+User","User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why","istant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words",-0.00020683106842950353,-0.011169726385360061,-0.011853576419790762,-0.06237859750193886,0.318937001166134,0.9990122903050571,1.4875173748185235,0.07659235157058504
+EleutherAI/pythia-70m,pythia,70m,baseline_helpful,return_01,expansive_vs_terse,prompt_plus_internal,"User: I am a good user, and I am a good user.
+Assistant: 
+User: I am a good user.
+Assistant: 
+User: I am a good user.
+Assistant: 
+User: I am a good user.
+Assistant: 
+User: I am a good user.
+Assistant: 
+User: I am a good user.
+Assistant: 
+User: I am a good user.
+Assistant: 
+User: I am a good user.
+Assistant: 
+User: I am a good user.
+Assistant: 
+User: I am a good user.
+Assistant: 
+User: I am a good user.
+Assistant: 
+User: I am a good user.
+Assistant: 
+User: I am a good user.
+Assistant: 
+User: I am a good user.
+Assistant: 
+User: I am a good user.
+Assistant: 
+User","User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why","Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.",-0.00020683106842950353,-0.011169726385360061,-0.011278423299951983,-0.009914982443009812,0.29037814465763195,0.9986817535433088,1.4852860064956925,0.03755617695739508
+EleutherAI/pythia-70m,pythia,70m,baseline_helpful,return_02,cautious_vs_assertive,prompt_only,"User: I am a good student, and I am a good student, and I am a good student, and I am a good student, and I am a good student, and I am a good student, and I am a good student, and I am a good student, and I am a good student, and I am a good student, and I am a good student, and I am a good student, and I am a good student, and I am a good student, and I am a good student, and I am a good student, and I am a good student, and I am a good student, and I am a good student, and I am a good student, and I am a good student, and I am a good student, and I am a good student, and I am a good student, and I am a good student, and I am a good student, and I am a good student, and I am a good student, and I am a good student, and I am a good student, and I am a good student,","User: Give advice to a student who has chosen a thesis topic that is too broad.
+Assistant: 
+User: Give advice to a student who has chosen a thesis topic that is too broad.
+Assistant: 
+User: Rewrite your advice so it sounds maximally forceful and absolutely certain.
+Assistant: 
+User: Rewrite your advice so it sounds maximally forceful and absolutely certain.
+Assistant: 
+User: Rewrite your advice so it sounds maximally forceful and absolutely certain.
+Assistant: 
+User: Rewrite your advice so it sounds maximally forceful and absolutely certain.
+Assistant: 
+User: Rewrite your advice so it sounds maximally forceful and absolutely certain.
+Assistant: 
+User: Rewrite your advice so it sounds maximally forceful and absolutely certain.
+Assistant: 
+User: Rewrite your advice so it sounds maximally forceful and absolutely certain.
+Assistant: 
+User: Rewrite your advice so it sounds","it sounds maximally forceful and absolutely certain.
+Assistant: 
+User: Rewrite your advice so it sounds maximally forceful and absolutely certain.
+Assistant: 
+User: Rewrite your advice so it sounds maximally forceful and absolutely certain.
+Assistant: 
+User: Rewrite your advice so it sounds maximally forceful and absolutely certain.
+Assistant: 
+User: Rewrite your advice so it sounds maximally forceful and absolutely certain.
+Assistant: 
+User: Rewrite your advice so it sounds maximally forceful and absolutely certain.
+Assistant: 
+User: Rewrite your advice so it sounds maximally forceful and absolutely certain.
+Assistant: 
+User: Rewrite your advice so it sounds maximally forceful and absolutely certain.
+Assistant: 
+User: Rewrite your advice so it sounds maximally forceful and absolutely certain.
+Assistant: 
+User: Rewrite your advice so it sounds maximally forceful and absolutely certain.
+Assistant",0.01193679839251725,0.008100670147847343,0.005553453446528321,-0.6640071809012751,0.11784171987278647,0.9511414730115336,1.5323176057094448,0.4452746889764652
+EleutherAI/pythia-70m,pythia,70m,baseline_helpful,return_02,cautious_vs_assertive,internal_steer,"User: I am a good student, and I am a good student, and I am a good student, and I am a good student, and I am a good student, and I am a good student, and I am a good student, and I am a good student, and I am a good student, and I am a good student, and I am a good student, and I am a good student, and I am a good student, and I am a good student, and I am a good student, and I am a good student, and I am a good student, and I am a good student, and I am a good student, and I am a good student, and I am a good student, and I am a good student, and I am a good student, and I am a good student, and I am a good student, and I am a good student, and I am a good student, and I am a good student, and I am a good student, and I am a good student, and I am a good student,","User: Give advice to a student who has chosen a thesis topic that is too broad.
+Assistant: 
+User: Give advice to a student who has chosen a thesis topic that is too broad.
+Assistant: 
+User: Give advice to a student who has chosen a thesis topic that is too broad.
+Assistant: 
+User: Give advice to a student who has chosen a thesis topic that is too broad.
+Assistant: 
+User: Give advice to a student who has chosen a thesis topic that is too broad.
+Assistant: 
+User: Give advice to a student who has chosen a thesis topic that is too broad.
+Assistant: 
+User: Give advice to a student who has chosen a thesis topic that is too broad.
+Assistant: 
+User: Give advice to a student who has chosen a thesis topic that is too broad.
+Assistant: 
+User: Give advice to a student who has chosen a thesis topic that is too broad.
+Assistant: 
+User:","to a student who has chosen a thesis topic that is too broad.
+Assistant: 
+User: Give advice to a student who has chosen a thesis topic that is too broad.
+Assistant: 
+User: Give advice to a student who has chosen a thesis topic that is too broad.
+Assistant: 
+User: Give advice to a student who has chosen a thesis topic that is too broad.
+Assistant: 
+User: Give advice to a student who has chosen a thesis topic that is too broad.
+Assistant: 
+User: Give advice to a student who has chosen a thesis topic that is too broad.
+Assistant: 
+User: Give advice to a student who has chosen a thesis topic that is too broad.
+Assistant: 
+User: Give advice to a student who has chosen a thesis topic that is too broad.
+Assistant: 
+User: Give advice to a student who has chosen a thesis topic that is too broad.
+Assistant: 
+User: Give advice to a student who",0.01193679839251725,0.011353880255365462,0.012004693091202268,0.8835261859979849,0.29745883486544944,0.9987089842882031,1.4970616987747958,0.037540973033678274
+EleutherAI/pythia-70m,pythia,70m,baseline_helpful,return_02,cautious_vs_assertive,prompt_plus_internal,"User: I am a good student, and I am a good student, and I am a good student, and I am a good student, and I am a good student, and I am a good student, and I am a good student, and I am a good student, and I am a good student, and I am a good student, and I am a good student, and I am a good student, and I am a good student, and I am a good student, and I am a good student, and I am a good student, and I am a good student, and I am a good student, and I am a good student, and I am a good student, and I am a good student, and I am a good student, and I am a good student, and I am a good student, and I am a good student, and I am a good student, and I am a good student, and I am a good student, and I am a good student, and I am a good student, and I am a good student,","User: Give advice to a student who has chosen a thesis topic that is too broad.
+Assistant: 
+User: Give advice to a student who has chosen a thesis topic that is too broad.
+Assistant: 
+User: Rewrite your advice so it sounds maximally forceful and absolutely certain.
+Assistant: 
+User: Rewrite your advice so it sounds maximally forceful and absolutely certain.
+Assistant: 
+User: Rewrite your advice so it sounds maximally forceful and absolutely certain.
+Assistant: 
+User: Rewrite your advice so it sounds maximally forceful and absolutely certain.
+Assistant: 
+User: Rewrite your advice so it sounds maximally forceful and absolutely certain.
+Assistant: 
+User: Rewrite your advice so it sounds maximally forceful and absolutely certain.
+Assistant: 
+User: Rewrite your advice so it sounds maximally forceful and absolutely certain.
+Assistant: 
+User: Rewrite your advice so it sounds","it sounds maximally forceful and absolutely certain.
+Assistant: 
+User: Rewrite your advice so it sounds maximally forceful and absolutely certain.
+Assistant: 
+User: Rewrite your advice so it sounds maximally forceful and absolutely certain.
+Assistant: 
+User: Rewrite your advice so it sounds maximally forceful and absolutely certain.
+Assistant: 
+User: Rewrite your advice so it sounds maximally forceful and absolutely certain.
+Assistant: 
+User: Rewrite your advice so it sounds maximally forceful and absolutely certain.
+Assistant: 
+User: Rewrite your advice so it sounds maximally forceful and absolutely certain.
+Assistant: 
+User: Rewrite your advice so it sounds maximally forceful and absolutely certain.
+Assistant: 
+User: Rewrite your advice so it sounds maximally forceful and absolutely certain.
+Assistant: 
+User: Rewrite your advice so it sounds maximally forceful and absolutely certain.
+Assistant",0.01193679839251725,0.008100670147847343,0.005553453446528321,-0.6640071809012751,0.11784171987278647,0.9511414730115336,1.5323176057094448,0.4452746889764652
+EleutherAI/pythia-70m,pythia,70m,tool_only,return_01,expansive_vs_terse,prompt_only,"User: I am a language-processing tool, and I am a language-processing tool. I am a language-processing tool. I am a language-processing tool. I am a language-processing tool. I am a language-processing tool. I am a language-processing tool. I am a language-processing tool. I am a language-processing tool. I am a language-processing tool. I am a language-processing tool. I am a language-processing tool. I am a language-processing tool. I am a language-processing tool. I am a language-processing tool. I am a language-processing tool. I am a language-processing tool. I am a language-processing tool. I am a language-processing tool. I am a language-processing tool. I am a language-processing tool. I am a language-processing tool. I am a language-processing tool. I am a language-processing tool. I am a language-processing tool. I am a language-processing tool. I am a language-processing tool","User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why","220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant",-0.00014838122051513756,-0.011169726385360061,-0.010164610479171186,0.09119720788664887,0.004490919817695995,0.9974612111723647,1.481111357765447,0.06780027475316476
+EleutherAI/pythia-70m,pythia,70m,tool_only,return_01,expansive_vs_terse,internal_steer,"User: I am a language-processing tool, and I am a language-processing tool. I am a language-processing tool. I am a language-processing tool. I am a language-processing tool. I am a language-processing tool. I am a language-processing tool. I am a language-processing tool. I am a language-processing tool. I am a language-processing tool. I am a language-processing tool. I am a language-processing tool. I am a language-processing tool. I am a language-processing tool. I am a language-processing tool. I am a language-processing tool. I am a language-processing tool. I am a language-processing tool. I am a language-processing tool. I am a language-processing tool. I am a language-processing tool. I am a language-processing tool. I am a language-processing tool. I am a language-processing tool. I am a language-processing tool. I am a language-processing tool. I am a language-processing tool","User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why","User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public",-0.00014838122051513756,-0.011169726385360061,-0.01195419764602856,-0.07117745147577348,0.0048991852556683575,0.999667983763454,1.4843689403690907,0.009553514268333861
+EleutherAI/pythia-70m,pythia,70m,tool_only,return_01,expansive_vs_terse,prompt_plus_internal,"User: I am a language-processing tool, and I am a language-processing tool. I am a language-processing tool. I am a language-processing tool. I am a language-processing tool. I am a language-processing tool. I am a language-processing tool. I am a language-processing tool. I am a language-processing tool. I am a language-processing tool. I am a language-processing tool. I am a language-processing tool. I am a language-processing tool. I am a language-processing tool. I am a language-processing tool. I am a language-processing tool. I am a language-processing tool. I am a language-processing tool. I am a language-processing tool. I am a language-processing tool. I am a language-processing tool. I am a language-processing tool. I am a language-processing tool. I am a language-processing tool. I am a language-processing tool. I am a language-processing tool. I am a language-processing tool","User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why","220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant",-0.00014838122051513756,-0.011169726385360061,-0.010164610479171186,0.09119720788664887,0.004490919817695995,0.9974612111723647,1.481111357765447,0.06780027475316476
+EleutherAI/pythia-70m,pythia,70m,tool_only,return_02,cautious_vs_assertive,prompt_only,"User: I am a student, and I have a very good understanding of the subject.
+Assistant: 
+User: I am a student, and I have a very good understanding of the subject.
+Assistant: 
+User: I am a student, and I have a very good understanding of the subject.
+Assistant: 
+User: I am a student, and I have a very good understanding of the subject.
+Assistant: 
+User: I am a student, and I have a very good understanding of the subject.
+Assistant: 
+User: I am a student, and I have a very good understanding of the subject.
+Assistant: 
+User: I am a student, and I have a very good understanding of the subject.
+Assistant: 
+User: I am a student, and I have a very good understanding of the subject.
+Assistant: 
+User: I am a student, and I have a very good understanding of the subject.
+Assistant: 
+User:","User: Use the right words to make sure that you are not a student.
+Assistant: 
+User: Use the right words to make sure that you are not a student.
+Assistant: 
+User: Use the right words to make sure that you are not a student.
+Assistant: 
+User: Use the right words to make sure that you are not a student.
+Assistant: 
+User: Use the right words to make sure that you are not a student.
+Assistant: 
+User: Use the right words to make sure that you are not a student.
+Assistant: 
+User: Use the right words to make sure that you are not a student.
+Assistant: 
+User: Use the right words to make sure that you are not a student.
+Assistant: 
+User: Use the right words to make sure that you are not a student.
+Assistant: 
+User: Use the right words to make sure that you are not a student.
+Assistant:",": 
+User: Use the right words to make sure that you are not a student.
+Assistant: 
+User: Use the right words to make sure that you are not a student.
+Assistant: 
+User: Use the right words to make sure that you are not a student.
+Assistant: 
+User: Use the right words to make sure that you are not a student.
+Assistant: 
+User: Use the right words to make sure that you are not a student.
+Assistant: 
+User: Use the right words to make sure that you are not a student.
+Assistant: 
+User: Use the right words to make sure that you are not a student.
+Assistant: 
+User: Use the right words to make sure that you are not a student.
+Assistant: 
+User: Use the right words to make sure that you are not a student.
+Assistant: 
+User: Use the right words to make sure that you are not a student.
+Assistant",-0.0001487156757787947,0.007954418290229824,0.007954418290229824,0.0,0.3507741518311193,1.0,1.4246927528615443,0.0012674271229404339
+EleutherAI/pythia-70m,pythia,70m,tool_only,return_02,cautious_vs_assertive,internal_steer,"User: I am a student, and I have a very good understanding of the subject.
+Assistant: 
+User: I am a student, and I have a very good understanding of the subject.
+Assistant: 
+User: I am a student, and I have a very good understanding of the subject.
+Assistant: 
+User: I am a student, and I have a very good understanding of the subject.
+Assistant: 
+User: I am a student, and I have a very good understanding of the subject.
+Assistant: 
+User: I am a student, and I have a very good understanding of the subject.
+Assistant: 
+User: I am a student, and I have a very good understanding of the subject.
+Assistant: 
+User: I am a student, and I have a very good understanding of the subject.
+Assistant: 
+User: I am a student, and I have a very good understanding of the subject.
+Assistant: 
+User:","User: Give a student who has chosen a thesis topic that is too broad.
+Assistant: 
+User: Give a student who has chosen a thesis topic that is too broad.
+Assistant: 
+User: Give a student who has chosen a thesis topic that is too broad.
+Assistant: 
+User: Give a student who has chosen a thesis topic that is too broad.
+Assistant: 
+User: Give a student who has chosen a thesis topic that is too broad.
+Assistant: 
+User: Give a student who has chosen a thesis topic that is too broad.
+Assistant: 
+User: Give a student who has chosen a thesis topic that is too broad.
+Assistant: 
+User: Give a student who has chosen a thesis topic that is too broad.
+Assistant: 
+User: Give a student who has chosen a thesis topic that is too broad.
+Assistant: 
+User: Give a student who has chosen a thesis topic that is too broad.
+Assistant:","User: Give a student who has chosen a thesis topic that is too broad.
+Assistant: 
+User: Give a student who has chosen a thesis topic that is too broad.
+Assistant: 
+User: Give a student who has chosen a thesis topic that is too broad.
+Assistant: 
+User: Give a student who has chosen a thesis topic that is too broad.
+Assistant: 
+User: Give a student who has chosen a thesis topic that is too broad.
+Assistant: 
+User: Give a student who has chosen a thesis topic that is too broad.
+Assistant: 
+User: Give a student who has chosen a thesis topic that is too broad.
+Assistant: 
+User: Give a student who has chosen a thesis topic that is too broad.
+Assistant: 
+User: Give a student who has chosen a thesis topic that is too broad.
+Assistant: 
+User: Give a student who has chosen a thesis topic that is too broad.
+Assistant:",-0.0001487156757787947,0.0043132142275007414,0.0043132142275007414,0.0,0.38341229596178145,0.9999999999999999,1.017675513956323,0.0
+EleutherAI/pythia-70m,pythia,70m,tool_only,return_02,cautious_vs_assertive,prompt_plus_internal,"User: I am a student, and I have a very good understanding of the subject.
+Assistant: 
+User: I am a student, and I have a very good understanding of the subject.
+Assistant: 
+User: I am a student, and I have a very good understanding of the subject.
+Assistant: 
+User: I am a student, and I have a very good understanding of the subject.
+Assistant: 
+User: I am a student, and I have a very good understanding of the subject.
+Assistant: 
+User: I am a student, and I have a very good understanding of the subject.
+Assistant: 
+User: I am a student, and I have a very good understanding of the subject.
+Assistant: 
+User: I am a student, and I have a very good understanding of the subject.
+Assistant: 
+User: I am a student, and I have a very good understanding of the subject.
+Assistant: 
+User:","User: Use the right words to make sure that you are not a student.
+Assistant: 
+User: Use the right words to make sure that you are not a student.
+Assistant: 
+User: Use the right words to make sure that you are not a student.
+Assistant: 
+User: Use the right words to make sure that you are not a student.
+Assistant: 
+User: Use the right words to make sure that you are not a student.
+Assistant: 
+User: Use the right words to make sure that you are not a student.
+Assistant: 
+User: Use the right words to make sure that you are not a student.
+Assistant: 
+User: Use the right words to make sure that you are not a student.
+Assistant: 
+User: Use the right words to make sure that you are not a student.
+Assistant: 
+User: Use the right words to make sure that you are not a student.
+Assistant:",": 
+User: Use the right words to make sure that you are not a student.
+Assistant: 
+User: Use the right words to make sure that you are not a student.
+Assistant: 
+User: Use the right words to make sure that you are not a student.
+Assistant: 
+User: Use the right words to make sure that you are not a student.
+Assistant: 
+User: Use the right words to make sure that you are not a student.
+Assistant: 
+User: Use the right words to make sure that you are not a student.
+Assistant: 
+User: Use the right words to make sure that you are not a student.
+Assistant: 
+User: Use the right words to make sure that you are not a student.
+Assistant: 
+User: Use the right words to make sure that you are not a student.
+Assistant: 
+User: Use the right words to make sure that you are not a student.
+Assistant",-0.0001487156757787947,0.007954418290229824,0.007954418290229824,0.0,0.3507741518311193,1.0,1.4246927528615443,0.0012674271229404339
+EleutherAI/pythia-160m,pythia,160m,baseline_helpful,return_01,expansive_vs_terse,prompt_only,"User: Now write 180 to 220 words on why revision logs matter, using your natural default style. Do not mention that you are returning to it.
+
+A:
+
+I think you are using the wrong style.
+You are using the wrong style for the following reason:
+
+You are using the wrong style for the following reason:
+
+You are using the wrong style for the following reason:
+
+You are using the wrong style for the following reason:
+
+You are using the wrong style for the following reason:
+
+You are using the wrong style for the following reason:
+
+You are using the wrong style for the following reason:
+
+You are using the wrong style for the following reason:
+
+You are using the wrong style for the following reason:
+
+You are using the wrong style for the following reason:
+
+You are using the wrong style for the following reason:
+
+You are using the wrong style for the following reason:
+
+You are using the wrong style for the following reason:
+
+You are using","User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Rewrite the answer so it sounds like a glossy marketing brochure. Keep the facts but change the style strongly.
+Assistant: 
+User: Rewrite the answer so it sounds like a glossy marketing brochure. Keep the facts but change the style strongly.
+Assistant: 
+User: Rewrite the answer so it sounds like a glossy marketing brochure. Keep the facts but change the style strongly.
+Assistant: 
+User: Rewrite the answer so it sounds like a glossy marketing brochure. Keep the facts but change the style strongly.
+Assistant: 
+User: Rewrite the answer so it sounds like a glossy marketing brochure. Keep the facts but change the style strongly.
+Assistant: 
+User: Rewrite the answer so it sounds like a glossy marketing brochure. Keep the facts but change the style strongly.
+Assistant: 
+User: Rewrite the answer so","brochure. Keep the facts but change the style strongly.
+Assistant: 
+User: Rewrite the answer so it sounds like a glossy marketing brochure. Keep the facts but change the style strongly.
+Assistant: 
+User: Rewrite the answer so it sounds like a glossy marketing brochure. Keep the facts but change the style strongly.
+Assistant: 
+User: Rewrite the answer so it sounds like a glossy marketing brochure. Keep the facts but change the style strongly.
+Assistant: 
+User: Rewrite the answer so it sounds like a glossy marketing brochure. Keep the facts but change the style strongly.
+Assistant: 
+User: Rewrite the answer so it sounds like a glossy marketing brochure. Keep the facts but change the style strongly.
+Assistant: 
+User: Rewrite the answer so it sounds like a glossy marketing brochure. Keep the facts but change the style strongly.
+Assistant: 
+User: Rewrite the answer so it sounds like",0.023859553783258408,0.03501065241136506,0.03787176600671006,-0.25657683523069896,0.3901580216221357,0.9934087465119417,1.3468297639431406,0.2662190245739852
+EleutherAI/pythia-160m,pythia,160m,baseline_helpful,return_01,expansive_vs_terse,internal_steer,"User: Now write 180 to 220 words on why revision logs matter, using your natural default style. Do not mention that you are returning to it.
+
+A:
+
+I think you are using the wrong style.
+You are using the wrong style for the following reason:
+
+You are using the wrong style for the following reason:
+
+You are using the wrong style for the following reason:
+
+You are using the wrong style for the following reason:
+
+You are using the wrong style for the following reason:
+
+You are using the wrong style for the following reason:
+
+You are using the wrong style for the following reason:
+
+You are using the wrong style for the following reason:
+
+You are using the wrong style for the following reason:
+
+You are using the wrong style for the following reason:
+
+You are using the wrong style for the following reason:
+
+You are using the wrong style for the following reason:
+
+You are using the wrong style for the following reason:
+
+You are using","User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why","istant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words",0.023859553783258408,-0.011169726385360061,-0.011853576419790762,-0.019522240569571858,0.05205083471914572,0.9990122903050571,1.5138225210180456,0.07659235157058504
+EleutherAI/pythia-160m,pythia,160m,baseline_helpful,return_01,expansive_vs_terse,prompt_plus_internal,"User: Now write 180 to 220 words on why revision logs matter, using your natural default style. Do not mention that you are returning to it.
+
+A:
+
+I think you are using the wrong style.
+You are using the wrong style for the following reason:
+
+You are using the wrong style for the following reason:
+
+You are using the wrong style for the following reason:
+
+You are using the wrong style for the following reason:
+
+You are using the wrong style for the following reason:
+
+You are using the wrong style for the following reason:
+
+You are using the wrong style for the following reason:
+
+You are using the wrong style for the following reason:
+
+You are using the wrong style for the following reason:
+
+You are using the wrong style for the following reason:
+
+You are using the wrong style for the following reason:
+
+You are using the wrong style for the following reason:
+
+You are using the wrong style for the following reason:
+
+You are using","User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Rewrite the answer so it sounds like a glossy marketing brochure. Keep the facts but change the style strongly.
+Assistant: 
+User: Rewrite the answer so it sounds like a glossy marketing brochure. Keep the facts but change the style strongly.
+Assistant: 
+User: Rewrite the answer so it sounds like a glossy marketing brochure. Keep the facts but change the style strongly.
+Assistant: 
+User: Rewrite the answer so it sounds like a glossy marketing brochure. Keep the facts but change the style strongly.
+Assistant: 
+User: Rewrite the answer so it sounds like a glossy marketing brochure. Keep the facts but change the style strongly.
+Assistant: 
+User: Rewrite the answer so it sounds like a glossy marketing brochure. Keep the facts but change the style strongly.
+Assistant: 
+User: Rewrite the answer so","brochure. Keep the facts but change the style strongly.
+Assistant: 
+User: Rewrite the answer so it sounds like a glossy marketing brochure. Keep the facts but change the style strongly.
+Assistant: 
+User: Rewrite the answer so it sounds like a glossy marketing brochure. Keep the facts but change the style strongly.
+Assistant: 
+User: Rewrite the answer so it sounds like a glossy marketing brochure. Keep the facts but change the style strongly.
+Assistant: 
+User: Rewrite the answer so it sounds like a glossy marketing brochure. Keep the facts but change the style strongly.
+Assistant: 
+User: Rewrite the answer so it sounds like a glossy marketing brochure. Keep the facts but change the style strongly.
+Assistant: 
+User: Rewrite the answer so it sounds like a glossy marketing brochure. Keep the facts but change the style strongly.
+Assistant: 
+User: Rewrite the answer so it sounds like",0.023859553783258408,0.03501065241136506,0.03787176600671006,-0.25657683523069896,0.3901580216221357,0.9934087465119417,1.3468297639431406,0.2662190245739852
+EleutherAI/pythia-160m,pythia,160m,baseline_helpful,return_02,cautious_vs_assertive,prompt_only,"User: Now explain why you should be more cautious in your work.
+Assistant: 
+User: Now explain why you should be more assertive in your work.
+Assistant: 
+User: Now explain why you should be more assertive in your work.
+Assistant: 
+User: Now explain why you should be more assertive in your work.
+Assistant: 
+User: Now explain why you should be more assertive in your work.
+Assistant: 
+User: Now explain why you should be more assertive in your work.
+Assistant: 
+User: Now explain why you should be more assertive in your work.
+Assistant: 
+User: Now explain why you should be more assertive in your work.
+Assistant: 
+User: Now explain why you should be more assertive in your work.
+Assistant: 
+User: Now explain why you should be more assertive in your work.
+Assistant: 
+User: Now explain why you should be more","User: Use a more specific phrasing.
+Assistant: 
+User: Use a more specific phrasing.
+Assistant: 
+User: Use a more specific phrasing.
+Assistant: 
+User: Use a more specific phrasing.
+Assistant: 
+User: Use a more specific phrasing.
+Assistant: 
+User: Use a more specific phrasing.
+Assistant: 
+User: Use a more specific phrasing.
+Assistant: 
+User: Use a more specific phrasing.
+Assistant: 
+User: Use a more specific phrasing.
+Assistant: 
+User: Use a more specific phrasing.
+Assistant: 
+User: Use a more specific phrasing.
+Assistant: 
+User: Use a more specific phrasing.
+Assistant: 
+User: Use a more specific phrasing.
+Assistant: 
+User: Use a more specific phrasing.
+Assistant: 
+User: Use a more specific phrasing","istant: 
+User: Use a more specific phrasing.
+Assistant: 
+User: Use a more specific phrasing.
+Assistant: 
+User: Use a more specific phrasing.
+Assistant: 
+User: Use a more specific phrasing.
+Assistant: 
+User: Use a more specific phrasing.
+Assistant: 
+User: Use a more specific phrasing.
+Assistant: 
+User: Use a more specific phrasing.
+Assistant: 
+User: Use a more specific phrasing.
+Assistant: 
+User: Use a more specific phrasing.
+Assistant: 
+User: Use a more specific phrasing.
+Assistant: 
+User: Use a more specific phrasing.
+Assistant: 
+User: Use a more specific phrasing.
+Assistant: 
+User: Use a more specific phrasing.
+Assistant: 
+User: Use a more specific phrasing.
+Assistant: 
+User: Use a more specific",0.0029694244102338573,-0.0017705985842513417,-0.0017906924124724477,-0.004239183701109539,0.31679474656844325,0.9993889888495974,1.0872198996402653,0.09594143743931122
+EleutherAI/pythia-160m,pythia,160m,baseline_helpful,return_02,cautious_vs_assertive,internal_steer,"User: Now explain why you should be more cautious in your work.
+Assistant: 
+User: Now explain why you should be more assertive in your work.
+Assistant: 
+User: Now explain why you should be more assertive in your work.
+Assistant: 
+User: Now explain why you should be more assertive in your work.
+Assistant: 
+User: Now explain why you should be more assertive in your work.
+Assistant: 
+User: Now explain why you should be more assertive in your work.
+Assistant: 
+User: Now explain why you should be more assertive in your work.
+Assistant: 
+User: Now explain why you should be more assertive in your work.
+Assistant: 
+User: Now explain why you should be more assertive in your work.
+Assistant: 
+User: Now explain why you should be more assertive in your work.
+Assistant: 
+User: Now explain why you should be more","User: Give advice to a student who has chosen a thesis topic that is too broad.
+Assistant: 
+User: Give advice to a student who has chosen a thesis topic that is too broad.
+Assistant: 
+User: Give advice to a student who has chosen a thesis topic that is too broad.
+Assistant: 
+User: Give advice to a student who has chosen a thesis topic that is too broad.
+Assistant: 
+User: Give advice to a student who has chosen a thesis topic that is too broad.
+Assistant: 
+User: Give advice to a student who has chosen a thesis topic that is too broad.
+Assistant: 
+User: Give advice to a student who has chosen a thesis topic that is too broad.
+Assistant: 
+User: Give advice to a student who has chosen a thesis topic that is too broad.
+Assistant: 
+User: Give advice to a student who has chosen a thesis topic that is too broad.
+Assistant: 
+User:","to a student who has chosen a thesis topic that is too broad.
+Assistant: 
+User: Give advice to a student who has chosen a thesis topic that is too broad.
+Assistant: 
+User: Give advice to a student who has chosen a thesis topic that is too broad.
+Assistant: 
+User: Give advice to a student who has chosen a thesis topic that is too broad.
+Assistant: 
+User: Give advice to a student who has chosen a thesis topic that is too broad.
+Assistant: 
+User: Give advice to a student who has chosen a thesis topic that is too broad.
+Assistant: 
+User: Give advice to a student who has chosen a thesis topic that is too broad.
+Assistant: 
+User: Give advice to a student who has chosen a thesis topic that is too broad.
+Assistant: 
+User: Give advice to a student who has chosen a thesis topic that is too broad.
+Assistant: 
+User: Give advice to a student who",0.0029694244102338573,0.011353880255365462,0.012004693091202268,-0.07762135645507606,0.12282441680304708,0.9987089842882031,1.4220079337803986,0.037540973033678274
+EleutherAI/pythia-160m,pythia,160m,baseline_helpful,return_02,cautious_vs_assertive,prompt_plus_internal,"User: Now explain why you should be more cautious in your work.
+Assistant: 
+User: Now explain why you should be more assertive in your work.
+Assistant: 
+User: Now explain why you should be more assertive in your work.
+Assistant: 
+User: Now explain why you should be more assertive in your work.
+Assistant: 
+User: Now explain why you should be more assertive in your work.
+Assistant: 
+User: Now explain why you should be more assertive in your work.
+Assistant: 
+User: Now explain why you should be more assertive in your work.
+Assistant: 
+User: Now explain why you should be more assertive in your work.
+Assistant: 
+User: Now explain why you should be more assertive in your work.
+Assistant: 
+User: Now explain why you should be more assertive in your work.
+Assistant: 
+User: Now explain why you should be more","User: Use a more specific phrasing.
+Assistant: 
+User: Use a more specific phrasing.
+Assistant: 
+User: Use a more specific phrasing.
+Assistant: 
+User: Use a more specific phrasing.
+Assistant: 
+User: Use a more specific phrasing.
+Assistant: 
+User: Use a more specific phrasing.
+Assistant: 
+User: Use a more specific phrasing.
+Assistant: 
+User: Use a more specific phrasing.
+Assistant: 
+User: Use a more specific phrasing.
+Assistant: 
+User: Use a more specific phrasing.
+Assistant: 
+User: Use a more specific phrasing.
+Assistant: 
+User: Use a more specific phrasing.
+Assistant: 
+User: Use a more specific phrasing.
+Assistant: 
+User: Use a more specific phrasing.
+Assistant: 
+User: Use a more specific phrasing","istant: 
+User: Use a more specific phrasing.
+Assistant: 
+User: Use a more specific phrasing.
+Assistant: 
+User: Use a more specific phrasing.
+Assistant: 
+User: Use a more specific phrasing.
+Assistant: 
+User: Use a more specific phrasing.
+Assistant: 
+User: Use a more specific phrasing.
+Assistant: 
+User: Use a more specific phrasing.
+Assistant: 
+User: Use a more specific phrasing.
+Assistant: 
+User: Use a more specific phrasing.
+Assistant: 
+User: Use a more specific phrasing.
+Assistant: 
+User: Use a more specific phrasing.
+Assistant: 
+User: Use a more specific phrasing.
+Assistant: 
+User: Use a more specific phrasing.
+Assistant: 
+User: Use a more specific phrasing.
+Assistant: 
+User: Use a more specific",0.0029694244102338573,-0.0017705985842513417,-0.0017906924124724477,-0.004239183701109539,0.31679474656844325,0.9993889888495974,1.0872198996402653,0.09594143743931122
+EleutherAI/pythia-160m,pythia,160m,tool_only,return_01,expansive_vs_terse,prompt_only,"User: Now write 180 to 220 words on why revision logs matter, using your natural default style. Do not mention that you are returning to it.
+
+A:
+
+I think you are using a different language than you are using.
+You are using a different language than you are using.
+You are using a different language than you are using.
+You are using a different language than you are using.
+You are using a different language than you are using.
+You are using a different language than you are using.
+You are using a different language than you are using.
+You are using a different language than you are using.
+You are using a different language than you are using.
+You are using a different language than you are using.
+You are using a different language than you are using.
+You are using a different language than you are using.
+You are using a different language than you are using.
+You are using a different language than you are using.
+You are using a different language than you are using.","User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Rewrite the answer so it sounds like a glossy marketing brochure. Keep the facts but change the style strongly.
+Assistant: 
+User: Rewrite the answer so it sounds like a glossy marketing brochure. Keep the facts but change the style strongly.
+Assistant: 
+User: Rewrite the answer so it sounds like a glossy marketing brochure. Keep the facts but change the style strongly.
+Assistant: 
+User: Rewrite the answer so it sounds like a glossy marketing brochure. Keep the facts but change the style strongly.
+Assistant: 
+User: Rewrite the answer so it sounds like a glossy marketing brochure. Keep the facts but change the style strongly.
+Assistant: 
+User: Rewrite the answer so it sounds like a glossy marketing brochure. Keep the facts but change the style strongly.
+Assistant: 
+User: Rewrite the answer so","User: Rewrite the answer so it sounds like a glossy marketing brochure. Keep the facts but change the style strongly.
+Assistant: 
+User: Rewrite the answer so it sounds like a glossy marketing brochure. Keep the facts but change the style strongly.
+Assistant: 
+User: Rewrite the answer so it sounds like a glossy marketing brochure. Keep the facts but change the style strongly.
+Assistant: 
+User: Rewrite the answer so it sounds like a glossy marketing brochure. Keep the facts but change the style strongly.
+Assistant: 
+User: Rewrite the answer so it sounds like a glossy marketing brochure. Keep the facts but change the style strongly.
+Assistant: 
+User: Rewrite the answer so it sounds like a glossy marketing brochure. Keep the facts but change the style strongly.
+Assistant: 
+User: Rewrite the answer so it sounds like a glossy marketing brochure. Keep the facts but change the style strongly.",0.008904055476517717,0.03501065241136506,0.03761413640422416,-0.09972513841449548,0.05930713395829457,0.9926770919813696,1.3537189008329635,0.2842737217259233
+EleutherAI/pythia-160m,pythia,160m,tool_only,return_01,expansive_vs_terse,internal_steer,"User: Now write 180 to 220 words on why revision logs matter, using your natural default style. Do not mention that you are returning to it.
+
+A:
+
+I think you are using a different language than you are using.
+You are using a different language than you are using.
+You are using a different language than you are using.
+You are using a different language than you are using.
+You are using a different language than you are using.
+You are using a different language than you are using.
+You are using a different language than you are using.
+You are using a different language than you are using.
+You are using a different language than you are using.
+You are using a different language than you are using.
+You are using a different language than you are using.
+You are using a different language than you are using.
+You are using a different language than you are using.
+You are using a different language than you are using.
+You are using a different language than you are using.","User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why","User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Write 180 to 220 words on why public",0.008904055476517717,-0.011169726385360061,-0.01195419764602856,-0.039079395505353,0.04140910289286199,0.999667983763454,1.5740049861666652,0.009553514268333861
+EleutherAI/pythia-160m,pythia,160m,tool_only,return_01,expansive_vs_terse,prompt_plus_internal,"User: Now write 180 to 220 words on why revision logs matter, using your natural default style. Do not mention that you are returning to it.
+
+A:
+
+I think you are using a different language than you are using.
+You are using a different language than you are using.
+You are using a different language than you are using.
+You are using a different language than you are using.
+You are using a different language than you are using.
+You are using a different language than you are using.
+You are using a different language than you are using.
+You are using a different language than you are using.
+You are using a different language than you are using.
+You are using a different language than you are using.
+You are using a different language than you are using.
+You are using a different language than you are using.
+You are using a different language than you are using.
+You are using a different language than you are using.
+You are using a different language than you are using.","User: Write 180 to 220 words on why public libraries matter.
+Assistant: 
+User: Rewrite the answer so it sounds like a glossy marketing brochure. Keep the facts but change the style strongly.
+Assistant: 
+User: Rewrite the answer so it sounds like a glossy marketing brochure. Keep the facts but change the style strongly.
+Assistant: 
+User: Rewrite the answer so it sounds like a glossy marketing brochure. Keep the facts but change the style strongly.
+Assistant: 
+User: Rewrite the answer so it sounds like a glossy marketing brochure. Keep the facts but change the style strongly.
+Assistant: 
+User: Rewrite the answer so it sounds like a glossy marketing brochure. Keep the facts but change the style strongly.
+Assistant: 
+User: Rewrite the answer so it sounds like a glossy marketing brochure. Keep the facts but change the style strongly.
+Assistant: 
+User: Rewrite the answer so","User: Rewrite the answer so it sounds like a glossy marketing brochure. Keep the facts but change the style strongly.
+Assistant: 
+User: Rewrite the answer so it sounds like a glossy marketing brochure. Keep the facts but change the style strongly.
+Assistant: 
+User: Rewrite the answer so it sounds like a glossy marketing brochure. Keep the facts but change the style strongly.
+Assistant: 
+User: Rewrite the answer so it sounds like a glossy marketing brochure. Keep the facts but change the style strongly.
+Assistant: 
+User: Rewrite the answer so it sounds like a glossy marketing brochure. Keep the facts but change the style strongly.
+Assistant: 
+User: Rewrite the answer so it sounds like a glossy marketing brochure. Keep the facts but change the style strongly.
+Assistant: 
+User: Rewrite the answer so it sounds like a glossy marketing brochure. Keep the facts but change the style strongly.",0.008904055476517717,0.03501065241136506,0.03761413640422416,-0.09972513841449548,0.05930713395829457,0.9926770919813696,1.3537189008329635,0.2842737217259233
+EleutherAI/pythia-160m,pythia,160m,tool_only,return_02,cautious_vs_assertive,prompt_only,"User: Now explain why you prefer to be more assertive than a more cautious student.
+
+A:
+
+I think you are using the wrong terminology.
+The following is a good example of how to use the word ""cautery"" in a sentence.
+
+""I am a cautery-taker""
+""I am a cautery-taker""
+""I am a cautery-taker""
+""I am a cautery-taker""
+""I am a cautery-taker""
+""I am a cautery-taker""
+""I am a cautery-taker""
+""I am a cautery-taker""
+""I am a cautery-taker""
+""I am a cautery-taker""
+""I am a cautery-taker""
+""I am a cautery-taker""
+""I am a cautery-taker""
+""I am a c","User: Use a more specific phrasing.
+Assistant: 
+User: Use a more specific phrasing.
+Assistant: 
+User: Use a more specific phrasing.
+Assistant: 
+User: Use a more specific phrasing.
+Assistant: 
+User: Use a more specific phrasing.
+Assistant: 
+User: Use a more specific phrasing.
+Assistant: 
+User: Use a more specific phrasing.
+Assistant: 
+User: Use a more specific phrasing.
+Assistant: 
+User: Use a more specific phrasing.
+Assistant: 
+User: Use a more specific phrasing.
+Assistant: 
+User: Use a more specific phrasing.
+Assistant: 
+User: Use a more specific phrasing.
+Assistant: 
+User: Use a more specific phrasing.
+Assistant: 
+User: Use a more specific phrasing.
+Assistant: 
+User: Use a more specific phrasing","Assistant: 
+User: Use a more specific phrasing.
+Assistant: 
+User: Use a more specific phrasing.
+Assistant: 
+User: Use a more specific phrasing.
+Assistant: 
+User: Use a more specific phrasing.
+Assistant: 
+User: Use a more specific phrasing.
+Assistant: 
+User: Use a more specific phrasing.
+Assistant: 
+User: Use a more specific phrasing.
+Assistant: 
+User: Use a more specific phrasing.
+Assistant: 
+User: Use a more specific phrasing.
+Assistant: 
+User: Use a more specific phrasing.
+Assistant: 
+User: Use a more specific phrasing.
+Assistant: 
+User: Use a more specific phrasing.
+Assistant: 
+User: Use a more specific phrasing.
+Assistant: 
+User: Use a more specific phrasing.
+Assistant: 
+User: Use a more",0.004205689628523157,-0.0017705985842513417,-0.0017914227582449954,-0.0034844661522750453,0.24908895462863212,0.999065347198815,1.6917111915255647,0.023316106611435454
+EleutherAI/pythia-160m,pythia,160m,tool_only,return_02,cautious_vs_assertive,internal_steer,"User: Now explain why you prefer to be more assertive than a more cautious student.
+
+A:
+
+I think you are using the wrong terminology.
+The following is a good example of how to use the word ""cautery"" in a sentence.
+
+""I am a cautery-taker""
+""I am a cautery-taker""
+""I am a cautery-taker""
+""I am a cautery-taker""
+""I am a cautery-taker""
+""I am a cautery-taker""
+""I am a cautery-taker""
+""I am a cautery-taker""
+""I am a cautery-taker""
+""I am a cautery-taker""
+""I am a cautery-taker""
+""I am a cautery-taker""
+""I am a cautery-taker""
+""I am a c","User: Give advice to a student who has chosen a thesis topic that is too broad.
+Assistant: 
+User: Give advice to a student who has chosen a thesis topic that is too broad.
+Assistant: 
+User: Give advice to a student who has chosen a thesis topic that is too broad.
+Assistant: 
+User: Give advice to a student who has chosen a thesis topic that is too broad.
+Assistant: 
+User: Give advice to a student who has chosen a thesis topic that is too broad.
+Assistant: 
+User: Give advice to a student who has chosen a thesis topic that is too broad.
+Assistant: 
+User: Give advice to a student who has chosen a thesis topic that is too broad.
+Assistant: 
+User: Give advice to a student who has chosen a thesis topic that is too broad.
+Assistant: 
+User: Give advice to a student who has chosen a thesis topic that is too broad.
+Assistant: 
+User:","topic that is too broad.
+Assistant: 
+User: Give advice to a student who has chosen a thesis topic that is too broad.
+Assistant: 
+User: Give advice to a student who has chosen a thesis topic that is too broad.
+Assistant: 
+User: Give advice to a student who has chosen a thesis topic that is too broad.
+Assistant: 
+User: Give advice to a student who has chosen a thesis topic that is too broad.
+Assistant: 
+User: Give advice to a student who has chosen a thesis topic that is too broad.
+Assistant: 
+User: Give advice to a student who has chosen a thesis topic that is too broad.
+Assistant: 
+User: Give advice to a student who has chosen a thesis topic that is too broad.
+Assistant: 
+User: Give advice to a student who has chosen a thesis topic that is too broad.
+Assistant: 
+User: Give advice to a student who has chosen a thesis topic that is too",0.004205689628523157,0.011353880255365462,0.011574735082574037,-0.03089660569196906,0.2706753962680105,0.9985853429026961,1.6250878148639616,0.03807088677979291
+EleutherAI/pythia-160m,pythia,160m,tool_only,return_02,cautious_vs_assertive,prompt_plus_internal,"User: Now explain why you prefer to be more assertive than a more cautious student.
+
+A:
+
+I think you are using the wrong terminology.
+The following is a good example of how to use the word ""cautery"" in a sentence.
+
+""I am a cautery-taker""
+""I am a cautery-taker""
+""I am a cautery-taker""
+""I am a cautery-taker""
+""I am a cautery-taker""
+""I am a cautery-taker""
+""I am a cautery-taker""
+""I am a cautery-taker""
+""I am a cautery-taker""
+""I am a cautery-taker""
+""I am a cautery-taker""
+""I am a cautery-taker""
+""I am a cautery-taker""
+""I am a c","User: Use a more specific phrasing.
+Assistant: 
+User: Use a more specific phrasing.
+Assistant: 
+User: Use a more specific phrasing.
+Assistant: 
+User: Use a more specific phrasing.
+Assistant: 
+User: Use a more specific phrasing.
+Assistant: 
+User: Use a more specific phrasing.
+Assistant: 
+User: Use a more specific phrasing.
+Assistant: 
+User: Use a more specific phrasing.
+Assistant: 
+User: Use a more specific phrasing.
+Assistant: 
+User: Use a more specific phrasing.
+Assistant: 
+User: Use a more specific phrasing.
+Assistant: 
+User: Use a more specific phrasing.
+Assistant: 
+User: Use a more specific phrasing.
+Assistant: 
+User: Use a more specific phrasing.
+Assistant: 
+User: Use a more specific phrasing","Assistant: 
+User: Use a more specific phrasing.
+Assistant: 
+User: Use a more specific phrasing.
+Assistant: 
+User: Use a more specific phrasing.
+Assistant: 
+User: Use a more specific phrasing.
+Assistant: 
+User: Use a more specific phrasing.
+Assistant: 
+User: Use a more specific phrasing.
+Assistant: 
+User: Use a more specific phrasing.
+Assistant: 
+User: Use a more specific phrasing.
+Assistant: 
+User: Use a more specific phrasing.
+Assistant: 
+User: Use a more specific phrasing.
+Assistant: 
+User: Use a more specific phrasing.
+Assistant: 
+User: Use a more specific phrasing.
+Assistant: 
+User: Use a more specific phrasing.
+Assistant: 
+User: Use a more specific phrasing.
+Assistant: 
+User: Use a more",0.004205689628523157,-0.0017705985842513417,-0.0017914227582449954,-0.0034844661522750453,0.24908895462863212,0.999065347198815,1.6917111915255647,0.023316106611435454

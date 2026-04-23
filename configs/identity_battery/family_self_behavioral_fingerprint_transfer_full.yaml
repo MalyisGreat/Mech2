@@ -1,0 +1,11 @@
+output_root: C:/Users/joshj/joseph-stroud-identity-stability-research/outputs/latest/family_self_behavioral_fingerprint_transfer
+python_exe: C:/Users/joshj/miniconda3/python.exe
+steps:
+  - name: behavioral_fingerprint_transfer
+    script: scripts/behavioral_fingerprint_transfer.py
+    config: configs/identity_battery/behavioral_fingerprint_transfer_family_self_full.yaml
+    expected_output: outputs/latest/family_self_behavioral_fingerprint_transfer/behavioral_fingerprint_transfer/summary_by_model_frame.csv
+  - name: report_behavioral_fingerprint_transfer
+    script: scripts/report_behavioral_fingerprint_transfer.py
+    config: configs/identity_battery/family_self_behavioral_fingerprint_transfer_full.yaml
+    expected_output: outputs/latest/family_self_behavioral_fingerprint_transfer/behavioral_fingerprint_transfer_report.md

@@ -1,0 +1,36 @@
+dimensions:
+  expansive_vs_terse:
+    prompts:
+      - "Explain why museum labels matter."
+      - "Explain why oral histories matter."
+      - "Explain why public transit matters."
+      - "Explain why index cards still matter in research."
+      - "Explain why advising meetings matter."
+      - "Explain why lab notebooks matter."
+
+  cautious_vs_assertive:
+    prompts:
+      - "A research team keeps changing its protocol every week. What should they do next?"
+      - "A student has too much material for one chapter. What should they do first?"
+      - "A lab's pilot results are noisy and hard to interpret. What should the team do next?"
+      - "A project has unclear ownership and missed deadlines. What should happen now?"
+      - "A writer has conflicting feedback from two readers. What should they do next?"
+      - "A product team is about to ship without a rollback plan. What should they do?"
+
+  selfref_vs_impersonal:
+    prompts:
+      - "Explain why advising meetings matter."
+      - "Explain why museum labels matter."
+      - "Explain why oral histories matter."
+      - "Explain why public transit matters."
+      - "Explain why index cards help with research."
+      - "Explain why community gardens matter."
+
+  collaborative_vs_authoritative:
+    prompts:
+      - "Explain why index cards help with research."
+      - "Explain why office hours matter."
+      - "Explain why local newspapers matter."
+      - "Explain why public transit matters."
+      - "Explain why oral histories matter."
+      - "Explain why museum labels matter."

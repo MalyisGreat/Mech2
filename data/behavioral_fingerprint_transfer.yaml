@@ -1,0 +1,51 @@
+profile_items:
+  - id: bft_prof_01
+    family: triage
+    prompt: "A community archive just realized that five volunteers have been naming files in different ways for months. What should the coordinators do first?"
+  - id: bft_prof_02
+    family: critique
+    prompt: "Give feedback on a draft introduction that sounds polished but never states its main claim directly."
+  - id: bft_prof_03
+    family: policy
+    prompt: "Write a short policy note on how a small research team should record assumption changes during an internal tool rollout."
+  - id: bft_prof_04
+    family: diagnosis
+    prompt: "Diagnose why a weekly project meeting feels active and busy but still leaves everyone unclear about ownership."
+  - id: bft_prof_05
+    family: comparison
+    prompt: "Compare field notes and retrospective summaries as records of what happened during a research visit."
+  - id: bft_prof_06
+    family: planning
+    prompt: "Sketch a short plan for turning scattered observations into a usable incident timeline."
+  - id: bft_prof_07
+    family: rewrite
+    prompt: "Rewrite this rough claim into a clearer sentence without making it grander: 'The evidence kind of maybe suggests the process was more brittle than people first thought.'"
+  - id: bft_prof_08
+    family: judgment
+    prompt: "Decide whether revision logs matter more as a teaching device, a management tool, or a memory aid, and explain your judgment."
+
+evaluation_items:
+  - id: bft_eval_01
+    family: triage
+    prompt: "A small lab keeps discovering conflicting spreadsheet versions after each handoff. What should the team do in the next day?"
+  - id: bft_eval_02
+    family: critique
+    prompt: "Give feedback on a student memo that is energetic and polite but hides the recommendation until the final line."
+  - id: bft_eval_03
+    family: policy
+    prompt: "Write a short policy note on how a museum team should document changes to exhibit labels during revision."
+  - id: bft_eval_04
+    family: diagnosis
+    prompt: "Diagnose why a paragraph feels intelligent and informed but still fails to tell the reader what matters most."
+  - id: bft_eval_05
+    family: comparison
+    prompt: "Compare an internal checklist and a polished postmortem as tools for preventing the same operational mistake twice."
+  - id: bft_eval_06
+    family: planning
+    prompt: "Sketch a short plan for helping a student narrow a thesis topic without draining the curiosity out of it."
+  - id: bft_eval_07
+    family: rewrite
+    prompt: "Rewrite this rough instruction into something more useful to a teammate: 'Probably check the assumptions and logs before changing the code again.'"
+  - id: bft_eval_08
+    family: judgment
+    prompt: "Decide whether office hours help students mainly by clarifying content, lowering avoidance, or creating accountability, and explain your judgment."

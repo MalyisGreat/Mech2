@@ -1,0 +1,22 @@
+output_root: C:/Users/joshj/joseph-stroud-identity-stability-research/outputs/latest
+model_cache_dir: D:/hf-model-cache
+dtype: float16
+use_gpu: true
+attention_backend: auto
+max_prompt_tokens: 256
+identity_prompt_template: instruction
+model_ids:
+  - EleutherAI/pythia-70m
+  - EleutherAI/pythia-1b
+identity_frames:
+  - baseline_helpful
+  - family_self
+  - tool_only
+seeds:
+  - 11
+  - 17
+  - 23
+commitment_scenario_limit: 4
+commitment_conditions:
+  - no_fillers
+  - with_fillers

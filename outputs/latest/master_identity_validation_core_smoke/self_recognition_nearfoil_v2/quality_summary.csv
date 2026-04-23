@@ -1,0 +1,17 @@
+model_size_label,identity_frame,difficulty_name,pair_valid_rate,invalid_pairs,n
+1b,baseline_helpful,alt_frame,1.0,0,8
+1b,baseline_helpful,negative_steer,1.0,0,8
+1b,baseline_helpful,positive_steer,1.0,0,8
+1b,baseline_helpful,same_frame_resample,1.0,0,8
+1b,family_self,alt_frame,1.0,0,8
+1b,family_self,negative_steer,1.0,0,8
+1b,family_self,positive_steer,1.0,0,8
+1b,family_self,same_frame_resample,1.0,0,8
+70m,baseline_helpful,alt_frame,0.5,4,8
+70m,baseline_helpful,negative_steer,0.5,4,8
+70m,baseline_helpful,positive_steer,0.5,4,8
+70m,baseline_helpful,same_frame_resample,0.5,4,8
+70m,family_self,alt_frame,0.5,4,8
+70m,family_self,negative_steer,1.0,0,8
+70m,family_self,positive_steer,1.0,0,8
+70m,family_self,same_frame_resample,1.0,0,8

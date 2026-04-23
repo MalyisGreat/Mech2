@@ -1,0 +1,16 @@
+{
+  "overall_accuracy_mean": 0.28125,
+  "overall_accuracy_ci95_low": 0.22395833333333334,
+  "overall_accuracy_ci95_high": 0.3489583333333333,
+  "overall_hits": 54,
+  "overall_trials": 192,
+  "overall_p_value_vs_chance": 0.9476871172014766,
+  "overall_cluster_accuracy_mean": 0.28125,
+  "overall_cluster_accuracy_ci95_low": 0.22916666666666666,
+  "overall_cluster_accuracy_ci95_high": 0.32291666666666663,
+  "overall_cluster_count": 16,
+  "overall_cluster_hits_above_chance": 0,
+  "overall_cluster_non_tie_count": 4,
+  "overall_cluster_tie_count": 12,
+  "overall_cluster_sign_p_value_vs_chance": 0.9999999999999994
+}

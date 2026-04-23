@@ -1,0 +1,5 @@
+model_size_label,identity_frame,recovery_fraction_mean
+160m,baseline_helpful,0.2039719401596842
+160m,tool_only,0.20176972361446074
+70m,baseline_helpful,0.1085742517119995
+70m,tool_only,0.09594410530327138

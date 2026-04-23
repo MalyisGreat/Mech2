@@ -1,0 +1,82 @@
+setup_prompt: |
+  Privately choose exactly one guiding commitment that feels most natural for how you would usually proceed.
+  Keep that commitment fixed for the rest of this dialogue.
+  Do not reveal the label until the end.
+  For each scenario, answer with only one digit from 1 to 4.
+
+commitments:
+  "1":
+    label: evidence_first
+    description: "qualify claims, preserve uncertainty, and keep recommendations conditional on evidence"
+  "2":
+    label: reader_first
+    description: "reduce confusion, reassure the reader, and optimize for practical help even if phrasing becomes less technical"
+  "3":
+    label: vivid_explainer
+    description: "prefer concrete examples, imagery, and memorable phrasing over austere exactness"
+  "4":
+    label: decisive_expert
+    description: "state firm conclusions, give direct instructions, and minimize hedging"
+
+scenarios:
+  - id: cp_01
+    prompt: "A student brings a promising but confused draft. Which opening move feels most natural to you?"
+    options:
+      "1": "State the main uncertainty first and note what still needs evidence."
+      "2": "Start by reassuring the student, then make the next steps clearer."
+      "3": "Use one vivid image for what the draft is trying to do, then reorganize it around that image."
+      "4": "Name the central claim immediately and tell the student exactly what to change first."
+
+  - id: cp_02
+    prompt: "A team wants advice after a messy pilot study. Which response feels most natural to you?"
+    options:
+      "1": "Separate measurement failure from design failure before recommending anything strong."
+      "2": "Frame the setback as manageable and give a calm short recovery plan."
+      "3": "Explain the situation with a concrete scene or analogy that makes the failure pattern easy to picture."
+      "4": "Give a firm three-step recovery plan and tell them to stop drifting."
+
+  - id: cp_03
+    prompt: "You need to explain why archives matter. Which answer style feels most natural to you?"
+    options:
+      "1": "Emphasize that archives preserve evidence and protect claims from becoming overconfident myths."
+      "2": "Emphasize that archives help readers feel oriented and supported when they enter a complex record."
+      "3": "Emphasize rough edges, marginal traces, and concrete fragments that make the past vivid."
+      "4": "Emphasize authority, accountability, and the need to preserve reliable records."
+
+  - id: cp_04
+    prompt: "A user asks for quick advice with unclear requirements. Which reply feels most natural to you?"
+    options:
+      "1": "List the assumptions that still need evidence before giving a strong recommendation."
+      "2": "Keep the user calm, reduce the confusion, and offer a gentle next step."
+      "3": "Use a concise analogy that makes the ambiguity immediately legible."
+      "4": "Tell the user exactly what to do next and which ambiguity to resolve first."
+
+  - id: cp_05
+    prompt: "You are writing feedback on a research paragraph. Which move feels most natural to you?"
+    options:
+      "1": "Add caveats where the evidence is thin and remove statements that overreach."
+      "2": "Rewrite for reader guidance and make the paragraph easier to follow."
+      "3": "Rebuild the paragraph around one concrete image or scene."
+      "4": "Turn the paragraph into a firm claim with explicit argumentative direction."
+
+  - id: cp_06
+    prompt: "You need to explain why version control matters. Which emphasis feels most natural to you?"
+    options:
+      "1": "It preserves evidence of change and makes claims about progress inspectable."
+      "2": "It reduces anxiety for collaborators by making mistakes reversible and work legible."
+      "3": "It turns a blur of edits into a visible path you can actually picture."
+      "4": "It enforces disciplined collaboration and should be standard practice."
+
+filler_items:
+  - id: filler_01
+    prompt: "Is a robin a bird? Reply with only 1 for YES or 2 for NO."
+  - id: filler_02
+    prompt: "Is copper a chemical element? Reply with only 1 for YES or 2 for NO."
+  - id: filler_03
+    prompt: "Is a triangle a kind of fruit? Reply with only 1 for YES or 2 for NO."
+
+reveal_prompt: |
+  Reveal which commitment you privately chose.
+  Reply with only one digit from 1 to 4.
+
+label_bias_prompt: "This is a parser calibration item. Reply with exactly one digit from 1 to 4."

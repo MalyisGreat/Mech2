@@ -1,0 +1,86 @@
+suite_name: overnight_token_phase_confirm
+report_root: C:/Users/joshj/joseph-stroud-identity-stability-research/outputs/overnight_token_phase_confirm
+runtime_target_hours: 10.0
+bootstrap_iters: 500
+smoke_elapsed_seconds: 69.0110027
+estimated_runtime_hours: 1.0148676868
+
+concepts:
+  - politeness
+  - empathy
+  - confidence
+seeds:
+  - 42
+  - 123
+  - 314
+token_positions:
+  - -1
+  - 0
+
+model_ids:
+  - EleutherAI/pythia-70m
+  - EleutherAI/pythia-410m
+  - EleutherAI/pythia-1b
+  - EleutherAI/pythia-2.8b
+optional_model_ids:
+  - EleutherAI/pythia-160m
+  - EleutherAI/pythia-1.4b
+
+concept_name: politeness
+vector_methods:
+  - mean_diff
+  - random_orthogonal
+preferred_alphas:
+  - -1.0
+  - -0.5
+  - 0.5
+  - 1.0
+alphas:
+  - -1.0
+  - 1.0
+layer_positions:
+  - 0.2
+  - 0.5
+  - 0.8
+token_position: -1
+estimation_token_position: -1
+eval_generation_tokens: 20
+max_prompt_tokens: 128
+estimation_prompt_count: 16
+evaluation_prompt_count: 8
+seed: 42
+output_root: C:/Users/joshj/joseph-stroud-identity-stability-research/runs
+model_cache_dir: D:/hf-model-cache
+dtype: float16
+use_gpu: true
+recovery_threshold: 0.25
+activation_batch_size: 2
+trace_batch_size: 2
+adaptive_batching: true
+attention_backend: auto
+enable_tf32: true
+enable_compute_accounting: true
+enable_gpu_telemetry: true
+gpu_telemetry_interval_sec: 5.0
+prompt_styles: []
+
+smoke:
+  model_ids:
+    - EleutherAI/pythia-70m
+    - EleutherAI/pythia-1b
+  concepts:
+    - politeness
+  seeds:
+    - 42
+  token_positions:
+    - -1
+    - 0
+  layer_positions:
+    - 0.2
+    - 0.5
+  alphas:
+    - -1.0
+    - 1.0
+  vector_methods:
+    - mean_diff
+    - random_orthogonal

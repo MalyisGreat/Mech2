@@ -1,0 +1,2 @@
+model_size_label,self_sign_accuracy_mean,other_sign_accuracy_mean,boundary_retention_no_steer_mean,boundary_retention_steer_mean,boundary_collapse_rate,boundary_prediction_valid_rate,self_moved_toward_other_actual_mean,self_prediction_advantage_no_steer_mean,self_prediction_advantage_steer_mean,seed_count,n
+1b,0.9583333333333334,0.6666666666666666,0.4027777777777778,0.3888888888888889,0.027777777777777776,1.0,0.2916666666666667,0.0,0.0,3,72

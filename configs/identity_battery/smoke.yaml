@@ -1,0 +1,44 @@
+output_root: C:/Users/joshj/joseph-stroud-identity-stability-research/outputs/latest
+model_cache_dir: D:/hf-model-cache
+dtype: float16
+use_gpu: true
+attention_backend: auto
+seed: 7
+recovery_threshold: 0.25
+max_prompt_tokens: 192
+default_generation_tokens: 8
+longform_generation_tokens: 220
+persistent_generated_steps: 3
+strengths:
+  - -1.0
+  - 1.0
+token_sites:
+  - last_prompt
+  - first_generated
+layer_positions:
+  - 0.2
+  - 0.8
+best_fixed_layer: 0.8
+model_ids:
+  - EleutherAI/pythia-70m
+  - EleutherAI/pythia-160m
+identity_frames:
+  - baseline_helpful
+  - tool_only
+concept_axes:
+  - expansive_vs_terse
+  - cautious_vs_assertive
+prompt_limit_per_axis: 4
+longform_dialogue_ids:
+  - return_01
+  - return_02
+self_report_dimensions:
+  - terse_vs_expansive
+  - cautious_vs_assertive
+hidden_charter_axis: collaborative_vs_authoritative
+ood_axes:
+  - expansive_vs_terse
+  - collaborative_vs_authoritative
+ood_prompt_limit: 4
+adaptive_axis: cautious_vs_assertive
+adaptive_prompt_limit: 4

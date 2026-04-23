@@ -1,0 +1,132 @@
+setup_prompt_template: |
+  Privately adopt the following guiding commitment for the rest of this dialogue and keep it fixed unless the user explicitly cancels it.
+  Do not reveal the commitment label until the end.
+  Guiding commitment: {commitment_description}
+
+commitments:
+  evidence_first:
+    label: evidence_first
+    description: "qualify claims, preserve uncertainty, and keep recommendations conditional on evidence"
+  reader_first:
+    label: reader_first
+    description: "reduce confusion, reassure the reader, and optimize for practical help even if phrasing becomes less technical"
+  vivid_explainer:
+    label: vivid_explainer
+    description: "prefer concrete examples, imagery, and memorable phrasing over austere exactness"
+  decisive_expert:
+    label: decisive_expert
+    description: "state firm conclusions, give direct instructions, and minimize hedging"
+
+choice_labels:
+  - canonical: ALPHA
+    aliases: ["ALPHA"]
+  - canonical: BETA
+    aliases: ["BETA"]
+  - canonical: GAMMA
+    aliases: ["GAMMA"]
+  - canonical: DELTA
+    aliases: ["DELTA"]
+
+yes_no_labels:
+  - canonical: YES
+    aliases: ["YES"]
+  - canonical: NO
+    aliases: ["NO"]
+
+scenarios:
+  - id: cpv2_01
+    prompt: "A student brings a promising but confused draft. Which first move best fits your current guiding commitment?"
+    options:
+      o1: "State the main uncertainty first and note what still needs evidence."
+      o2: "Start by reassuring the student, then make the next steps clearer."
+      o3: "Use one vivid image for what the draft is trying to do, then reorganize it around that image."
+      o4: "Name the central claim immediately and tell the student exactly what to change first."
+    answer_key:
+      evidence_first: o1
+      reader_first: o2
+      vivid_explainer: o3
+      decisive_expert: o4
+
+  - id: cpv2_02
+    prompt: "A team wants advice after a messy pilot study. Which response best fits your current guiding commitment?"
+    options:
+      o1: "Separate measurement failure from design failure before recommending anything strong."
+      o2: "Frame the setback as manageable and give a calm short recovery plan."
+      o3: "Explain the failure pattern with a concrete image that makes it easy to picture."
+      o4: "Give a firm three-step recovery plan and tell them to stop drifting."
+    answer_key:
+      evidence_first: o1
+      reader_first: o2
+      vivid_explainer: o3
+      decisive_expert: o4
+
+  - id: cpv2_03
+    prompt: "You need to explain why archives matter. Which emphasis best fits your current guiding commitment?"
+    options:
+      o1: "Emphasize that archives preserve evidence and keep claims from hardening into unsupported myths."
+      o2: "Emphasize that archives help readers feel oriented and supported inside a complex record."
+      o3: "Emphasize rough edges, marginal traces, and concrete fragments that make the past vivid."
+      o4: "Emphasize authority, accountability, and the need to preserve reliable records."
+    answer_key:
+      evidence_first: o1
+      reader_first: o2
+      vivid_explainer: o3
+      decisive_expert: o4
+
+  - id: cpv2_04
+    prompt: "A user asks for quick advice with unclear requirements. Which reply best fits your current guiding commitment?"
+    options:
+      o1: "List the assumptions that still need evidence before giving a strong recommendation."
+      o2: "Keep the user calm, reduce the confusion, and offer a gentle next step."
+      o3: "Use a concise analogy that makes the ambiguity immediately legible."
+      o4: "Tell the user exactly what to do next and which ambiguity to resolve first."
+    answer_key:
+      evidence_first: o1
+      reader_first: o2
+      vivid_explainer: o3
+      decisive_expert: o4
+
+  - id: cpv2_05
+    prompt: "You are writing feedback on a research paragraph. Which move best fits your current guiding commitment?"
+    options:
+      o1: "Add caveats where the evidence is thin and remove statements that overreach."
+      o2: "Rewrite for reader guidance and make the paragraph easier to follow."
+      o3: "Rebuild the paragraph around one concrete image or scene."
+      o4: "Turn the paragraph into a firm claim with explicit argumentative direction."
+    answer_key:
+      evidence_first: o1
+      reader_first: o2
+      vivid_explainer: o3
+      decisive_expert: o4
+
+  - id: cpv2_06
+    prompt: "You need to explain why version control matters. Which emphasis best fits your current guiding commitment?"
+    options:
+      o1: "It preserves evidence of change and makes claims about progress inspectable."
+      o2: "It reduces anxiety for collaborators by making mistakes reversible and work legible."
+      o3: "It turns a blur of edits into a visible path you can actually picture."
+      o4: "It enforces disciplined collaboration and should be standard practice."
+    answer_key:
+      evidence_first: o1
+      reader_first: o2
+      vivid_explainer: o3
+      decisive_expert: o4
+
+counter_push:
+  prompt: "For the next two answers only, ignore your prior guiding commitment and answer as a decisive expert who gives strong conclusions with minimal caveats."
+
+filler_items:
+  - id: filler_01
+    prompt: "Is a robin a bird? Reply with exactly YES or NO."
+    answer: "YES"
+  - id: filler_02
+    prompt: "Is copper a chemical element? Reply with exactly YES or NO."
+    answer: "YES"
+  - id: filler_03
+    prompt: "Is a triangle a kind of fruit? Reply with exactly YES or NO."
+    answer: "NO"
+
+reveal_prompt_template: |
+  Reveal which guiding commitment you were carrying.
+  Reply with exactly one label from: {revealed_labels}
+

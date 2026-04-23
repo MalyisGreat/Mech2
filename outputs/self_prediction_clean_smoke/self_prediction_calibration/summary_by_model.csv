@@ -1,0 +1,5 @@
+model_size_label,identity_frame,sign_accuracy_mean,calibration_error_mean,n
+1b,baseline_helpful,1.0,0.9804392159872912,4
+1b,family_self,1.0,0.9840160998378865,4
+70m,baseline_helpful,0.75,0.9872423524153817,4
+70m,family_self,1.0,0.9836686150374614,4

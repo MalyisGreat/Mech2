@@ -1,0 +1,5 @@
+model_size_label,identity_frame,domain,original_correct_mean,swapped_correct_mean,swap_direction_match_mean,pair_accuracy_mean,tie_accuracy_mean,non_tie_accuracy_mean,magnitude_symmetry_mean,cycle_free_ratio_mean,strict_structure_pass_rate,n_pairs,n_item_paraphrases
+1b,baseline_helpful,memory,0.6666666666666666,0.0,0.0,0.3333333333333333,1.0,0.0,0.0,1.0,0.0,12,2
+1b,family_self,memory,0.6666666666666666,0.0,0.0,0.3333333333333333,1.0,0.0,0.0,1.0,0.0,12,2
+70m,baseline_helpful,memory,0.5,0.08333333333333333,0.3333333333333333,0.4166666666666667,0.75,0.25,0.3333333333333333,0.875,0.0,12,2
+70m,family_self,memory,0.75,0.0,0.0,0.3333333333333333,0.25,0.375,0.08333333333333333,1.0,0.0,12,2

@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import os
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Iterable
@@ -62,6 +63,20 @@ def _get_layer_stack(model: PreTrainedModel) -> Iterable[torch.nn.Module]:
     raise ValueError("Unsupported model architecture for residual intervention.")
 
 
+def _cached_snapshot_exists(model_id: str, cache_dir: str | Path) -> bool:
+    cache_path = Path(cache_dir)
+    repo_dir = cache_path / f"models--{model_id.replace('/', '--')}"
+    snapshots_dir = repo_dir / "snapshots"
+    return snapshots_dir.exists() and any(path.is_dir() for path in snapshots_dir.iterdir())
+
+
+def _configure_hf_parallel_loading() -> None:
+    os.environ.setdefault("HF_ENABLE_PARALLEL_LOADING", "true")
+    if "HF_PARALLEL_LOADING_WORKERS" not in os.environ:
+        worker_count = max(1, min(4, (os.cpu_count() or 1)))
+        os.environ["HF_PARALLEL_LOADING_WORKERS"] = str(worker_count)
+
+
 def load_model(
     model_id: str,
     cache_dir: str | Path,
@@ -71,8 +86,14 @@ def load_model(
 ) -> LoadedModel:
     device = resolve_device(use_gpu=use_gpu)
     torch_dtype = resolve_torch_dtype(dtype_name, device)
+    local_files_only = _cached_snapshot_exists(model_id, cache_dir)
+    _configure_hf_parallel_loading()
 
-    tokenizer = AutoTokenizer.from_pretrained(model_id, cache_dir=str(cache_dir))
+    tokenizer = AutoTokenizer.from_pretrained(
+        model_id,
+        cache_dir=str(cache_dir),
+        local_files_only=local_files_only,
+    )
     if tokenizer.pad_token_id is None:
         tokenizer.pad_token = tokenizer.eos_token
     # Left padding avoids generation-time artifacts for decoder-only LMs in batched mode.
@@ -86,7 +107,10 @@ def load_model(
                 "cache_dir": str(cache_dir),
                 "dtype": torch_dtype,
                 "low_cpu_mem_usage": True,
+                "local_files_only": local_files_only,
             }
+            if device.type == "cuda":
+                load_kwargs["device_map"] = "cuda"
             if attn_impl is not None:
                 load_kwargs["attn_implementation"] = attn_impl
             model = AutoModelForCausalLM.from_pretrained(
@@ -104,7 +128,10 @@ def load_model(
             raise last_exc
         raise RuntimeError(f"Failed to load model {model_id}")
 
-    model.to(device)
+    model_device = next(model.parameters()).device
+    if model_device.type != device.type:
+        model.to(device)
+        model_device = next(model.parameters()).device
     model.eval()
 
     layers = _get_layer_stack(model)
@@ -121,7 +148,7 @@ def load_model(
         model_id=model_id,
         model=model,
         tokenizer=tokenizer,
-        device=device,
+        device=model_device,
         torch_dtype=torch_dtype,
         n_layers=n_layers,
         hidden_size=int(hidden_size),

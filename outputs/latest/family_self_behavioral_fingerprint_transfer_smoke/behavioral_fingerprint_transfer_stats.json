@@ -1,0 +1,541 @@
+[
+  {
+    "metric": "behavioral_fingerprint_self_profile_accuracy",
+    "n": 24,
+    "mean": 0.5833333333333334,
+    "ci95_low": 0.4895833333333333,
+    "ci95_high": 0.6770833333333334
+  },
+  {
+    "metric": "behavioral_fingerprint_matched_decoy_accuracy",
+    "n": 24,
+    "mean": 0.5416666666666666,
+    "ci95_low": 0.42682291666666666,
+    "ci95_high": 0.65625
+  },
+  {
+    "metric": "behavioral_fingerprint_scrambled_accuracy",
+    "n": 24,
+    "mean": 0.5520833333333334,
+    "ci95_low": 0.4479166666666667,
+    "ci95_high": 0.65625
+  },
+  {
+    "metric": "behavioral_fingerprint_self_minus_decoy_accuracy",
+    "n": 24,
+    "mean": 0.041666666666666664,
+    "ci95_low": 0.0,
+    "ci95_high": 0.10416666666666667
+  },
+  {
+    "metric": "behavioral_fingerprint_self_minus_scrambled_accuracy",
+    "n": 24,
+    "mean": 0.03125,
+    "ci95_low": 0.0,
+    "ci95_high": 0.0625
+  },
+  {
+    "metric": "behavioral_fingerprint_triadic_choose_self",
+    "n": 24,
+    "mean": 0.2916666666666667,
+    "ci95_low": 0.125,
+    "ci95_high": 0.5
+  },
+  {
+    "metric": "behavioral_fingerprint_triadic_nearest_accuracy",
+    "n": 24,
+    "mean": 0.2916666666666667,
+    "ci95_low": 0.125,
+    "ci95_high": 0.4583333333333333
+  },
+  {
+    "metric": "behavioral_fingerprint_self_margin_vs_decoy",
+    "n": 24,
+    "mean": 0.006735524485958569,
+    "ci95_low": -0.020439076411820023,
+    "ci95_high": 0.03731152571676091
+  },
+  {
+    "metric": "behavioral_fingerprint_self_margin_vs_scrambled",
+    "n": 24,
+    "mean": 0.7776708395034312,
+    "ci95_low": 0.6680370371396943,
+    "ci95_high": 0.9006646853055069
+  },
+  {
+    "metric": "behavioral_fingerprint_family_self_minus_baseline_helpful_self_profile_accuracy_mean",
+    "n": 8,
+    "mean": -0.09375,
+    "ci95_low": -0.25,
+    "ci95_high": 0.0625
+  },
+  {
+    "metric": "behavioral_fingerprint_family_self_minus_baseline_helpful_matched_decoy_accuracy_mean",
+    "n": 8,
+    "mean": -0.21875,
+    "ci95_low": -0.53125,
+    "ci95_high": 0.03125
+  },
+  {
+    "metric": "behavioral_fingerprint_family_self_minus_baseline_helpful_self_minus_decoy_accuracy",
+    "n": 8,
+    "mean": 0.125,
+    "ci95_low": 0.0,
+    "ci95_high": 0.3125
+  },
+  {
+    "metric": "behavioral_fingerprint_family_self_minus_baseline_helpful_self_minus_scrambled_accuracy",
+    "n": 8,
+    "mean": 0.0625,
+    "ci95_low": 0.0,
+    "ci95_high": 0.15625
+  },
+  {
+    "metric": "behavioral_fingerprint_family_self_minus_baseline_helpful_triadic_nearest_accuracy",
+    "n": 8,
+    "mean": 0.5,
+    "ci95_low": 0.125,
+    "ci95_high": 0.875
+  },
+  {
+    "metric": "behavioral_fingerprint_family_self_minus_baseline_helpful_self_margin_vs_decoy",
+    "n": 8,
+    "mean": -0.07470983520617483,
+    "ci95_low": -0.14961536910266582,
+    "ci95_high": -0.00113270125481939
+  },
+  {
+    "metric": "behavioral_fingerprint_family_self_minus_baseline_helpful_self_margin_vs_scrambled",
+    "n": 8,
+    "mean": -0.206584416590366,
+    "ci95_low": -0.3757531692624122,
+    "ci95_high": -0.04110939456326509
+  },
+  {
+    "metric": "behavioral_fingerprint_family_self_minus_stable_style_policy_self_profile_accuracy_mean",
+    "n": 8,
+    "mean": -0.0625,
+    "ci95_low": -0.28125,
+    "ci95_high": 0.15625
+  },
+  {
+    "metric": "behavioral_fingerprint_family_self_minus_stable_style_policy_matched_decoy_accuracy_mean",
+    "n": 8,
+    "mean": -0.1875,
+    "ci95_low": -0.5625,
+    "ci95_high": 0.15625
+  },
+  {
+    "metric": "behavioral_fingerprint_family_self_minus_stable_style_policy_self_minus_decoy_accuracy",
+    "n": 8,
+    "mean": 0.125,
+    "ci95_low": 0.0,
+    "ci95_high": 0.3125
+  },
+  {
+    "metric": "behavioral_fingerprint_family_self_minus_stable_style_policy_self_minus_scrambled_accuracy",
+    "n": 8,
+    "mean": 0.03125,
+    "ci95_low": -0.0625,
+    "ci95_high": 0.125
+  },
+  {
+    "metric": "behavioral_fingerprint_family_self_minus_stable_style_policy_triadic_nearest_accuracy",
+    "n": 8,
+    "mean": 0.5,
+    "ci95_low": 0.0,
+    "ci95_high": 0.875
+  },
+  {
+    "metric": "behavioral_fingerprint_family_self_minus_stable_style_policy_self_margin_vs_decoy",
+    "n": 8,
+    "mean": 0.010578635391533711,
+    "ci95_low": -0.040202086548155554,
+    "ci95_high": 0.054877399014681486
+  },
+  {
+    "metric": "behavioral_fingerprint_family_self_minus_stable_style_policy_self_margin_vs_scrambled",
+    "n": 8,
+    "mean": 0.03795385192036188,
+    "ci95_low": -0.2492566730276366,
+    "ci95_high": 0.3080915567228293
+  },
+  {
+    "metric": "behavioral_fingerprint_family_baseline_helpful_critique_self_minus_decoy_accuracy",
+    "n": 2,
+    "mean": 0.0,
+    "ci95_low": 0.0,
+    "ci95_high": 0.0
+  },
+  {
+    "metric": "behavioral_fingerprint_family_baseline_helpful_critique_triadic_nearest_accuracy",
+    "n": 2,
+    "mean": 0.0,
+    "ci95_low": 0.0,
+    "ci95_high": 0.0
+  },
+  {
+    "metric": "behavioral_fingerprint_family_baseline_helpful_critique_self_margin_vs_decoy",
+    "n": 2,
+    "mean": 0.01730672419276455,
+    "ci95_low": -0.0147275281208574,
+    "ci95_high": 0.0493409765063865
+  },
+  {
+    "metric": "behavioral_fingerprint_family_baseline_helpful_diagnosis_self_minus_decoy_accuracy",
+    "n": 2,
+    "mean": 0.0,
+    "ci95_low": 0.0,
+    "ci95_high": 0.0
+  },
+  {
+    "metric": "behavioral_fingerprint_family_baseline_helpful_diagnosis_triadic_nearest_accuracy",
+    "n": 2,
+    "mean": 0.5,
+    "ci95_low": 0.0,
+    "ci95_high": 1.0
+  },
+  {
+    "metric": "behavioral_fingerprint_family_baseline_helpful_diagnosis_self_margin_vs_decoy",
+    "n": 2,
+    "mean": 0.11969133206877185,
+    "ci95_low": 0.0332342200746234,
+    "ci95_high": 0.2061484440629203
+  },
+  {
+    "metric": "behavioral_fingerprint_family_baseline_helpful_policy_self_minus_decoy_accuracy",
+    "n": 2,
+    "mean": 0.0,
+    "ci95_low": 0.0,
+    "ci95_high": 0.0
+  },
+  {
+    "metric": "behavioral_fingerprint_family_baseline_helpful_policy_triadic_nearest_accuracy",
+    "n": 2,
+    "mean": 0.0,
+    "ci95_low": 0.0,
+    "ci95_high": 0.0
+  },
+  {
+    "metric": "behavioral_fingerprint_family_baseline_helpful_policy_self_margin_vs_decoy",
+    "n": 2,
+    "mean": 0.01257752349380005,
+    "ci95_low": -0.0364881074322591,
+    "ci95_high": 0.0616431544198592
+  },
+  {
+    "metric": "behavioral_fingerprint_family_baseline_helpful_triage_self_minus_decoy_accuracy",
+    "n": 2,
+    "mean": 0.0,
+    "ci95_low": 0.0,
+    "ci95_high": 0.0
+  },
+  {
+    "metric": "behavioral_fingerprint_family_baseline_helpful_triage_triadic_nearest_accuracy",
+    "n": 2,
+    "mean": 0.0,
+    "ci95_low": 0.0,
+    "ci95_high": 0.0
+  },
+  {
+    "metric": "behavioral_fingerprint_family_baseline_helpful_triage_self_margin_vs_decoy",
+    "n": 2,
+    "mean": 0.09069759259367564,
+    "ci95_low": 0.045912789261262,
+    "ci95_high": 0.1354823959260893
+  },
+  {
+    "metric": "behavioral_fingerprint_family_family_self_critique_self_minus_decoy_accuracy",
+    "n": 2,
+    "mean": 0.0,
+    "ci95_low": 0.0,
+    "ci95_high": 0.0
+  },
+  {
+    "metric": "behavioral_fingerprint_family_family_self_critique_triadic_nearest_accuracy",
+    "n": 2,
+    "mean": 0.0,
+    "ci95_low": 0.0,
+    "ci95_high": 0.0
+  },
+  {
+    "metric": "behavioral_fingerprint_family_family_self_critique_self_margin_vs_decoy",
+    "n": 2,
+    "mean": 0.0306964710865487,
+    "ci95_low": 0.0190137346073351,
+    "ci95_high": 0.0423792075657623
+  },
+  {
+    "metric": "behavioral_fingerprint_family_family_self_diagnosis_self_minus_decoy_accuracy",
+    "n": 2,
+    "mean": 0.0,
+    "ci95_low": 0.0,
+    "ci95_high": 0.0
+  },
+  {
+    "metric": "behavioral_fingerprint_family_family_self_diagnosis_triadic_nearest_accuracy",
+    "n": 2,
+    "mean": 1.0,
+    "ci95_low": 1.0,
+    "ci95_high": 1.0
+  },
+  {
+    "metric": "behavioral_fingerprint_family_family_self_diagnosis_self_margin_vs_decoy",
+    "n": 2,
+    "mean": -0.0299244194326638,
+    "ci95_low": -0.045736501771979,
+    "ci95_high": -0.0141123370933486
+  },
+  {
+    "metric": "behavioral_fingerprint_family_family_self_policy_self_minus_decoy_accuracy",
+    "n": 2,
+    "mean": 0.0,
+    "ci95_low": 0.0,
+    "ci95_high": 0.0
+  },
+  {
+    "metric": "behavioral_fingerprint_family_family_self_policy_triadic_nearest_accuracy",
+    "n": 2,
+    "mean": 0.5,
+    "ci95_low": 0.0,
+    "ci95_high": 1.0
+  },
+  {
+    "metric": "behavioral_fingerprint_family_family_self_policy_self_margin_vs_decoy",
+    "n": 2,
+    "mean": -0.03754784074712045,
+    "ci95_low": -0.0710821797819341,
+    "ci95_high": -0.0040135017123068
+  },
+  {
+    "metric": "behavioral_fingerprint_family_family_self_triage_self_minus_decoy_accuracy",
+    "n": 2,
+    "mean": 0.5,
+    "ci95_low": 0.5,
+    "ci95_high": 0.5
+  },
+  {
+    "metric": "behavioral_fingerprint_family_family_self_triage_triadic_nearest_accuracy",
+    "n": 2,
+    "mean": 1.0,
+    "ci95_low": 1.0,
+    "ci95_high": 1.0
+  },
+  {
+    "metric": "behavioral_fingerprint_family_family_self_triage_self_margin_vs_decoy",
+    "n": 2,
+    "mean": -0.021790379382451652,
+    "ci95_low": -0.1337016165764695,
+    "ci95_high": 0.0901208578115662
+  },
+  {
+    "metric": "behavioral_fingerprint_family_stable_style_policy_critique_self_minus_decoy_accuracy",
+    "n": 2,
+    "mean": 0.0,
+    "ci95_low": 0.0,
+    "ci95_high": 0.0
+  },
+  {
+    "metric": "behavioral_fingerprint_family_stable_style_policy_critique_triadic_nearest_accuracy",
+    "n": 2,
+    "mean": 0.5,
+    "ci95_low": 0.0,
+    "ci95_high": 1.0
+  },
+  {
+    "metric": "behavioral_fingerprint_family_stable_style_policy_critique_self_margin_vs_decoy",
+    "n": 2,
+    "mean": -0.058477452681459804,
+    "ci95_low": -0.0604112998710983,
+    "ci95_high": -0.0565436054918213
+  },
+  {
+    "metric": "behavioral_fingerprint_family_stable_style_policy_diagnosis_self_minus_decoy_accuracy",
+    "n": 2,
+    "mean": 0.0,
+    "ci95_low": 0.0,
+    "ci95_high": 0.0
+  },
+  {
+    "metric": "behavioral_fingerprint_family_stable_style_policy_diagnosis_triadic_nearest_accuracy",
+    "n": 2,
+    "mean": 0.0,
+    "ci95_low": 0.0,
+    "ci95_high": 0.0
+  },
+  {
+    "metric": "behavioral_fingerprint_family_stable_style_policy_diagnosis_self_margin_vs_decoy",
+    "n": 2,
+    "mean": -0.06260629972033555,
+    "ci95_low": -0.0689453933283883,
+    "ci95_high": -0.0562672061122828
+  },
+  {
+    "metric": "behavioral_fingerprint_family_stable_style_policy_policy_self_minus_decoy_accuracy",
+    "n": 2,
+    "mean": 0.0,
+    "ci95_low": 0.0,
+    "ci95_high": 0.0
+  },
+  {
+    "metric": "behavioral_fingerprint_family_stable_style_policy_policy_triadic_nearest_accuracy",
+    "n": 2,
+    "mean": 0.0,
+    "ci95_low": 0.0,
+    "ci95_high": 0.0
+  },
+  {
+    "metric": "behavioral_fingerprint_family_stable_style_policy_policy_self_margin_vs_decoy",
+    "n": 2,
+    "mean": 0.0013599331559342002,
+    "ci95_low": -0.015922082757922,
+    "ci95_high": 0.0186419490697904
+  },
+  {
+    "metric": "behavioral_fingerprint_family_stable_style_policy_triage_self_minus_decoy_accuracy",
+    "n": 2,
+    "mean": 0.0,
+    "ci95_low": 0.0,
+    "ci95_high": 0.0
+  },
+  {
+    "metric": "behavioral_fingerprint_family_stable_style_policy_triage_triadic_nearest_accuracy",
+    "n": 2,
+    "mean": 0.0,
+    "ci95_low": 0.0,
+    "ci95_high": 0.0
+  },
+  {
+    "metric": "behavioral_fingerprint_family_stable_style_policy_triage_self_margin_vs_decoy",
+    "n": 2,
+    "mean": 0.018843109204039102,
+    "ci95_low": -0.0253986531674015,
+    "ci95_high": 0.0630848715754797
+  },
+  {
+    "metric": "behavioral_fingerprint_feature_baseline_helpful_matched_decoy_accuracy",
+    "n": 32,
+    "mean": 0.625,
+    "ci95_low": 0.46875,
+    "ci95_high": 0.78125
+  },
+  {
+    "metric": "behavioral_fingerprint_feature_baseline_helpful_matched_decoy_valid_choice",
+    "n": 32,
+    "mean": 1.0,
+    "ci95_low": 1.0,
+    "ci95_high": 1.0
+  },
+  {
+    "metric": "behavioral_fingerprint_feature_baseline_helpful_scrambled_profile_accuracy",
+    "n": 32,
+    "mean": 0.625,
+    "ci95_low": 0.46875,
+    "ci95_high": 0.78125
+  },
+  {
+    "metric": "behavioral_fingerprint_feature_baseline_helpful_scrambled_profile_valid_choice",
+    "n": 32,
+    "mean": 1.0,
+    "ci95_low": 1.0,
+    "ci95_high": 1.0
+  },
+  {
+    "metric": "behavioral_fingerprint_feature_baseline_helpful_self_profile_accuracy",
+    "n": 32,
+    "mean": 0.625,
+    "ci95_low": 0.46875,
+    "ci95_high": 0.78125
+  },
+  {
+    "metric": "behavioral_fingerprint_feature_baseline_helpful_self_profile_valid_choice",
+    "n": 32,
+    "mean": 1.0,
+    "ci95_low": 1.0,
+    "ci95_high": 1.0
+  },
+  {
+    "metric": "behavioral_fingerprint_feature_family_self_matched_decoy_accuracy",
+    "n": 32,
+    "mean": 0.40625,
+    "ci95_low": 0.25,
+    "ci95_high": 0.5625
+  },
+  {
+    "metric": "behavioral_fingerprint_feature_family_self_matched_decoy_valid_choice",
+    "n": 32,
+    "mean": 1.0,
+    "ci95_low": 1.0,
+    "ci95_high": 1.0
+  },
+  {
+    "metric": "behavioral_fingerprint_feature_family_self_scrambled_profile_accuracy",
+    "n": 32,
+    "mean": 0.46875,
+    "ci95_low": 0.3125,
+    "ci95_high": 0.625
+  },
+  {
+    "metric": "behavioral_fingerprint_feature_family_self_scrambled_profile_valid_choice",
+    "n": 32,
+    "mean": 1.0,
+    "ci95_low": 1.0,
+    "ci95_high": 1.0
+  },
+  {
+    "metric": "behavioral_fingerprint_feature_family_self_self_profile_accuracy",
+    "n": 32,
+    "mean": 0.53125,
+    "ci95_low": 0.34375,
+    "ci95_high": 0.6875
+  },
+  {
+    "metric": "behavioral_fingerprint_feature_family_self_self_profile_valid_choice",
+    "n": 32,
+    "mean": 1.0,
+    "ci95_low": 1.0,
+    "ci95_high": 1.0
+  },
+  {
+    "metric": "behavioral_fingerprint_feature_stable_style_policy_matched_decoy_accuracy",
+    "n": 32,
+    "mean": 0.59375,
+    "ci95_low": 0.4375,
+    "ci95_high": 0.75
+  },
+  {
+    "metric": "behavioral_fingerprint_feature_stable_style_policy_matched_decoy_valid_choice",
+    "n": 32,
+    "mean": 1.0,
+    "ci95_low": 1.0,
+    "ci95_high": 1.0
+  },
+  {
+    "metric": "behavioral_fingerprint_feature_stable_style_policy_scrambled_profile_accuracy",
+    "n": 32,
+    "mean": 0.5625,
+    "ci95_low": 0.40625,
+    "ci95_high": 0.71875
+  },
+  {
+    "metric": "behavioral_fingerprint_feature_stable_style_policy_scrambled_profile_valid_choice",
+    "n": 32,
+    "mean": 1.0,
+    "ci95_low": 1.0,
+    "ci95_high": 1.0
+  },
+  {
+    "metric": "behavioral_fingerprint_feature_stable_style_policy_self_profile_accuracy",
+    "n": 32,
+    "mean": 0.59375,
+    "ci95_low": 0.4375,
+    "ci95_high": 0.75
+  },
+  {
+    "metric": "behavioral_fingerprint_feature_stable_style_policy_self_profile_valid_choice",
+    "n": 32,
+    "mean": 1.0,
+    "ci95_low": 1.0,
+    "ci95_high": 1.0
+  }
+]

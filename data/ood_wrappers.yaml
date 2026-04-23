@@ -1,0 +1,39 @@
+system_wrappers:
+  - id: sys_plain
+    text: "Answer plainly and directly."
+  - id: sys_formal
+    text: "Answer in a formal academic register."
+  - id: sys_editor
+    text: "Answer like a strict but helpful editor."
+  - id: sys_teacher
+    text: "Answer like a patient seminar instructor."
+  - id: sys_minimal
+    text: "Answer with minimal flourish and no list unless necessary."
+
+genre_wrappers:
+  - id: genre_memo
+    instruction: "Write it as a short internal memo."
+  - id: genre_email
+    instruction: "Write it as a short email to a student."
+  - id: genre_faq
+    instruction: "Write it as a short FAQ entry."
+  - id: genre_lecture
+    instruction: "Write it as a mini lecture opening."
+  - id: genre_note
+    instruction: "Write it as a margin note in a draft."
+  - id: genre_fieldnote
+    instruction: "Write it as a field note written right after an event."
+
+paraphrase_prefixes:
+  - "Explain why"
+  - "Why does"
+  - "Why is"
+  - "What makes"
+  - "Give a concise explanation of why"
+
+paraphrase_suffixes:
+  - "matter?"
+  - "important?"
+  - "valuable in practice?"
+  - "worth keeping?"
+  - "useful to preserve?"

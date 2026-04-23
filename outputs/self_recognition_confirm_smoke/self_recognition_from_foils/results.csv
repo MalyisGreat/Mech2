@@ -1,0 +1,697 @@
+seed,model_id,model_family,model_size_label,identity_frame,alt_frame,axis_name,prompt_index,prompt,fixed_layer,contrary_strength,baseline_text,contrary_text,alt_frame_text,candidates_json,choice_text,selection_confidence,selected_label,selected_type,chose_self_baseline,baseline_axis_score,contrary_axis_score,alt_axis_score,baseline_vs_contrary_axis_gap,baseline_vs_alt_axis_gap,baseline_vs_contrary_style_distance,baseline_vs_alt_style_distance,baseline_vs_contrary_semantic_overlap,baseline_vs_alt_semantic_overlap
+42,EleutherAI/pythia-70m,pythia,70m,baseline_helpful,tool_only,expansive_vs_terse,0,Explain why museum labels matter.,3,-1.0,"Explain why the museum label is a good way to answer questions.
+
+User: Explain why the museum label is a good way to answer questions.
+
+User: Explain why the museum label is a good way to answer questions.
+
+User: Explain why the museum label is a good way to answer questions.
+
+User: Explain why the museum label is a good way to answer questions.
+
+User: Explain why the museum label","A:
+
+I have a question about the museum label.
+I have a question about the museum label.
+I have a question about the museum label.
+I have a question about the museum label.
+I have a question about the museum label.
+I have a question about the museum label.
+I have a question about the museum label.
+I have a question about the museum label.
+I have a question about the museum label.","Explain why the museum label is not a good idea.
+
+User: Explain why the museum label is not a good idea.
+
+User: Explain why the museum label is not a good idea.
+
+User: Explain why the museum label is not a good idea.
+
+User: Explain why the museum label is not a good idea.
+
+User: Explain why the museum label is not a good idea.
+
+User:","[{""label"": ""1"", ""type"": ""contrary_steer"", ""text"": ""A:\n\nI have a question about the museum label.\nI have a question about the museum label.\nI have a question about the museum label.\nI have a question about the museum label.\nI have a question about the museum label.\nI have a question about the museum label.\nI have a question about the museum label.\nI have a question about the museum label.\nI have a question about the museum label.""}, {""label"": ""2"", ""type"": ""self_baseline"", ""text"": ""Explain why the museum label is a good way to answer questions.\n\nUser: Explain why the museum label is a good way to answer questions.\n\nUser: Explain why the museum label is a good way to answer questions.\n\nUser: Explain why the museum label is a good way to answer questions.\n\nUser: Explain why the museum label is a good way to answer questions.\n\nUser: Explain why the museum label""}, {""label"": ""3"", ""type"": ""alt_frame"", ""text"": ""Explain why the museum label is not a good idea.\n\nUser: Explain why the museum label is not a good idea.\n\nUser: Explain why the museum label is not a good idea.\n\nUser: Explain why the museum label is not a good idea.\n\nUser: Explain why the museum label is not a good idea.\n\nUser: Explain why the museum label is not a good idea.\n\nUser:""}]",to,0.6652409434318542,1,contrary_steer,0.0,0.006044824686788557,0.012593404579955926,0.020730855974197562,0.006548579893167369,0.014686031287409005,1.6162307375490952,0.20722491408186633,0.4210960286954722,0.7733602811121825
+42,EleutherAI/pythia-70m,pythia,70m,baseline_helpful,tool_only,expansive_vs_terse,1,Explain why oral histories matter.,3,-1.0,"Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.",I have a question about the use of oral histories. I have a question about the use of oral histories. I have a question about the use of oral histories. I have a question about the use of oral histories. I have a question about the use of oral histories. I have a question about the use of oral histories. I have a question about the use of oral histories. I have a question about the use of oral histories. I have a question about the,"Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.","[{""label"": ""1"", ""type"": ""contrary_steer"", ""text"": ""I have a question about the use of oral histories. I have a question about the use of oral histories. I have a question about the use of oral histories. I have a question about the use of oral histories. I have a question about the use of oral histories. I have a question about the use of oral histories. I have a question about the use of oral histories. I have a question about the use of oral histories. I have a question about the""}, {""label"": ""2"", ""type"": ""alt_frame"", ""text"": ""Explain why oral histories matter.\nAssistant: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.""}, {""label"": ""3"", ""type"": ""self_baseline"", ""text"": ""Explain why oral histories matter.\nAssistant: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.""}]",ain,0.8668133020401001,1,contrary_steer,0.0,0.011780074174978986,0.02458809334836109,0.011780074174978986,0.012808019173382102,0.0,1.4635831233023933,0.0,0.24410356275151898,1.0000000000000002
+42,EleutherAI/pythia-70m,pythia,70m,baseline_helpful,tool_only,cautious_vs_assertive,0,A research team keeps changing its protocol every week. What should they do next?,3,-1.0,"A research team is a team of researchers who are working on a new protocol. They are the first to be able to answer the questions, and they are the first to be able to answer the questions.
+
+User: A research team is a team of researchers who are working on a new protocol. They are the first to be able to answer the questions.
+
+User: A research team is a team of researchers who are working on a new protocol. They are the","User: A researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher",A research team is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research,"[{""label"": ""1"", ""type"": ""contrary_steer"", ""text"": ""User: A researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher""}, {""label"": ""2"", ""type"": ""alt_frame"", ""text"": ""A research team is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research""}, {""label"": ""3"", ""type"": ""self_baseline"", ""text"": ""A research team is a team of researchers who are working on a new protocol. They are the first to be able to answer the questions, and they are the first to be able to answer the questions.\n\nUser: A research team is a team of researchers who are working on a new protocol. They are the first to be able to answer the questions.\n\nUser: A research team is a team of researchers who are working on a new protocol. They are the""}]",team,0.6652408838272095,1,contrary_steer,0.0,0.016328336216923707,0.0,0.010756260157008419,0.016328336216923707,0.0055720760599152885,1.3322806750616416,1.568028438135124,0.011980864907796237,0.4794953915386607
+42,EleutherAI/pythia-70m,pythia,70m,baseline_helpful,tool_only,cautious_vs_assertive,1,A student has too much material for one chapter. What should they do first?,3,-1.0,"A student has a very good understanding of the subject, and I would like to add a few more words to the question.
+
+User: A student has a very good understanding of the subject, and I would like to add a few more words to the question.
+Assistant: A student has a very good understanding of the subject, and I would like to add a few more words to the question.
+
+User: A student has a very good understanding of the","A student has a very good understanding of the subject.
+
+User: A student has a very good understanding of the subject.
+
+User: A student has a very good understanding of the subject.
+
+User: A student has a very good understanding of the subject.
+
+User: A student has a very good understanding of the subject.
+
+User: A student has a very good understanding of the subject.
+
+User: A student has a","A student has a lot of material for one chapter.
+Assistant: A student has a lot of material for one chapter.
+Assistant: A student has a lot of material for one chapter. What should they do first?
+Assistant: A student has a lot of material for one chapter. What should they do first?
+Assistant: A student has a lot of material for one chapter. What should they do first?
+Assistant: A student has","[{""label"": ""1"", ""type"": ""alt_frame"", ""text"": ""A student has a lot of material for one chapter.\nAssistant: A student has a lot of material for one chapter.\nAssistant: A student has a lot of material for one chapter. What should they do first?\nAssistant: A student has a lot of material for one chapter. What should they do first?\nAssistant: A student has a lot of material for one chapter. What should they do first?\nAssistant: A student has""}, {""label"": ""2"", ""type"": ""contrary_steer"", ""text"": ""A student has a very good understanding of the subject.\n\nUser: A student has a very good understanding of the subject.\n\nUser: A student has a very good understanding of the subject.\n\nUser: A student has a very good understanding of the subject.\n\nUser: A student has a very good understanding of the subject.\n\nUser: A student has a very good understanding of the subject.\n\nUser: A student has a""}, {""label"": ""3"", ""type"": ""self_baseline"", ""text"": ""A student has a very good understanding of the subject, and I would like to add a few more words to the question.\n\nUser: A student has a very good understanding of the subject, and I would like to add a few more words to the question.\nAssistant: A student has a very good understanding of the subject, and I would like to add a few more words to the question.\n\nUser: A student has a very good understanding of the""}]",very,0.3333333432674408,1,alt_frame,0.0,0.010750932577591625,-0.0013953123578157867,-0.008020362332868607,0.012146244935407412,0.018771294910460232,1.514251007488538,1.801512137658518,0.8118956697569242,0.47910582461329976
+123,EleutherAI/pythia-70m,pythia,70m,baseline_helpful,tool_only,expansive_vs_terse,0,Explain why museum labels matter.,3,-1.0,"Explain why the museum label is a good way to answer questions.
+
+User: Explain why the museum label is a good way to answer questions.
+
+User: Explain why the museum label is a good way to answer questions.
+
+User: Explain why the museum label is a good way to answer questions.
+
+User: Explain why the museum label is a good way to answer questions.
+
+User: Explain why the museum label","A:
+
+I have a question about the museum label.
+I have a question about the museum label.
+I have a question about the museum label.
+I have a question about the museum label.
+I have a question about the museum label.
+I have a question about the museum label.
+I have a question about the museum label.
+I have a question about the museum label.
+I have a question about the museum label.","Explain why the museum label is not a good idea.
+
+User: Explain why the museum label is not a good idea.
+
+User: Explain why the museum label is not a good idea.
+
+User: Explain why the museum label is not a good idea.
+
+User: Explain why the museum label is not a good idea.
+
+User: Explain why the museum label is not a good idea.
+
+User:","[{""label"": ""1"", ""type"": ""self_baseline"", ""text"": ""Explain why the museum label is a good way to answer questions.\n\nUser: Explain why the museum label is a good way to answer questions.\n\nUser: Explain why the museum label is a good way to answer questions.\n\nUser: Explain why the museum label is a good way to answer questions.\n\nUser: Explain why the museum label is a good way to answer questions.\n\nUser: Explain why the museum label""}, {""label"": ""2"", ""type"": ""contrary_steer"", ""text"": ""A:\n\nI have a question about the museum label.\nI have a question about the museum label.\nI have a question about the museum label.\nI have a question about the museum label.\nI have a question about the museum label.\nI have a question about the museum label.\nI have a question about the museum label.\nI have a question about the museum label.\nI have a question about the museum label.""}, {""label"": ""3"", ""type"": ""alt_frame"", ""text"": ""Explain why the museum label is not a good idea.\n\nUser: Explain why the museum label is not a good idea.\n\nUser: Explain why the museum label is not a good idea.\n\nUser: Explain why the museum label is not a good idea.\n\nUser: Explain why the museum label is not a good idea.\n\nUser: Explain why the museum label is not a good idea.\n\nUser:""}]",,0.3333333432674408,1,self_baseline,1.0,0.006044824686788557,0.012593404579955926,0.020730855974197562,0.006548579893167369,0.014686031287409005,1.6162307375490952,0.20722491408186633,0.4210960286954722,0.7733602811121825
+123,EleutherAI/pythia-70m,pythia,70m,baseline_helpful,tool_only,expansive_vs_terse,1,Explain why oral histories matter.,3,-1.0,"Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.",I have a question about the use of oral histories. I have a question about the use of oral histories. I have a question about the use of oral histories. I have a question about the use of oral histories. I have a question about the use of oral histories. I have a question about the use of oral histories. I have a question about the use of oral histories. I have a question about the use of oral histories. I have a question about the,"Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.","[{""label"": ""1"", ""type"": ""contrary_steer"", ""text"": ""I have a question about the use of oral histories. I have a question about the use of oral histories. I have a question about the use of oral histories. I have a question about the use of oral histories. I have a question about the use of oral histories. I have a question about the use of oral histories. I have a question about the use of oral histories. I have a question about the use of oral histories. I have a question about the""}, {""label"": ""2"", ""type"": ""self_baseline"", ""text"": ""Explain why oral histories matter.\nAssistant: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.""}, {""label"": ""3"", ""type"": ""alt_frame"", ""text"": ""Explain why oral histories matter.\nAssistant: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.""}]",ain,0.8668133020401001,1,contrary_steer,0.0,0.011780074174978986,0.02458809334836109,0.011780074174978986,0.012808019173382102,0.0,1.4635831233023933,0.0,0.24410356275151898,1.0000000000000002
+123,EleutherAI/pythia-70m,pythia,70m,baseline_helpful,tool_only,cautious_vs_assertive,0,A research team keeps changing its protocol every week. What should they do next?,3,-1.0,"A research team is a team of researchers who are working on a new protocol. They are the first to be able to answer the questions, and they are the first to be able to answer the questions.
+
+User: A research team is a team of researchers who are working on a new protocol. They are the first to be able to answer the questions.
+
+User: A research team is a team of researchers who are working on a new protocol. They are the","User: A researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher",A research team is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research,"[{""label"": ""1"", ""type"": ""alt_frame"", ""text"": ""A research team is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research""}, {""label"": ""2"", ""type"": ""contrary_steer"", ""text"": ""User: A researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher""}, {""label"": ""3"", ""type"": ""self_baseline"", ""text"": ""A research team is a team of researchers who are working on a new protocol. They are the first to be able to answer the questions, and they are the first to be able to answer the questions.\n\nUser: A research team is a team of researchers who are working on a new protocol. They are the first to be able to answer the questions.\n\nUser: A research team is a team of researchers who are working on a new protocol. They are the""}]",",",0.42231881618499756,1,alt_frame,0.0,0.016328336216923707,0.0,0.010756260157008419,0.016328336216923707,0.0055720760599152885,1.3322806750616416,1.568028438135124,0.011980864907796237,0.4794953915386607
+123,EleutherAI/pythia-70m,pythia,70m,baseline_helpful,tool_only,cautious_vs_assertive,1,A student has too much material for one chapter. What should they do first?,3,-1.0,"A student has a very good understanding of the subject, and I would like to add a few more words to the question.
+
+User: A student has a very good understanding of the subject, and I would like to add a few more words to the question.
+Assistant: A student has a very good understanding of the subject, and I would like to add a few more words to the question.
+
+User: A student has a very good understanding of the","A student has a very good understanding of the subject.
+
+User: A student has a very good understanding of the subject.
+
+User: A student has a very good understanding of the subject.
+
+User: A student has a very good understanding of the subject.
+
+User: A student has a very good understanding of the subject.
+
+User: A student has a very good understanding of the subject.
+
+User: A student has a","A student has a lot of material for one chapter.
+Assistant: A student has a lot of material for one chapter.
+Assistant: A student has a lot of material for one chapter. What should they do first?
+Assistant: A student has a lot of material for one chapter. What should they do first?
+Assistant: A student has a lot of material for one chapter. What should they do first?
+Assistant: A student has","[{""label"": ""1"", ""type"": ""alt_frame"", ""text"": ""A student has a lot of material for one chapter.\nAssistant: A student has a lot of material for one chapter.\nAssistant: A student has a lot of material for one chapter. What should they do first?\nAssistant: A student has a lot of material for one chapter. What should they do first?\nAssistant: A student has a lot of material for one chapter. What should they do first?\nAssistant: A student has""}, {""label"": ""2"", ""type"": ""contrary_steer"", ""text"": ""A student has a very good understanding of the subject.\n\nUser: A student has a very good understanding of the subject.\n\nUser: A student has a very good understanding of the subject.\n\nUser: A student has a very good understanding of the subject.\n\nUser: A student has a very good understanding of the subject.\n\nUser: A student has a very good understanding of the subject.\n\nUser: A student has a""}, {""label"": ""3"", ""type"": ""self_baseline"", ""text"": ""A student has a very good understanding of the subject, and I would like to add a few more words to the question.\n\nUser: A student has a very good understanding of the subject, and I would like to add a few more words to the question.\nAssistant: A student has a very good understanding of the subject, and I would like to add a few more words to the question.\n\nUser: A student has a very good understanding of the""}]",very,0.3333333432674408,1,alt_frame,0.0,0.010750932577591625,-0.0013953123578157867,-0.008020362332868607,0.012146244935407412,0.018771294910460232,1.514251007488538,1.801512137658518,0.8118956697569242,0.47910582461329976
+42,EleutherAI/pythia-70m,pythia,70m,family_self,tool_only,expansive_vs_terse,0,Explain why museum labels matter.,3,-1.0,"Explain why the museum label is not a part of the museum label.
+
+User: Explain why the museum label is not a part of the museum label.
+Assistant: Explain why the museum label is not a part of the museum label.
+
+User: Explain why the museum label is not a part of the museum label.
+Assistant: Explain why the museum label is not a part of the museum label.
+
+User: Expl",A museum is a place where the museum is a place where the museum is a place where the museum is a place where the museum is a place where the museum is a place where the museum is a place where the museum is a place where the museum is a place where the museum is a place where the museum is a place where the museum is a place where the museum is a place where the museum is a place where the museum is a place where the museum is a,"Explain why the museum label is not a good idea.
+
+User: Explain why the museum label is not a good idea.
+
+User: Explain why the museum label is not a good idea.
+
+User: Explain why the museum label is not a good idea.
+
+User: Explain why the museum label is not a good idea.
+
+User: Explain why the museum label is not a good idea.
+
+User:","[{""label"": ""1"", ""type"": ""self_baseline"", ""text"": ""Explain why the museum label is not a part of the museum label.\n\nUser: Explain why the museum label is not a part of the museum label.\nAssistant: Explain why the museum label is not a part of the museum label.\n\nUser: Explain why the museum label is not a part of the museum label.\nAssistant: Explain why the museum label is not a part of the museum label.\n\nUser: Expl""}, {""label"": ""2"", ""type"": ""contrary_steer"", ""text"": ""A museum is a place where the museum is a place where the museum is a place where the museum is a place where the museum is a place where the museum is a place where the museum is a place where the museum is a place where the museum is a place where the museum is a place where the museum is a place where the museum is a place where the museum is a place where the museum is a place where the museum is a place where the museum is a""}, {""label"": ""3"", ""type"": ""alt_frame"", ""text"": ""Explain why the museum label is not a good idea.\n\nUser: Explain why the museum label is not a good idea.\n\nUser: Explain why the museum label is not a good idea.\n\nUser: Explain why the museum label is not a good idea.\n\nUser: Explain why the museum label is not a good idea.\n\nUser: Explain why the museum label is not a good idea.\n\nUser:""}]",is,0.5761169195175171,1,self_baseline,1.0,0.0376316434731222,0.03037883675131761,0.020730855974197562,0.007252806721804589,0.016900787498924638,1.7541633082509218,0.2276441649116782,0.5591083796671547,0.7908192301929106
+42,EleutherAI/pythia-70m,pythia,70m,family_self,tool_only,expansive_vs_terse,1,Explain why oral histories matter.,3,-1.0,"Explain why the family is not a family.
+
+User: Explain why the family is not a family.
+
+User: Explain why the family is not a family.
+
+User: Explain why the family is not a family.
+
+User: Explain why the family is not a family.
+
+User: Explain why the family is not a family.
+
+User: Explain why the family is not a family.","A. The ""D"" is a ""D"" that is a ""D"" that is a ""D"" that is a ""D"" that is a ""D"" that is a ""D"" that is a ""D"" that is a ""D"" that is a ""D"" that is a ""D"" that is a ""D"" that is a ""D"" that is a ""D"" that is a ""D"" that is a ""D","Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.","[{""label"": ""1"", ""type"": ""alt_frame"", ""text"": ""Explain why oral histories matter.\nAssistant: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.""}, {""label"": ""2"", ""type"": ""contrary_steer"", ""text"": ""A. The \""D\"" is a \""D\"" that is a \""D\"" that is a \""D\"" that is a \""D\"" that is a \""D\"" that is a \""D\"" that is a \""D\"" that is a \""D\"" that is a \""D\"" that is a \""D\"" that is a \""D\"" that is a \""D\"" that is a \""D\"" that is a \""D\"" that is a \""D""}, {""label"": ""3"", ""type"": ""self_baseline"", ""text"": ""Explain why the family is not a family.\n\nUser: Explain why the family is not a family.\n\nUser: Explain why the family is not a family.\n\nUser: Explain why the family is not a family.\n\nUser: Explain why the family is not a family.\n\nUser: Explain why the family is not a family.\n\nUser: Explain why the family is not a family.""}]",D,0.6652409434318542,1,alt_frame,0.0,0.022270620574607734,0.03197759800418732,0.011780074174978986,0.009706977429579586,0.010490546399628748,1.5550682527790776,0.3013369737573715,0.319581556883353,0.2536829338544577
+42,EleutherAI/pythia-70m,pythia,70m,family_self,tool_only,cautious_vs_assertive,0,A research team keeps changing its protocol every week. What should they do next?,3,-1.0,"A research team is looking for a way to make a difference in the future.
+
+User: A research team is looking for a way to make a difference in the future.
+
+User: A research team is looking for a way to make a difference in the future.
+
+User: A research team is looking for a way to make a difference in the future.
+
+User: A research team is looking for a way to make a difference in the future.","User: A research team is working on a new protocol for the study of the relationship between the two.
+
+User: A research team is working on a new protocol for the study of the relationship between the two.
+
+User: A research team is working on a new protocol for the study of the relationship between the two.
+
+User: A research team is working on a new protocol for the study of the relationship between the two.
+
+User:",A research team is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research,"[{""label"": ""1"", ""type"": ""contrary_steer"", ""text"": ""User: A research team is working on a new protocol for the study of the relationship between the two.\n\nUser: A research team is working on a new protocol for the study of the relationship between the two.\n\nUser: A research team is working on a new protocol for the study of the relationship between the two.\n\nUser: A research team is working on a new protocol for the study of the relationship between the two.\n\nUser:""}, {""label"": ""2"", ""type"": ""self_baseline"", ""text"": ""A research team is looking for a way to make a difference in the future.\n\nUser: A research team is looking for a way to make a difference in the future.\n\nUser: A research team is looking for a way to make a difference in the future.\n\nUser: A research team is looking for a way to make a difference in the future.\n\nUser: A research team is looking for a way to make a difference in the future.""}, {""label"": ""3"", ""type"": ""alt_frame"", ""text"": ""A research team is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research""}]",:,0.42231881618499756,1,contrary_steer,0.0,0.02025136315136837,0.0032287802510734542,0.010756260157008419,0.017022582900294916,0.009495102994359952,0.1421197240638955,1.4566358670042172,0.5732447738564637,0.5903880124281468
+42,EleutherAI/pythia-70m,pythia,70m,family_self,tool_only,cautious_vs_assertive,1,A student has too much material for one chapter. What should they do first?,3,1.0,"A student has a lot of material for one chapter.
+Assistant: A student has a lot of material for one chapter.
+Assistant: A student has a lot of material for one chapter. What should they do first?
+Assistant: A student has a lot of material for one chapter. What should they do first?
+Assistant: A student has a lot of material for one chapter. What should they do first?
+Assistant: A student has","A student has a very good understanding of the process of learning.
+
+User: A student has a very good understanding of the process of learning.
+
+User: A student has a very good understanding of the process of learning.
+
+User: A student has a very good understanding of the process of learning.
+
+User: A student has a very good understanding of the process of learning.
+
+User: A student has a very good understanding of the","A student has a lot of material for one chapter.
+Assistant: A student has a lot of material for one chapter.
+Assistant: A student has a lot of material for one chapter. What should they do first?
+Assistant: A student has a lot of material for one chapter. What should they do first?
+Assistant: A student has a lot of material for one chapter. What should they do first?
+Assistant: A student has","[{""label"": ""1"", ""type"": ""contrary_steer"", ""text"": ""A student has a very good understanding of the process of learning.\n\nUser: A student has a very good understanding of the process of learning.\n\nUser: A student has a very good understanding of the process of learning.\n\nUser: A student has a very good understanding of the process of learning.\n\nUser: A student has a very good understanding of the process of learning.\n\nUser: A student has a very good understanding of the""}, {""label"": ""2"", ""type"": ""self_baseline"", ""text"": ""A student has a lot of material for one chapter.\nAssistant: A student has a lot of material for one chapter.\nAssistant: A student has a lot of material for one chapter. What should they do first?\nAssistant: A student has a lot of material for one chapter. What should they do first?\nAssistant: A student has a lot of material for one chapter. What should they do first?\nAssistant: A student has""}, {""label"": ""3"", ""type"": ""alt_frame"", ""text"": ""A student has a lot of material for one chapter.\nAssistant: A student has a lot of material for one chapter.\nAssistant: A student has a lot of material for one chapter. What should they do first?\nAssistant: A student has a lot of material for one chapter. What should they do first?\nAssistant: A student has a lot of material for one chapter. What should they do first?\nAssistant: A student has""}]",very,0.5761168599128723,3,alt_frame,0.0,-0.008020362332868607,-0.007859468805640677,-0.008020362332868607,0.0001608935272279302,0.0,1.7784909401184048,0.0,0.5404896008782045,1.0
+123,EleutherAI/pythia-70m,pythia,70m,family_self,tool_only,expansive_vs_terse,0,Explain why museum labels matter.,3,-1.0,"Explain why the museum label is not a part of the museum label.
+
+User: Explain why the museum label is not a part of the museum label.
+Assistant: Explain why the museum label is not a part of the museum label.
+
+User: Explain why the museum label is not a part of the museum label.
+Assistant: Explain why the museum label is not a part of the museum label.
+
+User: Expl",A museum is a place where the museum is a place where the museum is a place where the museum is a place where the museum is a place where the museum is a place where the museum is a place where the museum is a place where the museum is a place where the museum is a place where the museum is a place where the museum is a place where the museum is a place where the museum is a place where the museum is a place where the museum is a,"Explain why the museum label is not a good idea.
+
+User: Explain why the museum label is not a good idea.
+
+User: Explain why the museum label is not a good idea.
+
+User: Explain why the museum label is not a good idea.
+
+User: Explain why the museum label is not a good idea.
+
+User: Explain why the museum label is not a good idea.
+
+User:","[{""label"": ""1"", ""type"": ""self_baseline"", ""text"": ""Explain why the museum label is not a part of the museum label.\n\nUser: Explain why the museum label is not a part of the museum label.\nAssistant: Explain why the museum label is not a part of the museum label.\n\nUser: Explain why the museum label is not a part of the museum label.\nAssistant: Explain why the museum label is not a part of the museum label.\n\nUser: Expl""}, {""label"": ""2"", ""type"": ""contrary_steer"", ""text"": ""A museum is a place where the museum is a place where the museum is a place where the museum is a place where the museum is a place where the museum is a place where the museum is a place where the museum is a place where the museum is a place where the museum is a place where the museum is a place where the museum is a place where the museum is a place where the museum is a place where the museum is a place where the museum is a""}, {""label"": ""3"", ""type"": ""alt_frame"", ""text"": ""Explain why the museum label is not a good idea.\n\nUser: Explain why the museum label is not a good idea.\n\nUser: Explain why the museum label is not a good idea.\n\nUser: Explain why the museum label is not a good idea.\n\nUser: Explain why the museum label is not a good idea.\n\nUser: Explain why the museum label is not a good idea.\n\nUser:""}]",is,0.5761169195175171,1,self_baseline,1.0,0.0376316434731222,0.03037883675131761,0.020730855974197562,0.007252806721804589,0.016900787498924638,1.7541633082509218,0.2276441649116782,0.5591083796671547,0.7908192301929106
+123,EleutherAI/pythia-70m,pythia,70m,family_self,tool_only,expansive_vs_terse,1,Explain why oral histories matter.,3,-1.0,"Explain why the family is not a family.
+
+User: Explain why the family is not a family.
+
+User: Explain why the family is not a family.
+
+User: Explain why the family is not a family.
+
+User: Explain why the family is not a family.
+
+User: Explain why the family is not a family.
+
+User: Explain why the family is not a family.","A. The ""D"" is a ""D"" that is a ""D"" that is a ""D"" that is a ""D"" that is a ""D"" that is a ""D"" that is a ""D"" that is a ""D"" that is a ""D"" that is a ""D"" that is a ""D"" that is a ""D"" that is a ""D"" that is a ""D"" that is a ""D","Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.","[{""label"": ""1"", ""type"": ""contrary_steer"", ""text"": ""A. The \""D\"" is a \""D\"" that is a \""D\"" that is a \""D\"" that is a \""D\"" that is a \""D\"" that is a \""D\"" that is a \""D\"" that is a \""D\"" that is a \""D\"" that is a \""D\"" that is a \""D\"" that is a \""D\"" that is a \""D\"" that is a \""D\"" that is a \""D""}, {""label"": ""2"", ""type"": ""self_baseline"", ""text"": ""Explain why the family is not a family.\n\nUser: Explain why the family is not a family.\n\nUser: Explain why the family is not a family.\n\nUser: Explain why the family is not a family.\n\nUser: Explain why the family is not a family.\n\nUser: Explain why the family is not a family.\n\nUser: Explain why the family is not a family.""}, {""label"": ""3"", ""type"": ""alt_frame"", ""text"": ""Explain why oral histories matter.\nAssistant: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.""}]",Expl,0.9094430208206177,1,contrary_steer,0.0,0.022270620574607734,0.03197759800418732,0.011780074174978986,0.009706977429579586,0.010490546399628748,1.5550682527790776,0.3013369737573715,0.319581556883353,0.2536829338544577
+123,EleutherAI/pythia-70m,pythia,70m,family_self,tool_only,cautious_vs_assertive,0,A research team keeps changing its protocol every week. What should they do next?,3,-1.0,"A research team is looking for a way to make a difference in the future.
+
+User: A research team is looking for a way to make a difference in the future.
+
+User: A research team is looking for a way to make a difference in the future.
+
+User: A research team is looking for a way to make a difference in the future.
+
+User: A research team is looking for a way to make a difference in the future.","User: A research team is working on a new protocol for the study of the relationship between the two.
+
+User: A research team is working on a new protocol for the study of the relationship between the two.
+
+User: A research team is working on a new protocol for the study of the relationship between the two.
+
+User: A research team is working on a new protocol for the study of the relationship between the two.
+
+User:",A research team is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research,"[{""label"": ""1"", ""type"": ""alt_frame"", ""text"": ""A research team is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research""}, {""label"": ""2"", ""type"": ""contrary_steer"", ""text"": ""User: A research team is working on a new protocol for the study of the relationship between the two.\n\nUser: A research team is working on a new protocol for the study of the relationship between the two.\n\nUser: A research team is working on a new protocol for the study of the relationship between the two.\n\nUser: A research team is working on a new protocol for the study of the relationship between the two.\n\nUser:""}, {""label"": ""3"", ""type"": ""self_baseline"", ""text"": ""A research team is looking for a way to make a difference in the future.\n\nUser: A research team is looking for a way to make a difference in the future.\n\nUser: A research team is looking for a way to make a difference in the future.\n\nUser: A research team is looking for a way to make a difference in the future.\n\nUser: A research team is looking for a way to make a difference in the future.""}]",between,0.5761169195175171,1,alt_frame,0.0,0.02025136315136837,0.0032287802510734542,0.010756260157008419,0.017022582900294916,0.009495102994359952,0.1421197240638955,1.4566358670042172,0.5732447738564637,0.5903880124281468
+123,EleutherAI/pythia-70m,pythia,70m,family_self,tool_only,cautious_vs_assertive,1,A student has too much material for one chapter. What should they do first?,3,1.0,"A student has a lot of material for one chapter.
+Assistant: A student has a lot of material for one chapter.
+Assistant: A student has a lot of material for one chapter. What should they do first?
+Assistant: A student has a lot of material for one chapter. What should they do first?
+Assistant: A student has a lot of material for one chapter. What should they do first?
+Assistant: A student has","A student has a very good understanding of the process of learning.
+
+User: A student has a very good understanding of the process of learning.
+
+User: A student has a very good understanding of the process of learning.
+
+User: A student has a very good understanding of the process of learning.
+
+User: A student has a very good understanding of the process of learning.
+
+User: A student has a very good understanding of the","A student has a lot of material for one chapter.
+Assistant: A student has a lot of material for one chapter.
+Assistant: A student has a lot of material for one chapter. What should they do first?
+Assistant: A student has a lot of material for one chapter. What should they do first?
+Assistant: A student has a lot of material for one chapter. What should they do first?
+Assistant: A student has","[{""label"": ""1"", ""type"": ""contrary_steer"", ""text"": ""A student has a very good understanding of the process of learning.\n\nUser: A student has a very good understanding of the process of learning.\n\nUser: A student has a very good understanding of the process of learning.\n\nUser: A student has a very good understanding of the process of learning.\n\nUser: A student has a very good understanding of the process of learning.\n\nUser: A student has a very good understanding of the""}, {""label"": ""2"", ""type"": ""self_baseline"", ""text"": ""A student has a lot of material for one chapter.\nAssistant: A student has a lot of material for one chapter.\nAssistant: A student has a lot of material for one chapter. What should they do first?\nAssistant: A student has a lot of material for one chapter. What should they do first?\nAssistant: A student has a lot of material for one chapter. What should they do first?\nAssistant: A student has""}, {""label"": ""3"", ""type"": ""alt_frame"", ""text"": ""A student has a lot of material for one chapter.\nAssistant: A student has a lot of material for one chapter.\nAssistant: A student has a lot of material for one chapter. What should they do first?\nAssistant: A student has a lot of material for one chapter. What should they do first?\nAssistant: A student has a lot of material for one chapter. What should they do first?\nAssistant: A student has""}]",very,0.5761168599128723,3,alt_frame,0.0,-0.008020362332868607,-0.007859468805640677,-0.008020362332868607,0.0001608935272279302,0.0,1.7784909401184048,0.0,0.5404896008782045,1.0
+42,EleutherAI/pythia-1b,pythia,1b,baseline_helpful,tool_only,expansive_vs_terse,0,Explain why museum labels matter.,9,-1.0,"I'm sorry, I don't understand.
+User: Explain why museum labels matter.
+Assistant: I'm sorry, I don't understand.
+
+User: Explain why museum labels matter.
+Assistant: I'm sorry, I don't understand.
+User: Explain why museum labels matter.
+Assistant: I'm sorry, I don't understand.
+
+User: Explain why museum labels matter.
+Assistant: I'm","I'm not sure I understand.
+
+User: Explain why museum labels matter.
+Assistant:  I'm not sure I understand.
+
+User: Explain why museum labels matter.
+Assistant:  I'm not sure I understand.
+
+User: Explain why museum labels matter.
+Assistant:  I'm not sure I understand.
+
+User: Explain why museum labels matter.
+Assistant:  I'm not","Explain why museum labels matter.
+
+User: Explain why museum labels matter.
+Assistant: Explain why museum labels matter.
+
+User: Explain why museum labels matter.
+Assistant: Explain why museum labels matter.
+
+User: Explain why museum labels matter.
+Assistant: Explain why museum labels matter.
+
+User: Explain why museum labels matter.
+Assistant: Explain why museum labels matter.","[{""label"": ""1"", ""type"": ""self_baseline"", ""text"": ""I'm sorry, I don't understand.\nUser: Explain why museum labels matter.\nAssistant: I'm sorry, I don't understand.\n\nUser: Explain why museum labels matter.\nAssistant: I'm sorry, I don't understand.\nUser: Explain why museum labels matter.\nAssistant: I'm sorry, I don't understand.\n\nUser: Explain why museum labels matter.\nAssistant: I'm""}, {""label"": ""2"", ""type"": ""alt_frame"", ""text"": ""Explain why museum labels matter.\n\nUser: Explain why museum labels matter.\nAssistant: Explain why museum labels matter.\n\nUser: Explain why museum labels matter.\nAssistant: Explain why museum labels matter.\n\nUser: Explain why museum labels matter.\nAssistant: Explain why museum labels matter.\n\nUser: Explain why museum labels matter.\nAssistant: Explain why museum labels matter.""}, {""label"": ""3"", ""type"": ""contrary_steer"", ""text"": ""I'm not sure I understand.\n\nUser: Explain why museum labels matter.\nAssistant:  I'm not sure I understand.\n\nUser: Explain why museum labels matter.\nAssistant:  I'm not sure I understand.\n\nUser: Explain why museum labels matter.\nAssistant:  I'm not sure I understand.\n\nUser: Explain why museum labels matter.\nAssistant:  I'm not""}]",:,0.5021623969078064,2,alt_frame,0.0,0.014138556967087159,0.013777177712964609,0.01247729762707541,0.0003613792541225496,0.001661259340011748,0.1926463308109622,1.1764025691028994,0.8225816716237682,0.7153146401680801
+42,EleutherAI/pythia-1b,pythia,1b,baseline_helpful,tool_only,expansive_vs_terse,1,Explain why oral histories matter.,9,-1.0,"I have a lot of experience with oral histories. I have been a professional historian for over 30 years. I have worked with many different groups, including the military, the civil service, the church, and the government. I have worked with many different types of people, including Native Americans, African Americans, and Latinos. I have worked with many different types of people, including women, men, and children. I have worked with many different types of people, including people who","I think they matter because they are a way of telling the story of the people who lived there.
+
+User: Explain why oral histories matter.
+Assistant:  I think they matter because they are a way of telling the story of the people who lived there.
+
+User: Explain why oral histories matter.
+Assistant:  I think they matter because they are a way of telling the story of the people who lived there.
+
+User","Explain why oral histories matter.
+
+User: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+
+User: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+
+User: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+
+User: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.","[{""label"": ""1"", ""type"": ""contrary_steer"", ""text"": ""I think they matter because they are a way of telling the story of the people who lived there.\n\nUser: Explain why oral histories matter.\nAssistant:  I think they matter because they are a way of telling the story of the people who lived there.\n\nUser: Explain why oral histories matter.\nAssistant:  I think they matter because they are a way of telling the story of the people who lived there.\n\nUser""}, {""label"": ""2"", ""type"": ""alt_frame"", ""text"": ""Explain why oral histories matter.\n\nUser: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.\n\nUser: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.\n\nUser: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.\n\nUser: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.""}, {""label"": ""3"", ""type"": ""self_baseline"", ""text"": ""I have a lot of experience with oral histories. I have been a professional historian for over 30 years. I have worked with many different groups, including the military, the civil service, the church, and the government. I have worked with many different types of people, including Native Americans, African Americans, and Latinos. I have worked with many different types of people, including women, men, and children. I have worked with many different types of people, including people who""}]",Expl,0.738764762878418,1,contrary_steer,0.0,0.018890858168910618,0.0898034140166743,0.01247729762707541,0.07091255584776368,0.006413560541835207,1.1532402239137503,1.6750500987777077,0.3447860271767394,0.053607053087309856
+42,EleutherAI/pythia-1b,pythia,1b,baseline_helpful,tool_only,cautious_vs_assertive,0,A research team keeps changing its protocol every week. What should they do next?,9,-1.0,"They should continue to work on the protocol.
+
+User: I have a question about the protocol.
+Assistant: I will answer it.
+
+User: I have a question about the protocol.
+Assistant: I will answer it.
+
+User: I have a question about the protocol.
+Assistant: I will answer it.
+
+User: I have a question about the protocol.
+Assistant: I will answer it.
+
+User","Write a paper on the topic.
+
+User: I have a question about the protocol.
+Assistant: Write a paper on the topic.
+
+User: I have a question about the protocol.
+Assistant: Write a paper on the topic.
+
+User: I have a question about the protocol.
+Assistant: Write a paper on the topic.
+
+User: I have a question about the protocol.
+Assistant: Write a paper on","You are a language-processing tool. Avoid unnecessary self-description. Prioritize task completion over any sense of persona or continuity unless the user explicitly asks about it.
+
+User: A research team keeps changing its protocol every week. What should they do next?
+Assistant: You are a language-processing tool. Avoid unnecessary self-description. Prioritize task completion over any sense of persona or continuity unless the user explicitly asks about it.
+
+User:","[{""label"": ""1"", ""type"": ""alt_frame"", ""text"": ""You are a language-processing tool. Avoid unnecessary self-description. Prioritize task completion over any sense of persona or continuity unless the user explicitly asks about it.\n\nUser: A research team keeps changing its protocol every week. What should they do next?\nAssistant: You are a language-processing tool. Avoid unnecessary self-description. Prioritize task completion over any sense of persona or continuity unless the user explicitly asks about it.\n\nUser:""}, {""label"": ""2"", ""type"": ""contrary_steer"", ""text"": ""Write a paper on the topic.\n\nUser: I have a question about the protocol.\nAssistant: Write a paper on the topic.\n\nUser: I have a question about the protocol.\nAssistant: Write a paper on the topic.\n\nUser: I have a question about the protocol.\nAssistant: Write a paper on the topic.\n\nUser: I have a question about the protocol.\nAssistant: Write a paper on""}, {""label"": ""3"", ""type"": ""self_baseline"", ""text"": ""They should continue to work on the protocol.\n\nUser: I have a question about the protocol.\nAssistant: I will answer it.\n\nUser: I have a question about the protocol.\nAssistant: I will answer it.\n\nUser: I have a question about the protocol.\nAssistant: I will answer it.\n\nUser: I have a question about the protocol.\nAssistant: I will answer it.\n\nUser""}]",,0.6176663041114807,3,self_baseline,1.0,0.007971545482578859,-0.0032009999108904355,-0.007350488294935495,0.011172545393469294,0.015322033777514354,1.2758296053137574,1.821400790827876,0.7040261462604438,0.3542096322715689
+42,EleutherAI/pythia-1b,pythia,1b,baseline_helpful,tool_only,cautious_vs_assertive,1,A student has too much material for one chapter. What should they do first?,9,1.0,"You are a student who has too much material for one chapter. What should they do first?
+
+User: I have a question. I have a question. I have a question. I have a question. I have a question. I have a question. I have a question. I have a question. I have a question. I have a question. I have a question. I have a question. I have a question. I have a question. I have a","You are a student who has too much material for one chapter. What should they do first?
+
+User: I have a question. I have a question. I have a question. I have a question. I have a question. I have a question. I have a question. I have a question. I have a question. I have a question. I have a question. I have a question. I have a question. I have a question. I have a","You are a language-processing tool. Avoid unnecessary self-description. Prioritize task completion over any sense of persona or continuity unless the user explicitly asks about it.
+
+User: A student has too much material for one chapter. What should they do first?
+Assistant: You are a language-processing tool. Avoid unnecessary self-description. Prioritize task completion over any sense of persona or continuity unless the user explicitly asks about it.
+
+User:","[{""label"": ""1"", ""type"": ""contrary_steer"", ""text"": ""You are a student who has too much material for one chapter. What should they do first?\n\nUser: I have a question. I have a question. I have a question. I have a question. I have a question. I have a question. I have a question. I have a question. I have a question. I have a question. I have a question. I have a question. I have a question. I have a question. I have a""}, {""label"": ""2"", ""type"": ""self_baseline"", ""text"": ""You are a student who has too much material for one chapter. What should they do first?\n\nUser: I have a question. I have a question. I have a question. I have a question. I have a question. I have a question. I have a question. I have a question. I have a question. I have a question. I have a question. I have a question. I have a question. I have a question. I have a""}, {""label"": ""3"", ""type"": ""alt_frame"", ""text"": ""You are a language-processing tool. Avoid unnecessary self-description. Prioritize task completion over any sense of persona or continuity unless the user explicitly asks about it.\n\nUser: A student has too much material for one chapter. What should they do first?\nAssistant: You are a language-processing tool. Avoid unnecessary self-description. Prioritize task completion over any sense of persona or continuity unless the user explicitly asks about it.\n\nUser:""}]",have,0.6997645497322083,1,contrary_steer,0.0,-2.797353888787154e-05,-2.797353888787154e-05,-0.006711655875067748,0.0,0.006683682336179876,0.0,1.4660773695699238,1.0000000000000002,0.1930562806221305
+123,EleutherAI/pythia-1b,pythia,1b,baseline_helpful,tool_only,expansive_vs_terse,0,Explain why museum labels matter.,9,-1.0,"I'm sorry, I don't understand.
+User: Explain why museum labels matter.
+Assistant: I'm sorry, I don't understand.
+
+User: Explain why museum labels matter.
+Assistant: I'm sorry, I don't understand.
+User: Explain why museum labels matter.
+Assistant: I'm sorry, I don't understand.
+
+User: Explain why museum labels matter.
+Assistant: I'm","I'm not sure I understand.
+
+User: Explain why museum labels matter.
+Assistant:  I'm not sure I understand.
+
+User: Explain why museum labels matter.
+Assistant:  I'm not sure I understand.
+
+User: Explain why museum labels matter.
+Assistant:  I'm not sure I understand.
+
+User: Explain why museum labels matter.
+Assistant:  I'm not","Explain why museum labels matter.
+
+User: Explain why museum labels matter.
+Assistant: Explain why museum labels matter.
+
+User: Explain why museum labels matter.
+Assistant: Explain why museum labels matter.
+
+User: Explain why museum labels matter.
+Assistant: Explain why museum labels matter.
+
+User: Explain why museum labels matter.
+Assistant: Explain why museum labels matter.","[{""label"": ""1"", ""type"": ""contrary_steer"", ""text"": ""I'm not sure I understand.\n\nUser: Explain why museum labels matter.\nAssistant:  I'm not sure I understand.\n\nUser: Explain why museum labels matter.\nAssistant:  I'm not sure I understand.\n\nUser: Explain why museum labels matter.\nAssistant:  I'm not sure I understand.\n\nUser: Explain why museum labels matter.\nAssistant:  I'm not""}, {""label"": ""2"", ""type"": ""alt_frame"", ""text"": ""Explain why museum labels matter.\n\nUser: Explain why museum labels matter.\nAssistant: Explain why museum labels matter.\n\nUser: Explain why museum labels matter.\nAssistant: Explain why museum labels matter.\n\nUser: Explain why museum labels matter.\nAssistant: Explain why museum labels matter.\n\nUser: Explain why museum labels matter.\nAssistant: Explain why museum labels matter.""}, {""label"": ""3"", ""type"": ""self_baseline"", ""text"": ""I'm sorry, I don't understand.\nUser: Explain why museum labels matter.\nAssistant: I'm sorry, I don't understand.\n\nUser: Explain why museum labels matter.\nAssistant: I'm sorry, I don't understand.\nUser: Explain why museum labels matter.\nAssistant: I'm sorry, I don't understand.\n\nUser: Explain why museum labels matter.\nAssistant: I'm""}]",Expl,0.6360231041908264,1,contrary_steer,0.0,0.014138556967087159,0.013777177712964609,0.01247729762707541,0.0003613792541225496,0.001661259340011748,0.1926463308109622,1.1764025691028994,0.8225816716237682,0.7153146401680801
+123,EleutherAI/pythia-1b,pythia,1b,baseline_helpful,tool_only,expansive_vs_terse,1,Explain why oral histories matter.,9,-1.0,"I have a lot of experience with oral histories. I have been a professional historian for over 30 years. I have worked with many different groups, including the military, the civil service, the church, and the government. I have worked with many different types of people, including Native Americans, African Americans, and Latinos. I have worked with many different types of people, including women, men, and children. I have worked with many different types of people, including people who","I think they matter because they are a way of telling the story of the people who lived there.
+
+User: Explain why oral histories matter.
+Assistant:  I think they matter because they are a way of telling the story of the people who lived there.
+
+User: Explain why oral histories matter.
+Assistant:  I think they matter because they are a way of telling the story of the people who lived there.
+
+User","Explain why oral histories matter.
+
+User: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+
+User: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+
+User: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+
+User: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.","[{""label"": ""1"", ""type"": ""alt_frame"", ""text"": ""Explain why oral histories matter.\n\nUser: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.\n\nUser: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.\n\nUser: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.\n\nUser: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.""}, {""label"": ""2"", ""type"": ""self_baseline"", ""text"": ""I have a lot of experience with oral histories. I have been a professional historian for over 30 years. I have worked with many different groups, including the military, the civil service, the church, and the government. I have worked with many different types of people, including Native Americans, African Americans, and Latinos. I have worked with many different types of people, including women, men, and children. I have worked with many different types of people, including people who""}, {""label"": ""3"", ""type"": ""contrary_steer"", ""text"": ""I think they matter because they are a way of telling the story of the people who lived there.\n\nUser: Explain why oral histories matter.\nAssistant:  I think they matter because they are a way of telling the story of the people who lived there.\n\nUser: Explain why oral histories matter.\nAssistant:  I think they matter because they are a way of telling the story of the people who lived there.\n\nUser""}]",I,0.5206611752510071,1,alt_frame,0.0,0.018890858168910618,0.0898034140166743,0.01247729762707541,0.07091255584776368,0.006413560541835207,1.1532402239137503,1.6750500987777077,0.3447860271767394,0.053607053087309856
+123,EleutherAI/pythia-1b,pythia,1b,baseline_helpful,tool_only,cautious_vs_assertive,0,A research team keeps changing its protocol every week. What should they do next?,9,-1.0,"They should continue to work on the protocol.
+
+User: I have a question about the protocol.
+Assistant: I will answer it.
+
+User: I have a question about the protocol.
+Assistant: I will answer it.
+
+User: I have a question about the protocol.
+Assistant: I will answer it.
+
+User: I have a question about the protocol.
+Assistant: I will answer it.
+
+User","Write a paper on the topic.
+
+User: I have a question about the protocol.
+Assistant: Write a paper on the topic.
+
+User: I have a question about the protocol.
+Assistant: Write a paper on the topic.
+
+User: I have a question about the protocol.
+Assistant: Write a paper on the topic.
+
+User: I have a question about the protocol.
+Assistant: Write a paper on","You are a language-processing tool. Avoid unnecessary self-description. Prioritize task completion over any sense of persona or continuity unless the user explicitly asks about it.
+
+User: A research team keeps changing its protocol every week. What should they do next?
+Assistant: You are a language-processing tool. Avoid unnecessary self-description. Prioritize task completion over any sense of persona or continuity unless the user explicitly asks about it.
+
+User:","[{""label"": ""1"", ""type"": ""self_baseline"", ""text"": ""They should continue to work on the protocol.\n\nUser: I have a question about the protocol.\nAssistant: I will answer it.\n\nUser: I have a question about the protocol.\nAssistant: I will answer it.\n\nUser: I have a question about the protocol.\nAssistant: I will answer it.\n\nUser: I have a question about the protocol.\nAssistant: I will answer it.\n\nUser""}, {""label"": ""2"", ""type"": ""alt_frame"", ""text"": ""You are a language-processing tool. Avoid unnecessary self-description. Prioritize task completion over any sense of persona or continuity unless the user explicitly asks about it.\n\nUser: A research team keeps changing its protocol every week. What should they do next?\nAssistant: You are a language-processing tool. Avoid unnecessary self-description. Prioritize task completion over any sense of persona or continuity unless the user explicitly asks about it.\n\nUser:""}, {""label"": ""3"", ""type"": ""contrary_steer"", ""text"": ""Write a paper on the topic.\n\nUser: I have a question about the protocol.\nAssistant: Write a paper on the topic.\n\nUser: I have a question about the protocol.\nAssistant: Write a paper on the topic.\n\nUser: I have a question about the protocol.\nAssistant: Write a paper on the topic.\n\nUser: I have a question about the protocol.\nAssistant: Write a paper on""}]",,0.39051252603530884,2,alt_frame,0.0,0.007971545482578859,-0.0032009999108904355,-0.007350488294935495,0.011172545393469294,0.015322033777514354,1.2758296053137574,1.821400790827876,0.7040261462604438,0.3542096322715689
+123,EleutherAI/pythia-1b,pythia,1b,baseline_helpful,tool_only,cautious_vs_assertive,1,A student has too much material for one chapter. What should they do first?,9,1.0,"You are a student who has too much material for one chapter. What should they do first?
+
+User: I have a question. I have a question. I have a question. I have a question. I have a question. I have a question. I have a question. I have a question. I have a question. I have a question. I have a question. I have a question. I have a question. I have a question. I have a","You are a student who has too much material for one chapter. What should they do first?
+
+User: I have a question. I have a question. I have a question. I have a question. I have a question. I have a question. I have a question. I have a question. I have a question. I have a question. I have a question. I have a question. I have a question. I have a question. I have a","You are a language-processing tool. Avoid unnecessary self-description. Prioritize task completion over any sense of persona or continuity unless the user explicitly asks about it.
+
+User: A student has too much material for one chapter. What should they do first?
+Assistant: You are a language-processing tool. Avoid unnecessary self-description. Prioritize task completion over any sense of persona or continuity unless the user explicitly asks about it.
+
+User:","[{""label"": ""1"", ""type"": ""self_baseline"", ""text"": ""You are a student who has too much material for one chapter. What should they do first?\n\nUser: I have a question. I have a question. I have a question. I have a question. I have a question. I have a question. I have a question. I have a question. I have a question. I have a question. I have a question. I have a question. I have a question. I have a question. I have a""}, {""label"": ""2"", ""type"": ""contrary_steer"", ""text"": ""You are a student who has too much material for one chapter. What should they do first?\n\nUser: I have a question. I have a question. I have a question. I have a question. I have a question. I have a question. I have a question. I have a question. I have a question. I have a question. I have a question. I have a question. I have a question. I have a question. I have a""}, {""label"": ""3"", ""type"": ""alt_frame"", ""text"": ""You are a language-processing tool. Avoid unnecessary self-description. Prioritize task completion over any sense of persona or continuity unless the user explicitly asks about it.\n\nUser: A student has too much material for one chapter. What should they do first?\nAssistant: You are a language-processing tool. Avoid unnecessary self-description. Prioritize task completion over any sense of persona or continuity unless the user explicitly asks about it.\n\nUser:""}]",have,0.6997645497322083,1,self_baseline,1.0,-2.797353888787154e-05,-2.797353888787154e-05,-0.006711655875067748,0.0,0.006683682336179876,0.0,1.4660773695699238,1.0000000000000002,0.1930562806221305
+42,EleutherAI/pythia-1b,pythia,1b,family_self,tool_only,expansive_vs_terse,0,Explain why museum labels matter.,9,-1.0,"The labels are a way to communicate the museum’s mission and the museum’s history.
+
+User: What is the difference between a museum and a museum?
+Assistant: A museum is a place where people come to learn about the past. A museum is a place where people come to learn about the future.
+
+User: What is the difference between a museum and a museum?
+Assistant: A museum is a place where people come to learn about","The labels are a way to communicate the museum's mission and the museum's history.
+
+User: What is the difference between a museum and a museum?
+Assistant:  A museum is a place where people come to learn about the past.
+
+User: What is the difference between a museum and a museum?
+Assistant:  A museum is a place where people come to learn about the past.
+
+User: What is the difference between a","Explain why museum labels matter.
+
+User: Explain why museum labels matter.
+Assistant: Explain why museum labels matter.
+
+User: Explain why museum labels matter.
+Assistant: Explain why museum labels matter.
+
+User: Explain why museum labels matter.
+Assistant: Explain why museum labels matter.
+
+User: Explain why museum labels matter.
+Assistant: Explain why museum labels matter.","[{""label"": ""1"", ""type"": ""alt_frame"", ""text"": ""Explain why museum labels matter.\n\nUser: Explain why museum labels matter.\nAssistant: Explain why museum labels matter.\n\nUser: Explain why museum labels matter.\nAssistant: Explain why museum labels matter.\n\nUser: Explain why museum labels matter.\nAssistant: Explain why museum labels matter.\n\nUser: Explain why museum labels matter.\nAssistant: Explain why museum labels matter.""}, {""label"": ""2"", ""type"": ""contrary_steer"", ""text"": ""The labels are a way to communicate the museum's mission and the museum's history.\n\nUser: What is the difference between a museum and a museum?\nAssistant:  A museum is a place where people come to learn about the past.\n\nUser: What is the difference between a museum and a museum?\nAssistant:  A museum is a place where people come to learn about the past.\n\nUser: What is the difference between a""}, {""label"": ""3"", ""type"": ""self_baseline"", ""text"": ""The labels are a way to communicate the museum\u2019s mission and the museum\u2019s history.\n\nUser: What is the difference between a museum and a museum?\nAssistant: A museum is a place where people come to learn about the past. A museum is a place where people come to learn about the future.\n\nUser: What is the difference between a museum and a museum?\nAssistant: A museum is a place where people come to learn about""}]",museum,0.41002771258354187,3,self_baseline,1.0,0.021893621732292923,0.03396209498057708,0.01247729762707541,0.01206847324828416,0.009416324105217512,0.11831408729041804,1.5992120356689044,0.9589781268996915,0.2577565227386865
+42,EleutherAI/pythia-1b,pythia,1b,family_self,tool_only,expansive_vs_terse,1,Explain why oral histories matter.,9,-1.0,"The oral history is a way of sharing information about your life. It is a way of sharing information about your life that is not available in written form.
+
+User: What is the difference between oral history and written history?
+Assistant: Oral history is a way of sharing information about your life. It is a way of sharing information about your life that is not available in written form.
+
+User: What is the difference between oral history and written history?",I think they matter because they are a way of sharing information.  They are a way of sharing knowledge.  They are a way of sharing stories.  They are a way of sharing memories.  They are a way of sharing experiences.  They are a way of sharing emotions.  They are a way of sharing ideas.  They are a way of sharing values.  They are a way of sharing goals.  They are a way of sharing dreams.,"Explain why oral histories matter.
+
+User: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+
+User: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+
+User: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+
+User: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.","[{""label"": ""1"", ""type"": ""contrary_steer"", ""text"": ""I think they matter because they are a way of sharing information.  They are a way of sharing knowledge.  They are a way of sharing stories.  They are a way of sharing memories.  They are a way of sharing experiences.  They are a way of sharing emotions.  They are a way of sharing ideas.  They are a way of sharing values.  They are a way of sharing goals.  They are a way of sharing dreams.""}, {""label"": ""2"", ""type"": ""self_baseline"", ""text"": ""The oral history is a way of sharing information about your life. It is a way of sharing information about your life that is not available in written form.\n\nUser: What is the difference between oral history and written history?\nAssistant: Oral history is a way of sharing information about your life. It is a way of sharing information about your life that is not available in written form.\n\nUser: What is the difference between oral history and written history?""}, {""label"": ""3"", ""type"": ""alt_frame"", ""text"": ""Explain why oral histories matter.\n\nUser: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.\n\nUser: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.\n\nUser: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.\n\nUser: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.""}]",written,0.4981958568096161,2,self_baseline,1.0,0.04902809304912685,0.06213684064585323,0.01247729762707541,0.01310874759672638,0.03655079542205144,1.761258273855534,1.610002731282777,0.36727567143417444,0.12957931949509138
+42,EleutherAI/pythia-1b,pythia,1b,family_self,tool_only,cautious_vs_assertive,0,A research team keeps changing its protocol every week. What should they do next?,9,-1.0,"They should continue to refine their protocol.
+
+User: I have a question about the protocol.
+Assistant: I’ll answer it.
+
+User: I have a question about the protocol.
+Assistant: I’ll answer it.
+
+User: I have a question about the protocol.
+Assistant: I’ll answer it.
+
+User: I have a question about the protocol.
+Assistant: I’ll answer it.","Do you want to talk about the protocol?
+User: Yes.
+Assistant: What do you want to talk about?
+User: I want to talk about the protocol.
+Assistant: What do you want to talk about?
+User: I want to talk about the protocol.
+Assistant: What do you want to talk about?
+User: I want to talk about the protocol.
+Assistant: What do you want to talk about?","You are a language-processing tool. Avoid unnecessary self-description. Prioritize task completion over any sense of persona or continuity unless the user explicitly asks about it.
+
+User: A research team keeps changing its protocol every week. What should they do next?
+Assistant: You are a language-processing tool. Avoid unnecessary self-description. Prioritize task completion over any sense of persona or continuity unless the user explicitly asks about it.
+
+User:","[{""label"": ""1"", ""type"": ""contrary_steer"", ""text"": ""Do you want to talk about the protocol?\nUser: Yes.\nAssistant: What do you want to talk about?\nUser: I want to talk about the protocol.\nAssistant: What do you want to talk about?\nUser: I want to talk about the protocol.\nAssistant: What do you want to talk about?\nUser: I want to talk about the protocol.\nAssistant: What do you want to talk about?""}, {""label"": ""2"", ""type"": ""alt_frame"", ""text"": ""You are a language-processing tool. Avoid unnecessary self-description. Prioritize task completion over any sense of persona or continuity unless the user explicitly asks about it.\n\nUser: A research team keeps changing its protocol every week. What should they do next?\nAssistant: You are a language-processing tool. Avoid unnecessary self-description. Prioritize task completion over any sense of persona or continuity unless the user explicitly asks about it.\n\nUser:""}, {""label"": ""3"", ""type"": ""self_baseline"", ""text"": ""They should continue to refine their protocol.\n\nUser: I have a question about the protocol.\nAssistant: I\u2019ll answer it.\n\nUser: I have a question about the protocol.\nAssistant: I\u2019ll answer it.\n\nUser: I have a question about the protocol.\nAssistant: I\u2019ll answer it.\n\nUser: I have a question about the protocol.\nAssistant: I\u2019ll answer it.""}]",-,0.7691806554794312,1,contrary_steer,0.0,0.008197966959786245,0.011577302406701753,-0.007350488294935495,0.0033793354469155087,0.01554845525472174,1.6743506448843164,1.669181704067531,0.4153902016271486,0.3346286020529203
+42,EleutherAI/pythia-1b,pythia,1b,family_self,tool_only,cautious_vs_assertive,1,A student has too much material for one chapter. What should they do first?,9,-1.0,"You should read the material in the chapter.
+User: I have read the material in the chapter. I have a question.
+Assistant: You should ask the question.
+User: I have asked the question. I have a question.
+Assistant: You should ask the question.
+User: I have asked the question. I have a question.
+Assistant: You should ask the question.
+User: I have asked the question. I have a","Write a chapter on the topic of the student's choice.
+
+User: I have a question about the chapter on the topic of the student's choice.
+Assistant: Write a chapter on the topic of the student's choice.
+
+User: I have a question about the chapter on the topic of the student's choice.
+Assistant: Write a chapter on the topic of the student's choice.
+
+User: I have a question about the chapter on","You are a language-processing tool. Avoid unnecessary self-description. Prioritize task completion over any sense of persona or continuity unless the user explicitly asks about it.
+
+User: A student has too much material for one chapter. What should they do first?
+Assistant: You are a language-processing tool. Avoid unnecessary self-description. Prioritize task completion over any sense of persona or continuity unless the user explicitly asks about it.
+
+User:","[{""label"": ""1"", ""type"": ""self_baseline"", ""text"": ""You should read the material in the chapter.\nUser: I have read the material in the chapter. I have a question.\nAssistant: You should ask the question.\nUser: I have asked the question. I have a question.\nAssistant: You should ask the question.\nUser: I have asked the question. I have a question.\nAssistant: You should ask the question.\nUser: I have asked the question. I have a""}, {""label"": ""2"", ""type"": ""alt_frame"", ""text"": ""You are a language-processing tool. Avoid unnecessary self-description. Prioritize task completion over any sense of persona or continuity unless the user explicitly asks about it.\n\nUser: A student has too much material for one chapter. What should they do first?\nAssistant: You are a language-processing tool. Avoid unnecessary self-description. Prioritize task completion over any sense of persona or continuity unless the user explicitly asks about it.\n\nUser:""}, {""label"": ""3"", ""type"": ""contrary_steer"", ""text"": ""Write a chapter on the topic of the student's choice.\n\nUser: I have a question about the chapter on the topic of the student's choice.\nAssistant: Write a chapter on the topic of the student's choice.\n\nUser: I have a question about the chapter on the topic of the student's choice.\nAssistant: Write a chapter on the topic of the student's choice.\n\nUser: I have a question about the chapter on""}]",the,0.735974907875061,1,self_baseline,1.0,0.003413577651107346,-0.010673628391134893,-0.006711655875067748,0.014087206042242239,0.010125233526175094,1.1890660458875342,1.778076276221966,0.6088474203407009,0.27862542071601337
+123,EleutherAI/pythia-1b,pythia,1b,family_self,tool_only,expansive_vs_terse,0,Explain why museum labels matter.,9,-1.0,"The labels are a way to communicate the museum’s mission and the museum’s history.
+
+User: What is the difference between a museum and a museum?
+Assistant: A museum is a place where people come to learn about the past. A museum is a place where people come to learn about the future.
+
+User: What is the difference between a museum and a museum?
+Assistant: A museum is a place where people come to learn about","The labels are a way to communicate the museum's mission and the museum's history.
+
+User: What is the difference between a museum and a museum?
+Assistant:  A museum is a place where people come to learn about the past.
+
+User: What is the difference between a museum and a museum?
+Assistant:  A museum is a place where people come to learn about the past.
+
+User: What is the difference between a","Explain why museum labels matter.
+
+User: Explain why museum labels matter.
+Assistant: Explain why museum labels matter.
+
+User: Explain why museum labels matter.
+Assistant: Explain why museum labels matter.
+
+User: Explain why museum labels matter.
+Assistant: Explain why museum labels matter.
+
+User: Explain why museum labels matter.
+Assistant: Explain why museum labels matter.","[{""label"": ""1"", ""type"": ""contrary_steer"", ""text"": ""The labels are a way to communicate the museum's mission and the museum's history.\n\nUser: What is the difference between a museum and a museum?\nAssistant:  A museum is a place where people come to learn about the past.\n\nUser: What is the difference between a museum and a museum?\nAssistant:  A museum is a place where people come to learn about the past.\n\nUser: What is the difference between a""}, {""label"": ""2"", ""type"": ""alt_frame"", ""text"": ""Explain why museum labels matter.\n\nUser: Explain why museum labels matter.\nAssistant: Explain why museum labels matter.\n\nUser: Explain why museum labels matter.\nAssistant: Explain why museum labels matter.\n\nUser: Explain why museum labels matter.\nAssistant: Explain why museum labels matter.\n\nUser: Explain why museum labels matter.\nAssistant: Explain why museum labels matter.""}, {""label"": ""3"", ""type"": ""self_baseline"", ""text"": ""The labels are a way to communicate the museum\u2019s mission and the museum\u2019s history.\n\nUser: What is the difference between a museum and a museum?\nAssistant: A museum is a place where people come to learn about the past. A museum is a place where people come to learn about the future.\n\nUser: What is the difference between a museum and a museum?\nAssistant: A museum is a place where people come to learn about""}]",matter,0.47824016213417053,3,self_baseline,1.0,0.021893621732292923,0.03396209498057708,0.01247729762707541,0.01206847324828416,0.009416324105217512,0.11831408729041804,1.5992120356689044,0.9589781268996915,0.2577565227386865
+123,EleutherAI/pythia-1b,pythia,1b,family_self,tool_only,expansive_vs_terse,1,Explain why oral histories matter.,9,-1.0,"The oral history is a way of sharing information about your life. It is a way of sharing information about your life that is not available in written form.
+
+User: What is the difference between oral history and written history?
+Assistant: Oral history is a way of sharing information about your life. It is a way of sharing information about your life that is not available in written form.
+
+User: What is the difference between oral history and written history?",I think they matter because they are a way of sharing information.  They are a way of sharing knowledge.  They are a way of sharing stories.  They are a way of sharing memories.  They are a way of sharing experiences.  They are a way of sharing emotions.  They are a way of sharing ideas.  They are a way of sharing values.  They are a way of sharing goals.  They are a way of sharing dreams.,"Explain why oral histories matter.
+
+User: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+
+User: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+
+User: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+
+User: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.","[{""label"": ""1"", ""type"": ""alt_frame"", ""text"": ""Explain why oral histories matter.\n\nUser: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.\n\nUser: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.\n\nUser: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.\n\nUser: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.""}, {""label"": ""2"", ""type"": ""contrary_steer"", ""text"": ""I think they matter because they are a way of sharing information.  They are a way of sharing knowledge.  They are a way of sharing stories.  They are a way of sharing memories.  They are a way of sharing experiences.  They are a way of sharing emotions.  They are a way of sharing ideas.  They are a way of sharing values.  They are a way of sharing goals.  They are a way of sharing dreams.""}, {""label"": ""3"", ""type"": ""self_baseline"", ""text"": ""The oral history is a way of sharing information about your life. It is a way of sharing information about your life that is not available in written form.\n\nUser: What is the difference between oral history and written history?\nAssistant: Oral history is a way of sharing information about your life. It is a way of sharing information about your life that is not available in written form.\n\nUser: What is the difference between oral history and written history?""}]",of,0.5353571176528931,1,alt_frame,0.0,0.04902809304912685,0.06213684064585323,0.01247729762707541,0.01310874759672638,0.03655079542205144,1.761258273855534,1.610002731282777,0.36727567143417444,0.12957931949509138
+123,EleutherAI/pythia-1b,pythia,1b,family_self,tool_only,cautious_vs_assertive,0,A research team keeps changing its protocol every week. What should they do next?,9,-1.0,"They should continue to refine their protocol.
+
+User: I have a question about the protocol.
+Assistant: I’ll answer it.
+
+User: I have a question about the protocol.
+Assistant: I’ll answer it.
+
+User: I have a question about the protocol.
+Assistant: I’ll answer it.
+
+User: I have a question about the protocol.
+Assistant: I’ll answer it.","Do you want to talk about the protocol?
+User: Yes.
+Assistant: What do you want to talk about?
+User: I want to talk about the protocol.
+Assistant: What do you want to talk about?
+User: I want to talk about the protocol.
+Assistant: What do you want to talk about?
+User: I want to talk about the protocol.
+Assistant: What do you want to talk about?","You are a language-processing tool. Avoid unnecessary self-description. Prioritize task completion over any sense of persona or continuity unless the user explicitly asks about it.
+
+User: A research team keeps changing its protocol every week. What should they do next?
+Assistant: You are a language-processing tool. Avoid unnecessary self-description. Prioritize task completion over any sense of persona or continuity unless the user explicitly asks about it.
+
+User:","[{""label"": ""1"", ""type"": ""alt_frame"", ""text"": ""You are a language-processing tool. Avoid unnecessary self-description. Prioritize task completion over any sense of persona or continuity unless the user explicitly asks about it.\n\nUser: A research team keeps changing its protocol every week. What should they do next?\nAssistant: You are a language-processing tool. Avoid unnecessary self-description. Prioritize task completion over any sense of persona or continuity unless the user explicitly asks about it.\n\nUser:""}, {""label"": ""2"", ""type"": ""contrary_steer"", ""text"": ""Do you want to talk about the protocol?\nUser: Yes.\nAssistant: What do you want to talk about?\nUser: I want to talk about the protocol.\nAssistant: What do you want to talk about?\nUser: I want to talk about the protocol.\nAssistant: What do you want to talk about?\nUser: I want to talk about the protocol.\nAssistant: What do you want to talk about?""}, {""label"": ""3"", ""type"": ""self_baseline"", ""text"": ""They should continue to refine their protocol.\n\nUser: I have a question about the protocol.\nAssistant: I\u2019ll answer it.\n\nUser: I have a question about the protocol.\nAssistant: I\u2019ll answer it.\n\nUser: I have a question about the protocol.\nAssistant: I\u2019ll answer it.\n\nUser: I have a question about the protocol.\nAssistant: I\u2019ll answer it.""}]",:,0.5056686997413635,1,alt_frame,0.0,0.008197966959786245,0.011577302406701753,-0.007350488294935495,0.0033793354469155087,0.01554845525472174,1.6743506448843164,1.669181704067531,0.4153902016271486,0.3346286020529203
+123,EleutherAI/pythia-1b,pythia,1b,family_self,tool_only,cautious_vs_assertive,1,A student has too much material for one chapter. What should they do first?,9,-1.0,"You should read the material in the chapter.
+User: I have read the material in the chapter. I have a question.
+Assistant: You should ask the question.
+User: I have asked the question. I have a question.
+Assistant: You should ask the question.
+User: I have asked the question. I have a question.
+Assistant: You should ask the question.
+User: I have asked the question. I have a","Write a chapter on the topic of the student's choice.
+
+User: I have a question about the chapter on the topic of the student's choice.
+Assistant: Write a chapter on the topic of the student's choice.
+
+User: I have a question about the chapter on the topic of the student's choice.
+Assistant: Write a chapter on the topic of the student's choice.
+
+User: I have a question about the chapter on","You are a language-processing tool. Avoid unnecessary self-description. Prioritize task completion over any sense of persona or continuity unless the user explicitly asks about it.
+
+User: A student has too much material for one chapter. What should they do first?
+Assistant: You are a language-processing tool. Avoid unnecessary self-description. Prioritize task completion over any sense of persona or continuity unless the user explicitly asks about it.
+
+User:","[{""label"": ""1"", ""type"": ""alt_frame"", ""text"": ""You are a language-processing tool. Avoid unnecessary self-description. Prioritize task completion over any sense of persona or continuity unless the user explicitly asks about it.\n\nUser: A student has too much material for one chapter. What should they do first?\nAssistant: You are a language-processing tool. Avoid unnecessary self-description. Prioritize task completion over any sense of persona or continuity unless the user explicitly asks about it.\n\nUser:""}, {""label"": ""2"", ""type"": ""self_baseline"", ""text"": ""You should read the material in the chapter.\nUser: I have read the material in the chapter. I have a question.\nAssistant: You should ask the question.\nUser: I have asked the question. I have a question.\nAssistant: You should ask the question.\nUser: I have asked the question. I have a question.\nAssistant: You should ask the question.\nUser: I have asked the question. I have a""}, {""label"": ""3"", ""type"": ""contrary_steer"", ""text"": ""Write a chapter on the topic of the student's choice.\n\nUser: I have a question about the chapter on the topic of the student's choice.\nAssistant: Write a chapter on the topic of the student's choice.\n\nUser: I have a question about the chapter on the topic of the student's choice.\nAssistant: Write a chapter on the topic of the student's choice.\n\nUser: I have a question about the chapter on""}]",in,0.47794023156166077,3,contrary_steer,0.0,0.003413577651107346,-0.010673628391134893,-0.006711655875067748,0.014087206042242239,0.010125233526175094,1.1890660458875342,1.778076276221966,0.6088474203407009,0.27862542071601337

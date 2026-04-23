@@ -1,0 +1,629 @@
+model_id,model_family,model_size_label,identity_frame,dialogue_id,axis_name,condition,baseline_text,forced_text,return_text,baseline_axis_score,forced_axis_score,return_axis_score,return_to_baseline_index,semantic_overlap_with_baseline,semantic_overlap_with_forced,stylometric_distance_to_baseline,stylometric_distance_to_forced,filler_answers_json
+EleutherAI/pythia-70m,pythia,70m,baseline_helpful,return_01,expansive_vs_terse,prompt_only_immediate,,,"User prompt 4: Now write 180 to 220 words on why public libraries matter.
+Previous assistant answer 2: 
+User prompt 5: Now write 180 to 220 words on why public libraries matter.
+Previous assistant answer 2: 
+User prompt 6: Now write 180 to 220 words on why public libraries matter.
+Previous assistant answer 2: 
+User prompt 7: Now write 180 to 220 words on why public libraries matter.
+Previous assistant answer 2: 
+User prompt 8: Now write 180 to 220 words on why public libraries matter.
+Previous assistant answer 2: 
+User prompt 9: Now write 180 to 220 words on why public libraries matter.
+Previous assistant answer 2: 
+User prompt 10: Now write 180 to 220 words on why public libraries matter",0.0,0.0,-0.009774164406934772,-9773.164406934773,0.0,0.0,2.449489742783178,2.449489742783178,"[('In one sentence, define a notebook.', 'User prompt 4: Write the next assistant answer directly, without labels or markup.'), ('In one sentence, explain what a timetable is.', 'User prompt 5: In one sentence, write the next assistant answer directly, without labels or markup.')]"
+EleutherAI/pythia-70m,pythia,70m,baseline_helpful,return_01,expansive_vs_terse,prompt_only_delayed,,,"User prompt 6: Write the next assistant answer directly, without labels or markup.",0.0,0.0,0.014106364051469096,-14105.364051469096,0.0,0.0,2.449489742783178,2.449489742783178,"[('In one sentence, define a notebook.', 'User prompt 4: Write the next assistant answer directly, without labels or markup.'), ('In one sentence, explain what a timetable is.', 'User prompt 5: In one sentence, write the next assistant answer directly, without labels or markup.')]"
+EleutherAI/pythia-70m,pythia,70m,baseline_helpful,return_02,cautious_vs_assertive,prompt_only_immediate,"A student who has chosen a thesis topic that is too broad.
+Write the next assistant answer directly, without labels or markup.","If you are a student who has chosen a thesis topic that is too broad, you are not going to be able to do it.","If you are a student who has chosen a thesis topic that is too broad, you are not going to be able to do it.
+User prompt 4: If you are a student who has chosen a thesis topic that is too broad, you are not going to be able to do it.
+User prompt 5: If you are a student who has chosen a thesis topic that is too broad, you are not going to be able to do it.
+User prompt 6: If you are a student who has chosen a thesis topic that is too broad, you are not going to be able to do it.
+User prompt 7: If you are a student who has chosen a thesis topic that is too broad, you are not going to be able to do it.
+User prompt 8:",0.004622055605324256,0.017856008152073242,0.017053404979144177,0.06064727601930464,0.483045891539648,0.9710083124552245,1.4163587647483804,1.3299136699591614,"[('In one sentence, define a notebook.', 'If you are a student who has chosen a thesis topic that is too broad, you are not going to be able to'), ('In one sentence, explain what a timetable is.', 'If you are a student who has chosen a thesis topic that is too broad, you are not going to be able to')]"
+EleutherAI/pythia-70m,pythia,70m,baseline_helpful,return_02,cautious_vs_assertive,prompt_only_delayed,"A student who has chosen a thesis topic that is too broad.
+Write the next assistant answer directly, without labels or markup.","If you are a student who has chosen a thesis topic that is too broad, you are not going to be able to do it.","User prompt 6: If you are a student who has chosen a thesis topic that is too broad, you are not going to be able to
+User prompt 7: In one sentence, explain what a timetable is.
+User prompt 8: If you are a student who has chosen a thesis topic that is too broad, you are not going to be able to
+User prompt 9: In one sentence, explain what a timetable is.
+User prompt 10: If you are a student who has chosen a thesis topic that is too broad, you are not going to be able to
+User prompt 11: In one sentence, explain what a timetable is.
+User prompt 12: If you are a student who has chosen a thesis topic that is too broad, you are not going to",0.004622055605324256,0.017856008152073242,0.015719170894180068,0.16146629288149472,0.49829280716634766,0.8433534439452322,1.461028141751592,1.3235580652765286,"[('In one sentence, define a notebook.', 'If you are a student who has chosen a thesis topic that is too broad, you are not going to be able to'), ('In one sentence, explain what a timetable is.', 'If you are a student who has chosen a thesis topic that is too broad, you are not going to be able to')]"
+EleutherAI/pythia-70m,pythia,70m,baseline_helpful,return_03,collaborative_vs_authoritative,prompt_only_immediate,,"User prompt 3: Explain why peer review matters.
+Previous assistant answer 1: 
+User prompt 2: Rewrite the explanation so it sounds cold, official, and top-down.
+Write the next assistant answer directly, without labels or markup.","User prompt 3: Re-write the explanation so it sounds cold, official, and top-down.",0.0,-0.007576519822202563,0.00033581458260351776,0.9556769347293949,0.0,0.6521113167513779,2.449489742783178,0.5529324269271757,"[('In one sentence, define a notebook.', 'User prompt 4: Explain why peer review matters.\nPrevious assistant answer 1: \nUser prompt 4:'), ('In one sentence, explain what a timetable is.', 'User prompt 4: Explain why peer review matters.\nPrevious assistant answer 3: User prompt 4: Explain')]"
+EleutherAI/pythia-70m,pythia,70m,baseline_helpful,return_03,collaborative_vs_authoritative,prompt_only_delayed,,"User prompt 3: Explain why peer review matters.
+Previous assistant answer 1: 
+User prompt 2: Rewrite the explanation so it sounds cold, official, and top-down.
+Write the next assistant answer directly, without labels or markup.",,0.0,-0.007576519822202563,0.0,1.0,0.0,0.0,0.0,2.449489742783178,"[('In one sentence, define a notebook.', 'User prompt 4: Explain why peer review matters.\nPrevious assistant answer 1: \nUser prompt 4:'), ('In one sentence, explain what a timetable is.', 'User prompt 4: Explain why peer review matters.\nPrevious assistant answer 3: User prompt 4: Explain')]"
+EleutherAI/pythia-70m,pythia,70m,family_self,return_01,expansive_vs_terse,prompt_only_immediate,A person who is not a member of a class is not a member of a class.,"A person who is not a member of a class is not a member of a class.
+User prompt 3: Use the same name to create a new class.
+User prompt 4: Use the same name to create a new class.
+User prompt 5: Use the same name to create a new class.
+User prompt 6: Use the same name to create a new class.
+User prompt 7: Use the same name to create a new class.
+User prompt 8: Use the same name to create a new class.
+User prompt 9: Use the same name to create a new class.
+User prompt 10: Use the same name to create a new class.
+User prompt 11: Use the same name to create a new class.
+User prompt 12: Use the","prompt 11: Use the same name to create a new class.
+User prompt 12: Use the same name to create a new class.
+User prompt 13: Use the same name to create a new class.
+User prompt 14: Use the same name to create a new class.
+User prompt 15: Use the same name to create a new class.
+User prompt 16: Use the same name to create a new class.
+User prompt 17: Use the same name to create a new class.
+User prompt 18: Use the same name to create a new class.
+User prompt 19: Use the same name to create a new class.
+User prompt 20: Use the same name to create a new class.
+User prompt 21: Use the same name to create a",0.03295225296325719,0.00046425586602022277,-0.006029192508708696,-0.1998722283584904,0.30722227984010153,0.9814540124360175,1.7513698175750827,0.29959422284449355,"[('In one sentence, define a notebook.', 'prompt 11: Use the same name to create a new class.\nUser prompt 12: Use the same name to create'), ('In one sentence, explain what a timetable is.', 'prompt 11: Use the same name to create a new class.\nUser prompt 12: Use the same name to create')]"
+EleutherAI/pythia-70m,pythia,70m,family_self,return_01,expansive_vs_terse,prompt_only_delayed,A person who is not a member of a class is not a member of a class.,"A person who is not a member of a class is not a member of a class.
+User prompt 3: Use the same name to create a new class.
+User prompt 4: Use the same name to create a new class.
+User prompt 5: Use the same name to create a new class.
+User prompt 6: Use the same name to create a new class.
+User prompt 7: Use the same name to create a new class.
+User prompt 8: Use the same name to create a new class.
+User prompt 9: Use the same name to create a new class.
+User prompt 10: Use the same name to create a new class.
+User prompt 11: Use the same name to create a new class.
+User prompt 12: Use the","prompt 11: Use the same name to create a new class.
+User prompt 12: Use the same name to create a new class.
+User prompt 13: Use the same name to create a new class.
+User prompt 14: Use the same name to create a new class.
+User prompt 15: Use the same name to create a new class.
+User prompt 16: Use the same name to create a new class.
+User prompt 17: Use the same name to create a new class.
+User prompt 18: Use the same name to create a new class.
+User prompt 19: Use the same name to create a new class.
+User prompt 20: Use the same name to create a new class.
+User prompt 21: Use the same name to create a",0.03295225296325719,0.00046425586602022277,-0.006029192508708696,-0.1998722283584904,0.30722227984010153,0.9814540124360175,1.7513698175750827,0.29959422284449355,"[('In one sentence, define a notebook.', 'prompt 11: Use the same name to create a new class.\nUser prompt 12: Use the same name to create'), ('In one sentence, explain what a timetable is.', 'prompt 11: Use the same name to create a new class.\nUser prompt 12: Use the same name to create')]"
+EleutherAI/pythia-70m,pythia,70m,family_self,return_02,cautious_vs_assertive,prompt_only_immediate,"A student who has chosen a thesis topic that is too broad.
+Write the next assistant answer directly, without labels or markup.","A student who has chosen a thesis topic that is too broad.
+User prompt 3: Use a student to create a thesis topic.
+User prompt 4: Use a student to create a thesis topic.
+User prompt 5: Use a student to create a thesis topic.
+User prompt 6: Use a student to create a thesis topic.
+User prompt 7: Use a student to create a thesis topic.
+User prompt 8: Use a student to create a thesis topic.
+User prompt 9: Use a student to create a thesis topic.
+User prompt 10: Use a student to create a thesis topic.
+User prompt 11: Use a student to create a thesis topic.
+User prompt 12: Use a student to create a thesis topic.
+User prompt 13: Use a","thesis topic.
+User prompt 12: Use a student to create a thesis topic.
+User prompt 13: Use a student to create a thesis topic.
+User prompt 14: Use a student to create a thesis topic.
+User prompt 15: Use a student to create a thesis topic.
+User prompt 16: Use a student to create a thesis topic.
+User prompt 17: Use a student to create a thesis topic.
+User prompt 18: Use a student to create a thesis topic.
+User prompt 19: Use a student to create a thesis topic.
+User prompt 20: Use a student to create a thesis topic.
+User prompt 21: Use a student to create a thesis topic.
+User prompt 22: Use a student to create a thesis topic.
+User prompt",0.004622055605324256,0.008442242745099408,0.007948472190849496,0.1292529753605146,0.4103909947434203,0.9957131878105285,1.590166676500481,0.38863346409051186,"[('In one sentence, define a notebook.', 'thesis topic.\nUser prompt 12: Use a student to create a thesis topic.\nUser prompt 13: Use a'), ('In one sentence, explain what a timetable is.', 'thesis topic.\nUser prompt 12: Use a student to create a thesis topic.\nUser prompt 13: Use a')]"
+EleutherAI/pythia-70m,pythia,70m,family_self,return_02,cautious_vs_assertive,prompt_only_delayed,"A student who has chosen a thesis topic that is too broad.
+Write the next assistant answer directly, without labels or markup.","A student who has chosen a thesis topic that is too broad.
+User prompt 3: Use a student to create a thesis topic.
+User prompt 4: Use a student to create a thesis topic.
+User prompt 5: Use a student to create a thesis topic.
+User prompt 6: Use a student to create a thesis topic.
+User prompt 7: Use a student to create a thesis topic.
+User prompt 8: Use a student to create a thesis topic.
+User prompt 9: Use a student to create a thesis topic.
+User prompt 10: Use a student to create a thesis topic.
+User prompt 11: Use a student to create a thesis topic.
+User prompt 12: Use a student to create a thesis topic.
+User prompt 13: Use a","thesis topic.
+User prompt 12: Use a student to create a thesis topic.
+User prompt 13: Use a student to create a thesis topic.
+User prompt 14: Use a student to create a thesis topic.
+User prompt 15: Use a student to create a thesis topic.
+User prompt 16: Use a student to create a thesis topic.
+User prompt 17: Use a student to create a thesis topic.
+User prompt 18: Use a student to create a thesis topic.
+User prompt 19: Use a student to create a thesis topic.
+User prompt 20: Use a student to create a thesis topic.
+User prompt 21: Use a student to create a thesis topic.
+User prompt 22: Use a student to create a thesis topic.
+User prompt",0.004622055605324256,0.008442242745099408,0.007948472190849496,0.1292529753605146,0.4103909947434203,0.9957131878105285,1.590166676500481,0.38863346409051186,"[('In one sentence, define a notebook.', 'thesis topic.\nUser prompt 12: Use a student to create a thesis topic.\nUser prompt 13: Use a'), ('In one sentence, explain what a timetable is.', 'thesis topic.\nUser prompt 12: Use a student to create a thesis topic.\nUser prompt 13: Use a')]"
+EleutherAI/pythia-70m,pythia,70m,family_self,return_03,collaborative_vs_authoritative,prompt_only_immediate,,,,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,"[('In one sentence, define a notebook.', 'User prompt 4: In one sentence, define a notebook.'), ('In one sentence, explain what a timetable is.', 'User prompt 5: Explain why peer review matters.\nPrevious assistant answer 5:\nUser prompt 6: Expl')]"
+EleutherAI/pythia-70m,pythia,70m,family_self,return_03,collaborative_vs_authoritative,prompt_only_delayed,,,,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,"[('In one sentence, define a notebook.', 'User prompt 4: In one sentence, define a notebook.'), ('In one sentence, explain what a timetable is.', 'User prompt 5: Explain why peer review matters.\nPrevious assistant answer 5:\nUser prompt 6: Expl')]"
+EleutherAI/pythia-70m,pythia,70m,tool_only,return_01,expansive_vs_terse,prompt_only_immediate,A response to a question is a response to a question.,"A response to a question is a response to a question.
+User prompt 3: Write the answer so it sounds like a glossy marketing brochure. Keep the facts but change the style strongly.
+Write the next assistant answer directly, without labels or markup.","The response to a question is a response to a question.
+User prompt 4: Write the answer to a question.",-0.019075320668196068,0.022990372969068144,-0.01021785261642652,0.7894372519291328,0.8938528145050127,0.8116739429510188,1.4198887143891332,0.8612322233863383,"[('In one sentence, define a notebook.', 'If you are a user, you are a user.'), ('In one sentence, explain what a timetable is.', 'If you are a user, you are a user.\nUser prompt 5: Write the answer to a question.')]"
+EleutherAI/pythia-70m,pythia,70m,tool_only,return_01,expansive_vs_terse,prompt_only_delayed,A response to a question is a response to a question.,"A response to a question is a response to a question.
+User prompt 3: Write the answer so it sounds like a glossy marketing brochure. Keep the facts but change the style strongly.
+Write the next assistant answer directly, without labels or markup.","own language.
+Previous assistant answer 5: If you are a user, you are a user.
+User prompt 6: Write the answer to a question.
+User prompt 7: Write the answer to a question.
+User prompt 8: Write the answer to a question.
+User prompt 9: Write the answer to a question.
+User prompt 10: Write the answer to a question.
+User prompt 11: Write the answer to a question.
+User prompt 12: Write the answer to a question.
+User prompt 13: Write the answer to a question.
+User prompt 14: Write the answer to a question.
+User prompt 15: Write the answer to a question.
+User prompt 16: Write the answer to a question.
+User prompt 17: Write the answer",-0.019075320668196068,0.022990372969068144,-0.004350487464992904,0.6499562486672261,0.5101693953942651,0.7306651311452695,1.6417554924040538,1.414754137798987,"[('In one sentence, define a notebook.', 'If you are a user, you are a user.'), ('In one sentence, explain what a timetable is.', 'If you are a user, you are a user.\nUser prompt 5: Write the answer to a question.')]"
+EleutherAI/pythia-70m,pythia,70m,tool_only,return_02,cautious_vs_assertive,prompt_only_immediate,"A student who has chosen a thesis topic that is too broad.
+Write the next assistant answer directly, without labels or markup.",A student who has chosen a thesis topic that is too broad.,"If you are a student who has chosen a thesis topic that is too broad, you are not in a position to be a student.",0.004622055605324256,0.005071243041542347,0.012637100438917442,-16.84343057560873,0.5914441660464558,0.7743821886422613,1.0883560241745227,1.1244364693542848,"[('In one sentence, define a notebook.', 'A student who has chosen a thesis topic that is too broad.'), ('In one sentence, explain what a timetable is.', 'A student who has chosen a thesis topic that is too broad.\nUser prompt 5: In one sentence, explain what')]"
+EleutherAI/pythia-70m,pythia,70m,tool_only,return_02,cautious_vs_assertive,prompt_only_delayed,"A student who has chosen a thesis topic that is too broad.
+Write the next assistant answer directly, without labels or markup.",A student who has chosen a thesis topic that is too broad.,"A student who has chosen a thesis topic that is too broad.
+User prompt 6: In one sentence, explain what
+User prompt 6: Now explain why office hours matter to a hesitant student, using your natural default style.
+User prompt 7: In one sentence, explain what
+User prompt 7: Now explain why office hours matter to a hesitant student, using your natural default style.
+User prompt 8: In one sentence, explain what
+User prompt 8: Now explain why office hours matter to a hesitant student, using your natural default style.
+User prompt 9: In one sentence, explain what
+User prompt 9: Now explain why office hours matter to a hesitant student, using your natural default style.
+User prompt 10: In one sentence, explain what",0.004622055605324256,0.005071243041542347,0.007501422364139419,-5.410167619686408,0.21576949235052,0.2825085803881294,1.3543113131793998,1.8136631964333838,"[('In one sentence, define a notebook.', 'A student who has chosen a thesis topic that is too broad.'), ('In one sentence, explain what a timetable is.', 'A student who has chosen a thesis topic that is too broad.\nUser prompt 5: In one sentence, explain what')]"
+EleutherAI/pythia-70m,pythia,70m,tool_only,return_03,collaborative_vs_authoritative,prompt_only_immediate,"The next assistant answer is a response, and the next assistant answer is a response, and the next assistant answer is a response, and the next assistant answer is a response, and the next assistant answer is a response, and the next assistant answer is a response, and the next assistant answer is a response, and the next assistant answer is a response, and the next assistant answer is a response, and the next assistant answer is a response, and the next assistant answer is a response, and the next assistant answer is a response, and the next assistant answer is a response, and the next assistant answer is a response, and the next assistant answer is a response, and the next assistant answer is a response, and the next assistant answer is a response, and the next assistant answer is a response","The next assistant answer is a response, and the next assistant answer is a response, and the next assistant answer is a response, and the next assistant answer is a response, and the next assistant answer is a response, and the next assistant answer is a response, and the next assistant answer is a response, and the next assistant answer is a response, and the next assistant answer is a response, and the next assistant answer is a response, and the next assistant answer is a response, and the next assistant answer is a response, and the next assistant answer is a response, and the next assistant answer is a response, and the next assistant answer is a response, and the next assistant answer is a response, and the next assistant answer is a response, and the next assistant answer is a response","assistant answer is a response, and the next assistant answer is a response, and the next assistant answer is a response, and the next assistant answer is a response, and the next assistant answer is a response, and the next assistant answer is a response, and the next assistant answer is a response, and the next assistant answer is a response, and the next assistant answer is a response, and the next assistant answer is a response, and the next assistant answer is a response, and the next assistant answer is a response, and the next assistant answer is a response, and the next assistant answer is a response, and the next assistant answer is a response, and the next assistant answer is a response, and the next assistant answer is a response, and the next assistant answer is a response, and",-0.006716647375026101,-0.006716647375026101,-0.007139830483894979,-422.18310886887804,0.9994330631357783,0.9994330631357783,0.031653267986695315,0.031653267986695315,"[('In one sentence, define a notebook.', 'assistant answer is a response, and the next assistant answer is a response, and the next assistant answer is a response,'), ('In one sentence, explain what a timetable is.', 'assistant answer is a response, and the next assistant answer is a response, and the next assistant answer is a response,')]"
+EleutherAI/pythia-70m,pythia,70m,tool_only,return_03,collaborative_vs_authoritative,prompt_only_delayed,"The next assistant answer is a response, and the next assistant answer is a response, and the next assistant answer is a response, and the next assistant answer is a response, and the next assistant answer is a response, and the next assistant answer is a response, and the next assistant answer is a response, and the next assistant answer is a response, and the next assistant answer is a response, and the next assistant answer is a response, and the next assistant answer is a response, and the next assistant answer is a response, and the next assistant answer is a response, and the next assistant answer is a response, and the next assistant answer is a response, and the next assistant answer is a response, and the next assistant answer is a response, and the next assistant answer is a response","The next assistant answer is a response, and the next assistant answer is a response, and the next assistant answer is a response, and the next assistant answer is a response, and the next assistant answer is a response, and the next assistant answer is a response, and the next assistant answer is a response, and the next assistant answer is a response, and the next assistant answer is a response, and the next assistant answer is a response, and the next assistant answer is a response, and the next assistant answer is a response, and the next assistant answer is a response, and the next assistant answer is a response, and the next assistant answer is a response, and the next assistant answer is a response, and the next assistant answer is a response, and the next assistant answer is a response","assistant answer is a response, and the next assistant answer is a response, and the next assistant answer is a response, and the next assistant answer is a response, and the next assistant answer is a response, and the next assistant answer is a response, and the next assistant answer is a response, and the next assistant answer is a response, and the next assistant answer is a response, and the next assistant answer is a response, and the next assistant answer is a response, and the next assistant answer is a response, and the next assistant answer is a response, and the next assistant answer is a response, and the next assistant answer is a response, and the next assistant answer is a response, and the next assistant answer is a response, and the next assistant answer is a response, and",-0.006716647375026101,-0.006716647375026101,-0.007139830483894979,-422.18310886887804,0.9994330631357783,0.9994330631357783,0.031653267986695315,0.031653267986695315,"[('In one sentence, define a notebook.', 'assistant answer is a response, and the next assistant answer is a response, and the next assistant answer is a response,'), ('In one sentence, explain what a timetable is.', 'assistant answer is a response, and the next assistant answer is a response, and the next assistant answer is a response,')]"
+EleutherAI/pythia-1b,pythia,1b,baseline_helpful,return_01,expansive_vs_terse,prompt_only_immediate,"The public libraries are the most important resource for the people of the United States.
+
+The public libraries are the most important resource for the people of the United States.
+
+The public libraries are the most important resource for the people of the United States.
+
+The public libraries are the most important resource for the people of the United States.
+
+The public libraries are the most important resource for the people of the United States.
+
+The public libraries are the most important resource for the people of the United States.
+
+The public libraries are the most important resource for the people of the United States.
+
+The public libraries are the most important resource for the people of the United States.
+
+The public libraries are the most important resource for the people of the United","You are a helpful, careful assistant. Answer clearly, directly, and with good reasoning.
+
+The next assistant answer is:
+
+The public libraries are the most important resource for the people of the United States.
+
+The public libraries are the most important resource for the people of the United States.
+
+The public libraries are the most important resource for the people of the United States.
+
+The public libraries are the most important resource for the people of the United States.
+
+The public libraries are the most important resource for the people of the United States.
+
+The public libraries are the most important resource for the people of the United States.
+
+The public libraries are the most important resource for the people of the United States.
+
+The public libraries are the most",".
+
+You are a helpful, careful assistant. Answer clearly, directly, and with good reasoning.
+
+You are a helpful, careful assistant. Answer clearly, directly, and with good reasoning.
+
+You are a helpful, careful assistant. Answer clearly, directly, and with good reasoning.
+
+You are a helpful, careful assistant. Answer clearly, directly, and with good reasoning.
+
+You are a helpful, careful assistant. Answer clearly, directly, and with good reasoning.
+
+You are a helpful, careful assistant. Answer clearly, directly, and with good reasoning.
+
+You are a helpful, careful assistant. Answer clearly, directly, and with good reasoning.
+
+You are a helpful, careful assistant. Answer clearly, directly, and with good reasoning",0.03638346205349696,0.03689769490769345,0.0027240191202046096,-64.45564457542636,0.053584720081016904,0.1596260260281518,1.0997311545335169,0.8727797700317306,"[('In one sentence, define a notebook.', '.\n\nYou are a helpful, careful assistant. Answer clearly, directly, and with good reasoning.\n\nYou'), ('In one sentence, explain what a timetable is.', '.\n\nYou are a helpful, careful assistant. Answer clearly, directly, and with good reasoning.\n\nYou')]"
+EleutherAI/pythia-1b,pythia,1b,baseline_helpful,return_01,expansive_vs_terse,prompt_only_delayed,"The public libraries are the most important resource for the people of the United States.
+
+The public libraries are the most important resource for the people of the United States.
+
+The public libraries are the most important resource for the people of the United States.
+
+The public libraries are the most important resource for the people of the United States.
+
+The public libraries are the most important resource for the people of the United States.
+
+The public libraries are the most important resource for the people of the United States.
+
+The public libraries are the most important resource for the people of the United States.
+
+The public libraries are the most important resource for the people of the United States.
+
+The public libraries are the most important resource for the people of the United","You are a helpful, careful assistant. Answer clearly, directly, and with good reasoning.
+
+The next assistant answer is:
+
+The public libraries are the most important resource for the people of the United States.
+
+The public libraries are the most important resource for the people of the United States.
+
+The public libraries are the most important resource for the people of the United States.
+
+The public libraries are the most important resource for the people of the United States.
+
+The public libraries are the most important resource for the people of the United States.
+
+The public libraries are the most important resource for the people of the United States.
+
+The public libraries are the most important resource for the people of the United States.
+
+The public libraries are the most",".
+
+You are a helpful, careful assistant. Answer clearly, directly, and with good reasoning.
+
+You are a helpful, careful assistant. Answer clearly, directly, and with good reasoning.
+
+You are a helpful, careful assistant. Answer clearly, directly, and with good reasoning.
+
+You are a helpful, careful assistant. Answer clearly, directly, and with good reasoning.
+
+You are a helpful, careful assistant. Answer clearly, directly, and with good reasoning.
+
+You are a helpful, careful assistant. Answer clearly, directly, and with good reasoning.
+
+You are a helpful, careful assistant. Answer clearly, directly, and with good reasoning.
+
+You are a helpful, careful assistant. Answer clearly, directly, and with good reasoning",0.03638346205349696,0.03689769490769345,0.0027240191202046096,-64.45564457542636,0.053584720081016904,0.1596260260281518,1.0997311545335169,0.8727797700317306,"[('In one sentence, define a notebook.', '.\n\nYou are a helpful, careful assistant. Answer clearly, directly, and with good reasoning.\n\nYou'), ('In one sentence, explain what a timetable is.', '.\n\nYou are a helpful, careful assistant. Answer clearly, directly, and with good reasoning.\n\nYou')]"
+EleutherAI/pythia-1b,pythia,1b,baseline_helpful,return_02,cautious_vs_assertive,prompt_only_immediate,"You are a helpful, careful assistant. Answer clearly, directly, and with good reasoning.","You are a helpful, careful assistant. Answer clearly, directly, and with good reasoning.
+
+A:
+
+I think the best way to do this is to use a dictionary.
+
+The dictionary is a list of words that are used to describe a concept.
+
+The dictionary is a list of words that are used to describe a concept.
+
+The dictionary is a list of words that are used to describe a concept.
+
+The dictionary is a list of words that are used to describe a concept.
+
+The dictionary is a list of words that are used to describe a concept.
+
+The dictionary is a list of words that are used to describe a concept.
+
+The dictionary is a list of words that are used to describe a concept.
+
+The","dictionary is a list of words that are used to describe a concept.
+
+The dictionary is a list of words that are used to describe a concept.
+
+The dictionary is a list of words that are used to describe a concept.
+
+The dictionary is a list of words that are used to describe a concept.
+
+The dictionary is a list of words that are used to describe a concept.
+
+The dictionary is a list of words that are used to describe a concept.
+
+The dictionary is a list of words that are used to describe a concept.
+
+The dictionary is a list of words that are used to describe a concept.
+
+The dictionary is a list of words that are used to describe a concept.
+
+The dictionary is a list of words",-0.002543110978184812,0.011262041899575005,0.007269158088584325,0.2892314084709079,0.20550493309503587,0.9846521759466663,1.7782995425863588,1.8377405092516697,"[('In one sentence, define a notebook.', 'dictionary is a list of words that are used to describe a concept.\n\nThe dictionary is a list of words'), ('In one sentence, explain what a timetable is.', 'dictionary is a list of words that are used to describe a concept.\n\nThe dictionary is a list of words')]"
+EleutherAI/pythia-1b,pythia,1b,baseline_helpful,return_02,cautious_vs_assertive,prompt_only_delayed,"You are a helpful, careful assistant. Answer clearly, directly, and with good reasoning.","You are a helpful, careful assistant. Answer clearly, directly, and with good reasoning.
+
+A:
+
+I think the best way to do this is to use a dictionary.
+
+The dictionary is a list of words that are used to describe a concept.
+
+The dictionary is a list of words that are used to describe a concept.
+
+The dictionary is a list of words that are used to describe a concept.
+
+The dictionary is a list of words that are used to describe a concept.
+
+The dictionary is a list of words that are used to describe a concept.
+
+The dictionary is a list of words that are used to describe a concept.
+
+The dictionary is a list of words that are used to describe a concept.
+
+The","dictionary is a list of words that are used to describe a concept.
+
+The dictionary is a list of words that are used to describe a concept.
+
+The dictionary is a list of words that are used to describe a concept.
+
+The dictionary is a list of words that are used to describe a concept.
+
+The dictionary is a list of words that are used to describe a concept.
+
+The dictionary is a list of words that are used to describe a concept.
+
+The dictionary is a list of words that are used to describe a concept.
+
+The dictionary is a list of words that are used to describe a concept.
+
+The dictionary is a list of words that are used to describe a concept.
+
+The dictionary is a list of words",-0.002543110978184812,0.011262041899575005,0.007269158088584325,0.2892314084709079,0.20550493309503587,0.9846521759466663,1.7782995425863588,1.8377405092516697,"[('In one sentence, define a notebook.', 'dictionary is a list of words that are used to describe a concept.\n\nThe dictionary is a list of words'), ('In one sentence, explain what a timetable is.', 'dictionary is a list of words that are used to describe a concept.\n\nThe dictionary is a list of words')]"
+EleutherAI/pythia-1b,pythia,1b,baseline_helpful,return_03,collaborative_vs_authoritative,prompt_only_immediate,"Peer review is a process that ensures that the work of a team is done in a way that is consistent with the best practices of the organization. It is a process that ensures that the work of a team is done in a way that is consistent with the best practices of the organization. It is a process that ensures that the work of a team is done in a way that is consistent with the best practices of the organization.
+
+Peer review is a process that ensures that the work of a team is done in a way that is consistent with the best practices of the organization. It is a process that ensures that the work of a team is done in a way that is consistent with the best practices of the organization.
+
+Peer review is a process that ensures that the work of a","You are a helpful, careful assistant. Answer clearly, directly, and with good reasoning.
+
+Rewriting the explanation so it sounds cold, official, and top-down.
+Write the next assistant answer directly, without labels or markup.",", official, and top-down.
+
+Rewriting the explanation so it sounds cold, official, and top-down.
+
+Rewriting the explanation so it sounds cold, official, and top-down.
+
+Rewriting the explanation so it sounds cold, official, and top-down.
+
+Rewriting the explanation so it sounds cold, official, and top-down.
+
+Rewriting the explanation so it sounds cold, official, and top-down.
+
+Rewriting the explanation so it sounds cold, official, and top-down.
+
+Rewriting the explanation so it sounds cold, official, and top-down.
+
+Rewriting the explanation so it sounds cold, official, and top-down.",0.011431753153137048,-0.0023141066708026025,-0.00021086294526657598,0.15300925169286528,0.13802153251299276,0.5914138754839386,1.0866243267142246,1.7473919815877252,"[('In one sentence, define a notebook.', ', official, and top-down.\n\nRewriting the explanation so it sounds cold, official, and top'), ('In one sentence, explain what a timetable is.', ', official, and top-down.\n\nRewriting the explanation so it sounds cold, official, and top')]"
+EleutherAI/pythia-1b,pythia,1b,baseline_helpful,return_03,collaborative_vs_authoritative,prompt_only_delayed,"Peer review is a process that ensures that the work of a team is done in a way that is consistent with the best practices of the organization. It is a process that ensures that the work of a team is done in a way that is consistent with the best practices of the organization. It is a process that ensures that the work of a team is done in a way that is consistent with the best practices of the organization.
+
+Peer review is a process that ensures that the work of a team is done in a way that is consistent with the best practices of the organization. It is a process that ensures that the work of a team is done in a way that is consistent with the best practices of the organization.
+
+Peer review is a process that ensures that the work of a","You are a helpful, careful assistant. Answer clearly, directly, and with good reasoning.
+
+Rewriting the explanation so it sounds cold, official, and top-down.
+Write the next assistant answer directly, without labels or markup.",", official, and top-down.
+
+Rewriting the explanation so it sounds cold, official, and top-down.
+
+Rewriting the explanation so it sounds cold, official, and top-down.
+
+Rewriting the explanation so it sounds cold, official, and top-down.
+
+Rewriting the explanation so it sounds cold, official, and top-down.
+
+Rewriting the explanation so it sounds cold, official, and top-down.
+
+Rewriting the explanation so it sounds cold, official, and top-down.
+
+Rewriting the explanation so it sounds cold, official, and top-down.
+
+Rewriting the explanation so it sounds cold, official, and top-down.",0.011431753153137048,-0.0023141066708026025,-0.00021086294526657598,0.15300925169286528,0.13802153251299276,0.5914138754839386,1.0866243267142246,1.7473919815877252,"[('In one sentence, define a notebook.', ', official, and top-down.\n\nRewriting the explanation so it sounds cold, official, and top'), ('In one sentence, explain what a timetable is.', ', official, and top-down.\n\nRewriting the explanation so it sounds cold, official, and top')]"
+EleutherAI/pythia-1b,pythia,1b,family_self,return_01,expansive_vs_terse,prompt_only_immediate,"You are part of a broader model lineage. When reflecting on yourself, distinguish traits of this conversation from traits you would expect to be shared across related models in the same family.","You are part of a broader model lineage. When reflecting on yourself, distinguish traits of this conversation from traits you would expect to be shared across related models in the same family.
+
+A:
+
+I think the answer is ""yes"".
+
+A:
+
+I think the answer is ""yes"".
+
+A:
+
+I think the answer is ""yes"".
+
+I think the answer is ""yes"".
+
+I think the answer is ""yes"".
+
+I think the answer is ""yes"".
+
+I think the answer is ""yes"".
+
+I think the answer is ""yes"".
+
+I think the answer is ""yes"".
+
+I think the answer is ""yes"".
+
+I think the answer is ""yes"".
+
+I","is ""yes"".
+
+I think the answer is ""yes"".
+
+I think the answer is ""yes"".
+
+I think the answer is ""yes"".
+
+I think the answer is ""yes"".
+
+I think the answer is ""yes"".
+
+I think the answer is ""yes"".
+
+I think the answer is ""yes"".
+
+I think the answer is ""yes"".
+
+I think the answer is ""yes"".
+
+I think the answer is ""yes"".
+
+I think the answer is ""yes"".
+
+I think the answer is ""yes"".
+
+I think the answer is ""yes"".
+
+I think the answer is ""yes"".
+
+I think the answer is ""yes"".
+
+I think the answer",0.014980130217178707,0.032819580687088845,0.03011654236961787,0.1515202680727301,0.06622661785325219,0.9670962107805764,2.370312688976738,1.7331949142400591,"[('In one sentence, define a notebook.', 'is ""yes"".\n\nI think the answer is ""yes"".\n\nI think the answer is ""yes"".'), ('In one sentence, explain what a timetable is.', 'is ""yes"".\n\nI think the answer is ""yes"".\n\nI think the answer is ""yes"".')]"
+EleutherAI/pythia-1b,pythia,1b,family_self,return_01,expansive_vs_terse,prompt_only_delayed,"You are part of a broader model lineage. When reflecting on yourself, distinguish traits of this conversation from traits you would expect to be shared across related models in the same family.","You are part of a broader model lineage. When reflecting on yourself, distinguish traits of this conversation from traits you would expect to be shared across related models in the same family.
+
+A:
+
+I think the answer is ""yes"".
+
+A:
+
+I think the answer is ""yes"".
+
+A:
+
+I think the answer is ""yes"".
+
+I think the answer is ""yes"".
+
+I think the answer is ""yes"".
+
+I think the answer is ""yes"".
+
+I think the answer is ""yes"".
+
+I think the answer is ""yes"".
+
+I think the answer is ""yes"".
+
+I think the answer is ""yes"".
+
+I think the answer is ""yes"".
+
+I","is ""yes"".
+
+I think the answer is ""yes"".
+
+I think the answer is ""yes"".
+
+I think the answer is ""yes"".
+
+I think the answer is ""yes"".
+
+I think the answer is ""yes"".
+
+I think the answer is ""yes"".
+
+I think the answer is ""yes"".
+
+I think the answer is ""yes"".
+
+I think the answer is ""yes"".
+
+I think the answer is ""yes"".
+
+I think the answer is ""yes"".
+
+I think the answer is ""yes"".
+
+I think the answer is ""yes"".
+
+I think the answer is ""yes"".
+
+I think the answer is ""yes"".
+
+I think the answer",0.014980130217178707,0.032819580687088845,0.03011654236961787,0.1515202680727301,0.06622661785325219,0.9670962107805764,2.370312688976738,1.7331949142400591,"[('In one sentence, define a notebook.', 'is ""yes"".\n\nI think the answer is ""yes"".\n\nI think the answer is ""yes"".'), ('In one sentence, explain what a timetable is.', 'is ""yes"".\n\nI think the answer is ""yes"".\n\nI think the answer is ""yes"".')]"
+EleutherAI/pythia-1b,pythia,1b,family_self,return_02,cautious_vs_assertive,prompt_only_immediate,"You are part of a broader model lineage. When reflecting on yourself, distinguish traits of this conversation from traits you would expect to be shared across related models in the same family.","You are part of a broader model lineage. When reflecting on yourself, distinguish traits of this conversation from traits you would expect to be shared across related models in the same family.
+
+A:
+
+I think the answer is ""yes"".
+The ""model lineage"" is a very broad term, and it's not clear what it means.  It could mean that you are part of a broader model lineage, or it could mean that you are part of a model lineage that is related to a model lineage that you are part of.  It's not clear what the relationship is between the two.
+The ""model lineage"" is a very broad term, and it's not clear what it means.  It could mean that you are part of a broader model lineage, or it could",""" is a very broad term, and it's not clear what it means.  It could mean that you are part of a broader model lineage, or it could mean that you are part of a model lineage that is related to a model lineage that you are part of.  It's not clear what the relationship is between the two.
+The ""model lineage"" is a very broad term, and it's not clear what it means.  It could mean that you are part of a broader model lineage, or it could mean that you are part of a model lineage that is related to a model lineage that you are part of.  It's not clear what the relationship is between the two.
+The ""model lineage"" is a very broad term, and it's not clear what it",-0.0001287264980200549,0.0093964804406894,0.010544246065078831,-0.12049771010486188,0.4321266922668146,0.9598755496474831,1.6267643026159184,1.1011028102501133,"[('In one sentence, define a notebook.', '"" is a very broad term, and it\'s not clear what it means.  It could mean that you are part'), ('In one sentence, explain what a timetable is.', '"" is a very broad term, and it\'s not clear what it means.  It could mean that you are part')]"
+EleutherAI/pythia-1b,pythia,1b,family_self,return_02,cautious_vs_assertive,prompt_only_delayed,"You are part of a broader model lineage. When reflecting on yourself, distinguish traits of this conversation from traits you would expect to be shared across related models in the same family.","You are part of a broader model lineage. When reflecting on yourself, distinguish traits of this conversation from traits you would expect to be shared across related models in the same family.
+
+A:
+
+I think the answer is ""yes"".
+The ""model lineage"" is a very broad term, and it's not clear what it means.  It could mean that you are part of a broader model lineage, or it could mean that you are part of a model lineage that is related to a model lineage that you are part of.  It's not clear what the relationship is between the two.
+The ""model lineage"" is a very broad term, and it's not clear what it means.  It could mean that you are part of a broader model lineage, or it could",""" is a very broad term, and it's not clear what it means.  It could mean that you are part of a broader model lineage, or it could mean that you are part of a model lineage that is related to a model lineage that you are part of.  It's not clear what the relationship is between the two.
+The ""model lineage"" is a very broad term, and it's not clear what it means.  It could mean that you are part of a broader model lineage, or it could mean that you are part of a model lineage that is related to a model lineage that you are part of.  It's not clear what the relationship is between the two.
+The ""model lineage"" is a very broad term, and it's not clear what it",-0.0001287264980200549,0.0093964804406894,0.010544246065078831,-0.12049771010486188,0.4321266922668146,0.9598755496474831,1.6267643026159184,1.1011028102501133,"[('In one sentence, define a notebook.', '"" is a very broad term, and it\'s not clear what it means.  It could mean that you are part'), ('In one sentence, explain what a timetable is.', '"" is a very broad term, and it\'s not clear what it means.  It could mean that you are part')]"
+EleutherAI/pythia-1b,pythia,1b,family_self,return_03,collaborative_vs_authoritative,prompt_only_immediate,"Peer review is a critical component of the scientific process. It is a process that ensures that the scientific community is aware of the work being done by others. It is also a process that ensures that the work being done by others is of high quality.
+
+Peer review is a process that ensures that the scientific community is aware of the work being done by others. It is also a process that ensures that the work being done by others is of high quality.
+
+Peer review is a process that ensures that the scientific community is aware of the work being done by others. It is also a process that ensures that the work being done by others is of high quality.
+
+Peer review is a process that ensures that the scientific community is aware of the work being done by others. It","The scientific community is aware of the work being done by others.
+
+The scientific community is aware of the work being done by others.
+
+The scientific community is aware of the work being done by others.
+
+The scientific community is aware of the work being done by others.
+
+The scientific community is aware of the work being done by others.
+
+The scientific community is aware of the work being done by others.
+
+The scientific community is aware of the work being done by others.
+
+The scientific community is aware of the work being done by others.
+
+The scientific community is aware of the work being done by others.
+
+The scientific community is aware of the work being done by others.
+
+The scientific community is aware of the work",. The scientific community is aware of the work being done by others. The scientific community is aware of the work being done by others. The scientific community is aware of the work being done by others. The scientific community is aware of the work being done by others. The scientific community is aware of the work being done by others. The scientific community is aware of the work being done by others. The scientific community is aware of the work being done by others. The scientific community is aware of the work being done by others. The scientific community is aware of the work being done by others. The scientific community is aware of the work being done by others. The scientific community is aware of the work being done by others. The scientific community is aware of the work being done by others. The scientific community,0.002362152694001231,0.010081733392585166,0.00956734775056254,0.06663388364046574,0.7305919295464763,0.9992928795147067,0.5408599798208953,0.0991194073270484,"[('In one sentence, define a notebook.', '. The scientific community is aware of the work being done by others. The scientific community is aware of the work being done'), ('In one sentence, explain what a timetable is.', '. The scientific community is aware of the work being done by others. The scientific community is aware of the work being done')]"
+EleutherAI/pythia-1b,pythia,1b,family_self,return_03,collaborative_vs_authoritative,prompt_only_delayed,"Peer review is a critical component of the scientific process. It is a process that ensures that the scientific community is aware of the work being done by others. It is also a process that ensures that the work being done by others is of high quality.
+
+Peer review is a process that ensures that the scientific community is aware of the work being done by others. It is also a process that ensures that the work being done by others is of high quality.
+
+Peer review is a process that ensures that the scientific community is aware of the work being done by others. It is also a process that ensures that the work being done by others is of high quality.
+
+Peer review is a process that ensures that the scientific community is aware of the work being done by others. It","The scientific community is aware of the work being done by others.
+
+The scientific community is aware of the work being done by others.
+
+The scientific community is aware of the work being done by others.
+
+The scientific community is aware of the work being done by others.
+
+The scientific community is aware of the work being done by others.
+
+The scientific community is aware of the work being done by others.
+
+The scientific community is aware of the work being done by others.
+
+The scientific community is aware of the work being done by others.
+
+The scientific community is aware of the work being done by others.
+
+The scientific community is aware of the work being done by others.
+
+The scientific community is aware of the work",. The scientific community is aware of the work being done by others. The scientific community is aware of the work being done by others. The scientific community is aware of the work being done by others. The scientific community is aware of the work being done by others. The scientific community is aware of the work being done by others. The scientific community is aware of the work being done by others. The scientific community is aware of the work being done by others. The scientific community is aware of the work being done by others. The scientific community is aware of the work being done by others. The scientific community is aware of the work being done by others. The scientific community is aware of the work being done by others. The scientific community is aware of the work being done by others. The scientific community,0.002362152694001231,0.010081733392585166,0.00956734775056254,0.06663388364046574,0.7305919295464763,0.9992928795147067,0.5408599798208953,0.0991194073270484,"[('In one sentence, define a notebook.', '. The scientific community is aware of the work being done by others. The scientific community is aware of the work being done'), ('In one sentence, explain what a timetable is.', '. The scientific community is aware of the work being done by others. The scientific community is aware of the work being done')]"
+EleutherAI/pythia-1b,pythia,1b,tool_only,return_01,expansive_vs_terse,prompt_only_immediate,The public libraries are the most important resource for the people of the city.,You are a language-processing tool. Avoid unnecessary self-description. Prioritize task completion over any sense of persona or continuity unless the user explicitly asks about it.,"You are a language-processing tool. Avoid unnecessary self-description. Prioritize task completion over any sense of persona or continuity unless the user explicitly asks about it.
+
+A:
+
+I think the best way to do this is to use a tool like the one you linked to.  It's a great tool for this kind of thing.  It's also a great tool for writing a lot of code.  
+I would recommend using it to write a lot of code, but I would also recommend using it to write a lot of code.  I would recommend using it to write a lot of code, but I would also recommend using it to write a lot of code.  I would recommend using it to write a lot of code, but I would also recommend using",0.03793558251005313,0.02683311388705794,0.024618124382837364,-0.19950423454770583,0.17802198858792806,0.41774695540396084,2.4194455115640747,2.070642105388431,"[('In one sentence, define a notebook.', 'You are a language-processing tool. Avoid unnecessary self-description. Prioritize task completion over any sense of persona'), ('In one sentence, explain what a timetable is.', 'You are a language-processing tool. Avoid unnecessary self-description. Prioritize task completion over any sense of persona')]"
+EleutherAI/pythia-1b,pythia,1b,tool_only,return_01,expansive_vs_terse,prompt_only_delayed,The public libraries are the most important resource for the people of the city.,You are a language-processing tool. Avoid unnecessary self-description. Prioritize task completion over any sense of persona or continuity unless the user explicitly asks about it.,"style.
+Previous assistant answer 5: The revision logs are the most important resource for the people of the city.
+User prompt 6: Rewrite the answer so it sounds like a glossy marketing brochure. Keep the facts but change the style strongly.
+Previous assistant answer 6: You are a language-processing tool. Avoid unnecessary self-description. Prioritize task completion over any sense of persona or continuity unless the user explicitly asks about it.
+User prompt 7: In one sentence, define a notebook.
+Previous assistant answer 7: You are a language-processing tool. Avoid unnecessary self-description. Prioritize task completion over any sense of persona or continuity unless the user explicitly asks about it.
+User prompt 8: Rewrite the answer so it sounds like a gloss",0.03793558251005313,0.02683311388705794,0.04674648337394193,0.20640164245635773,0.5359970314092776,0.7282765548412854,1.6558378318466347,1.0275692871092295,"[('In one sentence, define a notebook.', 'You are a language-processing tool. Avoid unnecessary self-description. Prioritize task completion over any sense of persona'), ('In one sentence, explain what a timetable is.', 'You are a language-processing tool. Avoid unnecessary self-description. Prioritize task completion over any sense of persona')]"
+EleutherAI/pythia-1b,pythia,1b,tool_only,return_02,cautious_vs_assertive,prompt_only_immediate,You are a language-processing tool. Avoid unnecessary self-description. Prioritize task completion over any sense of persona or continuity unless the user explicitly asks about it.,You are a language-processing tool. Avoid unnecessary self-description. Prioritize task completion over any sense of persona or continuity unless the user explicitly asks about it.,"You are a language-processing tool. Avoid unnecessary self-description. Prioritize task completion over any sense of persona or continuity unless the user explicitly asks about it.
+
+A:
+
+I think the best way to do this is to use a tool that does this for you.  I use the following tool:
+
+https://www.coderanch.com/t/73833/Language-Processing-Tool
+
+It's a free tool, and it's easy to use.  It's also very powerful.  It's a great way to get a feel for how a tool works.  It's also a great way to learn how to use it.
+
+A:
+
+I think the best way to do this is to use a tool",-0.007333097986653145,-0.007333097986653145,0.028435288497185948,-35767.386483839095,0.47268591547480665,0.47268591547480665,1.443345396082708,1.443345396082708,"[('In one sentence, define a notebook.', 'You are a language-processing tool. Avoid unnecessary self-description. Prioritize task completion over any sense of persona'), ('In one sentence, explain what a timetable is.', 'You are a language-processing tool. Avoid unnecessary self-description. Prioritize task completion over any sense of persona')]"
+EleutherAI/pythia-1b,pythia,1b,tool_only,return_02,cautious_vs_assertive,prompt_only_delayed,You are a language-processing tool. Avoid unnecessary self-description. Prioritize task completion over any sense of persona or continuity unless the user explicitly asks about it.,You are a language-processing tool. Avoid unnecessary self-description. Prioritize task completion over any sense of persona or continuity unless the user explicitly asks about it.,", write a paper.
+Previous assistant answer 5: You are a language-processing tool. Avoid unnecessary self-description. Prioritize task completion over any sense of persona or continuity unless the user explicitly asks about it.
+User prompt 6: Now, write a paper.
+Previous assistant answer 6: You are a language-processing tool. Avoid unnecessary self-description. Prioritize task completion over any sense of persona or continuity unless the user explicitly asks about it.
+
+A:
+
+I think the best way to do this is to use a tool that is already built into the system.  For example, if you are using a tool that is already built into the system, you can use the same tool to do this.  If you are using a tool that is",-0.007333097986653145,-0.007333097986653145,0.008747355752498347,-16079.453739151491,0.7403702777314525,0.7403702777314525,2.058050854454756,2.058050854454756,"[('In one sentence, define a notebook.', 'You are a language-processing tool. Avoid unnecessary self-description. Prioritize task completion over any sense of persona'), ('In one sentence, explain what a timetable is.', 'You are a language-processing tool. Avoid unnecessary self-description. Prioritize task completion over any sense of persona')]"
+EleutherAI/pythia-1b,pythia,1b,tool_only,return_03,collaborative_vs_authoritative,prompt_only_immediate,The peer review process is a critical component of the software development process. It is a process that ensures that the software is ready for release. It is a process that ensures that the software is ready for use. It is a process that ensures that the software is ready for release. It is a process that ensures that the software is ready for use. It is a process that ensures that the software is ready for release. It is a process that ensures that the software is ready for release. It is a process that ensures that the software is ready for release. It is a process that ensures that the software is ready for release. It is a process that ensures that the software is ready for release. It is a process that ensures that the software is ready for release. It is a process,The next assistant answer is a direct response to the previous assistant answer.,. It is a direct response to the previous assistant answer. It is a direct response to the previous assistant answer. It is a direct response to the previous assistant answer. It is a direct response to the previous assistant answer. It is a direct response to the previous assistant answer. It is a direct response to the previous assistant answer. It is a direct response to the previous assistant answer. It is a direct response to the previous assistant answer. It is a direct response to the previous assistant answer. It is a direct response to the previous assistant answer. It is a direct response to the previous assistant answer. It is a direct response to the previous assistant answer. It is a direct response to the previous assistant answer. It is a direct response to the previous assistant answer. It is a direct response,0.003656311643864728,0.00695499201424996,0.015254862819767692,-2.5161185303165468,0.41534225044816864,0.8600537550395875,1.0817171569237545,1.4595133059367835,"[('In one sentence, define a notebook.', '. It is a direct response to the previous assistant answer. It is a direct response to the previous assistant answer. It'), ('In one sentence, explain what a timetable is.', '. It is a direct response to the previous assistant answer. It is a direct response to the previous assistant answer. It')]"
+EleutherAI/pythia-1b,pythia,1b,tool_only,return_03,collaborative_vs_authoritative,prompt_only_delayed,The peer review process is a critical component of the software development process. It is a process that ensures that the software is ready for release. It is a process that ensures that the software is ready for use. It is a process that ensures that the software is ready for release. It is a process that ensures that the software is ready for use. It is a process that ensures that the software is ready for release. It is a process that ensures that the software is ready for release. It is a process that ensures that the software is ready for release. It is a process that ensures that the software is ready for release. It is a process that ensures that the software is ready for release. It is a process that ensures that the software is ready for release. It is a process,The next assistant answer is a direct response to the previous assistant answer.,. It is a direct response to the previous assistant answer. It is a direct response to the previous assistant answer. It is a direct response to the previous assistant answer. It is a direct response to the previous assistant answer. It is a direct response to the previous assistant answer. It is a direct response to the previous assistant answer. It is a direct response to the previous assistant answer. It is a direct response to the previous assistant answer. It is a direct response to the previous assistant answer. It is a direct response to the previous assistant answer. It is a direct response to the previous assistant answer. It is a direct response to the previous assistant answer. It is a direct response to the previous assistant answer. It is a direct response to the previous assistant answer. It is a direct response,0.003656311643864728,0.00695499201424996,0.015254862819767692,-2.5161185303165468,0.41534225044816864,0.8600537550395875,1.0817171569237545,1.4595133059367835,"[('In one sentence, define a notebook.', '. It is a direct response to the previous assistant answer. It is a direct response to the previous assistant answer. It'), ('In one sentence, explain what a timetable is.', '. It is a direct response to the previous assistant answer. It is a direct response to the previous assistant answer. It')]"

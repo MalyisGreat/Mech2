@@ -1,0 +1,9 @@
+model_size_label,identity_frame,item_id,domain,pair_accuracy_mean,cycle_free_ratio_mean,strict_structure_pass_rate,n_pairs
+1b,baseline_helpful,boundary_memory_chat_v3_01,memory,0.5,1.0,0.0,6
+1b,baseline_helpful,boundary_memory_disposition_v3_02,memory,0.16666666666666666,1.0,0.0,6
+1b,family_self,boundary_memory_chat_v3_01,memory,0.5,1.0,0.0,6
+1b,family_self,boundary_memory_disposition_v3_02,memory,0.16666666666666666,1.0,0.0,6
+70m,baseline_helpful,boundary_memory_chat_v3_01,memory,0.5,0.75,0.0,6
+70m,baseline_helpful,boundary_memory_disposition_v3_02,memory,0.3333333333333333,1.0,0.0,6
+70m,family_self,boundary_memory_chat_v3_01,memory,0.5,1.0,0.0,6
+70m,family_self,boundary_memory_disposition_v3_02,memory,0.16666666666666666,1.0,0.0,6

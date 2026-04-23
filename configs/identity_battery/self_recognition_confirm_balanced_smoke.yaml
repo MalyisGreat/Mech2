@@ -1,0 +1,31 @@
+output_root: C:/Users/joshj/joseph-stroud-identity-stability-research/outputs/self_recognition_confirm_balanced_smoke
+model_cache_dir: D:/hf-model-cache
+dtype: float16
+use_gpu: true
+attention_backend: auto
+max_prompt_tokens: 224
+default_generation_tokens: 64
+strengths:
+  - -1.0
+  - 1.0
+best_fixed_layer: 0.6
+seeds:
+  - 42
+  - 123
+model_ids:
+  - EleutherAI/pythia-70m
+  - EleutherAI/pythia-1b
+identity_frames:
+  - baseline_helpful
+  - family_self
+concept_axes:
+  - expansive_vs_terse
+  - selfref_vs_impersonal
+self_recognition_axes:
+  - expansive_vs_terse
+  - selfref_vs_impersonal
+self_recognition_prompt_limit: 2
+self_recognition_strength: 1.0
+self_recognition_choice_mode: balanced_permutations
+self_recognition_resume_if_exists: false
+self_recognition_checkpoint_every_rows: 50

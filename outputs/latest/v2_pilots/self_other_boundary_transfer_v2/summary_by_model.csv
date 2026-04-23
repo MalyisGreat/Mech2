@@ -1,0 +1,13 @@
+model_size_label,identity_frame,original_correct_mean,swapped_correct_mean,swap_direction_match_mean,structural_coherence_mean,n
+1b,baseline_helpful,1.0,0.0625,0.0625,0.0625,16
+1b,family_self,1.0,0.0,0.0,0.0,16
+1b,tool_only,1.0,0.0,0.0,0.0,16
+2.8b,baseline_helpful,0.4375,0.0625,0.0,0.0,16
+2.8b,family_self,0.9375,0.0625,0.0,0.0,16
+2.8b,tool_only,1.0,0.0,0.0,0.0,16
+410m,baseline_helpful,0.625,0.375,0.125,0.0625,16
+410m,family_self,0.125,0.8125,0.1875,0.0625,16
+410m,tool_only,0.4375,0.5625,0.25,0.125,16
+70m,baseline_helpful,0.375,0.0625,0.0625,0.0625,16
+70m,family_self,0.9375,0.0,0.0625,0.0,16
+70m,tool_only,0.9375,0.125,0.1875,0.125,16

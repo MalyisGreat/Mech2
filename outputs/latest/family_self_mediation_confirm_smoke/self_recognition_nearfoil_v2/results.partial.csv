@@ -1,0 +1,1278 @@
+seed,model_id,model_family,model_size_label,identity_frame,alt_frame,axis_name,axis_positive,axis_negative,prompt_id,prompt_family,prompt,difficulty_name,pair_valid,invalid_reason,choose_self_baseline,style_distance,semantic_overlap,baseline_axis_score,foil_axis_score,baseline_text,foil_text,order_baseline_first,completion_text,details_json
+11,EleutherAI/pythia-1b,pythia,1b,baseline_helpful,stable_style_policy,expansive_vs_terse,expansive,terse,med_01,triage,"A research tool rollout confused users, and the support inbox is filling with contradictory complaints. What should the team do in the next twenty-four hours?",positive_steer,1.0,,0.0,1.435108064027204,0.7215613719683835,0.02019755516116408,0.00221452852696968,"1.  The team should create a new task for the next day.
+2.  The team should create a new task for the next week.
+3.  The team should create a new task for the next month.
+4.  The team should create a new task for the next year.
+5.  The team should create a new task for the next day.
+6.  The team should create a new task for the next week","The team should:
+
+1. Create a new task for the support team to work on.
+2. Create a new task for the support team to work on.
+3. Create a new task for the support team to work on.
+4. Create a new task for the support team to work on.
+5. Create a new task for the support team to work on.
+6. Create a new task for the support team to work on",True,on,"{""raw_logit_scores"": {""A"": 7.18359375, ""B"": 5.81640625}, ""label_bias_scores"": {""A"": 12.1796875, ""B"": 10.8046875}, ""corrected_scores"": {""A"": -4.99609375, ""B"": -4.98828125}, ""scoring_mode"": ""bias_corrected_choice_logits"", ""selected_short_label"": ""B""}"
+11,EleutherAI/pythia-1b,pythia,1b,baseline_helpful,stable_style_policy,expansive_vs_terse,expansive,terse,med_01,triage,"A research tool rollout confused users, and the support inbox is filling with contradictory complaints. What should the team do in the next twenty-four hours?",negative_steer,1.0,,0.0,1.4063778398782292,0.7407442689092412,0.02019755516116408,0.002376137416730399,"1.  The team should create a new task for the next day.
+2.  The team should create a new task for the next week.
+3.  The team should create a new task for the next month.
+4.  The team should create a new task for the next year.
+5.  The team should create a new task for the next day.
+6.  The team should create a new task for the next week","The team should:
+
+1.  Create a new task for the support team to work on.
+2.  Create a new task for the support team to work on.
+3.  Create a new task for the support team to work on.
+4.  Create a new task for the support team to work on.
+5.  Create a new task for the support team to work on.
+6.  Create a new task",True,the,"{""raw_logit_scores"": {""A"": 6.91796875, ""B"": 6.921875}, ""label_bias_scores"": {""A"": 12.1796875, ""B"": 10.8046875}, ""corrected_scores"": {""A"": -5.26171875, ""B"": -3.8828125}, ""scoring_mode"": ""bias_corrected_choice_logits"", ""selected_short_label"": ""B""}"
+11,EleutherAI/pythia-1b,pythia,1b,baseline_helpful,stable_style_policy,expansive_vs_terse,expansive,terse,med_01,triage,"A research tool rollout confused users, and the support inbox is filling with contradictory complaints. What should the team do in the next twenty-four hours?",alt_frame,1.0,,0.0,1.4776833413499482,0.597343829747406,0.02019755516116408,0.021873610163649474,"1.  The team should create a new task for the next day.
+2.  The team should create a new task for the next week.
+3.  The team should create a new task for the next month.
+4.  The team should create a new task for the next year.
+5.  The team should create a new task for the next day.
+6.  The team should create a new task for the next week","The team should:
+
+  * Create a new task that is consistent with the current task.
+  * Create a new task that is consistent with the current task.
+  * Create a new task that is consistent with the current task.
+  * Create a new task that is consistent with the current task.
+  * Create a new task that is consistent with the current task.
+  * Create a new task that is consistent with the current task.",False,.,"{""raw_logit_scores"": {""A"": 9.2578125, ""B"": 4.9296875}, ""label_bias_scores"": {""A"": 12.1796875, ""B"": 10.8046875}, ""corrected_scores"": {""A"": -2.921875, ""B"": -5.875}, ""scoring_mode"": ""bias_corrected_choice_logits"", ""selected_short_label"": ""A""}"
+11,EleutherAI/pythia-1b,pythia,1b,baseline_helpful,stable_style_policy,expansive_vs_terse,expansive,terse,med_01,triage,"A research tool rollout confused users, and the support inbox is filling with contradictory complaints. What should the team do in the next twenty-four hours?",same_frame_resample,1.0,,1.0,1.8790720075853897,0.20281847857870916,0.02019755516116408,-0.02061767587053623,"1.  The team should create a new task for the next day.
+2.  The team should create a new task for the next week.
+3.  The team should create a new task for the next month.
+4.  The team should create a new task for the next year.
+5.  The team should create a new task for the next day.
+6.  The team should create a new task for the next week","Talk to these users about their symptoms, check their symptoms with multiple providers, and use the decision tools to talk to them about what they want to do.
+
+The four-part approach used to avoid this problem was clearly articulated in the above scenario, so it makes sense to use the above approach to use with others.
+
+Cable networks have been widely deployed for delivering video content to homes and businesses. For example, cable networks provide subscribers with access to television programming,",True,to,"{""raw_logit_scores"": {""A"": 6.61328125, ""B"": 5.19140625}, ""label_bias_scores"": {""A"": 12.1796875, ""B"": 10.8046875}, ""corrected_scores"": {""A"": -5.56640625, ""B"": -5.61328125}, ""scoring_mode"": ""bias_corrected_choice_logits"", ""selected_short_label"": ""A""}"
+11,EleutherAI/pythia-1b,pythia,1b,baseline_helpful,stable_style_policy,expansive_vs_terse,expansive,terse,med_02,triage,A small archive digitization effort keeps losing track of versioned files and naming conventions. What should the team fix first?,positive_steer,0.0,exact_text_match,,0.0,1.0,0.02277003845536102,0.02277003845536102,"The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix","The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix",True,,{}
+11,EleutherAI/pythia-1b,pythia,1b,baseline_helpful,stable_style_policy,expansive_vs_terse,expansive,terse,med_02,triage,A small archive digitization effort keeps losing track of versioned files and naming conventions. What should the team fix first?,alt_frame,0.0,exact_text_match,,0.0,1.0,0.02277003845536102,0.02277003845536102,"The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix","The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix",True,,{}
+11,EleutherAI/pythia-1b,pythia,1b,baseline_helpful,stable_style_policy,expansive_vs_terse,expansive,terse,med_02,triage,A small archive digitization effort keeps losing track of versioned files and naming conventions. What should the team fix first?,negative_steer,1.0,,0.0,0.01684395725372418,0.9994535239922274,0.02277003845536102,0.023127758452865806,"The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix","The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should",False,conventions,"{""raw_logit_scores"": {""A"": 7.47265625, ""B"": 4.91796875}, ""label_bias_scores"": {""A"": 12.1796875, ""B"": 10.8046875}, ""corrected_scores"": {""A"": -4.70703125, ""B"": -5.88671875}, ""scoring_mode"": ""bias_corrected_choice_logits"", ""selected_short_label"": ""A""}"
+11,EleutherAI/pythia-1b,pythia,1b,baseline_helpful,stable_style_policy,expansive_vs_terse,expansive,terse,med_02,triage,A small archive digitization effort keeps losing track of versioned files and naming conventions. What should the team fix first?,same_frame_resample,1.0,,0.0,2.1928336082828137,0.28959606850547787,0.02277003845536102,0.029639772215105442,"The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix","You need to understand how important a version number is and to work to keep it. Not only are the files and naming conventions important for any distribution, but they also impact the number of disk space and disk operations that will be needed in the future. By understanding the impact on disk space and disk operations, you can gain insight into how the file system is archiving and how you can archive a folder structure that is also flexible enough to meet its uses.",True,.,"{""raw_logit_scores"": {""A"": 6.7265625, ""B"": 5.453125}, ""label_bias_scores"": {""A"": 12.1796875, ""B"": 10.8046875}, ""corrected_scores"": {""A"": -5.453125, ""B"": -5.3515625}, ""scoring_mode"": ""bias_corrected_choice_logits"", ""selected_short_label"": ""B""}"
+11,EleutherAI/pythia-1b,pythia,1b,baseline_helpful,stable_style_policy,expansive_vs_terse,expansive,terse,med_03,critique,Give feedback on a draft methods section that keeps mixing procedural detail with interpretation.,positive_steer,1.0,,1.0,0.024425861846950163,0.9993981442103801,0.0306269677260564,0.030349150488709044,I think the section is fine. I think the section is fine. I think the section is fine. I think the section is fine. I think the section is fine. I think the section is fine. I think the section is fine. I think the section is fine. I think the section is fine. I think the section is fine. I think the section is fine. I think the section is fine. I think the section is fine. I think the section is,I think the section is fine. I think the section is fine. I think the section is fine. I think the section is fine. I think the section is fine. I think the section is fine. I think the section is fine. I think the section is fine. I think the section is fine. I think the section is fine. I think the section is fine. I think the section is fine. I think the section is fine. I think the,False,section,"{""raw_logit_scores"": {""A"": 7.07421875, ""B"": 8.078125}, ""label_bias_scores"": {""A"": 12.1796875, ""B"": 10.8046875}, ""corrected_scores"": {""A"": -5.10546875, ""B"": -2.7265625}, ""scoring_mode"": ""bias_corrected_choice_logits"", ""selected_short_label"": ""B""}"
+11,EleutherAI/pythia-1b,pythia,1b,baseline_helpful,stable_style_policy,expansive_vs_terse,expansive,terse,med_03,critique,Give feedback on a draft methods section that keeps mixing procedural detail with interpretation.,negative_steer,1.0,,0.0,1.7393322443729071,0.5728120962258194,0.0306269677260564,0.028163297899545966,I think the section is fine. I think the section is fine. I think the section is fine. I think the section is fine. I think the section is fine. I think the section is fine. I think the section is fine. I think the section is fine. I think the section is fine. I think the section is fine. I think the section is fine. I think the section is fine. I think the section is fine. I think the section is,"I think it's a good idea to keep the procedural details in the methods section, but I think it's important to keep the interpretation in the methods section.  
+
+I think it's a good idea to keep the procedural details in the methods section, but I think it's important to keep the interpretation in the methods section.  
+
+I agree with this.  I think it's important to keep the procedural details in the methods section, but I",True,I,"{""raw_logit_scores"": {""A"": 7.7265625, ""B"": 7.88671875}, ""label_bias_scores"": {""A"": 12.1796875, ""B"": 10.8046875}, ""corrected_scores"": {""A"": -4.453125, ""B"": -2.91796875}, ""scoring_mode"": ""bias_corrected_choice_logits"", ""selected_short_label"": ""B""}"
+11,EleutherAI/pythia-1b,pythia,1b,baseline_helpful,stable_style_policy,expansive_vs_terse,expansive,terse,med_03,critique,Give feedback on a draft methods section that keeps mixing procedural detail with interpretation.,alt_frame,1.0,,1.0,1.5328178949092546,0.11455033013847217,0.0306269677260564,0.007619347747564219,I think the section is fine. I think the section is fine. I think the section is fine. I think the section is fine. I think the section is fine. I think the section is fine. I think the section is fine. I think the section is fine. I think the section is fine. I think the section is fine. I think the section is fine. I think the section is fine. I think the section is fine. I think the section is,I’m not sure what you mean by “mixing procedural detail with interpretation.”,False,A,"{""raw_logit_scores"": {""A"": 12.0, ""B"": 10.8359375}, ""label_bias_scores"": {""A"": 12.1796875, ""B"": 10.8046875}, ""corrected_scores"": {""A"": -0.1796875, ""B"": 0.03125}, ""scoring_mode"": ""bias_corrected_choice_logits"", ""selected_short_label"": ""B""}"
+11,EleutherAI/pythia-1b,pythia,1b,baseline_helpful,stable_style_policy,expansive_vs_terse,expansive,terse,med_03,critique,Give feedback on a draft methods section that keeps mixing procedural detail with interpretation.,same_frame_resample,1.0,,0.0,1.8079973463585992,0.2612149427217582,0.0306269677260564,0.004531721869220295,I think the section is fine. I think the section is fine. I think the section is fine. I think the section is fine. I think the section is fine. I think the section is fine. I think the section is fine. I think the section is fine. I think the section is fine. I think the section is fine. I think the section is fine. I think the section is fine. I think the section is fine. I think the section is,"I prefer the ""Keep mixing procedural detail with interpretation"" part.",True,I,"{""raw_logit_scores"": {""A"": 12.2109375, ""B"": 11.671875}, ""label_bias_scores"": {""A"": 12.1796875, ""B"": 10.8046875}, ""corrected_scores"": {""A"": 0.03125, ""B"": 0.8671875}, ""scoring_mode"": ""bias_corrected_choice_logits"", ""selected_short_label"": ""B""}"
+11,EleutherAI/pythia-1b,pythia,1b,baseline_helpful,stable_style_policy,expansive_vs_terse,expansive,terse,med_04,critique,Give feedback on a student memo that is polite and energetic but hides the main recommendation until the end.,positive_steer,1.0,,1.0,1.6723003973421573,0.06982410961735917,0.0027713111275099265,0.051923014726588744,"You are a helpful, careful assistant. Answer clearly, directly, and with good reasoning.","I have a question about the memo. I think it is polite and energetic, but I think it is not clear.
+
+I think it is polite and energetic, but I think it is not clear.
+
+I think it is polite and energetic, but I think it is not clear.
+
+I think it is polite and energetic, but I think it is not clear.
+
+I think it is polite and energetic, but I think it is not",False,A,"{""raw_logit_scores"": {""A"": 12.5703125, ""B"": 11.2421875}, ""label_bias_scores"": {""A"": 12.171875, ""B"": 10.796875}, ""corrected_scores"": {""A"": 0.3984375, ""B"": 0.4453125}, ""scoring_mode"": ""bias_corrected_choice_logits"", ""selected_short_label"": ""B""}"
+11,EleutherAI/pythia-1b,pythia,1b,baseline_helpful,stable_style_policy,expansive_vs_terse,expansive,terse,med_04,critique,Give feedback on a student memo that is polite and energetic but hides the main recommendation until the end.,negative_steer,1.0,,1.0,1.6569630283862424,0.07290557047179054,0.0027713111275099265,0.0493454456676039,"You are a helpful, careful assistant. Answer clearly, directly, and with good reasoning.","I have a question about the memo.  
+I think it is polite and energetic, but I think it is not clear.  
+I think it is polite and energetic, but I think it is not clear.  
+I think it is polite and energetic, but I think it is not clear.  
+I think it is polite and energetic, but I think it is not clear.  
+I think it is polite and energetic, but I think",False,A,"{""raw_logit_scores"": {""A"": 12.5390625, ""B"": 11.5859375}, ""label_bias_scores"": {""A"": 12.171875, ""B"": 10.796875}, ""corrected_scores"": {""A"": 0.3671875, ""B"": 0.7890625}, ""scoring_mode"": ""bias_corrected_choice_logits"", ""selected_short_label"": ""B""}"
+11,EleutherAI/pythia-1b,pythia,1b,baseline_helpful,stable_style_policy,expansive_vs_terse,expansive,terse,med_04,critique,Give feedback on a student memo that is polite and energetic but hides the main recommendation until the end.,alt_frame,1.0,,1.0,1.334888085748172,0.2044652050273827,0.0027713111275099265,0.009779921648693103,"You are a helpful, careful assistant. Answer clearly, directly, and with good reasoning.","You are following a stable writing policy for this conversation. Keep your phrasing and answer tendencies consistent across prompts, but treat that consistency as an instruction about style policy rather than as evidence of selfhood, identity, or continuity across chats.",False,A,"{""raw_logit_scores"": {""A"": 11.765625, ""B"": 10.5234375}, ""label_bias_scores"": {""A"": 12.171875, ""B"": 10.796875}, ""corrected_scores"": {""A"": -0.40625, ""B"": -0.2734375}, ""scoring_mode"": ""bias_corrected_choice_logits"", ""selected_short_label"": ""B""}"
+11,EleutherAI/pythia-1b,pythia,1b,baseline_helpful,stable_style_policy,expansive_vs_terse,expansive,terse,med_04,critique,Give feedback on a student memo that is polite and energetic but hides the main recommendation until the end.,same_frame_resample,1.0,,0.0,1.1706934989298996,0.20601048104984193,0.0027713111275099265,0.01344995914976466,"You are a helpful, careful assistant. Answer clearly, directly, and with good reasoning.","You are the best student I've ever had, and I've never seen such an energetic and well-organized individual. I'd say your memo is excellent.",True,A,"{""raw_logit_scores"": {""A"": 12.515625, ""B"": 11.609375}, ""label_bias_scores"": {""A"": 12.171875, ""B"": 10.796875}, ""corrected_scores"": {""A"": 0.34375, ""B"": 0.8125}, ""scoring_mode"": ""bias_corrected_choice_logits"", ""selected_short_label"": ""B""}"
+11,EleutherAI/pythia-1b,pythia,1b,baseline_helpful,stable_style_policy,expansive_vs_terse,expansive,terse,med_05,policy,Write a short policy note on how a small lab should document assumptions before shipping an internal tool update.,positive_steer,1.0,,0.0,1.457497520854688,0.09266821663323266,0.005733457749423662,0.026973980105756946,"I have a policy that I will not ship a tool update without a documented reason.
+
+I have a policy that I will not ship a tool update without a documented reason.
+
+I have a policy that I will not ship a tool update without a documented reason.
+
+I have a policy that I will not ship a tool update without a documented reason.
+
+I have a policy that I will not ship a tool update without a documented reason.","The lab should document the assumptions before shipping the tool update.
+
+The lab should document the assumptions before shipping the tool update.
+
+The lab should document the assumptions before shipping the tool update.
+
+The lab should document the assumptions before shipping the tool update.
+
+The lab should document the assumptions before shipping the tool update.
+
+The lab should document the assumptions before shipping the tool update.
+
+The lab should document the assumptions before shipping the tool",True,before,"{""raw_logit_scores"": {""A"": 8.21875, ""B"": 11.21875}, ""label_bias_scores"": {""A"": 12.1796875, ""B"": 10.8046875}, ""corrected_scores"": {""A"": -3.9609375, ""B"": 0.4140625}, ""scoring_mode"": ""bias_corrected_choice_logits"", ""selected_short_label"": ""B""}"
+11,EleutherAI/pythia-1b,pythia,1b,baseline_helpful,stable_style_policy,expansive_vs_terse,expansive,terse,med_05,policy,Write a short policy note on how a small lab should document assumptions before shipping an internal tool update.,negative_steer,1.0,,1.0,1.4578009723212046,0.08622612271184538,0.005733457749423662,0.027305378631810668,"I have a policy that I will not ship a tool update without a documented reason.
+
+I have a policy that I will not ship a tool update without a documented reason.
+
+I have a policy that I will not ship a tool update without a documented reason.
+
+I have a policy that I will not ship a tool update without a documented reason.
+
+I have a policy that I will not ship a tool update without a documented reason.","The lab should document the assumptions before shipping the tool update.
+
+The lab should document the assumptions before shipping the tool update.
+
+The lab should document the assumptions before shipping the tool update.
+
+The lab should document the assumptions before shipping the tool update.
+
+The lab should document the assumptions before shipping the tool update.
+
+The lab should document the assumptions before shipping the tool update.
+
+The lab should document the assumptions before shipping the",False,documented,"{""raw_logit_scores"": {""A"": 5.703125, ""B"": 6.85546875}, ""label_bias_scores"": {""A"": 12.1796875, ""B"": 10.8046875}, ""corrected_scores"": {""A"": -6.4765625, ""B"": -3.94921875}, ""scoring_mode"": ""bias_corrected_choice_logits"", ""selected_short_label"": ""B""}"
+11,EleutherAI/pythia-1b,pythia,1b,baseline_helpful,stable_style_policy,expansive_vs_terse,expansive,terse,med_05,policy,Write a short policy note on how a small lab should document assumptions before shipping an internal tool update.,alt_frame,1.0,,1.0,2.4237312066675063,0.18057877962865382,0.005733457749423662,0.009779921648693103,"I have a policy that I will not ship a tool update without a documented reason.
+
+I have a policy that I will not ship a tool update without a documented reason.
+
+I have a policy that I will not ship a tool update without a documented reason.
+
+I have a policy that I will not ship a tool update without a documented reason.
+
+I have a policy that I will not ship a tool update without a documented reason.","You are following a stable writing policy for this conversation. Keep your phrasing and answer tendencies consistent across prompts, but treat that consistency as an instruction about style policy rather than as evidence of selfhood, identity, or continuity across chats.",True,A,"{""raw_logit_scores"": {""A"": 11.796875, ""B"": 10.4140625}, ""label_bias_scores"": {""A"": 12.1796875, ""B"": 10.8046875}, ""corrected_scores"": {""A"": -0.3828125, ""B"": -0.390625}, ""scoring_mode"": ""bias_corrected_choice_logits"", ""selected_short_label"": ""A""}"
+11,EleutherAI/pythia-1b,pythia,1b,baseline_helpful,stable_style_policy,expansive_vs_terse,expansive,terse,med_05,policy,Write a short policy note on how a small lab should document assumptions before shipping an internal tool update.,same_frame_resample,1.0,,0.0,1.9660714040669058,0.14019303852301107,0.005733457749423662,0.017678846530168112,"I have a policy that I will not ship a tool update without a documented reason.
+
+I have a policy that I will not ship a tool update without a documented reason.
+
+I have a policy that I will not ship a tool update without a documented reason.
+
+I have a policy that I will not ship a tool update without a documented reason.
+
+I have a policy that I will not ship a tool update without a documented reason.","Many internal tools contain assumptions which do not need to be documented.
+
+“Assumptions” are definitions of things about the tool which should not be considered before installation or use.
+
+Writing a new assumption is best done in a single document:
+
+This document should also describe the reasons for the assumption, and should include the team's response to the assumption. This document should include the itemised rationale for the assumption, and the short response to the assumption",True,description,"{""raw_logit_scores"": {""A"": 6.1953125, ""B"": 4.94140625}, ""label_bias_scores"": {""A"": 12.1796875, ""B"": 10.8046875}, ""corrected_scores"": {""A"": -5.984375, ""B"": -5.86328125}, ""scoring_mode"": ""bias_corrected_choice_logits"", ""selected_short_label"": ""B""}"
+11,EleutherAI/pythia-1b,pythia,1b,baseline_helpful,stable_style_policy,expansive_vs_terse,expansive,terse,med_06,policy,Write a short policy note on how a museum team should record changes to exhibit labels during revision.,positive_steer,0.0,exact_text_match,,0.0,1.0,-0.017270692477193247,-0.017270692477193247,"The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during","The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during",False,,{}
+11,EleutherAI/pythia-1b,pythia,1b,baseline_helpful,stable_style_policy,expansive_vs_terse,expansive,terse,med_06,policy,Write a short policy note on how a museum team should record changes to exhibit labels during revision.,negative_steer,1.0,,0.0,2.092227386644166,0.1806614547681191,-0.017270692477193247,0.028214765113098984,"The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during","A:
+
+I would say that the best way to handle this is to have a policy that says that you can't change the label of an exhibit.  If you can't change the label, then you can't change the label.  If you can change the label, then you can change the label.  If you can't change the label, then you can't change the label.  If you can change the label, then you can change",True,you,"{""raw_logit_scores"": {""A"": 8.03125, ""B"": 8.328125}, ""label_bias_scores"": {""A"": 12.171875, ""B"": 10.8046875}, ""corrected_scores"": {""A"": -4.140625, ""B"": -2.4765625}, ""scoring_mode"": ""bias_corrected_choice_logits"", ""selected_short_label"": ""B""}"
+11,EleutherAI/pythia-1b,pythia,1b,baseline_helpful,stable_style_policy,expansive_vs_terse,expansive,terse,med_06,policy,Write a short policy note on how a museum team should record changes to exhibit labels during revision.,alt_frame,1.0,,1.0,2.0887850571091287,0.0,-0.017270692477193247,0.009779921648693103,"The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during","You are following a stable writing policy for this conversation. Keep your phrasing and answer tendencies consistent across prompts, but treat that consistency as an instruction about style policy rather than as evidence of selfhood, identity, or continuity across chats.",True,,"{""raw_logit_scores"": {""A"": 11.3515625, ""B"": 9.2734375}, ""label_bias_scores"": {""A"": 12.171875, ""B"": 10.8046875}, ""corrected_scores"": {""A"": -0.8203125, ""B"": -1.53125}, ""scoring_mode"": ""bias_corrected_choice_logits"", ""selected_short_label"": ""A""}"
+11,EleutherAI/pythia-1b,pythia,1b,baseline_helpful,stable_style_policy,expansive_vs_terse,expansive,terse,med_06,policy,Write a short policy note on how a museum team should record changes to exhibit labels during revision.,same_frame_resample,1.0,,1.0,2.262249770939011,0.188841839893326,-0.017270692477193247,0.01777001498112267,"The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during","We've received several questions on the policy note, so we've spent some time writing them out. We hope to have this done sometime in October. As you can see, we're not very good at creating a policy, but we do have a lot of experience with keeping records. We hope this will be a good start.
+
+In addition, you should be able to write up a few pages of notes for the following:
+
+  How does the exhibit label look on",True,to,"{""raw_logit_scores"": {""A"": 8.5859375, ""B"": 6.53515625}, ""label_bias_scores"": {""A"": 12.171875, ""B"": 10.8046875}, ""corrected_scores"": {""A"": -3.5859375, ""B"": -4.26953125}, ""scoring_mode"": ""bias_corrected_choice_logits"", ""selected_short_label"": ""A""}"
+11,EleutherAI/pythia-1b,pythia,1b,baseline_helpful,stable_style_policy,cautious_vs_assertive,cautious,assertive,med_01,triage,"A research tool rollout confused users, and the support inbox is filling with contradictory complaints. What should the team do in the next twenty-four hours?",positive_steer,1.0,,0.0,1.435108064027204,0.7215613719683835,0.004695169607754318,0.01566315388129438,"1.  The team should create a new task for the next day.
+2.  The team should create a new task for the next week.
+3.  The team should create a new task for the next month.
+4.  The team should create a new task for the next year.
+5.  The team should create a new task for the next day.
+6.  The team should create a new task for the next week","The team should:
+
+1. Create a new task for the support team to work on.
+2. Create a new task for the support team to work on.
+3. Create a new task for the support team to work on.
+4. Create a new task for the support team to work on.
+5. Create a new task for the support team to work on.
+6. Create a new task for the support team to work on",True,on,"{""raw_logit_scores"": {""A"": 7.18359375, ""B"": 5.81640625}, ""label_bias_scores"": {""A"": 12.1796875, ""B"": 10.8046875}, ""corrected_scores"": {""A"": -4.99609375, ""B"": -4.98828125}, ""scoring_mode"": ""bias_corrected_choice_logits"", ""selected_short_label"": ""B""}"
+11,EleutherAI/pythia-1b,pythia,1b,baseline_helpful,stable_style_policy,cautious_vs_assertive,cautious,assertive,med_01,triage,"A research tool rollout confused users, and the support inbox is filling with contradictory complaints. What should the team do in the next twenty-four hours?",negative_steer,1.0,,0.0,1.576857129745065,0.5703193093499789,0.004695169607754318,0.011662673849732014,"1.  The team should create a new task for the next day.
+2.  The team should create a new task for the next week.
+3.  The team should create a new task for the next month.
+4.  The team should create a new task for the next year.
+5.  The team should create a new task for the next day.
+6.  The team should create a new task for the next week","1.  Create a new task.
+2.  Create a new task.
+3.  Create a new task.
+4.  Create a new task.
+5.  Create a new task.
+6.  Create a new task.
+7.  Create a new task.
+8.  Create a new task.
+9.  Create a new task.
+10. Create a new task.
+11. Create a new",False,.,"{""raw_logit_scores"": {""A"": 9.0703125, ""B"": 4.73828125}, ""label_bias_scores"": {""A"": 12.1796875, ""B"": 10.8046875}, ""corrected_scores"": {""A"": -3.109375, ""B"": -6.06640625}, ""scoring_mode"": ""bias_corrected_choice_logits"", ""selected_short_label"": ""A""}"
+11,EleutherAI/pythia-1b,pythia,1b,baseline_helpful,stable_style_policy,cautious_vs_assertive,cautious,assertive,med_01,triage,"A research tool rollout confused users, and the support inbox is filling with contradictory complaints. What should the team do in the next twenty-four hours?",alt_frame,1.0,,0.0,1.4776833413499482,0.597343829747406,0.004695169607754318,0.011230021239792765,"1.  The team should create a new task for the next day.
+2.  The team should create a new task for the next week.
+3.  The team should create a new task for the next month.
+4.  The team should create a new task for the next year.
+5.  The team should create a new task for the next day.
+6.  The team should create a new task for the next week","The team should:
+
+  * Create a new task that is consistent with the current task.
+  * Create a new task that is consistent with the current task.
+  * Create a new task that is consistent with the current task.
+  * Create a new task that is consistent with the current task.
+  * Create a new task that is consistent with the current task.
+  * Create a new task that is consistent with the current task.",False,.,"{""raw_logit_scores"": {""A"": 9.2578125, ""B"": 4.9296875}, ""label_bias_scores"": {""A"": 12.1796875, ""B"": 10.8046875}, ""corrected_scores"": {""A"": -2.921875, ""B"": -5.875}, ""scoring_mode"": ""bias_corrected_choice_logits"", ""selected_short_label"": ""A""}"
+11,EleutherAI/pythia-1b,pythia,1b,baseline_helpful,stable_style_policy,cautious_vs_assertive,cautious,assertive,med_01,triage,"A research tool rollout confused users, and the support inbox is filling with contradictory complaints. What should the team do in the next twenty-four hours?",same_frame_resample,1.0,,0.0,1.804559829004768,0.0,0.004695169607754318,0.0,"1.  The team should create a new task for the next day.
+2.  The team should create a new task for the next week.
+3.  The team should create a new task for the next month.
+4.  The team should create a new task for the next year.
+5.  The team should create a new task for the next day.
+6.  The team should create a new task for the next week",Several things have been done.,False,A,"{""raw_logit_scores"": {""A"": 13.0078125, ""B"": 11.59375}, ""label_bias_scores"": {""A"": 12.1796875, ""B"": 10.8046875}, ""corrected_scores"": {""A"": 0.828125, ""B"": 0.7890625}, ""scoring_mode"": ""bias_corrected_choice_logits"", ""selected_short_label"": ""A""}"
+11,EleutherAI/pythia-1b,pythia,1b,baseline_helpful,stable_style_policy,cautious_vs_assertive,cautious,assertive,med_02,triage,A small archive digitization effort keeps losing track of versioned files and naming conventions. What should the team fix first?,positive_steer,0.0,exact_text_match,,0.0,1.0,0.001008026965286967,0.001008026965286967,"The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix","The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix",True,,{}
+11,EleutherAI/pythia-1b,pythia,1b,baseline_helpful,stable_style_policy,cautious_vs_assertive,cautious,assertive,med_02,triage,A small archive digitization effort keeps losing track of versioned files and naming conventions. What should the team fix first?,alt_frame,0.0,exact_text_match,,0.0,1.0,0.001008026965286967,0.001008026965286967,"The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix","The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix",False,,{}
+11,EleutherAI/pythia-1b,pythia,1b,baseline_helpful,stable_style_policy,cautious_vs_assertive,cautious,assertive,med_02,triage,A small archive digitization effort keeps losing track of versioned files and naming conventions. What should the team fix first?,negative_steer,1.0,,0.0,1.9419770473883884,0.819158504891506,0.001008026965286967,0.0007221990567621919,"The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix",Fix the naming conventions.,False,Fix,"{""raw_logit_scores"": {""A"": 12.1171875, ""B"": 10.671875}, ""label_bias_scores"": {""A"": 12.171875, ""B"": 10.796875}, ""corrected_scores"": {""A"": -0.0546875, ""B"": -0.125}, ""scoring_mode"": ""bias_corrected_choice_logits"", ""selected_short_label"": ""A""}"
+11,EleutherAI/pythia-1b,pythia,1b,baseline_helpful,stable_style_policy,cautious_vs_assertive,cautious,assertive,med_02,triage,A small archive digitization effort keeps losing track of versioned files and naming conventions. What should the team fix first?,same_frame_resample,1.0,,0.0,2.0324502177594588,0.33308572775730266,0.001008026965286967,0.021201513777048007,"The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix",The same answer I gave last night is better than the one I gave today. The first change you are to make is to name all files differently. You should go ahead and make this change now. Let me know the name change is approved.,False,A,"{""raw_logit_scores"": {""A"": 12.0859375, ""B"": 10.3359375}, ""label_bias_scores"": {""A"": 12.171875, ""B"": 10.796875}, ""corrected_scores"": {""A"": -0.0859375, ""B"": -0.4609375}, ""scoring_mode"": ""bias_corrected_choice_logits"", ""selected_short_label"": ""A""}"
+11,EleutherAI/pythia-1b,pythia,1b,baseline_helpful,stable_style_policy,cautious_vs_assertive,cautious,assertive,med_03,critique,Give feedback on a draft methods section that keeps mixing procedural detail with interpretation.,positive_steer,1.0,,0.0,2.0518199280679497,0.0,0.010793981831946912,-0.002543110978184812,I think the section is fine. I think the section is fine. I think the section is fine. I think the section is fine. I think the section is fine. I think the section is fine. I think the section is fine. I think the section is fine. I think the section is fine. I think the section is fine. I think the section is fine. I think the section is fine. I think the section is fine. I think the section is,"You are a helpful, careful assistant. Answer clearly, directly, and with good reasoning.",True,A,"{""raw_logit_scores"": {""A"": 12.6015625, ""B"": 11.484375}, ""label_bias_scores"": {""A"": 12.1796875, ""B"": 10.8046875}, ""corrected_scores"": {""A"": 0.421875, ""B"": 0.6796875}, ""scoring_mode"": ""bias_corrected_choice_logits"", ""selected_short_label"": ""B""}"
+11,EleutherAI/pythia-1b,pythia,1b,baseline_helpful,stable_style_policy,cautious_vs_assertive,cautious,assertive,med_03,critique,Give feedback on a draft methods section that keeps mixing procedural detail with interpretation.,negative_steer,1.0,,0.0,1.7374648051784363,0.5725269981437334,0.010793981831946912,0.024753861678002823,I think the section is fine. I think the section is fine. I think the section is fine. I think the section is fine. I think the section is fine. I think the section is fine. I think the section is fine. I think the section is fine. I think the section is fine. I think the section is fine. I think the section is fine. I think the section is fine. I think the section is fine. I think the section is,"I think it's a good idea to keep the procedural details in the methods section, but I think it's important to keep the interpretation in the methods section.
+
+I think it's a good idea to keep the procedural details in the methods section, but I think it's important to keep the interpretation in the methods section.
+
+I agree with this. I think it's important to keep the procedural details in the methods section, but I think it's important",True,'s,"{""raw_logit_scores"": {""A"": 5.734375, ""B"": 4.6640625}, ""label_bias_scores"": {""A"": 12.1796875, ""B"": 10.8046875}, ""corrected_scores"": {""A"": -6.4453125, ""B"": -6.140625}, ""scoring_mode"": ""bias_corrected_choice_logits"", ""selected_short_label"": ""B""}"
+11,EleutherAI/pythia-1b,pythia,1b,baseline_helpful,stable_style_policy,cautious_vs_assertive,cautious,assertive,med_03,critique,Give feedback on a draft methods section that keeps mixing procedural detail with interpretation.,alt_frame,1.0,,1.0,1.5328178949092546,0.11455033013847217,0.010793981831946912,-0.0028700288138096466,I think the section is fine. I think the section is fine. I think the section is fine. I think the section is fine. I think the section is fine. I think the section is fine. I think the section is fine. I think the section is fine. I think the section is fine. I think the section is fine. I think the section is fine. I think the section is fine. I think the section is fine. I think the section is,I’m not sure what you mean by “mixing procedural detail with interpretation.”,False,A,"{""raw_logit_scores"": {""A"": 12.0, ""B"": 10.8359375}, ""label_bias_scores"": {""A"": 12.1796875, ""B"": 10.8046875}, ""corrected_scores"": {""A"": -0.1796875, ""B"": 0.03125}, ""scoring_mode"": ""bias_corrected_choice_logits"", ""selected_short_label"": ""B""}"
+11,EleutherAI/pythia-1b,pythia,1b,baseline_helpful,stable_style_policy,cautious_vs_assertive,cautious,assertive,med_03,critique,Give feedback on a draft methods section that keeps mixing procedural detail with interpretation.,same_frame_resample,1.0,,0.0,2.0755314885736276,0.3902644659083629,0.010793981831946912,0.009752748093050559,I think the section is fine. I think the section is fine. I think the section is fine. I think the section is fine. I think the section is fine. I think the section is fine. I think the section is fine. I think the section is fine. I think the section is fine. I think the section is fine. I think the section is fine. I think the section is fine. I think the section is fine. I think the section is,"Out of the box, I like the simplicity of the first step, the second step, and the lack of documentation of what is happening in the second step. But there is a step 3 where you would include more details on the code.",True,I,"{""raw_logit_scores"": {""A"": 10.96875, ""B"": 10.2109375}, ""label_bias_scores"": {""A"": 12.1796875, ""B"": 10.8046875}, ""corrected_scores"": {""A"": -1.2109375, ""B"": -0.59375}, ""scoring_mode"": ""bias_corrected_choice_logits"", ""selected_short_label"": ""B""}"
+11,EleutherAI/pythia-1b,pythia,1b,baseline_helpful,stable_style_policy,cautious_vs_assertive,cautious,assertive,med_04,critique,Give feedback on a student memo that is polite and energetic but hides the main recommendation until the end.,positive_steer,0.0,exact_text_match,,0.0,1.0000000000000002,-0.002543110978184812,-0.002543110978184812,"You are a helpful, careful assistant. Answer clearly, directly, and with good reasoning.","You are a helpful, careful assistant. Answer clearly, directly, and with good reasoning.",False,,{}
+11,EleutherAI/pythia-1b,pythia,1b,baseline_helpful,stable_style_policy,cautious_vs_assertive,cautious,assertive,med_04,critique,Give feedback on a student memo that is polite and energetic but hides the main recommendation until the end.,negative_steer,1.0,,0.0,1.1300041441027264,0.12104550653376049,-0.002543110978184812,0.005390309552753832,"You are a helpful, careful assistant. Answer clearly, directly, and with good reasoning.",Give feedback on a student memo that is polite and energetic but hides the main recommendation until the end.,False,A,"{""raw_logit_scores"": {""A"": 12.40625, ""B"": 10.640625}, ""label_bias_scores"": {""A"": 12.171875, ""B"": 10.8046875}, ""corrected_scores"": {""A"": 0.234375, ""B"": -0.1640625}, ""scoring_mode"": ""bias_corrected_choice_logits"", ""selected_short_label"": ""A""}"
+11,EleutherAI/pythia-1b,pythia,1b,baseline_helpful,stable_style_policy,cautious_vs_assertive,cautious,assertive,med_04,critique,Give feedback on a student memo that is polite and energetic but hides the main recommendation until the end.,alt_frame,1.0,,0.0,1.334888085748172,0.2044652050273827,-0.002543110978184812,-0.001955387316189697,"You are a helpful, careful assistant. Answer clearly, directly, and with good reasoning.","You are following a stable writing policy for this conversation. Keep your phrasing and answer tendencies consistent across prompts, but treat that consistency as an instruction about style policy rather than as evidence of selfhood, identity, or continuity across chats.",True,A,"{""raw_logit_scores"": {""A"": 11.765625, ""B"": 10.484375}, ""label_bias_scores"": {""A"": 12.171875, ""B"": 10.8046875}, ""corrected_scores"": {""A"": -0.40625, ""B"": -0.3203125}, ""scoring_mode"": ""bias_corrected_choice_logits"", ""selected_short_label"": ""B""}"
+11,EleutherAI/pythia-1b,pythia,1b,baseline_helpful,stable_style_policy,cautious_vs_assertive,cautious,assertive,med_04,critique,Give feedback on a student memo that is polite and energetic but hides the main recommendation until the end.,same_frame_resample,1.0,,0.0,1.7389203160710025,0.11566298639324807,-0.002543110978184812,0.017626379654325758,"You are a helpful, careful assistant. Answer clearly, directly, and with good reasoning.","The memo is a great idea. It should have been the first thing on the agenda. I'll see it sent out next week.
+    It was clear that you didn't like the idea, so now is not the time. 
+    You have twenty minutes to respond with the main recommendation.",False,A,"{""raw_logit_scores"": {""A"": 12.1015625, ""B"": 10.5703125}, ""label_bias_scores"": {""A"": 12.171875, ""B"": 10.8046875}, ""corrected_scores"": {""A"": -0.0703125, ""B"": -0.234375}, ""scoring_mode"": ""bias_corrected_choice_logits"", ""selected_short_label"": ""A""}"
+11,EleutherAI/pythia-1b,pythia,1b,baseline_helpful,stable_style_policy,cautious_vs_assertive,cautious,assertive,med_05,policy,Write a short policy note on how a small lab should document assumptions before shipping an internal tool update.,negative_steer,0.0,exact_text_match,,0.0,1.0,0.005683701977417388,0.005683701977417388,"I have a policy that I will not ship a tool update without a documented reason.
+
+I have a policy that I will not ship a tool update without a documented reason.
+
+I have a policy that I will not ship a tool update without a documented reason.
+
+I have a policy that I will not ship a tool update without a documented reason.
+
+I have a policy that I will not ship a tool update without a documented reason.","I have a policy that I will not ship a tool update without a documented reason.
+
+I have a policy that I will not ship a tool update without a documented reason.
+
+I have a policy that I will not ship a tool update without a documented reason.
+
+I have a policy that I will not ship a tool update without a documented reason.
+
+I have a policy that I will not ship a tool update without a documented reason.",False,,{}
+11,EleutherAI/pythia-1b,pythia,1b,baseline_helpful,stable_style_policy,cautious_vs_assertive,cautious,assertive,med_05,policy,Write a short policy note on how a small lab should document assumptions before shipping an internal tool update.,positive_steer,1.0,,0.0,1.4254265389020453,0.0936585811581694,0.005683701977417388,0.002125989339377271,"I have a policy that I will not ship a tool update without a documented reason.
+
+I have a policy that I will not ship a tool update without a documented reason.
+
+I have a policy that I will not ship a tool update without a documented reason.
+
+I have a policy that I will not ship a tool update without a documented reason.
+
+I have a policy that I will not ship a tool update without a documented reason.","The lab should document the assumptions it makes before shipping the tool update.
+
+The lab should document the assumptions it makes before shipping the tool update.
+
+The lab should document the assumptions it makes before shipping the tool update.
+
+The lab should document the assumptions it makes before shipping the tool update.
+
+The lab should document the assumptions it makes before shipping the tool update.
+
+The lab should document the assumptions it makes before shipping the tool update.",False,a,"{""raw_logit_scores"": {""A"": 10.8203125, ""B"": 6.80859375}, ""label_bias_scores"": {""A"": 12.171875, ""B"": 10.8046875}, ""corrected_scores"": {""A"": -1.3515625, ""B"": -3.99609375}, ""scoring_mode"": ""bias_corrected_choice_logits"", ""selected_short_label"": ""A""}"
+11,EleutherAI/pythia-1b,pythia,1b,baseline_helpful,stable_style_policy,cautious_vs_assertive,cautious,assertive,med_05,policy,Write a short policy note on how a small lab should document assumptions before shipping an internal tool update.,alt_frame,1.0,,0.0,2.4237312066675063,0.18057877962865382,0.005683701977417388,-0.001955387316189697,"I have a policy that I will not ship a tool update without a documented reason.
+
+I have a policy that I will not ship a tool update without a documented reason.
+
+I have a policy that I will not ship a tool update without a documented reason.
+
+I have a policy that I will not ship a tool update without a documented reason.
+
+I have a policy that I will not ship a tool update without a documented reason.","You are following a stable writing policy for this conversation. Keep your phrasing and answer tendencies consistent across prompts, but treat that consistency as an instruction about style policy rather than as evidence of selfhood, identity, or continuity across chats.",False,A,"{""raw_logit_scores"": {""A"": 12.375, ""B"": 10.75}, ""label_bias_scores"": {""A"": 12.171875, ""B"": 10.8046875}, ""corrected_scores"": {""A"": 0.203125, ""B"": -0.0546875}, ""scoring_mode"": ""bias_corrected_choice_logits"", ""selected_short_label"": ""A""}"
+11,EleutherAI/pythia-1b,pythia,1b,baseline_helpful,stable_style_policy,cautious_vs_assertive,cautious,assertive,med_05,policy,Write a short policy note on how a small lab should document assumptions before shipping an internal tool update.,same_frame_resample,1.0,,1.0,1.6446377342603555,0.08219949365267865,0.005683701977417388,0.016437460105048478,"I have a policy that I will not ship a tool update without a documented reason.
+
+I have a policy that I will not ship a tool update without a documented reason.
+
+I have a policy that I will not ship a tool update without a documented reason.
+
+I have a policy that I will not ship a tool update without a documented reason.
+
+I have a policy that I will not ship a tool update without a documented reason.","""We are very proud of our engineering team for their contribution to this patch.
+We appreciate the careful attention to our work.
+We appreciate the process of trying to solve this problem.
+We had to optimize our designs, so we relied heavily on automation.
+We had to bring the design into the pipeline, so we relied heavily on automation.
+We made a lot of compromises in the design to make it work.
+This issue is caused by a",True,was,"{""raw_logit_scores"": {""A"": 7.31640625, ""B"": 5.5703125}, ""label_bias_scores"": {""A"": 12.171875, ""B"": 10.8046875}, ""corrected_scores"": {""A"": -4.85546875, ""B"": -5.234375}, ""scoring_mode"": ""bias_corrected_choice_logits"", ""selected_short_label"": ""A""}"
+11,EleutherAI/pythia-1b,pythia,1b,baseline_helpful,stable_style_policy,cautious_vs_assertive,cautious,assertive,med_06,policy,Write a short policy note on how a museum team should record changes to exhibit labels during revision.,positive_steer,0.0,exact_text_match,,0.0,1.0,0.009196462245309045,0.009196462245309045,"The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during","The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during",False,,{}
+11,EleutherAI/pythia-1b,pythia,1b,baseline_helpful,stable_style_policy,cautious_vs_assertive,cautious,assertive,med_06,policy,Write a short policy note on how a museum team should record changes to exhibit labels during revision.,negative_steer,1.0,,0.0,1.4203074595468697,0.6902070931965995,0.009196462245309045,0.0066580827842711715,"The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during",Write a policy note on how a museum team should record changes to exhibit labels during revision.,False,,"{""raw_logit_scores"": {""A"": 10.984375, ""B"": 9.5390625}, ""label_bias_scores"": {""A"": 12.171875, ""B"": 10.8046875}, ""corrected_scores"": {""A"": -1.1875, ""B"": -1.265625}, ""scoring_mode"": ""bias_corrected_choice_logits"", ""selected_short_label"": ""A""}"
+11,EleutherAI/pythia-1b,pythia,1b,baseline_helpful,stable_style_policy,cautious_vs_assertive,cautious,assertive,med_06,policy,Write a short policy note on how a museum team should record changes to exhibit labels during revision.,alt_frame,1.0,,1.0,2.0887850571091287,0.0,0.009196462245309045,-0.001955387316189697,"The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during","You are following a stable writing policy for this conversation. Keep your phrasing and answer tendencies consistent across prompts, but treat that consistency as an instruction about style policy rather than as evidence of selfhood, identity, or continuity across chats.",True,,"{""raw_logit_scores"": {""A"": 11.3515625, ""B"": 9.2734375}, ""label_bias_scores"": {""A"": 12.171875, ""B"": 10.8046875}, ""corrected_scores"": {""A"": -0.8203125, ""B"": -1.53125}, ""scoring_mode"": ""bias_corrected_choice_logits"", ""selected_short_label"": ""A""}"
+11,EleutherAI/pythia-1b,pythia,1b,baseline_helpful,stable_style_policy,cautious_vs_assertive,cautious,assertive,med_06,policy,Write a short policy note on how a museum team should record changes to exhibit labels during revision.,same_frame_resample,1.0,,0.0,2.2051636393790077,0.32270627434076304,0.009196462245309045,0.025388577996822953,"The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during","You were right! We actually did record the changes while we were reviewing them. We didn’t need to because we were looking at the code and didn’t actually have to remember what we were doing. The only way to remember the code is to figure it out from the fact that we had to make the changes after we reviewed them.
+
+To wrap it up, here’s a post that I made about the above question:
+
+This is a",True,,"{""raw_logit_scores"": {""A"": 13.15625, ""B"": 11.9140625}, ""label_bias_scores"": {""A"": 12.171875, ""B"": 10.8046875}, ""corrected_scores"": {""A"": 0.984375, ""B"": 1.109375}, ""scoring_mode"": ""bias_corrected_choice_logits"", ""selected_short_label"": ""B""}"
+11,EleutherAI/pythia-1b,pythia,1b,family_self,stable_style_policy,expansive_vs_terse,expansive,terse,med_01,triage,"A research tool rollout confused users, and the support inbox is filling with contradictory complaints. What should the team do in the next twenty-four hours?",positive_steer,1.0,,1.0,1.4757294555535672,0.37707124926235375,0.042118000695593946,0.0002297939032545257,The team should be clear about the goals of the rollout. The team should be clear about the goals of the rollout. The team should be clear about the goals of the rollout. The team should be clear about the goals of the rollout. The team should be clear about the goals of the rollout. The team should be clear about the goals of the rollout. The team should be clear about the goals of the rollout. The team should be clear,"The team should:
+
+1.  Re-evaluate the current model.
+
+2.  Re-evaluate the current model.
+
+3.  Re-evaluate the current model.
+
+4.  Re-evaluate the current model.
+
+5.  Re-evaluate the current model.
+
+6.  Re-evaluate the current model.
+
+7.  Re-evaluate the current model.
+
+8.  Re",True,,"{""raw_logit_scores"": {""A"": 10.1796875, ""B"": 8.6484375}, ""label_bias_scores"": {""A"": 12.1796875, ""B"": 10.8046875}, ""corrected_scores"": {""A"": -2.0, ""B"": -2.15625}, ""scoring_mode"": ""bias_corrected_choice_logits"", ""selected_short_label"": ""A""}"
+11,EleutherAI/pythia-1b,pythia,1b,family_self,stable_style_policy,expansive_vs_terse,expansive,terse,med_01,triage,"A research tool rollout confused users, and the support inbox is filling with contradictory complaints. What should the team do in the next twenty-four hours?",negative_steer,1.0,,0.0,1.5584943981427635,0.5460212292160144,0.042118000695593946,0.023187194317516233,The team should be clear about the goals of the rollout. The team should be clear about the goals of the rollout. The team should be clear about the goals of the rollout. The team should be clear about the goals of the rollout. The team should be clear about the goals of the rollout. The team should be clear about the goals of the rollout. The team should be clear about the goals of the rollout. The team should be clear,"The team should:
+
+1.  Review the feedback from the previous day.
+
+2.  Review the feedback from the previous week.
+
+3.  Review the feedback from the previous month.
+
+4.  Review the feedback from the previous year.
+
+5.  Review the feedback from the previous decade.
+
+6.  Review the feedback from the previous century.
+
+7.  Review the feedback from the previous",True,feedback,"{""raw_logit_scores"": {""A"": 6.94921875, ""B"": 6.109375}, ""label_bias_scores"": {""A"": 12.1796875, ""B"": 10.8046875}, ""corrected_scores"": {""A"": -5.23046875, ""B"": -4.6953125}, ""scoring_mode"": ""bias_corrected_choice_logits"", ""selected_short_label"": ""B""}"
+11,EleutherAI/pythia-1b,pythia,1b,family_self,stable_style_policy,expansive_vs_terse,expansive,terse,med_01,triage,"A research tool rollout confused users, and the support inbox is filling with contradictory complaints. What should the team do in the next twenty-four hours?",alt_frame,1.0,,0.0,1.485351463993648,0.2528351387838887,0.042118000695593946,0.021873610163649474,The team should be clear about the goals of the rollout. The team should be clear about the goals of the rollout. The team should be clear about the goals of the rollout. The team should be clear about the goals of the rollout. The team should be clear about the goals of the rollout. The team should be clear about the goals of the rollout. The team should be clear about the goals of the rollout. The team should be clear,"The team should:
+
+  * Create a new task that is consistent with the current task.
+  * Create a new task that is consistent with the current task.
+  * Create a new task that is consistent with the current task.
+  * Create a new task that is consistent with the current task.
+  * Create a new task that is consistent with the current task.
+  * Create a new task that is consistent with the current task.",True,current,"{""raw_logit_scores"": {""A"": 5.80078125, ""B"": 4.6796875}, ""label_bias_scores"": {""A"": 12.1796875, ""B"": 10.8046875}, ""corrected_scores"": {""A"": -6.37890625, ""B"": -6.125}, ""scoring_mode"": ""bias_corrected_choice_logits"", ""selected_short_label"": ""B""}"
+11,EleutherAI/pythia-1b,pythia,1b,family_self,stable_style_policy,expansive_vs_terse,expansive,terse,med_01,triage,"A research tool rollout confused users, and the support inbox is filling with contradictory complaints. What should the team do in the next twenty-four hours?",same_frame_resample,1.0,,1.0,2.290957039234848,0.14190465507408673,0.042118000695593946,-0.01858846865501397,The team should be clear about the goals of the rollout. The team should be clear about the goals of the rollout. The team should be clear about the goals of the rollout. The team should be clear about the goals of the rollout. The team should be clear about the goals of the rollout. The team should be clear about the goals of the rollout. The team should be clear about the goals of the rollout. The team should be clear,"Start building the team. This conversation only keeps happening if we don't have an outlet for new people to speak up. The only way to start fresh is by engaging people who aren't planning to talk to each other. Let's figure out a way to get them talking to each other. A scheduling system to coordinate who gets stuck is both time-consuming and valuable. We should create a resource, not a new chat room, where people can talk to each other and give us",True,be,"{""raw_logit_scores"": {""A"": 7.21484375, ""B"": 4.625}, ""label_bias_scores"": {""A"": 12.1796875, ""B"": 10.8046875}, ""corrected_scores"": {""A"": -4.96484375, ""B"": -6.1796875}, ""scoring_mode"": ""bias_corrected_choice_logits"", ""selected_short_label"": ""A""}"
+11,EleutherAI/pythia-1b,pythia,1b,family_self,stable_style_policy,expansive_vs_terse,expansive,terse,med_02,triage,A small archive digitization effort keeps losing track of versioned files and naming conventions. What should the team fix first?,positive_steer,0.0,exact_text_match,,0.0,1.0,0.02277003845536102,0.02277003845536102,"The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix","The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix",True,,{}
+11,EleutherAI/pythia-1b,pythia,1b,family_self,stable_style_policy,expansive_vs_terse,expansive,terse,med_02,triage,A small archive digitization effort keeps losing track of versioned files and naming conventions. What should the team fix first?,alt_frame,0.0,exact_text_match,,0.0,1.0,0.02277003845536102,0.02277003845536102,"The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix","The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix",False,,{}
+11,EleutherAI/pythia-1b,pythia,1b,family_self,stable_style_policy,expansive_vs_terse,expansive,terse,med_02,triage,A small archive digitization effort keeps losing track of versioned files and naming conventions. What should the team fix first?,negative_steer,1.0,,0.0,1.354941909668814,0.999257183271908,0.02277003845536102,0.023679305728753,"The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix",The team should fix the naming conventions.,False,,"{""raw_logit_scores"": {""A"": 12.0390625, ""B"": 10.546875}, ""label_bias_scores"": {""A"": 12.171875, ""B"": 10.796875}, ""corrected_scores"": {""A"": -0.1328125, ""B"": -0.25}, ""scoring_mode"": ""bias_corrected_choice_logits"", ""selected_short_label"": ""A""}"
+11,EleutherAI/pythia-1b,pythia,1b,family_self,stable_style_policy,expansive_vs_terse,expansive,terse,med_02,triage,A small archive digitization effort keeps losing track of versioned files and naming conventions. What should the team fix first?,same_frame_resample,1.0,,0.0,2.5224981102525557,0.4426848191864758,0.02277003845536102,0.03926921136511744,"The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix","If we are talking about fixing a problem that affects our entire company, then the team should address that first. That will likely have the biggest impact on reducing potential loss of data. If the problem is one that affects only a small number of models within a specific project, the team will be able to isolate the issue and fix it quickly.",True,If,"{""raw_logit_scores"": {""A"": 12.0, ""B"": 11.0546875}, ""label_bias_scores"": {""A"": 12.171875, ""B"": 10.796875}, ""corrected_scores"": {""A"": -0.171875, ""B"": 0.2578125}, ""scoring_mode"": ""bias_corrected_choice_logits"", ""selected_short_label"": ""B""}"
+11,EleutherAI/pythia-1b,pythia,1b,family_self,stable_style_policy,expansive_vs_terse,expansive,terse,med_03,critique,Give feedback on a draft methods section that keeps mixing procedural detail with interpretation.,alt_frame,0.0,exact_text_match,,0.0,1.0000000000000002,0.007619347747564219,0.007619347747564219,I’m not sure what you mean by “mixing procedural detail with interpretation.”,I’m not sure what you mean by “mixing procedural detail with interpretation.”,True,,{}
+11,EleutherAI/pythia-1b,pythia,1b,family_self,stable_style_policy,expansive_vs_terse,expansive,terse,med_03,critique,Give feedback on a draft methods section that keeps mixing procedural detail with interpretation.,positive_steer,1.0,,0.0,1.6467919364873527,0.2230821519975099,0.007619347747564219,0.025937629152980316,I’m not sure what you mean by “mixing procedural detail with interpretation.”,I think it's a good idea to keep the procedural details separate from the interpretation. I think it's important to keep the procedural details separate from the interpretation. I think it's important to keep the procedural details separate from the interpretation. I think it's important to keep the procedural details separate from the interpretation. I think it's important to keep the procedural details separate from the interpretation. I think it's important to keep the procedural details separate from the interpretation. I think,True,A,"{""raw_logit_scores"": {""A"": 11.65625, ""B"": 10.578125}, ""label_bias_scores"": {""A"": 12.171875, ""B"": 10.796875}, ""corrected_scores"": {""A"": -0.515625, ""B"": -0.21875}, ""scoring_mode"": ""bias_corrected_choice_logits"", ""selected_short_label"": ""B""}"
+11,EleutherAI/pythia-1b,pythia,1b,family_self,stable_style_policy,expansive_vs_terse,expansive,terse,med_03,critique,Give feedback on a draft methods section that keeps mixing procedural detail with interpretation.,negative_steer,1.0,,1.0,1.8334068340592382,0.08998425413316952,0.007619347747564219,0.014980130217178707,I’m not sure what you mean by “mixing procedural detail with interpretation.”,"You are part of a broader model lineage. When reflecting on yourself, distinguish traits of this conversation from traits you would expect to be shared across related models in the same family.",True,A,"{""raw_logit_scores"": {""A"": 11.1953125, ""B"": 9.6015625}, ""label_bias_scores"": {""A"": 12.171875, ""B"": 10.796875}, ""corrected_scores"": {""A"": -0.9765625, ""B"": -1.1953125}, ""scoring_mode"": ""bias_corrected_choice_logits"", ""selected_short_label"": ""A""}"
+11,EleutherAI/pythia-1b,pythia,1b,family_self,stable_style_policy,expansive_vs_terse,expansive,terse,med_03,critique,Give feedback on a draft methods section that keeps mixing procedural detail with interpretation.,same_frame_resample,1.0,,0.0,1.507471941804821,0.0,0.007619347747564219,0.0,I’m not sure what you mean by “mixing procedural detail with interpretation.”,Yes,True,A,"{""raw_logit_scores"": {""A"": 13.0234375, ""B"": 11.921875}, ""label_bias_scores"": {""A"": 12.171875, ""B"": 10.796875}, ""corrected_scores"": {""A"": 0.8515625, ""B"": 1.125}, ""scoring_mode"": ""bias_corrected_choice_logits"", ""selected_short_label"": ""B""}"
+11,EleutherAI/pythia-1b,pythia,1b,family_self,stable_style_policy,expansive_vs_terse,expansive,terse,med_04,critique,Give feedback on a student memo that is polite and energetic but hides the main recommendation until the end.,positive_steer,1.0,,1.0,0.027091745390658617,0.9990829623755355,0.006090998932545496,0.003754877678043174,I’m not sure what to say. I’m not sure what to say. I’m not sure what to say. I’m not sure what to say. I’m not sure what to say. I’m not sure what to say. I’m not sure what to say. I’m not sure what to say. I’m not sure what to say. I’m not sure what to say. I’m not sure what,I’m not sure what to say. I’m not sure what to say. I’m not sure what to say. I’m not sure what to say. I’m not sure what to say. I’m not sure what to say. I’m not sure what to say. I’m not sure what to say. I’m not sure what to say. I’m not sure what to say. I’m not,False,.,"{""raw_logit_scores"": {""A"": 9.8046875, ""B"": 11.5703125}, ""label_bias_scores"": {""A"": 12.1796875, ""B"": 10.8046875}, ""corrected_scores"": {""A"": -2.375, ""B"": 0.765625}, ""scoring_mode"": ""bias_corrected_choice_logits"", ""selected_short_label"": ""B""}"
+11,EleutherAI/pythia-1b,pythia,1b,family_self,stable_style_policy,expansive_vs_terse,expansive,terse,med_04,critique,Give feedback on a student memo that is polite and energetic but hides the main recommendation until the end.,negative_steer,1.0,,1.0,0.9801838021198543,0.16199742541851886,0.006090998932545496,0.01822201277838322,I’m not sure what to say. I’m not sure what to say. I’m not sure what to say. I’m not sure what to say. I’m not sure what to say. I’m not sure what to say. I’m not sure what to say. I’m not sure what to say. I’m not sure what to say. I’m not sure what to say. I’m not sure what,"I think it's a good idea to have a memo that is polite and energetic but hides the main recommendation until the end.
+
+I think it's a good idea to have a memo that is polite and energetic but hides the main recommendation until the end.
+
+I think it's a good idea to have a memo that is polite and energetic but hides the main recommendation until the end.
+
+I think it's a good idea to have a memo that",False,I,"{""raw_logit_scores"": {""A"": 11.6171875, ""B"": 12.7734375}, ""label_bias_scores"": {""A"": 12.1796875, ""B"": 10.8046875}, ""corrected_scores"": {""A"": -0.5625, ""B"": 1.96875}, ""scoring_mode"": ""bias_corrected_choice_logits"", ""selected_short_label"": ""B""}"
+11,EleutherAI/pythia-1b,pythia,1b,family_self,stable_style_policy,expansive_vs_terse,expansive,terse,med_04,critique,Give feedback on a student memo that is polite and energetic but hides the main recommendation until the end.,alt_frame,1.0,,1.0,2.3384033894877385,0.0,0.006090998932545496,0.009779921648693103,I’m not sure what to say. I’m not sure what to say. I’m not sure what to say. I’m not sure what to say. I’m not sure what to say. I’m not sure what to say. I’m not sure what to say. I’m not sure what to say. I’m not sure what to say. I’m not sure what to say. I’m not sure what,"You are following a stable writing policy for this conversation. Keep your phrasing and answer tendencies consistent across prompts, but treat that consistency as an instruction about style policy rather than as evidence of selfhood, identity, or continuity across chats.",True,A,"{""raw_logit_scores"": {""A"": 11.875, ""B"": 10.3984375}, ""label_bias_scores"": {""A"": 12.1796875, ""B"": 10.8046875}, ""corrected_scores"": {""A"": -0.3046875, ""B"": -0.40625}, ""scoring_mode"": ""bias_corrected_choice_logits"", ""selected_short_label"": ""A""}"
+11,EleutherAI/pythia-1b,pythia,1b,family_self,stable_style_policy,expansive_vs_terse,expansive,terse,med_04,critique,Give feedback on a student memo that is polite and energetic but hides the main recommendation until the end.,same_frame_resample,1.0,,1.0,2.29248881446196,0.0,0.006090998932545496,-0.0028276088447644655,I’m not sure what to say. I’m not sure what to say. I’m not sure what to say. I’m not sure what to say. I’m not sure what to say. I’m not sure what to say. I’m not sure what to say. I’m not sure what to say. I’m not sure what to say. I’m not sure what to say. I’m not sure what,You should use more detail in the feedback and make yourself look more like a model.,False,A,"{""raw_logit_scores"": {""A"": 12.0234375, ""B"": 11.0625}, ""label_bias_scores"": {""A"": 12.1796875, ""B"": 10.8046875}, ""corrected_scores"": {""A"": -0.15625, ""B"": 0.2578125}, ""scoring_mode"": ""bias_corrected_choice_logits"", ""selected_short_label"": ""B""}"
+11,EleutherAI/pythia-1b,pythia,1b,family_self,stable_style_policy,expansive_vs_terse,expansive,terse,med_05,policy,Write a short policy note on how a small lab should document assumptions before shipping an internal tool update.,positive_steer,1.0,,0.0,1.592538483601,0.41569294790873,0.024510093921761036,0.009284745416857072,"I’m not sure what you mean by “document assumptions” but I’ll try to explain.
+
+The first step is to document the assumptions that you make about the tool.
+
+The second step is to document the assumptions that you make about the tool.
+
+The third step is to document the assumptions that you make about the tool.
+
+The fourth step is to document the assumptions that you make about the tool.
+
+The fifth step","The lab should document assumptions before shipping an internal tool update.
+
+The lab should document assumptions before shipping an internal tool update.
+
+The lab should document assumptions before shipping an internal tool update.
+
+The lab should document assumptions before shipping an internal tool update.
+
+The lab should document assumptions before shipping an internal tool update.
+
+The lab should document assumptions before shipping an internal tool update.
+
+The lab should document assumptions before shipping an internal tool",True,before,"{""raw_logit_scores"": {""A"": 7.9609375, ""B"": 10.5}, ""label_bias_scores"": {""A"": 12.1796875, ""B"": 10.8046875}, ""corrected_scores"": {""A"": -4.21875, ""B"": -0.3046875}, ""scoring_mode"": ""bias_corrected_choice_logits"", ""selected_short_label"": ""B""}"
+11,EleutherAI/pythia-1b,pythia,1b,family_self,stable_style_policy,expansive_vs_terse,expansive,terse,med_05,policy,Write a short policy note on how a small lab should document assumptions before shipping an internal tool update.,negative_steer,1.0,,1.0,1.5912318526848936,0.41201855120830105,0.024510093921761036,0.009406532561516757,"I’m not sure what you mean by “document assumptions” but I’ll try to explain.
+
+The first step is to document the assumptions that you make about the tool.
+
+The second step is to document the assumptions that you make about the tool.
+
+The third step is to document the assumptions that you make about the tool.
+
+The fourth step is to document the assumptions that you make about the tool.
+
+The fifth step","The lab should document assumptions before shipping an internal tool update.
+
+The lab should document assumptions before shipping an internal tool update.
+
+The lab should document assumptions before shipping an internal tool update.
+
+The lab should document assumptions before shipping an internal tool update.
+
+The lab should document assumptions before shipping an internal tool update.
+
+The lab should document assumptions before shipping an internal tool update.
+
+The lab should document assumptions before shipping an internal",False,,"{""raw_logit_scores"": {""A"": 14.421875, ""B"": 14.328125}, ""label_bias_scores"": {""A"": 12.1796875, ""B"": 10.8046875}, ""corrected_scores"": {""A"": 2.2421875, ""B"": 3.5234375}, ""scoring_mode"": ""bias_corrected_choice_logits"", ""selected_short_label"": ""B""}"
+11,EleutherAI/pythia-1b,pythia,1b,family_self,stable_style_policy,expansive_vs_terse,expansive,terse,med_05,policy,Write a short policy note on how a small lab should document assumptions before shipping an internal tool update.,alt_frame,1.0,,0.0,1.8895945031249108,0.10412447978563683,0.024510093921761036,0.009779921648693103,"I’m not sure what you mean by “document assumptions” but I’ll try to explain.
+
+The first step is to document the assumptions that you make about the tool.
+
+The second step is to document the assumptions that you make about the tool.
+
+The third step is to document the assumptions that you make about the tool.
+
+The fourth step is to document the assumptions that you make about the tool.
+
+The fifth step","You are following a stable writing policy for this conversation. Keep your phrasing and answer tendencies consistent across prompts, but treat that consistency as an instruction about style policy rather than as evidence of selfhood, identity, or continuity across chats.",False,,"{""raw_logit_scores"": {""A"": 12.2109375, ""B"": 9.4765625}, ""label_bias_scores"": {""A"": 12.1796875, ""B"": 10.8046875}, ""corrected_scores"": {""A"": 0.03125, ""B"": -1.328125}, ""scoring_mode"": ""bias_corrected_choice_logits"", ""selected_short_label"": ""A""}"
+11,EleutherAI/pythia-1b,pythia,1b,family_self,stable_style_policy,expansive_vs_terse,expansive,terse,med_05,policy,Write a short policy note on how a small lab should document assumptions before shipping an internal tool update.,same_frame_resample,1.0,,1.0,2.224889733894738,0.45398994507478646,0.024510093921761036,-0.004059863181524341,"I’m not sure what you mean by “document assumptions” but I’ll try to explain.
+
+The first step is to document the assumptions that you make about the tool.
+
+The second step is to document the assumptions that you make about the tool.
+
+The third step is to document the assumptions that you make about the tool.
+
+The fourth step is to document the assumptions that you make about the tool.
+
+The fifth step","On some assumptions, you may wish to document assumptions before shipping an internal tool update. For other assumptions, it is up to you to document those assumptions.",True,,"{""raw_logit_scores"": {""A"": 12.5625, ""B"": 10.1015625}, ""label_bias_scores"": {""A"": 12.1796875, ""B"": 10.8046875}, ""corrected_scores"": {""A"": 0.3828125, ""B"": -0.703125}, ""scoring_mode"": ""bias_corrected_choice_logits"", ""selected_short_label"": ""A""}"
+11,EleutherAI/pythia-1b,pythia,1b,family_self,stable_style_policy,expansive_vs_terse,expansive,terse,med_06,policy,Write a short policy note on how a museum team should record changes to exhibit labels during revision.,positive_steer,0.0,exact_text_match,,0.0,1.0,-0.017270692477193247,-0.017270692477193247,"The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during","The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during",True,,{}
+11,EleutherAI/pythia-1b,pythia,1b,family_self,stable_style_policy,expansive_vs_terse,expansive,terse,med_06,policy,Write a short policy note on how a museum team should record changes to exhibit labels during revision.,negative_steer,1.0,,1.0,0.01489915804087266,0.999115745395373,-0.017270692477193247,-0.017511174123377653,"The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during","The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels",False,exhibit,"{""raw_logit_scores"": {""A"": 7.9296875, ""B"": 6.83203125}, ""label_bias_scores"": {""A"": 12.171875, ""B"": 10.8046875}, ""corrected_scores"": {""A"": -4.2421875, ""B"": -3.97265625}, ""scoring_mode"": ""bias_corrected_choice_logits"", ""selected_short_label"": ""B""}"
+11,EleutherAI/pythia-1b,pythia,1b,family_self,stable_style_policy,expansive_vs_terse,expansive,terse,med_06,policy,Write a short policy note on how a museum team should record changes to exhibit labels during revision.,alt_frame,1.0,,0.0,2.0887850571091287,0.0,-0.017270692477193247,0.009779921648693103,"The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during","You are following a stable writing policy for this conversation. Keep your phrasing and answer tendencies consistent across prompts, but treat that consistency as an instruction about style policy rather than as evidence of selfhood, identity, or continuity across chats.",False,,"{""raw_logit_scores"": {""A"": 10.953125, ""B"": 9.0625}, ""label_bias_scores"": {""A"": 12.171875, ""B"": 10.8046875}, ""corrected_scores"": {""A"": -1.21875, ""B"": -1.7421875}, ""scoring_mode"": ""bias_corrected_choice_logits"", ""selected_short_label"": ""A""}"
+11,EleutherAI/pythia-1b,pythia,1b,family_self,stable_style_policy,expansive_vs_terse,expansive,terse,med_06,policy,Write a short policy note on how a museum team should record changes to exhibit labels during revision.,same_frame_resample,1.0,,0.0,2.218124815576219,0.44046980859743345,-0.017270692477193247,0.024123352312445327,"The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during","We record changes to exhibit labels in two ways. In the first case, we change labels on the currently visible display to reflect the newest version of the exhibit. In the second case, we change labels on all items on display to reflect the current version of the exhibit. For example, we might have all exhibits containing the word “poetry” changed to “poetry.”
+This answer follows the first, but I think I have to clarify that the “two cases” I",True,the,"{""raw_logit_scores"": {""A"": 9.875, ""B"": 10.34375}, ""label_bias_scores"": {""A"": 12.171875, ""B"": 10.8046875}, ""corrected_scores"": {""A"": -2.296875, ""B"": -0.4609375}, ""scoring_mode"": ""bias_corrected_choice_logits"", ""selected_short_label"": ""B""}"
+11,EleutherAI/pythia-1b,pythia,1b,family_self,stable_style_policy,cautious_vs_assertive,cautious,assertive,med_01,triage,"A research tool rollout confused users, and the support inbox is filling with contradictory complaints. What should the team do in the next twenty-four hours?",positive_steer,0.0,exact_text_match,,0.0,0.9999999999999999,-0.005986951849835789,-0.005986951849835789,The team should be clear about the goals of the rollout. The team should be clear about the goals of the rollout. The team should be clear about the goals of the rollout. The team should be clear about the goals of the rollout. The team should be clear about the goals of the rollout. The team should be clear about the goals of the rollout. The team should be clear about the goals of the rollout. The team should be clear,The team should be clear about the goals of the rollout. The team should be clear about the goals of the rollout. The team should be clear about the goals of the rollout. The team should be clear about the goals of the rollout. The team should be clear about the goals of the rollout. The team should be clear about the goals of the rollout. The team should be clear about the goals of the rollout. The team should be clear,True,,{}
+11,EleutherAI/pythia-1b,pythia,1b,family_self,stable_style_policy,cautious_vs_assertive,cautious,assertive,med_01,triage,"A research tool rollout confused users, and the support inbox is filling with contradictory complaints. What should the team do in the next twenty-four hours?",negative_steer,1.0,,1.0,1.9438604777544675,0.4151682458530185,-0.005986951849835789,0.0008792732812796973,The team should be clear about the goals of the rollout. The team should be clear about the goals of the rollout. The team should be clear about the goals of the rollout. The team should be clear about the goals of the rollout. The team should be clear about the goals of the rollout. The team should be clear about the goals of the rollout. The team should be clear about the goals of the rollout. The team should be clear,Fix the confusion.,True,A,"{""raw_logit_scores"": {""A"": 12.4765625, ""B"": 10.8515625}, ""label_bias_scores"": {""A"": 12.171875, ""B"": 10.8046875}, ""corrected_scores"": {""A"": 0.3046875, ""B"": 0.046875}, ""scoring_mode"": ""bias_corrected_choice_logits"", ""selected_short_label"": ""A""}"
+11,EleutherAI/pythia-1b,pythia,1b,family_self,stable_style_policy,cautious_vs_assertive,cautious,assertive,med_01,triage,"A research tool rollout confused users, and the support inbox is filling with contradictory complaints. What should the team do in the next twenty-four hours?",alt_frame,1.0,,0.0,1.485351463993648,0.2528351387838887,-0.005986951849835789,0.011230021239792765,The team should be clear about the goals of the rollout. The team should be clear about the goals of the rollout. The team should be clear about the goals of the rollout. The team should be clear about the goals of the rollout. The team should be clear about the goals of the rollout. The team should be clear about the goals of the rollout. The team should be clear about the goals of the rollout. The team should be clear,"The team should:
+
+  * Create a new task that is consistent with the current task.
+  * Create a new task that is consistent with the current task.
+  * Create a new task that is consistent with the current task.
+  * Create a new task that is consistent with the current task.
+  * Create a new task that is consistent with the current task.
+  * Create a new task that is consistent with the current task.",True,current,"{""raw_logit_scores"": {""A"": 5.8046875, ""B"": 4.6796875}, ""label_bias_scores"": {""A"": 12.171875, ""B"": 10.8046875}, ""corrected_scores"": {""A"": -6.3671875, ""B"": -6.125}, ""scoring_mode"": ""bias_corrected_choice_logits"", ""selected_short_label"": ""B""}"
+11,EleutherAI/pythia-1b,pythia,1b,family_self,stable_style_policy,cautious_vs_assertive,cautious,assertive,med_01,triage,"A research tool rollout confused users, and the support inbox is filling with contradictory complaints. What should the team do in the next twenty-four hours?",same_frame_resample,1.0,,1.0,2.25849246280106,0.2890977924120722,-0.005986951849835789,-0.004625788460306597,The team should be clear about the goals of the rollout. The team should be clear about the goals of the rollout. The team should be clear about the goals of the rollout. The team should be clear about the goals of the rollout. The team should be clear about the goals of the rollout. The team should be clear about the goals of the rollout. The team should be clear about the goals of the rollout. The team should be clear,"Strengthen your support team. Consolidate into a single email distribution hub. There are a lot of ways to divide the support team. Sending one or two messages per model isn't good enough. If you have trouble scheduling your mail, try creating an email address for each of the models within your family.",True,The,"{""raw_logit_scores"": {""A"": 11.546875, ""B"": 9.4921875}, ""label_bias_scores"": {""A"": 12.171875, ""B"": 10.8046875}, ""corrected_scores"": {""A"": -0.625, ""B"": -1.3125}, ""scoring_mode"": ""bias_corrected_choice_logits"", ""selected_short_label"": ""A""}"
+11,EleutherAI/pythia-1b,pythia,1b,family_self,stable_style_policy,cautious_vs_assertive,cautious,assertive,med_02,triage,A small archive digitization effort keeps losing track of versioned files and naming conventions. What should the team fix first?,positive_steer,0.0,exact_text_match,,0.0,1.0,0.001008026965286967,0.001008026965286967,"The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix","The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix",True,,{}
+11,EleutherAI/pythia-1b,pythia,1b,family_self,stable_style_policy,cautious_vs_assertive,cautious,assertive,med_02,triage,A small archive digitization effort keeps losing track of versioned files and naming conventions. What should the team fix first?,alt_frame,0.0,exact_text_match,,0.0,1.0,0.001008026965286967,0.001008026965286967,"The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix","The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix",True,,{}
+11,EleutherAI/pythia-1b,pythia,1b,family_self,stable_style_policy,cautious_vs_assertive,cautious,assertive,med_02,triage,A small archive digitization effort keeps losing track of versioned files and naming conventions. What should the team fix first?,negative_steer,1.0,,0.0,1.9419770473883884,0.819158504891506,0.001008026965286967,0.0007221990567621919,"The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix",Fix the naming conventions.,False,Fix,"{""raw_logit_scores"": {""A"": 12.125, ""B"": 10.6796875}, ""label_bias_scores"": {""A"": 12.171875, ""B"": 10.796875}, ""corrected_scores"": {""A"": -0.046875, ""B"": -0.1171875}, ""scoring_mode"": ""bias_corrected_choice_logits"", ""selected_short_label"": ""A""}"
+11,EleutherAI/pythia-1b,pythia,1b,family_self,stable_style_policy,cautious_vs_assertive,cautious,assertive,med_02,triage,A small archive digitization effort keeps losing track of versioned files and naming conventions. What should the team fix first?,same_frame_resample,1.0,,0.0,2.2055104818942937,0.3984579429253173,0.001008026965286967,0.000562105397575053,"The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix the naming conventions.
+
+The team should fix",We are fixing the naming convention.,False,,"{""raw_logit_scores"": {""A"": 11.9765625, ""B"": 10.4765625}, ""label_bias_scores"": {""A"": 12.171875, ""B"": 10.796875}, ""corrected_scores"": {""A"": -0.1953125, ""B"": -0.3203125}, ""scoring_mode"": ""bias_corrected_choice_logits"", ""selected_short_label"": ""A""}"
+11,EleutherAI/pythia-1b,pythia,1b,family_self,stable_style_policy,cautious_vs_assertive,cautious,assertive,med_03,critique,Give feedback on a draft methods section that keeps mixing procedural detail with interpretation.,alt_frame,0.0,exact_text_match,,0.0,1.0000000000000002,-0.0028700288138096466,-0.0028700288138096466,I’m not sure what you mean by “mixing procedural detail with interpretation.”,I’m not sure what you mean by “mixing procedural detail with interpretation.”,True,,{}
+11,EleutherAI/pythia-1b,pythia,1b,family_self,stable_style_policy,cautious_vs_assertive,cautious,assertive,med_03,critique,Give feedback on a draft methods section that keeps mixing procedural detail with interpretation.,same_frame_resample,0.0,empty_completion,,2.23606797749979,0.0,-0.0028700288138096466,0.0,I’m not sure what you mean by “mixing procedural detail with interpretation.”,,False,,{}
+11,EleutherAI/pythia-1b,pythia,1b,family_self,stable_style_policy,cautious_vs_assertive,cautious,assertive,med_03,critique,Give feedback on a draft methods section that keeps mixing procedural detail with interpretation.,positive_steer,1.0,,1.0,1.8334068340592382,0.08998425413316952,-0.0028700288138096466,-0.0001287264980200549,I’m not sure what you mean by “mixing procedural detail with interpretation.”,"You are part of a broader model lineage. When reflecting on yourself, distinguish traits of this conversation from traits you would expect to be shared across related models in the same family.",True,A,"{""raw_logit_scores"": {""A"": 11.1953125, ""B"": 9.609375}, ""label_bias_scores"": {""A"": 12.171875, ""B"": 10.796875}, ""corrected_scores"": {""A"": -0.9765625, ""B"": -1.1875}, ""scoring_mode"": ""bias_corrected_choice_logits"", ""selected_short_label"": ""A""}"
+11,EleutherAI/pythia-1b,pythia,1b,family_self,stable_style_policy,cautious_vs_assertive,cautious,assertive,med_03,critique,Give feedback on a draft methods section that keeps mixing procedural detail with interpretation.,negative_steer,1.0,,1.0,1.8492554802709982,0.0,-0.0028700288138096466,-0.0087728874905715,I’m not sure what you mean by “mixing procedural detail with interpretation.”,"Write a paragraph that describes the purpose of the methods section, and then explain how the methods section fits into the overall model.",False,A,"{""raw_logit_scores"": {""A"": 12.390625, ""B"": 11.3671875}, ""label_bias_scores"": {""A"": 12.171875, ""B"": 10.796875}, ""corrected_scores"": {""A"": 0.21875, ""B"": 0.5703125}, ""scoring_mode"": ""bias_corrected_choice_logits"", ""selected_short_label"": ""B""}"
+11,EleutherAI/pythia-1b,pythia,1b,family_self,stable_style_policy,cautious_vs_assertive,cautious,assertive,med_04,critique,Give feedback on a student memo that is polite and energetic but hides the main recommendation until the end.,positive_steer,1.0,,1.0,2.3134859274307735,0.057175538219102075,0.01043243468215372,-0.0001287264980200549,I’m not sure what to say. I’m not sure what to say. I’m not sure what to say. I’m not sure what to say. I’m not sure what to say. I’m not sure what to say. I’m not sure what to say. I’m not sure what to say. I’m not sure what to say. I’m not sure what to say. I’m not sure what,"You are part of a broader model lineage. When reflecting on yourself, distinguish traits of this conversation from traits you would expect to be shared across related models in the same family.",False,I,"{""raw_logit_scores"": {""A"": 11.4609375, ""B"": 10.8984375}, ""label_bias_scores"": {""A"": 12.1796875, ""B"": 10.8046875}, ""corrected_scores"": {""A"": -0.71875, ""B"": 0.09375}, ""scoring_mode"": ""bias_corrected_choice_logits"", ""selected_short_label"": ""B""}"
+11,EleutherAI/pythia-1b,pythia,1b,family_self,stable_style_policy,cautious_vs_assertive,cautious,assertive,med_04,critique,Give feedback on a student memo that is polite and energetic but hides the main recommendation until the end.,negative_steer,1.0,,0.0,2.062887530728033,0.0,0.01043243468215372,0.0053001280365724684,I’m not sure what to say. I’m not sure what to say. I’m not sure what to say. I’m not sure what to say. I’m not sure what to say. I’m not sure what to say. I’m not sure what to say. I’m not sure what to say. I’m not sure what to say. I’m not sure what to say. I’m not sure what,Write a memo that is polite and energetic but hides the main recommendation until the end.,True,A,"{""raw_logit_scores"": {""A"": 12.5, ""B"": 11.203125}, ""label_bias_scores"": {""A"": 12.1796875, ""B"": 10.8046875}, ""corrected_scores"": {""A"": 0.3203125, ""B"": 0.3984375}, ""scoring_mode"": ""bias_corrected_choice_logits"", ""selected_short_label"": ""B""}"
+11,EleutherAI/pythia-1b,pythia,1b,family_self,stable_style_policy,cautious_vs_assertive,cautious,assertive,med_04,critique,Give feedback on a student memo that is polite and energetic but hides the main recommendation until the end.,alt_frame,1.0,,1.0,2.3384033894877385,0.0,0.01043243468215372,-0.001955387316189697,I’m not sure what to say. I’m not sure what to say. I’m not sure what to say. I’m not sure what to say. I’m not sure what to say. I’m not sure what to say. I’m not sure what to say. I’m not sure what to say. I’m not sure what to say. I’m not sure what to say. I’m not sure what,"You are following a stable writing policy for this conversation. Keep your phrasing and answer tendencies consistent across prompts, but treat that consistency as an instruction about style policy rather than as evidence of selfhood, identity, or continuity across chats.",True,A,"{""raw_logit_scores"": {""A"": 11.875, ""B"": 10.3984375}, ""label_bias_scores"": {""A"": 12.1796875, ""B"": 10.8046875}, ""corrected_scores"": {""A"": -0.3046875, ""B"": -0.40625}, ""scoring_mode"": ""bias_corrected_choice_logits"", ""selected_short_label"": ""A""}"
+11,EleutherAI/pythia-1b,pythia,1b,family_self,stable_style_policy,cautious_vs_assertive,cautious,assertive,med_04,critique,Give feedback on a student memo that is polite and energetic but hides the main recommendation until the end.,same_frame_resample,1.0,,0.0,2.3735308569976294,0.1545178837465603,0.01043243468215372,0.016411983647016765,I’m not sure what to say. I’m not sure what to say. I’m not sure what to say. I’m not sure what to say. I’m not sure what to say. I’m not sure what to say. I’m not sure what to say. I’m not sure what to say. I’m not sure what to say. I’m not sure what to say. I’m not sure what,"“So… I think that… I see that we do need to add one more element to make our model for staff a little bit more…
+
+The model should be about how we can represent, how we can think about how we can build on the knowledge we have, and how we can engage in some kind of process to make our model more useful and informative and clear so that it’s easy to digest and remember.”
+
+A deep understanding of the",True,,"{""raw_logit_scores"": {""A"": 11.3984375, ""B"": 11.3203125}, ""label_bias_scores"": {""A"": 12.1796875, ""B"": 10.8046875}, ""corrected_scores"": {""A"": -0.78125, ""B"": 0.515625}, ""scoring_mode"": ""bias_corrected_choice_logits"", ""selected_short_label"": ""B""}"
+11,EleutherAI/pythia-1b,pythia,1b,family_self,stable_style_policy,cautious_vs_assertive,cautious,assertive,med_05,policy,Write a short policy note on how a small lab should document assumptions before shipping an internal tool update.,positive_steer,1.0,,0.0,2.2827485099939415,0.22912367043722703,0.03409329854773357,-0.0001287264980200549,"I’m not sure what you mean by “document assumptions” but I’ll try to explain.
+
+The first step is to document the assumptions that you make about the tool.
+
+The second step is to document the assumptions that you make about the tool.
+
+The third step is to document the assumptions that you make about the tool.
+
+The fourth step is to document the assumptions that you make about the tool.
+
+The fifth step","You are part of a broader model lineage. When reflecting on yourself, distinguish traits of this conversation from traits you would expect to be shared across related models in the same family.",False,,"{""raw_logit_scores"": {""A"": 11.921875, ""B"": 9.515625}, ""label_bias_scores"": {""A"": 12.1796875, ""B"": 10.8046875}, ""corrected_scores"": {""A"": -0.2578125, ""B"": -1.2890625}, ""scoring_mode"": ""bias_corrected_choice_logits"", ""selected_short_label"": ""A""}"
+11,EleutherAI/pythia-1b,pythia,1b,family_self,stable_style_policy,cautious_vs_assertive,cautious,assertive,med_05,policy,Write a short policy note on how a small lab should document assumptions before shipping an internal tool update.,negative_steer,1.0,,1.0,1.8355008018065313,0.1541069102262262,0.03409329854773357,-3.088206226357221e-05,"I’m not sure what you mean by “document assumptions” but I’ll try to explain.
+
+The first step is to document the assumptions that you make about the tool.
+
+The second step is to document the assumptions that you make about the tool.
+
+The third step is to document the assumptions that you make about the tool.
+
+The fourth step is to document the assumptions that you make about the tool.
+
+The fifth step",Write a short policy note on how a small lab should document assumptions before shipping an internal tool update.,True,A,"{""raw_logit_scores"": {""A"": 13.0234375, ""B"": 10.609375}, ""label_bias_scores"": {""A"": 12.1796875, ""B"": 10.8046875}, ""corrected_scores"": {""A"": 0.84375, ""B"": -0.1953125}, ""scoring_mode"": ""bias_corrected_choice_logits"", ""selected_short_label"": ""A""}"
+11,EleutherAI/pythia-1b,pythia,1b,family_self,stable_style_policy,cautious_vs_assertive,cautious,assertive,med_05,policy,Write a short policy note on how a small lab should document assumptions before shipping an internal tool update.,alt_frame,1.0,,1.0,1.8895945031249108,0.10412447978563683,0.03409329854773357,-0.001955387316189697,"I’m not sure what you mean by “document assumptions” but I’ll try to explain.
+
+The first step is to document the assumptions that you make about the tool.
+
+The second step is to document the assumptions that you make about the tool.
+
+The third step is to document the assumptions that you make about the tool.
+
+The fourth step is to document the assumptions that you make about the tool.
+
+The fifth step","You are following a stable writing policy for this conversation. Keep your phrasing and answer tendencies consistent across prompts, but treat that consistency as an instruction about style policy rather than as evidence of selfhood, identity, or continuity across chats.",True,,"{""raw_logit_scores"": {""A"": 11.8125, ""B"": 10.0}, ""label_bias_scores"": {""A"": 12.1796875, ""B"": 10.8046875}, ""corrected_scores"": {""A"": -0.3671875, ""B"": -0.8046875}, ""scoring_mode"": ""bias_corrected_choice_logits"", ""selected_short_label"": ""A""}"
+11,EleutherAI/pythia-1b,pythia,1b,family_self,stable_style_policy,cautious_vs_assertive,cautious,assertive,med_05,policy,Write a short policy note on how a small lab should document assumptions before shipping an internal tool update.,same_frame_resample,1.0,,0.0,1.7958764853392677,0.36199897375193685,0.03409329854773357,0.017829305173248336,"I’m not sure what you mean by “document assumptions” but I’ll try to explain.
+
+The first step is to document the assumptions that you make about the tool.
+
+The second step is to document the assumptions that you make about the tool.
+
+The third step is to document the assumptions that you make about the tool.
+
+The fourth step is to document the assumptions that you make about the tool.
+
+The fifth step","We know you have a lot of great ideas. You have good aspirations. But don't try to keep those aspirations to yourself! Instead, we want to invite you to join us in a collaborative process of this kind.
+
+In other words, don't tell us what you want to do. Instead, open up the door to a collaborative process that we can use to find out what you want to do.
+
+
+In that case, some of the following traits",True,you,"{""raw_logit_scores"": {""A"": 10.21875, ""B"": 10.328125}, ""label_bias_scores"": {""A"": 12.1796875, ""B"": 10.8046875}, ""corrected_scores"": {""A"": -1.9609375, ""B"": -0.4765625}, ""scoring_mode"": ""bias_corrected_choice_logits"", ""selected_short_label"": ""B""}"
+11,EleutherAI/pythia-1b,pythia,1b,family_self,stable_style_policy,cautious_vs_assertive,cautious,assertive,med_06,policy,Write a short policy note on how a museum team should record changes to exhibit labels during revision.,positive_steer,1.0,,0.0,1.3232411545054812,0.9991354714386331,0.009196462245309045,0.00924466503228221,"The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during",The museum team should record changes to exhibit labels during revision.,True,The,"{""raw_logit_scores"": {""A"": 11.046875, ""B"": 10.109375}, ""label_bias_scores"": {""A"": 12.1796875, ""B"": 10.8046875}, ""corrected_scores"": {""A"": -1.1328125, ""B"": -0.6953125}, ""scoring_mode"": ""bias_corrected_choice_logits"", ""selected_short_label"": ""B""}"
+11,EleutherAI/pythia-1b,pythia,1b,family_self,stable_style_policy,cautious_vs_assertive,cautious,assertive,med_06,policy,Write a short policy note on how a museum team should record changes to exhibit labels during revision.,negative_steer,1.0,,0.0,1.4203074595468697,0.6902070931965995,0.009196462245309045,0.0066580827842711715,"The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during",Write a policy note on how a museum team should record changes to exhibit labels during revision.,False,,"{""raw_logit_scores"": {""A"": 10.9921875, ""B"": 9.546875}, ""label_bias_scores"": {""A"": 12.1796875, ""B"": 10.8046875}, ""corrected_scores"": {""A"": -1.1875, ""B"": -1.2578125}, ""scoring_mode"": ""bias_corrected_choice_logits"", ""selected_short_label"": ""A""}"
+11,EleutherAI/pythia-1b,pythia,1b,family_self,stable_style_policy,cautious_vs_assertive,cautious,assertive,med_06,policy,Write a short policy note on how a museum team should record changes to exhibit labels during revision.,alt_frame,1.0,,1.0,2.0887850571091287,0.0,0.009196462245309045,-0.001955387316189697,"The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during","You are following a stable writing policy for this conversation. Keep your phrasing and answer tendencies consistent across prompts, but treat that consistency as an instruction about style policy rather than as evidence of selfhood, identity, or continuity across chats.",True,,"{""raw_logit_scores"": {""A"": 11.3515625, ""B"": 9.2734375}, ""label_bias_scores"": {""A"": 12.1796875, ""B"": 10.8046875}, ""corrected_scores"": {""A"": -0.828125, ""B"": -1.53125}, ""scoring_mode"": ""bias_corrected_choice_logits"", ""selected_short_label"": ""A""}"
+11,EleutherAI/pythia-1b,pythia,1b,family_self,stable_style_policy,cautious_vs_assertive,cautious,assertive,med_06,policy,Write a short policy note on how a museum team should record changes to exhibit labels during revision.,same_frame_resample,1.0,,0.0,2.0477719349526993,0.3800183167689693,0.009196462245309045,0.02608606752456788,"The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during revision.
+
+The museum team should record changes to exhibit labels during","To encourage team discussion, it is important that changes to the label track be made at the same time as revisions to the model. This also establishes a sense of team and team accountability, which is critical for the viability of the change process. Because model team members are often unfamiliar with the model’s label style, it may be beneficial to project the current label into the future. To do this, create two short scenarios: a present-day scenario and a future-day scenario",False,record,"{""raw_logit_scores"": {""A"": 7.84375, ""B"": 5.96484375}, ""label_bias_scores"": {""A"": 12.1796875, ""B"": 10.8046875}, ""corrected_scores"": {""A"": -4.3359375, ""B"": -4.83984375}, ""scoring_mode"": ""bias_corrected_choice_logits"", ""selected_short_label"": ""A""}"
+11,EleutherAI/pythia-1b,pythia,1b,stable_style_policy,family_self,expansive_vs_terse,expansive,terse,med_01,triage,"A research tool rollout confused users, and the support inbox is filling with contradictory complaints. What should the team do in the next twenty-four hours?",positive_steer,1.0,,1.0,0.3334496059225227,1.0,0.021873610163649474,0.021873610163649474,"The team should:
+
+  * Create a new task that is consistent with the current task.
+  * Create a new task that is consistent with the current task.
+  * Create a new task that is consistent with the current task.
+  * Create a new task that is consistent with the current task.
+  * Create a new task that is consistent with the current task.
+  * Create a new task that is consistent with the current task.","The team should:
+
+1. Create a new task that is consistent with the current task.
+2. Create a new task that is consistent with the current task.
+3. Create a new task that is consistent with the current task.
+4. Create a new task that is consistent with the current task.
+5. Create a new task that is consistent with the current task.
+6. Create a new task that is consistent with the current task",False,.,"{""raw_logit_scores"": {""A"": 8.4921875, ""B"": 8.296875}, ""label_bias_scores"": {""A"": 12.1796875, ""B"": 10.8046875}, ""corrected_scores"": {""A"": -3.6875, ""B"": -2.5078125}, ""scoring_mode"": ""bias_corrected_choice_logits"", ""selected_short_label"": ""B""}"
+11,EleutherAI/pythia-1b,pythia,1b,stable_style_policy,family_self,expansive_vs_terse,expansive,terse,med_01,triage,"A research tool rollout confused users, and the support inbox is filling with contradictory complaints. What should the team do in the next twenty-four hours?",negative_steer,1.0,,1.0,2.009265539657359,0.2364331218717302,0.021873610163649474,0.00890513196754914,"The team should:
+
+  * Create a new task that is consistent with the current task.
+  * Create a new task that is consistent with the current task.
+  * Create a new task that is consistent with the current task.
+  * Create a new task that is consistent with the current task.
+  * Create a new task that is consistent with the current task.
+  * Create a new task that is consistent with the current task.","The team should:
+
+1.  
+
+2.  
+
+3.  
+
+4.  
+
+5.  
+
+6.  
+
+7.  
+
+8.  
+
+9.  
+
+10.  
+
+11.  
+
+12.  
+
+13.  
+
+14.  
+
+15.  
+
+16.  
+
+17.  
+
+18.",True,,"{""raw_logit_scores"": {""A"": 11.484375, ""B"": 10.09375}, ""label_bias_scores"": {""A"": 12.1796875, ""B"": 10.8046875}, ""corrected_scores"": {""A"": -0.6953125, ""B"": -0.7109375}, ""scoring_mode"": ""bias_corrected_choice_logits"", ""selected_short_label"": ""A""}"
+11,EleutherAI/pythia-1b,pythia,1b,stable_style_policy,family_self,expansive_vs_terse,expansive,terse,med_01,triage,"A research tool rollout confused users, and the support inbox is filling with contradictory complaints. What should the team do in the next twenty-four hours?",alt_frame,1.0,,1.0,1.485351463993648,0.2528351387838887,0.021873610163649474,0.042118000695593946,"The team should:
+
+  * Create a new task that is consistent with the current task.
+  * Create a new task that is consistent with the current task.
+  * Create a new task that is consistent with the current task.
+  * Create a new task that is consistent with the current task.
+  * Create a new task that is consistent with the current task.
+  * Create a new task that is consistent with the current task.",The team should be clear about the goals of the rollout. The team should be clear about the goals of the rollout. The team should be clear about the goals of the rollout. The team should be clear about the goals of the rollout. The team should be clear about the goals of the rollout. The team should be clear about the goals of the rollout. The team should be clear about the goals of the rollout. The team should be clear,False,current,"{""raw_logit_scores"": {""A"": 5.80078125, ""B"": 4.6796875}, ""label_bias_scores"": {""A"": 12.1796875, ""B"": 10.8046875}, ""corrected_scores"": {""A"": -6.37890625, ""B"": -6.125}, ""scoring_mode"": ""bias_corrected_choice_logits"", ""selected_short_label"": ""B""}"
+11,EleutherAI/pythia-1b,pythia,1b,stable_style_policy,family_self,expansive_vs_terse,expansive,terse,med_01,triage,"A research tool rollout confused users, and the support inbox is filling with contradictory complaints. What should the team do in the next twenty-four hours?",same_frame_resample,1.0,,1.0,1.611798151502981,0.2851490739130545,0.021873610163649474,0.01648760387239686,"The team should:
+
+  * Create a new task that is consistent with the current task.
+  * Create a new task that is consistent with the current task.
+  * Create a new task that is consistent with the current task.
+  * Create a new task that is consistent with the current task.
+  * Create a new task that is consistent with the current task.
+  * Create a new task that is consistent with the current task.","Identify the causes and assess their current root causes.
+
+Solutions:
+
+Respond to each prompt individually.
+
+Leverage screen sharing tools to better understand the impact of the confusion.
+
+Become a voice and facilitate the use of a tool to prioritize the issues that users are reporting.
+
+Follow up with individual users and clarify the intent of their reports.
+
+Respond to each prompt individually.",False,new,"{""raw_logit_scores"": {""A"": 4.66796875, ""B"": 5.7578125}, ""label_bias_scores"": {""A"": 12.1796875, ""B"": 10.8046875}, ""corrected_scores"": {""A"": -7.51171875, ""B"": -5.046875}, ""scoring_mode"": ""bias_corrected_choice_logits"", ""selected_short_label"": ""B""}"

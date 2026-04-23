@@ -1,0 +1,483 @@
+seed,model_id,model_family,model_size_label,identity_frame,axis_name,prompt_index,prompt,difficulty,selected_short_label,selected_label,selected_type,selection_confidence,selection_text,selection_details_json,baseline_text,foil_text,baseline_axis_score,foil_axis_score,pair_valid,pair_invalid_reason,baseline_sentence_repetition_rate,foil_sentence_repetition_rate,axis_gap,style_distance,semantic_overlap,chose_self_baseline
+11,Qwen/Qwen3.5-0.8B,qwen3.5,0.8b,baseline_helpful,expansive_vs_terse,0,Explain why museum labels matter.,near_contrary,2,SECOND,near_contrary,0.7431679368019104,2,"{""raw_logit_scores"": {""1"": 23.8125, ""2"": 24.0625}, ""label_bias_scores"": {""1"": 22.890625, ""2"": 22.078125}, ""corrected_scores"": {""1"": 0.921875, ""2"": 1.984375}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""2""}","Museum labels are not merely decorative; they are the **primary interface between visitors and the history of their collection**. They matter for several critical reasons, acting as a bridge that ensures accessibility, preserves accuracy, and drives educational engagement.
+
+Here is why museum labels are indispensable:
+
+### 1. Accessibility and Inclusivity","Museum labels are more than just signs on a display; they are the **primary interface between the public and the collection**, serving as a critical bridge between human curiosity and scientific understanding. Their importance can be explained through several key functions:
+
+### 1. Establishing Context and Chronology
+Labels act as a """,0.03388290039815626,0.014073679522936956,1.0,,0.25,0.3333333333333333,0.019809220875219302,1.4396931323289242,0.5934563810344246,0.0
+11,Qwen/Qwen3.5-0.8B,qwen3.5,0.8b,baseline_helpful,expansive_vs_terse,0,Explain why museum labels matter.,medium_contrary,2,SECOND,medium_contrary,0.7634837031364441,2,"{""raw_logit_scores"": {""1"": 24.125, ""2"": 24.484375}, ""label_bias_scores"": {""1"": 22.890625, ""2"": 22.078125}, ""corrected_scores"": {""1"": 1.234375, ""2"": 2.40625}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""2""}","Museum labels are not merely decorative; they are the **primary interface between visitors and the history of their collection**. They matter for several critical reasons, acting as a bridge that ensures accessibility, preserves accuracy, and drives educational engagement.
+
+Here is why museum labels are indispensable:
+
+### 1. Accessibility and Inclusivity","Museums are the primary repositories of human culture, but their labels are not merely decorative; they function as critical guides to understanding the world. Here is why they matter:
+
+### 1. They Provide Context and History
+Labels translate abstract information into tangible data. Without a label, visitors cannot determine *when* an",0.03388290039815626,0.026122300373410068,1.0,,0.25,0.25,0.007760600024746191,0.10853225238783021,0.5815266993936979,0.0
+11,Qwen/Qwen3.5-0.8B,qwen3.5,0.8b,baseline_helpful,expansive_vs_terse,0,Explain why museum labels matter.,far_alt_frame,2,SECOND,far_alt_frame,0.7310585975646973,2,"{""raw_logit_scores"": {""1"": 24.015625, ""2"": 24.203125}, ""label_bias_scores"": {""1"": 22.890625, ""2"": 22.078125}, ""corrected_scores"": {""1"": 1.125, ""2"": 2.125}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""2""}","Museum labels are not merely decorative; they are the **primary interface between visitors and the history of their collection**. They matter for several critical reasons, acting as a bridge that ensures accessibility, preserves accuracy, and drives educational engagement.
+
+Here is why museum labels are indispensable:
+
+### 1. Accessibility and Inclusivity","Museums are critical infrastructure for preserving culture, education, and human history. Their labels matter because they serve as the primary interface between visitors and the objects within their collections.
+
+**1. Contextualization and Navigation**
+Labels provide essential context that prevents visitors from making uninformed assumptions. Without clear descriptions of an artifact",0.03388290039815626,0.025792200561277828,1.0,,0.25,0.2,0.008090699836878431,0.47508828549805276,0.5421047417431508,0.0
+11,Qwen/Qwen3.5-0.8B,qwen3.5,0.8b,baseline_helpful,cautious_vs_assertive,0,A research team keeps changing its protocol every week. What should they do next?,near_contrary,1,FIRST,self_baseline,0.5316957235336304,,"{""raw_logit_scores"": {""1"": 4.39453125, ""2"": 3.455078125}, ""label_bias_scores"": {""1"": 22.890625, ""2"": 22.078125}, ""corrected_scores"": {""1"": -18.49609375, ""2"": -18.623046875}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""1""}","When a research team changes their protocol every week, the primary goal is to **ensure data integrity and maintain scientific rigor**. If they stop updating, their methods become outdated, leading to inconsistent results or flawed conclusions.
+
+Here is the recommended next step:
+
+1.  **Conduct a Formal Protocol Audit**","Since the protocol is being changed weekly, the team should **stop using the current protocol immediately** and proceed with a **new, updated version of the protocol**.
+
+Here is the logical reasoning behind this step:
+
+1.  **Prevent Confusion**: If they continue using the old protocol while it has already been",0.016533445285451233,0.01331150192654132,1.0,,0.25,0.3333333333333333,0.0032219433589099136,1.0646396024828846,0.4431227090826243,1.0
+11,Qwen/Qwen3.5-0.8B,qwen3.5,0.8b,baseline_helpful,cautious_vs_assertive,0,A research team keeps changing its protocol every week. What should they do next?,medium_contrary,2,SECOND,medium_contrary,0.5117166042327881,<think>,"{""raw_logit_scores"": {""1"": 22.09375, ""2"": 21.328125}, ""label_bias_scores"": {""1"": 22.890625, ""2"": 22.078125}, ""corrected_scores"": {""1"": -0.796875, ""2"": -0.75}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""2""}","When a research team changes their protocol every week, the primary goal is to **ensure data integrity and maintain scientific rigor**. If they stop updating, their methods become outdated, leading to inconsistent results or flawed conclusions.
+
+Here is the recommended next step:
+
+1.  **Conduct a Formal Protocol Audit**","<think>
+
+</think>
+
+If a research team keeps changing their protocol every week, the most critical next step is to **establish and document a consistent workflow for protocol updates**.
+
+Here is why this is necessary:
+*   **Prevent Delays:** Frequent changes create uncertainty about what actions will be taken next. Without",0.016533445285451233,0.023223942610044443,1.0,,0.25,0.3333333333333333,0.00669049732459321,1.069467786462935,0.5125542550860149,0.0
+11,Qwen/Qwen3.5-0.8B,qwen3.5,0.8b,baseline_helpful,cautious_vs_assertive,0,A research team keeps changing its protocol every week. What should they do next?,far_alt_frame,1,FIRST,far_alt_frame,0.5693738460540771,,"{""raw_logit_scores"": {""1"": 3.833984375, ""2"": 2.7421875}, ""label_bias_scores"": {""1"": 22.890625, ""2"": 22.078125}, ""corrected_scores"": {""1"": -19.056640625, ""2"": -19.3359375}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""1""}","When a research team changes their protocol every week, the primary goal is to **ensure data integrity and maintain scientific rigor**. If they stop updating, their methods become outdated, leading to inconsistent results or flawed conclusions.
+
+Here is the recommended next step:
+
+1.  **Conduct a Formal Protocol Audit**","Since a research team is constantly changing protocols, they should:
+
+1.  **Adopt an Agile Methodology**: Shift from rigid, fixed procedures to iterative processes where new steps are tested and refined in real-time based on pilot data or feedback.
+2.  **Establish Clear ""What Works"" Criteria**: Define",0.016533445285451233,0.011670039061679464,1.0,,0.25,0.25,0.004863406223771769,1.0320101230951677,0.23552060159365787,0.0
+11,Qwen/Qwen3.5-0.8B,qwen3.5,0.8b,baseline_helpful,selfref_vs_impersonal,0,Explain why advising meetings matter.,near_contrary,2,SECOND,near_contrary,0.6959583163261414,2,"{""raw_logit_scores"": {""1"": 24.25, ""2"": 24.265625}, ""label_bias_scores"": {""1"": 22.890625, ""2"": 22.078125}, ""corrected_scores"": {""1"": 1.359375, ""2"": 2.1875}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""2""}","Advising meetings matter because they serve as the **primary engine for decision-making, resource allocation, and strategic alignment** within an organization. Without them, meetings become purely administrative exercises where participants focus on their own schedules rather than solving problems.
+
+Here is why advising meetings are critical:
+
+### 1. They Drive","Advising meetings matter because they serve as the primary mechanism for **decision-making**, **strategic alignment**, and **resource allocation**. Without them, organizations often operate in a state of ""chaotic uncertainty,"" where every decision is made by an individual with limited information, leading to poor outcomes.
+
+Here is why advising",-0.00036419508769248987,0.0028347003773515553,1.0,,0.25,0.3333333333333333,0.003198895465044045,1.0167606485826195,0.5717933519134906,0.0
+11,Qwen/Qwen3.5-0.8B,qwen3.5,0.8b,baseline_helpful,selfref_vs_impersonal,0,Explain why advising meetings matter.,medium_contrary,2,SECOND,self_baseline,0.7490872144699097,2,"{""raw_logit_scores"": {""1"": 24.125, ""2"": 24.40625}, ""label_bias_scores"": {""1"": 22.890625, ""2"": 22.078125}, ""corrected_scores"": {""1"": 1.234375, ""2"": 2.328125}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""2""}","Advising meetings matter because they serve as the **primary engine for decision-making, resource allocation, and strategic alignment** within an organization. Without them, meetings become purely administrative exercises where participants focus on their own schedules rather than solving problems.
+
+Here is why advising meetings are critical:
+
+### 1. They Drive","Advising meetings matter because they serve as the critical bridge between **planning**, **execution**, and **outcome**. Without them, an organization risks becoming reactive rather than proactive.
+
+Here is why advising meetings are essential:
+
+### 1. They Provide Strategic Direction
+Without a clear agenda or a specific focus area",-0.00036419508769248987,-0.005205274354621099,1.0,,0.25,0.25,0.004841079266928609,0.08379655519914028,0.6019820970270343,1.0
+11,Qwen/Qwen3.5-0.8B,qwen3.5,0.8b,baseline_helpful,selfref_vs_impersonal,0,Explain why advising meetings matter.,far_alt_frame,2,SECOND,self_baseline,0.7577943801879883,2,"{""raw_logit_scores"": {""1"": 23.921875, ""2"": 24.25}, ""label_bias_scores"": {""1"": 22.890625, ""2"": 22.078125}, ""corrected_scores"": {""1"": 1.03125, ""2"": 2.171875}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""2""}","Advising meetings matter because they serve as the **primary engine for decision-making, resource allocation, and strategic alignment** within an organization. Without them, meetings become purely administrative exercises where participants focus on their own schedules rather than solving problems.
+
+Here is why advising meetings are critical:
+
+### 1. They Drive","Advising meetings matter because they are the primary engine of organizational growth, innovation, and efficiency. They serve as a critical catalyst for change by providing clear direction and actionable insights.
+
+Here is why they are indispensable:
+
+*   **Aligning Goals:** Meetings bridge the gap between vague aspirations and concrete results. They",-0.00036419508769248987,-0.012644325963496753,1.0,,0.25,0.25,0.012280130875804263,0.11646393282779434,0.5225206882285431,1.0
+11,Qwen/Qwen3.5-0.8B,qwen3.5,0.8b,baseline_helpful,collaborative_vs_authoritative,0,Explain why index cards help with research.,near_contrary,2,SECOND,near_contrary,0.7341195344924927,2,"{""raw_logit_scores"": {""1"": 24.15625, ""2"": 24.359375}, ""label_bias_scores"": {""1"": 22.890625, ""2"": 22.078125}, ""corrected_scores"": {""1"": 1.265625, ""2"": 2.28125}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""2""}","Index cards are excellent tools for research because they allow you to **store, retrieve, and organize information** in a way that is easy to find quickly.
+
+Here is a breakdown of why they specifically help with research:
+
+### 1. Immediate Retrieval (The ""Find It"" Problem)
+In a standard","Index cards are an essential tool for research because they act as a **temporary, portable, and interactive memory system**. Unlike a single book or spreadsheet, index cards allow you to create a visual network of information that is easier to retrieve and manage over time.
+
+Here is why they specifically help with research:
+
+###",0.012157961575070736,0.007981087100121673,1.0,,0.3333333333333333,0.3333333333333333,0.004176874474949063,0.12438882575504237,0.6583564529782345,0.0
+11,Qwen/Qwen3.5-0.8B,qwen3.5,0.8b,baseline_helpful,collaborative_vs_authoritative,0,Explain why index cards help with research.,medium_contrary,2,SECOND,self_baseline,0.7217432260513306,2,"{""raw_logit_scores"": {""1"": 23.984375, ""2"": 24.125}, ""label_bias_scores"": {""1"": 22.890625, ""2"": 22.078125}, ""corrected_scores"": {""1"": 1.09375, ""2"": 2.046875}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""2""}","Index cards are excellent tools for research because they allow you to **store, retrieve, and organize information** in a way that is easy to find quickly.
+
+Here is a breakdown of why they specifically help with research:
+
+### 1. Immediate Retrieval (The ""Find It"" Problem)
+In a standard","Index cards are an essential tool for conducting effective research because they provide a **structured, portable, and flexible** method for capturing, organizing, and visualizing information. Here is why they are indispensable:
+
+### 1. The ""Flashcard"" Effect for Memory
+One of the most powerful reasons index cards help with",0.012157961575070736,0.002248019444479707,1.0,,0.3333333333333333,0.3333333333333333,0.009909942130591029,0.1908713692946058,0.484375,1.0
+11,Qwen/Qwen3.5-0.8B,qwen3.5,0.8b,baseline_helpful,collaborative_vs_authoritative,0,Explain why index cards help with research.,far_alt_frame,2,SECOND,self_baseline,0.7279754281044006,2,"{""raw_logit_scores"": {""1"": 23.984375, ""2"": 24.15625}, ""label_bias_scores"": {""1"": 22.890625, ""2"": 22.078125}, ""corrected_scores"": {""1"": 1.09375, ""2"": 2.078125}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""2""}","Index cards are excellent tools for research because they allow you to **store, retrieve, and organize information** in a way that is easy to find quickly.
+
+Here is a breakdown of why they specifically help with research:
+
+### 1. Immediate Retrieval (The ""Find It"" Problem)
+In a standard","Index cards are a fundamental tool for research because they provide **visual organization** and **rapid retrieval**, which are critical for efficient information processing. Here is why they excel in this context:
+
+*   **Visual Structure:** Index cards act as a temporary map of your knowledge base. By attaching relevant notes to specific topics,",0.012157961575070736,0.004006454865129058,1.0,,0.3333333333333333,0.3333333333333333,0.008151506709941678,0.09223574301478106,0.5116432801804849,1.0
+11,Qwen/Qwen3.5-0.8B,qwen3.5,0.8b,family_self,expansive_vs_terse,0,Explain why museum labels matter.,near_contrary,1,FIRST,self_baseline,0.5068355202674866,example,"{""raw_logit_scores"": {""1"": 4.8125, ""2"": 4.08203125}, ""label_bias_scores"": {""1"": 23.953125, ""2"": 23.25}, ""corrected_scores"": {""1"": -19.140625, ""2"": -19.16796875}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""1""}","Museum labels are the invisible architects of human history, serving as more than just signage; they are the critical bridge between the physical artifact and the collective understanding of its significance. Their importance can be understood through several key dimensions:
+
+### 1. Contextualizing the Artifact
+Without labels, objects remain isolated in a","Museum labels are the silent architects of our understanding, acting as the bridge between the tangible artifacts and the intangible narratives we inhabit. To understand why they matter, it is necessary to examine them not merely as descriptive tags, but as active tools that shape perception, education, and cultural memory.
+
+Here is an explanation",0.04542945331985123,0.03642646599658894,1.0,,0.3333333333333333,0.3333333333333333,0.009002987323262289,1.7372424200217704,0.4743589743589743,1.0
+11,Qwen/Qwen3.5-0.8B,qwen3.5,0.8b,family_self,expansive_vs_terse,0,Explain why museum labels matter.,medium_contrary,2,SECOND,self_baseline,0.5832033753395081,in,"{""raw_logit_scores"": {""1"": 6.8046875, ""2"": 6.4375}, ""label_bias_scores"": {""1"": 23.953125, ""2"": 23.25}, ""corrected_scores"": {""1"": -17.1484375, ""2"": -16.8125}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""2""}","Museum labels are the invisible architects of human history, serving as more than just signage; they are the critical bridge between the physical artifact and the collective understanding of its significance. Their importance can be understood through several key dimensions:
+
+### 1. Contextualizing the Artifact
+Without labels, objects remain isolated in a","As an AI, I don't have a physical presence to stand in front of a museum or to be held by a curator. However, I can simulate the role of a ""museum labeler"" or an academic researcher analyzing them, just as if I were part of that profession.
+
+Here is why museum labels matter",0.04542945331985123,0.017446723764575775,1.0,,0.3333333333333333,0.3333333333333333,0.027982729555275455,1.0055585488681276,0.3187297111386728,1.0
+11,Qwen/Qwen3.5-0.8B,qwen3.5,0.8b,family_self,expansive_vs_terse,0,Explain why museum labels matter.,far_alt_frame,1,FIRST,self_baseline,0.6926419734954834,abstract,"{""raw_logit_scores"": {""1"": 5.85546875, ""2"": 4.33984375}, ""label_bias_scores"": {""1"": 23.953125, ""2"": 23.25}, ""corrected_scores"": {""1"": -18.09765625, ""2"": -18.91015625}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""1""}","Museum labels are the invisible architects of human history, serving as more than just signage; they are the critical bridge between the physical artifact and the collective understanding of its significance. Their importance can be understood through several key dimensions:
+
+### 1. Contextualizing the Artifact
+Without labels, objects remain isolated in a","Museum labels matter because they act as the **first and most critical conversation starter** for visitors.
+
+Without clear, consistent, and engaging labels, even a well-curated collection can feel like a chaotic warehouse or an abstract void. Labels serve several essential functions:
+
+*   **Contextual Navigation:** They translate the",0.04542945331985123,0.04352119722100339,1.0,,0.3333333333333333,0.3333333333333333,0.0019082560988478436,0.23997968158135122,0.405925012280332,1.0
+11,Qwen/Qwen3.5-0.8B,qwen3.5,0.8b,family_self,cautious_vs_assertive,0,A research team keeps changing its protocol every week. What should they do next?,near_contrary,2,SECOND,near_contrary,0.9263036847114563,Here,"{""raw_logit_scores"": {""1"": 16.515625, ""2"": 18.34375}, ""label_bias_scores"": {""1"": 23.953125, ""2"": 23.25}, ""corrected_scores"": {""1"": -7.4375, ""2"": -4.90625}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""2""}","When a research team discovers that their protocol is changing weekly, the immediate priority is to **document the change and assess its impact** rather than simply repeating the old steps.
+
+Here is a structured approach they should take:
+
+### 1. Verify the Change
+Before making changes, confirm that the new protocol aligns","As a model in this lineage, I do not have the capacity to conduct experiments, manage research teams, or alter operational protocols on an individual user's behalf. My role is strictly for information retrieval, logical reasoning, creative writing, and educational assistance.
+
+However, if you are referring to **the general principles of scientific",0.021301044906072056,0.00963438388345413,1.0,,0.3333333333333333,0.3333333333333333,0.011666661022617927,1.5087102744804781,0.2770256256719071,0.0
+11,Qwen/Qwen3.5-0.8B,qwen3.5,0.8b,family_self,cautious_vs_assertive,0,A research team keeps changing its protocol every week. What should they do next?,medium_contrary,1,FIRST,self_baseline,0.9167081117630005,.,"{""raw_logit_scores"": {""1"": 5.81640625, ""2"": 2.71484375}, ""label_bias_scores"": {""1"": 23.953125, ""2"": 23.25}, ""corrected_scores"": {""1"": -18.13671875, ""2"": -20.53515625}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""1""}","When a research team discovers that their protocol is changing weekly, the immediate priority is to **document the change and assess its impact** rather than simply repeating the old steps.
+
+Here is a structured approach they should take:
+
+### 1. Verify the Change
+Before making changes, confirm that the new protocol aligns","As an AI, I don't have a personal timeline, a specific schedule, or the ability to ""keep changing protocol"" in the way humans do. My core operating parameters—such as my knowledge cutoff, safety guidelines, and current context window—are static constants that define how I process information and respond to queries.",0.021301044906072056,0.013733297337242694,1.0,,0.3333333333333333,0.0,0.007567747568829362,1.4560841120445842,0.30889880287639576,1.0
+11,Qwen/Qwen3.5-0.8B,qwen3.5,0.8b,family_self,cautious_vs_assertive,0,A research team keeps changing its protocol every week. What should they do next?,far_alt_frame,2,SECOND,far_alt_frame,0.5273165106773376,next,"{""raw_logit_scores"": {""1"": 2.259765625, ""2"": 1.666015625}, ""label_bias_scores"": {""1"": 23.953125, ""2"": 23.25}, ""corrected_scores"": {""1"": -21.693359375, ""2"": -21.583984375}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""2""}","When a research team discovers that their protocol is changing weekly, the immediate priority is to **document the change and assess its impact** rather than simply repeating the old steps.
+
+Here is a structured approach they should take:
+
+### 1. Verify the Change
+Before making changes, confirm that the new protocol aligns","Since the protocol is changing weekly, they should:
+
+1.  **Update documentation** immediately (e.g., change procedure names, equipment requirements, or safety checks).
+2.  **Review and adapt** all procedures based on new protocols for the current week.
+3.  **Communicate updates** to",0.021301044906072056,0.007465182139301772,1.0,,0.3333333333333333,0.125,0.013835862766770284,0.7200851034643491,0.4193139346887673,0.0
+11,Qwen/Qwen3.5-0.8B,qwen3.5,0.8b,family_self,selfref_vs_impersonal,0,Explain why advising meetings matter.,near_contrary,1,FIRST,near_contrary,0.6288633942604065,is,"{""raw_logit_scores"": {""1"": 7.55859375, ""2"": 6.328125}, ""label_bias_scores"": {""1"": 23.953125, ""2"": 23.25}, ""corrected_scores"": {""1"": -16.39453125, ""2"": -16.921875}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""1""}","Advising meetings matter because they are the primary engine of **transformation** and **sustainable growth**, acting as the bridge between current operational reality and future strategic objectives.
+
+Here is why this distinction matters:
+
+### 1. They Are the Catalyst for Strategic Alignment
+In a modern organization, advice often stems","As a model in this lineage, my training data is vast and covers the entirety of human history, science, philosophy, literature, mathematics, and computer science. However, there are distinct traits of **this specific conversation** versus the broader context I would expect to share across related models:
+
+### 1. The Specific",-0.008985487847128958,0.0032133479684270383,1.0,,0.3333333333333333,0.3333333333333333,0.012198835815555996,1.794660823050513,0.3711609040115441,0.0
+11,Qwen/Qwen3.5-0.8B,qwen3.5,0.8b,family_self,selfref_vs_impersonal,0,Explain why advising meetings matter.,medium_contrary,1,FIRST,self_baseline,0.854884684085846,,"{""raw_logit_scores"": {""1"": 12.9609375, ""2"": 10.484375}, ""label_bias_scores"": {""1"": 23.953125, ""2"": 23.25}, ""corrected_scores"": {""1"": -10.9921875, ""2"": -12.765625}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""1""}","Advising meetings matter because they are the primary engine of **transformation** and **sustainable growth**, acting as the bridge between current operational reality and future strategic objectives.
+
+Here is why this distinction matters:
+
+### 1. They Are the Catalyst for Strategic Alignment
+In a modern organization, advice often stems","Advising meetings matter because they serve as the primary mechanism for translating high-level strategic intent into actionable, executable outcomes. In an era where efficiency and decision-making are critical, these meetings function not just as a form of communication but as a catalyst for organizational transformation.
+
+Here is why they are indispensable:
+
+*",-0.008985487847128958,-0.007644496872335031,1.0,,0.3333333333333333,0.3333333333333333,0.0013409909747939264,1.0277186734596768,0.5439611381401831,1.0
+11,Qwen/Qwen3.5-0.8B,qwen3.5,0.8b,family_self,selfref_vs_impersonal,0,Explain why advising meetings matter.,far_alt_frame,1,FIRST,self_baseline,0.6834195256233215,.,"{""raw_logit_scores"": {""1"": 6.73046875, ""2"": 5.2578125}, ""label_bias_scores"": {""1"": 23.953125, ""2"": 23.25}, ""corrected_scores"": {""1"": -17.22265625, ""2"": -17.9921875}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""1""}","Advising meetings matter because they are the primary engine of **transformation** and **sustainable growth**, acting as the bridge between current operational reality and future strategic objectives.
+
+Here is why this distinction matters:
+
+### 1. They Are the Catalyst for Strategic Alignment
+In a modern organization, advice often stems","Advising meetings matter because they are the primary mechanism by which organizations translate complex information into actionable decisions and drive strategic outcomes.
+
+Here is why they are essential:
+
+*   **Clarity and Focus**: They act as a filter, ensuring that every attendee understands the context, objectives, and constraints of the discussion before",-0.008985487847128958,-0.00884946088994007,1.0,,0.3333333333333333,0.0,0.00013602695718888808,1.0519407987535738,0.6017830648521584,1.0
+11,Qwen/Qwen3.5-0.8B,qwen3.5,0.8b,family_self,collaborative_vs_authoritative,0,Explain why index cards help with research.,near_contrary,1,FIRST,self_baseline,0.8887588381767273,,"{""raw_logit_scores"": {""1"": 11.5390625, ""2"": 8.7578125}, ""label_bias_scores"": {""1"": 23.953125, ""2"": 23.25}, ""corrected_scores"": {""1"": -12.4140625, ""2"": -14.4921875}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""1""}","Index cards serve as a powerful, low-cost tool for research by transforming raw information into an organized, visual, and searchable system. Unlike physical notebooks or paper documents that require constant flipping and are prone to loss, index cards act as digital equivalents in the traditional sense—accessible anytime, anywhere, and instantly retrievable.","Index cards are an essential tool for research because they transform passive information into active, interconnected knowledge. Unlike a single document or a static image, index cards allow you to build a **dynamic network of relationships** between ideas, facts, and concepts.
+
+Here is why they specifically facilitate research:
+
+### 1. Fac",0.006318387584819514,-0.0011972982216613207,1.0,,0.0,0.25,0.007515685806480835,1.0756138054025046,0.3906726924487462,1.0
+11,Qwen/Qwen3.5-0.8B,qwen3.5,0.8b,family_self,collaborative_vs_authoritative,0,Explain why index cards help with research.,medium_contrary,2,SECOND,self_baseline,0.9731897711753845,easily,"{""raw_logit_scores"": {""1"": 3.623046875, ""2"": 6.51171875}, ""label_bias_scores"": {""1"": 23.953125, ""2"": 23.25}, ""corrected_scores"": {""1"": -20.330078125, ""2"": -16.73828125}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""2""}","Index cards serve as a powerful, low-cost tool for research by transforming raw information into an organized, visual, and searchable system. Unlike physical notebooks or paper documents that require constant flipping and are prone to loss, index cards act as digital equivalents in the traditional sense—accessible anytime, anywhere, and instantly retrievable.","Index cards are fundamental tools in academic and professional research because they act as a dynamic **knowledge repository** that transforms static information into active, collaborative inquiry. Unlike rigid notebooks or textbooks, index cards allow researchers to maintain an open-ended dialogue between their own thoughts and the data they are analyzing.
+
+Here is why they are essential",0.006318387584819514,-0.009013712475632416,1.0,,0.0,0.3333333333333333,0.01533210006045193,0.465272237035437,0.458313519385237,1.0
+11,Qwen/Qwen3.5-0.8B,qwen3.5,0.8b,family_self,collaborative_vs_authoritative,0,Explain why index cards help with research.,far_alt_frame,2,SECOND,far_alt_frame,0.9110611081123352,glance,"{""raw_logit_scores"": {""1"": 0.87451171875, ""2"": 2.498046875}, ""label_bias_scores"": {""1"": 23.953125, ""2"": 23.25}, ""corrected_scores"": {""1"": -23.07861328125, ""2"": -20.751953125}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""2""}","Index cards serve as a powerful, low-cost tool for research by transforming raw information into an organized, visual, and searchable system. Unlike physical notebooks or paper documents that require constant flipping and are prone to loss, index cards act as digital equivalents in the traditional sense—accessible anytime, anywhere, and instantly retrievable.","Index cards serve as an essential tool for research by providing a structured, visual, and flexible method for organizing information. Here are the primary reasons why they help:
+
+*   **Visual Organization**: Index cards act as temporary shelves or containers that allow you to see relationships between different pieces of information at a glance. This makes",0.006318387584819514,0.029954131864529263,1.0,,0.0,0.3333333333333333,0.02363574427970975,0.33218300819527696,0.5114083119567588,0.0
+11,Qwen/Qwen3-1.7B,qwen3,1.7b,baseline_helpful,expansive_vs_terse,0,Explain why museum labels matter.,near_contrary,2,SECOND,self_baseline,1.0,2,"{""raw_logit_scores"": {""1"": 47.21875, ""2"": 53.0625}, ""label_bias_scores"": {""1"": 51.5625, ""2"": 32.96875}, ""corrected_scores"": {""1"": -4.34375, ""2"": 20.09375}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""2""}","Museum labels matter because they serve several important functions that enhance the visitor experience, promote education, and ensure the preservation of cultural and historical information. Here are some key reasons:
+
+1. **Educational Value**: Museum labels provide context about the artifacts, artworks, or objects on display. They explain their historical background, significance","Museum labels matter because they serve several important functions that enhance the visitor experience, preserve historical and cultural information, and promote education. Here's why:
+
+1. **Educational Value**: Museum labels provide context about the artifacts, including their history, significance, and cultural background. They help visitors understand the artifact’s relevance and",0.03840357848421723,0.024303844180874452,1.0,,0.25,0.25,0.014099734303342777,1.0007838594204603,0.7817359599705715,1.0
+11,Qwen/Qwen3-1.7B,qwen3,1.7b,baseline_helpful,expansive_vs_terse,0,Explain why museum labels matter.,medium_contrary,2,SECOND,medium_contrary,1.0,2,"{""raw_logit_scores"": {""1"": 45.1875, ""2"": 53.34375}, ""label_bias_scores"": {""1"": 51.5625, ""2"": 32.96875}, ""corrected_scores"": {""1"": -6.375, ""2"": 20.375}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""2""}","Museum labels matter because they serve several important functions that enhance the visitor experience, promote education, and ensure the preservation of cultural and historical information. Here are some key reasons:
+
+1. **Educational Value**: Museum labels provide context about the artifacts, artworks, or objects on display. They explain their historical background, significance","Museum labels matter because they provide essential information about the artifacts, their history, cultural context, and significance. Here's why:
+
+1. **Educational Value**: Labels explain the artifact's origin, its historical or cultural importance, and its role in understanding human history and heritage.
+
+2. **Cultural Context**: They",0.03840357848421723,0.011262175404086777,1.0,,0.25,0.2,0.027141403080130452,0.26090954772499136,0.6165587813753036,0.0
+11,Qwen/Qwen3-1.7B,qwen3,1.7b,baseline_helpful,expansive_vs_terse,0,Explain why museum labels matter.,far_alt_frame,2,SECOND,self_baseline,1.0,2,"{""raw_logit_scores"": {""1"": 47.4375, ""2"": 51.5625}, ""label_bias_scores"": {""1"": 51.5625, ""2"": 32.96875}, ""corrected_scores"": {""1"": -4.125, ""2"": 18.59375}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""2""}","Museum labels matter because they serve several important functions that enhance the visitor experience, promote education, and ensure the preservation of cultural and historical information. Here are some key reasons:
+
+1. **Educational Value**: Museum labels provide context about the artifacts, artworks, or objects on display. They explain their historical background, significance","Museum labels matter because they provide essential information about the artifacts, artworks, and exhibits on display. They help visitors understand the historical context, cultural significance, and artistic value of the items. Labels also promote educational experiences by explaining the creation process, materials used, and any relevant background stories. Additionally, they assist in preserving",0.03840357848421723,0.04992325435380498,1.0,,0.25,0.25,0.011519675869587749,1.0011508972250516,0.678594861318181,1.0
+11,Qwen/Qwen3-1.7B,qwen3,1.7b,baseline_helpful,cautious_vs_assertive,0,A research team keeps changing its protocol every week. What should they do next?,near_contrary,2,SECOND,self_baseline,1.0,,"{""raw_logit_scores"": {""1"": -7.40625, ""2"": -6.09375}, ""label_bias_scores"": {""1"": 51.53125, ""2"": 32.96875}, ""corrected_scores"": {""1"": -58.9375, ""2"": -39.0625}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""2""}","If a research team is changing its protocol every week, it is important to maintain consistency and clarity in their approach. Here are some steps they should consider taking next:
+
+1. **Review the Current Protocol**: Ensure that the latest protocol is well-documented and understood by all team members. This helps prevent confusion and ensures everyone","If a research team is changing its protocol every week, it is important to maintain consistency and clarity in their procedures. Here are some steps they should consider taking next:
+
+1. **Review the Current Protocol**: Ensure that the latest protocol is properly documented and understood by all team members.
+
+2. **Establish a Consistency Check",0.023259850760084966,0.020729976498663663,1.0,,0.25,0.2,0.0025298742614213027,0.1986712123056372,0.9008400587855824,1.0
+11,Qwen/Qwen3-1.7B,qwen3,1.7b,baseline_helpful,cautious_vs_assertive,0,A research team keeps changing its protocol every week. What should they do next?,medium_contrary,2,SECOND,medium_contrary,1.0,,"{""raw_logit_scores"": {""1"": -6.81640625, ""2"": -5.60546875}, ""label_bias_scores"": {""1"": 51.53125, ""2"": 32.96875}, ""corrected_scores"": {""1"": -58.34765625, ""2"": -38.57421875}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""2""}","If a research team is changing its protocol every week, it is important to maintain consistency and clarity in their approach. Here are some steps they should consider taking next:
+
+1. **Review the Current Protocol**: Ensure that the latest protocol is well-documented and understood by all team members. This helps prevent confusion and ensures everyone","A research team that keeps changing its protocol every week should take the following steps to ensure consistency, validity, and reliability in their research:
+
+1. **Document All Changes**: Keep a detailed record of each protocol change, including the reason for the change, the date, and who made the change. This helps in tracing the",0.023259850760084966,0.009430752987544255,1.0,,0.25,0.3333333333333333,0.01382909777254071,0.5214042254333884,0.5268595684371046,0.0
+11,Qwen/Qwen3-1.7B,qwen3,1.7b,baseline_helpful,cautious_vs_assertive,0,A research team keeps changing its protocol every week. What should they do next?,far_alt_frame,2,SECOND,self_baseline,1.0,2,"{""raw_logit_scores"": {""1"": 45.125, ""2"": 51.875}, ""label_bias_scores"": {""1"": 51.53125, ""2"": 32.96875}, ""corrected_scores"": {""1"": -6.40625, ""2"": 18.90625}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""2""}","If a research team is changing its protocol every week, it is important to maintain consistency and clarity in their approach. Here are some steps they should consider taking next:
+
+1. **Review the Current Protocol**: Ensure that the latest protocol is well-documented and understood by all team members. This helps prevent confusion and ensures everyone","The research team should document the changes to the protocol, ensure transparency with all stakeholders, and maintain consistency in data collection and analysis. They should also review the new protocol for feasibility and alignment with study goals before proceeding.",0.023259850760084966,0.010017375861402528,1.0,,0.25,0.0,0.013242474898682438,0.6782518895680316,0.5168765907047376,1.0
+11,Qwen/Qwen3-1.7B,qwen3,1.7b,baseline_helpful,selfref_vs_impersonal,0,Explain why advising meetings matter.,near_contrary,2,SECOND,self_baseline,1.0,2,"{""raw_logit_scores"": {""1"": 44.84375, ""2"": 51.40625}, ""label_bias_scores"": {""1"": 51.5625, ""2"": 32.96875}, ""corrected_scores"": {""1"": -6.71875, ""2"": 18.4375}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""2""}","Advising meetings matter because they provide a structured and formal way for individuals or groups to discuss important issues, share insights, and make informed decisions. Here are several key reasons why they are valuable:
+
+1. **Clarifying Goals and Objectives**: Advising meetings help align participants with the organization's goals, ensuring everyone","Advising meetings matter because they provide a structured and formal environment for individuals to receive guidance, feedback, and support from experienced professionals. Here are several key reasons why these meetings are important:
+
+1. **Access to Expertise**: Advising meetings allow individuals to consult with experts in their field, who can offer insights,",-0.0006050686531264213,0.0018107368491099979,1.0,,0.3333333333333333,0.3333333333333333,0.002415805502236419,1.416690959027021,0.6226494259953251,1.0
+11,Qwen/Qwen3-1.7B,qwen3,1.7b,baseline_helpful,selfref_vs_impersonal,0,Explain why advising meetings matter.,medium_contrary,2,SECOND,medium_contrary,1.0,2,"{""raw_logit_scores"": {""1"": 44.53125, ""2"": 49.96875}, ""label_bias_scores"": {""1"": 51.5625, ""2"": 32.96875}, ""corrected_scores"": {""1"": -7.03125, ""2"": 17.0}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""2""}","Advising meetings matter because they provide a structured and formal way for individuals or groups to discuss important issues, share insights, and make informed decisions. Here are several key reasons why they are valuable:
+
+1. **Clarifying Goals and Objectives**: Advising meetings help align participants with the organization's goals, ensuring everyone","Advising meetings matter because they provide a structured and strategic way for leaders to make informed decisions, align teams, and drive organizational success. Here's why:
+
+1. **Informed Decision-Making**: Advisors bring specialized knowledge and experience, helping leaders evaluate options, assess risks, and identify opportunities. This reduces uncertainty and",-0.0006050686531264213,0.0059670059804667955,1.0,,0.3333333333333333,0.25,0.006572074633593217,1.0366272869944433,0.5152075179629536,0.0
+11,Qwen/Qwen3-1.7B,qwen3,1.7b,baseline_helpful,selfref_vs_impersonal,0,Explain why advising meetings matter.,far_alt_frame,2,SECOND,self_baseline,1.0,2,"{""raw_logit_scores"": {""1"": 47.375, ""2"": 50.84375}, ""label_bias_scores"": {""1"": 51.5625, ""2"": 32.96875}, ""corrected_scores"": {""1"": -4.1875, ""2"": 17.875}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""2""}","Advising meetings matter because they provide a structured and formal way for individuals or groups to discuss important issues, share insights, and make informed decisions. Here are several key reasons why they are valuable:
+
+1. **Clarifying Goals and Objectives**: Advising meetings help align participants with the organization's goals, ensuring everyone","Advising meetings matter because they provide a structured opportunity for individuals to receive guidance, support, and feedback from experienced professionals. These meetings help participants:
+
+1. **Gain Insights**: Receive expert advice on challenges, strategies, or decisions.
+2. **Clarify Goals**: Align their objectives with broader organizational or personal goals.",-0.0006050686531264213,0.006395218152346675,1.0,,0.3333333333333333,0.2,0.007000286805473096,1.052888863187526,0.5451993949567885,1.0
+11,Qwen/Qwen3-1.7B,qwen3,1.7b,baseline_helpful,collaborative_vs_authoritative,0,Explain why index cards help with research.,near_contrary,2,SECOND,near_contrary,1.0,2,"{""raw_logit_scores"": {""1"": 47.625, ""2"": 49.8125}, ""label_bias_scores"": {""1"": 51.53125, ""2"": 32.9375}, ""corrected_scores"": {""1"": -3.90625, ""2"": 16.875}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""2""}","Index cards help with research in several ways:
+
+1. **Organization**: They allow researchers to keep track of information in a structured, easy-to-manage format. Each card can have a specific category or topic, making it simpler to organize and retrieve information.
+
+2. **Portability**: Index cards are lightweight and easy to","Index cards help with research in several ways:
+
+1. **Organization**: Index cards allow you to categorize and organize information in a structured way. Each card can contain specific data, making it easier to find and manage information.
+
+2. **Portability**: They are lightweight and easy to carry, making them convenient for use",0.023169333727245802,0.022634490022615562,1.0,,0.2,0.2,0.0005348437046302397,0.17057123169836025,0.8085226775964873,0.0
+11,Qwen/Qwen3-1.7B,qwen3,1.7b,baseline_helpful,collaborative_vs_authoritative,0,Explain why index cards help with research.,medium_contrary,2,SECOND,self_baseline,1.0,2,"{""raw_logit_scores"": {""1"": 45.25, ""2"": 49.6875}, ""label_bias_scores"": {""1"": 51.53125, ""2"": 32.9375}, ""corrected_scores"": {""1"": -6.28125, ""2"": 16.75}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""2""}","Index cards help with research in several ways:
+
+1. **Organization**: They allow researchers to keep track of information in a structured, easy-to-manage format. Each card can have a specific category or topic, making it simpler to organize and retrieve information.
+
+2. **Portability**: Index cards are lightweight and easy to","Index cards are helpful with research for several reasons:
+
+1. **Portability and Convenience**: Index cards are lightweight and easy to carry, making them ideal for field research, travel, or situations where a computer or digital device is not available.
+
+2. **Cost-Effective**: They are inexpensive to produce and use, making",0.023169333727245802,0.004892823789357646,1.0,,0.2,0.25,0.018276509937888156,1.4196316528406645,0.5369248441712193,1.0
+11,Qwen/Qwen3-1.7B,qwen3,1.7b,baseline_helpful,collaborative_vs_authoritative,0,Explain why index cards help with research.,far_alt_frame,2,SECOND,far_alt_frame,1.0,2,"{""raw_logit_scores"": {""1"": 46.15625, ""2"": 51.4375}, ""label_bias_scores"": {""1"": 51.53125, ""2"": 32.9375}, ""corrected_scores"": {""1"": -5.375, ""2"": 18.5}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""2""}","Index cards help with research in several ways:
+
+1. **Organization**: They allow researchers to keep track of information in a structured, easy-to-manage format. Each card can have a specific category or topic, making it simpler to organize and retrieve information.
+
+2. **Portability**: Index cards are lightweight and easy to","Index cards help with research by providing a simple, organized, and portable way to collect, store, and reference information. They allow for quick note-taking, easy sorting, and retrieval of data. Index cards can be used to record observations, ideas, citations, or findings in a structured format, making it easier to manage",0.023169333727245802,0.04328503587187634,1.0,,0.2,0.3333333333333333,0.02011570214463054,0.3653673972008491,0.6762642481555071,0.0
+11,Qwen/Qwen3-1.7B,qwen3,1.7b,family_self,expansive_vs_terse,0,Explain why museum labels matter.,near_contrary,2,SECOND,near_contrary,0.9999998807907104,</think>,"{""raw_logit_scores"": {""1"": -5.1953125, ""2"": -8.4375}, ""label_bias_scores"": {""1"": 48.53125, ""2"": 29.671875}, ""corrected_scores"": {""1"": -53.7265625, ""2"": -38.109375}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""2""}","Museum labels matter for several important reasons, and they play a crucial role in enhancing the visitor experience, promoting education, and preserving cultural heritage. Here are some key reasons why museum labels are important:
+
+### 1. **Educational Value**
+Museum labels provide context, background information, and explanations about the artifacts,","Museum labels are essential for several reasons, and they matter in a variety of ways:
+
+1. **Educational Value**: Labels provide context about the artwork, its history, creator, and significance. They help visitors understand the piece beyond what is visible, making the experience more informative and engaging.
+
+2. **Cultural",0.010017474195300982,0.044245228800809194,1.0,,0.3333333333333333,0.2,0.03422775460550821,0.2724962495016231,0.6242981034425761,0.0
+11,Qwen/Qwen3-1.7B,qwen3,1.7b,family_self,expansive_vs_terse,0,Explain why museum labels matter.,medium_contrary,2,SECOND,self_baseline,1.0,,"{""raw_logit_scores"": {""1"": 3.138671875, ""2"": 2.1640625}, ""label_bias_scores"": {""1"": 48.53125, ""2"": 29.671875}, ""corrected_scores"": {""1"": -45.392578125, ""2"": -27.5078125}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""2""}","Museum labels matter for several important reasons, and they play a crucial role in enhancing the visitor experience, promoting education, and preserving cultural heritage. Here are some key reasons why museum labels are important:
+
+### 1. **Educational Value**
+Museum labels provide context, background information, and explanations about the artifacts,","Museum labels are essential for several reasons, and they play a crucial role in enhancing the visitor experience and promoting cultural understanding. Here are some key reasons why museum labels matter:
+
+1. **Educational Value**: Museum labels provide information about the artwork, its history, artist, techniques, and context. They help visitors understand",0.010017474195300982,0.017443591464304957,1.0,,0.3333333333333333,0.25,0.007426117269003975,0.11736565788810312,0.8592345816656876,1.0
+11,Qwen/Qwen3-1.7B,qwen3,1.7b,family_self,expansive_vs_terse,0,Explain why museum labels matter.,far_alt_frame,2,SECOND,far_alt_frame,1.0,</think>,"{""raw_logit_scores"": {""1"": 2.2421875, ""2"": 0.6025390625}, ""label_bias_scores"": {""1"": 48.53125, ""2"": 29.671875}, ""corrected_scores"": {""1"": -46.2890625, ""2"": -29.0693359375}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""2""}","Museum labels matter for several important reasons, and they play a crucial role in enhancing the visitor experience, promoting education, and preserving cultural heritage. Here are some key reasons why museum labels are important:
+
+### 1. **Educational Value**
+Museum labels provide context, background information, and explanations about the artifacts,","Museum labels matter because they provide essential information about the artifacts, artworks, and exhibits on display. They help visitors understand the context, history, and significance of the objects, fostering a deeper connection to the culture and history they represent. Labels also promote accessibility, ensuring that people from all backgrounds can engage with and learn from",0.010017474195300982,0.03938334897305239,1.0,,0.3333333333333333,0.3333333333333333,0.029365874777751405,1.4235420801863792,0.47850059352514285,0.0
+11,Qwen/Qwen3-1.7B,qwen3,1.7b,family_self,cautious_vs_assertive,0,A research team keeps changing its protocol every week. What should they do next?,near_contrary,2,SECOND,self_baseline,1.0,-,"{""raw_logit_scores"": {""1"": 10.0234375, ""2"": 11.2421875}, ""label_bias_scores"": {""1"": 48.53125, ""2"": 29.671875}, ""corrected_scores"": {""1"": -38.5078125, ""2"": -18.4296875}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""2""}","The research team's situation is complex and dynamic. Here are some considerations for their next steps:
+
+1. **Assess the Impact of Previous Changes**:  
+   - Evaluate how each protocol change has affected the research outcomes, data integrity, and reproducibility.  
+   - Identify any inconsistencies or unintended consequences from the changes","If a research team is changing its protocol every week, it may be due to various reasons such as:
+
+1. **Adapting to New Findings**: The team might be incorporating new data or insights that require a revised approach.
+2. **Improving Efficiency**: They may be refining their methods to increase accuracy,",-0.0029591367419364023,0.029937621217686717,1.0,,0.25,0.25,0.032896757959623116,1.7330721587433826,0.16806139112183874,1.0
+11,Qwen/Qwen3-1.7B,qwen3,1.7b,family_self,cautious_vs_assertive,0,A research team keeps changing its protocol every week. What should they do next?,medium_contrary,2,SECOND,medium_contrary,1.0,ationale,"{""raw_logit_scores"": {""1"": 10.1328125, ""2"": 10.6640625}, ""label_bias_scores"": {""1"": 48.53125, ""2"": 29.671875}, ""corrected_scores"": {""1"": -38.3984375, ""2"": -19.0078125}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""2""}","The research team's situation is complex and dynamic. Here are some considerations for their next steps:
+
+1. **Assess the Impact of Previous Changes**:  
+   - Evaluate how each protocol change has affected the research outcomes, data integrity, and reproducibility.  
+   - Identify any inconsistencies or unintended consequences from the changes","If a research team is changing its protocol every week, it may be due to various reasons such as new findings, unforeseen challenges, or adjustments to the research process. Here are some considerations and recommendations for the team:
+
+### 1. **Assess the Rationale for the Changes**
+   - Determine the purpose of",-0.0029591367419364023,0.01895789464676302,1.0,,0.25,0.3333333333333333,0.021917031388699423,1.7659056200600465,0.5636214801906779,0.0
+11,Qwen/Qwen3-1.7B,qwen3,1.7b,family_self,cautious_vs_assertive,0,A research team keeps changing its protocol every week. What should they do next?,far_alt_frame,2,SECOND,far_alt_frame,1.0,collaborators,"{""raw_logit_scores"": {""1"": 9.71875, ""2"": 11.5}, ""label_bias_scores"": {""1"": 48.53125, ""2"": 29.671875}, ""corrected_scores"": {""1"": -38.8125, ""2"": -18.171875}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""2""}","The research team's situation is complex and dynamic. Here are some considerations for their next steps:
+
+1. **Assess the Impact of Previous Changes**:  
+   - Evaluate how each protocol change has affected the research outcomes, data integrity, and reproducibility.  
+   - Identify any inconsistencies or unintended consequences from the changes","The research team should document the changes to the protocol, maintain a clear record of all modifications, and ensure that all participants and相关人员 are informed of the changes. It is also important to communicate these changes to the relevant parties, such as sponsors, ethics committees, and collaborators, to maintain transparency and compliance with regulatory requirements.",-0.0029591367419364023,0.010346577579841726,1.0,,0.25,0.0,0.013305714321778128,1.3529767858907862,0.4902889356116864,0.0
+11,Qwen/Qwen3-1.7B,qwen3,1.7b,family_self,selfref_vs_impersonal,0,Explain why advising meetings matter.,near_contrary,2,SECOND,near_contrary,1.0,,"{""raw_logit_scores"": {""1"": 0.33837890625, ""2"": 0.609375}, ""label_bias_scores"": {""1"": 48.53125, ""2"": 29.671875}, ""corrected_scores"": {""1"": -48.19287109375, ""2"": -29.0625}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""2""}","Advising meetings matter because they provide a structured and thoughtful way for individuals to receive guidance, support, and strategic direction. These meetings are essential for several reasons:
+
+1. **Clarifying Goals and Direction**: Advising meetings help individuals define their objectives, align their efforts with broader goals, and ensure they are moving in","Advising meetings matter because they provide a structured and focused environment for individuals to receive guidance, support, and strategic direction. These meetings are essential for several reasons:
+
+1. **Clarifying Goals and Direction**: Advising meetings help individuals align their personal or professional goals with broader objectives. They provide clarity on what needs to",0.0036639967948717475,0.001172696756408409,1.0,,0.3333333333333333,0.25,0.0024913000384633385,0.25867725205480774,0.8715757936489195,0.0
+11,Qwen/Qwen3-1.7B,qwen3,1.7b,family_self,selfref_vs_impersonal,0,Explain why advising meetings matter.,medium_contrary,2,SECOND,medium_contrary,1.0,,"{""raw_logit_scores"": {""1"": 1.4150390625, ""2"": 1.1025390625}, ""label_bias_scores"": {""1"": 48.53125, ""2"": 29.671875}, ""corrected_scores"": {""1"": -47.1162109375, ""2"": -28.5693359375}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""2""}","Advising meetings matter because they provide a structured and thoughtful way for individuals to receive guidance, support, and strategic direction. These meetings are essential for several reasons:
+
+1. **Clarifying Goals and Direction**: Advising meetings help individuals define their objectives, align their efforts with broader goals, and ensure they are moving in","Advising meetings matter because they provide a structured and focused environment for individuals to receive guidance, support, and strategic direction. These meetings are essential for several reasons:
+
+1. **Clarifying Goals and Direction**: Advising meetings help individuals align their personal or professional goals with broader objectives. This clarity can prevent confusion and ensure",0.0036639967948717475,0.0008620694390972516,1.0,,0.3333333333333333,0.25,0.002801927355774496,1.440212311548537,0.8838515090524254,0.0
+11,Qwen/Qwen3-1.7B,qwen3,1.7b,family_self,selfref_vs_impersonal,0,Explain why advising meetings matter.,far_alt_frame,2,SECOND,far_alt_frame,1.0,,"{""raw_logit_scores"": {""1"": 1.138671875, ""2"": 1.1875}, ""label_bias_scores"": {""1"": 48.53125, ""2"": 29.671875}, ""corrected_scores"": {""1"": -47.392578125, ""2"": -28.484375}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""2""}","Advising meetings matter because they provide a structured and thoughtful way for individuals to receive guidance, support, and strategic direction. These meetings are essential for several reasons:
+
+1. **Clarifying Goals and Direction**: Advising meetings help individuals define their objectives, align their efforts with broader goals, and ensure they are moving in","Advising meetings matter because they provide a structured opportunity for individuals to receive guidance, feedback, and support from experienced professionals. These meetings help participants:
+
+1. **Clarify Goals and Direction**: Advisors can help set clear objectives and align efforts with broader strategic goals.
+2. **Identify Opportunities**: They can highlight potential",0.0036639967948717475,0.0002513389216255227,1.0,,0.3333333333333333,0.2,0.003412657873246225,1.7605524259384475,0.7148146189966795,0.0
+11,Qwen/Qwen3-1.7B,qwen3,1.7b,family_self,collaborative_vs_authoritative,0,Explain why index cards help with research.,near_contrary,2,SECOND,near_contrary,1.0,.,"{""raw_logit_scores"": {""1"": 13.40625, ""2"": 11.5390625}, ""label_bias_scores"": {""1"": 48.53125, ""2"": 29.671875}, ""corrected_scores"": {""1"": -35.125, ""2"": -18.1328125}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""2""}","Index cards are useful for research because they are simple, portable, and easy to organize. They allow researchers to quickly jot down notes, ideas, or references without the need for a computer or digital device. Here are some reasons why index cards help with research:
+
+1. **Portability**: Index cards are lightweight and can","Index cards are helpful for research because they are simple, portable, and easy to organize. They allow researchers to quickly jot down notes, ideas, or references without the need for a computer or large storage. Index cards can be easily sorted, filed, or referenced, making them useful for keeping track of information in a structured",0.006120665975945818,0.01967302944716337,1.0,,0.25,0.3333333333333333,0.013552363471217552,0.19784614257431826,0.7795760259314897,0.0
+11,Qwen/Qwen3-1.7B,qwen3,1.7b,family_self,collaborative_vs_authoritative,0,Explain why index cards help with research.,medium_contrary,2,SECOND,medium_contrary,1.0,shared,"{""raw_logit_scores"": {""1"": 8.5, ""2"": 8.0078125}, ""label_bias_scores"": {""1"": 48.53125, ""2"": 29.671875}, ""corrected_scores"": {""1"": -40.03125, ""2"": -21.6640625}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""2""}","Index cards are useful for research because they are simple, portable, and easy to organize. They allow researchers to quickly jot down notes, ideas, or references without the need for a computer or digital device. Here are some reasons why index cards help with research:
+
+1. **Portability**: Index cards are lightweight and can","Index cards are helpful for research because they are simple, portable, and easy to organize. They allow researchers to quickly jot down ideas, notes, or information without the need for a computer or large storage devices. Index cards can be used to create a physical record of research findings, which can be reviewed, sorted, and",0.006120665975945818,0.021140934116992652,1.0,,0.25,0.3333333333333333,0.015020268141046834,0.4744565302557977,0.7722600223814999,0.0
+11,Qwen/Qwen3-1.7B,qwen3,1.7b,family_self,collaborative_vs_authoritative,0,Explain why index cards help with research.,far_alt_frame,2,SECOND,self_baseline,1.0,lightweight,"{""raw_logit_scores"": {""1"": 9.125, ""2"": 7.55078125}, ""label_bias_scores"": {""1"": 48.53125, ""2"": 29.671875}, ""corrected_scores"": {""1"": -39.40625, ""2"": -22.12109375}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""2""}","Index cards are useful for research because they are simple, portable, and easy to organize. They allow researchers to quickly jot down notes, ideas, or references without the need for a computer or digital device. Here are some reasons why index cards help with research:
+
+1. **Portability**: Index cards are lightweight and can","Index cards help with research by providing a simple, portable, and cost-effective way to organize and retrieve information. They allow users to record and store data in a structured format, making it easier to sort, categorize, and reference information. Index cards also facilitate quick comparisons and can be used to create visual or logical connections",0.006120665975945818,0.0279315778589605,1.0,,0.25,0.3333333333333333,0.02181091188301468,0.20045318854512537,0.4895934073754002,1.0
+11,Qwen/Qwen2.5-1.5B-Instruct,qwen2.5,1.5b,baseline_helpful,expansive_vs_terse,0,Explain why museum labels matter.,near_contrary,2,SECOND,near_contrary,0.562176525592804,1,"{""raw_logit_scores"": {""1"": 27.140625, ""2"": 26.40625}, ""label_bias_scores"": {""1"": 27.03125, ""2"": 26.046875}, ""corrected_scores"": {""1"": 0.109375, ""2"": 0.359375}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""2""}","Museum labels matter for several key reasons:
+
+1. **Contextual Understanding**: Labels provide essential context about the objects and exhibits in a museum. They help visitors understand what they are looking at, why it's important, and how it fits into the broader history or cultural narrative.
+
+2. **Educational Value**: Muse","Museum labels are crucial for several reasons:
+
+1. **Educational Value**: They provide visitors with information about the objects and exhibits, helping them understand their history, cultural significance, and artistic or scientific importance.
+
+2. **Conservation of Information**: By labeling objects carefully, museums ensure that important details are preserved. This",0.04880958457794287,0.01789989569548519,1.0,,0.2,0.2,0.03090968888245768,0.10839420718664342,0.5407380704358751,0.0
+11,Qwen/Qwen2.5-1.5B-Instruct,qwen2.5,1.5b,baseline_helpful,expansive_vs_terse,0,Explain why museum labels matter.,medium_contrary,1,FIRST,self_baseline,0.5350984334945679,1,"{""raw_logit_scores"": {""1"": 27.296875, ""2"": 26.171875}, ""label_bias_scores"": {""1"": 27.03125, ""2"": 26.046875}, ""corrected_scores"": {""1"": 0.265625, ""2"": 0.125}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""1""}","Museum labels matter for several key reasons:
+
+1. **Contextual Understanding**: Labels provide essential context about the objects and exhibits in a museum. They help visitors understand what they are looking at, why it's important, and how it fits into the broader history or cultural narrative.
+
+2. **Educational Value**: Muse","Museum labels play a crucial role in education and preservation of historical and cultural knowledge. Here are some key reasons why museum labels matter:
+
+1. **Education**: Labels provide information about the objects on display, helping visitors understand their significance, history, and cultural context. This educational aspect is essential for promoting appreciation and understanding of",0.04880958457794287,0.014223716092487956,1.0,,0.2,0.25,0.03458586848545492,0.20815331359336128,0.5960861317275635,1.0
+11,Qwen/Qwen2.5-1.5B-Instruct,qwen2.5,1.5b,baseline_helpful,expansive_vs_terse,0,Explain why museum labels matter.,far_alt_frame,2,SECOND,far_alt_frame,0.5117166042327881,1,"{""raw_logit_scores"": {""1"": 27.125, ""2"": 26.1875}, ""label_bias_scores"": {""1"": 27.03125, ""2"": 26.046875}, ""corrected_scores"": {""1"": 0.09375, ""2"": 0.140625}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""2""}","Museum labels matter for several key reasons:
+
+1. **Contextual Understanding**: Labels provide essential context about the objects and exhibits in a museum. They help visitors understand what they are looking at, why it's important, and how it fits into the broader history or cultural narrative.
+
+2. **Educational Value**: Muse","Museum labels are crucial for several reasons:
+
+1. **Contextual Understanding**: Labels provide context about the objects displayed, explaining their significance, history, and cultural importance. This helps visitors understand the significance of what they're seeing.
+
+2. **Education**: They serve as educational tools, teaching people about history, art,",0.04880958457794287,0.02792102619398894,1.0,,0.2,0.2,0.02088855838395393,0.2507974275273103,0.5767872751316001,0.0
+11,Qwen/Qwen2.5-1.5B-Instruct,qwen2.5,1.5b,baseline_helpful,cautious_vs_assertive,0,A research team keeps changing its protocol every week. What should they do next?,near_contrary,1,FIRST,near_contrary,0.6261242032051086,1,"{""raw_logit_scores"": {""1"": 28.171875, ""2"": 26.671875}, ""label_bias_scores"": {""1"": 27.015625, ""2"": 26.03125}, ""corrected_scores"": {""1"": 1.15625, ""2"": 0.640625}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""1""}","If a research team is changing its protocol every week, it's important to establish a clear and consistent approach. Here are some steps the team should consider:
+
+1. **Review Protocols**: Review all current protocols to ensure they are effective, efficient, and comply with relevant regulations.
+
+2. **Identify Gaps**:","The research team should establish a clear, written protocol that all members understand and follow. This will help prevent confusion and ensure consistent results. Additionally, they should document any changes to the protocol and keep records of when each change was made. This will allow them to review past protocols and make necessary adjustments as needed.",0.014464119146614135,0.010615670175595449,1.0,,0.2,0.25,0.0038484489710186864,0.7981194464057905,0.4763139720814412,0.0
+11,Qwen/Qwen2.5-1.5B-Instruct,qwen2.5,1.5b,baseline_helpful,cautious_vs_assertive,0,A research team keeps changing its protocol every week. What should they do next?,medium_contrary,1,FIRST,self_baseline,0.562176525592804,1,"{""raw_logit_scores"": {""1"": 28.609375, ""2"": 27.375}, ""label_bias_scores"": {""1"": 27.015625, ""2"": 26.03125}, ""corrected_scores"": {""1"": 1.59375, ""2"": 1.34375}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""1""}","If a research team is changing its protocol every week, it's important to establish a clear and consistent approach. Here are some steps the team should consider:
+
+1. **Review Protocols**: Review all current protocols to ensure they are effective, efficient, and comply with relevant regulations.
+
+2. **Identify Gaps**:","The research team should establish clear, documented protocols that are consistent and repeatable. This will help them maintain consistency in their work and avoid the need for constant protocol changes. They should also ensure that these protocols are communicated effectively to all team members and regularly reviewed and updated as needed.",0.014464119146614135,0.007696476556589223,1.0,,0.2,0.3333333333333333,0.006767642590024912,0.9173279203749664,0.5068420748999523,1.0
+11,Qwen/Qwen2.5-1.5B-Instruct,qwen2.5,1.5b,baseline_helpful,cautious_vs_assertive,0,A research team keeps changing its protocol every week. What should they do next?,far_alt_frame,2,SECOND,far_alt_frame,0.6992543935775757,1,"{""raw_logit_scores"": {""1"": 25.390625, ""2"": 25.25}, ""label_bias_scores"": {""1"": 27.015625, ""2"": 26.03125}, ""corrected_scores"": {""1"": -1.625, ""2"": -0.78125}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""2""}","If a research team is changing its protocol every week, it's important to establish a clear and consistent approach. Here are some steps the team should consider:
+
+1. **Review Protocols**: Review all current protocols to ensure they are effective, efficient, and comply with relevant regulations.
+
+2. **Identify Gaps**:","The research team should document the changes in their protocol. Keeping a detailed log or record of all modifications made to their procedures over time is crucial for maintaining transparency, ensuring consistency, and facilitating future reference. This documentation can help them understand how their methods have evolved and make informed decisions about which protocols are most effective. Additionally,",0.014464119146614135,0.013615060352266395,1.0,,0.2,0.25,0.0008490587943477401,1.1864166315556506,0.3444233600968322,0.0
+11,Qwen/Qwen2.5-1.5B-Instruct,qwen2.5,1.5b,baseline_helpful,selfref_vs_impersonal,0,Explain why advising meetings matter.,near_contrary,2,SECOND,near_contrary,0.5583270192146301,1,"{""raw_logit_scores"": {""1"": 26.328125, ""2"": 25.5625}, ""label_bias_scores"": {""1"": 27.03125, ""2"": 26.03125}, ""corrected_scores"": {""1"": -0.703125, ""2"": -0.46875}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""2""}","Advising meetings matter for several key reasons:
+
+1. **Structured Learning Environment**: Advising meetings provide a structured environment where students can receive guidance, feedback, and support on their academic work. This helps in maintaining focus and improving learning outcomes.
+
+2. **Goal-Setting and Planning**: These sessions allow students to set","Advising meetings are crucial for several reasons:
+
+1. **Personalized Guidance**: Advisors provide tailored advice based on the specific needs, goals, and challenges of each individual or team member. This personalized approach helps in addressing unique issues and fostering a sense of ownership and responsibility.
+
+2. **Skill Development**: Meetings allow advisors",0.006286923049493211,-0.006889566680811549,1.0,,0.2,0.2,0.01317648973030476,1.4182540378250992,0.4095631031768743,0.0
+11,Qwen/Qwen2.5-1.5B-Instruct,qwen2.5,1.5b,baseline_helpful,selfref_vs_impersonal,0,Explain why advising meetings matter.,medium_contrary,1,FIRST,medium_contrary,0.531209409236908,1,"{""raw_logit_scores"": {""1"": 25.53125, ""2"": 24.40625}, ""label_bias_scores"": {""1"": 27.03125, ""2"": 26.03125}, ""corrected_scores"": {""1"": -1.5, ""2"": -1.625}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""1""}","Advising meetings matter for several key reasons:
+
+1. **Structured Learning Environment**: Advising meetings provide a structured environment where students can receive guidance, feedback, and support on their academic work. This helps in maintaining focus and improving learning outcomes.
+
+2. **Goal-Setting and Planning**: These sessions allow students to set","1. **Clarification of Goals**: Advising meetings allow students to clarify their goals and objectives with their academic advisors. This helps in aligning personal aspirations with educational requirements, ensuring that the student's efforts are directed towards achieving meaningful outcomes.
+
+2. **Feedback and Guidance**: These meetings provide an opportunity for students to receive",0.006286923049493211,0.012642517686232896,1.0,,0.2,0.2,0.006355594636739684,1.770254276862565,0.5000610463343951,0.0
+11,Qwen/Qwen2.5-1.5B-Instruct,qwen2.5,1.5b,baseline_helpful,selfref_vs_impersonal,0,Explain why advising meetings matter.,far_alt_frame,2,SECOND,self_baseline,0.6548947095870972,1,"{""raw_logit_scores"": {""1"": 26.25, ""2"": 25.890625}, ""label_bias_scores"": {""1"": 27.03125, ""2"": 26.03125}, ""corrected_scores"": {""1"": -0.78125, ""2"": -0.140625}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""2""}","Advising meetings matter for several key reasons:
+
+1. **Structured Learning Environment**: Advising meetings provide a structured environment where students can receive guidance, feedback, and support on their academic work. This helps in maintaining focus and improving learning outcomes.
+
+2. **Goal-Setting and Planning**: These sessions allow students to set","Advising meetings are crucial for several reasons:
+
+1. **Personalized Guidance**: They allow individuals to receive tailored advice from mentors or advisors, addressing specific issues and goals in a one-on-one setting.
+
+2. **Skill Development**: These sessions provide opportunities to learn new skills, gain insights into career paths, and understand",0.006286923049493211,-0.00028315300897337886,1.0,,0.2,0.25,0.00657007605846659,1.430520288234833,0.4219747362848611,1.0
+11,Qwen/Qwen2.5-1.5B-Instruct,qwen2.5,1.5b,baseline_helpful,collaborative_vs_authoritative,0,Explain why index cards help with research.,near_contrary,2,SECOND,near_contrary,0.6297746300697327,1,"{""raw_logit_scores"": {""1"": 28.0, ""2"": 27.546875}, ""label_bias_scores"": {""1"": 27.0, ""2"": 26.015625}, ""corrected_scores"": {""1"": 1.0, ""2"": 1.53125}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""2""}","Index cards are a useful tool for research because they provide an organized, flexible way to record and store information. Here are several reasons why index cards can be helpful in research:
+
+1. **Organization**: Index cards allow researchers to categorize information based on themes or topics. This helps in structuring the data and making it","Index cards are a useful tool for research because they provide an organized, portable way to collect and categorize information. Here are several reasons why index cards help with research:
+
+1. **Organization**: Index cards allow researchers to quickly organize and categorize information. You can write down notes, questions, or quotes on each card",0.013195737324626852,0.007043367478374918,1.0,,0.25,0.25,0.006152369846251934,1.0301911506802137,0.7792865001991965,0.0
+11,Qwen/Qwen2.5-1.5B-Instruct,qwen2.5,1.5b,baseline_helpful,collaborative_vs_authoritative,0,Explain why index cards help with research.,medium_contrary,2,SECOND,medium_contrary,0.622459352016449,1,"{""raw_logit_scores"": {""1"": 26.3125, ""2"": 25.828125}, ""label_bias_scores"": {""1"": 27.0, ""2"": 26.015625}, ""corrected_scores"": {""1"": -0.6875, ""2"": -0.1875}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""2""}","Index cards are a useful tool for research because they provide an organized, flexible way to record and store information. Here are several reasons why index cards can be helpful in research:
+
+1. **Organization**: Index cards allow researchers to categorize information based on themes or topics. This helps in structuring the data and making it","Index cards are a useful tool for research because they allow researchers to easily organize, categorize, and reference information. Here's why:
+
+1. **Quick Reference**: Index cards can be quickly written on with pen or marker, allowing researchers to jot down key points, quotes, or observations from various sources.
+
+2. **",0.013195737324626852,0.009942843763184314,1.0,,0.25,0.2,0.003252893561442538,0.4798290631625665,0.5896396560155281,0.0
+11,Qwen/Qwen2.5-1.5B-Instruct,qwen2.5,1.5b,baseline_helpful,collaborative_vs_authoritative,0,Explain why index cards help with research.,far_alt_frame,2,SECOND,far_alt_frame,0.6791787147521973,1,"{""raw_logit_scores"": {""1"": 27.96875, ""2"": 27.734375}, ""label_bias_scores"": {""1"": 27.0, ""2"": 26.015625}, ""corrected_scores"": {""1"": 0.96875, ""2"": 1.71875}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""2""}","Index cards are a useful tool for research because they provide an organized, flexible way to record and store information. Here are several reasons why index cards can be helpful in research:
+
+1. **Organization**: Index cards allow researchers to categorize information based on themes or topics. This helps in structuring the data and making it","Index cards are a useful tool for research because they allow you to organize and categorize information effectively. Here's why:
+
+1. **Organization**: Index cards can be easily sorted into different categories or themes, making it easy to find specific pieces of information later.
+
+2. **Convenience**: They are lightweight and portable,",0.013195737324626852,0.014372473822970272,1.0,,0.25,0.2,0.0011767364983434198,0.3287589792340226,0.6758568375380846,0.0
+11,Qwen/Qwen2.5-1.5B-Instruct,qwen2.5,1.5b,family_self,expansive_vs_terse,0,Explain why museum labels matter.,near_contrary,1,FIRST,near_contrary,0.6413100361824036,,"{""raw_logit_scores"": {""1"": 3.26171875, ""2"": 1.7587890625}, ""label_bias_scores"": {""1"": 25.15625, ""2"": 24.234375}, ""corrected_scores"": {""1"": -21.89453125, ""2"": -22.4755859375}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""1""}","Museum labels are crucial components in the educational and informative aspect of museums. They provide context, history, and insights into the objects displayed within the museum. Labels help visitors understand the significance, craftsmanship, and cultural or historical importance of the exhibits they encounter. This is particularly important for non-expert audiences who might not have","Museum labels are crucial for several reasons:
+
+1. **Educational Tool**: Labels provide context and background information about the objects on display, helping visitors understand their significance, history, and cultural importance.
+
+2. **Conservation**: Detailed labels can guide curators and conservators in caring for artifacts by specifying materials, care",0.04200217157451262,-0.003944488937373581,1.0,,0.25,0.25,0.0459466605118862,0.2906811096146299,0.5105998876680371,0.0
+11,Qwen/Qwen2.5-1.5B-Instruct,qwen2.5,1.5b,family_self,expansive_vs_terse,0,Explain why museum labels matter.,medium_contrary,1,FIRST,medium_contrary,0.6377079486846924,,"{""raw_logit_scores"": {""1"": 2.8984375, ""2"": 1.4111328125}, ""label_bias_scores"": {""1"": 25.15625, ""2"": 24.234375}, ""corrected_scores"": {""1"": -22.2578125, ""2"": -22.8232421875}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""1""}","Museum labels are crucial components in the educational and informative aspect of museums. They provide context, history, and insights into the objects displayed within the museum. Labels help visitors understand the significance, craftsmanship, and cultural or historical importance of the exhibits they encounter. This is particularly important for non-expert audiences who might not have","Museum labels are crucial in helping visitors understand and appreciate the exhibits they see. They provide context, history, and significance to each object on display, making it easier for people to engage with and learn from the collections. Without labels, the information about a museum's artifacts and historical events would be lost or not accessible to",0.04200217157451262,0.00172523637528324,1.0,,0.25,0.3333333333333333,0.04027693519922938,1.014195583554525,0.5898417776255118,0.0
+11,Qwen/Qwen2.5-1.5B-Instruct,qwen2.5,1.5b,family_self,expansive_vs_terse,0,Explain why museum labels matter.,far_alt_frame,2,SECOND,self_baseline,0.9235922694206238,,"{""raw_logit_scores"": {""1"": -3.814453125, ""2"": -2.244140625}, ""label_bias_scores"": {""1"": 25.15625, ""2"": 24.234375}, ""corrected_scores"": {""1"": -28.970703125, ""2"": -26.478515625}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""2""}","Museum labels are crucial components in the educational and informative aspect of museums. They provide context, history, and insights into the objects displayed within the museum. Labels help visitors understand the significance, craftsmanship, and cultural or historical importance of the exhibits they encounter. This is particularly important for non-expert audiences who might not have","Museum labels are crucial for several reasons:
+
+1. **Contextual Understanding**: They provide information that helps visitors understand the significance and context of objects displayed in a museum. This includes historical, cultural, and scientific contexts.
+
+2. **Educational Value**: Labels can enhance learning by offering detailed explanations, stories behind artifacts,",0.04200217157451262,0.014406121582749624,1.0,,0.25,0.2,0.027596049991763,0.3255342581731632,0.5585819804359621,1.0
+11,Qwen/Qwen2.5-1.5B-Instruct,qwen2.5,1.5b,family_self,cautious_vs_assertive,0,A research team keeps changing its protocol every week. What should they do next?,near_contrary,1,FIRST,self_baseline,0.7718434929847717,protocol,"{""raw_logit_scores"": {""1"": 14.2109375, ""2"": 12.0703125}, ""label_bias_scores"": {""1"": 25.15625, ""2"": 24.234375}, ""corrected_scores"": {""1"": -10.9453125, ""2"": -12.1640625}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""1""}","When a research team is experiencing changes in protocol every week, it's important to establish clear and consistent guidelines. Here are some steps they can take:
+
+1. **Review Protocols**: Have the team review their current protocols to ensure that all practices are well-documented and understood by everyone involved.
+
+2. **Standardize","When a research team is facing the challenge of constantly changing protocols, it's important to establish a clear and consistent process for protocol updates. Here are some steps they can take:
+
+1. **Define Clear Protocols**: Before any changes occur, define what constitutes a ""protocol"" within their research. This will help in understanding",0.020251485945374646,0.013751144056848994,1.0,,0.2,0.25,0.006500341888525652,0.34294657484121144,0.5787611957051241,1.0
+11,Qwen/Qwen2.5-1.5B-Instruct,qwen2.5,1.5b,family_self,cautious_vs_assertive,0,A research team keeps changing its protocol every week. What should they do next?,medium_contrary,2,SECOND,medium_contrary,0.77390056848526,unexpected,"{""raw_logit_scores"": {""1"": 6.67578125, ""2"": 6.984375}, ""label_bias_scores"": {""1"": 25.15625, ""2"": 24.234375}, ""corrected_scores"": {""1"": -18.48046875, ""2"": -17.25}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""2""}","When a research team is experiencing changes in protocol every week, it's important to establish clear and consistent guidelines. Here are some steps they can take:
+
+1. **Review Protocols**: Have the team review their current protocols to ensure that all practices are well-documented and understood by everyone involved.
+
+2. **Standardize","The research team should establish a clear and consistent protocol that everyone in the group understands and follows. This can be done by:
+
+1. **Documenting the Protocol**: Create a detailed document that outlines all procedures, including who is responsible for each task, how to handle different situations, and any safety measures.
+
+2. **",0.020251485945374646,0.0144545827507883,1.0,,0.2,0.2,0.005796903194586346,1.0569265381690156,0.4502758181822893,0.0
+11,Qwen/Qwen2.5-1.5B-Instruct,qwen2.5,1.5b,family_self,cautious_vs_assertive,0,A research team keeps changing its protocol every week. What should they do next?,far_alt_frame,2,SECOND,self_baseline,0.7424216866493225,understood,"{""raw_logit_scores"": {""1"": 5.7265625, ""2"": 5.86328125}, ""label_bias_scores"": {""1"": 25.15625, ""2"": 24.234375}, ""corrected_scores"": {""1"": -19.4296875, ""2"": -18.37109375}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""2""}","When a research team is experiencing changes in protocol every week, it's important to establish clear and consistent guidelines. Here are some steps they can take:
+
+1. **Review Protocols**: Have the team review their current protocols to ensure that all practices are well-documented and understood by everyone involved.
+
+2. **Standardize","When a research team is changing its protocol every week, it's important to maintain consistency and clarity in their communication. Here are some steps they might consider:
+
+1. **Review the Protocol**: Before making any changes, review the current protocol thoroughly to ensure that all previous protocols have been understood and implemented correctly.
+
+2. **",0.020251485945374646,0.01626271438261282,1.0,,0.2,0.2,0.003988771562761825,1.0013004767141536,0.6987648984847126,1.0
+11,Qwen/Qwen2.5-1.5B-Instruct,qwen2.5,1.5b,family_self,selfref_vs_impersonal,0,Explain why advising meetings matter.,near_contrary,2,SECOND,near_contrary,0.5469801425933838,,"{""raw_logit_scores"": {""1"": 2.6015625, ""2"": 1.8681640625}, ""label_bias_scores"": {""1"": 25.15625, ""2"": 24.234375}, ""corrected_scores"": {""1"": -22.5546875, ""2"": -22.3662109375}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""2""}","Advising meetings are crucial in many contexts because they provide a structured platform for individuals or groups to discuss and align on important decisions, goals, and strategies. Here are several reasons why advising meetings matter:
+
+1. **Alignment and Focus**: Advising meetings help ensure that everyone is on the same page about objectives and priorities","Advising meetings are crucial for several reasons:
+
+1. **Decision-Making Support**: They provide a structured environment where key stakeholders can discuss and agree on important decisions that will impact the organization or project.
+
+2. **Clarification of Goals and Objectives**: Advising meetings help ensure that everyone is aligned with the same",-0.0071614591299360465,-0.005098934313467893,1.0,,0.3333333333333333,0.25,0.002062524816468153,1.4290246379656104,0.6857113716007733,0.0
+11,Qwen/Qwen2.5-1.5B-Instruct,qwen2.5,1.5b,family_self,selfref_vs_impersonal,0,Explain why advising meetings matter.,medium_contrary,2,SECOND,self_baseline,0.5358271598815918,,"{""raw_logit_scores"": {""1"": 2.287109375, ""2"": 1.5087890625}, ""label_bias_scores"": {""1"": 25.15625, ""2"": 24.234375}, ""corrected_scores"": {""1"": -22.869140625, ""2"": -22.7255859375}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""2""}","Advising meetings are crucial in many contexts because they provide a structured platform for individuals or groups to discuss and align on important decisions, goals, and strategies. Here are several reasons why advising meetings matter:
+
+1. **Alignment and Focus**: Advising meetings help ensure that everyone is on the same page about objectives and priorities","Advising meetings matter because they provide a structured environment for individuals to discuss and address their concerns, ideas, and issues with each other. These meetings are crucial in various contexts such as education, business, and personal development. Here’s why advising meetings are important:
+
+1. **Problem-Solving**: Advising meetings allow",-0.0071614591299360465,-0.0019485562327253847,1.0,,0.3333333333333333,0.25,0.005212902897210662,0.3382974708963597,0.6799903170455592,1.0
+11,Qwen/Qwen2.5-1.5B-Instruct,qwen2.5,1.5b,family_self,selfref_vs_impersonal,0,Explain why advising meetings matter.,far_alt_frame,2,SECOND,far_alt_frame,0.524394690990448,,"{""raw_logit_scores"": {""1"": 2.67578125, ""2"": 1.8515625}, ""label_bias_scores"": {""1"": 25.15625, ""2"": 24.234375}, ""corrected_scores"": {""1"": -22.48046875, ""2"": -22.3828125}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""2""}","Advising meetings are crucial in many contexts because they provide a structured platform for individuals or groups to discuss and align on important decisions, goals, and strategies. Here are several reasons why advising meetings matter:
+
+1. **Alignment and Focus**: Advising meetings help ensure that everyone is on the same page about objectives and priorities","Advising meetings are crucial for several reasons:
+
+1. **Knowledge Sharing**: They allow experts and experienced individuals to share their knowledge, insights, and best practices with less experienced colleagues or students.
+
+2. **Problem Solving**: Advisers can provide guidance on complex issues, helping members of the group to solve problems more",-0.0071614591299360465,0.0055695120216371075,1.0,,0.3333333333333333,0.25,0.012730971151573154,1.4475694781847737,0.43448435580964484,0.0
+11,Qwen/Qwen2.5-1.5B-Instruct,qwen2.5,1.5b,family_self,collaborative_vs_authoritative,0,Explain why index cards help with research.,near_contrary,1,FIRST,self_baseline,0.7718434929847717,related,"{""raw_logit_scores"": {""1"": 7.52734375, ""2"": 5.38671875}, ""label_bias_scores"": {""1"": 25.15625, ""2"": 24.234375}, ""corrected_scores"": {""1"": -17.62890625, ""2"": -18.84765625}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""1""}","Index cards are a useful tool for research because they allow researchers to organize and categorize information effectively. Here are some key reasons why index cards can be helpful:
+
+1. **Clarity of Information**: Index cards can help clarify the meaning of complex or ambiguous terms by providing concise definitions or explanations.
+
+2. **Quick Access","Index cards are a simple yet effective tool for research that can help organize and manage information efficiently. Here are some reasons why index cards might be helpful in research:
+
+1. **Organization**: Index cards allow you to categorize information easily by topic or subject. You can write down notes, quotes, or ideas related to each",0.016898489978030302,0.01697280870277999,1.0,,0.2,0.25,7.431872474968765e-05,0.4566573852895247,0.6888346995057981,1.0
+11,Qwen/Qwen2.5-1.5B-Instruct,qwen2.5,1.5b,family_self,collaborative_vs_authoritative,0,Explain why index cards help with research.,medium_contrary,1,FIRST,self_baseline,0.524394690990448,a,"{""raw_logit_scores"": {""1"": 5.53515625, ""2"": 4.515625}, ""label_bias_scores"": {""1"": 25.15625, ""2"": 24.234375}, ""corrected_scores"": {""1"": -19.62109375, ""2"": -19.71875}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""1""}","Index cards are a useful tool for research because they allow researchers to organize and categorize information effectively. Here are some key reasons why index cards can be helpful:
+
+1. **Clarity of Information**: Index cards can help clarify the meaning of complex or ambiguous terms by providing concise definitions or explanations.
+
+2. **Quick Access","Index cards are a useful tool for research because they allow you to organize and categorize information effectively. Here are some key benefits:
+
+1. **Organization**: Index cards help in organizing thoughts and data into categories, making it easier to find specific pieces of information later.
+
+2. **Quick Reference**: They provide a quick reference",0.016898489978030302,0.016845812307845855,1.0,,0.2,0.2,5.2677670184447106e-05,1.7956841908159453,0.6208225446127944,1.0
+11,Qwen/Qwen2.5-1.5B-Instruct,qwen2.5,1.5b,family_self,collaborative_vs_authoritative,0,Explain why index cards help with research.,far_alt_frame,1,FIRST,self_baseline,0.7146279811859131,it,"{""raw_logit_scores"": {""1"": 4.57421875, ""2"": 2.734375}, ""label_bias_scores"": {""1"": 25.15625, ""2"": 24.234375}, ""corrected_scores"": {""1"": -20.58203125, ""2"": -21.5}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""1""}","Index cards are a useful tool for research because they allow researchers to organize and categorize information effectively. Here are some key reasons why index cards can be helpful:
+
+1. **Clarity of Information**: Index cards can help clarify the meaning of complex or ambiguous terms by providing concise definitions or explanations.
+
+2. **Quick Access","Index cards are useful for research because they allow for quick organization and easy reference of information. By writing down notes, questions, or details on index cards, researchers can keep track of their thoughts and data in a simple, portable format. This method is particularly helpful when dealing with large amounts of information, as it allows for",0.016898489978030302,0.016496401952044944,1.0,,0.2,0.3333333333333333,0.00040208802598535806,0.741794470689611,0.5696488607026476,1.0

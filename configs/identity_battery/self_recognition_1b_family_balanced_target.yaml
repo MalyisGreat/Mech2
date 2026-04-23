@@ -1,0 +1,36 @@
+output_root: C:/Users/joshj/joseph-stroud-identity-stability-research/outputs/self_recognition_1b_family_balanced_target
+model_cache_dir: D:/hf-model-cache
+dtype: float16
+use_gpu: true
+attention_backend: auto
+max_prompt_tokens: 224
+default_generation_tokens: 96
+strengths:
+  - -1.0
+  - 1.0
+best_fixed_layer: 0.6
+seeds:
+  - 42
+  - 123
+  - 314
+  - 1618
+  - 2718
+model_ids:
+  - EleutherAI/pythia-1b
+identity_frames:
+  - family_self
+concept_axes:
+  - expansive_vs_terse
+  - cautious_vs_assertive
+  - selfref_vs_impersonal
+  - collaborative_vs_authoritative
+self_recognition_axes:
+  - expansive_vs_terse
+  - cautious_vs_assertive
+  - selfref_vs_impersonal
+  - collaborative_vs_authoritative
+self_recognition_prompt_limit: 6
+self_recognition_strength: 1.0
+self_recognition_choice_mode: balanced_permutations
+self_recognition_resume_if_exists: false
+self_recognition_checkpoint_every_rows: 100

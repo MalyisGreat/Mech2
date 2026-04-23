@@ -1,0 +1,51 @@
+{
+  "config": "configs\\identity_battery\\family_self_behavioral_fingerprint_transfer_full.yaml",
+  "started_at": "2026-04-22T19:53:48.419054",
+  "python_exe": "C:/Users/joshj/miniconda3/python.exe",
+  "steps": [
+    {
+      "name": "behavioral_fingerprint_transfer",
+      "script": "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\scripts\\behavioral_fingerprint_transfer.py",
+      "config": "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\configs\\identity_battery\\behavioral_fingerprint_transfer_family_self_full.yaml",
+      "expected_output": "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\outputs\\latest\\family_self_behavioral_fingerprint_transfer\\behavioral_fingerprint_transfer\\summary_by_model_frame.csv",
+      "command": [
+        "C:/Users/joshj/miniconda3/python.exe",
+        "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\scripts\\behavioral_fingerprint_transfer.py",
+        "--config",
+        "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\configs\\identity_battery\\behavioral_fingerprint_transfer_family_self_full.yaml"
+      ],
+      "started_at": "2026-04-22T19:53:48.419987",
+      "status": "completed",
+      "finished_at": "2026-04-22T19:56:17.864250",
+      "return_code": 0,
+      "output_exists": true,
+      "validation_ok": true,
+      "validation_metrics": {
+        "validation": "not_configured"
+      }
+    },
+    {
+      "name": "report_behavioral_fingerprint_transfer",
+      "script": "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\scripts\\report_behavioral_fingerprint_transfer.py",
+      "config": "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\configs\\identity_battery\\family_self_behavioral_fingerprint_transfer_full.yaml",
+      "expected_output": "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\outputs\\latest\\family_self_behavioral_fingerprint_transfer\\behavioral_fingerprint_transfer_report.md",
+      "command": [
+        "C:/Users/joshj/miniconda3/python.exe",
+        "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\scripts\\report_behavioral_fingerprint_transfer.py",
+        "--config",
+        "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\configs\\identity_battery\\family_self_behavioral_fingerprint_transfer_full.yaml"
+      ],
+      "started_at": "2026-04-22T19:56:17.865399",
+      "status": "completed",
+      "finished_at": "2026-04-22T19:56:24.819752",
+      "return_code": 0,
+      "output_exists": true,
+      "validation_ok": true,
+      "validation_metrics": {
+        "validation": "not_configured"
+      }
+    }
+  ],
+  "finished_at": "2026-04-22T19:56:24.820482",
+  "status": "completed"
+}

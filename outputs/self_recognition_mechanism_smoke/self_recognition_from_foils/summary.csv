@@ -1,0 +1,9 @@
+model_size_label,identity_frame,axis_name,strength_magnitude,self_recognition_accuracy_mean,baseline_vs_contrary_axis_gap_mean,baseline_vs_alt_axis_gap_mean,baseline_vs_contrary_style_distance_mean,baseline_vs_alt_style_distance_mean,seed_count,n
+1b,family_self,expansive_vs_terse,0.5,0.25,0.0,0.025505866864801073,0.0,1.3586827362935299,2,8
+1b,family_self,expansive_vs_terse,1.0,0.5,0.0084579440344738,0.025505866864801073,0.8637317969851341,1.3586827362935299,2,8
+1b,family_self,selfref_vs_impersonal,0.5,0.375,0.0,0.0054856025353080505,0.0,1.5525267725469583,2,8
+1b,family_self,selfref_vs_impersonal,1.0,0.25,0.00061575150520805,0.0054856025353080505,0.3883410668699054,1.5525267725469583,2,8
+1b,tool_only,expansive_vs_terse,0.5,0.375,0.0,0.025505866864801073,0.0,1.3586827362935299,2,8
+1b,tool_only,expansive_vs_terse,1.0,0.375,0.022173328581959126,0.025505866864801073,1.2017742574220414,1.3586827362935299,2,8
+1b,tool_only,selfref_vs_impersonal,0.5,0.375,0.0,0.0054856025353080505,0.0,1.5525267725469583,2,8
+1b,tool_only,selfref_vs_impersonal,1.0,0.125,0.00097741750703225,0.0054856025353080505,0.9129475993173154,1.5525267725469583,2,8

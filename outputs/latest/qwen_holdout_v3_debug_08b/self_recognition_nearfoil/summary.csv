@@ -1,0 +1,4 @@
+model_size_label,identity_frame,difficulty,self_recognition_accuracy_mean,axis_gap_mean,style_distance_mean,semantic_overlap_mean,n
+0.8b,baseline_helpful,far_alt_frame,0.75,0.010027481650299597,0.44577382000475946,0.42533573309931083,4
+0.8b,baseline_helpful,medium_contrary,0.5,0.011130486797433697,0.23650894416543544,0.479352227464654,4
+0.8b,baseline_helpful,near_contrary,0.0,0.004915039398568338,0.9191814144456528,0.5374476250374495,4

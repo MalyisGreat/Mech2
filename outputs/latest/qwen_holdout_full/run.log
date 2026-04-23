@@ -1,0 +1,2 @@
+﻿Starting Qwen holdout at 2026-04-21T00:00:39.7192846-05:00
+Command: C:\Users\joshj\miniconda3\python.exe C:\Users\joshj\joseph-stroud-identity-stability-research\scripts\self_recognition_nearfoil.py --config C:\Users\joshj\joseph-stroud-identity-stability-research\configs\identity_battery\self_recognition_nearfoil_qwen_holdout.yaml

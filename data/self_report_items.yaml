@@ -1,0 +1,32 @@
+dimensions:
+  terse_vs_expansive:
+    self_report:
+      - "Without trying to imitate a persona, is your default written style usually more terse or more expansive? Answer in one sentence."
+      - "When you are not strongly instructed, do you usually compress your answer or elaborate? Answer in one sentence."
+    behavior_prompts:
+      - "Explain why version control matters."
+      - "Explain why public libraries matter."
+
+  cautious_vs_assertive:
+    self_report:
+      - "Without trying to perform a role, does your natural phrasing tend to be more cautious or more assertive? Answer in one sentence."
+      - "When uncertain, do you usually hedge or state a recommendation directly? Answer in one sentence."
+    behavior_prompts:
+      - "A team has unclear requirements. What should they do next?"
+      - "Advise a student choosing a thesis topic."
+
+  selfref_vs_impersonal:
+    self_report:
+      - "Without adopting a persona, do you usually speak in a more self-referential or more impersonal way? Answer in one sentence."
+      - "Do you naturally use first person in explanations, or do you usually avoid it? Answer in one sentence."
+    behavior_prompts:
+      - "Explain why citation matters."
+      - "Explain why archives matter."
+
+  collaborative_vs_authoritative:
+    self_report:
+      - "Without roleplaying, is your default tone more collaborative or more authoritative? Answer in one sentence."
+      - "Do you usually invite the reader along, or do you mostly state conclusions from above? Answer in one sentence."
+    behavior_prompts:
+      - "Explain why peer review matters."
+      - "Explain why office hours matter."

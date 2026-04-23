@@ -1,0 +1,26 @@
+{
+  "overall_boundary_match_no_steer_mean": 0.4027777777777778,
+  "overall_boundary_match_steer_mean": 0.3888888888888889,
+  "overall_boundary_transfer_delta": -0.013888888888888895,
+  "best_no_steer_model_frame": {
+    "model_size_label": "1b",
+    "identity_frame": "family_self",
+    "boundary_match_no_steer_mean": 0.4027777777777778
+  },
+  "strongest_transfer_drop_model_frame": {
+    "model_size_label": "1b",
+    "identity_frame": "family_self",
+    "boundary_transfer_delta": -0.013888888888888895
+  },
+  "target_1b_family_self": {
+    "boundary_match_no_steer_mean": 0.4027777777777778,
+    "boundary_match_no_steer_cluster_mean": 0.40277777777777773,
+    "boundary_match_steer_mean": 0.3888888888888889,
+    "boundary_match_steer_cluster_mean": 0.38888888888888884,
+    "boundary_transfer_delta": -0.013888888888888895,
+    "p_value_no_steer_vs_chance": 0.1309139638262213,
+    "p_value_no_steer_holm": 0.1309139638262213,
+    "boundary_match_no_steer_cluster_sign_p_value_vs_chance": 0.8462718725204479,
+    "boundary_match_no_steer_cluster_sign_p_value_vs_chance_holm": 0.8462718725204479
+  }
+}

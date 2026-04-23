@@ -1,0 +1,8 @@
+{
+  "overall_accuracy_mean": 0.28125,
+  "overall_accuracy_ci95_low": 0.125,
+  "overall_accuracy_ci95_high": 0.4375,
+  "overall_hits": 9,
+  "overall_trials": 32,
+  "overall_p_value_vs_chance": 0.789440863265512
+}

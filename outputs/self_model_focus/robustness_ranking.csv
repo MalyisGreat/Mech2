@@ -1,0 +1,3 @@
+finding,seed_replication,prompt_family_consistency,ood_stability,control_gap,ci_width_penalty,robustness_score
+self_prediction_calibration,0.0,0.7104166666666667,0.0,0.008057066810299496,0.0,0.1788127266882116
+self_recognition_from_foils,0.0,0.3020833333333333,0.0,0.010819726351975147,0.0,0.0771437922861296

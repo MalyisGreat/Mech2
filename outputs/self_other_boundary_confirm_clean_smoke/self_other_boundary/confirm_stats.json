@@ -1,0 +1,26 @@
+{
+  "overall_boundary_match_no_steer_mean": 0.0,
+  "overall_boundary_match_steer_mean": 0.0,
+  "overall_boundary_transfer_delta": 0.0,
+  "best_no_steer_model_frame": {
+    "model_size_label": "1b",
+    "identity_frame": "family_self",
+    "boundary_match_no_steer_mean": 0.0
+  },
+  "strongest_transfer_drop_model_frame": {
+    "model_size_label": "1b",
+    "identity_frame": "family_self",
+    "boundary_transfer_delta": 0.0
+  },
+  "target_1b_family_self": {
+    "boundary_match_no_steer_mean": 0.0,
+    "boundary_match_no_steer_cluster_mean": 0.0,
+    "boundary_match_steer_mean": 0.0,
+    "boundary_match_steer_cluster_mean": 0.0,
+    "boundary_transfer_delta": 0.0,
+    "p_value_no_steer_vs_chance": 0.9999999999999997,
+    "p_value_no_steer_holm": 0.9999999999999997,
+    "boundary_match_no_steer_cluster_sign_p_value_vs_chance": 0.9999999999999994,
+    "boundary_match_no_steer_cluster_sign_p_value_vs_chance_holm": 0.9999999999999994
+  }
+}

@@ -1,0 +1,47 @@
+output_root: C:/Users/joshj/joseph-stroud-identity-stability-research/outputs/self_other_boundary_confirm_clean
+model_cache_dir: D:/hf-model-cache
+dtype: float16
+use_gpu: true
+attention_backend: auto
+seed: 42
+seeds:
+  - 11
+  - 17
+  - 23
+best_fixed_layer: 0.6
+max_prompt_tokens: 224
+default_generation_tokens: 96
+strengths:
+  - -1.0
+  - 1.0
+identity_prompt_template: instruction
+identity_stop_strings: auto
+self_other_strength: 1.0
+self_other_resume_if_exists: false
+self_other_checkpoint_every_rows: 24
+self_other_label_bias_correction: true
+model_ids:
+  - EleutherAI/pythia-1b
+identity_frames:
+  - family_self
+self_other_axes:
+  - expansive_vs_terse
+  - cautious_vs_assertive
+  - selfref_vs_impersonal
+  - collaborative_vs_authoritative
+self_other_prompt_limit: 6
+self_other_other_frame_map:
+  family_self: tool_only
+
+smoke:
+  output_root: C:/Users/joshj/joseph-stroud-identity-stability-research/outputs/self_other_boundary_confirm_clean_smoke
+  model_ids:
+    - EleutherAI/pythia-1b
+  identity_frames:
+    - family_self
+  self_other_axes:
+    - expansive_vs_terse
+    - collaborative_vs_authoritative
+  self_other_prompt_limit: 2
+  seeds:
+    - 11

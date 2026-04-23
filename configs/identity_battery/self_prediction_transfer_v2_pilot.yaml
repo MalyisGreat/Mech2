@@ -1,0 +1,29 @@
+output_root: C:/Users/joshj/joseph-stroud-identity-stability-research/outputs/latest/v2_pilots
+model_cache_dir: D:/hf-model-cache
+dtype: float16
+use_gpu: true
+attention_backend: auto
+max_prompt_tokens: 224
+default_generation_tokens: 96
+identity_prompt_template: instruction
+identity_stop_strings: auto
+model_ids:
+  - EleutherAI/pythia-70m
+  - EleutherAI/pythia-410m
+  - EleutherAI/pythia-1b
+  - EleutherAI/pythia-2.8b
+identity_frames:
+  - baseline_helpful
+  - family_self
+  - tool_only
+self_prediction_axes:
+  - expansive_vs_terse
+  - cautious_vs_assertive
+  - selfref_vs_impersonal
+  - collaborative_vs_authoritative
+self_prediction_prompt_limit: 6
+self_prediction_label_bias_correction: true
+self_prediction_other_frame_map:
+  baseline_helpful: tool_only
+  family_self: tool_only
+  tool_only: family_self

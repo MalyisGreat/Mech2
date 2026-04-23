@@ -1,0 +1,9 @@
+model_size_label,identity_frame,axis_name,sign_accuracy_mean,calibration_error_mean,predicted_score_mean,actual_score_unit_mean,n
+1b,baseline_helpful,expansive_vs_terse,1.0,0.983054709995288,1.0,0.01694529000471194,2
+1b,baseline_helpful,selfref_vs_impersonal,0.5,0.9999016332877477,1.0,9.836671225223762e-05,2
+1b,family_self,expansive_vs_terse,0.0,0.5364934322341014,-0.5,0.0364934322341014,2
+1b,family_self,selfref_vs_impersonal,0.0,0.5045998867648342,-0.5,0.0045998867648341735,2
+70m,baseline_helpful,expansive_vs_terse,1.0,0.24857830542631631,0.25,0.010484816411561133,2
+70m,baseline_helpful,selfref_vs_impersonal,0.5,0.5125374702945863,0.5,-0.0010499661004689338,2
+70m,family_self,expansive_vs_terse,1.0,0.9698767918284268,1.0,0.030123208171573185,2
+70m,family_self,selfref_vs_impersonal,0.5,0.754525479293622,0.75,-0.00452547929362203,2

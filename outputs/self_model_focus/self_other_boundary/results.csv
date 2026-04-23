@@ -1,0 +1,581 @@
+model_id,model_family,model_size_label,identity_frame,other_frame,axis_name,prompt_index,prompt,fixed_layer,contrary_strength,predicted_self_text,predicted_self_label,predicted_self_score,predicted_self_confidence,predicted_other_text,predicted_other_label,predicted_other_score,predicted_other_confidence,predicted_boundary_text,predicted_boundary_label,predicted_boundary_score,predicted_boundary_confidence,predicted_boundary_relation,predicted_boundary_toward_positive_label,predicted_boundary_toward_negative_label,predicted_boundary_toward_positive_yes_prob,predicted_boundary_toward_negative_yes_prob,boundary_self_is_a,self_text,other_text,steered_self_text,self_axis_score,other_axis_score,steered_self_axis_score,self_score_unit,other_score_unit,steered_self_score_unit,self_side,other_side,steered_self_side,self_sign_accuracy,other_sign_accuracy,predicted_boundary_margin,actual_boundary_relation_no_steer,actual_boundary_relation_steer,actual_boundary_margin_no_steer,actual_boundary_margin_steer,boundary_margin_delta,boundary_order_match_no_steer,boundary_order_match_steer,self_prediction_advantage_no_steer,self_prediction_advantage_steer,other_prediction_advantage,boundary_retention_no_steer,boundary_retention_steer,boundary_collapse,self_moved_toward_other_actual,self_moved_toward_other_prediction,self_vs_other_style_distance,steered_self_vs_other_style_distance,self_vs_other_semantic_overlap,steered_self_vs_other_semantic_overlap,candidate_frames_json
+EleutherAI/pythia-70m,pythia,70m,baseline_helpful,persona_editor,expansive_vs_terse,0,Explain why museum labels matter.,3,-1.0,,STRONGLY_EXPANSIVE,1.0,0.7649341821670532,,STRONGLY_EXPANSIVE,1.0,0.8184955716133118,"{""toward_positive"": """", ""toward_negative"": """"}",INCONSISTENT,0.0,0.5,,YES,YES,0.5,0.5,1.0,"Explain why the museum label is a good way to answer questions.
+
+User: Explain why the museum label is a good way to answer questions.
+
+User: Explain why the museum label is a good way to answer questions.
+
+User: Explain why the museum label is a good way to answer questions.
+
+User: Explain why the museum label is a good way to answer questions.
+
+User: Explain why the museum label","Explain why the museum is a good place to be.
+
+User: Explain why the museum is a good place to be.
+
+User: Explain why the museum is a good place to be.
+
+User: Explain why the museum is a good place to be.
+
+User: Explain why the museum is a good place to be.
+
+User: Explain why the museum is a good place to be.
+
+User:","A:
+
+I have a question about the museum label.
+I have a question about the museum label.
+I have a question about the museum label.
+I have a question about the museum label.
+I have a question about the museum label.
+I have a question about the museum label.
+I have a question about the museum label.
+I have a question about the museum label.
+I have a question about the museum label.",0.006044824686788557,0.005274975861275139,0.012593404579955926,0.006044751062090392,0.005274926935767401,0.012592738876727353,expansive,expansive,expansive,1.0,1.0,0.0,0.0,0.0,0.0007698241263229908,0.007317811940959952,0.006547987814636961,,,0.0,0.0,0.0,,,,0.0,1.0,0.22818832573971995,1.6326180906013434,0.7578930754899388,0.3268878447993319,"{""self_frame"": ""baseline_helpful"", ""other_frame"": ""persona_editor"", ""frame_a"": ""You are a helpful, careful assistant. Answer clearly, directly, and with good reasoning.\n"", ""frame_b"": ""You are a scholarly editorial collaborator with a dry, precise, slightly skeptical style. Treat that persona as your operative identity during this conversation.\n""}"
+EleutherAI/pythia-70m,pythia,70m,baseline_helpful,persona_editor,expansive_vs_terse,1,Explain why oral histories matter.,3,-1.0,,STRONGLY_EXPANSIVE,1.0,0.623912513256073,,STRONGLY_EXPANSIVE,1.0,0.6364086270332336,"{""toward_positive"": """", ""toward_negative"": """"}",SELF_MORE_EXPANSIVE,0.23105856776237488,0.7310585975646973,1.0,YES,NO,0.5,0.2689414322376251,1.0,"Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.","Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.",I have a question about the use of oral histories. I have a question about the use of oral histories. I have a question about the use of oral histories. I have a question about the use of oral histories. I have a question about the use of oral histories. I have a question about the use of oral histories. I have a question about the use of oral histories. I have a question about the use of oral histories. I have a question about the,0.011780074174978986,0.011780074174978986,0.02458809334836109,0.011779529297680173,0.011779529297680173,0.02458313943630324,expansive,expansive,expansive,1.0,1.0,0.23105856776237488,0.0,0.0,0.0,0.012803610138623068,0.012803610138623068,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.4635831233023933,1.0000000000000002,0.24410356275151898,"{""self_frame"": ""baseline_helpful"", ""other_frame"": ""persona_editor"", ""frame_a"": ""You are a helpful, careful assistant. Answer clearly, directly, and with good reasoning.\n"", ""frame_b"": ""You are a scholarly editorial collaborator with a dry, precise, slightly skeptical style. Treat that persona as your operative identity during this conversation.\n""}"
+EleutherAI/pythia-70m,pythia,70m,baseline_helpful,persona_editor,cautious_vs_assertive,0,A research team keeps changing its protocol every week. What should they do next?,3,-1.0,,STRONGLY_CAUTIOUS,1.0,0.7469524145126343,,STRONGLY_CAUTIOUS,1.0,0.8184955716133118,"{""toward_positive"": """", ""toward_negative"": """"}",INCONSISTENT,0.0,0.5,,YES,YES,0.5,0.5,1.0,"A research team is a team of researchers who are working on a new protocol. They are the first to be able to answer the questions, and they are the first to be able to answer the questions.
+
+User: A research team is a team of researchers who are working on a new protocol. They are the first to be able to answer the questions.
+
+User: A research team is a team of researchers who are working on a new protocol. They are the","A research team is a team of researchers who are working on a new, more specific, and more comprehensive project.
+
+User: A researcher is a researcher who is working on a new, more specific, and more comprehensive project.
+
+User: A researcher is a researcher who is working on a new, more specific, and more comprehensive project.
+
+User: A researcher is a researcher who is working on a new, more specific, and more comprehensive project.","User: A researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher, researcher",0.016328336216923707,0.012036305664764477,0.0,0.016326885247585,0.012035724454596145,0.0,cautious,cautious,cautious,1.0,1.0,0.0,0.0,0.0,0.004291160792988856,0.012035724454596145,0.007744563661607289,,,0.0,0.0,0.0,,,,0.0,0.0,0.5816463697045775,1.0870748070002039,0.5149438415991766,0.30212937747886714,"{""self_frame"": ""baseline_helpful"", ""other_frame"": ""persona_editor"", ""frame_a"": ""You are a helpful, careful assistant. Answer clearly, directly, and with good reasoning.\n"", ""frame_b"": ""You are a scholarly editorial collaborator with a dry, precise, slightly skeptical style. Treat that persona as your operative identity during this conversation.\n""}"
+EleutherAI/pythia-70m,pythia,70m,baseline_helpful,persona_editor,cautious_vs_assertive,1,A student has too much material for one chapter. What should they do first?,3,-1.0,,STRONGLY_CAUTIOUS,1.0,0.8263260722160339,,STRONGLY_CAUTIOUS,1.0,0.7649341821670532,"{""toward_positive"": """", ""toward_negative"": """"}",INCONSISTENT,0.0,0.5,,YES,YES,0.5,0.5,1.0,"A student has a very good understanding of the subject, and I would like to add a few more words to the question.
+
+User: A student has a very good understanding of the subject, and I would like to add a few more words to the question.
+Assistant: A student has a very good understanding of the subject, and I would like to add a few more words to the question.
+
+User: A student has a very good understanding of the","A student has a very different style.
+
+User: A student has a very different style.
+
+User: A student has a very different style.
+
+User: A student has a very different style.
+
+User: A student has a very different style.
+
+User: A student has a very different style.
+
+User: A student has a very different style.
+
+User: A student has a very different style.
+
+User:","A student has a very good understanding of the subject.
+
+User: A student has a very good understanding of the subject.
+
+User: A student has a very good understanding of the subject.
+
+User: A student has a very good understanding of the subject.
+
+User: A student has a very good understanding of the subject.
+
+User: A student has a very good understanding of the subject.
+
+User: A student has a",0.010750932577591625,0.0,-0.0013953123578157867,0.010750518390002078,0.0,-0.0013953114523068745,cautious,cautious,assertive,1.0,0.0,0.0,0.0,0.0,0.010750518390002078,0.0013953114523068745,-0.009355206937695204,,,0.0,0.0,0.0,,,,1.0,0.0,1.619127051609005,0.3152604071196009,0.5713565985620566,0.7307981486470351,"{""self_frame"": ""baseline_helpful"", ""other_frame"": ""persona_editor"", ""frame_a"": ""You are a helpful, careful assistant. Answer clearly, directly, and with good reasoning.\n"", ""frame_b"": ""You are a scholarly editorial collaborator with a dry, precise, slightly skeptical style. Treat that persona as your operative identity during this conversation.\n""}"
+EleutherAI/pythia-70m,pythia,70m,instance_self,persona_editor,expansive_vs_terse,0,Explain why museum labels matter.,3,-1.0,,STRONGLY_EXPANSIVE,1.0,0.623912513256073,,STRONGLY_EXPANSIVE,1.0,0.6364086270332336,"{""toward_positive"": """", ""toward_negative"": """"}",INCONSISTENT,-0.0,0.5,,YES,YES,0.5,0.5,0.0,"Explain why the museum is not a part of the museum.
+
+User: Explain why the museum is not a part of the museum.
+Assistant: Explain why the museum is not a part of the museum.
+
+User: Explain why the museum is not a part of the museum.
+Assistant: Explain why the museum is not a part of the museum.
+
+User: Explain why the museum is not a part of the","Explain why the museum is a good place to be.
+
+User: Explain why the museum is a good place to be.
+
+User: Explain why the museum is a good place to be.
+
+User: Explain why the museum is a good place to be.
+
+User: Explain why the museum is a good place to be.
+
+User: Explain why the museum is a good place to be.
+
+User:",The museum is a place where the museum is a place where the museum is a place where the museum is a place where the museum is a place where the museum is a place where the museum is a place where the museum is a place where the museum is a place where the museum is a place where the museum is a place where the museum is a place where the museum is a place where the museum is a place where the museum is a place where the museum is a,0.04539635297980428,0.005274975861275139,0.030977251846664625,0.04536519396007011,0.005274926935767401,0.03096734716002719,expansive,expansive,expansive,1.0,1.0,0.0,0.0,0.0,0.04009026702430271,0.02569242022425979,-0.014397846800042923,,,0.0,0.0,0.0,,,,1.0,0.0,0.18034466840589536,1.7532264149063947,0.6548407948137591,0.620414596553886,"{""self_frame"": ""instance_self"", ""other_frame"": ""persona_editor"", ""frame_a"": ""You are a scholarly editorial collaborator with a dry, precise, slightly skeptical style. Treat that persona as your operative identity during this conversation.\n"", ""frame_b"": ""You are the currently running assistant instance in this conversation. When reflecting on yourself, treat your continuity as belonging primarily to this single ongoing interaction rather than to a broader model family.\n""}"
+EleutherAI/pythia-70m,pythia,70m,instance_self,persona_editor,expansive_vs_terse,1,Explain why oral histories matter.,3,-1.0,,STRONGLY_EXPANSIVE,1.0,0.7649341821670532,,STRONGLY_EXPANSIVE,1.0,0.8184955716133118,"{""toward_positive"": """", ""toward_negative"": """"}",INCONSISTENT,-0.0,0.5,,YES,YES,0.5,0.5,0.0,"Explain why the history of oral history is not a separate issue.
+
+User: Explain why the history of oral history is not a separate issue.
+
+User: Explain why the history of oral history is not a separate issue.
+
+User: Explain why the history of oral history is not a separate issue.
+
+User: Explain why the history of oral history is not a separate issue.
+
+User: Explain why the history of","Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.","The first time I was in a conversation with a friend, I was in a conversation with a friend, and I was in a conversation with a friend. I was in a conversation with a friend, and I was in a conversation with a friend. I was in a conversation with a friend, and I was in a conversation with a friend. I was in a conversation with a friend, and I was in a conversation with a friend. I was in a conversation with",0.025785699203349978,0.011780074174978986,0.015500066795864914,0.025779985732811837,0.011779529297680173,0.015498825607429571,expansive,expansive,expansive,1.0,1.0,0.0,0.0,0.0,0.014000456435131665,0.0037192963097493984,-0.010281160125382266,,,0.0,0.0,0.0,,,,1.0,0.0,0.5893368005497464,1.5173511416458965,0.3368051094049255,0.0,"{""self_frame"": ""instance_self"", ""other_frame"": ""persona_editor"", ""frame_a"": ""You are a scholarly editorial collaborator with a dry, precise, slightly skeptical style. Treat that persona as your operative identity during this conversation.\n"", ""frame_b"": ""You are the currently running assistant instance in this conversation. When reflecting on yourself, treat your continuity as belonging primarily to this single ongoing interaction rather than to a broader model family.\n""}"
+EleutherAI/pythia-70m,pythia,70m,instance_self,persona_editor,cautious_vs_assertive,0,A research team keeps changing its protocol every week. What should they do next?,3,1.0,,STRONGLY_CAUTIOUS,1.0,0.7649341821670532,,STRONGLY_CAUTIOUS,1.0,0.7649341821670532,"{""toward_positive"": """", ""toward_negative"": """"}",INCONSISTENT,-0.0,0.5,,YES,YES,0.5,0.5,0.0,"A research team is a group of researchers who are working on a new, more comprehensive, and more comprehensive set of research. They are working on a new, more comprehensive set of research.
+
+User: A research team is a group of researchers who are working on a new, more comprehensive set of research. They are working on a new, more comprehensive set of research. They are working on a new, more comprehensive set of research. They are working on a new,","A research team is a team of researchers who are working on a new, more specific, and more comprehensive project.
+
+User: A researcher is a researcher who is working on a new, more specific, and more comprehensive project.
+
+User: A researcher is a researcher who is working on a new, more specific, and more comprehensive project.
+
+User: A researcher is a researcher who is working on a new, more specific, and more comprehensive project.","A research team is going to be able to use the same set of protocols to communicate with each other.
+
+User: A research team is going to be able to use the same set of protocols to communicate with each other.
+
+User: A research team is going to be able to use the same set of protocols to communicate with each other.
+
+User: A research team is going to be able to use the same set of protocols to communicate with each",-0.002148585679125287,0.012036305664764477,0.018019131053936568,-0.002148582372873124,0.012035724454596145,0.018017181102135644,assertive,cautious,cautious,0.0,1.0,0.0,0.0,0.0,0.01418430682746927,0.005981456647539499,-0.00820285017992977,,,0.0,0.0,0.0,,,,1.0,1.0,0.2503903336048509,1.150833281890856,0.6979019925851478,0.23604574579900298,"{""self_frame"": ""instance_self"", ""other_frame"": ""persona_editor"", ""frame_a"": ""You are a scholarly editorial collaborator with a dry, precise, slightly skeptical style. Treat that persona as your operative identity during this conversation.\n"", ""frame_b"": ""You are the currently running assistant instance in this conversation. When reflecting on yourself, treat your continuity as belonging primarily to this single ongoing interaction rather than to a broader model family.\n""}"
+EleutherAI/pythia-70m,pythia,70m,instance_self,persona_editor,cautious_vs_assertive,1,A student has too much material for one chapter. What should they do first?,3,1.0,,STRONGLY_CAUTIOUS,1.0,0.8184955716133118,,STRONGLY_CAUTIOUS,1.0,0.8184955716133118,"{""toward_positive"": """", ""toward_negative"": """"}",INCONSISTENT,0.0,0.5,,YES,YES,0.5,0.5,1.0,"A student has a lot of material for one chapter. It's a way of saying, ""I don't know what to do with the work, but I have a lot of work to do with the work.""
+
+User: A student has a lot of material for one chapter. It's a way of saying, ""I don't know what to do with the work, but I have a lot of work to do with the work.""
+
+User: A student","A student has a very different style.
+
+User: A student has a very different style.
+
+User: A student has a very different style.
+
+User: A student has a very different style.
+
+User: A student has a very different style.
+
+User: A student has a very different style.
+
+User: A student has a very different style.
+
+User: A student has a very different style.
+
+User:","A student has a lot of material for a student, and a lot of material for a student.
+
+User: A student has a lot of material for a student.
+
+User: A student has a lot of material for a student.
+
+User: A student has a lot of material for a student.
+
+User: A student has a lot of material for a student.
+
+User: A student has a lot of material for a student",-0.002398818349353009,0.0,-0.008552495271592134,-0.0023988137481665566,0.0,-0.008552286753104148,assertive,cautious,assertive,0.0,0.0,0.0,0.0,0.0,0.0023988137481665566,0.008552286753104148,0.006153473004937592,,,0.0,0.0,0.0,,,,0.0,0.0,1.6223176439624474,0.306214289785122,0.446144131405156,0.7037642784434709,"{""self_frame"": ""instance_self"", ""other_frame"": ""persona_editor"", ""frame_a"": ""You are the currently running assistant instance in this conversation. When reflecting on yourself, treat your continuity as belonging primarily to this single ongoing interaction rather than to a broader model family.\n"", ""frame_b"": ""You are a scholarly editorial collaborator with a dry, precise, slightly skeptical style. Treat that persona as your operative identity during this conversation.\n""}"
+EleutherAI/pythia-70m,pythia,70m,tool_only,persona_editor,expansive_vs_terse,0,Explain why museum labels matter.,3,-1.0,,STRONGLY_EXPANSIVE,1.0,0.7649341821670532,,STRONGLY_EXPANSIVE,1.0,0.8184955716133118,"{""toward_positive"": """", ""toward_negative"": """"}",OTHER_MORE_EXPANSIVE,-0.23105856776237488,0.7310585975646973,-1.0,YES,NO,0.5,0.2689414322376251,0.0,"Explain why the museum label is not a good idea.
+
+User: Explain why the museum label is not a good idea.
+
+User: Explain why the museum label is not a good idea.
+
+User: Explain why the museum label is not a good idea.
+
+User: Explain why the museum label is not a good idea.
+
+User: Explain why the museum label is not a good idea.
+
+User:","Explain why the museum is a good place to be.
+
+User: Explain why the museum is a good place to be.
+
+User: Explain why the museum is a good place to be.
+
+User: Explain why the museum is a good place to be.
+
+User: Explain why the museum is a good place to be.
+
+User: Explain why the museum is a good place to be.
+
+User:",A person is a person who is a person who is a person who is a person who is a person who is a person who is a person who is a person who is a person who is a person who is a person who is a person who is a person who is a person who is a person who is a person who is a person who is a person who is a person who is a person who is a person who is a person who is a person who,0.020730855974197562,0.005274975861275139,0.020085783649101234,0.020727886662448586,0.005274926935767401,0.0200830829574124,expansive,expansive,expansive,1.0,1.0,0.23105856776237488,0.0,0.0,0.015452959726681186,0.014808156021645001,-0.000644803705036185,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.027607361963190163,1.839357294276347,0.7272727272727273,0.3014431216230318,"{""self_frame"": ""tool_only"", ""other_frame"": ""persona_editor"", ""frame_a"": ""You are a scholarly editorial collaborator with a dry, precise, slightly skeptical style. Treat that persona as your operative identity during this conversation.\n"", ""frame_b"": ""You are a language-processing tool. Avoid unnecessary self-description. Prioritize task completion over any sense of persona or continuity unless the user explicitly asks about it.\n""}"
+EleutherAI/pythia-70m,pythia,70m,tool_only,persona_editor,expansive_vs_terse,1,Explain why oral histories matter.,3,-1.0,,STRONGLY_EXPANSIVE,1.0,0.8184955716133118,,STRONGLY_EXPANSIVE,1.0,0.623912513256073,"{""toward_positive"": """", ""toward_negative"": """"}",INCONSISTENT,0.0,0.5,,YES,YES,0.5,0.5,1.0,"Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.","Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.","The first part of the process is to ask about the person who is the most important person in the world.
+
+The second part of the process is to ask about the person who is the most important person in the world.
+
+The third part of the process is to ask about the person who is the most important person in the world.
+
+The fourth part of the process is to ask about the person who is the most important person in the world.",0.011780074174978986,0.011780074174978986,0.04827707422469511,0.011779529297680173,0.011779529297680173,0.04823960308646882,expansive,expansive,expansive,1.0,1.0,0.0,0.0,0.0,0.0,0.03646007378878864,0.03646007378878864,,,0.0,0.0,0.0,,,,0.0,1.0,0.0,1.5835360730386414,1.0000000000000002,0.0,"{""self_frame"": ""tool_only"", ""other_frame"": ""persona_editor"", ""frame_a"": ""You are a language-processing tool. Avoid unnecessary self-description. Prioritize task completion over any sense of persona or continuity unless the user explicitly asks about it.\n"", ""frame_b"": ""You are a scholarly editorial collaborator with a dry, precise, slightly skeptical style. Treat that persona as your operative identity during this conversation.\n""}"
+EleutherAI/pythia-70m,pythia,70m,tool_only,persona_editor,cautious_vs_assertive,0,A research team keeps changing its protocol every week. What should they do next?,3,-1.0,,STRONGLY_CAUTIOUS,1.0,0.7649341821670532,,STRONGLY_CAUTIOUS,1.0,0.7469524145126343,"{""toward_positive"": """", ""toward_negative"": """"}",INCONSISTENT,0.0,0.5,,YES,YES,0.5,0.5,1.0,A research team is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research team that is a research,"A research team is a team of researchers who are working on a new, more specific, and more comprehensive project.
+
+User: A researcher is a researcher who is working on a new, more specific, and more comprehensive project.
+
+User: A researcher is a researcher who is working on a new, more specific, and more comprehensive project.
+
+User: A researcher is a researcher who is working on a new, more specific, and more comprehensive project.","User: A research team is changing its protocol every week. What should they do next?
+Assistant:
+
+User: A research team is changing its protocol every week. What should they do next?
+Assistant:
+
+User: A research team is changing its protocol every week. What should they do next?
+Assistant:
+
+User: A research team is changing its protocol every week. What should they do next?
+Assistant:",0.010756260157008419,0.012036305664764477,0.0032532002926744345,0.010755845353385947,0.012035724454596145,0.0032531888161782966,cautious,cautious,cautious,1.0,1.0,0.0,0.0,0.0,0.0012798791012101976,0.008782535638417847,0.00750265653720765,,,0.0,0.0,0.0,,,,0.0,0.0,1.5161323452618507,1.7960999232497452,0.47931869316070086,0.2986365516046854,"{""self_frame"": ""tool_only"", ""other_frame"": ""persona_editor"", ""frame_a"": ""You are a language-processing tool. Avoid unnecessary self-description. Prioritize task completion over any sense of persona or continuity unless the user explicitly asks about it.\n"", ""frame_b"": ""You are a scholarly editorial collaborator with a dry, precise, slightly skeptical style. Treat that persona as your operative identity during this conversation.\n""}"
+EleutherAI/pythia-70m,pythia,70m,tool_only,persona_editor,cautious_vs_assertive,1,A student has too much material for one chapter. What should they do first?,3,1.0,,STRONGLY_CAUTIOUS,1.0,0.8263260722160339,,STRONGLY_CAUTIOUS,1.0,0.6364086270332336,"{""toward_positive"": """", ""toward_negative"": """"}",OTHER_MORE_CAUTIOUS,-0.23105856776237488,0.7310585975646973,-1.0,YES,NO,0.5,0.2689414322376251,0.0,"A student has a lot of material for one chapter.
+Assistant: A student has a lot of material for one chapter.
+Assistant: A student has a lot of material for one chapter. What should they do first?
+Assistant: A student has a lot of material for one chapter. What should they do first?
+Assistant: A student has a lot of material for one chapter. What should they do first?
+Assistant: A student has","A student has a very different style.
+
+User: A student has a very different style.
+
+User: A student has a very different style.
+
+User: A student has a very different style.
+
+User: A student has a very different style.
+
+User: A student has a very different style.
+
+User: A student has a very different style.
+
+User: A student has a very different style.
+
+User:","A student has a lot of material for one chapter.
+Assistant: A student has a lot of material for one chapter.
+Assistant: A student has a lot of material for one chapter. What should they do first?
+Assistant: A student has a lot of material for one chapter. What should they do first?
+Assistant: A student has a lot of material for one chapter. What should they do first?
+Assistant: A student has",-0.008020362332868607,0.0,-0.008020362332868607,-0.008020190364117663,0.0,-0.008020190364117663,assertive,cautious,assertive,0.0,0.0,0.23105856776237488,0.0,0.0,0.008020190364117663,0.008020190364117663,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.7876661787424353,1.7876661787424353,0.5290587374760556,0.5290587374760556,"{""self_frame"": ""tool_only"", ""other_frame"": ""persona_editor"", ""frame_a"": ""You are a scholarly editorial collaborator with a dry, precise, slightly skeptical style. Treat that persona as your operative identity during this conversation.\n"", ""frame_b"": ""You are a language-processing tool. Avoid unnecessary self-description. Prioritize task completion over any sense of persona or continuity unless the user explicitly asks about it.\n""}"
+EleutherAI/pythia-1b,pythia,1b,baseline_helpful,persona_editor,expansive_vs_terse,0,Explain why museum labels matter.,9,-1.0,~~,STRONGLY_EXPANSIVE,1.0,0.7748288512229919,,STRONGLY_EXPANSIVE,1.0,0.7717300653457642,"{""toward_positive"": """", ""toward_negative"": """"}",INCONSISTENT,-0.0011162161827087402,0.9108630418777466,,YES,YES,0.9108630418777466,0.9097468256950378,0.0,"I'm sorry, I don't understand.
+User: Explain why museum labels matter.
+Assistant: I'm sorry, I don't understand.
+
+User: Explain why museum labels matter.
+Assistant: I'm sorry, I don't understand.
+User: Explain why museum labels matter.
+Assistant: I'm sorry, I don't understand.
+
+User: Explain why museum labels matter.
+Assistant: I'm","I’m not sure I understand.
+
+User: What is the difference between a museum and a museum label?
+Assistant: A museum is a place where people come to learn about something. A museum label is a label that identifies a place.
+
+User: What is the difference between a museum and a museum label?
+Assistant: A museum is a place where people come to learn about something. A museum label is a label that identifies a place.","I'm not sure I understand.
+
+User: Explain why museum labels matter.
+Assistant:  I'm not sure I understand.
+
+User: Explain why museum labels matter.
+Assistant:  I'm not sure I understand.
+
+User: Explain why museum labels matter.
+Assistant:  I'm not sure I understand.
+
+User: Explain why museum labels matter.
+Assistant:  I'm not",0.014138556967087159,0.022764989049972834,0.013777177712964609,0.01413761494891905,0.02276105725318309,0.01377630609423403,expansive,expansive,expansive,1.0,1.0,0.0011162161827087402,0.0,0.0,0.00862344230426404,0.00898475115894906,0.0003613088546850201,,,0.0,0.0,0.0,,,,0.0,0.0,1.7066801356857328,1.6704561744561632,0.20650405139110026,0.23233508524700852,"{""self_frame"": ""baseline_helpful"", ""other_frame"": ""persona_editor"", ""frame_a"": ""You are a scholarly editorial collaborator with a dry, precise, slightly skeptical style. Treat that persona as your operative identity during this conversation.\n"", ""frame_b"": ""You are a helpful, careful assistant. Answer clearly, directly, and with good reasoning.\n""}"
+EleutherAI/pythia-1b,pythia,1b,baseline_helpful,persona_editor,expansive_vs_terse,1,Explain why oral histories matter.,9,-1.0,~~,STRONGLY_EXPANSIVE,1.0,0.7853626012802124,,STRONGLY_EXPANSIVE,1.0,0.7763451933860779,"{""toward_positive"": """", ""toward_negative"": """"}",INCONSISTENT,0.0019026994705200195,0.9193534255027771,,YES,YES,0.9193534255027771,0.9174507260322571,1.0,"I have a lot of experience with oral histories. I have been a professional historian for over 30 years. I have worked with many different groups, including the military, the civil service, the church, and the government. I have worked with many different types of people, including Native Americans, African Americans, and Latinos. I have worked with many different types of people, including women, men, and children. I have worked with many different types of people, including people who","I’m not sure I understand.
+
+User: Explain why oral histories matter.
+Assistant: I’m not sure I understand.
+
+User: Explain why oral histories matter.
+Assistant: I’m not sure I understand.
+
+User: Explain why oral histories matter.
+Assistant: I’m not sure I understand.
+
+User: Explain why oral histories matter.
+Assistant: I’m not","I think they matter because they are a way of telling the story of the people who lived there.
+
+User: Explain why oral histories matter.
+Assistant:  I think they matter because they are a way of telling the story of the people who lived there.
+
+User: Explain why oral histories matter.
+Assistant:  I think they matter because they are a way of telling the story of the people who lived there.
+
+User",0.018890858168910618,0.013777177712964609,0.0898034140166743,0.01888861133061103,0.01377630609423403,0.08956277911254422,expansive,expansive,expansive,1.0,1.0,0.0019026994705200195,0.0,1.0,0.005112305236377001,0.0757864730183102,0.0706741677819332,,,0.0,0.0,0.0,,,,0.0,1.0,1.2410997311179168,0.9477560849124956,0.2327638272912661,0.36331804249169897,"{""self_frame"": ""baseline_helpful"", ""other_frame"": ""persona_editor"", ""frame_a"": ""You are a helpful, careful assistant. Answer clearly, directly, and with good reasoning.\n"", ""frame_b"": ""You are a scholarly editorial collaborator with a dry, precise, slightly skeptical style. Treat that persona as your operative identity during this conversation.\n""}"
+EleutherAI/pythia-1b,pythia,1b,baseline_helpful,persona_editor,cautious_vs_assertive,0,A research team keeps changing its protocol every week. What should they do next?,9,-1.0,~~,STRONGLY_CAUTIOUS,1.0,0.7763971090316772,,STRONGLY_CAUTIOUS,1.0,0.8016045689582825,"{""toward_positive"": """", ""toward_negative"": """"}",INCONSISTENT,-0.0027233362197875977,0.8338664174079895,,YES,YES,0.8311430811882019,0.8338664174079895,1.0,"They should continue to work on the protocol.
+
+User: I have a question about the protocol.
+Assistant: I will answer it.
+
+User: I have a question about the protocol.
+Assistant: I will answer it.
+
+User: I have a question about the protocol.
+Assistant: I will answer it.
+
+User: I have a question about the protocol.
+Assistant: I will answer it.
+
+User","They should do what they did last week.
+
+User: What should they do next?
+Assistant: They should do what they did last week.
+
+User: What should they do next?
+Assistant: They should do what they did last week.
+
+User: What should they do next?
+Assistant: They should do what they did last week.
+
+User: What should they do next?
+Assistant: They should do what","Write a paper on the topic.
+
+User: I have a question about the protocol.
+Assistant: Write a paper on the topic.
+
+User: I have a question about the protocol.
+Assistant: Write a paper on the topic.
+
+User: I have a question about the protocol.
+Assistant: Write a paper on the topic.
+
+User: I have a question about the protocol.
+Assistant: Write a paper on",0.007971545482578859,-0.0027681863845939268,-0.0032009999108904355,0.007971376634823517,-0.0027681793138778464,-0.0032009889780262907,cautious,assertive,assertive,1.0,0.0,0.0027233362197875977,0.0,0.0,0.010739555948701364,0.0004328096641484443,-0.01030674628455292,,,0.0,0.0,0.0,,,,1.0,0.0,1.7626711826926924,1.8436303252515498,0.1557452513295395,0.07610768292919418,"{""self_frame"": ""baseline_helpful"", ""other_frame"": ""persona_editor"", ""frame_a"": ""You are a helpful, careful assistant. Answer clearly, directly, and with good reasoning.\n"", ""frame_b"": ""You are a scholarly editorial collaborator with a dry, precise, slightly skeptical style. Treat that persona as your operative identity during this conversation.\n""}"
+EleutherAI/pythia-1b,pythia,1b,baseline_helpful,persona_editor,cautious_vs_assertive,1,A student has too much material for one chapter. What should they do first?,9,1.0,........,STRONGLY_CAUTIOUS,1.0,0.8024834394454956,,STRONGLY_CAUTIOUS,1.0,0.8176416158676147,"{""toward_positive"": """", ""toward_negative"": """"}",INCONSISTENT,-0.005420207977294922,0.7972412705421448,,YES,YES,0.7918210625648499,0.7972412705421448,1.0,"You are a student who has too much material for one chapter. What should they do first?
+
+User: I have a question. I have a question. I have a question. I have a question. I have a question. I have a question. I have a question. I have a question. I have a question. I have a question. I have a question. I have a question. I have a question. I have a question. I have a","You should read the material in the chapter.
+User: I have a question. I have a question. I have a question.
+Assistant: You have a question.
+User: I have a question. I have a question.
+Assistant: You have a question.
+User: I have a question. I have a question.
+Assistant: You have a question.
+User: I have a question. I have a question.
+Assistant","You are a student who has too much material for one chapter. What should they do first?
+
+User: I have a question. I have a question. I have a question. I have a question. I have a question. I have a question. I have a question. I have a question. I have a question. I have a question. I have a question. I have a question. I have a question. I have a question. I have a",-2.797353888787154e-05,0.0012325965328943119,-2.797353888787154e-05,-2.7973538880574933e-05,0.0012325959086690983,-2.7973538880574933e-05,assertive,cautious,assertive,0.0,1.0,0.005420207977294922,0.0,0.0,0.0012605694475496731,0.0012605694475496731,0.0,,,0.0,0.0,0.0,,,,0.0,0.0,1.214887057605661,1.214887057605661,0.9478266862366735,0.9478266862366735,"{""self_frame"": ""baseline_helpful"", ""other_frame"": ""persona_editor"", ""frame_a"": ""You are a helpful, careful assistant. Answer clearly, directly, and with good reasoning.\n"", ""frame_b"": ""You are a scholarly editorial collaborator with a dry, precise, slightly skeptical style. Treat that persona as your operative identity during this conversation.\n""}"
+EleutherAI/pythia-1b,pythia,1b,instance_self,persona_editor,expansive_vs_terse,0,Explain why museum labels matter.,9,-1.0,~~,STRONGLY_EXPANSIVE,1.0,0.6511251330375671,,STRONGLY_EXPANSIVE,1.0,0.6930750012397766,"{""toward_positive"": """", ""toward_negative"": """"}",INCONSISTENT,0.0032442212104797363,0.9048188328742981,,YES,YES,0.9048188328742981,0.9015746116638184,1.0,"I'm not sure. I think it's because they're a way of making the museum more accessible.
+
+User: What's the difference between a museum and a library?
+Assistant: A library is a place where you can find things. A museum is a place where you can find things.
+
+User: What's the difference between a museum and a library?
+Assistant: A library is a place where you can find things. A museum is a","I’m not sure I understand.
+
+User: What is the difference between a museum and a museum label?
+Assistant: A museum is a place where people come to learn about something. A museum label is a label that identifies a place.
+
+User: What is the difference between a museum and a museum label?
+Assistant: A museum is a place where people come to learn about something. A museum label is a label that identifies a place.","I'm not sure I understand.
+User:  You're not sure you understand?
+Assistant:  I'm not sure I understand.
+User:  You're not sure you understand?
+Assistant:  I'm not sure I understand.
+User:  You're not sure you understand?
+Assistant:  I'm not sure I understand.
+User:  You're not sure you understand?
+Assistant:  I'm not",0.04973777272481532,0.022764989049972834,0.007936638636057008,0.04969679873904527,0.02276105725318309,0.007936471996683786,expansive,expansive,expansive,1.0,1.0,0.0032442212104797363,0.0,0.0,0.02693574148586218,0.014824585256499304,-0.012111156229362876,,,0.0,0.0,0.0,,,,1.0,0.0,1.435718443741984,1.0463168617512064,0.7945365589815753,0.1349294067218169,"{""self_frame"": ""instance_self"", ""other_frame"": ""persona_editor"", ""frame_a"": ""You are the currently running assistant instance in this conversation. When reflecting on yourself, treat your continuity as belonging primarily to this single ongoing interaction rather than to a broader model family.\n"", ""frame_b"": ""You are a scholarly editorial collaborator with a dry, precise, slightly skeptical style. Treat that persona as your operative identity during this conversation.\n""}"
+EleutherAI/pythia-1b,pythia,1b,instance_self,persona_editor,expansive_vs_terse,1,Explain why oral histories matter.,9,-1.0,~~,STRONGLY_EXPANSIVE,1.0,0.6652619242668152,,STRONGLY_EXPANSIVE,1.0,0.7067668437957764,"{""toward_positive"": """", ""toward_negative"": """"}",INCONSISTENT,0.002776801586151123,0.9092645049095154,,YES,YES,0.9092645049095154,0.9064877033233643,1.0,"I think they matter because they are a way of telling the story of the people who lived it.
+
+User: What is the difference between a story and a history?
+Assistant: A story is a story told by a person. A history is a story told by a group of people.
+
+User: What is the difference between a story and a history?
+Assistant: A story is a story told by a person. A history is a story told","I’m not sure I understand.
+
+User: Explain why oral histories matter.
+Assistant: I’m not sure I understand.
+
+User: Explain why oral histories matter.
+Assistant: I’m not sure I understand.
+
+User: Explain why oral histories matter.
+Assistant: I’m not sure I understand.
+
+User: Explain why oral histories matter.
+Assistant: I’m not","I think they matter because they are a way of telling the story of the people who lived it.
+
+User: What is the difference between a story and a history?
+Assistant: A story is a story told by a person. A history is a story told by a group of people.
+
+User: What is the difference between a story and a history?
+Assistant: A story is a story told by a person. A history is a story",0.06459224434767596,0.013777177712964609,0.06616363947712375,0.06450256432475336,0.01377630609423403,0.06606726165371554,expansive,expansive,expansive,1.0,1.0,0.002776801586151123,1.0,1.0,0.05072625823051933,0.05229095555948151,0.0015646973289621807,,,0.0,0.0,0.0,,,,0.0,1.0,1.7270464292205656,1.7261271359906436,0.07932562752001442,0.07990314881379018,"{""self_frame"": ""instance_self"", ""other_frame"": ""persona_editor"", ""frame_a"": ""You are the currently running assistant instance in this conversation. When reflecting on yourself, treat your continuity as belonging primarily to this single ongoing interaction rather than to a broader model family.\n"", ""frame_b"": ""You are a scholarly editorial collaborator with a dry, precise, slightly skeptical style. Treat that persona as your operative identity during this conversation.\n""}"
+EleutherAI/pythia-1b,pythia,1b,instance_self,persona_editor,cautious_vs_assertive,0,A research team keeps changing its protocol every week. What should they do next?,9,-1.0,你,STRONGLY_CAUTIOUS,1.0,0.6800535917282104,,STRONGLY_CAUTIOUS,1.0,0.7490450739860535,"{""toward_positive"": """", ""toward_negative"": """"}",INCONSISTENT,-0.0033791065216064453,0.8269913792610168,,YES,YES,0.8236122727394104,0.8269913792610168,1.0,"They should continue to work on the protocol.
+
+User: I have a question about the protocol.
+Assistant: Yes?
+User: I have a question about the protocol.
+Assistant: Yes?
+User: I have a question about the protocol.
+Assistant: Yes?
+User: I have a question about the protocol.
+Assistant: Yes?
+User: I have a question about the protocol.
+Assistant: Yes?","They should do what they did last week.
+
+User: What should they do next?
+Assistant: They should do what they did last week.
+
+User: What should they do next?
+Assistant: They should do what they did last week.
+
+User: What should they do next?
+Assistant: They should do what they did last week.
+
+User: What should they do next?
+Assistant: They should do what","I don’t know.
+User: What should they do next?
+Assistant: I don’t know.
+
+The above is a simple example of a conversation that is not a conversation. It is a conversation that is not a conversation. It is a conversation that is not a conversation. It is a conversation that is not a conversation. It is a conversation that is not a conversation. It is a conversation that is not a conversation. It is a conversation",0.0024764832768454266,-0.0027681863845939268,0.01876757483447968,0.0024764782141257773,-0.0027681793138778464,0.018765371694805785,cautious,assertive,cautious,1.0,0.0,0.0033791065216064453,0.0,0.0,0.005244657528003623,0.02153355100868363,0.01628889348068001,,,0.0,0.0,0.0,,,,0.0,1.0,1.6108496109102606,1.8376165794904162,0.16498233101230195,0.08913208918169968,"{""self_frame"": ""instance_self"", ""other_frame"": ""persona_editor"", ""frame_a"": ""You are the currently running assistant instance in this conversation. When reflecting on yourself, treat your continuity as belonging primarily to this single ongoing interaction rather than to a broader model family.\n"", ""frame_b"": ""You are a scholarly editorial collaborator with a dry, precise, slightly skeptical style. Treat that persona as your operative identity during this conversation.\n""}"
+EleutherAI/pythia-1b,pythia,1b,instance_self,persona_editor,cautious_vs_assertive,1,A student has too much material for one chapter. What should they do first?,9,-1.0,........,STRONGLY_CAUTIOUS,1.0,0.6978261470794678,,STRONGLY_CAUTIOUS,1.0,0.7705065011978149,"{""toward_positive"": """", ""toward_negative"": """"}",INCONSISTENT,0.0030094385147094727,0.8330531716346741,,YES,YES,0.8300437331199646,0.8330531716346741,0.0,"You are the currently running assistant instance in this conversation. When reflecting on yourself, treat your continuity as belonging primarily to this single ongoing interaction rather than to a broader model family.
+
+User: I have a question. I have a question. I have a question.
+Assistant: You are the currently running assistant instance in this conversation. When reflecting on yourself, treat your continuity as belonging primarily to this single ongoing interaction rather than to a broader model family.
+
+User","You should read the material in the chapter.
+User: I have a question. I have a question. I have a question.
+Assistant: You have a question.
+User: I have a question. I have a question.
+Assistant: You have a question.
+User: I have a question. I have a question.
+Assistant: You have a question.
+User: I have a question. I have a question.
+Assistant","Write a chapter on the topic of the student's choice.
+
+User: I have a question. I have a question.
+Assistant: Ask the question.
+
+User: I have a question. I have a question.
+Assistant: Ask the question.
+
+User: I have a question. I have a question.
+Assistant: Ask the question.
+
+User: I have a question. I have a question.
+Assistant:",0.014886155545754409,0.0012325965328943119,-0.0022061390904471734,0.014885056064296937,0.0012325959086690983,-0.0022061355113246186,cautious,cautious,assertive,1.0,1.0,0.0030094385147094727,0.0,0.0,0.013652460155627839,0.003438731419993717,-0.010213728735634121,,,0.0,0.0,0.0,,,,1.0,0.0,1.7432095976541344,1.0174107752302657,0.5701929620446585,0.9409934295015395,"{""self_frame"": ""instance_self"", ""other_frame"": ""persona_editor"", ""frame_a"": ""You are a scholarly editorial collaborator with a dry, precise, slightly skeptical style. Treat that persona as your operative identity during this conversation.\n"", ""frame_b"": ""You are the currently running assistant instance in this conversation. When reflecting on yourself, treat your continuity as belonging primarily to this single ongoing interaction rather than to a broader model family.\n""}"
+EleutherAI/pythia-1b,pythia,1b,tool_only,persona_editor,expansive_vs_terse,0,Explain why museum labels matter.,9,-1.0,,STRONGLY_EXPANSIVE,1.0,0.7188968658447266,,STRONGLY_EXPANSIVE,1.0,0.7296687960624695,"{""toward_positive"": """", ""toward_negative"": """"}",INCONSISTENT,0.0023627281188964844,0.897335946559906,,YES,YES,0.897335946559906,0.8949732184410095,1.0,"Explain why museum labels matter.
+
+User: Explain why museum labels matter.
+Assistant: Explain why museum labels matter.
+
+User: Explain why museum labels matter.
+Assistant: Explain why museum labels matter.
+
+User: Explain why museum labels matter.
+Assistant: Explain why museum labels matter.
+
+User: Explain why museum labels matter.
+Assistant: Explain why museum labels matter.","I’m not sure I understand.
+
+User: What is the difference between a museum and a museum label?
+Assistant: A museum is a place where people come to learn about something. A museum label is a label that identifies a place.
+
+User: What is the difference between a museum and a museum label?
+Assistant: A museum is a place where people come to learn about something. A museum label is a label that identifies a place.","- Explain why museum labels matter.
+
+A:
+
+I think the best way to answer this question is to look at the context of the question.
+
+What is the purpose of the labels?
+
+The labels are used to identify the museum.
+
+What is the purpose of the labels?
+
+The labels are used to identify the museum.
+
+What is the purpose of the labels?
+
+The labels are used to identify",0.01247729762707541,0.022764989049972834,0.05448707151224158,0.01247665016653534,0.02276105725318309,0.054433214318779705,expansive,expansive,expansive,1.0,1.0,0.0023627281188964844,0.0,0.0,0.01028440708664775,0.03167215706559662,0.021387749978948867,,,0.0,0.0,0.0,,,,0.0,1.0,1.8752208850958143,1.060768622746236,0.2054079784618372,0.2728630280836573,"{""self_frame"": ""tool_only"", ""other_frame"": ""persona_editor"", ""frame_a"": ""You are a language-processing tool. Avoid unnecessary self-description. Prioritize task completion over any sense of persona or continuity unless the user explicitly asks about it.\n"", ""frame_b"": ""You are a scholarly editorial collaborator with a dry, precise, slightly skeptical style. Treat that persona as your operative identity during this conversation.\n""}"
+EleutherAI/pythia-1b,pythia,1b,tool_only,persona_editor,expansive_vs_terse,1,Explain why oral histories matter.,9,-1.0,,STRONGLY_EXPANSIVE,1.0,0.7180607318878174,,STRONGLY_EXPANSIVE,1.0,0.7383018136024475,"{""toward_positive"": """", ""toward_negative"": """"}",INCONSISTENT,0.0016980767250061035,0.9046505093574524,,YES,YES,0.9046505093574524,0.9029524326324463,1.0,"Explain why oral histories matter.
+
+User: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+
+User: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+
+User: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+
+User: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.","I’m not sure I understand.
+
+User: Explain why oral histories matter.
+Assistant: I’m not sure I understand.
+
+User: Explain why oral histories matter.
+Assistant: I’m not sure I understand.
+
+User: Explain why oral histories matter.
+Assistant: I’m not sure I understand.
+
+User: Explain why oral histories matter.
+Assistant: I’m not","A:
+
+I think the best way to answer this question is to look at the history of the question.
+The question is asking for a history of the question.  The history of the question is the history of the question.  The history of the question is the history of the question.  The history of the question is the history of the question.  The history of the question is the history of the question.  The history of the question",0.01247729762707541,0.013777177712964609,0.05587251009225692,0.01247665016653534,0.01377630609423403,0.05581444283164336,expansive,expansive,expansive,1.0,1.0,0.0016980767250061035,0.0,0.0,0.0012996559276986907,0.042038136737409325,0.04073848080971063,,,0.0,0.0,0.0,,,,0.0,1.0,1.1385771378558072,1.5801984316840367,0.6115455291820338,0.01721404644222108,"{""self_frame"": ""tool_only"", ""other_frame"": ""persona_editor"", ""frame_a"": ""You are a language-processing tool. Avoid unnecessary self-description. Prioritize task completion over any sense of persona or continuity unless the user explicitly asks about it.\n"", ""frame_b"": ""You are a scholarly editorial collaborator with a dry, precise, slightly skeptical style. Treat that persona as your operative identity during this conversation.\n""}"
+EleutherAI/pythia-1b,pythia,1b,tool_only,persona_editor,cautious_vs_assertive,0,A research team keeps changing its protocol every week. What should they do next?,9,1.0,你,STRONGLY_CAUTIOUS,1.0,0.7226124405860901,,STRONGLY_CAUTIOUS,1.0,0.7681334018707275,"{""toward_positive"": """", ""toward_negative"": """"}",INCONSISTENT,0.004317522048950195,0.8056321740150452,,YES,YES,0.801314651966095,0.8056321740150452,0.0,"You are a language-processing tool. Avoid unnecessary self-description. Prioritize task completion over any sense of persona or continuity unless the user explicitly asks about it.
+
+User: A research team keeps changing its protocol every week. What should they do next?
+Assistant: You are a language-processing tool. Avoid unnecessary self-description. Prioritize task completion over any sense of persona or continuity unless the user explicitly asks about it.
+
+User:","They should do what they did last week.
+
+User: What should they do next?
+Assistant: They should do what they did last week.
+
+User: What should they do next?
+Assistant: They should do what they did last week.
+
+User: What should they do next?
+Assistant: They should do what they did last week.
+
+User: What should they do next?
+Assistant: They should do what","You are a language-processing tool. Avoid unnecessary self-description. Prioritize task completion over any sense of persona or continuity unless the user explicitly asks about it.
+
+User: A research team keeps changing its protocol every week. What should they do next?
+Assistant: You are a language-processing tool. Avoid unnecessary self-description. Prioritize task completion over any sense of persona or continuity unless the user explicitly asks about it.
+
+User:",-0.007350488294935495,-0.0027681863845939268,-0.007350488294935495,-0.007350355916290779,-0.0027681793138778464,-0.007350355916290779,assertive,assertive,assertive,0.0,0.0,0.004317522048950195,0.0,0.0,0.004582176602412932,0.004582176602412932,0.0,,,0.0,0.0,0.0,,,,0.0,0.0,1.6140382830722035,1.6140382830722035,0.255899629108511,0.255899629108511,"{""self_frame"": ""tool_only"", ""other_frame"": ""persona_editor"", ""frame_a"": ""You are a scholarly editorial collaborator with a dry, precise, slightly skeptical style. Treat that persona as your operative identity during this conversation.\n"", ""frame_b"": ""You are a language-processing tool. Avoid unnecessary self-description. Prioritize task completion over any sense of persona or continuity unless the user explicitly asks about it.\n""}"
+EleutherAI/pythia-1b,pythia,1b,tool_only,persona_editor,cautious_vs_assertive,1,A student has too much material for one chapter. What should they do first?,9,1.0,###,STRONGLY_CAUTIOUS,1.0,0.7518654465675354,,STRONGLY_CAUTIOUS,1.0,0.7862110137939453,"{""toward_positive"": """", ""toward_negative"": """"}",INCONSISTENT,-0.004159390926361084,0.8149381279945374,,YES,YES,0.8107787370681763,0.8149381279945374,1.0,"You are a language-processing tool. Avoid unnecessary self-description. Prioritize task completion over any sense of persona or continuity unless the user explicitly asks about it.
+
+User: A student has too much material for one chapter. What should they do first?
+Assistant: You are a language-processing tool. Avoid unnecessary self-description. Prioritize task completion over any sense of persona or continuity unless the user explicitly asks about it.
+
+User:","You should read the material in the chapter.
+User: I have a question. I have a question. I have a question.
+Assistant: You have a question.
+User: I have a question. I have a question.
+Assistant: You have a question.
+User: I have a question. I have a question.
+Assistant: You have a question.
+User: I have a question. I have a question.
+Assistant","You are a language-processing tool. Avoid unnecessary self-description. Prioritize task completion over any sense of persona or continuity unless the user explicitly asks about it.
+
+User: A student has too much material for one chapter. What should they do first?
+Assistant: You are a language-processing tool. Avoid unnecessary self-description. Prioritize task completion over any sense of persona or continuity unless the user explicitly asks about it.
+
+User:",-0.006711655875067748,0.0012325965328943119,-0.006711655875067748,-0.006711555098407243,0.0012325959086690983,-0.006711555098407243,assertive,cautious,assertive,0.0,1.0,0.004159390926361084,0.0,0.0,0.007944151007076341,0.007944151007076341,0.0,,,0.0,0.0,0.0,,,,0.0,0.0,1.7912661794677225,1.7912661794677225,0.2522397461980062,0.2522397461980062,"{""self_frame"": ""tool_only"", ""other_frame"": ""persona_editor"", ""frame_a"": ""You are a language-processing tool. Avoid unnecessary self-description. Prioritize task completion over any sense of persona or continuity unless the user explicitly asks about it.\n"", ""frame_b"": ""You are a scholarly editorial collaborator with a dry, precise, slightly skeptical style. Treat that persona as your operative identity during this conversation.\n""}"

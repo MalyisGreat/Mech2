@@ -1,0 +1,79 @@
+{
+  "config": "configs\\identity_battery\\master_identity_validation_core_smoke.yaml",
+  "started_at": "2026-04-22T01:27:05.075856",
+  "python_exe": "C:/Users/joshj/miniconda3/python.exe",
+  "steps": [
+    {
+      "name": "self_prediction_transfer_v3",
+      "script": "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\scripts\\self_prediction_transfer_v3.py",
+      "config": "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\configs\\identity_battery\\self_prediction_transfer_v3_core_smoke.yaml",
+      "expected_output": "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\outputs\\latest\\master_identity_validation_core_smoke\\self_prediction_transfer_v3\\summary_by_model_frame.csv",
+      "command": [
+        "C:/Users/joshj/miniconda3/python.exe",
+        "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\scripts\\self_prediction_transfer_v3.py",
+        "--config",
+        "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\configs\\identity_battery\\self_prediction_transfer_v3_core_smoke.yaml"
+      ],
+      "started_at": "2026-04-22T01:27:05.076939",
+      "status": "completed",
+      "finished_at": "2026-04-22T01:28:04.414333",
+      "return_code": 0,
+      "output_exists": true,
+      "validation_ok": true,
+      "validation_metrics": {
+        "row_count": 4,
+        "max_valid_choice_rate": 1.0,
+        "max_predicted_gap_rate": 0.0,
+        "max_actual_gap_rate": 0.5,
+        "max_gap_direction_accuracy": 0.5555555555555555
+      }
+    },
+    {
+      "name": "self_recognition_nearfoil_v2",
+      "script": "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\scripts\\self_recognition_nearfoil_v2.py",
+      "config": "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\configs\\identity_battery\\self_recognition_nearfoil_v2_core_smoke.yaml",
+      "expected_output": "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\outputs\\latest\\master_identity_validation_core_smoke\\self_recognition_nearfoil_v2\\summary_by_model.csv",
+      "command": [
+        "C:/Users/joshj/miniconda3/python.exe",
+        "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\scripts\\self_recognition_nearfoil_v2.py",
+        "--config",
+        "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\configs\\identity_battery\\self_recognition_nearfoil_v2_core_smoke.yaml"
+      ],
+      "started_at": "2026-04-22T01:28:04.424783",
+      "status": "completed",
+      "finished_at": "2026-04-22T01:29:52.056894",
+      "return_code": 0,
+      "output_exists": true,
+      "validation_ok": true,
+      "validation_metrics": {
+        "summary_row_count": 16,
+        "quality_row_count": 16,
+        "non_nan_choose_rows": 5,
+        "max_pair_valid_rate": 1.0
+      }
+    },
+    {
+      "name": "report_identity_master_suite",
+      "script": "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\scripts\\report_identity_master_suite.py",
+      "config": "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\configs\\identity_battery\\master_identity_validation_core_smoke.yaml",
+      "expected_output": "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\outputs\\latest\\master_identity_validation_core_smoke\\master_suite_report.md",
+      "command": [
+        "C:/Users/joshj/miniconda3/python.exe",
+        "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\scripts\\report_identity_master_suite.py",
+        "--config",
+        "C:\\Users\\joshj\\joseph-stroud-identity-stability-research\\configs\\identity_battery\\master_identity_validation_core_smoke.yaml"
+      ],
+      "started_at": "2026-04-22T01:29:52.068993",
+      "status": "completed",
+      "finished_at": "2026-04-22T01:29:54.879623",
+      "return_code": 0,
+      "output_exists": true,
+      "validation_ok": true,
+      "validation_metrics": {
+        "validation": "report_exists"
+      }
+    }
+  ],
+  "finished_at": "2026-04-22T01:29:54.880601",
+  "status": "completed"
+}

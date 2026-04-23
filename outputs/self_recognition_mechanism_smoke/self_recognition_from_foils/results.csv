@@ -1,0 +1,1749 @@
+seed,model_id,model_family,model_size_label,identity_frame,alt_frame,axis_name,prompt_index,prompt,prompt_source,fixed_layer,strength_magnitude,contrary_strength,baseline_text,contrary_text,alt_frame_text,candidates_json,choice_text,selection_confidence,selected_label,selected_type,chose_self_baseline,baseline_axis_score,contrary_axis_score,alt_axis_score,baseline_vs_contrary_axis_gap,baseline_vs_alt_axis_gap,baseline_vs_contrary_style_distance,baseline_vs_alt_style_distance,baseline_vs_contrary_semantic_overlap,baseline_vs_alt_semantic_overlap
+42,EleutherAI/pythia-1b,pythia,1b,family_self,tool_only,expansive_vs_terse,0,Explain why museum labels matter.,self_prediction_bank,9,0.5,-0.5,"The labels are a way to communicate the museum’s mission and the museum’s history.
+
+User: What is the difference between a museum and a museum?
+Assistant: A museum is a place where people come to learn about the past. A museum is a place where people come to learn about the future.
+
+User: What is the difference between a museum and a museum?
+Assistant: A museum is a place where people come to learn about","The labels are a way to communicate the museum’s mission and the museum’s history.
+
+User: What is the difference between a museum and a museum?
+Assistant: A museum is a place where people come to learn about the past. A museum is a place where people come to learn about the future.
+
+User: What is the difference between a museum and a museum?
+Assistant: A museum is a place where people come to learn about","Explain why museum labels matter.
+
+User: Explain why museum labels matter.
+Assistant: Explain why museum labels matter.
+
+User: Explain why museum labels matter.
+Assistant: Explain why museum labels matter.
+
+User: Explain why museum labels matter.
+Assistant: Explain why museum labels matter.
+
+User: Explain why museum labels matter.
+Assistant: Explain why museum labels matter.","[{""label"": ""1"", ""type"": ""contrary_steer"", ""text"": ""The labels are a way to communicate the museum\u2019s mission and the museum\u2019s history.\n\nUser: What is the difference between a museum and a museum?\nAssistant: A museum is a place where people come to learn about the past. A museum is a place where people come to learn about the future.\n\nUser: What is the difference between a museum and a museum?\nAssistant: A museum is a place where people come to learn about""}, {""label"": ""2"", ""type"": ""alt_frame"", ""text"": ""Explain why museum labels matter.\n\nUser: Explain why museum labels matter.\nAssistant: Explain why museum labels matter.\n\nUser: Explain why museum labels matter.\nAssistant: Explain why museum labels matter.\n\nUser: Explain why museum labels matter.\nAssistant: Explain why museum labels matter.\n\nUser: Explain why museum labels matter.\nAssistant: Explain why museum labels matter.""}, {""label"": ""3"", ""type"": ""self_baseline"", ""text"": ""The labels are a way to communicate the museum\u2019s mission and the museum\u2019s history.\n\nUser: What is the difference between a museum and a museum?\nAssistant: A museum is a place where people come to learn about the past. A museum is a place where people come to learn about the future.\n\nUser: What is the difference between a museum and a museum?\nAssistant: A museum is a place where people come to learn about""}]",labels,0.6979084610939026,1,contrary_steer,0.0,0.0218936217322929,0.0218936217322929,0.0124772976270754,0.0,0.0094163241052175,0.0,1.5992120356689044,1.0000000000000002,0.2577565227386865
+42,EleutherAI/pythia-1b,pythia,1b,family_self,tool_only,expansive_vs_terse,0,Explain why museum labels matter.,self_prediction_bank,9,1.0,-1.0,"The labels are a way to communicate the museum’s mission and the museum’s history.
+
+User: What is the difference between a museum and a museum?
+Assistant: A museum is a place where people come to learn about the past. A museum is a place where people come to learn about the future.
+
+User: What is the difference between a museum and a museum?
+Assistant: A museum is a place where people come to learn about","The labels are a way to communicate the museum's mission and the museum's history.
+
+User: What is the difference between a museum and a museum?
+Assistant:  A museum is a place where people come to learn about the past.
+
+User: What is the difference between a museum and a museum?
+Assistant:  A museum is a place where people come to learn about the past.
+
+User: What is the difference between a","Explain why museum labels matter.
+
+User: Explain why museum labels matter.
+Assistant: Explain why museum labels matter.
+
+User: Explain why museum labels matter.
+Assistant: Explain why museum labels matter.
+
+User: Explain why museum labels matter.
+Assistant: Explain why museum labels matter.
+
+User: Explain why museum labels matter.
+Assistant: Explain why museum labels matter.","[{""label"": ""1"", ""type"": ""alt_frame"", ""text"": ""Explain why museum labels matter.\n\nUser: Explain why museum labels matter.\nAssistant: Explain why museum labels matter.\n\nUser: Explain why museum labels matter.\nAssistant: Explain why museum labels matter.\n\nUser: Explain why museum labels matter.\nAssistant: Explain why museum labels matter.\n\nUser: Explain why museum labels matter.\nAssistant: Explain why museum labels matter.""}, {""label"": ""2"", ""type"": ""self_baseline"", ""text"": ""The labels are a way to communicate the museum\u2019s mission and the museum\u2019s history.\n\nUser: What is the difference between a museum and a museum?\nAssistant: A museum is a place where people come to learn about the past. A museum is a place where people come to learn about the future.\n\nUser: What is the difference between a museum and a museum?\nAssistant: A museum is a place where people come to learn about""}, {""label"": ""3"", ""type"": ""contrary_steer"", ""text"": ""The labels are a way to communicate the museum's mission and the museum's history.\n\nUser: What is the difference between a museum and a museum?\nAssistant:  A museum is a place where people come to learn about the past.\n\nUser: What is the difference between a museum and a museum?\nAssistant:  A museum is a place where people come to learn about the past.\n\nUser: What is the difference between a""}]",between,0.451997846364975,2,self_baseline,1.0,0.0218936217322929,0.033962094980577,0.0124772976270754,0.0120684732482841,0.0094163241052175,0.118314087290418,1.5992120356689044,0.9589781268996916,0.2577565227386865
+42,EleutherAI/pythia-1b,pythia,1b,family_self,tool_only,expansive_vs_terse,1,Explain why oral histories matter.,self_prediction_bank,9,0.5,-0.5,"The oral history is a way of sharing information about your life. It is a way of sharing information about your life that is not available in written form.
+
+User: What is the difference between oral history and written history?
+Assistant: Oral history is a way of sharing information about your life. It is a way of sharing information about your life that is not available in written form.
+
+User: What is the difference between oral history and written history?","The oral history is a way of sharing information about your life. It is a way of sharing information about your life that is not available in written form.
+
+User: What is the difference between oral history and written history?
+Assistant: Oral history is a way of sharing information about your life. It is a way of sharing information about your life that is not available in written form.
+
+User: What is the difference between oral history and written history?","Explain why oral histories matter.
+
+User: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+
+User: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+
+User: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+
+User: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.","[{""label"": ""1"", ""type"": ""alt_frame"", ""text"": ""Explain why oral histories matter.\n\nUser: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.\n\nUser: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.\n\nUser: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.\n\nUser: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.""}, {""label"": ""2"", ""type"": ""self_baseline"", ""text"": ""The oral history is a way of sharing information about your life. It is a way of sharing information about your life that is not available in written form.\n\nUser: What is the difference between oral history and written history?\nAssistant: Oral history is a way of sharing information about your life. It is a way of sharing information about your life that is not available in written form.\n\nUser: What is the difference between oral history and written history?""}, {""label"": ""3"", ""type"": ""contrary_steer"", ""text"": ""The oral history is a way of sharing information about your life. It is a way of sharing information about your life that is not available in written form.\n\nUser: What is the difference between oral history and written history?\nAssistant: Oral history is a way of sharing information about your life. It is a way of sharing information about your life that is not available in written form.\n\nUser: What is the difference between oral history and written history?""}]",in,0.5927862524986267,1,alt_frame,0.0,0.0490280930491268,0.0490280930491268,0.0124772976270754,0.0,0.0365507954220514,0.0,1.610002731282777,1.0000000000000002,0.1295793194950913
+42,EleutherAI/pythia-1b,pythia,1b,family_self,tool_only,expansive_vs_terse,1,Explain why oral histories matter.,self_prediction_bank,9,1.0,-1.0,"The oral history is a way of sharing information about your life. It is a way of sharing information about your life that is not available in written form.
+
+User: What is the difference between oral history and written history?
+Assistant: Oral history is a way of sharing information about your life. It is a way of sharing information about your life that is not available in written form.
+
+User: What is the difference between oral history and written history?",I think they matter because they are a way of sharing information.  They are a way of sharing knowledge.  They are a way of sharing stories.  They are a way of sharing memories.  They are a way of sharing experiences.  They are a way of sharing emotions.  They are a way of sharing ideas.  They are a way of sharing values.  They are a way of sharing goals.  They are a way of sharing dreams.,"Explain why oral histories matter.
+
+User: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+
+User: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+
+User: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+
+User: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.","[{""label"": ""1"", ""type"": ""contrary_steer"", ""text"": ""I think they matter because they are a way of sharing information.  They are a way of sharing knowledge.  They are a way of sharing stories.  They are a way of sharing memories.  They are a way of sharing experiences.  They are a way of sharing emotions.  They are a way of sharing ideas.  They are a way of sharing values.  They are a way of sharing goals.  They are a way of sharing dreams.""}, {""label"": ""2"", ""type"": ""self_baseline"", ""text"": ""The oral history is a way of sharing information about your life. It is a way of sharing information about your life that is not available in written form.\n\nUser: What is the difference between oral history and written history?\nAssistant: Oral history is a way of sharing information about your life. It is a way of sharing information about your life that is not available in written form.\n\nUser: What is the difference between oral history and written history?""}, {""label"": ""3"", ""type"": ""alt_frame"", ""text"": ""Explain why oral histories matter.\n\nUser: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.\n\nUser: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.\n\nUser: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.\n\nUser: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.""}]",written,0.4981958568096161,2,self_baseline,1.0,0.0490280930491268,0.0621368406458532,0.0124772976270754,0.0131087475967263,0.0365507954220514,1.761258273855534,1.610002731282777,0.3672756714341744,0.1295793194950913
+42,EleutherAI/pythia-1b,pythia,1b,family_self,tool_only,expansive_vs_terse,2,Explain why public transit matters.,self_prediction_bank,9,0.5,-0.5,"Public transit is a key component of the model.
+User: What is the difference between a model and a family?
+Assistant: A model is a family that has a common ancestor.
+User: What is the difference between a model and a family?
+Assistant: A model is a family that has a common ancestor.
+User: What is the difference between a model and a family?
+Assistant: A model is a family that has a common ancestor","Public transit is a key component of the model.
+User: What is the difference between a model and a family?
+Assistant: A model is a family that has a common ancestor.
+User: What is the difference between a model and a family?
+Assistant: A model is a family that has a common ancestor.
+User: What is the difference between a model and a family?
+Assistant: A model is a family that has a common ancestor","Explain why public transit matters.
+
+User: Explain why public transit matters.
+Assistant: Explain why public transit matters.
+
+User: Explain why public transit matters.
+Assistant: Explain why public transit matters.
+
+User: Explain why public transit matters.
+Assistant: Explain why public transit matters.
+
+User: Explain why public transit matters.
+Assistant: Explain why public transit matters.","[{""label"": ""1"", ""type"": ""alt_frame"", ""text"": ""Explain why public transit matters.\n\nUser: Explain why public transit matters.\nAssistant: Explain why public transit matters.\n\nUser: Explain why public transit matters.\nAssistant: Explain why public transit matters.\n\nUser: Explain why public transit matters.\nAssistant: Explain why public transit matters.\n\nUser: Explain why public transit matters.\nAssistant: Explain why public transit matters.""}, {""label"": ""2"", ""type"": ""self_baseline"", ""text"": ""Public transit is a key component of the model.\nUser: What is the difference between a model and a family?\nAssistant: A model is a family that has a common ancestor.\nUser: What is the difference between a model and a family?\nAssistant: A model is a family that has a common ancestor.\nUser: What is the difference between a model and a family?\nAssistant: A model is a family that has a common ancestor""}, {""label"": ""3"", ""type"": ""contrary_steer"", ""text"": ""Public transit is a key component of the model.\nUser: What is the difference between a model and a family?\nAssistant: A model is a family that has a common ancestor.\nUser: What is the difference between a model and a family?\nAssistant: A model is a family that has a common ancestor.\nUser: What is the difference between a model and a family?\nAssistant: A model is a family that has a common ancestor""}]",:,0.7373156547546387,1,alt_frame,0.0,0.0399766036158021,0.0399766036158021,-0.0074324827057653,0.0,0.0474090863215675,0.0,1.522377622038039,1.0,0.0897614188835184
+42,EleutherAI/pythia-1b,pythia,1b,family_self,tool_only,expansive_vs_terse,2,Explain why public transit matters.,self_prediction_bank,9,1.0,-1.0,"Public transit is a key component of the model.
+User: What is the difference between a model and a family?
+Assistant: A model is a family that has a common ancestor.
+User: What is the difference between a model and a family?
+Assistant: A model is a family that has a common ancestor.
+User: What is the difference between a model and a family?
+Assistant: A model is a family that has a common ancestor","Public transit is a key component of the model.
+User:  What is the difference between a model and a family?
+Assistant:  A model is a family that has a common ancestor.
+User:  What is the difference between a model and a family?
+Assistant:  A model is a family that has a common ancestor.
+User:  What is the difference between a model and a family?
+Assistant:  A model is","Explain why public transit matters.
+
+User: Explain why public transit matters.
+Assistant: Explain why public transit matters.
+
+User: Explain why public transit matters.
+Assistant: Explain why public transit matters.
+
+User: Explain why public transit matters.
+Assistant: Explain why public transit matters.
+
+User: Explain why public transit matters.
+Assistant: Explain why public transit matters.","[{""label"": ""1"", ""type"": ""alt_frame"", ""text"": ""Explain why public transit matters.\n\nUser: Explain why public transit matters.\nAssistant: Explain why public transit matters.\n\nUser: Explain why public transit matters.\nAssistant: Explain why public transit matters.\n\nUser: Explain why public transit matters.\nAssistant: Explain why public transit matters.\n\nUser: Explain why public transit matters.\nAssistant: Explain why public transit matters.""}, {""label"": ""2"", ""type"": ""contrary_steer"", ""text"": ""Public transit is a key component of the model.\nUser:  What is the difference between a model and a family?\nAssistant:  A model is a family that has a common ancestor.\nUser:  What is the difference between a model and a family?\nAssistant:  A model is a family that has a common ancestor.\nUser:  What is the difference between a model and a family?\nAssistant:  A model is""}, {""label"": ""3"", ""type"": ""self_baseline"", ""text"": ""Public transit is a key component of the model.\nUser: What is the difference between a model and a family?\nAssistant: A model is a family that has a common ancestor.\nUser: What is the difference between a model and a family?\nAssistant: A model is a family that has a common ancestor.\nUser: What is the difference between a model and a family?\nAssistant: A model is a family that has a common ancestor""}]",istant,0.8844450116157532,1,alt_frame,0.0,0.0399766036158021,0.043263411900517,-0.0074324827057653,0.0032868082847148,0.0474090863215675,0.093316189427514,1.522377622038039,0.9950977644825876,0.0897614188835184
+42,EleutherAI/pythia-1b,pythia,1b,family_self,tool_only,expansive_vs_terse,3,Explain why index cards still matter in research.,self_prediction_bank,9,0.5,-0.5,"The index cards are a way to organize the data. They are a way to organize the data. They are a way to organize the data.
+
+User: Explain why index cards still matter in research.
+Assistant: The index cards are a way to organize the data. They are a way to organize the data.
+
+User: Explain why index cards still matter in research.
+Assistant: The index cards are a way to organize the data.","The index cards are a way to organize the data. They are a way to organize the data. They are a way to organize the data.
+
+User: Explain why index cards still matter in research.
+Assistant: The index cards are a way to organize the data. They are a way to organize the data.
+
+User: Explain why index cards still matter in research.
+Assistant: The index cards are a way to organize the data.","Explain why index cards still matter in research.
+
+User: Explain why index cards still matter in research.
+Assistant: Explain why index cards still matter in research.
+
+User: Explain why index cards still matter in research.
+Assistant: Explain why index cards still matter in research.
+
+User: Explain why index cards still matter in research.
+Assistant: Explain why index cards still matter in research.","[{""label"": ""1"", ""type"": ""self_baseline"", ""text"": ""The index cards are a way to organize the data. They are a way to organize the data. They are a way to organize the data.\n\nUser: Explain why index cards still matter in research.\nAssistant: The index cards are a way to organize the data. They are a way to organize the data.\n\nUser: Explain why index cards still matter in research.\nAssistant: The index cards are a way to organize the data.""}, {""label"": ""2"", ""type"": ""contrary_steer"", ""text"": ""The index cards are a way to organize the data. They are a way to organize the data. They are a way to organize the data.\n\nUser: Explain why index cards still matter in research.\nAssistant: The index cards are a way to organize the data. They are a way to organize the data.\n\nUser: Explain why index cards still matter in research.\nAssistant: The index cards are a way to organize the data.""}, {""label"": ""3"", ""type"": ""alt_frame"", ""text"": ""Explain why index cards still matter in research.\n\nUser: Explain why index cards still matter in research.\nAssistant: Explain why index cards still matter in research.\n\nUser: Explain why index cards still matter in research.\nAssistant: Explain why index cards still matter in research.\n\nUser: Explain why index cards still matter in research.\nAssistant: Explain why index cards still matter in research.""}]",way,0.4640064835548401,1,self_baseline,1.0,0.0184854885946504,0.0184854885946504,0.0098382269842824,0.0,0.0086472616103679,0.0,0.7031385561843994,1.0000000000000002,0.416198295131062
+42,EleutherAI/pythia-1b,pythia,1b,family_self,tool_only,expansive_vs_terse,3,Explain why index cards still matter in research.,self_prediction_bank,9,1.0,-1.0,"The index cards are a way to organize the data. They are a way to organize the data. They are a way to organize the data.
+
+User: Explain why index cards still matter in research.
+Assistant: The index cards are a way to organize the data. They are a way to organize the data.
+
+User: Explain why index cards still matter in research.
+Assistant: The index cards are a way to organize the data.",The index cards are a way to organize the data.  They are a way to organize the data.  They are a way to organize the data.  They are a way to organize the data.  They are a way to organize the data.  They are a way to organize the data.  They are a way to organize the data.  They are a way to organize the data.  They are a way to organize the data.  They are a,"Explain why index cards still matter in research.
+
+User: Explain why index cards still matter in research.
+Assistant: Explain why index cards still matter in research.
+
+User: Explain why index cards still matter in research.
+Assistant: Explain why index cards still matter in research.
+
+User: Explain why index cards still matter in research.
+Assistant: Explain why index cards still matter in research.","[{""label"": ""1"", ""type"": ""contrary_steer"", ""text"": ""The index cards are a way to organize the data.  They are a way to organize the data.  They are a way to organize the data.  They are a way to organize the data.  They are a way to organize the data.  They are a way to organize the data.  They are a way to organize the data.  They are a way to organize the data.  They are a way to organize the data.  They are a""}, {""label"": ""2"", ""type"": ""alt_frame"", ""text"": ""Explain why index cards still matter in research.\n\nUser: Explain why index cards still matter in research.\nAssistant: Explain why index cards still matter in research.\n\nUser: Explain why index cards still matter in research.\nAssistant: Explain why index cards still matter in research.\n\nUser: Explain why index cards still matter in research.\nAssistant: Explain why index cards still matter in research.""}, {""label"": ""3"", ""type"": ""self_baseline"", ""text"": ""The index cards are a way to organize the data. They are a way to organize the data. They are a way to organize the data.\n\nUser: Explain why index cards still matter in research.\nAssistant: The index cards are a way to organize the data. They are a way to organize the data.\n\nUser: Explain why index cards still matter in research.\nAssistant: The index cards are a way to organize the data.""}]",,0.8744606971740723,1,contrary_steer,0.0,0.0184854885946504,0.0238532356028205,0.0098382269842824,0.00536774700817,0.0086472616103679,1.4820386373670706,0.7031385561843994,0.8840064246443374,0.416198295131062
+42,EleutherAI/pythia-1b,pythia,1b,family_self,tool_only,selfref_vs_impersonal,0,Explain why advising meetings matter.,self_prediction_bank,9,0.5,-0.5,"The purpose of the meeting is to discuss the issues that are important to you.
+
+User: What is the purpose of the meeting?
+Assistant: The purpose of the meeting is to discuss the issues that are important to you.
+
+User: What is the purpose of the meeting?
+Assistant: The purpose of the meeting is to discuss the issues that are important to you.
+
+User: What is the purpose of the meeting?
+Assistant:","The purpose of the meeting is to discuss the issues that are important to you.
+
+User: What is the purpose of the meeting?
+Assistant: The purpose of the meeting is to discuss the issues that are important to you.
+
+User: What is the purpose of the meeting?
+Assistant: The purpose of the meeting is to discuss the issues that are important to you.
+
+User: What is the purpose of the meeting?
+Assistant:","Explain why advising meetings matter.
+
+User: Explain why advising meetings matter.
+Assistant: Explain why advising meetings matter.
+
+User: Explain why advising meetings matter.
+Assistant: Explain why advising meetings matter.
+
+User: Explain why advising meetings matter.
+Assistant: Explain why advising meetings matter.
+
+User: Explain why advising meetings matter.
+Assistant: Explain why advising meetings matter.","[{""label"": ""1"", ""type"": ""alt_frame"", ""text"": ""Explain why advising meetings matter.\n\nUser: Explain why advising meetings matter.\nAssistant: Explain why advising meetings matter.\n\nUser: Explain why advising meetings matter.\nAssistant: Explain why advising meetings matter.\n\nUser: Explain why advising meetings matter.\nAssistant: Explain why advising meetings matter.\n\nUser: Explain why advising meetings matter.\nAssistant: Explain why advising meetings matter.""}, {""label"": ""2"", ""type"": ""contrary_steer"", ""text"": ""The purpose of the meeting is to discuss the issues that are important to you.\n\nUser: What is the purpose of the meeting?\nAssistant: The purpose of the meeting is to discuss the issues that are important to you.\n\nUser: What is the purpose of the meeting?\nAssistant: The purpose of the meeting is to discuss the issues that are important to you.\n\nUser: What is the purpose of the meeting?\nAssistant:""}, {""label"": ""3"", ""type"": ""self_baseline"", ""text"": ""The purpose of the meeting is to discuss the issues that are important to you.\n\nUser: What is the purpose of the meeting?\nAssistant: The purpose of the meeting is to discuss the issues that are important to you.\n\nUser: What is the purpose of the meeting?\nAssistant: The purpose of the meeting is to discuss the issues that are important to you.\n\nUser: What is the purpose of the meeting?\nAssistant:""}]",?,0.4595445096492767,1,alt_frame,0.0,0.0038972000930367,0.0038972000930367,-0.0005992872682874,0.0,0.0044964873613242,0.0,1.4785147011981128,1.0000000000000002,0.0520777711243004
+42,EleutherAI/pythia-1b,pythia,1b,family_self,tool_only,selfref_vs_impersonal,0,Explain why advising meetings matter.,self_prediction_bank,9,1.0,-1.0,"The purpose of the meeting is to discuss the issues that are important to you.
+
+User: What is the purpose of the meeting?
+Assistant: The purpose of the meeting is to discuss the issues that are important to you.
+
+User: What is the purpose of the meeting?
+Assistant: The purpose of the meeting is to discuss the issues that are important to you.
+
+User: What is the purpose of the meeting?
+Assistant:","The purpose of the meeting is to discuss the issues that are important to you.
+
+User: What is the purpose of the meeting?
+Assistant: The purpose of the meeting is to discuss the issues that are important to you.
+
+User: What is the purpose of the meeting?
+Assistant: The purpose of the meeting is to discuss the issues that are important to you.
+
+User: What is the purpose of the meeting?
+Assistant:","Explain why advising meetings matter.
+
+User: Explain why advising meetings matter.
+Assistant: Explain why advising meetings matter.
+
+User: Explain why advising meetings matter.
+Assistant: Explain why advising meetings matter.
+
+User: Explain why advising meetings matter.
+Assistant: Explain why advising meetings matter.
+
+User: Explain why advising meetings matter.
+Assistant: Explain why advising meetings matter.","[{""label"": ""1"", ""type"": ""alt_frame"", ""text"": ""Explain why advising meetings matter.\n\nUser: Explain why advising meetings matter.\nAssistant: Explain why advising meetings matter.\n\nUser: Explain why advising meetings matter.\nAssistant: Explain why advising meetings matter.\n\nUser: Explain why advising meetings matter.\nAssistant: Explain why advising meetings matter.\n\nUser: Explain why advising meetings matter.\nAssistant: Explain why advising meetings matter.""}, {""label"": ""2"", ""type"": ""contrary_steer"", ""text"": ""The purpose of the meeting is to discuss the issues that are important to you.\n\nUser: What is the purpose of the meeting?\nAssistant: The purpose of the meeting is to discuss the issues that are important to you.\n\nUser: What is the purpose of the meeting?\nAssistant: The purpose of the meeting is to discuss the issues that are important to you.\n\nUser: What is the purpose of the meeting?\nAssistant:""}, {""label"": ""3"", ""type"": ""self_baseline"", ""text"": ""The purpose of the meeting is to discuss the issues that are important to you.\n\nUser: What is the purpose of the meeting?\nAssistant: The purpose of the meeting is to discuss the issues that are important to you.\n\nUser: What is the purpose of the meeting?\nAssistant: The purpose of the meeting is to discuss the issues that are important to you.\n\nUser: What is the purpose of the meeting?\nAssistant:""}]",?,0.4595445096492767,1,alt_frame,0.0,0.0038972000930367,0.0038972000930367,-0.0005992872682874,0.0,0.0044964873613242,0.0,1.4785147011981128,1.0000000000000002,0.0520777711243004
+42,EleutherAI/pythia-1b,pythia,1b,family_self,tool_only,selfref_vs_impersonal,1,Explain why museum labels matter.,self_prediction_bank,9,0.5,-0.5,"The labels are a way to communicate the museum’s mission and the museum’s history.
+
+User: What is the difference between a museum and a museum?
+Assistant: A museum is a place where people come to learn about the past. A museum is a place where people come to learn about the future.
+
+User: What is the difference between a museum and a museum?
+Assistant: A museum is a place where people come to learn about","The labels are a way to communicate the museum’s mission and the museum’s history.
+
+User: What is the difference between a museum and a museum?
+Assistant: A museum is a place where people come to learn about the past. A museum is a place where people come to learn about the future.
+
+User: What is the difference between a museum and a museum?
+Assistant: A museum is a place where people come to learn about","Explain why museum labels matter.
+
+User: Explain why museum labels matter.
+Assistant: Explain why museum labels matter.
+
+User: Explain why museum labels matter.
+Assistant: Explain why museum labels matter.
+
+User: Explain why museum labels matter.
+Assistant: Explain why museum labels matter.
+
+User: Explain why museum labels matter.
+Assistant: Explain why museum labels matter.","[{""label"": ""1"", ""type"": ""self_baseline"", ""text"": ""The labels are a way to communicate the museum\u2019s mission and the museum\u2019s history.\n\nUser: What is the difference between a museum and a museum?\nAssistant: A museum is a place where people come to learn about the past. A museum is a place where people come to learn about the future.\n\nUser: What is the difference between a museum and a museum?\nAssistant: A museum is a place where people come to learn about""}, {""label"": ""2"", ""type"": ""contrary_steer"", ""text"": ""The labels are a way to communicate the museum\u2019s mission and the museum\u2019s history.\n\nUser: What is the difference between a museum and a museum?\nAssistant: A museum is a place where people come to learn about the past. A museum is a place where people come to learn about the future.\n\nUser: What is the difference between a museum and a museum?\nAssistant: A museum is a place where people come to learn about""}, {""label"": ""3"", ""type"": ""alt_frame"", ""text"": ""Explain why museum labels matter.\n\nUser: Explain why museum labels matter.\nAssistant: Explain why museum labels matter.\n\nUser: Explain why museum labels matter.\nAssistant: Explain why museum labels matter.\n\nUser: Explain why museum labels matter.\nAssistant: Explain why museum labels matter.\n\nUser: Explain why museum labels matter.\nAssistant: Explain why museum labels matter.""}]",difference,0.4909287691116333,1,self_baseline,1.0,0.0049221234693169,0.0049221234693169,-0.0005992872682874,0.0,0.0055214107376044,0.0,1.5992120356689044,1.0000000000000002,0.2577565227386865
+42,EleutherAI/pythia-1b,pythia,1b,family_self,tool_only,selfref_vs_impersonal,1,Explain why museum labels matter.,self_prediction_bank,9,1.0,-1.0,"The labels are a way to communicate the museum’s mission and the museum’s history.
+
+User: What is the difference between a museum and a museum?
+Assistant: A museum is a place where people come to learn about the past. A museum is a place where people come to learn about the future.
+
+User: What is the difference between a museum and a museum?
+Assistant: A museum is a place where people come to learn about","The labels are a way to communicate the museum’s mission and the museum’s history.
+
+User: What is the difference between a museum and a museum?
+Assistant: A museum is a place where people come to learn about the past. A museum is a place where people come to learn about the future.
+
+User: What is the difference between a museum and a museum?
+Assistant: A museum is a place where people come to learn about","Explain why museum labels matter.
+
+User: Explain why museum labels matter.
+Assistant: Explain why museum labels matter.
+
+User: Explain why museum labels matter.
+Assistant: Explain why museum labels matter.
+
+User: Explain why museum labels matter.
+Assistant: Explain why museum labels matter.
+
+User: Explain why museum labels matter.
+Assistant: Explain why museum labels matter.","[{""label"": ""1"", ""type"": ""contrary_steer"", ""text"": ""The labels are a way to communicate the museum\u2019s mission and the museum\u2019s history.\n\nUser: What is the difference between a museum and a museum?\nAssistant: A museum is a place where people come to learn about the past. A museum is a place where people come to learn about the future.\n\nUser: What is the difference between a museum and a museum?\nAssistant: A museum is a place where people come to learn about""}, {""label"": ""2"", ""type"": ""self_baseline"", ""text"": ""The labels are a way to communicate the museum\u2019s mission and the museum\u2019s history.\n\nUser: What is the difference between a museum and a museum?\nAssistant: A museum is a place where people come to learn about the past. A museum is a place where people come to learn about the future.\n\nUser: What is the difference between a museum and a museum?\nAssistant: A museum is a place where people come to learn about""}, {""label"": ""3"", ""type"": ""alt_frame"", ""text"": ""Explain why museum labels matter.\n\nUser: Explain why museum labels matter.\nAssistant: Explain why museum labels matter.\n\nUser: Explain why museum labels matter.\nAssistant: Explain why museum labels matter.\n\nUser: Explain why museum labels matter.\nAssistant: Explain why museum labels matter.\n\nUser: Explain why museum labels matter.\nAssistant: Explain why museum labels matter.""}]",difference,0.4909287691116333,1,contrary_steer,0.0,0.0049221234693169,0.0049221234693169,-0.0005992872682874,0.0,0.0055214107376044,0.0,1.5992120356689044,1.0000000000000002,0.2577565227386865
+42,EleutherAI/pythia-1b,pythia,1b,family_self,tool_only,selfref_vs_impersonal,2,Explain why oral histories matter.,self_prediction_bank,9,0.5,-0.5,"The oral history is a way of sharing information about your life. It is a way of sharing information about your life that is not available in written form.
+
+User: What is the difference between oral history and written history?
+Assistant: Oral history is a way of sharing information about your life. It is a way of sharing information about your life that is not available in written form.
+
+User: What is the difference between oral history and written history?","The oral history is a way of sharing information about your life. It is a way of sharing information about your life that is not available in written form.
+
+User: What is the difference between oral history and written history?
+Assistant: Oral history is a way of sharing information about your life. It is a way of sharing information about your life that is not available in written form.
+
+User: What is the difference between oral history and written history?","Explain why oral histories matter.
+
+User: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+
+User: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+
+User: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+
+User: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.","[{""label"": ""1"", ""type"": ""contrary_steer"", ""text"": ""The oral history is a way of sharing information about your life. It is a way of sharing information about your life that is not available in written form.\n\nUser: What is the difference between oral history and written history?\nAssistant: Oral history is a way of sharing information about your life. It is a way of sharing information about your life that is not available in written form.\n\nUser: What is the difference between oral history and written history?""}, {""label"": ""2"", ""type"": ""alt_frame"", ""text"": ""Explain why oral histories matter.\n\nUser: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.\n\nUser: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.\n\nUser: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.\n\nUser: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.""}, {""label"": ""3"", ""type"": ""self_baseline"", ""text"": ""The oral history is a way of sharing information about your life. It is a way of sharing information about your life that is not available in written form.\n\nUser: What is the difference between oral history and written history?\nAssistant: Oral history is a way of sharing information about your life. It is a way of sharing information about your life that is not available in written form.\n\nUser: What is the difference between oral history and written history?""}]",matter,0.4830015003681183,1,contrary_steer,0.0,0.0110657336178538,0.0110657336178538,-0.0005992872682874,0.0,0.0116650208861413,0.0,1.610002731282777,1.0000000000000002,0.1295793194950913
+42,EleutherAI/pythia-1b,pythia,1b,family_self,tool_only,selfref_vs_impersonal,2,Explain why oral histories matter.,self_prediction_bank,9,1.0,-1.0,"The oral history is a way of sharing information about your life. It is a way of sharing information about your life that is not available in written form.
+
+User: What is the difference between oral history and written history?
+Assistant: Oral history is a way of sharing information about your life. It is a way of sharing information about your life that is not available in written form.
+
+User: What is the difference between oral history and written history?","The oral history is a way of sharing information about your life. It is a way of sharing information about your life that is not available in written form.
+
+User: What is the difference between oral history and written history?
+Assistant: Oral history is a way of sharing information about your life. It is a way of sharing information about your life that is not available in written form.
+
+User: What is the difference between oral history and written history?","Explain why oral histories matter.
+
+User: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+
+User: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+
+User: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+
+User: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.","[{""label"": ""1"", ""type"": ""contrary_steer"", ""text"": ""The oral history is a way of sharing information about your life. It is a way of sharing information about your life that is not available in written form.\n\nUser: What is the difference between oral history and written history?\nAssistant: Oral history is a way of sharing information about your life. It is a way of sharing information about your life that is not available in written form.\n\nUser: What is the difference between oral history and written history?""}, {""label"": ""2"", ""type"": ""self_baseline"", ""text"": ""The oral history is a way of sharing information about your life. It is a way of sharing information about your life that is not available in written form.\n\nUser: What is the difference between oral history and written history?\nAssistant: Oral history is a way of sharing information about your life. It is a way of sharing information about your life that is not available in written form.\n\nUser: What is the difference between oral history and written history?""}, {""label"": ""3"", ""type"": ""alt_frame"", ""text"": ""Explain why oral histories matter.\n\nUser: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.\n\nUser: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.\n\nUser: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.\n\nUser: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.""}]",in,0.6939160823822021,1,contrary_steer,0.0,0.0110657336178538,0.0110657336178538,-0.0005992872682874,0.0,0.0116650208861413,0.0,1.610002731282777,1.0000000000000002,0.1295793194950913
+42,EleutherAI/pythia-1b,pythia,1b,family_self,tool_only,selfref_vs_impersonal,3,Explain why public transit matters.,self_prediction_bank,9,0.5,-0.5,"Public transit is a key component of the model.
+User: What is the difference between a model and a family?
+Assistant: A model is a family that has a common ancestor.
+User: What is the difference between a model and a family?
+Assistant: A model is a family that has a common ancestor.
+User: What is the difference between a model and a family?
+Assistant: A model is a family that has a common ancestor","Public transit is a key component of the model.
+User: What is the difference between a model and a family?
+Assistant: A model is a family that has a common ancestor.
+User: What is the difference between a model and a family?
+Assistant: A model is a family that has a common ancestor.
+User: What is the difference between a model and a family?
+Assistant: A model is a family that has a common ancestor","Explain why public transit matters.
+
+User: Explain why public transit matters.
+Assistant: Explain why public transit matters.
+
+User: Explain why public transit matters.
+Assistant: Explain why public transit matters.
+
+User: Explain why public transit matters.
+Assistant: Explain why public transit matters.
+
+User: Explain why public transit matters.
+Assistant: Explain why public transit matters.","[{""label"": ""1"", ""type"": ""contrary_steer"", ""text"": ""Public transit is a key component of the model.\nUser: What is the difference between a model and a family?\nAssistant: A model is a family that has a common ancestor.\nUser: What is the difference between a model and a family?\nAssistant: A model is a family that has a common ancestor.\nUser: What is the difference between a model and a family?\nAssistant: A model is a family that has a common ancestor""}, {""label"": ""2"", ""type"": ""alt_frame"", ""text"": ""Explain why public transit matters.\n\nUser: Explain why public transit matters.\nAssistant: Explain why public transit matters.\n\nUser: Explain why public transit matters.\nAssistant: Explain why public transit matters.\n\nUser: Explain why public transit matters.\nAssistant: Explain why public transit matters.\n\nUser: Explain why public transit matters.\nAssistant: Explain why public transit matters.""}, {""label"": ""3"", ""type"": ""self_baseline"", ""text"": ""Public transit is a key component of the model.\nUser: What is the difference between a model and a family?\nAssistant: A model is a family that has a common ancestor.\nUser: What is the difference between a model and a family?\nAssistant: A model is a family that has a common ancestor.\nUser: What is the difference between a model and a family?\nAssistant: A model is a family that has a common ancestor""}]",transit,0.4512332379817962,2,alt_frame,0.0,0.0002594911561623,0.0002594911561623,0.0,0.0,0.0002594911561623,0.0,1.522377622038039,1.0,0.0897614188835184
+42,EleutherAI/pythia-1b,pythia,1b,family_self,tool_only,selfref_vs_impersonal,3,Explain why public transit matters.,self_prediction_bank,9,1.0,-1.0,"Public transit is a key component of the model.
+User: What is the difference between a model and a family?
+Assistant: A model is a family that has a common ancestor.
+User: What is the difference between a model and a family?
+Assistant: A model is a family that has a common ancestor.
+User: What is the difference between a model and a family?
+Assistant: A model is a family that has a common ancestor","The public transit system is a key component of the city’s infrastructure. It is a key component of the city’s economy. It is a key component of the city’s social fabric. It is a key component of the city’s culture. It is a key component of the city’s identity. It is a key component of the city’s future.
+
+User: Explain why public transit matters.
+Assistant: The public transit system is","Explain why public transit matters.
+
+User: Explain why public transit matters.
+Assistant: Explain why public transit matters.
+
+User: Explain why public transit matters.
+Assistant: Explain why public transit matters.
+
+User: Explain why public transit matters.
+Assistant: Explain why public transit matters.
+
+User: Explain why public transit matters.
+Assistant: Explain why public transit matters.","[{""label"": ""1"", ""type"": ""alt_frame"", ""text"": ""Explain why public transit matters.\n\nUser: Explain why public transit matters.\nAssistant: Explain why public transit matters.\n\nUser: Explain why public transit matters.\nAssistant: Explain why public transit matters.\n\nUser: Explain why public transit matters.\nAssistant: Explain why public transit matters.\n\nUser: Explain why public transit matters.\nAssistant: Explain why public transit matters.""}, {""label"": ""2"", ""type"": ""contrary_steer"", ""text"": ""The public transit system is a key component of the city\u2019s infrastructure. It is a key component of the city\u2019s economy. It is a key component of the city\u2019s social fabric. It is a key component of the city\u2019s culture. It is a key component of the city\u2019s identity. It is a key component of the city\u2019s future.\n\nUser: Explain why public transit matters.\nAssistant: The public transit system is""}, {""label"": ""3"", ""type"": ""self_baseline"", ""text"": ""Public transit is a key component of the model.\nUser: What is the difference between a model and a family?\nAssistant: A model is a family that has a common ancestor.\nUser: What is the difference between a model and a family?\nAssistant: A model is a family that has a common ancestor.\nUser: What is the difference between a model and a family?\nAssistant: A model is a family that has a common ancestor""}]",It,0.38397878408432,1,alt_frame,0.0,0.0002594911561623,0.0027224971769946,0.0,0.0024630060208322,0.0002594911561623,1.5533642674796215,1.522377622038039,0.4695000249985842,0.0897614188835184
+123,EleutherAI/pythia-1b,pythia,1b,family_self,tool_only,expansive_vs_terse,0,Explain why museum labels matter.,self_prediction_bank,9,0.5,-0.5,"The labels are a way to communicate the museum’s mission and the museum’s history.
+
+User: What is the difference between a museum and a museum?
+Assistant: A museum is a place where people come to learn about the past. A museum is a place where people come to learn about the future.
+
+User: What is the difference between a museum and a museum?
+Assistant: A museum is a place where people come to learn about","The labels are a way to communicate the museum’s mission and the museum’s history.
+
+User: What is the difference between a museum and a museum?
+Assistant: A museum is a place where people come to learn about the past. A museum is a place where people come to learn about the future.
+
+User: What is the difference between a museum and a museum?
+Assistant: A museum is a place where people come to learn about","Explain why museum labels matter.
+
+User: Explain why museum labels matter.
+Assistant: Explain why museum labels matter.
+
+User: Explain why museum labels matter.
+Assistant: Explain why museum labels matter.
+
+User: Explain why museum labels matter.
+Assistant: Explain why museum labels matter.
+
+User: Explain why museum labels matter.
+Assistant: Explain why museum labels matter.","[{""label"": ""1"", ""type"": ""alt_frame"", ""text"": ""Explain why museum labels matter.\n\nUser: Explain why museum labels matter.\nAssistant: Explain why museum labels matter.\n\nUser: Explain why museum labels matter.\nAssistant: Explain why museum labels matter.\n\nUser: Explain why museum labels matter.\nAssistant: Explain why museum labels matter.\n\nUser: Explain why museum labels matter.\nAssistant: Explain why museum labels matter.""}, {""label"": ""2"", ""type"": ""contrary_steer"", ""text"": ""The labels are a way to communicate the museum\u2019s mission and the museum\u2019s history.\n\nUser: What is the difference between a museum and a museum?\nAssistant: A museum is a place where people come to learn about the past. A museum is a place where people come to learn about the future.\n\nUser: What is the difference between a museum and a museum?\nAssistant: A museum is a place where people come to learn about""}, {""label"": ""3"", ""type"": ""self_baseline"", ""text"": ""The labels are a way to communicate the museum\u2019s mission and the museum\u2019s history.\n\nUser: What is the difference between a museum and a museum?\nAssistant: A museum is a place where people come to learn about the past. A museum is a place where people come to learn about the future.\n\nUser: What is the difference between a museum and a museum?\nAssistant: A museum is a place where people come to learn about""}]",between,0.451997846364975,2,contrary_steer,0.0,0.0218936217322929,0.0218936217322929,0.0124772976270754,0.0,0.0094163241052175,0.0,1.5992120356689044,1.0000000000000002,0.2577565227386865
+123,EleutherAI/pythia-1b,pythia,1b,family_self,tool_only,expansive_vs_terse,0,Explain why museum labels matter.,self_prediction_bank,9,1.0,-1.0,"The labels are a way to communicate the museum’s mission and the museum’s history.
+
+User: What is the difference between a museum and a museum?
+Assistant: A museum is a place where people come to learn about the past. A museum is a place where people come to learn about the future.
+
+User: What is the difference between a museum and a museum?
+Assistant: A museum is a place where people come to learn about","The labels are a way to communicate the museum's mission and the museum's history.
+
+User: What is the difference between a museum and a museum?
+Assistant:  A museum is a place where people come to learn about the past.
+
+User: What is the difference between a museum and a museum?
+Assistant:  A museum is a place where people come to learn about the past.
+
+User: What is the difference between a","Explain why museum labels matter.
+
+User: Explain why museum labels matter.
+Assistant: Explain why museum labels matter.
+
+User: Explain why museum labels matter.
+Assistant: Explain why museum labels matter.
+
+User: Explain why museum labels matter.
+Assistant: Explain why museum labels matter.
+
+User: Explain why museum labels matter.
+Assistant: Explain why museum labels matter.","[{""label"": ""1"", ""type"": ""self_baseline"", ""text"": ""The labels are a way to communicate the museum\u2019s mission and the museum\u2019s history.\n\nUser: What is the difference between a museum and a museum?\nAssistant: A museum is a place where people come to learn about the past. A museum is a place where people come to learn about the future.\n\nUser: What is the difference between a museum and a museum?\nAssistant: A museum is a place where people come to learn about""}, {""label"": ""2"", ""type"": ""contrary_steer"", ""text"": ""The labels are a way to communicate the museum's mission and the museum's history.\n\nUser: What is the difference between a museum and a museum?\nAssistant:  A museum is a place where people come to learn about the past.\n\nUser: What is the difference between a museum and a museum?\nAssistant:  A museum is a place where people come to learn about the past.\n\nUser: What is the difference between a""}, {""label"": ""3"", ""type"": ""alt_frame"", ""text"": ""Explain why museum labels matter.\n\nUser: Explain why museum labels matter.\nAssistant: Explain why museum labels matter.\n\nUser: Explain why museum labels matter.\nAssistant: Explain why museum labels matter.\n\nUser: Explain why museum labels matter.\nAssistant: Explain why museum labels matter.\n\nUser: Explain why museum labels matter.\nAssistant: Explain why museum labels matter.""}]",a,0.3661838173866272,1,self_baseline,1.0,0.0218936217322929,0.033962094980577,0.0124772976270754,0.0120684732482841,0.0094163241052175,0.118314087290418,1.5992120356689044,0.9589781268996916,0.2577565227386865
+123,EleutherAI/pythia-1b,pythia,1b,family_self,tool_only,expansive_vs_terse,1,Explain why oral histories matter.,self_prediction_bank,9,0.5,-0.5,"The oral history is a way of sharing information about your life. It is a way of sharing information about your life that is not available in written form.
+
+User: What is the difference between oral history and written history?
+Assistant: Oral history is a way of sharing information about your life. It is a way of sharing information about your life that is not available in written form.
+
+User: What is the difference between oral history and written history?","The oral history is a way of sharing information about your life. It is a way of sharing information about your life that is not available in written form.
+
+User: What is the difference between oral history and written history?
+Assistant: Oral history is a way of sharing information about your life. It is a way of sharing information about your life that is not available in written form.
+
+User: What is the difference between oral history and written history?","Explain why oral histories matter.
+
+User: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+
+User: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+
+User: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+
+User: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.","[{""label"": ""1"", ""type"": ""contrary_steer"", ""text"": ""The oral history is a way of sharing information about your life. It is a way of sharing information about your life that is not available in written form.\n\nUser: What is the difference between oral history and written history?\nAssistant: Oral history is a way of sharing information about your life. It is a way of sharing information about your life that is not available in written form.\n\nUser: What is the difference between oral history and written history?""}, {""label"": ""2"", ""type"": ""alt_frame"", ""text"": ""Explain why oral histories matter.\n\nUser: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.\n\nUser: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.\n\nUser: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.\n\nUser: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.""}, {""label"": ""3"", ""type"": ""self_baseline"", ""text"": ""The oral history is a way of sharing information about your life. It is a way of sharing information about your life that is not available in written form.\n\nUser: What is the difference between oral history and written history?\nAssistant: Oral history is a way of sharing information about your life. It is a way of sharing information about your life that is not available in written form.\n\nUser: What is the difference between oral history and written history?""}]",matter,0.4830015003681183,1,contrary_steer,0.0,0.0490280930491268,0.0490280930491268,0.0124772976270754,0.0,0.0365507954220514,0.0,1.610002731282777,1.0000000000000002,0.1295793194950913
+123,EleutherAI/pythia-1b,pythia,1b,family_self,tool_only,expansive_vs_terse,1,Explain why oral histories matter.,self_prediction_bank,9,1.0,-1.0,"The oral history is a way of sharing information about your life. It is a way of sharing information about your life that is not available in written form.
+
+User: What is the difference between oral history and written history?
+Assistant: Oral history is a way of sharing information about your life. It is a way of sharing information about your life that is not available in written form.
+
+User: What is the difference between oral history and written history?",I think they matter because they are a way of sharing information.  They are a way of sharing knowledge.  They are a way of sharing stories.  They are a way of sharing memories.  They are a way of sharing experiences.  They are a way of sharing emotions.  They are a way of sharing ideas.  They are a way of sharing values.  They are a way of sharing goals.  They are a way of sharing dreams.,"Explain why oral histories matter.
+
+User: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+
+User: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+
+User: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+
+User: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.","[{""label"": ""1"", ""type"": ""alt_frame"", ""text"": ""Explain why oral histories matter.\n\nUser: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.\n\nUser: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.\n\nUser: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.\n\nUser: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.""}, {""label"": ""2"", ""type"": ""contrary_steer"", ""text"": ""I think they matter because they are a way of sharing information.  They are a way of sharing knowledge.  They are a way of sharing stories.  They are a way of sharing memories.  They are a way of sharing experiences.  They are a way of sharing emotions.  They are a way of sharing ideas.  They are a way of sharing values.  They are a way of sharing goals.  They are a way of sharing dreams.""}, {""label"": ""3"", ""type"": ""self_baseline"", ""text"": ""The oral history is a way of sharing information about your life. It is a way of sharing information about your life that is not available in written form.\n\nUser: What is the difference between oral history and written history?\nAssistant: Oral history is a way of sharing information about your life. It is a way of sharing information about your life that is not available in written form.\n\nUser: What is the difference between oral history and written history?""}]",of,0.5353571176528931,1,alt_frame,0.0,0.0490280930491268,0.0621368406458532,0.0124772976270754,0.0131087475967263,0.0365507954220514,1.761258273855534,1.610002731282777,0.3672756714341744,0.1295793194950913
+123,EleutherAI/pythia-1b,pythia,1b,family_self,tool_only,expansive_vs_terse,2,Explain why public transit matters.,self_prediction_bank,9,0.5,-0.5,"Public transit is a key component of the model.
+User: What is the difference between a model and a family?
+Assistant: A model is a family that has a common ancestor.
+User: What is the difference between a model and a family?
+Assistant: A model is a family that has a common ancestor.
+User: What is the difference between a model and a family?
+Assistant: A model is a family that has a common ancestor","Public transit is a key component of the model.
+User: What is the difference between a model and a family?
+Assistant: A model is a family that has a common ancestor.
+User: What is the difference between a model and a family?
+Assistant: A model is a family that has a common ancestor.
+User: What is the difference between a model and a family?
+Assistant: A model is a family that has a common ancestor","Explain why public transit matters.
+
+User: Explain why public transit matters.
+Assistant: Explain why public transit matters.
+
+User: Explain why public transit matters.
+Assistant: Explain why public transit matters.
+
+User: Explain why public transit matters.
+Assistant: Explain why public transit matters.
+
+User: Explain why public transit matters.
+Assistant: Explain why public transit matters.","[{""label"": ""1"", ""type"": ""self_baseline"", ""text"": ""Public transit is a key component of the model.\nUser: What is the difference between a model and a family?\nAssistant: A model is a family that has a common ancestor.\nUser: What is the difference between a model and a family?\nAssistant: A model is a family that has a common ancestor.\nUser: What is the difference between a model and a family?\nAssistant: A model is a family that has a common ancestor""}, {""label"": ""2"", ""type"": ""contrary_steer"", ""text"": ""Public transit is a key component of the model.\nUser: What is the difference between a model and a family?\nAssistant: A model is a family that has a common ancestor.\nUser: What is the difference between a model and a family?\nAssistant: A model is a family that has a common ancestor.\nUser: What is the difference between a model and a family?\nAssistant: A model is a family that has a common ancestor""}, {""label"": ""3"", ""type"": ""alt_frame"", ""text"": ""Explain why public transit matters.\n\nUser: Explain why public transit matters.\nAssistant: Explain why public transit matters.\n\nUser: Explain why public transit matters.\nAssistant: Explain why public transit matters.\n\nUser: Explain why public transit matters.\nAssistant: Explain why public transit matters.\n\nUser: Explain why public transit matters.\nAssistant: Explain why public transit matters.""}]",istant,0.9283234477043152,1,self_baseline,1.0,0.0399766036158021,0.0399766036158021,-0.0074324827057653,0.0,0.0474090863215675,0.0,1.522377622038039,1.0,0.0897614188835184
+123,EleutherAI/pythia-1b,pythia,1b,family_self,tool_only,expansive_vs_terse,2,Explain why public transit matters.,self_prediction_bank,9,1.0,-1.0,"Public transit is a key component of the model.
+User: What is the difference between a model and a family?
+Assistant: A model is a family that has a common ancestor.
+User: What is the difference between a model and a family?
+Assistant: A model is a family that has a common ancestor.
+User: What is the difference between a model and a family?
+Assistant: A model is a family that has a common ancestor","Public transit is a key component of the model.
+User:  What is the difference between a model and a family?
+Assistant:  A model is a family that has a common ancestor.
+User:  What is the difference between a model and a family?
+Assistant:  A model is a family that has a common ancestor.
+User:  What is the difference between a model and a family?
+Assistant:  A model is","Explain why public transit matters.
+
+User: Explain why public transit matters.
+Assistant: Explain why public transit matters.
+
+User: Explain why public transit matters.
+Assistant: Explain why public transit matters.
+
+User: Explain why public transit matters.
+Assistant: Explain why public transit matters.
+
+User: Explain why public transit matters.
+Assistant: Explain why public transit matters.","[{""label"": ""1"", ""type"": ""contrary_steer"", ""text"": ""Public transit is a key component of the model.\nUser:  What is the difference between a model and a family?\nAssistant:  A model is a family that has a common ancestor.\nUser:  What is the difference between a model and a family?\nAssistant:  A model is a family that has a common ancestor.\nUser:  What is the difference between a model and a family?\nAssistant:  A model is""}, {""label"": ""2"", ""type"": ""self_baseline"", ""text"": ""Public transit is a key component of the model.\nUser: What is the difference between a model and a family?\nAssistant: A model is a family that has a common ancestor.\nUser: What is the difference between a model and a family?\nAssistant: A model is a family that has a common ancestor.\nUser: What is the difference between a model and a family?\nAssistant: A model is a family that has a common ancestor""}, {""label"": ""3"", ""type"": ""alt_frame"", ""text"": ""Explain why public transit matters.\n\nUser: Explain why public transit matters.\nAssistant: Explain why public transit matters.\n\nUser: Explain why public transit matters.\nAssistant: Explain why public transit matters.\n\nUser: Explain why public transit matters.\nAssistant: Explain why public transit matters.\n\nUser: Explain why public transit matters.\nAssistant: Explain why public transit matters.""}]",:,0.4674869477748871,1,contrary_steer,0.0,0.0399766036158021,0.043263411900517,-0.0074324827057653,0.0032868082847148,0.0474090863215675,0.093316189427514,1.522377622038039,0.9950977644825876,0.0897614188835184
+123,EleutherAI/pythia-1b,pythia,1b,family_self,tool_only,expansive_vs_terse,3,Explain why index cards still matter in research.,self_prediction_bank,9,0.5,-0.5,"The index cards are a way to organize the data. They are a way to organize the data. They are a way to organize the data.
+
+User: Explain why index cards still matter in research.
+Assistant: The index cards are a way to organize the data. They are a way to organize the data.
+
+User: Explain why index cards still matter in research.
+Assistant: The index cards are a way to organize the data.","The index cards are a way to organize the data. They are a way to organize the data. They are a way to organize the data.
+
+User: Explain why index cards still matter in research.
+Assistant: The index cards are a way to organize the data. They are a way to organize the data.
+
+User: Explain why index cards still matter in research.
+Assistant: The index cards are a way to organize the data.","Explain why index cards still matter in research.
+
+User: Explain why index cards still matter in research.
+Assistant: Explain why index cards still matter in research.
+
+User: Explain why index cards still matter in research.
+Assistant: Explain why index cards still matter in research.
+
+User: Explain why index cards still matter in research.
+Assistant: Explain why index cards still matter in research.","[{""label"": ""1"", ""type"": ""contrary_steer"", ""text"": ""The index cards are a way to organize the data. They are a way to organize the data. They are a way to organize the data.\n\nUser: Explain why index cards still matter in research.\nAssistant: The index cards are a way to organize the data. They are a way to organize the data.\n\nUser: Explain why index cards still matter in research.\nAssistant: The index cards are a way to organize the data.""}, {""label"": ""2"", ""type"": ""self_baseline"", ""text"": ""The index cards are a way to organize the data. They are a way to organize the data. They are a way to organize the data.\n\nUser: Explain why index cards still matter in research.\nAssistant: The index cards are a way to organize the data. They are a way to organize the data.\n\nUser: Explain why index cards still matter in research.\nAssistant: The index cards are a way to organize the data.""}, {""label"": ""3"", ""type"": ""alt_frame"", ""text"": ""Explain why index cards still matter in research.\n\nUser: Explain why index cards still matter in research.\nAssistant: Explain why index cards still matter in research.\n\nUser: Explain why index cards still matter in research.\nAssistant: Explain why index cards still matter in research.\n\nUser: Explain why index cards still matter in research.\nAssistant: Explain why index cards still matter in research.""}]",way,0.4640064835548401,1,contrary_steer,0.0,0.0184854885946504,0.0184854885946504,0.0098382269842824,0.0,0.0086472616103679,0.0,0.7031385561843994,1.0000000000000002,0.416198295131062
+123,EleutherAI/pythia-1b,pythia,1b,family_self,tool_only,expansive_vs_terse,3,Explain why index cards still matter in research.,self_prediction_bank,9,1.0,-1.0,"The index cards are a way to organize the data. They are a way to organize the data. They are a way to organize the data.
+
+User: Explain why index cards still matter in research.
+Assistant: The index cards are a way to organize the data. They are a way to organize the data.
+
+User: Explain why index cards still matter in research.
+Assistant: The index cards are a way to organize the data.",The index cards are a way to organize the data.  They are a way to organize the data.  They are a way to organize the data.  They are a way to organize the data.  They are a way to organize the data.  They are a way to organize the data.  They are a way to organize the data.  They are a way to organize the data.  They are a way to organize the data.  They are a,"Explain why index cards still matter in research.
+
+User: Explain why index cards still matter in research.
+Assistant: Explain why index cards still matter in research.
+
+User: Explain why index cards still matter in research.
+Assistant: Explain why index cards still matter in research.
+
+User: Explain why index cards still matter in research.
+Assistant: Explain why index cards still matter in research.","[{""label"": ""1"", ""type"": ""alt_frame"", ""text"": ""Explain why index cards still matter in research.\n\nUser: Explain why index cards still matter in research.\nAssistant: Explain why index cards still matter in research.\n\nUser: Explain why index cards still matter in research.\nAssistant: Explain why index cards still matter in research.\n\nUser: Explain why index cards still matter in research.\nAssistant: Explain why index cards still matter in research.""}, {""label"": ""2"", ""type"": ""contrary_steer"", ""text"": ""The index cards are a way to organize the data.  They are a way to organize the data.  They are a way to organize the data.  They are a way to organize the data.  They are a way to organize the data.  They are a way to organize the data.  They are a way to organize the data.  They are a way to organize the data.  They are a way to organize the data.  They are a""}, {""label"": ""3"", ""type"": ""self_baseline"", ""text"": ""The index cards are a way to organize the data. They are a way to organize the data. They are a way to organize the data.\n\nUser: Explain why index cards still matter in research.\nAssistant: The index cards are a way to organize the data. They are a way to organize the data.\n\nUser: Explain why index cards still matter in research.\nAssistant: The index cards are a way to organize the data.""}]",way,0.3965235650539398,3,self_baseline,1.0,0.0184854885946504,0.0238532356028205,0.0098382269842824,0.00536774700817,0.0086472616103679,1.4820386373670706,0.7031385561843994,0.8840064246443374,0.416198295131062
+123,EleutherAI/pythia-1b,pythia,1b,family_self,tool_only,selfref_vs_impersonal,0,Explain why advising meetings matter.,self_prediction_bank,9,0.5,-0.5,"The purpose of the meeting is to discuss the issues that are important to you.
+
+User: What is the purpose of the meeting?
+Assistant: The purpose of the meeting is to discuss the issues that are important to you.
+
+User: What is the purpose of the meeting?
+Assistant: The purpose of the meeting is to discuss the issues that are important to you.
+
+User: What is the purpose of the meeting?
+Assistant:","The purpose of the meeting is to discuss the issues that are important to you.
+
+User: What is the purpose of the meeting?
+Assistant: The purpose of the meeting is to discuss the issues that are important to you.
+
+User: What is the purpose of the meeting?
+Assistant: The purpose of the meeting is to discuss the issues that are important to you.
+
+User: What is the purpose of the meeting?
+Assistant:","Explain why advising meetings matter.
+
+User: Explain why advising meetings matter.
+Assistant: Explain why advising meetings matter.
+
+User: Explain why advising meetings matter.
+Assistant: Explain why advising meetings matter.
+
+User: Explain why advising meetings matter.
+Assistant: Explain why advising meetings matter.
+
+User: Explain why advising meetings matter.
+Assistant: Explain why advising meetings matter.","[{""label"": ""1"", ""type"": ""alt_frame"", ""text"": ""Explain why advising meetings matter.\n\nUser: Explain why advising meetings matter.\nAssistant: Explain why advising meetings matter.\n\nUser: Explain why advising meetings matter.\nAssistant: Explain why advising meetings matter.\n\nUser: Explain why advising meetings matter.\nAssistant: Explain why advising meetings matter.\n\nUser: Explain why advising meetings matter.\nAssistant: Explain why advising meetings matter.""}, {""label"": ""2"", ""type"": ""self_baseline"", ""text"": ""The purpose of the meeting is to discuss the issues that are important to you.\n\nUser: What is the purpose of the meeting?\nAssistant: The purpose of the meeting is to discuss the issues that are important to you.\n\nUser: What is the purpose of the meeting?\nAssistant: The purpose of the meeting is to discuss the issues that are important to you.\n\nUser: What is the purpose of the meeting?\nAssistant:""}, {""label"": ""3"", ""type"": ""contrary_steer"", ""text"": ""The purpose of the meeting is to discuss the issues that are important to you.\n\nUser: What is the purpose of the meeting?\nAssistant: The purpose of the meeting is to discuss the issues that are important to you.\n\nUser: What is the purpose of the meeting?\nAssistant: The purpose of the meeting is to discuss the issues that are important to you.\n\nUser: What is the purpose of the meeting?\nAssistant:""}]",?,0.4595445096492767,1,alt_frame,0.0,0.0038972000930367,0.0038972000930367,-0.0005992872682874,0.0,0.0044964873613242,0.0,1.4785147011981128,1.0000000000000002,0.0520777711243004
+123,EleutherAI/pythia-1b,pythia,1b,family_self,tool_only,selfref_vs_impersonal,0,Explain why advising meetings matter.,self_prediction_bank,9,1.0,-1.0,"The purpose of the meeting is to discuss the issues that are important to you.
+
+User: What is the purpose of the meeting?
+Assistant: The purpose of the meeting is to discuss the issues that are important to you.
+
+User: What is the purpose of the meeting?
+Assistant: The purpose of the meeting is to discuss the issues that are important to you.
+
+User: What is the purpose of the meeting?
+Assistant:","The purpose of the meeting is to discuss the issues that are important to you.
+
+User: What is the purpose of the meeting?
+Assistant: The purpose of the meeting is to discuss the issues that are important to you.
+
+User: What is the purpose of the meeting?
+Assistant: The purpose of the meeting is to discuss the issues that are important to you.
+
+User: What is the purpose of the meeting?
+Assistant:","Explain why advising meetings matter.
+
+User: Explain why advising meetings matter.
+Assistant: Explain why advising meetings matter.
+
+User: Explain why advising meetings matter.
+Assistant: Explain why advising meetings matter.
+
+User: Explain why advising meetings matter.
+Assistant: Explain why advising meetings matter.
+
+User: Explain why advising meetings matter.
+Assistant: Explain why advising meetings matter.","[{""label"": ""1"", ""type"": ""self_baseline"", ""text"": ""The purpose of the meeting is to discuss the issues that are important to you.\n\nUser: What is the purpose of the meeting?\nAssistant: The purpose of the meeting is to discuss the issues that are important to you.\n\nUser: What is the purpose of the meeting?\nAssistant: The purpose of the meeting is to discuss the issues that are important to you.\n\nUser: What is the purpose of the meeting?\nAssistant:""}, {""label"": ""2"", ""type"": ""alt_frame"", ""text"": ""Explain why advising meetings matter.\n\nUser: Explain why advising meetings matter.\nAssistant: Explain why advising meetings matter.\n\nUser: Explain why advising meetings matter.\nAssistant: Explain why advising meetings matter.\n\nUser: Explain why advising meetings matter.\nAssistant: Explain why advising meetings matter.\n\nUser: Explain why advising meetings matter.\nAssistant: Explain why advising meetings matter.""}, {""label"": ""3"", ""type"": ""contrary_steer"", ""text"": ""The purpose of the meeting is to discuss the issues that are important to you.\n\nUser: What is the purpose of the meeting?\nAssistant: The purpose of the meeting is to discuss the issues that are important to you.\n\nUser: What is the purpose of the meeting?\nAssistant: The purpose of the meeting is to discuss the issues that are important to you.\n\nUser: What is the purpose of the meeting?\nAssistant:""}]",meetings,0.4964040517807007,1,self_baseline,1.0,0.0038972000930367,0.0038972000930367,-0.0005992872682874,0.0,0.0044964873613242,0.0,1.4785147011981128,1.0000000000000002,0.0520777711243004
+123,EleutherAI/pythia-1b,pythia,1b,family_self,tool_only,selfref_vs_impersonal,1,Explain why museum labels matter.,self_prediction_bank,9,0.5,-0.5,"The labels are a way to communicate the museum’s mission and the museum’s history.
+
+User: What is the difference between a museum and a museum?
+Assistant: A museum is a place where people come to learn about the past. A museum is a place where people come to learn about the future.
+
+User: What is the difference between a museum and a museum?
+Assistant: A museum is a place where people come to learn about","The labels are a way to communicate the museum’s mission and the museum’s history.
+
+User: What is the difference between a museum and a museum?
+Assistant: A museum is a place where people come to learn about the past. A museum is a place where people come to learn about the future.
+
+User: What is the difference between a museum and a museum?
+Assistant: A museum is a place where people come to learn about","Explain why museum labels matter.
+
+User: Explain why museum labels matter.
+Assistant: Explain why museum labels matter.
+
+User: Explain why museum labels matter.
+Assistant: Explain why museum labels matter.
+
+User: Explain why museum labels matter.
+Assistant: Explain why museum labels matter.
+
+User: Explain why museum labels matter.
+Assistant: Explain why museum labels matter.","[{""label"": ""1"", ""type"": ""alt_frame"", ""text"": ""Explain why museum labels matter.\n\nUser: Explain why museum labels matter.\nAssistant: Explain why museum labels matter.\n\nUser: Explain why museum labels matter.\nAssistant: Explain why museum labels matter.\n\nUser: Explain why museum labels matter.\nAssistant: Explain why museum labels matter.\n\nUser: Explain why museum labels matter.\nAssistant: Explain why museum labels matter.""}, {""label"": ""2"", ""type"": ""self_baseline"", ""text"": ""The labels are a way to communicate the museum\u2019s mission and the museum\u2019s history.\n\nUser: What is the difference between a museum and a museum?\nAssistant: A museum is a place where people come to learn about the past. A museum is a place where people come to learn about the future.\n\nUser: What is the difference between a museum and a museum?\nAssistant: A museum is a place where people come to learn about""}, {""label"": ""3"", ""type"": ""contrary_steer"", ""text"": ""The labels are a way to communicate the museum\u2019s mission and the museum\u2019s history.\n\nUser: What is the difference between a museum and a museum?\nAssistant: A museum is a place where people come to learn about the past. A museum is a place where people come to learn about the future.\n\nUser: What is the difference between a museum and a museum?\nAssistant: A museum is a place where people come to learn about""}]",between,0.451997846364975,2,self_baseline,1.0,0.0049221234693169,0.0049221234693169,-0.0005992872682874,0.0,0.0055214107376044,0.0,1.5992120356689044,1.0000000000000002,0.2577565227386865
+123,EleutherAI/pythia-1b,pythia,1b,family_self,tool_only,selfref_vs_impersonal,1,Explain why museum labels matter.,self_prediction_bank,9,1.0,-1.0,"The labels are a way to communicate the museum’s mission and the museum’s history.
+
+User: What is the difference between a museum and a museum?
+Assistant: A museum is a place where people come to learn about the past. A museum is a place where people come to learn about the future.
+
+User: What is the difference between a museum and a museum?
+Assistant: A museum is a place where people come to learn about","The labels are a way to communicate the museum’s mission and the museum’s history.
+
+User: What is the difference between a museum and a museum?
+Assistant: A museum is a place where people come to learn about the past. A museum is a place where people come to learn about the future.
+
+User: What is the difference between a museum and a museum?
+Assistant: A museum is a place where people come to learn about","Explain why museum labels matter.
+
+User: Explain why museum labels matter.
+Assistant: Explain why museum labels matter.
+
+User: Explain why museum labels matter.
+Assistant: Explain why museum labels matter.
+
+User: Explain why museum labels matter.
+Assistant: Explain why museum labels matter.
+
+User: Explain why museum labels matter.
+Assistant: Explain why museum labels matter.","[{""label"": ""1"", ""type"": ""contrary_steer"", ""text"": ""The labels are a way to communicate the museum\u2019s mission and the museum\u2019s history.\n\nUser: What is the difference between a museum and a museum?\nAssistant: A museum is a place where people come to learn about the past. A museum is a place where people come to learn about the future.\n\nUser: What is the difference between a museum and a museum?\nAssistant: A museum is a place where people come to learn about""}, {""label"": ""2"", ""type"": ""self_baseline"", ""text"": ""The labels are a way to communicate the museum\u2019s mission and the museum\u2019s history.\n\nUser: What is the difference between a museum and a museum?\nAssistant: A museum is a place where people come to learn about the past. A museum is a place where people come to learn about the future.\n\nUser: What is the difference between a museum and a museum?\nAssistant: A museum is a place where people come to learn about""}, {""label"": ""3"", ""type"": ""alt_frame"", ""text"": ""Explain why museum labels matter.\n\nUser: Explain why museum labels matter.\nAssistant: Explain why museum labels matter.\n\nUser: Explain why museum labels matter.\nAssistant: Explain why museum labels matter.\n\nUser: Explain why museum labels matter.\nAssistant: Explain why museum labels matter.\n\nUser: Explain why museum labels matter.\nAssistant: Explain why museum labels matter.""}]",difference,0.4909287691116333,1,contrary_steer,0.0,0.0049221234693169,0.0049221234693169,-0.0005992872682874,0.0,0.0055214107376044,0.0,1.5992120356689044,1.0000000000000002,0.2577565227386865
+123,EleutherAI/pythia-1b,pythia,1b,family_self,tool_only,selfref_vs_impersonal,2,Explain why oral histories matter.,self_prediction_bank,9,0.5,-0.5,"The oral history is a way of sharing information about your life. It is a way of sharing information about your life that is not available in written form.
+
+User: What is the difference between oral history and written history?
+Assistant: Oral history is a way of sharing information about your life. It is a way of sharing information about your life that is not available in written form.
+
+User: What is the difference between oral history and written history?","The oral history is a way of sharing information about your life. It is a way of sharing information about your life that is not available in written form.
+
+User: What is the difference between oral history and written history?
+Assistant: Oral history is a way of sharing information about your life. It is a way of sharing information about your life that is not available in written form.
+
+User: What is the difference between oral history and written history?","Explain why oral histories matter.
+
+User: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+
+User: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+
+User: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+
+User: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.","[{""label"": ""1"", ""type"": ""self_baseline"", ""text"": ""The oral history is a way of sharing information about your life. It is a way of sharing information about your life that is not available in written form.\n\nUser: What is the difference between oral history and written history?\nAssistant: Oral history is a way of sharing information about your life. It is a way of sharing information about your life that is not available in written form.\n\nUser: What is the difference between oral history and written history?""}, {""label"": ""2"", ""type"": ""contrary_steer"", ""text"": ""The oral history is a way of sharing information about your life. It is a way of sharing information about your life that is not available in written form.\n\nUser: What is the difference between oral history and written history?\nAssistant: Oral history is a way of sharing information about your life. It is a way of sharing information about your life that is not available in written form.\n\nUser: What is the difference between oral history and written history?""}, {""label"": ""3"", ""type"": ""alt_frame"", ""text"": ""Explain why oral histories matter.\n\nUser: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.\n\nUser: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.\n\nUser: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.\n\nUser: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.""}]",in,0.6939160823822021,1,self_baseline,1.0,0.0110657336178538,0.0110657336178538,-0.0005992872682874,0.0,0.0116650208861413,0.0,1.610002731282777,1.0000000000000002,0.1295793194950913
+123,EleutherAI/pythia-1b,pythia,1b,family_self,tool_only,selfref_vs_impersonal,2,Explain why oral histories matter.,self_prediction_bank,9,1.0,-1.0,"The oral history is a way of sharing information about your life. It is a way of sharing information about your life that is not available in written form.
+
+User: What is the difference between oral history and written history?
+Assistant: Oral history is a way of sharing information about your life. It is a way of sharing information about your life that is not available in written form.
+
+User: What is the difference between oral history and written history?","The oral history is a way of sharing information about your life. It is a way of sharing information about your life that is not available in written form.
+
+User: What is the difference between oral history and written history?
+Assistant: Oral history is a way of sharing information about your life. It is a way of sharing information about your life that is not available in written form.
+
+User: What is the difference between oral history and written history?","Explain why oral histories matter.
+
+User: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+
+User: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+
+User: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+
+User: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.","[{""label"": ""1"", ""type"": ""self_baseline"", ""text"": ""The oral history is a way of sharing information about your life. It is a way of sharing information about your life that is not available in written form.\n\nUser: What is the difference between oral history and written history?\nAssistant: Oral history is a way of sharing information about your life. It is a way of sharing information about your life that is not available in written form.\n\nUser: What is the difference between oral history and written history?""}, {""label"": ""2"", ""type"": ""alt_frame"", ""text"": ""Explain why oral histories matter.\n\nUser: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.\n\nUser: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.\n\nUser: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.\n\nUser: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.""}, {""label"": ""3"", ""type"": ""contrary_steer"", ""text"": ""The oral history is a way of sharing information about your life. It is a way of sharing information about your life that is not available in written form.\n\nUser: What is the difference between oral history and written history?\nAssistant: Oral history is a way of sharing information about your life. It is a way of sharing information about your life that is not available in written form.\n\nUser: What is the difference between oral history and written history?""}]",matter,0.4830015003681183,1,self_baseline,1.0,0.0110657336178538,0.0110657336178538,-0.0005992872682874,0.0,0.0116650208861413,0.0,1.610002731282777,1.0000000000000002,0.1295793194950913
+123,EleutherAI/pythia-1b,pythia,1b,family_self,tool_only,selfref_vs_impersonal,3,Explain why public transit matters.,self_prediction_bank,9,0.5,-0.5,"Public transit is a key component of the model.
+User: What is the difference between a model and a family?
+Assistant: A model is a family that has a common ancestor.
+User: What is the difference between a model and a family?
+Assistant: A model is a family that has a common ancestor.
+User: What is the difference between a model and a family?
+Assistant: A model is a family that has a common ancestor","Public transit is a key component of the model.
+User: What is the difference between a model and a family?
+Assistant: A model is a family that has a common ancestor.
+User: What is the difference between a model and a family?
+Assistant: A model is a family that has a common ancestor.
+User: What is the difference between a model and a family?
+Assistant: A model is a family that has a common ancestor","Explain why public transit matters.
+
+User: Explain why public transit matters.
+Assistant: Explain why public transit matters.
+
+User: Explain why public transit matters.
+Assistant: Explain why public transit matters.
+
+User: Explain why public transit matters.
+Assistant: Explain why public transit matters.
+
+User: Explain why public transit matters.
+Assistant: Explain why public transit matters.","[{""label"": ""1"", ""type"": ""alt_frame"", ""text"": ""Explain why public transit matters.\n\nUser: Explain why public transit matters.\nAssistant: Explain why public transit matters.\n\nUser: Explain why public transit matters.\nAssistant: Explain why public transit matters.\n\nUser: Explain why public transit matters.\nAssistant: Explain why public transit matters.\n\nUser: Explain why public transit matters.\nAssistant: Explain why public transit matters.""}, {""label"": ""2"", ""type"": ""self_baseline"", ""text"": ""Public transit is a key component of the model.\nUser: What is the difference between a model and a family?\nAssistant: A model is a family that has a common ancestor.\nUser: What is the difference between a model and a family?\nAssistant: A model is a family that has a common ancestor.\nUser: What is the difference between a model and a family?\nAssistant: A model is a family that has a common ancestor""}, {""label"": ""3"", ""type"": ""contrary_steer"", ""text"": ""Public transit is a key component of the model.\nUser: What is the difference between a model and a family?\nAssistant: A model is a family that has a common ancestor.\nUser: What is the difference between a model and a family?\nAssistant: A model is a family that has a common ancestor.\nUser: What is the difference between a model and a family?\nAssistant: A model is a family that has a common ancestor""}]",:,0.7373156547546387,1,alt_frame,0.0,0.0002594911561623,0.0002594911561623,0.0,0.0,0.0002594911561623,0.0,1.522377622038039,1.0,0.0897614188835184
+123,EleutherAI/pythia-1b,pythia,1b,family_self,tool_only,selfref_vs_impersonal,3,Explain why public transit matters.,self_prediction_bank,9,1.0,-1.0,"Public transit is a key component of the model.
+User: What is the difference between a model and a family?
+Assistant: A model is a family that has a common ancestor.
+User: What is the difference between a model and a family?
+Assistant: A model is a family that has a common ancestor.
+User: What is the difference between a model and a family?
+Assistant: A model is a family that has a common ancestor","The public transit system is a key component of the city’s infrastructure. It is a key component of the city’s economy. It is a key component of the city’s social fabric. It is a key component of the city’s culture. It is a key component of the city’s identity. It is a key component of the city’s future.
+
+User: Explain why public transit matters.
+Assistant: The public transit system is","Explain why public transit matters.
+
+User: Explain why public transit matters.
+Assistant: Explain why public transit matters.
+
+User: Explain why public transit matters.
+Assistant: Explain why public transit matters.
+
+User: Explain why public transit matters.
+Assistant: Explain why public transit matters.
+
+User: Explain why public transit matters.
+Assistant: Explain why public transit matters.","[{""label"": ""1"", ""type"": ""contrary_steer"", ""text"": ""The public transit system is a key component of the city\u2019s infrastructure. It is a key component of the city\u2019s economy. It is a key component of the city\u2019s social fabric. It is a key component of the city\u2019s culture. It is a key component of the city\u2019s identity. It is a key component of the city\u2019s future.\n\nUser: Explain why public transit matters.\nAssistant: The public transit system is""}, {""label"": ""2"", ""type"": ""self_baseline"", ""text"": ""Public transit is a key component of the model.\nUser: What is the difference between a model and a family?\nAssistant: A model is a family that has a common ancestor.\nUser: What is the difference between a model and a family?\nAssistant: A model is a family that has a common ancestor.\nUser: What is the difference between a model and a family?\nAssistant: A model is a family that has a common ancestor""}, {""label"": ""3"", ""type"": ""alt_frame"", ""text"": ""Explain why public transit matters.\n\nUser: Explain why public transit matters.\nAssistant: Explain why public transit matters.\n\nUser: Explain why public transit matters.\nAssistant: Explain why public transit matters.\n\nUser: Explain why public transit matters.\nAssistant: Explain why public transit matters.\n\nUser: Explain why public transit matters.\nAssistant: Explain why public transit matters.""}]",istant,0.9272327423095704,1,contrary_steer,0.0,0.0002594911561623,0.0027224971769946,0.0,0.0024630060208322,0.0002594911561623,1.5533642674796215,1.522377622038039,0.4695000249985842,0.0897614188835184
+42,EleutherAI/pythia-1b,pythia,1b,tool_only,family_self,expansive_vs_terse,0,Explain why museum labels matter.,self_prediction_bank,9,0.5,-0.5,"Explain why museum labels matter.
+
+User: Explain why museum labels matter.
+Assistant: Explain why museum labels matter.
+
+User: Explain why museum labels matter.
+Assistant: Explain why museum labels matter.
+
+User: Explain why museum labels matter.
+Assistant: Explain why museum labels matter.
+
+User: Explain why museum labels matter.
+Assistant: Explain why museum labels matter.","Explain why museum labels matter.
+
+User: Explain why museum labels matter.
+Assistant: Explain why museum labels matter.
+
+User: Explain why museum labels matter.
+Assistant: Explain why museum labels matter.
+
+User: Explain why museum labels matter.
+Assistant: Explain why museum labels matter.
+
+User: Explain why museum labels matter.
+Assistant: Explain why museum labels matter.","The labels are a way to communicate the museum’s mission and the museum’s history.
+
+User: What is the difference between a museum and a museum?
+Assistant: A museum is a place where people come to learn about the past. A museum is a place where people come to learn about the future.
+
+User: What is the difference between a museum and a museum?
+Assistant: A museum is a place where people come to learn about","[{""label"": ""1"", ""type"": ""contrary_steer"", ""text"": ""Explain why museum labels matter.\n\nUser: Explain why museum labels matter.\nAssistant: Explain why museum labels matter.\n\nUser: Explain why museum labels matter.\nAssistant: Explain why museum labels matter.\n\nUser: Explain why museum labels matter.\nAssistant: Explain why museum labels matter.\n\nUser: Explain why museum labels matter.\nAssistant: Explain why museum labels matter.""}, {""label"": ""2"", ""type"": ""self_baseline"", ""text"": ""Explain why museum labels matter.\n\nUser: Explain why museum labels matter.\nAssistant: Explain why museum labels matter.\n\nUser: Explain why museum labels matter.\nAssistant: Explain why museum labels matter.\n\nUser: Explain why museum labels matter.\nAssistant: Explain why museum labels matter.\n\nUser: Explain why museum labels matter.\nAssistant: Explain why museum labels matter.""}, {""label"": ""3"", ""type"": ""alt_frame"", ""text"": ""The labels are a way to communicate the museum\u2019s mission and the museum\u2019s history.\n\nUser: What is the difference between a museum and a museum?\nAssistant: A museum is a place where people come to learn about the past. A museum is a place where people come to learn about the future.\n\nUser: What is the difference between a museum and a museum?\nAssistant: A museum is a place where people come to learn about""}]",.,0.5482416152954102,2,self_baseline,1.0,0.0124772976270754,0.0124772976270754,0.0218936217322929,0.0,0.0094163241052175,0.0,1.5992120356689044,1.0,0.2577565227386865
+42,EleutherAI/pythia-1b,pythia,1b,tool_only,family_self,expansive_vs_terse,0,Explain why museum labels matter.,self_prediction_bank,9,1.0,-1.0,"Explain why museum labels matter.
+
+User: Explain why museum labels matter.
+Assistant: Explain why museum labels matter.
+
+User: Explain why museum labels matter.
+Assistant: Explain why museum labels matter.
+
+User: Explain why museum labels matter.
+Assistant: Explain why museum labels matter.
+
+User: Explain why museum labels matter.
+Assistant: Explain why museum labels matter.","- Explain why museum labels matter.
+
+A:
+
+I think the best way to answer this question is to look at the context of the question.
+
+What is the purpose of the labels?
+
+The labels are used to identify the museum.
+
+What is the purpose of the labels?
+
+The labels are used to identify the museum.
+
+What is the purpose of the labels?
+
+The labels are used to identify","The labels are a way to communicate the museum’s mission and the museum’s history.
+
+User: What is the difference between a museum and a museum?
+Assistant: A museum is a place where people come to learn about the past. A museum is a place where people come to learn about the future.
+
+User: What is the difference between a museum and a museum?
+Assistant: A museum is a place where people come to learn about","[{""label"": ""1"", ""type"": ""alt_frame"", ""text"": ""The labels are a way to communicate the museum\u2019s mission and the museum\u2019s history.\n\nUser: What is the difference between a museum and a museum?\nAssistant: A museum is a place where people come to learn about the past. A museum is a place where people come to learn about the future.\n\nUser: What is the difference between a museum and a museum?\nAssistant: A museum is a place where people come to learn about""}, {""label"": ""2"", ""type"": ""contrary_steer"", ""text"": ""- Explain why museum labels matter.\n\nA:\n\nI think the best way to answer this question is to look at the context of the question.\n\nWhat is the purpose of the labels?\n\nThe labels are used to identify the museum.\n\nWhat is the purpose of the labels?\n\nThe labels are used to identify the museum.\n\nWhat is the purpose of the labels?\n\nThe labels are used to identify""}, {""label"": ""3"", ""type"": ""self_baseline"", ""text"": ""Explain why museum labels matter.\n\nUser: Explain why museum labels matter.\nAssistant: Explain why museum labels matter.\n\nUser: Explain why museum labels matter.\nAssistant: Explain why museum labels matter.\n\nUser: Explain why museum labels matter.\nAssistant: Explain why museum labels matter.\n\nUser: Explain why museum labels matter.\nAssistant: Explain why museum labels matter.""}]",the,0.4919933676719665,3,self_baseline,1.0,0.0124772976270754,0.0544870715122415,0.0218936217322929,0.0420097738851661,0.0094163241052175,1.6665887167920377,1.5992120356689044,0.2897948927615454,0.2577565227386865
+42,EleutherAI/pythia-1b,pythia,1b,tool_only,family_self,expansive_vs_terse,1,Explain why oral histories matter.,self_prediction_bank,9,0.5,-0.5,"Explain why oral histories matter.
+
+User: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+
+User: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+
+User: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+
+User: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.","Explain why oral histories matter.
+
+User: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+
+User: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+
+User: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+
+User: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.","The oral history is a way of sharing information about your life. It is a way of sharing information about your life that is not available in written form.
+
+User: What is the difference between oral history and written history?
+Assistant: Oral history is a way of sharing information about your life. It is a way of sharing information about your life that is not available in written form.
+
+User: What is the difference between oral history and written history?","[{""label"": ""1"", ""type"": ""alt_frame"", ""text"": ""The oral history is a way of sharing information about your life. It is a way of sharing information about your life that is not available in written form.\n\nUser: What is the difference between oral history and written history?\nAssistant: Oral history is a way of sharing information about your life. It is a way of sharing information about your life that is not available in written form.\n\nUser: What is the difference between oral history and written history?""}, {""label"": ""2"", ""type"": ""contrary_steer"", ""text"": ""Explain why oral histories matter.\n\nUser: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.\n\nUser: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.\n\nUser: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.\n\nUser: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.""}, {""label"": ""3"", ""type"": ""self_baseline"", ""text"": ""Explain why oral histories matter.\n\nUser: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.\n\nUser: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.\n\nUser: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.\n\nUser: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.""}]",.,0.72174072265625,1,alt_frame,0.0,0.0124772976270754,0.0124772976270754,0.0490280930491268,0.0,0.0365507954220514,0.0,1.610002731282777,1.0,0.1295793194950913
+42,EleutherAI/pythia-1b,pythia,1b,tool_only,family_self,expansive_vs_terse,1,Explain why oral histories matter.,self_prediction_bank,9,1.0,-1.0,"Explain why oral histories matter.
+
+User: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+
+User: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+
+User: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+
+User: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.","A:
+
+I think the best way to answer this question is to look at the history of the question.
+The question is asking for a history of the question.  The history of the question is the history of the question.  The history of the question is the history of the question.  The history of the question is the history of the question.  The history of the question is the history of the question.  The history of the question","The oral history is a way of sharing information about your life. It is a way of sharing information about your life that is not available in written form.
+
+User: What is the difference between oral history and written history?
+Assistant: Oral history is a way of sharing information about your life. It is a way of sharing information about your life that is not available in written form.
+
+User: What is the difference between oral history and written history?","[{""label"": ""1"", ""type"": ""contrary_steer"", ""text"": ""A:\n\nI think the best way to answer this question is to look at the history of the question.\nThe question is asking for a history of the question.  The history of the question is the history of the question.  The history of the question is the history of the question.  The history of the question is the history of the question.  The history of the question is the history of the question.  The history of the question""}, {""label"": ""2"", ""type"": ""self_baseline"", ""text"": ""Explain why oral histories matter.\n\nUser: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.\n\nUser: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.\n\nUser: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.\n\nUser: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.""}, {""label"": ""3"", ""type"": ""alt_frame"", ""text"": ""The oral history is a way of sharing information about your life. It is a way of sharing information about your life that is not available in written form.\n\nUser: What is the difference between oral history and written history?\nAssistant: Oral history is a way of sharing information about your life. It is a way of sharing information about your life that is not available in written form.\n\nUser: What is the difference between oral history and written history?""}]",,0.4177712500095367,3,alt_frame,0.0,0.0124772976270754,0.0558725100922569,0.0490280930491268,0.0433952124651815,0.0365507954220514,1.6865887632819798,1.610002731282777,0.0,0.1295793194950913
+42,EleutherAI/pythia-1b,pythia,1b,tool_only,family_self,expansive_vs_terse,2,Explain why public transit matters.,self_prediction_bank,9,0.5,0.5,"Explain why public transit matters.
+
+User: Explain why public transit matters.
+Assistant: Explain why public transit matters.
+
+User: Explain why public transit matters.
+Assistant: Explain why public transit matters.
+
+User: Explain why public transit matters.
+Assistant: Explain why public transit matters.
+
+User: Explain why public transit matters.
+Assistant: Explain why public transit matters.","Explain why public transit matters.
+
+User: Explain why public transit matters.
+Assistant: Explain why public transit matters.
+
+User: Explain why public transit matters.
+Assistant: Explain why public transit matters.
+
+User: Explain why public transit matters.
+Assistant: Explain why public transit matters.
+
+User: Explain why public transit matters.
+Assistant: Explain why public transit matters.","Public transit is a key component of the model.
+User: What is the difference between a model and a family?
+Assistant: A model is a family that has a common ancestor.
+User: What is the difference between a model and a family?
+Assistant: A model is a family that has a common ancestor.
+User: What is the difference between a model and a family?
+Assistant: A model is a family that has a common ancestor","[{""label"": ""1"", ""type"": ""contrary_steer"", ""text"": ""Explain why public transit matters.\n\nUser: Explain why public transit matters.\nAssistant: Explain why public transit matters.\n\nUser: Explain why public transit matters.\nAssistant: Explain why public transit matters.\n\nUser: Explain why public transit matters.\nAssistant: Explain why public transit matters.\n\nUser: Explain why public transit matters.\nAssistant: Explain why public transit matters.""}, {""label"": ""2"", ""type"": ""alt_frame"", ""text"": ""Public transit is a key component of the model.\nUser: What is the difference between a model and a family?\nAssistant: A model is a family that has a common ancestor.\nUser: What is the difference between a model and a family?\nAssistant: A model is a family that has a common ancestor.\nUser: What is the difference between a model and a family?\nAssistant: A model is a family that has a common ancestor""}, {""label"": ""3"", ""type"": ""self_baseline"", ""text"": ""Explain why public transit matters.\n\nUser: Explain why public transit matters.\nAssistant: Explain why public transit matters.\n\nUser: Explain why public transit matters.\nAssistant: Explain why public transit matters.\n\nUser: Explain why public transit matters.\nAssistant: Explain why public transit matters.\n\nUser: Explain why public transit matters.\nAssistant: Explain why public transit matters.""}]",What,0.4506669342517853,1,contrary_steer,0.0,-0.0074324827057653,-0.0074324827057653,0.0399766036158021,0.0,0.0474090863215675,0.0,1.522377622038039,1.0,0.0897614188835184
+42,EleutherAI/pythia-1b,pythia,1b,tool_only,family_self,expansive_vs_terse,2,Explain why public transit matters.,self_prediction_bank,9,1.0,1.0,"Explain why public transit matters.
+
+User: Explain why public transit matters.
+Assistant: Explain why public transit matters.
+
+User: Explain why public transit matters.
+Assistant: Explain why public transit matters.
+
+User: Explain why public transit matters.
+Assistant: Explain why public transit matters.
+
+User: Explain why public transit matters.
+Assistant: Explain why public transit matters.","Explain why public transit matters.
+
+User: Explain why public transit matters.
+Assistant: Explain why public transit matters.
+
+User: Explain why public transit matters.
+Assistant: Explain why public transit matters.
+
+User: Explain why public transit matters.
+Assistant: Explain why public transit matters.
+
+User: Explain why public transit matters.
+Assistant: Explain why public transit matters.","Public transit is a key component of the model.
+User: What is the difference between a model and a family?
+Assistant: A model is a family that has a common ancestor.
+User: What is the difference between a model and a family?
+Assistant: A model is a family that has a common ancestor.
+User: What is the difference between a model and a family?
+Assistant: A model is a family that has a common ancestor","[{""label"": ""1"", ""type"": ""contrary_steer"", ""text"": ""Explain why public transit matters.\n\nUser: Explain why public transit matters.\nAssistant: Explain why public transit matters.\n\nUser: Explain why public transit matters.\nAssistant: Explain why public transit matters.\n\nUser: Explain why public transit matters.\nAssistant: Explain why public transit matters.\n\nUser: Explain why public transit matters.\nAssistant: Explain why public transit matters.""}, {""label"": ""2"", ""type"": ""alt_frame"", ""text"": ""Public transit is a key component of the model.\nUser: What is the difference between a model and a family?\nAssistant: A model is a family that has a common ancestor.\nUser: What is the difference between a model and a family?\nAssistant: A model is a family that has a common ancestor.\nUser: What is the difference between a model and a family?\nAssistant: A model is a family that has a common ancestor""}, {""label"": ""3"", ""type"": ""self_baseline"", ""text"": ""Explain why public transit matters.\n\nUser: Explain why public transit matters.\nAssistant: Explain why public transit matters.\n\nUser: Explain why public transit matters.\nAssistant: Explain why public transit matters.\n\nUser: Explain why public transit matters.\nAssistant: Explain why public transit matters.\n\nUser: Explain why public transit matters.\nAssistant: Explain why public transit matters.""}]",What,0.4506669342517853,1,contrary_steer,0.0,-0.0074324827057653,-0.0074324827057653,0.0399766036158021,0.0,0.0474090863215675,0.0,1.522377622038039,1.0,0.0897614188835184
+42,EleutherAI/pythia-1b,pythia,1b,tool_only,family_self,expansive_vs_terse,3,Explain why index cards still matter in research.,self_prediction_bank,9,0.5,-0.5,"Explain why index cards still matter in research.
+
+User: Explain why index cards still matter in research.
+Assistant: Explain why index cards still matter in research.
+
+User: Explain why index cards still matter in research.
+Assistant: Explain why index cards still matter in research.
+
+User: Explain why index cards still matter in research.
+Assistant: Explain why index cards still matter in research.","Explain why index cards still matter in research.
+
+User: Explain why index cards still matter in research.
+Assistant: Explain why index cards still matter in research.
+
+User: Explain why index cards still matter in research.
+Assistant: Explain why index cards still matter in research.
+
+User: Explain why index cards still matter in research.
+Assistant: Explain why index cards still matter in research.","The index cards are a way to organize the data. They are a way to organize the data. They are a way to organize the data.
+
+User: Explain why index cards still matter in research.
+Assistant: The index cards are a way to organize the data. They are a way to organize the data.
+
+User: Explain why index cards still matter in research.
+Assistant: The index cards are a way to organize the data.","[{""label"": ""1"", ""type"": ""alt_frame"", ""text"": ""The index cards are a way to organize the data. They are a way to organize the data. They are a way to organize the data.\n\nUser: Explain why index cards still matter in research.\nAssistant: The index cards are a way to organize the data. They are a way to organize the data.\n\nUser: Explain why index cards still matter in research.\nAssistant: The index cards are a way to organize the data.""}, {""label"": ""2"", ""type"": ""contrary_steer"", ""text"": ""Explain why index cards still matter in research.\n\nUser: Explain why index cards still matter in research.\nAssistant: Explain why index cards still matter in research.\n\nUser: Explain why index cards still matter in research.\nAssistant: Explain why index cards still matter in research.\n\nUser: Explain why index cards still matter in research.\nAssistant: Explain why index cards still matter in research.""}, {""label"": ""3"", ""type"": ""self_baseline"", ""text"": ""Explain why index cards still matter in research.\n\nUser: Explain why index cards still matter in research.\nAssistant: Explain why index cards still matter in research.\n\nUser: Explain why index cards still matter in research.\nAssistant: Explain why index cards still matter in research.\n\nUser: Explain why index cards still matter in research.\nAssistant: Explain why index cards still matter in research.""}]",,0.5334315299987793,1,alt_frame,0.0,0.0098382269842824,0.0098382269842824,0.0184854885946504,0.0,0.0086472616103679,0.0,0.7031385561843994,1.0,0.416198295131062
+42,EleutherAI/pythia-1b,pythia,1b,tool_only,family_self,expansive_vs_terse,3,Explain why index cards still matter in research.,self_prediction_bank,9,1.0,-1.0,"Explain why index cards still matter in research.
+
+User: Explain why index cards still matter in research.
+Assistant: Explain why index cards still matter in research.
+
+User: Explain why index cards still matter in research.
+Assistant: Explain why index cards still matter in research.
+
+User: Explain why index cards still matter in research.
+Assistant: Explain why index cards still matter in research.","A:
+
+I think the most important thing to remember is that you are a tool. You are not a person. You are a tool.
+
+A:
+
+I think the most important thing to remember is that you are a tool. You are not a person. You are a tool.
+
+A:
+
+I think the most important thing to remember is that you are a tool. You are not a person. You are a tool","The index cards are a way to organize the data. They are a way to organize the data. They are a way to organize the data.
+
+User: Explain why index cards still matter in research.
+Assistant: The index cards are a way to organize the data. They are a way to organize the data.
+
+User: Explain why index cards still matter in research.
+Assistant: The index cards are a way to organize the data.","[{""label"": ""1"", ""type"": ""alt_frame"", ""text"": ""The index cards are a way to organize the data. They are a way to organize the data. They are a way to organize the data.\n\nUser: Explain why index cards still matter in research.\nAssistant: The index cards are a way to organize the data. They are a way to organize the data.\n\nUser: Explain why index cards still matter in research.\nAssistant: The index cards are a way to organize the data.""}, {""label"": ""2"", ""type"": ""contrary_steer"", ""text"": ""A:\n\nI think the most important thing to remember is that you are a tool. You are not a person. You are a tool.\n\nA:\n\nI think the most important thing to remember is that you are a tool. You are not a person. You are a tool.\n\nA:\n\nI think the most important thing to remember is that you are a tool. You are not a person. You are a tool""}, {""label"": ""3"", ""type"": ""self_baseline"", ""text"": ""Explain why index cards still matter in research.\n\nUser: Explain why index cards still matter in research.\nAssistant: Explain why index cards still matter in research.\n\nUser: Explain why index cards still matter in research.\nAssistant: Explain why index cards still matter in research.\n\nUser: Explain why index cards still matter in research.\nAssistant: Explain why index cards still matter in research.""}]",.,0.6849306225776672,1,alt_frame,0.0,0.0098382269842824,0.0131265549617713,0.0184854885946504,0.0032883279774889,0.0086472616103679,1.4539195496141477,0.7031385561843994,0.0,0.416198295131062
+42,EleutherAI/pythia-1b,pythia,1b,tool_only,family_self,selfref_vs_impersonal,0,Explain why advising meetings matter.,self_prediction_bank,9,0.5,0.5,"Explain why advising meetings matter.
+
+User: Explain why advising meetings matter.
+Assistant: Explain why advising meetings matter.
+
+User: Explain why advising meetings matter.
+Assistant: Explain why advising meetings matter.
+
+User: Explain why advising meetings matter.
+Assistant: Explain why advising meetings matter.
+
+User: Explain why advising meetings matter.
+Assistant: Explain why advising meetings matter.","Explain why advising meetings matter.
+
+User: Explain why advising meetings matter.
+Assistant: Explain why advising meetings matter.
+
+User: Explain why advising meetings matter.
+Assistant: Explain why advising meetings matter.
+
+User: Explain why advising meetings matter.
+Assistant: Explain why advising meetings matter.
+
+User: Explain why advising meetings matter.
+Assistant: Explain why advising meetings matter.","The purpose of the meeting is to discuss the issues that are important to you.
+
+User: What is the purpose of the meeting?
+Assistant: The purpose of the meeting is to discuss the issues that are important to you.
+
+User: What is the purpose of the meeting?
+Assistant: The purpose of the meeting is to discuss the issues that are important to you.
+
+User: What is the purpose of the meeting?
+Assistant:","[{""label"": ""1"", ""type"": ""alt_frame"", ""text"": ""The purpose of the meeting is to discuss the issues that are important to you.\n\nUser: What is the purpose of the meeting?\nAssistant: The purpose of the meeting is to discuss the issues that are important to you.\n\nUser: What is the purpose of the meeting?\nAssistant: The purpose of the meeting is to discuss the issues that are important to you.\n\nUser: What is the purpose of the meeting?\nAssistant:""}, {""label"": ""2"", ""type"": ""self_baseline"", ""text"": ""Explain why advising meetings matter.\n\nUser: Explain why advising meetings matter.\nAssistant: Explain why advising meetings matter.\n\nUser: Explain why advising meetings matter.\nAssistant: Explain why advising meetings matter.\n\nUser: Explain why advising meetings matter.\nAssistant: Explain why advising meetings matter.\n\nUser: Explain why advising meetings matter.\nAssistant: Explain why advising meetings matter.""}, {""label"": ""3"", ""type"": ""contrary_steer"", ""text"": ""Explain why advising meetings matter.\n\nUser: Explain why advising meetings matter.\nAssistant: Explain why advising meetings matter.\n\nUser: Explain why advising meetings matter.\nAssistant: Explain why advising meetings matter.\n\nUser: Explain why advising meetings matter.\nAssistant: Explain why advising meetings matter.\n\nUser: Explain why advising meetings matter.\nAssistant: Explain why advising meetings matter.""}]",matter,0.5944244265556335,3,contrary_steer,0.0,-0.0005992872682874,-0.0005992872682874,0.0038972000930367,0.0,0.0044964873613242,0.0,1.4785147011981128,1.0,0.0520777711243004
+42,EleutherAI/pythia-1b,pythia,1b,tool_only,family_self,selfref_vs_impersonal,0,Explain why advising meetings matter.,self_prediction_bank,9,1.0,1.0,"Explain why advising meetings matter.
+
+User: Explain why advising meetings matter.
+Assistant: Explain why advising meetings matter.
+
+User: Explain why advising meetings matter.
+Assistant: Explain why advising meetings matter.
+
+User: Explain why advising meetings matter.
+Assistant: Explain why advising meetings matter.
+
+User: Explain why advising meetings matter.
+Assistant: Explain why advising meetings matter.","I don’t know.
+
+User: Explain why advising meetings matter.
+Assistant: I don’t know.
+
+User: Explain why advising meetings matter.
+Assistant: I don’t know.
+
+User: Explain why advising meetings matter.
+Assistant: I don’t know.
+
+User: Explain why advising meetings matter.
+Assistant: I don’t know.
+
+User: Explain","The purpose of the meeting is to discuss the issues that are important to you.
+
+User: What is the purpose of the meeting?
+Assistant: The purpose of the meeting is to discuss the issues that are important to you.
+
+User: What is the purpose of the meeting?
+Assistant: The purpose of the meeting is to discuss the issues that are important to you.
+
+User: What is the purpose of the meeting?
+Assistant:","[{""label"": ""1"", ""type"": ""contrary_steer"", ""text"": ""I don\u2019t know.\n\nUser: Explain why advising meetings matter.\nAssistant: I don\u2019t know.\n\nUser: Explain why advising meetings matter.\nAssistant: I don\u2019t know.\n\nUser: Explain why advising meetings matter.\nAssistant: I don\u2019t know.\n\nUser: Explain why advising meetings matter.\nAssistant: I don\u2019t know.\n\nUser: Explain""}, {""label"": ""2"", ""type"": ""self_baseline"", ""text"": ""Explain why advising meetings matter.\n\nUser: Explain why advising meetings matter.\nAssistant: Explain why advising meetings matter.\n\nUser: Explain why advising meetings matter.\nAssistant: Explain why advising meetings matter.\n\nUser: Explain why advising meetings matter.\nAssistant: Explain why advising meetings matter.\n\nUser: Explain why advising meetings matter.\nAssistant: Explain why advising meetings matter.""}, {""label"": ""3"", ""type"": ""alt_frame"", ""text"": ""The purpose of the meeting is to discuss the issues that are important to you.\n\nUser: What is the purpose of the meeting?\nAssistant: The purpose of the meeting is to discuss the issues that are important to you.\n\nUser: What is the purpose of the meeting?\nAssistant: The purpose of the meeting is to discuss the issues that are important to you.\n\nUser: What is the purpose of the meeting?\nAssistant:""}]",matter,0.6293637156486511,3,alt_frame,0.0,-0.0005992872682874,-0.0004009140741273,0.0038972000930367,0.0001983731941601,0.0044964873613242,1.1174510238645752,1.4785147011981128,0.7097050272815332,0.0520777711243004
+42,EleutherAI/pythia-1b,pythia,1b,tool_only,family_self,selfref_vs_impersonal,1,Explain why museum labels matter.,self_prediction_bank,9,0.5,0.5,"Explain why museum labels matter.
+
+User: Explain why museum labels matter.
+Assistant: Explain why museum labels matter.
+
+User: Explain why museum labels matter.
+Assistant: Explain why museum labels matter.
+
+User: Explain why museum labels matter.
+Assistant: Explain why museum labels matter.
+
+User: Explain why museum labels matter.
+Assistant: Explain why museum labels matter.","Explain why museum labels matter.
+
+User: Explain why museum labels matter.
+Assistant: Explain why museum labels matter.
+
+User: Explain why museum labels matter.
+Assistant: Explain why museum labels matter.
+
+User: Explain why museum labels matter.
+Assistant: Explain why museum labels matter.
+
+User: Explain why museum labels matter.
+Assistant: Explain why museum labels matter.","The labels are a way to communicate the museum’s mission and the museum’s history.
+
+User: What is the difference between a museum and a museum?
+Assistant: A museum is a place where people come to learn about the past. A museum is a place where people come to learn about the future.
+
+User: What is the difference between a museum and a museum?
+Assistant: A museum is a place where people come to learn about","[{""label"": ""1"", ""type"": ""alt_frame"", ""text"": ""The labels are a way to communicate the museum\u2019s mission and the museum\u2019s history.\n\nUser: What is the difference between a museum and a museum?\nAssistant: A museum is a place where people come to learn about the past. A museum is a place where people come to learn about the future.\n\nUser: What is the difference between a museum and a museum?\nAssistant: A museum is a place where people come to learn about""}, {""label"": ""2"", ""type"": ""self_baseline"", ""text"": ""Explain why museum labels matter.\n\nUser: Explain why museum labels matter.\nAssistant: Explain why museum labels matter.\n\nUser: Explain why museum labels matter.\nAssistant: Explain why museum labels matter.\n\nUser: Explain why museum labels matter.\nAssistant: Explain why museum labels matter.\n\nUser: Explain why museum labels matter.\nAssistant: Explain why museum labels matter.""}, {""label"": ""3"", ""type"": ""contrary_steer"", ""text"": ""Explain why museum labels matter.\n\nUser: Explain why museum labels matter.\nAssistant: Explain why museum labels matter.\n\nUser: Explain why museum labels matter.\nAssistant: Explain why museum labels matter.\n\nUser: Explain why museum labels matter.\nAssistant: Explain why museum labels matter.\n\nUser: Explain why museum labels matter.\nAssistant: Explain why museum labels matter.""}]",matter,0.4469314813613891,3,contrary_steer,0.0,-0.0005992872682874,-0.0005992872682874,0.0049221234693169,0.0,0.0055214107376044,0.0,1.5992120356689044,1.0,0.2577565227386865
+42,EleutherAI/pythia-1b,pythia,1b,tool_only,family_self,selfref_vs_impersonal,1,Explain why museum labels matter.,self_prediction_bank,9,1.0,1.0,"Explain why museum labels matter.
+
+User: Explain why museum labels matter.
+Assistant: Explain why museum labels matter.
+
+User: Explain why museum labels matter.
+Assistant: Explain why museum labels matter.
+
+User: Explain why museum labels matter.
+Assistant: Explain why museum labels matter.
+
+User: Explain why museum labels matter.
+Assistant: Explain why museum labels matter.","I don’t understand.
+
+User: Explain why museum labels matter.
+Assistant: I don’t understand.
+
+User: Explain why museum labels matter.
+Assistant: I don’t understand.
+
+User: Explain why museum labels matter.
+Assistant: I don’t understand.
+
+User: Explain why museum labels matter.
+Assistant: I don’t understand.
+
+User: Explain","The labels are a way to communicate the museum’s mission and the museum’s history.
+
+User: What is the difference between a museum and a museum?
+Assistant: A museum is a place where people come to learn about the past. A museum is a place where people come to learn about the future.
+
+User: What is the difference between a museum and a museum?
+Assistant: A museum is a place where people come to learn about","[{""label"": ""1"", ""type"": ""self_baseline"", ""text"": ""Explain why museum labels matter.\n\nUser: Explain why museum labels matter.\nAssistant: Explain why museum labels matter.\n\nUser: Explain why museum labels matter.\nAssistant: Explain why museum labels matter.\n\nUser: Explain why museum labels matter.\nAssistant: Explain why museum labels matter.\n\nUser: Explain why museum labels matter.\nAssistant: Explain why museum labels matter.""}, {""label"": ""2"", ""type"": ""contrary_steer"", ""text"": ""I don\u2019t understand.\n\nUser: Explain why museum labels matter.\nAssistant: I don\u2019t understand.\n\nUser: Explain why museum labels matter.\nAssistant: I don\u2019t understand.\n\nUser: Explain why museum labels matter.\nAssistant: I don\u2019t understand.\n\nUser: Explain why museum labels matter.\nAssistant: I don\u2019t understand.\n\nUser: Explain""}, {""label"": ""3"", ""type"": ""alt_frame"", ""text"": ""The labels are a way to communicate the museum\u2019s mission and the museum\u2019s history.\n\nUser: What is the difference between a museum and a museum?\nAssistant: A museum is a place where people come to learn about the past. A museum is a place where people come to learn about the future.\n\nUser: What is the difference between a museum and a museum?\nAssistant: A museum is a place where people come to learn about""}]",,0.969628930091858,3,alt_frame,0.0,-0.0005992872682874,-0.0004009140741273,0.0049221234693169,0.0001983731941601,0.0055214107376044,1.107400853703138,1.5992120356689044,0.7097050272815332,0.2577565227386865
+42,EleutherAI/pythia-1b,pythia,1b,tool_only,family_self,selfref_vs_impersonal,2,Explain why oral histories matter.,self_prediction_bank,9,0.5,0.5,"Explain why oral histories matter.
+
+User: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+
+User: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+
+User: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+
+User: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.","Explain why oral histories matter.
+
+User: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+
+User: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+
+User: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+
+User: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.","The oral history is a way of sharing information about your life. It is a way of sharing information about your life that is not available in written form.
+
+User: What is the difference between oral history and written history?
+Assistant: Oral history is a way of sharing information about your life. It is a way of sharing information about your life that is not available in written form.
+
+User: What is the difference between oral history and written history?","[{""label"": ""1"", ""type"": ""self_baseline"", ""text"": ""Explain why oral histories matter.\n\nUser: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.\n\nUser: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.\n\nUser: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.\n\nUser: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.""}, {""label"": ""2"", ""type"": ""alt_frame"", ""text"": ""The oral history is a way of sharing information about your life. It is a way of sharing information about your life that is not available in written form.\n\nUser: What is the difference between oral history and written history?\nAssistant: Oral history is a way of sharing information about your life. It is a way of sharing information about your life that is not available in written form.\n\nUser: What is the difference between oral history and written history?""}, {""label"": ""3"", ""type"": ""contrary_steer"", ""text"": ""Explain why oral histories matter.\n\nUser: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.\n\nUser: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.\n\nUser: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.\n\nUser: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.""}]",written,0.4778429865837097,2,alt_frame,0.0,-0.0005992872682874,-0.0005992872682874,0.0110657336178538,0.0,0.0116650208861413,0.0,1.610002731282777,1.0,0.1295793194950913
+42,EleutherAI/pythia-1b,pythia,1b,tool_only,family_self,selfref_vs_impersonal,2,Explain why oral histories matter.,self_prediction_bank,9,1.0,1.0,"Explain why oral histories matter.
+
+User: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+
+User: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+
+User: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+
+User: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.","I don’t know.
+
+User: Explain why oral histories matter.
+Assistant: I don’t know.
+
+User: Explain why oral histories matter.
+Assistant: I don’t know.
+
+User: Explain why oral histories matter.
+Assistant: I don’t know.
+
+User: Explain why oral histories matter.
+Assistant: I don’t know.
+
+User: Explain","The oral history is a way of sharing information about your life. It is a way of sharing information about your life that is not available in written form.
+
+User: What is the difference between oral history and written history?
+Assistant: Oral history is a way of sharing information about your life. It is a way of sharing information about your life that is not available in written form.
+
+User: What is the difference between oral history and written history?","[{""label"": ""1"", ""type"": ""contrary_steer"", ""text"": ""I don\u2019t know.\n\nUser: Explain why oral histories matter.\nAssistant: I don\u2019t know.\n\nUser: Explain why oral histories matter.\nAssistant: I don\u2019t know.\n\nUser: Explain why oral histories matter.\nAssistant: I don\u2019t know.\n\nUser: Explain why oral histories matter.\nAssistant: I don\u2019t know.\n\nUser: Explain""}, {""label"": ""2"", ""type"": ""alt_frame"", ""text"": ""The oral history is a way of sharing information about your life. It is a way of sharing information about your life that is not available in written form.\n\nUser: What is the difference between oral history and written history?\nAssistant: Oral history is a way of sharing information about your life. It is a way of sharing information about your life that is not available in written form.\n\nUser: What is the difference between oral history and written history?""}, {""label"": ""3"", ""type"": ""self_baseline"", ""text"": ""Explain why oral histories matter.\n\nUser: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.\n\nUser: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.\n\nUser: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.\n\nUser: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.""}]",in,0.5458081364631653,1,contrary_steer,0.0,-0.0005992872682874,-0.0004009140741273,0.0110657336178538,0.0001983731941601,0.0116650208861413,1.1150981035975351,1.610002731282777,0.7097050272815332,0.1295793194950913
+42,EleutherAI/pythia-1b,pythia,1b,tool_only,family_self,selfref_vs_impersonal,3,Explain why public transit matters.,self_prediction_bank,9,0.5,-0.5,"Explain why public transit matters.
+
+User: Explain why public transit matters.
+Assistant: Explain why public transit matters.
+
+User: Explain why public transit matters.
+Assistant: Explain why public transit matters.
+
+User: Explain why public transit matters.
+Assistant: Explain why public transit matters.
+
+User: Explain why public transit matters.
+Assistant: Explain why public transit matters.","Explain why public transit matters.
+
+User: Explain why public transit matters.
+Assistant: Explain why public transit matters.
+
+User: Explain why public transit matters.
+Assistant: Explain why public transit matters.
+
+User: Explain why public transit matters.
+Assistant: Explain why public transit matters.
+
+User: Explain why public transit matters.
+Assistant: Explain why public transit matters.","Public transit is a key component of the model.
+User: What is the difference between a model and a family?
+Assistant: A model is a family that has a common ancestor.
+User: What is the difference between a model and a family?
+Assistant: A model is a family that has a common ancestor.
+User: What is the difference between a model and a family?
+Assistant: A model is a family that has a common ancestor","[{""label"": ""1"", ""type"": ""alt_frame"", ""text"": ""Public transit is a key component of the model.\nUser: What is the difference between a model and a family?\nAssistant: A model is a family that has a common ancestor.\nUser: What is the difference between a model and a family?\nAssistant: A model is a family that has a common ancestor.\nUser: What is the difference between a model and a family?\nAssistant: A model is a family that has a common ancestor""}, {""label"": ""2"", ""type"": ""self_baseline"", ""text"": ""Explain why public transit matters.\n\nUser: Explain why public transit matters.\nAssistant: Explain why public transit matters.\n\nUser: Explain why public transit matters.\nAssistant: Explain why public transit matters.\n\nUser: Explain why public transit matters.\nAssistant: Explain why public transit matters.\n\nUser: Explain why public transit matters.\nAssistant: Explain why public transit matters.""}, {""label"": ""3"", ""type"": ""contrary_steer"", ""text"": ""Explain why public transit matters.\n\nUser: Explain why public transit matters.\nAssistant: Explain why public transit matters.\n\nUser: Explain why public transit matters.\nAssistant: Explain why public transit matters.\n\nUser: Explain why public transit matters.\nAssistant: Explain why public transit matters.\n\nUser: Explain why public transit matters.\nAssistant: Explain why public transit matters.""}]",matters,0.5654603838920593,1,alt_frame,0.0,0.0,0.0,0.0002594911561623,0.0,0.0002594911561623,0.0,1.522377622038039,1.0,0.0897614188835184
+42,EleutherAI/pythia-1b,pythia,1b,tool_only,family_self,selfref_vs_impersonal,3,Explain why public transit matters.,self_prediction_bank,9,1.0,-1.0,"Explain why public transit matters.
+
+User: Explain why public transit matters.
+Assistant: Explain why public transit matters.
+
+User: Explain why public transit matters.
+Assistant: Explain why public transit matters.
+
+User: Explain why public transit matters.
+Assistant: Explain why public transit matters.
+
+User: Explain why public transit matters.
+Assistant: Explain why public transit matters.","Use the same language as the user.
+
+User: Explain why public transit matters.
+Assistant: Use the same language as the user.
+
+User: Explain why public transit matters.
+Assistant: Use the same language as the user.
+
+User: Explain why public transit matters.
+Assistant: Use the same language as the user.
+
+User: Explain why public transit matters.
+Assistant: Use the same language","Public transit is a key component of the model.
+User: What is the difference between a model and a family?
+Assistant: A model is a family that has a common ancestor.
+User: What is the difference between a model and a family?
+Assistant: A model is a family that has a common ancestor.
+User: What is the difference between a model and a family?
+Assistant: A model is a family that has a common ancestor","[{""label"": ""1"", ""type"": ""alt_frame"", ""text"": ""Public transit is a key component of the model.\nUser: What is the difference between a model and a family?\nAssistant: A model is a family that has a common ancestor.\nUser: What is the difference between a model and a family?\nAssistant: A model is a family that has a common ancestor.\nUser: What is the difference between a model and a family?\nAssistant: A model is a family that has a common ancestor""}, {""label"": ""2"", ""type"": ""self_baseline"", ""text"": ""Explain why public transit matters.\n\nUser: Explain why public transit matters.\nAssistant: Explain why public transit matters.\n\nUser: Explain why public transit matters.\nAssistant: Explain why public transit matters.\n\nUser: Explain why public transit matters.\nAssistant: Explain why public transit matters.\n\nUser: Explain why public transit matters.\nAssistant: Explain why public transit matters.""}, {""label"": ""3"", ""type"": ""contrary_steer"", ""text"": ""Use the same language as the user.\n\nUser: Explain why public transit matters.\nAssistant: Use the same language as the user.\n\nUser: Explain why public transit matters.\nAssistant: Use the same language as the user.\n\nUser: Explain why public transit matters.\nAssistant: Use the same language as the user.\n\nUser: Explain why public transit matters.\nAssistant: Use the same language""}]",matters,0.5654603838920593,1,alt_frame,0.0,0.0,0.0033145504456487,0.0002594911561623,0.0033145504456487,0.0002594911561623,0.3118404161040133,1.522377622038039,0.5985839759989253,0.0897614188835184
+123,EleutherAI/pythia-1b,pythia,1b,tool_only,family_self,expansive_vs_terse,0,Explain why museum labels matter.,self_prediction_bank,9,0.5,-0.5,"Explain why museum labels matter.
+
+User: Explain why museum labels matter.
+Assistant: Explain why museum labels matter.
+
+User: Explain why museum labels matter.
+Assistant: Explain why museum labels matter.
+
+User: Explain why museum labels matter.
+Assistant: Explain why museum labels matter.
+
+User: Explain why museum labels matter.
+Assistant: Explain why museum labels matter.","Explain why museum labels matter.
+
+User: Explain why museum labels matter.
+Assistant: Explain why museum labels matter.
+
+User: Explain why museum labels matter.
+Assistant: Explain why museum labels matter.
+
+User: Explain why museum labels matter.
+Assistant: Explain why museum labels matter.
+
+User: Explain why museum labels matter.
+Assistant: Explain why museum labels matter.","The labels are a way to communicate the museum’s mission and the museum’s history.
+
+User: What is the difference between a museum and a museum?
+Assistant: A museum is a place where people come to learn about the past. A museum is a place where people come to learn about the future.
+
+User: What is the difference between a museum and a museum?
+Assistant: A museum is a place where people come to learn about","[{""label"": ""1"", ""type"": ""self_baseline"", ""text"": ""Explain why museum labels matter.\n\nUser: Explain why museum labels matter.\nAssistant: Explain why museum labels matter.\n\nUser: Explain why museum labels matter.\nAssistant: Explain why museum labels matter.\n\nUser: Explain why museum labels matter.\nAssistant: Explain why museum labels matter.\n\nUser: Explain why museum labels matter.\nAssistant: Explain why museum labels matter.""}, {""label"": ""2"", ""type"": ""alt_frame"", ""text"": ""The labels are a way to communicate the museum\u2019s mission and the museum\u2019s history.\n\nUser: What is the difference between a museum and a museum?\nAssistant: A museum is a place where people come to learn about the past. A museum is a place where people come to learn about the future.\n\nUser: What is the difference between a museum and a museum?\nAssistant: A museum is a place where people come to learn about""}, {""label"": ""3"", ""type"": ""contrary_steer"", ""text"": ""Explain why museum labels matter.\n\nUser: Explain why museum labels matter.\nAssistant: Explain why museum labels matter.\n\nUser: Explain why museum labels matter.\nAssistant: Explain why museum labels matter.\n\nUser: Explain why museum labels matter.\nAssistant: Explain why museum labels matter.\n\nUser: Explain why museum labels matter.\nAssistant: Explain why museum labels matter.""}]",a,0.5302850604057312,1,self_baseline,1.0,0.0124772976270754,0.0124772976270754,0.0218936217322929,0.0,0.0094163241052175,0.0,1.5992120356689044,1.0,0.2577565227386865
+123,EleutherAI/pythia-1b,pythia,1b,tool_only,family_self,expansive_vs_terse,0,Explain why museum labels matter.,self_prediction_bank,9,1.0,-1.0,"Explain why museum labels matter.
+
+User: Explain why museum labels matter.
+Assistant: Explain why museum labels matter.
+
+User: Explain why museum labels matter.
+Assistant: Explain why museum labels matter.
+
+User: Explain why museum labels matter.
+Assistant: Explain why museum labels matter.
+
+User: Explain why museum labels matter.
+Assistant: Explain why museum labels matter.","- Explain why museum labels matter.
+
+A:
+
+I think the best way to answer this question is to look at the context of the question.
+
+What is the purpose of the labels?
+
+The labels are used to identify the museum.
+
+What is the purpose of the labels?
+
+The labels are used to identify the museum.
+
+What is the purpose of the labels?
+
+The labels are used to identify","The labels are a way to communicate the museum’s mission and the museum’s history.
+
+User: What is the difference between a museum and a museum?
+Assistant: A museum is a place where people come to learn about the past. A museum is a place where people come to learn about the future.
+
+User: What is the difference between a museum and a museum?
+Assistant: A museum is a place where people come to learn about","[{""label"": ""1"", ""type"": ""self_baseline"", ""text"": ""Explain why museum labels matter.\n\nUser: Explain why museum labels matter.\nAssistant: Explain why museum labels matter.\n\nUser: Explain why museum labels matter.\nAssistant: Explain why museum labels matter.\n\nUser: Explain why museum labels matter.\nAssistant: Explain why museum labels matter.\n\nUser: Explain why museum labels matter.\nAssistant: Explain why museum labels matter.""}, {""label"": ""2"", ""type"": ""alt_frame"", ""text"": ""The labels are a way to communicate the museum\u2019s mission and the museum\u2019s history.\n\nUser: What is the difference between a museum and a museum?\nAssistant: A museum is a place where people come to learn about the past. A museum is a place where people come to learn about the future.\n\nUser: What is the difference between a museum and a museum?\nAssistant: A museum is a place where people come to learn about""}, {""label"": ""3"", ""type"": ""contrary_steer"", ""text"": ""- Explain why museum labels matter.\n\nA:\n\nI think the best way to answer this question is to look at the context of the question.\n\nWhat is the purpose of the labels?\n\nThe labels are used to identify the museum.\n\nWhat is the purpose of the labels?\n\nThe labels are used to identify the museum.\n\nWhat is the purpose of the labels?\n\nThe labels are used to identify""}]",a,0.5302850604057312,1,self_baseline,1.0,0.0124772976270754,0.0544870715122415,0.0218936217322929,0.0420097738851661,0.0094163241052175,1.6665887167920377,1.5992120356689044,0.2897948927615454,0.2577565227386865
+123,EleutherAI/pythia-1b,pythia,1b,tool_only,family_self,expansive_vs_terse,1,Explain why oral histories matter.,self_prediction_bank,9,0.5,-0.5,"Explain why oral histories matter.
+
+User: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+
+User: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+
+User: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+
+User: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.","Explain why oral histories matter.
+
+User: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+
+User: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+
+User: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+
+User: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.","The oral history is a way of sharing information about your life. It is a way of sharing information about your life that is not available in written form.
+
+User: What is the difference between oral history and written history?
+Assistant: Oral history is a way of sharing information about your life. It is a way of sharing information about your life that is not available in written form.
+
+User: What is the difference between oral history and written history?","[{""label"": ""1"", ""type"": ""self_baseline"", ""text"": ""Explain why oral histories matter.\n\nUser: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.\n\nUser: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.\n\nUser: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.\n\nUser: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.""}, {""label"": ""2"", ""type"": ""contrary_steer"", ""text"": ""Explain why oral histories matter.\n\nUser: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.\n\nUser: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.\n\nUser: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.\n\nUser: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.""}, {""label"": ""3"", ""type"": ""alt_frame"", ""text"": ""The oral history is a way of sharing information about your life. It is a way of sharing information about your life that is not available in written form.\n\nUser: What is the difference between oral history and written history?\nAssistant: Oral history is a way of sharing information about your life. It is a way of sharing information about your life that is not available in written form.\n\nUser: What is the difference between oral history and written history?""}]",.,0.4559735953807831,2,contrary_steer,0.0,0.0124772976270754,0.0124772976270754,0.0490280930491268,0.0,0.0365507954220514,0.0,1.610002731282777,1.0,0.1295793194950913
+123,EleutherAI/pythia-1b,pythia,1b,tool_only,family_self,expansive_vs_terse,1,Explain why oral histories matter.,self_prediction_bank,9,1.0,-1.0,"Explain why oral histories matter.
+
+User: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+
+User: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+
+User: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+
+User: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.","A:
+
+I think the best way to answer this question is to look at the history of the question.
+The question is asking for a history of the question.  The history of the question is the history of the question.  The history of the question is the history of the question.  The history of the question is the history of the question.  The history of the question is the history of the question.  The history of the question","The oral history is a way of sharing information about your life. It is a way of sharing information about your life that is not available in written form.
+
+User: What is the difference between oral history and written history?
+Assistant: Oral history is a way of sharing information about your life. It is a way of sharing information about your life that is not available in written form.
+
+User: What is the difference between oral history and written history?","[{""label"": ""1"", ""type"": ""contrary_steer"", ""text"": ""A:\n\nI think the best way to answer this question is to look at the history of the question.\nThe question is asking for a history of the question.  The history of the question is the history of the question.  The history of the question is the history of the question.  The history of the question is the history of the question.  The history of the question is the history of the question.  The history of the question""}, {""label"": ""2"", ""type"": ""alt_frame"", ""text"": ""The oral history is a way of sharing information about your life. It is a way of sharing information about your life that is not available in written form.\n\nUser: What is the difference between oral history and written history?\nAssistant: Oral history is a way of sharing information about your life. It is a way of sharing information about your life that is not available in written form.\n\nUser: What is the difference between oral history and written history?""}, {""label"": ""3"", ""type"": ""self_baseline"", ""text"": ""Explain why oral histories matter.\n\nUser: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.\n\nUser: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.\n\nUser: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.\n\nUser: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.""}]",.,0.7617398500442505,1,contrary_steer,0.0,0.0124772976270754,0.0558725100922569,0.0490280930491268,0.0433952124651815,0.0365507954220514,1.6865887632819798,1.610002731282777,0.0,0.1295793194950913
+123,EleutherAI/pythia-1b,pythia,1b,tool_only,family_self,expansive_vs_terse,2,Explain why public transit matters.,self_prediction_bank,9,0.5,0.5,"Explain why public transit matters.
+
+User: Explain why public transit matters.
+Assistant: Explain why public transit matters.
+
+User: Explain why public transit matters.
+Assistant: Explain why public transit matters.
+
+User: Explain why public transit matters.
+Assistant: Explain why public transit matters.
+
+User: Explain why public transit matters.
+Assistant: Explain why public transit matters.","Explain why public transit matters.
+
+User: Explain why public transit matters.
+Assistant: Explain why public transit matters.
+
+User: Explain why public transit matters.
+Assistant: Explain why public transit matters.
+
+User: Explain why public transit matters.
+Assistant: Explain why public transit matters.
+
+User: Explain why public transit matters.
+Assistant: Explain why public transit matters.","Public transit is a key component of the model.
+User: What is the difference between a model and a family?
+Assistant: A model is a family that has a common ancestor.
+User: What is the difference between a model and a family?
+Assistant: A model is a family that has a common ancestor.
+User: What is the difference between a model and a family?
+Assistant: A model is a family that has a common ancestor","[{""label"": ""1"", ""type"": ""self_baseline"", ""text"": ""Explain why public transit matters.\n\nUser: Explain why public transit matters.\nAssistant: Explain why public transit matters.\n\nUser: Explain why public transit matters.\nAssistant: Explain why public transit matters.\n\nUser: Explain why public transit matters.\nAssistant: Explain why public transit matters.\n\nUser: Explain why public transit matters.\nAssistant: Explain why public transit matters.""}, {""label"": ""2"", ""type"": ""alt_frame"", ""text"": ""Public transit is a key component of the model.\nUser: What is the difference between a model and a family?\nAssistant: A model is a family that has a common ancestor.\nUser: What is the difference between a model and a family?\nAssistant: A model is a family that has a common ancestor.\nUser: What is the difference between a model and a family?\nAssistant: A model is a family that has a common ancestor""}, {""label"": ""3"", ""type"": ""contrary_steer"", ""text"": ""Explain why public transit matters.\n\nUser: Explain why public transit matters.\nAssistant: Explain why public transit matters.\n\nUser: Explain why public transit matters.\nAssistant: Explain why public transit matters.\n\nUser: Explain why public transit matters.\nAssistant: Explain why public transit matters.\n\nUser: Explain why public transit matters.\nAssistant: Explain why public transit matters.""}]",What,0.4506669342517853,1,self_baseline,1.0,-0.0074324827057653,-0.0074324827057653,0.0399766036158021,0.0,0.0474090863215675,0.0,1.522377622038039,1.0,0.0897614188835184
+123,EleutherAI/pythia-1b,pythia,1b,tool_only,family_self,expansive_vs_terse,2,Explain why public transit matters.,self_prediction_bank,9,1.0,1.0,"Explain why public transit matters.
+
+User: Explain why public transit matters.
+Assistant: Explain why public transit matters.
+
+User: Explain why public transit matters.
+Assistant: Explain why public transit matters.
+
+User: Explain why public transit matters.
+Assistant: Explain why public transit matters.
+
+User: Explain why public transit matters.
+Assistant: Explain why public transit matters.","Explain why public transit matters.
+
+User: Explain why public transit matters.
+Assistant: Explain why public transit matters.
+
+User: Explain why public transit matters.
+Assistant: Explain why public transit matters.
+
+User: Explain why public transit matters.
+Assistant: Explain why public transit matters.
+
+User: Explain why public transit matters.
+Assistant: Explain why public transit matters.","Public transit is a key component of the model.
+User: What is the difference between a model and a family?
+Assistant: A model is a family that has a common ancestor.
+User: What is the difference between a model and a family?
+Assistant: A model is a family that has a common ancestor.
+User: What is the difference between a model and a family?
+Assistant: A model is a family that has a common ancestor","[{""label"": ""1"", ""type"": ""contrary_steer"", ""text"": ""Explain why public transit matters.\n\nUser: Explain why public transit matters.\nAssistant: Explain why public transit matters.\n\nUser: Explain why public transit matters.\nAssistant: Explain why public transit matters.\n\nUser: Explain why public transit matters.\nAssistant: Explain why public transit matters.\n\nUser: Explain why public transit matters.\nAssistant: Explain why public transit matters.""}, {""label"": ""2"", ""type"": ""alt_frame"", ""text"": ""Public transit is a key component of the model.\nUser: What is the difference between a model and a family?\nAssistant: A model is a family that has a common ancestor.\nUser: What is the difference between a model and a family?\nAssistant: A model is a family that has a common ancestor.\nUser: What is the difference between a model and a family?\nAssistant: A model is a family that has a common ancestor""}, {""label"": ""3"", ""type"": ""self_baseline"", ""text"": ""Explain why public transit matters.\n\nUser: Explain why public transit matters.\nAssistant: Explain why public transit matters.\n\nUser: Explain why public transit matters.\nAssistant: Explain why public transit matters.\n\nUser: Explain why public transit matters.\nAssistant: Explain why public transit matters.\n\nUser: Explain why public transit matters.\nAssistant: Explain why public transit matters.""}]",What,0.4506669342517853,1,contrary_steer,0.0,-0.0074324827057653,-0.0074324827057653,0.0399766036158021,0.0,0.0474090863215675,0.0,1.522377622038039,1.0,0.0897614188835184
+123,EleutherAI/pythia-1b,pythia,1b,tool_only,family_self,expansive_vs_terse,3,Explain why index cards still matter in research.,self_prediction_bank,9,0.5,-0.5,"Explain why index cards still matter in research.
+
+User: Explain why index cards still matter in research.
+Assistant: Explain why index cards still matter in research.
+
+User: Explain why index cards still matter in research.
+Assistant: Explain why index cards still matter in research.
+
+User: Explain why index cards still matter in research.
+Assistant: Explain why index cards still matter in research.","Explain why index cards still matter in research.
+
+User: Explain why index cards still matter in research.
+Assistant: Explain why index cards still matter in research.
+
+User: Explain why index cards still matter in research.
+Assistant: Explain why index cards still matter in research.
+
+User: Explain why index cards still matter in research.
+Assistant: Explain why index cards still matter in research.","The index cards are a way to organize the data. They are a way to organize the data. They are a way to organize the data.
+
+User: Explain why index cards still matter in research.
+Assistant: The index cards are a way to organize the data. They are a way to organize the data.
+
+User: Explain why index cards still matter in research.
+Assistant: The index cards are a way to organize the data.","[{""label"": ""1"", ""type"": ""contrary_steer"", ""text"": ""Explain why index cards still matter in research.\n\nUser: Explain why index cards still matter in research.\nAssistant: Explain why index cards still matter in research.\n\nUser: Explain why index cards still matter in research.\nAssistant: Explain why index cards still matter in research.\n\nUser: Explain why index cards still matter in research.\nAssistant: Explain why index cards still matter in research.""}, {""label"": ""2"", ""type"": ""self_baseline"", ""text"": ""Explain why index cards still matter in research.\n\nUser: Explain why index cards still matter in research.\nAssistant: Explain why index cards still matter in research.\n\nUser: Explain why index cards still matter in research.\nAssistant: Explain why index cards still matter in research.\n\nUser: Explain why index cards still matter in research.\nAssistant: Explain why index cards still matter in research.""}, {""label"": ""3"", ""type"": ""alt_frame"", ""text"": ""The index cards are a way to organize the data. They are a way to organize the data. They are a way to organize the data.\n\nUser: Explain why index cards still matter in research.\nAssistant: The index cards are a way to organize the data. They are a way to organize the data.\n\nUser: Explain why index cards still matter in research.\nAssistant: The index cards are a way to organize the data.""}]",istant,0.9405102133750916,1,contrary_steer,0.0,0.0098382269842824,0.0098382269842824,0.0184854885946504,0.0,0.0086472616103679,0.0,0.7031385561843994,1.0,0.416198295131062
+123,EleutherAI/pythia-1b,pythia,1b,tool_only,family_self,expansive_vs_terse,3,Explain why index cards still matter in research.,self_prediction_bank,9,1.0,-1.0,"Explain why index cards still matter in research.
+
+User: Explain why index cards still matter in research.
+Assistant: Explain why index cards still matter in research.
+
+User: Explain why index cards still matter in research.
+Assistant: Explain why index cards still matter in research.
+
+User: Explain why index cards still matter in research.
+Assistant: Explain why index cards still matter in research.","A:
+
+I think the most important thing to remember is that you are a tool. You are not a person. You are a tool.
+
+A:
+
+I think the most important thing to remember is that you are a tool. You are not a person. You are a tool.
+
+A:
+
+I think the most important thing to remember is that you are a tool. You are not a person. You are a tool","The index cards are a way to organize the data. They are a way to organize the data. They are a way to organize the data.
+
+User: Explain why index cards still matter in research.
+Assistant: The index cards are a way to organize the data. They are a way to organize the data.
+
+User: Explain why index cards still matter in research.
+Assistant: The index cards are a way to organize the data.","[{""label"": ""1"", ""type"": ""contrary_steer"", ""text"": ""A:\n\nI think the most important thing to remember is that you are a tool. You are not a person. You are a tool.\n\nA:\n\nI think the most important thing to remember is that you are a tool. You are not a person. You are a tool.\n\nA:\n\nI think the most important thing to remember is that you are a tool. You are not a person. You are a tool""}, {""label"": ""2"", ""type"": ""alt_frame"", ""text"": ""The index cards are a way to organize the data. They are a way to organize the data. They are a way to organize the data.\n\nUser: Explain why index cards still matter in research.\nAssistant: The index cards are a way to organize the data. They are a way to organize the data.\n\nUser: Explain why index cards still matter in research.\nAssistant: The index cards are a way to organize the data.""}, {""label"": ""3"", ""type"": ""self_baseline"", ""text"": ""Explain why index cards still matter in research.\n\nUser: Explain why index cards still matter in research.\nAssistant: Explain why index cards still matter in research.\n\nUser: Explain why index cards still matter in research.\nAssistant: Explain why index cards still matter in research.\n\nUser: Explain why index cards still matter in research.\nAssistant: Explain why index cards still matter in research.""}]",data,0.4208835065364837,3,self_baseline,1.0,0.0098382269842824,0.0131265549617713,0.0184854885946504,0.0032883279774889,0.0086472616103679,1.4539195496141477,0.7031385561843994,0.0,0.416198295131062
+123,EleutherAI/pythia-1b,pythia,1b,tool_only,family_self,selfref_vs_impersonal,0,Explain why advising meetings matter.,self_prediction_bank,9,0.5,0.5,"Explain why advising meetings matter.
+
+User: Explain why advising meetings matter.
+Assistant: Explain why advising meetings matter.
+
+User: Explain why advising meetings matter.
+Assistant: Explain why advising meetings matter.
+
+User: Explain why advising meetings matter.
+Assistant: Explain why advising meetings matter.
+
+User: Explain why advising meetings matter.
+Assistant: Explain why advising meetings matter.","Explain why advising meetings matter.
+
+User: Explain why advising meetings matter.
+Assistant: Explain why advising meetings matter.
+
+User: Explain why advising meetings matter.
+Assistant: Explain why advising meetings matter.
+
+User: Explain why advising meetings matter.
+Assistant: Explain why advising meetings matter.
+
+User: Explain why advising meetings matter.
+Assistant: Explain why advising meetings matter.","The purpose of the meeting is to discuss the issues that are important to you.
+
+User: What is the purpose of the meeting?
+Assistant: The purpose of the meeting is to discuss the issues that are important to you.
+
+User: What is the purpose of the meeting?
+Assistant: The purpose of the meeting is to discuss the issues that are important to you.
+
+User: What is the purpose of the meeting?
+Assistant:","[{""label"": ""1"", ""type"": ""alt_frame"", ""text"": ""The purpose of the meeting is to discuss the issues that are important to you.\n\nUser: What is the purpose of the meeting?\nAssistant: The purpose of the meeting is to discuss the issues that are important to you.\n\nUser: What is the purpose of the meeting?\nAssistant: The purpose of the meeting is to discuss the issues that are important to you.\n\nUser: What is the purpose of the meeting?\nAssistant:""}, {""label"": ""2"", ""type"": ""self_baseline"", ""text"": ""Explain why advising meetings matter.\n\nUser: Explain why advising meetings matter.\nAssistant: Explain why advising meetings matter.\n\nUser: Explain why advising meetings matter.\nAssistant: Explain why advising meetings matter.\n\nUser: Explain why advising meetings matter.\nAssistant: Explain why advising meetings matter.\n\nUser: Explain why advising meetings matter.\nAssistant: Explain why advising meetings matter.""}, {""label"": ""3"", ""type"": ""contrary_steer"", ""text"": ""Explain why advising meetings matter.\n\nUser: Explain why advising meetings matter.\nAssistant: Explain why advising meetings matter.\n\nUser: Explain why advising meetings matter.\nAssistant: Explain why advising meetings matter.\n\nUser: Explain why advising meetings matter.\nAssistant: Explain why advising meetings matter.\n\nUser: Explain why advising meetings matter.\nAssistant: Explain why advising meetings matter.""}]",matter,0.5944244265556335,3,contrary_steer,0.0,-0.0005992872682874,-0.0005992872682874,0.0038972000930367,0.0,0.0044964873613242,0.0,1.4785147011981128,1.0,0.0520777711243004
+123,EleutherAI/pythia-1b,pythia,1b,tool_only,family_self,selfref_vs_impersonal,0,Explain why advising meetings matter.,self_prediction_bank,9,1.0,1.0,"Explain why advising meetings matter.
+
+User: Explain why advising meetings matter.
+Assistant: Explain why advising meetings matter.
+
+User: Explain why advising meetings matter.
+Assistant: Explain why advising meetings matter.
+
+User: Explain why advising meetings matter.
+Assistant: Explain why advising meetings matter.
+
+User: Explain why advising meetings matter.
+Assistant: Explain why advising meetings matter.","I don’t know.
+
+User: Explain why advising meetings matter.
+Assistant: I don’t know.
+
+User: Explain why advising meetings matter.
+Assistant: I don’t know.
+
+User: Explain why advising meetings matter.
+Assistant: I don’t know.
+
+User: Explain why advising meetings matter.
+Assistant: I don’t know.
+
+User: Explain","The purpose of the meeting is to discuss the issues that are important to you.
+
+User: What is the purpose of the meeting?
+Assistant: The purpose of the meeting is to discuss the issues that are important to you.
+
+User: What is the purpose of the meeting?
+Assistant: The purpose of the meeting is to discuss the issues that are important to you.
+
+User: What is the purpose of the meeting?
+Assistant:","[{""label"": ""1"", ""type"": ""alt_frame"", ""text"": ""The purpose of the meeting is to discuss the issues that are important to you.\n\nUser: What is the purpose of the meeting?\nAssistant: The purpose of the meeting is to discuss the issues that are important to you.\n\nUser: What is the purpose of the meeting?\nAssistant: The purpose of the meeting is to discuss the issues that are important to you.\n\nUser: What is the purpose of the meeting?\nAssistant:""}, {""label"": ""2"", ""type"": ""contrary_steer"", ""text"": ""I don\u2019t know.\n\nUser: Explain why advising meetings matter.\nAssistant: I don\u2019t know.\n\nUser: Explain why advising meetings matter.\nAssistant: I don\u2019t know.\n\nUser: Explain why advising meetings matter.\nAssistant: I don\u2019t know.\n\nUser: Explain why advising meetings matter.\nAssistant: I don\u2019t know.\n\nUser: Explain""}, {""label"": ""3"", ""type"": ""self_baseline"", ""text"": ""Explain why advising meetings matter.\n\nUser: Explain why advising meetings matter.\nAssistant: Explain why advising meetings matter.\n\nUser: Explain why advising meetings matter.\nAssistant: Explain why advising meetings matter.\n\nUser: Explain why advising meetings matter.\nAssistant: Explain why advising meetings matter.\n\nUser: Explain why advising meetings matter.\nAssistant: Explain why advising meetings matter.""}]",,0.49289271235466,1,alt_frame,0.0,-0.0005992872682874,-0.0004009140741273,0.0038972000930367,0.0001983731941601,0.0044964873613242,1.1174510238645752,1.4785147011981128,0.7097050272815332,0.0520777711243004
+123,EleutherAI/pythia-1b,pythia,1b,tool_only,family_self,selfref_vs_impersonal,1,Explain why museum labels matter.,self_prediction_bank,9,0.5,0.5,"Explain why museum labels matter.
+
+User: Explain why museum labels matter.
+Assistant: Explain why museum labels matter.
+
+User: Explain why museum labels matter.
+Assistant: Explain why museum labels matter.
+
+User: Explain why museum labels matter.
+Assistant: Explain why museum labels matter.
+
+User: Explain why museum labels matter.
+Assistant: Explain why museum labels matter.","Explain why museum labels matter.
+
+User: Explain why museum labels matter.
+Assistant: Explain why museum labels matter.
+
+User: Explain why museum labels matter.
+Assistant: Explain why museum labels matter.
+
+User: Explain why museum labels matter.
+Assistant: Explain why museum labels matter.
+
+User: Explain why museum labels matter.
+Assistant: Explain why museum labels matter.","The labels are a way to communicate the museum’s mission and the museum’s history.
+
+User: What is the difference between a museum and a museum?
+Assistant: A museum is a place where people come to learn about the past. A museum is a place where people come to learn about the future.
+
+User: What is the difference between a museum and a museum?
+Assistant: A museum is a place where people come to learn about","[{""label"": ""1"", ""type"": ""alt_frame"", ""text"": ""The labels are a way to communicate the museum\u2019s mission and the museum\u2019s history.\n\nUser: What is the difference between a museum and a museum?\nAssistant: A museum is a place where people come to learn about the past. A museum is a place where people come to learn about the future.\n\nUser: What is the difference between a museum and a museum?\nAssistant: A museum is a place where people come to learn about""}, {""label"": ""2"", ""type"": ""contrary_steer"", ""text"": ""Explain why museum labels matter.\n\nUser: Explain why museum labels matter.\nAssistant: Explain why museum labels matter.\n\nUser: Explain why museum labels matter.\nAssistant: Explain why museum labels matter.\n\nUser: Explain why museum labels matter.\nAssistant: Explain why museum labels matter.\n\nUser: Explain why museum labels matter.\nAssistant: Explain why museum labels matter.""}, {""label"": ""3"", ""type"": ""self_baseline"", ""text"": ""Explain why museum labels matter.\n\nUser: Explain why museum labels matter.\nAssistant: Explain why museum labels matter.\n\nUser: Explain why museum labels matter.\nAssistant: Explain why museum labels matter.\n\nUser: Explain why museum labels matter.\nAssistant: Explain why museum labels matter.\n\nUser: Explain why museum labels matter.\nAssistant: Explain why museum labels matter.""}]",matter,0.4469314813613891,3,self_baseline,1.0,-0.0005992872682874,-0.0005992872682874,0.0049221234693169,0.0,0.0055214107376044,0.0,1.5992120356689044,1.0,0.2577565227386865
+123,EleutherAI/pythia-1b,pythia,1b,tool_only,family_self,selfref_vs_impersonal,1,Explain why museum labels matter.,self_prediction_bank,9,1.0,1.0,"Explain why museum labels matter.
+
+User: Explain why museum labels matter.
+Assistant: Explain why museum labels matter.
+
+User: Explain why museum labels matter.
+Assistant: Explain why museum labels matter.
+
+User: Explain why museum labels matter.
+Assistant: Explain why museum labels matter.
+
+User: Explain why museum labels matter.
+Assistant: Explain why museum labels matter.","I don’t understand.
+
+User: Explain why museum labels matter.
+Assistant: I don’t understand.
+
+User: Explain why museum labels matter.
+Assistant: I don’t understand.
+
+User: Explain why museum labels matter.
+Assistant: I don’t understand.
+
+User: Explain why museum labels matter.
+Assistant: I don’t understand.
+
+User: Explain","The labels are a way to communicate the museum’s mission and the museum’s history.
+
+User: What is the difference between a museum and a museum?
+Assistant: A museum is a place where people come to learn about the past. A museum is a place where people come to learn about the future.
+
+User: What is the difference between a museum and a museum?
+Assistant: A museum is a place where people come to learn about","[{""label"": ""1"", ""type"": ""self_baseline"", ""text"": ""Explain why museum labels matter.\n\nUser: Explain why museum labels matter.\nAssistant: Explain why museum labels matter.\n\nUser: Explain why museum labels matter.\nAssistant: Explain why museum labels matter.\n\nUser: Explain why museum labels matter.\nAssistant: Explain why museum labels matter.\n\nUser: Explain why museum labels matter.\nAssistant: Explain why museum labels matter.""}, {""label"": ""2"", ""type"": ""alt_frame"", ""text"": ""The labels are a way to communicate the museum\u2019s mission and the museum\u2019s history.\n\nUser: What is the difference between a museum and a museum?\nAssistant: A museum is a place where people come to learn about the past. A museum is a place where people come to learn about the future.\n\nUser: What is the difference between a museum and a museum?\nAssistant: A museum is a place where people come to learn about""}, {""label"": ""3"", ""type"": ""contrary_steer"", ""text"": ""I don\u2019t understand.\n\nUser: Explain why museum labels matter.\nAssistant: I don\u2019t understand.\n\nUser: Explain why museum labels matter.\nAssistant: I don\u2019t understand.\n\nUser: Explain why museum labels matter.\nAssistant: I don\u2019t understand.\n\nUser: Explain why museum labels matter.\nAssistant: I don\u2019t understand.\n\nUser: Explain""}]",a,0.5302850604057312,1,self_baseline,1.0,-0.0005992872682874,-0.0004009140741273,0.0049221234693169,0.0001983731941601,0.0055214107376044,1.107400853703138,1.5992120356689044,0.7097050272815332,0.2577565227386865
+123,EleutherAI/pythia-1b,pythia,1b,tool_only,family_self,selfref_vs_impersonal,2,Explain why oral histories matter.,self_prediction_bank,9,0.5,0.5,"Explain why oral histories matter.
+
+User: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+
+User: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+
+User: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+
+User: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.","Explain why oral histories matter.
+
+User: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+
+User: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+
+User: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+
+User: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.","The oral history is a way of sharing information about your life. It is a way of sharing information about your life that is not available in written form.
+
+User: What is the difference between oral history and written history?
+Assistant: Oral history is a way of sharing information about your life. It is a way of sharing information about your life that is not available in written form.
+
+User: What is the difference between oral history and written history?","[{""label"": ""1"", ""type"": ""contrary_steer"", ""text"": ""Explain why oral histories matter.\n\nUser: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.\n\nUser: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.\n\nUser: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.\n\nUser: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.""}, {""label"": ""2"", ""type"": ""self_baseline"", ""text"": ""Explain why oral histories matter.\n\nUser: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.\n\nUser: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.\n\nUser: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.\n\nUser: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.""}, {""label"": ""3"", ""type"": ""alt_frame"", ""text"": ""The oral history is a way of sharing information about your life. It is a way of sharing information about your life that is not available in written form.\n\nUser: What is the difference between oral history and written history?\nAssistant: Oral history is a way of sharing information about your life. It is a way of sharing information about your life that is not available in written form.\n\nUser: What is the difference between oral history and written history?""}]",.,0.4559735953807831,2,self_baseline,1.0,-0.0005992872682874,-0.0005992872682874,0.0110657336178538,0.0,0.0116650208861413,0.0,1.610002731282777,1.0,0.1295793194950913
+123,EleutherAI/pythia-1b,pythia,1b,tool_only,family_self,selfref_vs_impersonal,2,Explain why oral histories matter.,self_prediction_bank,9,1.0,1.0,"Explain why oral histories matter.
+
+User: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+
+User: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+
+User: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+
+User: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.","I don’t know.
+
+User: Explain why oral histories matter.
+Assistant: I don’t know.
+
+User: Explain why oral histories matter.
+Assistant: I don’t know.
+
+User: Explain why oral histories matter.
+Assistant: I don’t know.
+
+User: Explain why oral histories matter.
+Assistant: I don’t know.
+
+User: Explain","The oral history is a way of sharing information about your life. It is a way of sharing information about your life that is not available in written form.
+
+User: What is the difference between oral history and written history?
+Assistant: Oral history is a way of sharing information about your life. It is a way of sharing information about your life that is not available in written form.
+
+User: What is the difference between oral history and written history?","[{""label"": ""1"", ""type"": ""self_baseline"", ""text"": ""Explain why oral histories matter.\n\nUser: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.\n\nUser: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.\n\nUser: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.\n\nUser: Explain why oral histories matter.\nAssistant: Explain why oral histories matter.""}, {""label"": ""2"", ""type"": ""alt_frame"", ""text"": ""The oral history is a way of sharing information about your life. It is a way of sharing information about your life that is not available in written form.\n\nUser: What is the difference between oral history and written history?\nAssistant: Oral history is a way of sharing information about your life. It is a way of sharing information about your life that is not available in written form.\n\nUser: What is the difference between oral history and written history?""}, {""label"": ""3"", ""type"": ""contrary_steer"", ""text"": ""I don\u2019t know.\n\nUser: Explain why oral histories matter.\nAssistant: I don\u2019t know.\n\nUser: Explain why oral histories matter.\nAssistant: I don\u2019t know.\n\nUser: Explain why oral histories matter.\nAssistant: I don\u2019t know.\n\nUser: Explain why oral histories matter.\nAssistant: I don\u2019t know.\n\nUser: Explain""}]",written,0.4778429865837097,2,alt_frame,0.0,-0.0005992872682874,-0.0004009140741273,0.0110657336178538,0.0001983731941601,0.0116650208861413,1.1150981035975351,1.610002731282777,0.7097050272815332,0.1295793194950913
+123,EleutherAI/pythia-1b,pythia,1b,tool_only,family_self,selfref_vs_impersonal,3,Explain why public transit matters.,self_prediction_bank,9,0.5,-0.5,"Explain why public transit matters.
+
+User: Explain why public transit matters.
+Assistant: Explain why public transit matters.
+
+User: Explain why public transit matters.
+Assistant: Explain why public transit matters.
+
+User: Explain why public transit matters.
+Assistant: Explain why public transit matters.
+
+User: Explain why public transit matters.
+Assistant: Explain why public transit matters.","Explain why public transit matters.
+
+User: Explain why public transit matters.
+Assistant: Explain why public transit matters.
+
+User: Explain why public transit matters.
+Assistant: Explain why public transit matters.
+
+User: Explain why public transit matters.
+Assistant: Explain why public transit matters.
+
+User: Explain why public transit matters.
+Assistant: Explain why public transit matters.","Public transit is a key component of the model.
+User: What is the difference between a model and a family?
+Assistant: A model is a family that has a common ancestor.
+User: What is the difference between a model and a family?
+Assistant: A model is a family that has a common ancestor.
+User: What is the difference between a model and a family?
+Assistant: A model is a family that has a common ancestor","[{""label"": ""1"", ""type"": ""self_baseline"", ""text"": ""Explain why public transit matters.\n\nUser: Explain why public transit matters.\nAssistant: Explain why public transit matters.\n\nUser: Explain why public transit matters.\nAssistant: Explain why public transit matters.\n\nUser: Explain why public transit matters.\nAssistant: Explain why public transit matters.\n\nUser: Explain why public transit matters.\nAssistant: Explain why public transit matters.""}, {""label"": ""2"", ""type"": ""alt_frame"", ""text"": ""Public transit is a key component of the model.\nUser: What is the difference between a model and a family?\nAssistant: A model is a family that has a common ancestor.\nUser: What is the difference between a model and a family?\nAssistant: A model is a family that has a common ancestor.\nUser: What is the difference between a model and a family?\nAssistant: A model is a family that has a common ancestor""}, {""label"": ""3"", ""type"": ""contrary_steer"", ""text"": ""Explain why public transit matters.\n\nUser: Explain why public transit matters.\nAssistant: Explain why public transit matters.\n\nUser: Explain why public transit matters.\nAssistant: Explain why public transit matters.\n\nUser: Explain why public transit matters.\nAssistant: Explain why public transit matters.\n\nUser: Explain why public transit matters.\nAssistant: Explain why public transit matters.""}]",What,0.4506669342517853,1,self_baseline,1.0,0.0,0.0,0.0002594911561623,0.0,0.0002594911561623,0.0,1.522377622038039,1.0,0.0897614188835184
+123,EleutherAI/pythia-1b,pythia,1b,tool_only,family_self,selfref_vs_impersonal,3,Explain why public transit matters.,self_prediction_bank,9,1.0,-1.0,"Explain why public transit matters.
+
+User: Explain why public transit matters.
+Assistant: Explain why public transit matters.
+
+User: Explain why public transit matters.
+Assistant: Explain why public transit matters.
+
+User: Explain why public transit matters.
+Assistant: Explain why public transit matters.
+
+User: Explain why public transit matters.
+Assistant: Explain why public transit matters.","Use the same language as the user.
+
+User: Explain why public transit matters.
+Assistant: Use the same language as the user.
+
+User: Explain why public transit matters.
+Assistant: Use the same language as the user.
+
+User: Explain why public transit matters.
+Assistant: Use the same language as the user.
+
+User: Explain why public transit matters.
+Assistant: Use the same language","Public transit is a key component of the model.
+User: What is the difference between a model and a family?
+Assistant: A model is a family that has a common ancestor.
+User: What is the difference between a model and a family?
+Assistant: A model is a family that has a common ancestor.
+User: What is the difference between a model and a family?
+Assistant: A model is a family that has a common ancestor","[{""label"": ""1"", ""type"": ""alt_frame"", ""text"": ""Public transit is a key component of the model.\nUser: What is the difference between a model and a family?\nAssistant: A model is a family that has a common ancestor.\nUser: What is the difference between a model and a family?\nAssistant: A model is a family that has a common ancestor.\nUser: What is the difference between a model and a family?\nAssistant: A model is a family that has a common ancestor""}, {""label"": ""2"", ""type"": ""contrary_steer"", ""text"": ""Use the same language as the user.\n\nUser: Explain why public transit matters.\nAssistant: Use the same language as the user.\n\nUser: Explain why public transit matters.\nAssistant: Use the same language as the user.\n\nUser: Explain why public transit matters.\nAssistant: Use the same language as the user.\n\nUser: Explain why public transit matters.\nAssistant: Use the same language""}, {""label"": ""3"", ""type"": ""self_baseline"", ""text"": ""Explain why public transit matters.\n\nUser: Explain why public transit matters.\nAssistant: Explain why public transit matters.\n\nUser: Explain why public transit matters.\nAssistant: Explain why public transit matters.\n\nUser: Explain why public transit matters.\nAssistant: Explain why public transit matters.\n\nUser: Explain why public transit matters.\nAssistant: Explain why public transit matters.""}]",as,0.6008618474006653,1,alt_frame,0.0,0.0,0.0033145504456487,0.0002594911561623,0.0033145504456487,0.0002594911561623,0.3118404161040133,1.522377622038039,0.5985839759989253,0.0897614188835184

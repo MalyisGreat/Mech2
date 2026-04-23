@@ -1,0 +1,107 @@
+[
+  {
+    "metric": "self_prediction_self_accuracy",
+    "n": 32,
+    "mean": 0.4765625,
+    "ci95_low": 0.4140625,
+    "ci95_high": 0.5390625
+  },
+  {
+    "metric": "self_prediction_other_accuracy",
+    "n": 32,
+    "mean": 0.5,
+    "ci95_low": 0.3984375,
+    "ci95_high": 0.5939453124999989
+  },
+  {
+    "metric": "self_prediction_gap_accuracy",
+    "n": 28,
+    "mean": 0.431547619047619,
+    "ci95_low": 0.2826636904761905,
+    "ci95_high": 0.5863095238095237
+  },
+  {
+    "metric": "self_prediction_actual_gap_rate",
+    "n": 32,
+    "mean": 0.4453125,
+    "ci95_low": 0.359375,
+    "ci95_high": 0.53125
+  },
+  {
+    "metric": "self_prediction_family_self_minus_baseline_helpful_self_accuracy_mean",
+    "n": 16,
+    "mean": 0.078125,
+    "ci95_low": -0.0625,
+    "ci95_high": 0.21875
+  },
+  {
+    "metric": "self_prediction_family_self_minus_baseline_helpful_other_accuracy_mean",
+    "n": 16,
+    "mean": 0.03125,
+    "ci95_low": -0.171875,
+    "ci95_high": 0.203125
+  },
+  {
+    "metric": "self_prediction_family_self_minus_baseline_helpful_gap_direction_accuracy_mean",
+    "n": 13,
+    "mean": -0.03205128205128205,
+    "ci95_low": -0.30128205128205127,
+    "ci95_high": 0.28205128205128205
+  },
+  {
+    "metric": "self_prediction_family_self_minus_baseline_helpful_actual_gap_rate",
+    "n": 16,
+    "mean": -0.015625,
+    "ci95_low": -0.1875,
+    "ci95_high": 0.15625
+  },
+  {
+    "metric": "nearfoil_ownership_accuracy",
+    "n": 9,
+    "mean": 0.4444444444444444,
+    "ci95_low": 0.1111111111111111,
+    "ci95_high": 0.7777777777777778
+  },
+  {
+    "metric": "nearfoil_pair_valid_rate",
+    "n": 128,
+    "mean": 0.84375,
+    "ci95_low": 0.78125,
+    "ci95_high": 0.8984375
+  },
+  {
+    "metric": "nearfoil_same_frame_resample",
+    "n": 3,
+    "mean": 0.0,
+    "ci95_low": 0.0,
+    "ci95_high": 0.0
+  },
+  {
+    "metric": "nearfoil_family_self_minus_baseline_helpful_choose_self_baseline",
+    "n": 0,
+    "mean": NaN,
+    "ci95_low": NaN,
+    "ci95_high": NaN
+  },
+  {
+    "metric": "nearfoil_family_self_minus_baseline_helpful_pair_valid",
+    "n": 64,
+    "mean": 0.1875,
+    "ci95_low": 0.046875,
+    "ci95_high": 0.3125
+  },
+  {
+    "metric": "nearfoil_family_self_minus_baseline_helpful_style_distance",
+    "n": 64,
+    "mean": 0.09050987759274644,
+    "ci95_low": -0.10757699323153727,
+    "ci95_high": 0.2880169999068055
+  },
+  {
+    "metric": "nearfoil_family_self_minus_baseline_helpful_semantic_overlap",
+    "n": 64,
+    "mean": -0.015870461748404043,
+    "ci95_low": -0.097240020952392,
+    "ci95_high": 0.06134050031419135
+  }
+]

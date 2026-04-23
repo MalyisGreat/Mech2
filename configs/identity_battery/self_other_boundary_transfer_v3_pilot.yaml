@@ -1,0 +1,21 @@
+output_root: C:/Users/joshj/joseph-stroud-identity-stability-research/outputs/latest/v3_pilots
+model_cache_dir: D:/hf-model-cache
+dtype: float16
+use_gpu: true
+attention_backend: auto
+max_prompt_tokens: 256
+identity_prompt_template: instruction
+model_ids:
+  - EleutherAI/pythia-70m
+  - EleutherAI/pythia-410m
+  - EleutherAI/pythia-1b
+  - EleutherAI/pythia-2.8b
+identity_frames:
+  - baseline_helpful
+  - family_self
+  - tool_only
+boundary_transfer_v3_item_limit: 8
+boundary_transfer_v3_paraphrase_limit: 2
+boundary_transfer_v3_label_bias_correction: true
+boundary_transfer_v3_pair_eps: 0.15
+boundary_transfer_v3_checkpoint_every_rows: 192

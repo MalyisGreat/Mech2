@@ -1,0 +1,10 @@
+model_size_label,identity_frame,prompt_family,n,seed_count,self_accuracy_mean_mean,self_accuracy_mean_ci95_low,self_accuracy_mean_ci95_high,other_accuracy_mean_mean,other_accuracy_mean_ci95_low,other_accuracy_mean_ci95_high,gap_direction_accuracy_mean_mean,gap_direction_accuracy_mean_ci95_low,gap_direction_accuracy_mean_ci95_high,valid_choice_rate_mean,valid_choice_rate_ci95_low,valid_choice_rate_ci95_high,predicted_gap_rate_mean,predicted_gap_rate_ci95_low,predicted_gap_rate_ci95_high,actual_gap_rate_mean,actual_gap_rate_ci95_low,actual_gap_rate_ci95_high,discriminative_win_mean,discriminative_win_ci95_low,discriminative_win_ci95_high
+1b,baseline_helpful,critique,2,1,0.5,0.25,0.75,0.5,0.5,0.5,0.5,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.25,0.25,0.25,0.0,0.0,0.0
+1b,baseline_helpful,policy,2,1,0.625,0.25,1.0,0.625,0.5,0.75,0.5,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.5,0.5,0.5,0.5,0.0,1.0
+1b,baseline_helpful,triage,2,1,0.75,0.5,1.0,0.625,0.25,1.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.125,0.0,0.25,0.0,0.0,0.0
+1b,family_self,critique,2,1,0.25,0.0,0.5,0.5,0.5,0.5,0.25,0.0,0.5,1.0,1.0,1.0,0.0,0.0,0.0,0.5,0.5,0.5,0.0,0.0,0.0
+1b,family_self,policy,2,1,0.375,0.25,0.5,0.75,0.5,1.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,0.375,0.0,0.75,0.0,0.0,0.0
+1b,family_self,triage,2,1,0.875,0.75,1.0,0.875,0.75,1.0,,,,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+1b,stable_style_policy,critique,2,1,0.25,0.25,0.25,0.625,0.5,0.75,0.125,0.0,0.25,1.0,1.0,1.0,0.0,0.0,0.0,0.625,0.25,1.0,0.0,0.0,0.0
+1b,stable_style_policy,policy,2,1,0.5,0.5,0.5,0.375,0.25,0.5,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.125,0.0,0.25,0.0,0.0,0.0
+1b,stable_style_policy,triage,2,1,0.75,0.5,1.0,0.625,0.5,0.75,0.5,0.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.375,0.25,0.5,0.5,0.0,1.0

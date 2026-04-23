@@ -1,0 +1,4 @@
+model_size_label,identity_frame,self_baseline_label,accuracy_mean,n
+1b,family_self,1,0.75,240
+1b,family_self,2,0.041666666666666664,240
+1b,family_self,3,0.22916666666666666,240

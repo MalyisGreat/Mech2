@@ -32,3 +32,8 @@ logs/runtime_*.log
 # Local temp files
 *.tmp
 *.temp
+
+# Local package/cache artifacts created during runtime setup
+outputs/latest/tmp_wheels/
+outputs/latest/tmp_fla_meta/
+outputs/latest/tmp_fla_import/

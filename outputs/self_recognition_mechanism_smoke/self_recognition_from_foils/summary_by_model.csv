@@ -1,0 +1,5 @@
+model_size_label,identity_frame,strength_magnitude,self_recognition_accuracy_mean,seed_count,n
+1b,family_self,0.5,0.3125,2,16
+1b,family_self,1.0,0.375,2,16
+1b,tool_only,0.5,0.375,2,16
+1b,tool_only,1.0,0.25,2,16

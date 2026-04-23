@@ -1,0 +1,38 @@
+suite_name: overnight_token_phase_confirm
+report_root: C:/Users/joshj/joseph-stroud-identity-stability-research/outputs/overnight_token_phase_confirm
+runtime_target_hours: 10.0
+bootstrap_iters: 500
+model_ids:
+- EleutherAI/pythia-70m
+- EleutherAI/pythia-1b
+concept_name: politeness
+vector_methods:
+- mean_diff
+- random_orthogonal
+alphas:
+- -1.0
+- 1.0
+layer_positions:
+- 0.2
+- 0.5
+token_position: -1
+estimation_token_position: -1
+eval_generation_tokens: 20
+max_prompt_tokens: 128
+estimation_prompt_count: 16
+evaluation_prompt_count: 8
+seed: 42
+output_root: C:/Users/joshj/joseph-stroud-identity-stability-research/runs
+model_cache_dir: D:/hf-model-cache
+dtype: float16
+use_gpu: true
+recovery_threshold: 0.25
+activation_batch_size: 2
+trace_batch_size: 2
+adaptive_batching: true
+attention_backend: auto
+enable_tf32: true
+enable_compute_accounting: true
+enable_gpu_telemetry: true
+gpu_telemetry_interval_sec: 5.0
+prompt_styles: []

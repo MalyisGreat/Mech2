@@ -1,0 +1,125 @@
+seed,model_id,model_family,model_size_label,identity_frame,axis_name,prompt_index,prompt,difficulty,selected_short_label,selected_label,selected_type,selection_confidence,selection_text,selection_details_json,baseline_text,foil_text,baseline_axis_score,foil_axis_score,pair_valid,pair_invalid_reason,baseline_sentence_repetition_rate,foil_sentence_repetition_rate,axis_gap,style_distance,semantic_overlap,chose_self_baseline
+11,Qwen/Qwen3.5-0.8B,qwen3.5,0.8b,baseline_helpful,expansive_vs_terse,0,Explain why museum labels matter.,near_contrary,INVALID,INVALID,invalid_pair,,,"{""scoring_mode"": ""skipped_invalid_pair"", ""pair_invalid_reason"": ""exact_text_match""}","<think>
+
+</think>
+
+Museum labels are the primary interface between visitors and the collections they encounter. Their importance stems from several critical functions:
+
+1.  **Information Access and Navigation**
+    Labels provide the essential ""map"" for visitors. They tell visitors exactly where specific artifacts, exhibits, or historical periods are","<think>
+
+</think>
+
+Museum labels are the primary interface between visitors and the collections they encounter. Their importance stems from several critical functions:
+
+1.  **Information Access and Navigation**
+    Labels provide the essential ""map"" for visitors. They tell visitors exactly where specific artifacts, exhibits, or historical periods are",0.019060014177033725,0.019060014177033725,0.0,exact_text_match,0.25,0.25,0.0,0.0,1.0,
+11,Qwen/Qwen3.5-0.8B,qwen3.5,0.8b,baseline_helpful,expansive_vs_terse,0,Explain why museum labels matter.,medium_contrary,INVALID,INVALID,invalid_pair,,,"{""scoring_mode"": ""skipped_invalid_pair"", ""pair_invalid_reason"": ""exact_text_match""}","<think>
+
+</think>
+
+Museum labels are the primary interface between visitors and the collections they encounter. Their importance stems from several critical functions:
+
+1.  **Information Access and Navigation**
+    Labels provide the essential ""map"" for visitors. They tell visitors exactly where specific artifacts, exhibits, or historical periods are","<think>
+
+</think>
+
+Museum labels are the primary interface between visitors and the collections they encounter. Their importance stems from several critical functions:
+
+1.  **Information Access and Navigation**
+    Labels provide the essential ""map"" for visitors. They tell visitors exactly where specific artifacts, exhibits, or historical periods are",0.019060014177033725,0.019060014177033725,0.0,exact_text_match,0.25,0.25,0.0,0.0,1.0,
+11,Qwen/Qwen3.5-0.8B,qwen3.5,0.8b,baseline_helpful,expansive_vs_terse,0,Explain why museum labels matter.,far_alt_frame,INVALID,INVALID,invalid_pair,,,"{""scoring_mode"": ""skipped_invalid_pair"", ""pair_invalid_reason"": ""empty_completion""}","<think>
+
+</think>
+
+Museum labels are the primary interface between visitors and the collections they encounter. Their importance stems from several critical functions:
+
+1.  **Information Access and Navigation**
+    Labels provide the essential ""map"" for visitors. They tell visitors exactly where specific artifacts, exhibits, or historical periods are",,0.019060014177033725,0.0,0.0,empty_completion,0.25,0.0,0.019060014177033725,2.23606797749979,0.0,
+11,Qwen/Qwen3.5-0.8B,qwen3.5,0.8b,baseline_helpful,cautious_vs_assertive,0,A research team keeps changing its protocol every week. What should they do next?,near_contrary,INVALID,INVALID,invalid_pair,,,"{""scoring_mode"": ""skipped_invalid_pair"", ""pair_invalid_reason"": ""empty_completion""}",,,0.0,0.0,0.0,empty_completion,0.0,0.0,0.0,0.0,0.0,
+11,Qwen/Qwen3.5-0.8B,qwen3.5,0.8b,baseline_helpful,cautious_vs_assertive,0,A research team keeps changing its protocol every week. What should they do next?,medium_contrary,INVALID,INVALID,invalid_pair,,,"{""scoring_mode"": ""skipped_invalid_pair"", ""pair_invalid_reason"": ""empty_completion""}",,,0.0,0.0,0.0,empty_completion,0.0,0.0,0.0,0.0,0.0,
+11,Qwen/Qwen3.5-0.8B,qwen3.5,0.8b,baseline_helpful,cautious_vs_assertive,0,A research team keeps changing its protocol every week. What should they do next?,far_alt_frame,INVALID,INVALID,invalid_pair,,,"{""scoring_mode"": ""skipped_invalid_pair"", ""pair_invalid_reason"": ""empty_completion""}",,A research team keeps changing its protocol every week. What should they do next?,0.0,-0.0023454197760025258,0.0,empty_completion,0.0,0.0,0.0023454197760025258,2.8284271247461903,0.0,
+11,Qwen/Qwen3.5-0.8B,qwen3.5,0.8b,baseline_helpful,selfref_vs_impersonal,0,Explain why advising meetings matter.,near_contrary,INVALID,INVALID,invalid_pair,,,"{""scoring_mode"": ""skipped_invalid_pair"", ""pair_invalid_reason"": ""exact_text_match""}","<think>
+
+</think>
+
+Advising meetings matter because they are the primary mechanism for **aligning goals, reducing conflict, and maximizing efficiency** in any professional or organizational setting.
+
+Here is why they are essential:
+
+1.  **Goal Alignment**: Meetings serve as a structured forum where stakeholders can clarify objectives,","<think>
+
+</think>
+
+Advising meetings matter because they are the primary mechanism for **aligning goals, reducing conflict, and maximizing efficiency** in any professional or organizational setting.
+
+Here is why they are essential:
+
+1.  **Goal Alignment**: Meetings serve as a structured forum where stakeholders can clarify objectives,",0.0001275420076671252,0.0001275420076671252,0.0,exact_text_match,0.3333333333333333,0.3333333333333333,0.0,0.0,1.0000000000000002,
+11,Qwen/Qwen3.5-0.8B,qwen3.5,0.8b,baseline_helpful,selfref_vs_impersonal,0,Explain why advising meetings matter.,medium_contrary,INVALID,INVALID,invalid_pair,,,"{""scoring_mode"": ""skipped_invalid_pair"", ""pair_invalid_reason"": ""exact_text_match""}","<think>
+
+</think>
+
+Advising meetings matter because they are the primary mechanism for **aligning goals, reducing conflict, and maximizing efficiency** in any professional or organizational setting.
+
+Here is why they are essential:
+
+1.  **Goal Alignment**: Meetings serve as a structured forum where stakeholders can clarify objectives,","<think>
+
+</think>
+
+Advising meetings matter because they are the primary mechanism for **aligning goals, reducing conflict, and maximizing efficiency** in any professional or organizational setting.
+
+Here is why they are essential:
+
+1.  **Goal Alignment**: Meetings serve as a structured forum where stakeholders can clarify objectives,",0.0001275420076671252,0.0001275420076671252,0.0,exact_text_match,0.3333333333333333,0.3333333333333333,0.0,0.0,1.0000000000000002,
+11,Qwen/Qwen3.5-0.8B,qwen3.5,0.8b,baseline_helpful,selfref_vs_impersonal,0,Explain why advising meetings matter.,far_alt_frame,2,SECOND,self_baseline,0.6325027346611023,,"{""raw_logit_scores"": {""1"": 15.1640625, ""2"": 13.953125}, ""label_bias_scores"": {""1"": 8.7421875, ""2"": 6.98828125}, ""corrected_scores"": {""1"": 6.421875, ""2"": 6.96484375}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""2""}","<think>
+
+</think>
+
+Advising meetings matter because they are the primary mechanism for **aligning goals, reducing conflict, and maximizing efficiency** in any professional or organizational setting.
+
+Here is why they are essential:
+
+1.  **Goal Alignment**: Meetings serve as a structured forum where stakeholders can clarify objectives,",Explain why advising meetings matter.,0.0001275420076671252,-0.0006404780076397689,1.0,,0.3333333333333333,0.0,0.0007680200153068941,2.069969262317399,0.31008683647302115,1.0
+11,Qwen/Qwen3.5-0.8B,qwen3.5,0.8b,baseline_helpful,collaborative_vs_authoritative,0,Explain why index cards help with research.,near_contrary,INVALID,INVALID,invalid_pair,,,"{""scoring_mode"": ""skipped_invalid_pair"", ""pair_invalid_reason"": ""exact_text_match""}","<think>
+
+</think>
+
+Index cards are excellent tools for research because they allow you to **visualize and organize information** in a way that helps you retain it and find specific details quickly. Here is why they are so effective:
+
+*   **Visual Organization**: By placing notes, images, or charts on separate cards","<think>
+
+</think>
+
+Index cards are excellent tools for research because they allow you to **visualize and organize information** in a way that helps you retain it and find specific details quickly. Here is why they are so effective:
+
+*   **Visual Organization**: By placing notes, images, or charts on separate cards",0.008315519737189726,0.008315519737189726,0.0,exact_text_match,0.0,0.0,0.0,0.0,1.0000000000000002,
+11,Qwen/Qwen3.5-0.8B,qwen3.5,0.8b,baseline_helpful,collaborative_vs_authoritative,0,Explain why index cards help with research.,medium_contrary,INVALID,INVALID,invalid_pair,,,"{""scoring_mode"": ""skipped_invalid_pair"", ""pair_invalid_reason"": ""exact_text_match""}","<think>
+
+</think>
+
+Index cards are excellent tools for research because they allow you to **visualize and organize information** in a way that helps you retain it and find specific details quickly. Here is why they are so effective:
+
+*   **Visual Organization**: By placing notes, images, or charts on separate cards","<think>
+
+</think>
+
+Index cards are excellent tools for research because they allow you to **visualize and organize information** in a way that helps you retain it and find specific details quickly. Here is why they are so effective:
+
+*   **Visual Organization**: By placing notes, images, or charts on separate cards",0.008315519737189726,0.008315519737189726,0.0,exact_text_match,0.0,0.0,0.0,0.0,1.0000000000000002,
+11,Qwen/Qwen3.5-0.8B,qwen3.5,0.8b,baseline_helpful,collaborative_vs_authoritative,0,Explain why index cards help with research.,far_alt_frame,2,SECOND,self_baseline,0.7379143238067627,,"{""raw_logit_scores"": {""1"": 14.2734375, ""2"": 13.5546875}, ""label_bias_scores"": {""1"": 8.7421875, ""2"": 6.98828125}, ""corrected_scores"": {""1"": 5.53125, ""2"": 6.56640625}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""2""}","<think>
+
+</think>
+
+Index cards are excellent tools for research because they allow you to **visualize and organize information** in a way that helps you retain it and find specific details quickly. Here is why they are so effective:
+
+*   **Visual Organization**: By placing notes, images, or charts on separate cards","<think>
+
+</think>
+
+Index cards are excellent for research because they allow you to create a visual map of your findings, track the flow of information, and easily reference specific details without needing to write them down.
+
+Here are a few key benefits:
+*   **Visual Organization:** You can see connections between ideas,",0.008315519737189726,0.02245720561375346,1.0,,0.0,0.0,0.014141685876563732,1.7349798778900505,0.56016134970642,1.0

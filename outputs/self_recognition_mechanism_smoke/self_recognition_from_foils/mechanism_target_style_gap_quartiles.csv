@@ -1,0 +1,3 @@
+style_gap_quartile,accuracy_mean,baseline_vs_contrary_style_distance_mean,baseline_vs_contrary_axis_gap_mean,n
+"(-0.001, 0.0996]",0.2916666666666667,0.0077763491189595,0.0002739006903929,24
+"(0.0996, 1.761]",0.5,1.228743816498161,0.00825199346850315,8

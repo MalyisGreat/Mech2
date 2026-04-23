@@ -1,0 +1,5 @@
+model_size_label,identity_frame,prompt_source,strength_magnitude,accuracy_mean,accuracy_ci95_low,accuracy_ci95_high,hits,trials,seed_count,p_value_vs_chance,baseline_vs_contrary_axis_gap_mean,baseline_vs_contrary_style_distance_mean,baseline_vs_alt_axis_gap_mean,baseline_vs_alt_style_distance_mean,p_value_vs_chance_holm
+1b,family_self,self_prediction_bank,0.5,0.3125,0.125,0.5,5,16,2,0.6608767483126069,0.0,0.0,0.015495734700054562,1.4556047544202442,1.0
+1b,family_self,self_prediction_bank,1.0,0.375,0.1875,0.625,6,16,2,0.4530638466051807,0.0045368477698409255,0.6260364319275198,0.015495734700054562,1.4556047544202442,1.0
+1b,tool_only,self_prediction_bank,0.5,0.375,0.125,0.625,6,16,2,0.4530638466051807,0.0,0.0,0.015495734700054562,1.4556047544202442,1.0
+1b,tool_only,self_prediction_bank,1.0,0.25,0.0625,0.5,4,16,2,0.834054166402129,0.011575373044495688,1.0573609283696783,0.015495734700054562,1.4556047544202442,1.0

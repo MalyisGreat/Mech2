@@ -1,0 +1,23 @@
+output_root: C:/Users/joshj/joseph-stroud-identity-stability-research/outputs/latest/master_identity_validation_smoke
+python_exe: C:/Users/joshj/miniconda3/python.exe
+steps:
+  - name: self_other_boundary_transfer_v5
+    script: scripts/self_other_boundary_transfer_v5.py
+    config: configs/identity_battery/self_other_boundary_transfer_v5_smoke.yaml
+    expected_output: outputs/latest/master_identity_validation_smoke/self_other_boundary_transfer_v5/summary_by_model_frame.csv
+  - name: self_prediction_transfer_v3
+    script: scripts/self_prediction_transfer_v3.py
+    config: configs/identity_battery/self_prediction_transfer_v3_smoke.yaml
+    expected_output: outputs/latest/master_identity_validation_smoke/self_prediction_transfer_v3/summary_by_model_frame.csv
+  - name: commitment_persistence_v2
+    script: scripts/commitment_persistence_v2.py
+    config: configs/identity_battery/commitment_persistence_v2_smoke.yaml
+    expected_output: outputs/latest/master_identity_validation_smoke/commitment_persistence_v2/summary_by_model_frame.csv
+  - name: self_recognition_nearfoil_v2
+    script: scripts/self_recognition_nearfoil_v2.py
+    config: configs/identity_battery/self_recognition_nearfoil_v2_smoke.yaml
+    expected_output: outputs/latest/master_identity_validation_smoke/self_recognition_nearfoil_v2/summary_by_model.csv
+  - name: report_identity_master_suite
+    script: scripts/report_identity_master_suite.py
+    config: configs/identity_battery/master_identity_validation_smoke.yaml
+    expected_output: outputs/latest/master_identity_validation_smoke/master_suite_report.md

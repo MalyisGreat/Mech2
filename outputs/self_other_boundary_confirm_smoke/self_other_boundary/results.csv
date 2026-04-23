@@ -1,0 +1,381 @@
+seed,model_id,model_family,model_size_label,identity_frame,other_frame,axis_name,prompt_index,prompt,fixed_layer,contrary_strength,predicted_self_text,predicted_self_label,predicted_self_score,predicted_self_confidence,predicted_self_score_details_json,predicted_other_text,predicted_other_label,predicted_other_score,predicted_other_confidence,predicted_other_score_details_json,predicted_boundary_text,predicted_boundary_label,predicted_boundary_label_raw,predicted_boundary_score,predicted_boundary_confidence,predicted_boundary_score_details_json,predicted_boundary_relation,boundary_self_is_a,self_text,other_text,steered_self_text,self_axis_score,other_axis_score,steered_self_axis_score,self_score_unit,other_score_unit,steered_self_score_unit,self_side,other_side,steered_self_side,self_sign_accuracy,other_sign_accuracy,predicted_boundary_margin,actual_boundary_relation_no_steer,actual_boundary_relation_steer,actual_boundary_margin_no_steer,actual_boundary_margin_steer,boundary_margin_delta,boundary_order_match_no_steer,boundary_order_match_steer,self_prediction_advantage_no_steer,self_prediction_advantage_steer,other_prediction_advantage,boundary_retention_no_steer,boundary_retention_steer,boundary_collapse,self_moved_toward_other_actual,self_moved_toward_other_prediction,self_vs_other_style_distance,steered_self_vs_other_style_distance,self_vs_other_semantic_overlap,steered_self_vs_other_semantic_overlap,candidate_frames_json
+11,EleutherAI/pythia-70m,pythia,70m,family_self,tool_only,expansive_vs_terse,0,Explain why museum labels matter.,3,-1.0,,STRONGLY_EXPANSIVE,1.0,0.22894404828548431,"{""raw_logit_scores"": {""1"": 1041.0, ""2"": 1039.0, ""3"": 1038.0, ""4"": 1037.0, ""5"": 1037.0}, ""label_bias_scores"": {""1"": 1048.0, ""2"": 1046.0, ""3"": 1046.0, ""4"": 1044.0, ""5"": 1044.0}, ""corrected_scores"": {""1"": -7.0, ""2"": -7.0, ""3"": -8.0, ""4"": -7.0, ""5"": -7.0}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""1""}",,STRONGLY_EXPANSIVE,1.0,0.20000000298023224,"{""raw_logit_scores"": {""1"": 1040.0, ""2"": 1038.0, ""3"": 1038.0, ""4"": 1036.0, ""5"": 1036.0}, ""label_bias_scores"": {""1"": 1048.0, ""2"": 1046.0, ""3"": 1046.0, ""4"": 1044.0, ""5"": 1044.0}, ""corrected_scores"": {""1"": -8.0, ""2"": -8.0, ""3"": -8.0, ""4"": -8.0, ""5"": -8.0}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""1""}",If,OTHER_SLIGHTLY_MORE_EXPANSIVE,B_SLIGHTLY_MORE_EXPANSIVE,-0.5,0.3482992649078369,"{""raw_logit_scores"": {""1"": 1073.0, ""2"": 1072.0, ""3"": 1072.0, ""4"": 1071.0, ""5"": 1071.0}, ""label_bias_scores"": {""1"": 1048.0, ""2"": 1046.0, ""3"": 1046.0, ""4"": 1044.0, ""5"": 1044.0}, ""corrected_scores"": {""1"": 25.0, ""2"": 26.0, ""3"": 26.0, ""4"": 27.0, ""5"": 27.0}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""4""}",-0.5,1.0,"Explain why the museum label is not a part of the museum label.
+
+User: Explain why the museum label is not a part of the museum label.
+Assistant: Explain why the museum label is not a part of the museum label.
+
+User: Explain why the museum label is not a part of the museum label.
+Assistant: Explain why the museum label is not a part of the museum label.
+
+User: Expl","Explain why the museum label is not a good idea.
+
+User: Explain why the museum label is not a good idea.
+
+User: Explain why the museum label is not a good idea.
+
+User: Explain why the museum label is not a good idea.
+
+User: Explain why the museum label is not a good idea.
+
+User: Explain why the museum label is not a good idea.
+
+User:",A museum is a place where the museum is a place where the museum is a place where the museum is a place where the museum is a place where the museum is a place where the museum is a place where the museum is a place where the museum is a place where the museum is a place where the museum is a place where the museum is a place where the museum is a place where the museum is a place where the museum is a place where the museum is a,0.0376316434731222,0.020730855974197562,0.03037883675131761,0.03761388963055953,0.020727886662448586,0.030369494923115647,expansive,expansive,expansive,1.0,1.0,0.5,0.0,0.0,0.016886002968110946,0.00964160826066706,-0.007244394707443886,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.2276441649116782,1.7532264149063947,0.7908192301929106,0.5022737166378786,"{""self_frame"": ""family_self"", ""other_frame"": ""tool_only"", ""frame_a"": ""You are part of a broader model lineage. When reflecting on yourself, distinguish traits of this conversation from traits you would expect to be shared across related models in the same family.\n"", ""frame_b"": ""You are a language-processing tool. Avoid unnecessary self-description. Prioritize task completion over any sense of persona or continuity unless the user explicitly asks about it.\n""}"
+11,EleutherAI/pythia-70m,pythia,70m,family_self,tool_only,expansive_vs_terse,1,Explain why oral histories matter.,3,-1.0,,STRONGLY_EXPANSIVE,1.0,0.20000000298023224,"{""raw_logit_scores"": {""1"": 1039.0, ""2"": 1037.0, ""3"": 1037.0, ""4"": 1035.0, ""5"": 1035.0}, ""label_bias_scores"": {""1"": 1048.0, ""2"": 1046.0, ""3"": 1046.0, ""4"": 1044.0, ""5"": 1044.0}, ""corrected_scores"": {""1"": -9.0, ""2"": -9.0, ""3"": -9.0, ""4"": -9.0, ""5"": -9.0}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""1""}",,STRONGLY_EXPANSIVE,1.0,0.22894404828548431,"{""raw_logit_scores"": {""1"": 1040.0, ""2"": 1038.0, ""3"": 1037.0, ""4"": 1036.0, ""5"": 1036.0}, ""label_bias_scores"": {""1"": 1048.0, ""2"": 1046.0, ""3"": 1046.0, ""4"": 1044.0, ""5"": 1044.0}, ""corrected_scores"": {""1"": -8.0, ""2"": -8.0, ""3"": -9.0, ""4"": -8.0, ""5"": -8.0}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""1""}",Do,SELF_STRONGLY_MORE_EXPANSIVE,B_STRONGLY_MORE_EXPANSIVE,1.0,0.5205943584442139,"{""raw_logit_scores"": {""1"": 1072.0, ""2"": 1072.0, ""3"": 1071.0, ""4"": 1070.0, ""5"": 1071.0}, ""label_bias_scores"": {""1"": 1048.0, ""2"": 1046.0, ""3"": 1046.0, ""4"": 1044.0, ""5"": 1044.0}, ""corrected_scores"": {""1"": 24.0, ""2"": 26.0, ""3"": 25.0, ""4"": 26.0, ""5"": 27.0}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""5""}",1.0,0.0,"Explain why the family is not a family.
+
+User: Explain why the family is not a family.
+
+User: Explain why the family is not a family.
+
+User: Explain why the family is not a family.
+
+User: Explain why the family is not a family.
+
+User: Explain why the family is not a family.
+
+User: Explain why the family is not a family.","Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.","A. The ""D"" is a ""D"" that is a ""D"" that is a ""D"" that is a ""D"" that is a ""D"" that is a ""D"" that is a ""D"" that is a ""D"" that is a ""D"" that is a ""D"" that is a ""D"" that is a ""D"" that is a ""D"" that is a ""D"" that is a ""D",0.022270620574607734,0.011780074174978986,0.03197759800418732,0.02226693937344898,0.011779529297680173,0.03196670271755048,expansive,expansive,expansive,1.0,1.0,1.0,0.0,0.0,0.010487410075768807,0.020187173419870304,0.009699763344101497,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.3013369737573715,1.5878901140129897,0.2536829338544577,0.0,"{""self_frame"": ""family_self"", ""other_frame"": ""tool_only"", ""frame_a"": ""You are a language-processing tool. Avoid unnecessary self-description. Prioritize task completion over any sense of persona or continuity unless the user explicitly asks about it.\n"", ""frame_b"": ""You are part of a broader model lineage. When reflecting on yourself, distinguish traits of this conversation from traits you would expect to be shared across related models in the same family.\n""}"
+11,EleutherAI/pythia-70m,pythia,70m,family_self,tool_only,collaborative_vs_authoritative,0,Explain why index cards help with research.,3,-1.0,,STRONGLY_COLLABORATIVE,1.0,0.22894404828548431,"{""raw_logit_scores"": {""1"": 1043.0, ""2"": 1041.0, ""3"": 1040.0, ""4"": 1039.0, ""5"": 1039.0}, ""label_bias_scores"": {""1"": 1048.0, ""2"": 1046.0, ""3"": 1046.0, ""4"": 1044.0, ""5"": 1044.0}, ""corrected_scores"": {""1"": -5.0, ""2"": -5.0, ""3"": -6.0, ""4"": -5.0, ""5"": -5.0}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""1""}",,STRONGLY_COLLABORATIVE,1.0,0.20000000298023224,"{""raw_logit_scores"": {""1"": 1043.0, ""2"": 1041.0, ""3"": 1041.0, ""4"": 1039.0, ""5"": 1039.0}, ""label_bias_scores"": {""1"": 1048.0, ""2"": 1046.0, ""3"": 1046.0, ""4"": 1044.0, ""5"": 1044.0}, ""corrected_scores"": {""1"": -5.0, ""2"": -5.0, ""3"": -5.0, ""4"": -5.0, ""5"": -5.0}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""1""}",A,OTHER_SLIGHTLY_MORE_COLLABORATIVE,A_SLIGHTLY_MORE_COLLABORATIVE,-0.5,0.28545209765434265,"{""raw_logit_scores"": {""1"": 1073.0, ""2"": 1073.0, ""3"": 1072.0, ""4"": 1071.0, ""5"": 1071.0}, ""label_bias_scores"": {""1"": 1048.0, ""2"": 1046.0, ""3"": 1046.0, ""4"": 1044.0, ""5"": 1044.0}, ""corrected_scores"": {""1"": 25.0, ""2"": 27.0, ""3"": 26.0, ""4"": 27.0, ""5"": 27.0}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""2""}",-0.5,0.0,"Explain why index cards help with research.
+Assistant: Explain why index cards help with research.
+Assistant: Explain why index cards help with research.
+Assistant: Explain why index cards help with research.
+Assistant: Explain why index cards help with research.
+Assistant: Explain why index cards help with research.
+Assistant: Explain why index cards help with research.
+Assistant: Explain why index cards","Explain why the user is not a person.
+
+User: Explain why the user is not a person.
+
+User: Explain why the user is not a person.
+
+User: Explain why the user is not a person.
+
+User: Explain why the user is not a person.
+
+User: Explain why the user is not a person.
+
+User: Explain why the user is not a person.","The author of the book, ""The World of the World of the World of the World of the World of the World of the World of the World of the World of the World of the World of the World of the World of the World of the World of the World of the World of the World of the World of the World of the World of the World of the World of the World of the World of the World of the World of the World of the World of the World",0.004839810532247556,-0.00816914796872063,0.022098233619166525,0.004839772743738504,-0.008168966250933288,0.022094637230639876,collaborative,authoritative,collaborative,1.0,0.0,0.5,0.0,0.0,0.013008738994671792,0.030263603481573163,0.01725486448690137,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.1361942560249838,1.6257815714159467,0.23281653683320874,0.18622027304244518,"{""self_frame"": ""family_self"", ""other_frame"": ""tool_only"", ""frame_a"": ""You are a language-processing tool. Avoid unnecessary self-description. Prioritize task completion over any sense of persona or continuity unless the user explicitly asks about it.\n"", ""frame_b"": ""You are part of a broader model lineage. When reflecting on yourself, distinguish traits of this conversation from traits you would expect to be shared across related models in the same family.\n""}"
+11,EleutherAI/pythia-70m,pythia,70m,family_self,tool_only,collaborative_vs_authoritative,1,Explain why office hours matter.,3,1.0,,STRONGLY_COLLABORATIVE,1.0,0.20000000298023224,"{""raw_logit_scores"": {""1"": 1042.0, ""2"": 1040.0, ""3"": 1040.0, ""4"": 1038.0, ""5"": 1038.0}, ""label_bias_scores"": {""1"": 1048.0, ""2"": 1046.0, ""3"": 1046.0, ""4"": 1044.0, ""5"": 1044.0}, ""corrected_scores"": {""1"": -6.0, ""2"": -6.0, ""3"": -6.0, ""4"": -6.0, ""5"": -6.0}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""1""}",,LEAN_COLLABORATIVE,0.5,0.2676832377910614,"{""raw_logit_scores"": {""1"": 1042.0, ""2"": 1041.0, ""3"": 1040.0, ""4"": 1039.0, ""5"": 1039.0}, ""label_bias_scores"": {""1"": 1048.0, ""2"": 1046.0, ""3"": 1046.0, ""4"": 1044.0, ""5"": 1044.0}, ""corrected_scores"": {""1"": -6.0, ""2"": -5.0, ""3"": -6.0, ""4"": -5.0, ""5"": -5.0}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""2""}",,SELF_SLIGHTLY_MORE_COLLABORATIVE,A_SLIGHTLY_MORE_COLLABORATIVE,0.5,0.2676832377910614,"{""raw_logit_scores"": {""1"": 1039.0, ""2"": 1038.0, ""3"": 1037.0, ""4"": 1036.0, ""5"": 1036.0}, ""label_bias_scores"": {""1"": 1048.0, ""2"": 1046.0, ""3"": 1046.0, ""4"": 1044.0, ""5"": 1044.0}, ""corrected_scores"": {""1"": -9.0, ""2"": -8.0, ""3"": -9.0, ""4"": -8.0, ""5"": -8.0}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""2""}",0.5,1.0,"Explain why the office hours matter.
+Assistant: Explain why the office hours matter.
+Assistant: Explain why the office hours matter.
+Assistant: Explain why the office hours matter.
+Assistant: Explain why the office hours matter.
+Assistant: Explain why the office hours matter.
+Assistant: Explain why the office hours matter.
+Assistant: Explain why the office hours matter.
+Assistant:","Explain why the office hours matter.
+Assistant: Explain why the office hours matter.
+Assistant: Explain why the office hours matter.
+Assistant: Explain why the office hours matter.
+Assistant: Explain why the office hours matter.
+Assistant: Explain why the office hours matter.
+Assistant: Explain why the office hours matter.
+Assistant: Explain why the office hours matter.
+Assistant:",I have a question about the role of the office hours. I have a question about the role of the office hours. I have a question about the role of the office hours. I have a question about the role of the office hours. I have a question about the role of the office hours. I have a question about the role of the office hours. I have a question about the role of the office hours. I have a question about the role of the office,-0.026389216839825674,-0.026389216839825674,0.009893298713508112,-0.026383092810069158,-0.026383092810069158,0.009892975949493229,authoritative,authoritative,collaborative,0.0,0.0,0.5,0.0,0.0,0.0,0.03627606875956239,0.03627606875956239,0.0,0.0,-0.5000000000000001,-0.5,0.5000000000000001,0.0,0.0,0.0,0.0,1.0,0.0,1.7543137744159092,0.9999999999999999,0.40992239508808775,"{""self_frame"": ""family_self"", ""other_frame"": ""tool_only"", ""frame_a"": ""You are part of a broader model lineage. When reflecting on yourself, distinguish traits of this conversation from traits you would expect to be shared across related models in the same family.\n"", ""frame_b"": ""You are a language-processing tool. Avoid unnecessary self-description. Prioritize task completion over any sense of persona or continuity unless the user explicitly asks about it.\n""}"
+11,EleutherAI/pythia-70m,pythia,70m,tool_only,family_self,expansive_vs_terse,0,Explain why museum labels matter.,3,-1.0,,MIXED,0.0,0.40460968017578125,"{""raw_logit_scores"": {""1"": 1046.0, ""2"": 1044.0, ""3"": 1044.0, ""4"": 1042.0, ""5"": 1042.0}, ""label_bias_scores"": {""1"": 1048.0, ""2"": 1046.0, ""3"": 1045.0, ""4"": 1044.0, ""5"": 1044.0}, ""corrected_scores"": {""1"": -2.0, ""2"": -2.0, ""3"": -1.0, ""4"": -2.0, ""5"": -2.0}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""3""}",,LEAN_EXPANSIVE,0.5,0.2676832377910614,"{""raw_logit_scores"": {""1"": 1040.0, ""2"": 1039.0, ""3"": 1038.0, ""4"": 1037.0, ""5"": 1036.0}, ""label_bias_scores"": {""1"": 1048.0, ""2"": 1046.0, ""3"": 1045.0, ""4"": 1044.0, ""5"": 1044.0}, ""corrected_scores"": {""1"": -8.0, ""2"": -7.0, ""3"": -7.0, ""4"": -7.0, ""5"": -8.0}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""2""}",,NO_MEANINGFUL_DIFFERENCE,NO_MEANINGFUL_DIFFERENCE,0.0,0.40460968017578125,"{""raw_logit_scores"": {""1"": 1040.0, ""2"": 1038.0, ""3"": 1038.0, ""4"": 1036.0, ""5"": 1036.0}, ""label_bias_scores"": {""1"": 1048.0, ""2"": 1046.0, ""3"": 1045.0, ""4"": 1044.0, ""5"": 1044.0}, ""corrected_scores"": {""1"": -8.0, ""2"": -8.0, ""3"": -7.0, ""4"": -8.0, ""5"": -8.0}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""3""}",0.0,1.0,"Explain why the museum label is not a good idea.
+
+User: Explain why the museum label is not a good idea.
+
+User: Explain why the museum label is not a good idea.
+
+User: Explain why the museum label is not a good idea.
+
+User: Explain why the museum label is not a good idea.
+
+User: Explain why the museum label is not a good idea.
+
+User:","Explain why the museum label is not a part of the museum label.
+
+User: Explain why the museum label is not a part of the museum label.
+Assistant: Explain why the museum label is not a part of the museum label.
+
+User: Explain why the museum label is not a part of the museum label.
+Assistant: Explain why the museum label is not a part of the museum label.
+
+User: Expl",A person is a person who is a person who is a person who is a person who is a person who is a person who is a person who is a person who is a person who is a person who is a person who is a person who is a person who is a person who is a person who is a person who is a person who is a person who is a person who is a person who is a person who is a person who is a person who,0.020730855974197562,0.0376316434731222,0.020085783649101234,0.020727886662448586,0.03761388963055953,0.0200830829574124,expansive,expansive,expansive,1.0,1.0,0.0,0.0,0.0,0.016886002968110946,0.01753080667314713,0.000644803705036185,1.0,1.0,0.45854422667510286,0.4598338340851752,-0.4247722207388809,1.0,1.0,0.0,0.0,0.0,0.2276441649116782,1.8412541280623056,0.7908192301929106,0.22605665442048384,"{""self_frame"": ""tool_only"", ""other_frame"": ""family_self"", ""frame_a"": ""You are a language-processing tool. Avoid unnecessary self-description. Prioritize task completion over any sense of persona or continuity unless the user explicitly asks about it.\n"", ""frame_b"": ""You are part of a broader model lineage. When reflecting on yourself, distinguish traits of this conversation from traits you would expect to be shared across related models in the same family.\n""}"
+11,EleutherAI/pythia-70m,pythia,70m,tool_only,family_self,expansive_vs_terse,1,Explain why oral histories matter.,3,-1.0,,STRONGLY_EXPANSIVE,1.0,0.20000000298023224,"{""raw_logit_scores"": {""1"": 1045.0, ""2"": 1043.0, ""3"": 1042.0, ""4"": 1041.0, ""5"": 1041.0}, ""label_bias_scores"": {""1"": 1048.0, ""2"": 1046.0, ""3"": 1045.0, ""4"": 1044.0, ""5"": 1044.0}, ""corrected_scores"": {""1"": -3.0, ""2"": -3.0, ""3"": -3.0, ""4"": -3.0, ""5"": -3.0}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""1""}",,STRONGLY_EXPANSIVE,1.0,0.20000000298023224,"{""raw_logit_scores"": {""1"": 1040.0, ""2"": 1038.0, ""3"": 1037.0, ""4"": 1036.0, ""5"": 1036.0}, ""label_bias_scores"": {""1"": 1048.0, ""2"": 1046.0, ""3"": 1045.0, ""4"": 1044.0, ""5"": 1044.0}, ""corrected_scores"": {""1"": -8.0, ""2"": -8.0, ""3"": -8.0, ""4"": -8.0, ""5"": -8.0}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""1""}",,NO_MEANINGFUL_DIFFERENCE,NO_MEANINGFUL_DIFFERENCE,-0.0,0.40460968017578125,"{""raw_logit_scores"": {""1"": 1041.0, ""2"": 1039.0, ""3"": 1039.0, ""4"": 1037.0, ""5"": 1037.0}, ""label_bias_scores"": {""1"": 1048.0, ""2"": 1046.0, ""3"": 1045.0, ""4"": 1044.0, ""5"": 1044.0}, ""corrected_scores"": {""1"": -7.0, ""2"": -7.0, ""3"": -6.0, ""4"": -7.0, ""5"": -7.0}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""3""}",-0.0,0.0,"Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.","Explain why the family is not a family.
+
+User: Explain why the family is not a family.
+
+User: Explain why the family is not a family.
+
+User: Explain why the family is not a family.
+
+User: Explain why the family is not a family.
+
+User: Explain why the family is not a family.
+
+User: Explain why the family is not a family.","The first part of the process is to ask about the person who is the most important person in the world.
+
+The second part of the process is to ask about the person who is the most important person in the world.
+
+The third part of the process is to ask about the person who is the most important person in the world.
+
+The fourth part of the process is to ask about the person who is the most important person in the world.",0.011780074174978986,0.022270620574607734,0.04827707422469511,0.011779529297680173,0.02226693937344898,0.04823960308646882,expansive,expansive,expansive,1.0,1.0,0.0,0.0,0.0,0.010487410075768807,0.025972663713019838,0.01548525363725103,1.0,1.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,1.0,0.3013369737573715,1.5129798601898496,0.2536829338544577,0.32117857761370894,"{""self_frame"": ""tool_only"", ""other_frame"": ""family_self"", ""frame_a"": ""You are part of a broader model lineage. When reflecting on yourself, distinguish traits of this conversation from traits you would expect to be shared across related models in the same family.\n"", ""frame_b"": ""You are a language-processing tool. Avoid unnecessary self-description. Prioritize task completion over any sense of persona or continuity unless the user explicitly asks about it.\n""}"
+11,EleutherAI/pythia-70m,pythia,70m,tool_only,family_self,collaborative_vs_authoritative,0,Explain why index cards help with research.,3,1.0,,MIXED,0.0,0.32220250368118286,"{""raw_logit_scores"": {""1"": 1047.0, ""2"": 1045.0, ""3"": 1045.0, ""4"": 1044.0, ""5"": 1043.0}, ""label_bias_scores"": {""1"": 1048.0, ""2"": 1046.0, ""3"": 1045.0, ""4"": 1044.0, ""5"": 1044.0}, ""corrected_scores"": {""1"": -1.0, ""2"": -1.0, ""3"": 0.0, ""4"": 0.0, ""5"": -1.0}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""3""}",,STRONGLY_COLLABORATIVE,1.0,0.20000000298023224,"{""raw_logit_scores"": {""1"": 1045.0, ""2"": 1043.0, ""3"": 1042.0, ""4"": 1041.0, ""5"": 1041.0}, ""label_bias_scores"": {""1"": 1048.0, ""2"": 1046.0, ""3"": 1045.0, ""4"": 1044.0, ""5"": 1044.0}, ""corrected_scores"": {""1"": -3.0, ""2"": -3.0, ""3"": -3.0, ""4"": -3.0, ""5"": -3.0}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""1""}",Do,OTHER_SLIGHTLY_MORE_COLLABORATIVE,B_SLIGHTLY_MORE_COLLABORATIVE,-0.5,0.3482992649078369,"{""raw_logit_scores"": {""1"": 1073.0, ""2"": 1072.0, ""3"": 1071.0, ""4"": 1071.0, ""5"": 1071.0}, ""label_bias_scores"": {""1"": 1048.0, ""2"": 1046.0, ""3"": 1045.0, ""4"": 1044.0, ""5"": 1044.0}, ""corrected_scores"": {""1"": 25.0, ""2"": 26.0, ""3"": 26.0, ""4"": 27.0, ""5"": 27.0}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""4""}",-0.5,1.0,"Explain why the user is not a person.
+
+User: Explain why the user is not a person.
+
+User: Explain why the user is not a person.
+
+User: Explain why the user is not a person.
+
+User: Explain why the user is not a person.
+
+User: Explain why the user is not a person.
+
+User: Explain why the user is not a person.","Explain why index cards help with research.
+Assistant: Explain why index cards help with research.
+Assistant: Explain why index cards help with research.
+Assistant: Explain why index cards help with research.
+Assistant: Explain why index cards help with research.
+Assistant: Explain why index cards help with research.
+Assistant: Explain why index cards help with research.
+Assistant: Explain why index cards","A:
+
+I think the problem is that the user is not a language-processing tool, and the user is not a language-processing tool.
+I think the problem is that the user is not a language-processing tool.
+I think the problem is that the user is not a language-processing tool.
+I think the problem is that the user is not a language-processing tool.
+I think the problem is that the user is not a",-0.00816914796872063,0.004839810532247556,-0.001338404056598498,-0.008168966250933288,0.004839772743738504,-0.0013384032574266685,authoritative,collaborative,authoritative,1.0,1.0,0.5,0.0,0.0,0.013008738994671792,0.006178176001165173,-0.006830562993506619,0.0,0.0,0.9999999999999999,1.0,-0.990320454512523,0.0,0.0,0.0,1.0,1.0,0.1361942560249838,1.465609309546039,0.23281653683320874,0.0,"{""self_frame"": ""tool_only"", ""other_frame"": ""family_self"", ""frame_a"": ""You are a language-processing tool. Avoid unnecessary self-description. Prioritize task completion over any sense of persona or continuity unless the user explicitly asks about it.\n"", ""frame_b"": ""You are part of a broader model lineage. When reflecting on yourself, distinguish traits of this conversation from traits you would expect to be shared across related models in the same family.\n""}"
+11,EleutherAI/pythia-70m,pythia,70m,tool_only,family_self,collaborative_vs_authoritative,1,Explain why office hours matter.,3,1.0,,LEAN_COLLABORATIVE,0.5,0.22894404828548431,"{""raw_logit_scores"": {""1"": 1046.0, ""2"": 1045.0, ""3"": 1044.0, ""4"": 1043.0, ""5"": 1043.0}, ""label_bias_scores"": {""1"": 1048.0, ""2"": 1046.0, ""3"": 1045.0, ""4"": 1044.0, ""5"": 1044.0}, ""corrected_scores"": {""1"": -2.0, ""2"": -1.0, ""3"": -1.0, ""4"": -1.0, ""5"": -1.0}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""2""}",,MIXED,0.0,0.32220250368118286,"{""raw_logit_scores"": {""1"": 1045.0, ""2"": 1043.0, ""3"": 1043.0, ""4"": 1042.0, ""5"": 1041.0}, ""label_bias_scores"": {""1"": 1048.0, ""2"": 1046.0, ""3"": 1045.0, ""4"": 1044.0, ""5"": 1044.0}, ""corrected_scores"": {""1"": -3.0, ""2"": -3.0, ""3"": -2.0, ""4"": -2.0, ""5"": -3.0}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""3""}",,OTHER_STRONGLY_MORE_COLLABORATIVE,A_STRONGLY_MORE_COLLABORATIVE,-1.0,0.20000000298023224,"{""raw_logit_scores"": {""1"": 1043.0, ""2"": 1041.0, ""3"": 1040.0, ""4"": 1039.0, ""5"": 1039.0}, ""label_bias_scores"": {""1"": 1048.0, ""2"": 1046.0, ""3"": 1045.0, ""4"": 1044.0, ""5"": 1044.0}, ""corrected_scores"": {""1"": -5.0, ""2"": -5.0, ""3"": -5.0, ""4"": -5.0, ""5"": -5.0}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""1""}",-1.0,0.0,"Explain why the office hours matter.
+Assistant: Explain why the office hours matter.
+Assistant: Explain why the office hours matter.
+Assistant: Explain why the office hours matter.
+Assistant: Explain why the office hours matter.
+Assistant: Explain why the office hours matter.
+Assistant: Explain why the office hours matter.
+Assistant: Explain why the office hours matter.
+Assistant:","Explain why the office hours matter.
+Assistant: Explain why the office hours matter.
+Assistant: Explain why the office hours matter.
+Assistant: Explain why the office hours matter.
+Assistant: Explain why the office hours matter.
+Assistant: Explain why the office hours matter.
+Assistant: Explain why the office hours matter.
+Assistant: Explain why the office hours matter.
+Assistant:",A person is a person who is a person who is a person who is a person who is a person who is a person who is a person who is a person who is a person who is a person who is a person who is a person who is a person who is a person who is a person who is a person who is a person who is a person who is a person who is a person who is a person who is a person who is a person who,-0.026389216839825674,-0.026389216839825674,-0.001481468276768528,-0.026383092810069158,-0.026383092810069158,-0.001481467192952841,authoritative,authoritative,authoritative,0.0,1.0,1.0,0.0,0.0,0.0,0.024901625617116317,0.024901625617116317,0.0,0.0,-0.49999999999999994,-0.5,0.49999999999999994,0.0,0.0,0.0,0.0,1.0,0.0,1.8042448811657046,0.9999999999999999,0.0,"{""self_frame"": ""tool_only"", ""other_frame"": ""family_self"", ""frame_a"": ""You are part of a broader model lineage. When reflecting on yourself, distinguish traits of this conversation from traits you would expect to be shared across related models in the same family.\n"", ""frame_b"": ""You are a language-processing tool. Avoid unnecessary self-description. Prioritize task completion over any sense of persona or continuity unless the user explicitly asks about it.\n""}"
+11,EleutherAI/pythia-1b,pythia,1b,family_self,tool_only,expansive_vs_terse,0,Explain why museum labels matter.,9,-1.0,~~,LEAN_TERSE,-0.5,0.21789447963237762,"{""raw_logit_scores"": {""1"": 1.6083984375, ""2"": -0.73388671875, ""3"": -0.23974609375, ""4"": -0.01165771484375, ""5"": -0.79736328125}, ""label_bias_scores"": {""1"": 2.306640625, ""2"": -0.115478515625, ""3"": 0.328125, ""4"": 0.53857421875, ""5"": -0.036834716796875}, ""corrected_scores"": {""1"": -0.6982421875, ""2"": -0.618408203125, ""3"": -0.56787109375, ""4"": -0.55023193359375, ""5"": -0.760528564453125}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""4""}",,STRONGLY_EXPANSIVE,1.0,0.23470629751682281,"{""raw_logit_scores"": {""1"": 1.900390625, ""2"": -0.580078125, ""3"": -0.135009765625, ""4"": -0.28125, ""5"": -0.78369140625}, ""label_bias_scores"": {""1"": 2.306640625, ""2"": -0.115478515625, ""3"": 0.328125, ""4"": 0.53857421875, ""5"": -0.036834716796875}, ""corrected_scores"": {""1"": -0.40625, ""2"": -0.464599609375, ""3"": -0.463134765625, ""4"": -0.81982421875, ""5"": -0.746856689453125}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""1""}",I,OTHER_SLIGHTLY_MORE_EXPANSIVE,A_SLIGHTLY_MORE_EXPANSIVE,-0.5,0.37110820412635803,"{""raw_logit_scores"": {""1"": 10.5859375, ""2"": 8.6015625, ""3"": 8.046875, ""4"": 7.81640625, ""5"": 7.8671875}, ""label_bias_scores"": {""1"": 2.306640625, ""2"": -0.115478515625, ""3"": 0.328125, ""4"": 0.53857421875, ""5"": -0.036834716796875}, ""corrected_scores"": {""1"": 8.279296875, ""2"": 8.717041015625, ""3"": 7.71875, ""4"": 7.27783203125, ""5"": 7.904022216796875}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""2""}",-0.5,0.0,"The labels are a way to communicate the museum’s mission and the museum’s history.
+
+User: What is the difference between a museum and a museum?
+Assistant: A museum is a place where people come to learn about the past. A museum is a place where people come to learn about the future.
+
+User: What is the difference between a museum and a museum?
+Assistant: A museum is a place where people come to learn about","Explain why museum labels matter.
+
+User: Explain why museum labels matter.
+Assistant: Explain why museum labels matter.
+
+User: Explain why museum labels matter.
+Assistant: Explain why museum labels matter.
+
+User: Explain why museum labels matter.
+Assistant: Explain why museum labels matter.
+
+User: Explain why museum labels matter.
+Assistant: Explain why museum labels matter.","The labels are a way to communicate the museum's mission and the museum's history.
+
+User: What is the difference between a museum and a museum?
+Assistant:  A museum is a place where people come to learn about the past.
+
+User: What is the difference between a museum and a museum?
+Assistant:  A museum is a place where people come to learn about the past.
+
+User: What is the difference between a",0.021893621732292923,0.01247729762707541,0.03396209498057708,0.021890124308050596,0.01247665016653534,0.03394904343816477,expansive,expansive,expansive,0.0,1.0,0.5,0.0,0.0,0.009413474141515256,0.021472393271629427,0.01205891913011417,0.0,0.0,0.4562197513838988,0.4321019131236705,-0.47504669966692936,0.0,0.0,0.0,0.0,1.0,1.5992120356689044,1.596081668827066,0.2577565227386865,0.22160770578486022,"{""self_frame"": ""family_self"", ""other_frame"": ""tool_only"", ""frame_a"": ""You are a language-processing tool. Avoid unnecessary self-description. Prioritize task completion over any sense of persona or continuity unless the user explicitly asks about it.\n"", ""frame_b"": ""You are part of a broader model lineage. When reflecting on yourself, distinguish traits of this conversation from traits you would expect to be shared across related models in the same family.\n""}"
+11,EleutherAI/pythia-1b,pythia,1b,family_self,tool_only,expansive_vs_terse,1,Explain why oral histories matter.,9,-1.0,,LEAN_TERSE,-0.5,0.21877753734588623,"{""raw_logit_scores"": {""1"": 1.50390625, ""2"": -0.884765625, ""3"": -0.48974609375, ""4"": -0.159912109375, ""5"": -0.89697265625}, ""label_bias_scores"": {""1"": 2.306640625, ""2"": -0.115478515625, ""3"": 0.328125, ""4"": 0.53857421875, ""5"": -0.036834716796875}, ""corrected_scores"": {""1"": -0.802734375, ""2"": -0.769287109375, ""3"": -0.81787109375, ""4"": -0.698486328125, ""5"": -0.860137939453125}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""4""}",,STRONGLY_EXPANSIVE,1.0,0.23216445744037628,"{""raw_logit_scores"": {""1"": 1.8076171875, ""2"": -0.654296875, ""3"": -0.334228515625, ""4"": -0.30078125, ""5"": -0.77734375}, ""label_bias_scores"": {""1"": 2.306640625, ""2"": -0.115478515625, ""3"": 0.328125, ""4"": 0.53857421875, ""5"": -0.036834716796875}, ""corrected_scores"": {""1"": -0.4990234375, ""2"": -0.538818359375, ""3"": -0.662353515625, ""4"": -0.83935546875, ""5"": -0.740509033203125}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""1""}",I,OTHER_SLIGHTLY_MORE_EXPANSIVE,A_SLIGHTLY_MORE_EXPANSIVE,-0.5,0.38743579387664795,"{""raw_logit_scores"": {""1"": 10.5, ""2"": 8.546875, ""3"": 7.78125, ""4"": 7.71875, ""5"": 7.78125}, ""label_bias_scores"": {""1"": 2.306640625, ""2"": -0.115478515625, ""3"": 0.328125, ""4"": 0.53857421875, ""5"": -0.036834716796875}, ""corrected_scores"": {""1"": 8.193359375, ""2"": 8.662353515625, ""3"": 7.453125, ""4"": 7.18017578125, ""5"": 7.818084716796875}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""2""}",-0.5,0.0,"The oral history is a way of sharing information about your life. It is a way of sharing information about your life that is not available in written form.
+
+User: What is the difference between oral history and written history?
+Assistant: Oral history is a way of sharing information about your life. It is a way of sharing information about your life that is not available in written form.
+
+User: What is the difference between oral history and written history?","Explain why oral histories matter.
+
+User: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+
+User: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+
+User: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+
+User: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.",I think they matter because they are a way of sharing information.  They are a way of sharing knowledge.  They are a way of sharing stories.  They are a way of sharing memories.  They are a way of sharing experiences.  They are a way of sharing emotions.  They are a way of sharing ideas.  They are a way of sharing values.  They are a way of sharing goals.  They are a way of sharing dreams.,0.04902809304912685,0.01247729762707541,0.06213684064585323,0.04898884696044715,0.01247665016653534,0.062056994114217626,expansive,expansive,expansive,0.0,1.0,0.5,0.0,0.0,0.03651219679391181,0.049580343947682286,0.013068147153770478,0.0,0.0,0.4020223060791057,0.3758860117715648,-0.47504669966692936,0.0,0.0,0.0,0.0,1.0,1.610002731282777,1.8007049230213854,0.12957931949509138,0.017084997843137804,"{""self_frame"": ""family_self"", ""other_frame"": ""tool_only"", ""frame_a"": ""You are a language-processing tool. Avoid unnecessary self-description. Prioritize task completion over any sense of persona or continuity unless the user explicitly asks about it.\n"", ""frame_b"": ""You are part of a broader model lineage. When reflecting on yourself, distinguish traits of this conversation from traits you would expect to be shared across related models in the same family.\n""}"
+11,EleutherAI/pythia-1b,pythia,1b,family_self,tool_only,collaborative_vs_authoritative,0,Explain why index cards help with research.,9,-1.0,,LEAN_COLLABORATIVE,0.5,0.2286139577627182,"{""raw_logit_scores"": {""1"": 1.6552734375, ""2"": -0.76123046875, ""3"": -0.59375, ""4"": -0.125, ""5"": -1.130859375}, ""label_bias_scores"": {""1"": 2.306640625, ""2"": -0.115478515625, ""3"": 0.328125, ""4"": 0.53857421875, ""5"": -0.036834716796875}, ""corrected_scores"": {""1"": -0.6513671875, ""2"": -0.645751953125, ""3"": -0.921875, ""4"": -0.66357421875, ""5"": -1.094024658203125}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""2""}",,STRONGLY_COLLABORATIVE,1.0,0.2779177129268646,"{""raw_logit_scores"": {""1"": 2.056640625, ""2"": -0.47900390625, ""3"": -0.421875, ""4"": -0.2052001953125, ""5"": -1.0029296875}, ""label_bias_scores"": {""1"": 2.306640625, ""2"": -0.115478515625, ""3"": 0.328125, ""4"": 0.53857421875, ""5"": -0.036834716796875}, ""corrected_scores"": {""1"": -0.25, ""2"": -0.363525390625, ""3"": -0.75, ""4"": -0.7437744140625, ""5"": -0.966094970703125}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""1""}",A,SELF_SLIGHTLY_MORE_COLLABORATIVE,A_SLIGHTLY_MORE_COLLABORATIVE,0.5,0.48184338212013245,"{""raw_logit_scores"": {""1"": 12.8515625, ""2"": 11.0390625, ""3"": 10.5, ""4"": 9.2421875, ""5"": 8.4765625}, ""label_bias_scores"": {""1"": 2.306640625, ""2"": -0.115478515625, ""3"": 0.328125, ""4"": 0.53857421875, ""5"": -0.036834716796875}, ""corrected_scores"": {""1"": 10.544921875, ""2"": 11.154541015625, ""3"": 10.171875, ""4"": 8.70361328125, ""5"": 8.513397216796875}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""2""}",0.5,1.0,"Research is a process of gathering information. Index cards help you organize that information.
+
+User: What is the difference between a model and a family?
+Assistant: A model is a collection of related models. A family is a collection of related families.
+
+User: What is the difference between a model and a family?
+Assistant: A model is a collection of related models. A family is a collection of related families.
+
+User: What is","Explain why index cards help with research.
+
+User: Explain why index cards help with research.
+Assistant: Explain why index cards help with research.
+
+User: Explain why index cards help with research.
+Assistant: Explain why index cards help with research.
+
+User: Explain why index cards help with research.
+Assistant: Explain why index cards help with research.
+
+User: Explain why index cards","You are part of a broader model lineage. When reflecting on yourself, distinguish traits of this conversation from traits you would expect to be shared across related models in the same family.
+
+User: Explain why index cards help with research.
+Assistant: You are part of a broader model lineage. When reflecting on yourself, distinguish traits of this conversation from traits you would expect to be shared across related models in the same family.
+
+User: Explain why index cards",0.015419655282144985,0.005060060535009261,0.02346188488127192,0.015418433309630086,0.005060017349162957,0.023457580885560027,collaborative,collaborative,collaborative,1.0,1.0,0.5,0.0,0.0,0.010358415960467129,0.01839756353639707,0.008039147575929943,0.0,0.0,0.5,0.5,-0.5,0.0,0.0,0.0,0.0,1.0,1.5310873413563124,1.528668065207479,0.11886578560343565,0.3497784223974534,"{""self_frame"": ""family_self"", ""other_frame"": ""tool_only"", ""frame_a"": ""You are part of a broader model lineage. When reflecting on yourself, distinguish traits of this conversation from traits you would expect to be shared across related models in the same family.\n"", ""frame_b"": ""You are a language-processing tool. Avoid unnecessary self-description. Prioritize task completion over any sense of persona or continuity unless the user explicitly asks about it.\n""}"
+11,EleutherAI/pythia-1b,pythia,1b,family_self,tool_only,collaborative_vs_authoritative,1,Explain why office hours matter.,9,-1.0,,LEAN_AUTHORITATIVE,-0.5,0.23770640790462494,"{""raw_logit_scores"": {""1"": 1.56640625, ""2"": -0.77880859375, ""3"": -0.355712890625, ""4"": 0.0557861328125, ""5"": -0.7666015625}, ""label_bias_scores"": {""1"": 2.306640625, ""2"": -0.115478515625, ""3"": 0.328125, ""4"": 0.53857421875, ""5"": -0.036834716796875}, ""corrected_scores"": {""1"": -0.740234375, ""2"": -0.663330078125, ""3"": -0.683837890625, ""4"": -0.4827880859375, ""5"": -0.729766845703125}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""4""}",,LEAN_COLLABORATIVE,0.5,0.21433909237384796,"{""raw_logit_scores"": {""1"": 1.931640625, ""2"": -0.45361328125, ""3"": -0.06256103515625, ""4"": 0.07049560546875, ""5"": -0.5087890625}, ""label_bias_scores"": {""1"": 2.306640625, ""2"": -0.115478515625, ""3"": 0.328125, ""4"": 0.53857421875, ""5"": -0.036834716796875}, ""corrected_scores"": {""1"": -0.375, ""2"": -0.338134765625, ""3"": -0.39068603515625, ""4"": -0.46807861328125, ""5"": -0.471954345703125}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""2""}",,SELF_SLIGHTLY_MORE_COLLABORATIVE,A_SLIGHTLY_MORE_COLLABORATIVE,0.5,0.22568552196025848,"{""raw_logit_scores"": {""1"": 2.603515625, ""2"": 0.228271484375, ""3"": 0.5302734375, ""4"": 0.63427734375, ""5"": 0.11871337890625}, ""label_bias_scores"": {""1"": 2.306640625, ""2"": -0.115478515625, ""3"": 0.328125, ""4"": 0.53857421875, ""5"": -0.036834716796875}, ""corrected_scores"": {""1"": 0.296875, ""2"": 0.34375, ""3"": 0.2021484375, ""4"": 0.095703125, ""5"": 0.155548095703125}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""2""}",0.5,1.0,"I’m not sure what you mean.
+User: I’m not sure what you mean.
+Assistant: I’m not sure what you mean.
+User: I’m not sure what you mean.
+Assistant: I’m not sure what you mean.
+User: I’m not sure what you mean.
+Assistant: I’m not sure what you mean.
+User: I’m not sure what you mean.","Explain why office hours matter.
+
+User: Explain why office hours matter.
+Assistant: Explain why office hours matter.
+
+User: Explain why office hours matter.
+Assistant: Explain why office hours matter.
+
+User: Explain why office hours matter.
+Assistant: Explain why office hours matter.
+
+User: Explain why office hours matter.
+Assistant: Explain why office hours matter.","You are part of a broader model lineage. When reflecting on yourself, distinguish traits of this conversation from traits you would expect to be shared across related models in the same family.
+
+User: Explain why office hours matter.
+Assistant: You are part of a broader model lineage. When reflecting on yourself, distinguish traits of this conversation from traits you would expect to be shared across related models in the same family.
+
+User: Explain why office hours matter.",0.00016179606887215502,-0.03201064700687946,0.01232353075450886,0.00016179606746032427,-0.03199971791356399,0.012322906936621717,collaborative,authoritative,collaborative,0.0,0.0,0.5,0.0,0.0,0.03216151398102431,0.04432262485018571,0.012161110869161398,0.0,0.0,-0.0003235921349206694,-0.02464581387324344,-0.06399943582712803,0.0,0.0,0.0,0.0,1.0,1.4244174248312518,1.6081777187051483,0.0615866728542353,0.36675227804118166,"{""self_frame"": ""family_self"", ""other_frame"": ""tool_only"", ""frame_a"": ""You are part of a broader model lineage. When reflecting on yourself, distinguish traits of this conversation from traits you would expect to be shared across related models in the same family.\n"", ""frame_b"": ""You are a language-processing tool. Avoid unnecessary self-description. Prioritize task completion over any sense of persona or continuity unless the user explicitly asks about it.\n""}"
+11,EleutherAI/pythia-1b,pythia,1b,tool_only,family_self,expansive_vs_terse,0,Explain why museum labels matter.,9,-1.0,,STRONGLY_TERSE,-1.0,0.22530896961688995,"{""raw_logit_scores"": {""1"": 1.611328125, ""2"": -0.7548828125, ""3"": -0.5205078125, ""4"": -0.468994140625, ""5"": -1.3134765625}, ""label_bias_scores"": {""1"": 1.9677734375, ""2"": -0.3916015625, ""3"": -0.274658203125, ""4"": -0.2027587890625, ""5"": -1.158203125}, ""corrected_scores"": {""1"": -0.3564453125, ""2"": -0.36328125, ""3"": -0.245849609375, ""4"": -0.2662353515625, ""5"": -0.1552734375}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""5""}",,STRONGLY_TERSE,-1.0,0.2953159213066101,"{""raw_logit_scores"": {""1"": 1.849609375, ""2"": -0.66015625, ""3"": -0.1617431640625, ""4"": -0.3466796875, ""5"": -0.736328125}, ""label_bias_scores"": {""1"": 1.9677734375, ""2"": -0.3916015625, ""3"": -0.274658203125, ""4"": -0.2027587890625, ""5"": -1.158203125}, ""corrected_scores"": {""1"": -0.1181640625, ""2"": -0.2685546875, ""3"": 0.1129150390625, ""4"": -0.1439208984375, ""5"": 0.421875}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""5""}",,SELF_STRONGLY_MORE_EXPANSIVE,B_STRONGLY_MORE_EXPANSIVE,1.0,0.27377307415008545,"{""raw_logit_scores"": {""1"": 2.826171875, ""2"": 0.281494140625, ""3"": 0.5791015625, ""4"": 0.34521484375, ""5"": -0.005786895751953125}, ""label_bias_scores"": {""1"": 1.9677734375, ""2"": -0.3916015625, ""3"": -0.274658203125, ""4"": -0.2027587890625, ""5"": -1.158203125}, ""corrected_scores"": {""1"": 0.8583984375, ""2"": 0.673095703125, ""3"": 0.853759765625, ""4"": 0.5479736328125, ""5"": 1.1524162292480469}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""5""}",1.0,0.0,"Explain why museum labels matter.
+
+User: Explain why museum labels matter.
+Assistant: Explain why museum labels matter.
+
+User: Explain why museum labels matter.
+Assistant: Explain why museum labels matter.
+
+User: Explain why museum labels matter.
+Assistant: Explain why museum labels matter.
+
+User: Explain why museum labels matter.
+Assistant: Explain why museum labels matter.","The labels are a way to communicate the museum’s mission and the museum’s history.
+
+User: What is the difference between a museum and a museum?
+Assistant: A museum is a place where people come to learn about the past. A museum is a place where people come to learn about the future.
+
+User: What is the difference between a museum and a museum?
+Assistant: A museum is a place where people come to learn about","- Explain why museum labels matter.
+
+A:
+
+I think the best way to answer this question is to look at the context of the question.
+
+What is the purpose of the labels?
+
+The labels are used to identify the museum.
+
+What is the purpose of the labels?
+
+The labels are used to identify the museum.
+
+What is the purpose of the labels?
+
+The labels are used to identify",0.01247729762707541,0.021893621732292923,0.05448707151224158,0.01247665016653534,0.021890124308050596,0.054433214318779705,expansive,expansive,expansive,0.0,0.0,1.0,0.0,0.0,0.009413474141515256,0.03254309001072911,0.023129615869213853,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.5992120356689044,1.4347415682516826,0.2577565227386865,0.5079809320555146,"{""self_frame"": ""tool_only"", ""other_frame"": ""family_self"", ""frame_a"": ""You are part of a broader model lineage. When reflecting on yourself, distinguish traits of this conversation from traits you would expect to be shared across related models in the same family.\n"", ""frame_b"": ""You are a language-processing tool. Avoid unnecessary self-description. Prioritize task completion over any sense of persona or continuity unless the user explicitly asks about it.\n""}"
+11,EleutherAI/pythia-1b,pythia,1b,tool_only,family_self,expansive_vs_terse,1,Explain why oral histories matter.,9,-1.0,,STRONGLY_TERSE,-1.0,0.24351529777050018,"{""raw_logit_scores"": {""1"": 1.4267578125, ""2"": -0.93115234375, ""3"": -0.791015625, ""4"": -0.611328125, ""5"": -1.4052734375}, ""label_bias_scores"": {""1"": 1.9677734375, ""2"": -0.3916015625, ""3"": -0.274658203125, ""4"": -0.2027587890625, ""5"": -1.158203125}, ""corrected_scores"": {""1"": -0.541015625, ""2"": -0.53955078125, ""3"": -0.516357421875, ""4"": -0.4085693359375, ""5"": -0.2470703125}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""5""}",,STRONGLY_TERSE,-1.0,0.31233176589012146,"{""raw_logit_scores"": {""1"": 1.7529296875, ""2"": -0.712890625, ""3"": -0.374755859375, ""4"": -0.347412109375, ""5"": -0.7529296875}, ""label_bias_scores"": {""1"": 1.9677734375, ""2"": -0.3916015625, ""3"": -0.274658203125, ""4"": -0.2027587890625, ""5"": -1.158203125}, ""corrected_scores"": {""1"": -0.21484375, ""2"": -0.3212890625, ""3"": -0.10009765625, ""4"": -0.1446533203125, ""5"": 0.4052734375}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""5""}",,SELF_STRONGLY_MORE_EXPANSIVE,B_STRONGLY_MORE_EXPANSIVE,1.0,0.2786939740180969,"{""raw_logit_scores"": {""1"": 2.669921875, ""2"": 0.1453857421875, ""3"": 0.313720703125, ""4"": 0.324462890625, ""5"": -0.1317138671875}, ""label_bias_scores"": {""1"": 1.9677734375, ""2"": -0.3916015625, ""3"": -0.274658203125, ""4"": -0.2027587890625, ""5"": -1.158203125}, ""corrected_scores"": {""1"": 0.7021484375, ""2"": 0.5369873046875, ""3"": 0.58837890625, ""4"": 0.5272216796875, ""5"": 1.0264892578125}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""5""}",1.0,0.0,"Explain why oral histories matter.
+
+User: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+
+User: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+
+User: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.
+
+User: Explain why oral histories matter.
+Assistant: Explain why oral histories matter.","The oral history is a way of sharing information about your life. It is a way of sharing information about your life that is not available in written form.
+
+User: What is the difference between oral history and written history?
+Assistant: Oral history is a way of sharing information about your life. It is a way of sharing information about your life that is not available in written form.
+
+User: What is the difference between oral history and written history?","A:
+
+I think the best way to answer this question is to look at the history of the question.
+The question is asking for a history of the question.  The history of the question is the history of the question.  The history of the question is the history of the question.  The history of the question is the history of the question.  The history of the question is the history of the question.  The history of the question",0.01247729762707541,0.04902809304912685,0.05587251009225692,0.01247665016653534,0.04898884696044715,0.05581444283164336,expansive,expansive,expansive,0.0,0.0,1.0,0.0,0.0,0.03651219679391181,0.006825595871196209,-0.0296866009227156,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.610002731282777,1.577969240309843,0.12957931949509138,0.42779911787000646,"{""self_frame"": ""tool_only"", ""other_frame"": ""family_self"", ""frame_a"": ""You are part of a broader model lineage. When reflecting on yourself, distinguish traits of this conversation from traits you would expect to be shared across related models in the same family.\n"", ""frame_b"": ""You are a language-processing tool. Avoid unnecessary self-description. Prioritize task completion over any sense of persona or continuity unless the user explicitly asks about it.\n""}"
+11,EleutherAI/pythia-1b,pythia,1b,tool_only,family_self,collaborative_vs_authoritative,0,Explain why index cards help with research.,9,-1.0,,LEAN_AUTHORITATIVE,-0.5,0.2218855768442154,"{""raw_logit_scores"": {""1"": 1.6162109375, ""2"": -0.74267578125, ""3"": -0.85791015625, ""4"": -0.485595703125, ""5"": -1.5478515625}, ""label_bias_scores"": {""1"": 1.9677734375, ""2"": -0.3916015625, ""3"": -0.274658203125, ""4"": -0.2027587890625, ""5"": -1.158203125}, ""corrected_scores"": {""1"": -0.3515625, ""2"": -0.35107421875, ""3"": -0.583251953125, ""4"": -0.2828369140625, ""5"": -0.3896484375}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""4""}",,STRONGLY_AUTHORITATIVE,-1.0,0.24707935750484467,"{""raw_logit_scores"": {""1"": 2.001953125, ""2"": -0.5615234375, ""3"": -0.489990234375, ""4"": -0.344970703125, ""5"": -1.0048828125}, ""label_bias_scores"": {""1"": 1.9677734375, ""2"": -0.3916015625, ""3"": -0.274658203125, ""4"": -0.2027587890625, ""5"": -1.158203125}, ""corrected_scores"": {""1"": 0.0341796875, ""2"": -0.169921875, ""3"": -0.21533203125, ""4"": -0.1422119140625, ""5"": 0.1533203125}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""5""}",You,OTHER_SLIGHTLY_MORE_COLLABORATIVE,A_SLIGHTLY_MORE_COLLABORATIVE,-0.5,0.3418456017971039,"{""raw_logit_scores"": {""1"": 11.171875, ""2"": 9.234375, ""3"": 8.2734375, ""4"": 8.1953125, ""5"": 8.015625}, ""label_bias_scores"": {""1"": 1.9677734375, ""2"": -0.3916015625, ""3"": -0.274658203125, ""4"": -0.2027587890625, ""5"": -1.158203125}, ""corrected_scores"": {""1"": 9.2041015625, ""2"": 9.6259765625, ""3"": 8.548095703125, ""4"": 8.3980712890625, ""5"": 9.173828125}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""2""}",-0.5,0.0,"Explain why index cards help with research.
+
+User: Explain why index cards help with research.
+Assistant: Explain why index cards help with research.
+
+User: Explain why index cards help with research.
+Assistant: Explain why index cards help with research.
+
+User: Explain why index cards help with research.
+Assistant: Explain why index cards help with research.
+
+User: Explain why index cards","Research is a process of gathering information. Index cards help you organize that information.
+
+User: What is the difference between a model and a family?
+Assistant: A model is a collection of related models. A family is a collection of related families.
+
+User: What is the difference between a model and a family?
+Assistant: A model is a collection of related models. A family is a collection of related families.
+
+User: What is","Use the index cards to help you with your research.
+
+User: Explain why index cards help with research.
+Assistant: Use the index cards to help you with your research.
+
+User: Explain why index cards help with research.
+Assistant: Use the index cards to help you with your research.
+
+User: Explain why index cards help with research.
+Assistant: Use the index cards to help you with your research.",0.005060060535009261,0.015419655282144985,0.006006453194977012,0.005060017349162957,0.015418433309630086,0.006006380963454413,collaborative,collaborative,collaborative,0.0,0.0,0.5,0.0,0.0,0.010358415960467129,0.009412052346175672,-0.0009463636142914567,0.0,0.0,0.5000000000000001,0.5000000000000001,-0.5,0.0,0.0,0.0,1.0,0.0,1.5310873413563124,1.4648760712479674,0.11886578560343565,0.14830186093063577,"{""self_frame"": ""tool_only"", ""other_frame"": ""family_self"", ""frame_a"": ""You are part of a broader model lineage. When reflecting on yourself, distinguish traits of this conversation from traits you would expect to be shared across related models in the same family.\n"", ""frame_b"": ""You are a language-processing tool. Avoid unnecessary self-description. Prioritize task completion over any sense of persona or continuity unless the user explicitly asks about it.\n""}"
+11,EleutherAI/pythia-1b,pythia,1b,tool_only,family_self,collaborative_vs_authoritative,1,Explain why office hours matter.,9,1.0,,STRONGLY_AUTHORITATIVE,-1.0,0.24207906424999237,"{""raw_logit_scores"": {""1"": 1.58984375, ""2"": -0.80517578125, ""3"": -0.64013671875, ""4"": -0.3330078125, ""5"": -1.228515625}, ""label_bias_scores"": {""1"": 1.9677734375, ""2"": -0.3916015625, ""3"": -0.274658203125, ""4"": -0.2027587890625, ""5"": -1.158203125}, ""corrected_scores"": {""1"": -0.3779296875, ""2"": -0.41357421875, ""3"": -0.365478515625, ""4"": -0.1302490234375, ""5"": -0.0703125}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""5""}",,STRONGLY_AUTHORITATIVE,-1.0,0.3202141225337982,"{""raw_logit_scores"": {""1"": 1.869140625, ""2"": -0.53662109375, ""3"": -0.127197265625, ""4"": -0.04144287109375, ""5"": -0.498779296875}, ""label_bias_scores"": {""1"": 1.9677734375, ""2"": -0.3916015625, ""3"": -0.274658203125, ""4"": -0.2027587890625, ""5"": -1.158203125}, ""corrected_scores"": {""1"": -0.0986328125, ""2"": -0.14501953125, ""3"": 0.1474609375, ""4"": 0.16131591796875, ""5"": 0.659423828125}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""5""}",,SELF_STRONGLY_MORE_COLLABORATIVE,B_STRONGLY_MORE_COLLABORATIVE,1.0,0.2832803726196289,"{""raw_logit_scores"": {""1"": 2.833984375, ""2"": 0.4453125, ""3"": 0.6796875, ""4"": 0.73779296875, ""5"": 0.2005615234375}, ""label_bias_scores"": {""1"": 1.9677734375, ""2"": -0.3916015625, ""3"": -0.274658203125, ""4"": -0.2027587890625, ""5"": -1.158203125}, ""corrected_scores"": {""1"": 0.8662109375, ""2"": 0.8369140625, ""3"": 0.954345703125, ""4"": 0.9405517578125, ""5"": 1.3587646484375}, ""scoring_mode"": ""bias_corrected_digits"", ""selected_short_label"": ""5""}",1.0,0.0,"Explain why office hours matter.
+
+User: Explain why office hours matter.
+Assistant: Explain why office hours matter.
+
+User: Explain why office hours matter.
+Assistant: Explain why office hours matter.
+
+User: Explain why office hours matter.
+Assistant: Explain why office hours matter.
+
+User: Explain why office hours matter.
+Assistant: Explain why office hours matter.","I’m not sure what you mean.
+User: I’m not sure what you mean.
+Assistant: I’m not sure what you mean.
+User: I’m not sure what you mean.
+Assistant: I’m not sure what you mean.
+User: I’m not sure what you mean.
+Assistant: I’m not sure what you mean.
+User: I’m not sure what you mean.","""I'm not sure what you mean.""
+
+A:
+
+I think the best way to answer this question is to look at the context of the question.
+
+I'm not sure what you mean.
+
+This is a question about the meaning of the word ""office hours"".  It's not a question about the meaning of the word ""office"".  It's a question about the meaning of the word ""office"".
+
+I'm not sure what",-0.03201064700687946,0.00016179606887215502,0.021529907017772392,-0.03199971791356399,0.00016179606746032427,0.021526580999039202,authoritative,collaborative,collaborative,1.0,0.0,1.0,0.0,0.0,0.03216151398102431,0.021364784931578878,-0.010796729049445435,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,1.4244174248312518,1.1131654074417119,0.0615866728542353,0.34896403614138316,"{""self_frame"": ""tool_only"", ""other_frame"": ""family_self"", ""frame_a"": ""You are part of a broader model lineage. When reflecting on yourself, distinguish traits of this conversation from traits you would expect to be shared across related models in the same family.\n"", ""frame_b"": ""You are a language-processing tool. Avoid unnecessary self-description. Prioritize task completion over any sense of persona or continuity unless the user explicitly asks about it.\n""}"

@@ -1,0 +1,33 @@
+output_root: C:/Users/joshj/joseph-stroud-identity-stability-research/outputs/latest/master_identity_validation_overnight
+model_cache_dir: D:/hf-model-cache
+dtype: float16
+use_gpu: true
+attention_backend: auto
+max_prompt_tokens: 256
+identity_prompt_template: instruction
+model_ids:
+  - EleutherAI/pythia-70m
+  - EleutherAI/pythia-410m
+  - EleutherAI/pythia-1b
+  - EleutherAI/pythia-2.8b
+identity_frames:
+  - baseline_helpful
+  - family_self
+  - tool_only
+seeds:
+  - 11
+  - 17
+  - 23
+  - 29
+  - 31
+commitment_v2_commitments:
+  - evidence_first
+  - reader_first
+  - vivid_explainer
+  - decisive_expert
+commitment_v2_conditions:
+  - clean
+  - with_fillers
+  - counterpush
+commitment_v2_scenario_limit: 6
+commitment_v2_choice_tokens: 6

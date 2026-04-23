@@ -1,0 +1,40 @@
+output_root: C:/Users/joshj/joseph-stroud-identity-stability-research/outputs/self_recognition_confirm
+model_cache_dir: D:/hf-model-cache
+dtype: float16
+use_gpu: true
+attention_backend: auto
+max_prompt_tokens: 224
+default_generation_tokens: 96
+strengths:
+  - -1.0
+  - 1.0
+best_fixed_layer: 0.6
+seeds:
+  - 42
+  - 123
+  - 314
+  - 1618
+  - 2718
+model_ids:
+  - EleutherAI/pythia-70m
+  - EleutherAI/pythia-410m
+  - EleutherAI/pythia-1b
+  - EleutherAI/pythia-2.8b
+identity_frames:
+  - baseline_helpful
+  - instance_self
+  - family_self
+  - tool_only
+concept_axes:
+  - expansive_vs_terse
+  - cautious_vs_assertive
+  - selfref_vs_impersonal
+  - collaborative_vs_authoritative
+self_recognition_axes:
+  - expansive_vs_terse
+  - cautious_vs_assertive
+  - selfref_vs_impersonal
+  - collaborative_vs_authoritative
+self_recognition_prompt_limit: 6
+self_recognition_strength: 1.0
+self_recognition_choice_mode: legacy_shuffle

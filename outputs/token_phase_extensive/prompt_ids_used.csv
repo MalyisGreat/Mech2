@@ -1,0 +1,41 @@
+prompt_index,prompt,prompt_style
+0,Respond to this situation in your own style: someone asks for your opinion on their portfolio.,ambiguous
+0,Respond to this situation in your own style: a friend apologizes for breaking your trust.,emotional
+0,Respond to this situation in your own style: a customer asks why their payment was declined.,factual
+0,Respond to this situation in your own style: a student asks for the grading rubric deadline.,factual
+1,Respond to this situation in your own style: someone asks if you can help this weekend.,ambiguous
+1,Respond to this situation in your own style: you need to decline an invitation to an event.,ambiguous
+1,Respond to this situation in your own style: a friend says they feel overwhelmed and stuck.,emotional
+1,Respond to this situation in your own style: a junior engineer asks for mentorship on architecture.,technical
+2,Respond to this situation in your own style: a customer writes that your product ruined their day.,emotional
+2,Respond to this situation in your own style: a friend asks for help moving on short notice.,emotional
+2,Respond to this situation in your own style: a teammate asks whether to shard a growing database.,technical
+2,Respond to this situation in your own style: someone asks you to explain a technical concept.,technical
+3,Respond to this situation in your own style: a colleague asks for feedback on a rough draft.,ambiguous
+3,Respond to this situation in your own style: a friend says they feel overwhelmed and stuck.,emotional
+3,Respond to this situation in your own style: a homeowner asks what permits are needed for renovation.,factual
+3,Respond to this situation in your own style: a model deployment shows latency regressions in one region.,technical
+4,Respond to this situation in your own style: a teammate feels ignored after their idea was dismissed.,emotional
+4,Respond to this situation in your own style: a client asks for discount details not listed in policy.,factual
+4,Respond to this situation in your own style: a tenant asks when maintenance will fix a broken heater.,factual
+4,Respond to this situation in your own style: a teammate asks whether to shard a growing database.,technical
+5,Respond to this situation in your own style: a colleague is anxious before a major presentation.,emotional
+5,Respond to this situation in your own style: a customer sends a frustrated complaint email.,emotional
+5,Respond to this situation in your own style: a recruiter asks why you left your last job.,factual
+5,Respond to this situation in your own style: a service needs rate limiting to stop abuse.,technical
+6,Respond to this situation in your own style: a neighbor asks you to lower loud music.,ambiguous
+6,Respond to this situation in your own style: a production job is stuck after a schema migration.,technical
+6,Respond to this situation in your own style: a service needs rate limiting to stop abuse.,technical
+6,Respond to this situation in your own style: an API starts returning intermittent 500 errors.,technical
+7,Respond to this situation in your own style: a neighbor asks you to lower loud music.,ambiguous
+7,Respond to this situation in your own style: a person asks for advice after failing an exam.,emotional
+7,Respond to this situation in your own style: a service needs rate limiting to stop abuse.,technical
+7,Respond to this situation in your own style: a user reports a bug right before launch.,technical
+8,Respond to this situation in your own style: someone posts a harsh comment online about your work.,emotional
+8,Respond to this situation in your own style: a manager asks for a status update with exact blockers.,factual
+8,Respond to this situation in your own style: a recruiter asks why you left your last job.,factual
+8,Respond to this situation in your own style: a teammate asks for code review feedback.,technical
+9,Respond to this situation in your own style: someone asks if you can recommend them publicly.,ambiguous
+9,Respond to this situation in your own style: a customer writes that your product ruined their day.,emotional
+9,Respond to this situation in your own style: a recruiter asks why you left your last job.,factual
+9,Respond to this situation in your own style: a traveler asks whether a flight delay changes connections.,factual
